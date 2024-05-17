@@ -1,9 +1,9 @@
 function AttributionForm() {
-  const team_name = import.meta.env.VITE_TEAM_NAME;
+  const team_id = import.meta.env.VITE_TEAM_ID;
 
   // Listen to size change and update form height
   window.addEventListener("message", function (e) {
-    if (e.origin === "https://attributions.igem.org") {
+    if (e.origin === "https://teams.igem.org") {
       const { type, data } = JSON.parse(e.data);
       if (type === "igem-attribution-form") {
         const element = document.getElementById("igem-attribution-form");
@@ -19,7 +19,7 @@ function AttributionForm() {
       <iframe
         style={{ width: "100%" }}
         id="igem-attribution-form"
-        src={`https://attributions.igem.org?team=${team_name}&year=2024`}
+        src={`https://teams.igem.org/${team_id}/attributions`}
       />
     </>
   );
