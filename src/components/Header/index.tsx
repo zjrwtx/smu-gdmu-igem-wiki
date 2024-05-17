@@ -1,5 +1,4 @@
 import React from "react";
-import { useDocumentTitle } from "../../utils";
 
 interface HeaderProps {
   title: string;
@@ -7,8 +6,6 @@ interface HeaderProps {
 }
 
 const ExampleHeader: React.FC<HeaderProps> = ({ title, lead }) => {
-  useDocumentTitle(title);
-
   return (
     <header className="bg-hero py-5 mb-5">
       <div className="container h-100">
