@@ -1,6 +1,6 @@
 import Inspirations, { InspirationLink } from "../components/Inspirations";
 
-const DescriptionPage = () => {
+const Description = () => {
   const links: InspirationLink[] = [
     { year: 2022, teamName: "DTU-Denmark", pageName: "Description" },
     { year: 2019, teamName: "ITESO_Guadalajara", pageName: "Description" },
@@ -78,4 +78,4 @@ const DescriptionPage = () => {
   );
 };
 
-export default DescriptionPage;
+export default Description;

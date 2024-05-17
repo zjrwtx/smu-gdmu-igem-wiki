@@ -1,6 +1,6 @@
 import Inspirations, { InspirationLink } from "../components/Inspirations";
 
-const ExperimentsPage = () => {
+const Experiments = () => {
   const links: InspirationLink[] = [
     { year: 2019, teamName: "Nantes", pageName: "Experiments" },
     { year: 2019, teamName: "TU_Eindhoven", pageName: "Experiments" },
@@ -33,4 +33,4 @@ const ExperimentsPage = () => {
   );
 };
 
-export default ExperimentsPage;
+export default Experiments;

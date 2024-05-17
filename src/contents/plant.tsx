@@ -1,6 +1,6 @@
 import Inspirations, { InspirationLink } from "../components/Inspirations";
 
-const PlantPage = () => {
+const Plant = () => {
   const links: InspirationLink[] = [
     { year: 2018, teamName: "Cardiff_Wales", pageName: "Plant" },
     { year: 2019, teamName: "Sorbonne_U_Paris", pageName: "Plant" },
@@ -48,4 +48,4 @@ const PlantPage = () => {
   );
 };
 
-export default PlantPage;
+export default Plant;

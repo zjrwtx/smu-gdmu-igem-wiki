@@ -1,6 +1,6 @@
 import Inspirations, { InspirationLink } from "../components/Inspirations";
 
-const HardwarePage = () => {
+const Hardware = () => {
   const links: InspirationLink[] = [
     { year: 2018, teamName: "Valencia_UPV", pageName: "Hardware" },
     { year: 2018, teamName: "Unesp_Brazil", pageName: "Hardware" },
@@ -65,4 +65,4 @@ const HardwarePage = () => {
   );
 };
 
-export default HardwarePage;
+export default Hardware;

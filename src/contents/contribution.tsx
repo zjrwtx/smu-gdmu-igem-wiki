@@ -1,4 +1,4 @@
-const ContributionPage = () => {
+const Contribution = () => {
   return (
     <>
       <div className="row mt-4">
@@ -33,4 +33,4 @@ const ContributionPage = () => {
   );
 };
 
-export default ContributionPage;
+export default Contribution;

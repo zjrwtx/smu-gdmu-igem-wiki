@@ -1,6 +1,6 @@
 import Inspirations, { InspirationLink } from "../components/Inspirations";
 
-const HumanPracticesPage = () => {
+const HumanPractices = () => {
   const links: InspirationLink[] = [
     { year: 2019, teamName: "Thessaly", pageName: "Human_Practices" },
     { year: 2019, teamName: "Linkoping_Sweden", pageName: "Human_Practices" },
@@ -109,4 +109,4 @@ const HumanPracticesPage = () => {
   );
 };
 
-export default HumanPracticesPage;
+export default HumanPractices;

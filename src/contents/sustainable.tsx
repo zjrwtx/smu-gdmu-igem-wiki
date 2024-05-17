@@ -1,6 +1,6 @@
 import Inspirations, { InspirationLink } from "../components/Inspirations";
 
-const SustainablePage = () => {
+const Sustainable = () => {
   const links: InspirationLink[] = [
     { year: 2020, teamName: "Calgary", pageName: "Sustainable" },
     { year: 2020, teamName: "Toulouse_INSA-UPS", pageName: "Sustainable" },
@@ -52,4 +52,4 @@ const SustainablePage = () => {
   );
 };
 
-export default SustainablePage;
+export default Sustainable;

@@ -1,6 +1,6 @@
 import AttributionForm from "../components/AttributionForm";
 
-const AttributionsPage = () => {
+const Attributions = () => {
   return (
     <>
       <div className="row mt-4">
@@ -36,4 +36,4 @@ const AttributionsPage = () => {
   );
 };
 
-export default AttributionsPage;
+export default Attributions;

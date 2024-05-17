@@ -1,4 +1,4 @@
-const SafetyPage = () => {
+const Safety = () => {
   return (
     <>
       <div className="row mt-4">
@@ -91,4 +91,4 @@ const SafetyPage = () => {
   );
 };
 
-export default SafetyPage;
+export default Safety;
