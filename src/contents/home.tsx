@@ -1,4 +1,17 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const HomePage = () => {
+  const links: InspirationLink[] = [
+    { year: 2022, teamName: "DTU-Denmark", pageName: "" },
+    { year: 2022, teamName: "Virginia", pageName: "" },
+    { year: 2022, teamName: "Crete", pageName: "" },
+    { year: 2022, teamName: "Estonia_TUIT", pageName: "" },
+    { year: 2022, teamName: "AshesiGhana", pageName: "" },
+    { year: 2021, teamName: "SDU-Denmark", pageName: "" },
+    { year: 2020, teamName: "XMU-China", pageName: "" },
+    { year: 2020, teamName: "TAS_Taipei", pageName: "" },
+  ];
+
   return (
     <>
       <div className="row">
@@ -87,46 +100,7 @@ const HomePage = () => {
             <li>Have lots of fun!</li>
           </ul>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspiration</h2>
-          <hr />
-          <p>
-            You can also view other team wikis for inspiration! Here are some
-            examples:
-          </p>
-          <ul>
-            <li>
-              <a href="https://2022.igem.wiki/dtu-denmark">2022 DTU-Denmark</a>
-            </li>
-            <li>
-              <a href="https://2022.igem.wiki/virginia">2022 Virginia</a>
-            </li>
-            <li>
-              <a href="https://2022.igem.wiki/crete">2022 Crete</a>
-            </li>
-            <li>
-              <a href="https://2022.igem.wiki/estonia-tuit">
-                2022 Estonia_TUIT
-              </a>
-            </li>
-            <li>
-              <a href="https://2022.igem.wiki/ashesighana">2022 AshesiGhana</a>
-            </li>
-            <li>
-              <a href="https://2021.igem.org/Team:SDU-Denmark">
-                2021 SDU-Denmark
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:XMU-China">2020 XMU China </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:TAS_Taipei">
-                2020 TAS Taipei{" "}
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );

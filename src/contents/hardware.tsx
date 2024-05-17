@@ -1,4 +1,16 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const HardwarePage = () => {
+  const links: InspirationLink[] = [
+    { year: 2018, teamName: "Valencia_UPV", pageName: "Hardware" },
+    { year: 2018, teamName: "Unesp_Brazil", pageName: "Hardware" },
+    { year: 2019, teamName: "BIT", pageName: "Hardware" },
+    { year: 2019, teamName: "Bielefeld-CeBiTec", pageName: "Hardware" },
+    { year: 2019, teamName: "Nanjing-China", pageName: "Hardware" },
+    { year: 2020, teamName: "Vilnius-Lithuania", pageName: "Hardware" },
+    { year: 2020, teamName: "ZJUT_China_B", pageName: "Hardware" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -47,50 +59,7 @@ const HardwarePage = () => {
             exciting opportunities for hardware innovation in synthetic biology.
           </p>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="http://2018.igem.org/Team:Valencia_UPV/Hardware">
-                2018 Valencia UPV
-              </a>
-            </li>
-            <li>
-              <a href="http://2018.igem.org/Team:Unesp_Brazil/Hardware">
-                2018 Unesp Brazil
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:BIT/Hardware">2019 BIT</a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Bielefeld-CeBiTec/Hardware">
-                2019 Bielefeld CeBiTec
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Nanjing-China/Hardware">
-                2019 Nanjing China
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Vilnius-Lithuania/Hardware">
-                2020 Vilnius Lithuania
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Aachen/Hardware">
-                2020 Aachen
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:ZJUT_China_B/Hardware">
-                2020 ZJUT China B
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );

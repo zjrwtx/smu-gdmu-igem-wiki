@@ -1,4 +1,15 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const DescriptionPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2022, teamName: "DTU-Denmark", pageName: "Description" },
+    { year: 2019, teamName: "ITESO_Guadalajara", pageName: "Description" },
+    { year: 2020, teamName: "Technion-Israel", pageName: "Description" },
+    { year: 2020, teamName: "Botchan_Lab_Tokyo", pageName: "Description" },
+    { year: 2020, teamName: "St_Andrews", pageName: "Description" },
+    { year: 2020, teamName: "MIT", pageName: "Description" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -35,40 +46,7 @@ const DescriptionPage = () => {
             </li>
           </ul>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2022.igem.wiki/dtu-denmark/description">
-                2022 DTU-Denmark
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:ITESO_Guadalajara/Description">
-                2019 ITESO Guadalajara
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Technion-Israel/Description">
-                2020 Technion Israel
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Botchan_Lab_Tokyo/Description">
-                2020 Botchan Lab Tokyo
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:St_Andrews/Description">
-                2020 St Andrews
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:MIT/Description">2020 MIT</a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
 
       <div className="row mt-4">

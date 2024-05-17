@@ -1,4 +1,15 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const ResultsPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2019, teamName: "Newcastle", pageName: "Results" },
+    { year: 2019, teamName: "Munich", pageName: "Results" },
+    { year: 2019, teamName: "Tec-Chihuahua", pageName: "Results" },
+    { year: 2020, teamName: "Aalto-Helsinki", pageName: "Results" },
+    { year: 2020, teamName: "GreatBay_SCIE", pageName: "Results" },
+    { year: 2020, teamName: "Queens_Canada", pageName: "Results" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -63,42 +74,7 @@ const ResultsPage = () => {
             </li>
           </ul>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2019.igem.org/Team:Newcastle/Results">
-                2019 Newcastle
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Munich/Results">
-                2019 Munich
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Tec-Chihuahua/Results">
-                2019 Tec Chihuahua
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Aalto-Helsinki/Results">
-                2020 Aalto Helsinki
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:GreatBay_SCIE/Results">
-                2020 GreatBay SCIE
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Queens_Canada/Results">
-                2020 Queens Canada
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );

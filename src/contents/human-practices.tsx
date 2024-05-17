@@ -1,4 +1,16 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const HumanPracticesPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2019, teamName: "Thessaly", pageName: "Human_Practices" },
+    { year: 2019, teamName: "Linkoping_Sweden", pageName: "Human_Practices" },
+    { year: 2019, teamName: "FDR-HB_Peru", pageName: "Human_Practices" },
+    { year: 2020, teamName: "William_and_Mary", pageName: "Human_Practices" },
+    { year: 2020, teamName: "Rochester", pageName: "Human_Practices" },
+    { year: 2020, teamName: "Leiden", pageName: "Human_Practices" },
+    { year: 2020, teamName: "Baltimore_BioCrew", pageName: "Human_Practices" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -91,47 +103,7 @@ const HumanPracticesPage = () => {
             into your project purpose, design and/or execution.
           </p>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2019.igem.org/Team:Thessaly/Human_Practices">
-                2019 Thessaly
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Linkoping_Sweden/Human_Practices">
-                2019 Linkoping Sweden
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:FDR-HB_Peru/Human_Practices">
-                2019 FDR HB Peru
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:William_and_Mary/Human_Practices">
-                2020 William and Mary
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Rochester/Human_Practices">
-                2020 Rochester
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Leiden/Human_Practices">
-                2020 Leiden
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Baltimore_BioCrew/Human_Practices">
-                2020 Baltimore BioCrew
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );

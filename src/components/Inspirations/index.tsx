@@ -1,0 +1,69 @@
+import { stringToSlug } from "../../utils";
+import React from "react";
+
+export interface InspirationLink {
+  year: number;
+  teamName: string;
+  pageName:
+    | string
+    | "Team"
+    | "Attributions"
+    | "Contribution"
+    | "Description"
+    | "Engineering"
+    | "Experiments"
+    | "Notebook"
+    | "Results"
+    | "Safety"
+    | "Human Practices"
+    | "Education"
+    | "Entrepreneurship"
+    | "Hardware"
+    | "Inclusivity"
+    | "Measurement"
+    | "Model"
+    | "Plant"
+    | "Software"
+    | "Sustainable"
+    // non-standard URLs
+    | "Team_Member"
+    | "Members"
+    | "Inclusion";
+}
+
+interface InspirationsProps {
+  inspirationLinkList: InspirationLink[];
+}
+
+const Inspirations: React.FC<InspirationsProps> = ({ inspirationLinkList }) => {
+  return (
+    <>
+      <div className="col-lg-4">
+        <h2>Inspirations</h2>
+        <hr />
+        <ul>
+          {inspirationLinkList.map((inspirationLink) => {
+            const { year, teamName, pageName } = inspirationLink;
+            const teamSlug = stringToSlug(teamName);
+            const pageSlug = pageName ? `/${stringToSlug(pageName)}` : "";
+
+            const href =
+              year < 2022
+                ? `https://${year}.igem.org/Team:${teamName}${pageName ? `/${pageName}` : ""}`
+                : `https://${year}.igem.wiki/${teamSlug}${pageSlug}`;
+
+            return (
+              <li key={`${year}-${teamName}`}>
+                <a href={href} target="_blank">
+                  {year} {teamName}
+                </a>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </>
+  );
+};
+
+export default Inspirations;

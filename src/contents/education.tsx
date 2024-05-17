@@ -1,4 +1,15 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const EducationPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2020, teamName: "CCA_San_Diego", pageName: "Education" },
+    { year: 2020, teamName: "Lambert_GA", pageName: "Education" },
+    { year: 2020, teamName: "Stanford", pageName: "Education" },
+    { year: 2020, teamName: "Waseda", pageName: "Education" },
+    { year: 2020, teamName: "Fudan", pageName: "Education" },
+    { year: 2020, teamName: "Toulouse_INSA-UPS", pageName: "Education" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -32,45 +43,7 @@ const EducationPage = () => {
           </div>
         </div>
       </div>
-
-      <div className="row mt-4">
-        <div className="col">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2020.igem.org/Team:CCA_San_Diego/Education">
-                2020 CCA San Diego
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Lambert_GA/Education">
-                2020 Lambert GA
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Stanford/Education">
-                2020 Stanford
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Waseda/Education">
-                2020 Waseda
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Fudan/Education">
-                2020 Fudan
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Toulouse_INSA-UPS/Education">
-                2020 Toulouse INSA UPS
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <Inspirations inspirationLinkList={links} />
     </>
   );
 };

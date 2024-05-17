@@ -1,4 +1,13 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const SustainablePage = () => {
+  const links: InspirationLink[] = [
+    { year: 2020, teamName: "Calgary", pageName: "Sustainable" },
+    { year: 2020, teamName: "Toulouse_INSA-UPS", pageName: "Sustainable" },
+    { year: 2020, teamName: "TUDelft", pageName: "Sustainable" },
+    { year: 2020, teamName: "Lambert_GA", pageName: "Sustainable" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -38,35 +47,7 @@ const SustainablePage = () => {
           </div>
         </div>
       </div>
-
-      <div className="row mt-4">
-        <div className="col">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2020.igem.org/Team:Calgary/Sustainable">
-                2020 Calgary
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Toulouse_INSA-UPS/Sustainable">
-                2020 Toulouse INSA UPS
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:TUDelft/Sustainable">
-                2020 TUDelft
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Lambert_GA/Sustainable">
-                2020 Lambert GA
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <Inspirations inspirationLinkList={links} />
     </>
   );
 };

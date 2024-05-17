@@ -1,4 +1,15 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const SoftwarePage = () => {
+  const links: InspirationLink[] = [
+    { year: 2019, teamName: "Sydney_Australia", pageName: "Software" },
+    { year: 2019, teamName: "SMMU-China", pageName: "Software" },
+    { year: 2019, teamName: "Grenoble-Alpes", pageName: "Software" },
+    { year: 2020, teamName: "DTU-Denmark", pageName: "Software" },
+    { year: 2020, teamName: "GunnVistaPingry_US", pageName: "Software" },
+    { year: 2020, teamName: "Rochester", pageName: "Software" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -37,45 +48,7 @@ const SoftwarePage = () => {
           </div>
         </div>
       </div>
-
-      <div className="row mt-4">
-        <div className="col">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2019.igem.org/Team:Sydney_Australia/Software">
-                2019 Sydney Australia
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:SMMU-China/Software">
-                2019 SMMU China
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Grenoble-Alpes/Software">
-                2019 Grenoble Alpes
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:DTU-Denmark/Software">
-                2020 DTU Denmark
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:GunnVistaPingry_US/Software">
-                2020 GunnVistaPingry US
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Rochester/Software">
-                2020 Rochester
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <Inspirations inspirationLinkList={links} />
     </>
   );
 };

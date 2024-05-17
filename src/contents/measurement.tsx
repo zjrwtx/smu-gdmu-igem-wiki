@@ -1,4 +1,15 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const MeasurementPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2018, teamName: "UC_Davis", pageName: "Measurement" },
+    { year: 2019, teamName: "Newcastle", pageName: "Measurement" },
+    { year: 2019, teamName: "Evry_Paris-Saclay", pageName: "Measurement" },
+    { year: 2019, teamName: "GENAS_China", pageName: "Measurement" },
+    { year: 2020, teamName: "Calgary", pageName: "Measurement" },
+    { year: 2020, teamName: "CSMU_Taiwan", pageName: "Measurement" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -45,42 +56,7 @@ const MeasurementPage = () => {
             something exciting in the area of Measurement, describe it here!
           </p>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="http://2018.igem.org/Team:UC_Davis/Measurement">
-                2018 UC Davis
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Newcastle/Measurement">
-                2019 Newcastle
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Evry_Paris-Saclay/Measurement">
-                2019 Evry Paris Saclay
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:GENAS_China/Measurement">
-                2019 GENAS China
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Calgary/Measurement">
-                2020 Calgary
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:CSMU_Taiwan/Measurement">
-                2020 CSMU Taiwan
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );

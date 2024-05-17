@@ -1,4 +1,15 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const EntrepreneurshipPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2019, teamName: "UCopenhagen", pageName: "Entrepreneurship" },
+    { year: 2019, teamName: "Thessaly", pageName: "Entrepreneurship" },
+    { year: 2019, teamName: "NCKU_Tainan", pageName: "Entrepreneurship" },
+    { year: 2020, teamName: "TAS_Taipei", pageName: "Entrepreneurship" },
+    { year: 2020, teamName: "KCL_UK", pageName: "Entrepreneurship" },
+    { year: 2020, teamName: "Calgary", pageName: "Entrepreneurship" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -62,42 +73,7 @@ const EntrepreneurshipPage = () => {
             coming to a decision.
           </p>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2019.igem.org/Team:UCopenhagen/Entrepreneurship">
-                2019 UCopenhagen
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Thessaly/Entrepreneurship">
-                2019 Thessaly
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:NCKU_Tainan/Entrepreneurship">
-                2019 NCKU Tainan
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:TAS_Taipei/Entrepreneurship">
-                2020 TAS Taipei
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:KCL_UK/Entrepreneurship">
-                2020 KCL UK
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Calgary/Entrepreneurship">
-                2020 Calgary
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );

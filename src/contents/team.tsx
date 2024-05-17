@@ -1,4 +1,15 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const TeamPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2019, teamName: "CU", pageName: "Team" },
+    { year: 2019, teamName: "UANL", pageName: "Team" },
+    { year: 2019, teamName: "William_and_Mary", pageName: "Team" },
+    { year: 2020, teamName: "BOKU-Vienna", pageName: "Team" },
+    { year: 2020, teamName: "CAU_China", pageName: "Team_Member" },
+    { year: 2020, teamName: "Lethbridge", pageName: "Members" },
+  ];
+
   return (
     <>
       <div className="row">
@@ -63,6 +74,7 @@ const TeamPage = () => {
             </li>
           </ul>
         </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );

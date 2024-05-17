@@ -1,4 +1,15 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const ExperimentsPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2019, teamName: "Nantes", pageName: "Experiments" },
+    { year: 2019, teamName: "TU_Eindhoven", pageName: "Experiments" },
+    { year: 2019, teamName: "Mingdao", pageName: "Demonstrate" },
+    { year: 2020, teamName: "Amsterdam", pageName: "Experiments" },
+    { year: 2020, teamName: "NCTU_Formosa", pageName: "Experiments" },
+    { year: 2020, teamName: "USAFA", pageName: "Experiments" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -16,42 +27,7 @@ const ExperimentsPage = () => {
             the <a href="http://parts.igem.org/Main_Page">Registry</a>.
           </p>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2019.igem.org/Team:Nantes/Experiments">
-                2019 Nantes
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:TU_Eindhoven/Experiments">
-                2019 TU Eindhoven
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Mingdao/Demonstrate">
-                2019 Mingdao
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Amsterdam/Experiments">
-                2020 Amsterdam
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:NCTU_Formosa/Experiments">
-                2020 NCTU Formosa
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:USAFA/Experiments">
-                2020 USAFA
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );

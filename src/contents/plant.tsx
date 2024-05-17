@@ -1,4 +1,14 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const PlantPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2018, teamName: "Cardiff_Wales", pageName: "Plant" },
+    { year: 2019, teamName: "Sorbonne_U_Paris", pageName: "Plant" },
+    { year: 2019, teamName: "TU_Kaiserslautern", pageName: "Plant" },
+    { year: 2019, teamName: "Humboldt_Berlin", pageName: "Plant" },
+    { year: 2020, teamName: "Sorbonne_U_Paris", pageName: "Plant" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -33,40 +43,7 @@ const PlantPage = () => {
           </div>
         </div>
       </div>
-
-      <div className="row mt-4">
-        <div className="col">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="http://2018.igem.org/Team:Cardiff_Wales/Plant">
-                2018 Cardiff Wales
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Sorbonne_U_Paris/Plant">
-                2019 Sorbonne U Paris
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:TU_Kaiserslautern/Plant">
-                2019 TU Kaiserslautern
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Humboldt_Berlin/Plant">
-                2019 Humboldt Berlin
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Sorbonne_U_Paris/Plant">
-                2020 Sorbonne U Paris
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
+      <Inspirations inspirationLinkList={links} />
     </>
   );
 };

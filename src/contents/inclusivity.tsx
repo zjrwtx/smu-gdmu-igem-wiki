@@ -1,4 +1,13 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const InclusivityPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2020, teamName: "Fudan", pageName: "Inclusion" },
+    { year: 2020, teamName: "CCU_Taiwan", pageName: "Inclusion" },
+    { year: 2020, teamName: "Concordia-Montreal", pageName: "Inclusion" },
+    { year: 2020, teamName: "CLS_CLSG_UK", pageName: "Inclusion" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -51,32 +60,7 @@ const InclusivityPage = () => {
             of research.
           </p>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2020.igem.org/Team:Fudan/Inclusion">
-                2020 Fudan
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:CCU_Taiwan/Inclusion">
-                2020 CCU Taiwan
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Concordia-Montreal/Inclusion">
-                2020 Concordia Montreal
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:CLS_CLSG_UK/Inclusione">
-                2020 CLS CLSG UK
-              </a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );

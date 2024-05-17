@@ -1,4 +1,16 @@
+import Inspirations, { InspirationLink } from "../components/Inspirations";
+
 const ModelPage = () => {
+  const links: InspirationLink[] = [
+    { year: 2018, teamName: "GreatBay_China", pageName: "Model" },
+    { year: 2018, teamName: "Leiden", pageName: "Model" },
+    { year: 2019, teamName: "IISER_Kolkata", pageName: "Model" },
+    { year: 2019, teamName: "Exeter", pageName: "Model" },
+    { year: 2019, teamName: "Mingdao", pageName: "Model" },
+    { year: 2020, teamName: "Harvard", pageName: "Model" },
+    { year: 2020, teamName: "Leiden", pageName: "Model" },
+  ];
+
   return (
     <>
       <div className="row mt-4">
@@ -49,41 +61,7 @@ const ModelPage = () => {
             times in a computer before moving to the lab.
           </p>
         </div>
-        <div className="col-lg-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="http://2018.igem.org/Team:GreatBay_China/Model">
-                2018 GreatBay China
-              </a>
-            </li>
-            <li>
-              <a href="http://2018.igem.org/Team:Leiden/Model">2018 Leiden</a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:IISER_Kolkata/Model">
-                2019 IISER Kolkata
-              </a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Exeter/Model">2019 Exeter</a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:Mingdao/Model">
-                2019 Mingdao
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Harvard/Model">
-                2020 Harvard
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Leiden/Model">2020 Leiden</a>
-            </li>
-          </ul>
-        </div>
+        <Inspirations inspirationLinkList={links} />
       </div>
     </>
   );
