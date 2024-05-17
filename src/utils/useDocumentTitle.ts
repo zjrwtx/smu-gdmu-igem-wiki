@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 
-function useDocumentTitle(title: string) {
+function useDocumentTitle(title: any) {
   useEffect(() => {
-    document.title = `${title} | ${import.meta.env.VITE_TEAM_NAME} - iGEM ${import.meta.env.VITE_TEAM_YEAR}`;
+    document.title = `${title || ""} | ${import.meta.env.VITE_TEAM_NAME} - iGEM ${import.meta.env.VITE_TEAM_YEAR}`;
   }, [title]);
 }
 

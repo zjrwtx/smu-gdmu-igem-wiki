@@ -1,17 +1,17 @@
 interface Base {
-  name: string;
+  name: string | undefined;
 }
 
 class Folder implements Base {
-  name!: string;
-  folder!: Page[];
+  name: string | undefined;
+  folder: Page[] | undefined;
 }
 
 class Page implements Base {
-  name!: string;
-  title!: string;
-  path!: string;
-  lead?: string;
+  name: string | undefined;
+  title: string | undefined;
+  path: string | undefined;
+  lead: string | undefined;
 }
 
 const Pages: (Page | Folder)[] = [

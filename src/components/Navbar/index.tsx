@@ -11,11 +11,13 @@ function ExampleNavbar() {
     if ("folder" in page && page.folder) {
       const folder = [];
       for (const subpage of page.folder) {
-        folder.push(
-          <NavDropdown.Item as={Link} to={subpage.path} target="_blank">
-            {subpage.name}
-          </NavDropdown.Item>,
-        );
+        if ("path" in subpage && subpage.path) {
+          folder.push(
+            <NavDropdown.Item as={Link} to={subpage.path} target="_blank">
+              {subpage.name}
+            </NavDropdown.Item>,
+          );
+        }
       }
       pages.push(
         <NavDropdown title={page.name} id="basic-nav-dropdown">

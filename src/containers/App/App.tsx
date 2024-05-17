@@ -52,7 +52,7 @@ const App = () => {
             <Route
               key={path}
               path={path}
-              element={<Header title={title} lead={lead} />}
+              element={<Header title={title || ""} lead={lead || ""} />}
             />
           );
         })}
