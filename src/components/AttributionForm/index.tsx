@@ -1,5 +1,5 @@
 function AttributionForm() {
-  const team_id = import.meta.env.VITE_TEAM_ID;
+  const teamID = import.meta.env.VITE_TEAM_ID;
 
   // Listen to size change and update form height
   window.addEventListener("message", function (e) {
@@ -19,7 +19,7 @@ function AttributionForm() {
       <iframe
         style={{ width: "100%" }}
         id="igem-attribution-form"
-        src={`https://teams.igem.org/${team_id}/attributions`}
+        src={`https://teams.igem.org/${teamID}/attributions`}
       />
     </>
   );
