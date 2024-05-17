@@ -46,7 +46,7 @@ const App = () => {
               <>
                 <Header
                   title="Not Found"
-                  lead="The page you are looking for does not exist."
+                  lead="The requested URL was not found on this server."
                 />
                 <NotFound />
               </>

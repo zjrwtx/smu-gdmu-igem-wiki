@@ -1,6 +1,6 @@
 import { stringToSlug } from "../../utils";
 
-function ExampleFooter() {
+function WikiFooter() {
   const teamYear = import.meta.env.VITE_TEAM_YEAR;
   const teamName = import.meta.env.VITE_TEAM_NAME;
   const teamSlug = stringToSlug(teamName);
@@ -79,4 +79,4 @@ function ExampleFooter() {
   );
 }
 
-export default ExampleFooter;
+export default WikiFooter;

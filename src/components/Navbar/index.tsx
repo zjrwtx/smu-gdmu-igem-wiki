@@ -5,33 +5,39 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import Pages from "../../pages.ts";
 
-function ExampleNavbar() {
-  const pages = [];
-  for (const page of Pages) {
-    if ("folder" in page && page.folder) {
-      const folder = [];
-      for (const subpage of page.folder) {
-        if ("path" in subpage && subpage.path) {
-          folder.push(
-            <NavDropdown.Item as={Link} to={subpage.path} target="_blank">
+function WikiNavbar() {
+  const pages = Pages.map((item, pageIndex) => {
+    if ("folder" in item && item.folder) {
+      const folderItems = item.folder.map((subpage, subpageIndex) => {
+        if (subpage.path) {
+          return (
+            <NavDropdown.Item
+              key={`subpage-${pageIndex}-${subpageIndex}`}
+              as={Link}
+              to={subpage.path}
+            >
               {subpage.name}
-            </NavDropdown.Item>,
+            </NavDropdown.Item>
           );
         }
-      }
-      pages.push(
-        <NavDropdown title={page.name} id="basic-nav-dropdown">
-          {folder}
-        </NavDropdown>,
+      });
+      return (
+        <NavDropdown
+          key={`page-${pageIndex}`}
+          title={item.name}
+          id="basic-nav-dropdown"
+        >
+          {folderItems}
+        </NavDropdown>
       );
-    } else if ("path" in page && page.path) {
-      pages.push(
-        <Nav.Link as={Link} to={page.path} target="_blank">
-          {page.name}
-        </Nav.Link>,
+    } else if ("path" in item && item.path) {
+      return (
+        <Nav.Link key={`page-${pageIndex}`} as={Link} to={item.path}>
+          {item.name}
+        </Nav.Link>
       );
     }
-  }
+  });
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary" fixed="top">
@@ -46,4 +52,4 @@ function ExampleNavbar() {
   );
 }
 
-export default ExampleNavbar;
+export default WikiNavbar;
