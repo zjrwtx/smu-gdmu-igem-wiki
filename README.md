@@ -48,7 +48,6 @@ Below is the structure of important files and directories in this project:
     ├── index.html           -> Single HTML file for the wiki
     ├── package.json         -> Manages project metadata and dependencies
     ├── src/
-    │   ├── assets/          -> Small static files like icons
     │   ├── components/      -> Pre-built components(like Navbar, Footer, etc.)
     │   ├── containers/
     │   │   └── App/         -> Main React application container
