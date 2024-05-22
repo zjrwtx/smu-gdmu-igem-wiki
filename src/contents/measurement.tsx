@@ -1,6 +1,6 @@
-import Inspirations, { InspirationLink } from "../components/Inspirations";
+import { Inspirations, InspirationLink } from "../components";
 
-const Measurement = () => {
+export function Measurement () {
   const links: InspirationLink[] = [
     { year: 2018, teamName: "UC_Davis", pageName: "Measurement" },
     { year: 2019, teamName: "Newcastle", pageName: "Measurement" },
@@ -61,5 +61,3 @@ const Measurement = () => {
     </>
   );
 };
-
-export default Measurement;

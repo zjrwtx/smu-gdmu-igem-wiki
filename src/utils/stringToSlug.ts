@@ -1,4 +1,4 @@
-export default function stringToSlug(string: string): string {
+export function stringToSlug(string: string): string {
   let slug = String(string).toLowerCase();
   slug = slug.replace(/[^a-z0-9-]/g, "-");
   slug = slug.replace(/-+/g, "-");

@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
 import { Footer, Header, Navbar, NotFound } from "../../components";
-import { getPathMapping, stringToSlug, useDocumentTitle } from "../../utils";
+import { getPathMapping, stringToSlug } from "../../utils";
 
 const App = () => {
   const pathMapping = getPathMapping();
@@ -14,10 +14,12 @@ const App = () => {
   // Set Page Title
   const title =
     currentPath in pathMapping ? pathMapping[currentPath].title : "Not Found";
-  useDocumentTitle(title);
+  
+    useEffect(() => {
+      document.title = `${title || ""} | ${import.meta.env.VITE_TEAM_NAME} - iGEM ${import.meta.env.VITE_TEAM_YEAR}`;
+    }, [title]);
 
   return (
-    <>
       <>
         {/* Navigation */}
         <Navbar />
@@ -58,7 +60,6 @@ const App = () => {
         {/* MUST mention license AND have a link to team wiki's repository on gitlab.igem.org */}
         <Footer />
       </>
-    </>
   );
 };
 

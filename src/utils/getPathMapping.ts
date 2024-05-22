@@ -1,6 +1,6 @@
 import pages from "../pages.ts";
 
-const getPathMapping = () => {
+export const getPathMapping = () => {
   return pages.reduce<{
     [key: string]: {
       name: string | undefined;
@@ -31,5 +31,3 @@ const getPathMapping = () => {
     return map;
   }, {});
 };
-
-export default getPathMapping;

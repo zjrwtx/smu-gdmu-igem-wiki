@@ -1,4 +1,4 @@
-const Contribution = () => {
+export function Contribution () {
   return (
     <>
       <div className="row mt-4">
@@ -32,5 +32,3 @@ const Contribution = () => {
     </>
   );
 };
-
-export default Contribution;

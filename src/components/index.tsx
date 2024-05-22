@@ -1,4 +1,5 @@
-export { default as Navbar } from "./Navbar";
-export { default as Header } from "./Header";
-export { default as Footer } from "./Footer";
-export { default as NotFound } from "./NotFound";
+export * from "./Navbar";
+export * from "./Header";
+export * from "./Footer";
+export * from "./NotFound";
+export * from "./Inspirations";

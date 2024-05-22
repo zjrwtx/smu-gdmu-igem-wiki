@@ -1,4 +1,4 @@
-const Engineering = () => {
+export function Engineering () {
   return (
     <>
       <div className="row mt-4">
@@ -32,5 +32,3 @@ const Engineering = () => {
     </>
   );
 };
-
-export default Engineering;

@@ -1,6 +1,26 @@
-import AttributionForm from "../components/AttributionForm";
+import {useEffect} from 'react';
 
 const Attributions = () => {
+  const teamID = import.meta.env.VITE_TEAM_ID;
+
+  useEffect(() => {
+    function listenToIframeHeight(e) {
+      if (e.origin === "https://teams.igem.org") {
+        const { type, data } = JSON.parse(e.data);
+        if (type === "igem-attribution-form") {
+          const element = document.getElementById("igem-attribution-form");
+          if (element) {
+            element.style.height = `${data + 50}px`;
+          }
+        }
+      }
+    }
+    window.addEventListener("message", listenToIframeHeight);
+    return () => {
+      window.removeEventListener("message", listenToIframeHeight)
+    }
+  }, [])
+
   return (
     <>
       <div className="row mt-4">
@@ -31,7 +51,11 @@ const Attributions = () => {
           </div>
         </div>
       </div>
-      <AttributionForm />
+      <iframe
+        style={{ width: "100%" }}
+        id="igem-attribution-form"
+        src={`https://teams.igem.org/${teamID}/attributions`}
+      />
     </>
   );
 };

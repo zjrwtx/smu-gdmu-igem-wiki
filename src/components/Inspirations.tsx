@@ -11,7 +11,7 @@ interface InspirationsProps {
   inspirationLinkList: InspirationLink[];
 }
 
-const Inspirations: React.FC<InspirationsProps> = ({ inspirationLinkList }) => {
+export function Inspirations ({ inspirationLinkList }: InspirationsProps) {
   return (
     <>
       <div className="col-lg-4">
@@ -42,4 +42,3 @@ const Inspirations: React.FC<InspirationsProps> = ({ inspirationLinkList }) => {
   );
 };
 
-export default Inspirations;

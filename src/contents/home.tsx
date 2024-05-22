@@ -1,6 +1,6 @@
-import Inspirations, { InspirationLink } from "../components/Inspirations";
+import { Inspirations, InspirationLink } from "../components";
 
-const Home = () => {
+export function Home () {
   const links: InspirationLink[] = [
     { year: 2022, teamName: "DTU-Denmark", pageName: "" },
     { year: 2022, teamName: "Virginia", pageName: "" },
@@ -105,5 +105,3 @@ const Home = () => {
     </>
   );
 };
-
-export default Home;

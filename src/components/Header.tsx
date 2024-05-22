@@ -5,7 +5,7 @@ interface HeaderProps {
   lead: string;
 }
 
-const WikiHeader: React.FC<HeaderProps> = ({ title, lead }) => {
+export function Header({ title, lead }: HeaderProps) {
   return (
     <header className="bg-hero py-5 mb-5">
       <div className="container h-100">
@@ -19,5 +19,3 @@ const WikiHeader: React.FC<HeaderProps> = ({ title, lead }) => {
     </header>
   );
 };
-
-export default WikiHeader;

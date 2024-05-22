@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import Pages from "../../pages.ts";
 
-function WikiNavbar() {
+export function Navbar() {
   const pages = Pages.map((item, pageIndex) => {
     if ("folder" in item && item.folder) {
       const folderItems = item.folder.map((subpage, subpageIndex) => {
@@ -51,5 +51,3 @@ function WikiNavbar() {
     </Navbar>
   );
 }
-
-export default WikiNavbar;

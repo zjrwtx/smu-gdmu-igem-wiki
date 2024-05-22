@@ -1,6 +1,6 @@
-import Inspirations, { InspirationLink } from "../components/Inspirations";
+import { Inspirations, InspirationLink } from "../components";
 
-const Inclusivity = () => {
+export function Inclusivity () {
   const links: InspirationLink[] = [
     { year: 2020, teamName: "Fudan", pageName: "Inclusion" },
     { year: 2020, teamName: "CCU_Taiwan", pageName: "Inclusion" },
@@ -65,5 +65,3 @@ const Inclusivity = () => {
     </>
   );
 };
-
-export default Inclusivity;
