@@ -54,7 +54,7 @@ export function Attributions () {
       <iframe
         style={{ width: "100%" }}
         id="igem-attribution-form"
-        src={`https://teams.igem.org/${teamID}/attributions`}
+        src={`https://teams.igem.org/wiki/${teamID}/attributions`}
       />
     </>
   );
