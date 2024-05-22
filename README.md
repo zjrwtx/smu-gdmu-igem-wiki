@@ -19,7 +19,7 @@ for web development.
 
 1. Clone the repository:
    ```bash
-   git clone https://gitlab.igem.org/lty2002/wiki-react-vite
+   git clone https://gitlab.igem.org/templates/wiki-react-vite
    cd wiki-react-vite
    ```
 2. Install the dependencies:
