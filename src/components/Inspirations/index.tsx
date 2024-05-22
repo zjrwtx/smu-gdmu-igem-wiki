@@ -4,31 +4,7 @@ import React from "react";
 export interface InspirationLink {
   year: number;
   teamName: string;
-  pageName:
-    | string
-    | "Team"
-    | "Attributions"
-    | "Contribution"
-    | "Description"
-    | "Engineering"
-    | "Experiments"
-    | "Notebook"
-    | "Results"
-    | "Safety"
-    | "Human Practices"
-    | "Education"
-    | "Entrepreneurship"
-    | "Hardware"
-    | "Inclusivity"
-    | "Measurement"
-    | "Model"
-    | "Plant"
-    | "Software"
-    | "Sustainable"
-    // non-standard URLs
-    | "Team_Member"
-    | "Members"
-    | "Inclusion";
+  pageName: string;
 }
 
 interface InspirationsProps {
