@@ -2,15 +2,16 @@ image: node:18.20.0
 pages:
   stage: deploy
   cache:
-    key:
-      files:
-        - yarn.lock
-      prefix: yarn
-    paths:
-      - node_modules/
-      - .yarn/cache/
+    - key:
+        files:
+          - yarn.lock
+      paths:
+        - .yarn-cache/
+  before_script:
+    - echo 'yarn-offline-mirror ".yarn-cache/"' >> .yarnrc
+    - echo 'yarn-offline-mirror-pruning true' >> .yarnrc
+    - yarn install --frozen-lockfile
   script:
-    - yarn
     - yarn build
     - cp -a dist/. public/
     - echo '/* /index.html 200' > public/_redirects
