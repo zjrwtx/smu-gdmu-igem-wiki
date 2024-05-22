@@ -46,4 +46,4 @@ export function Plant () {
       <Inspirations inspirationLinkList={links} />
     </>
   );
-};
+}

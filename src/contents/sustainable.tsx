@@ -50,4 +50,4 @@ export function Sustainable () {
       <Inspirations inspirationLinkList={links} />
     </>
   );
-};
+}

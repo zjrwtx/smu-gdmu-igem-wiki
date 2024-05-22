@@ -1,4 +1,4 @@
-import { stringToSlug } from "../../utils";
+import {stringToSlug} from "../utils";
 
 export function Footer() {
   const teamYear = import.meta.env.VITE_TEAM_YEAR;

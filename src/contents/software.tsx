@@ -51,4 +51,4 @@ export function Software () {
       <Inspirations inspirationLinkList={links} />
     </>
   );
-};
+}

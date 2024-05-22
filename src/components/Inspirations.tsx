@@ -1,5 +1,4 @@
-import { stringToSlug } from "../../utils";
-import React from "react";
+import {stringToSlug} from "../utils";
 
 export interface InspirationLink {
   year: number;

@@ -1,9 +1,9 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import BootstrapNavbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
-import Pages from "../../pages.ts";
+import Pages from "../pages.ts";
 
 export function Navbar() {
   const pages = Pages.map((item, pageIndex) => {
@@ -40,14 +40,14 @@ export function Navbar() {
   });
 
   return (
-    <Navbar expand="lg" className="bg-body-tertiary" fixed="top">
+    <BootstrapNavbar expand="lg" className="bg-body-tertiary" fixed="top">
       <Container>
-        <Navbar.Brand>{import.meta.env.VITE_TEAM_NAME}</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <BootstrapNavbar.Brand>{import.meta.env.VITE_TEAM_NAME}</BootstrapNavbar.Brand>
+        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
+        <BootstrapNavbar.Collapse id="basic-navbar-nav">
           <Nav className="left-aligned">{pages}</Nav>
-        </Navbar.Collapse>
+        </BootstrapNavbar.Collapse>
       </Container>
-    </Navbar>
+    </BootstrapNavbar>
   );
 }

@@ -24,8 +24,12 @@ for web development.
    ```
 2. Install the dependencies:
    ```bash
-   yarn install
+   yarn install 
    ```
+   ### Important:
+   Your Node version must be >=20.0.0. You can check your Node version by running `node -v` in your terminal.
+
+
 3. Start the development server:
    ```bash
    yarn run dev

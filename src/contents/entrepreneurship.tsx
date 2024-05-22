@@ -77,5 +77,5 @@ export function Entrepreneurship () {
       </div>
     </>
   );
-};
+}
 

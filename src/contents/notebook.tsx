@@ -28,4 +28,4 @@ export function Notebook () {
       </div>
     </>
   );
-};
+}

@@ -1,5 +1,3 @@
-import React from "react";
-
 interface HeaderProps {
   title: string;
   lead: string;
@@ -18,4 +16,4 @@ export function Header({ title, lead }: HeaderProps) {
       </div>
     </header>
   );
-};
+}

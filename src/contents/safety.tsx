@@ -89,4 +89,4 @@ export function Safety () {
       </div>
     </>
   );
-};
+}

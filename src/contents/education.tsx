@@ -46,4 +46,4 @@ export function Education () {
       <Inspirations inspirationLinkList={links} />
     </>
   );
-};
+}

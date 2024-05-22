@@ -31,4 +31,4 @@ export function Experiments () {
       </div>
     </>
   );
-};
+}

@@ -78,4 +78,4 @@ export function Team () {
       </div>
     </>
   );
-};
+}

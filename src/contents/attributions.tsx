@@ -1,10 +1,10 @@
 import {useEffect} from 'react';
 
-const Attributions = () => {
+export function Attributions () {
   const teamID = import.meta.env.VITE_TEAM_ID;
 
   useEffect(() => {
-    function listenToIframeHeight(e) {
+    function listenToIframeHeight(e: MessageEvent) {
       if (e.origin === "https://teams.igem.org") {
         const { type, data } = JSON.parse(e.data);
         if (type === "igem-attribution-form") {
@@ -58,6 +58,4 @@ const Attributions = () => {
       />
     </>
   );
-};
-
-export default Attributions;
+}

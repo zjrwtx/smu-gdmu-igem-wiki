@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Route, Routes } from "react-router-dom";
 import { Footer, Header, Navbar, NotFound } from "../../components";
 import { getPathMapping, stringToSlug } from "../../utils";
+import {useEffect} from "react";
 
 const App = () => {
   const pathMapping = getPathMapping();
