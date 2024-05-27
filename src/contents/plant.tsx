@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Plant () {
+export function Plant() {
   const links: InspirationLink[] = [
     { year: 2018, teamName: "Cardiff_Wales", pageName: "Plant" },
     { year: 2019, teamName: "Sorbonne_U_Paris", pageName: "Plant" },
@@ -20,17 +20,16 @@ export function Plant () {
               synthetic biology. Did you build a project in a plant chassis? Did
               you submit plant parts to the Registry? This award could also be
               given to a team working with algae or another photosynthetic
-              chassis. Show us what you made and remember to adhere to iGEM
-              safety guidelines!
+              eukaryotic chassis. Show us what you made and remember to adhere
+              to iGEM safety guidelines!
             </p>
             <p>
-              To compete for the Best Plant Synthetic Biology prize, please
-              describe your work on this page and also fill out the description
-              on the{" "}
+              To compete for the Best Plant Synthetic Biology prize, select the
+              prize on the{" "}
               <a href="https://competition.igem.org/deliverables/judging-form">
                 judging form
-              </a>
-              .
+              </a>{" "}
+              and describe your work on this page.
             </p>
             <hr />
             <p>

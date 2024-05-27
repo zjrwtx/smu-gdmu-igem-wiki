@@ -1,4 +1,4 @@
-export function Engineering () {
+export function Engineering() {
   return (
     <>
       <div className="row mt-4">

@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Entrepreneurship () {
+export function Entrepreneurship() {
   const links: InspirationLink[] = [
     { year: 2019, teamName: "UCopenhagen", pageName: "Entrepreneurship" },
     { year: 2019, teamName: "Thessaly", pageName: "Entrepreneurship" },
@@ -29,13 +29,12 @@ export function Entrepreneurship () {
               judges!
             </p>
             <p>
-              To compete for the Best Supporting Entrepreneurship prize, please
-              describe your work on this page and also fill out the description
-              on the{" "}
+              To compete for the Best Supporting Entrepreneurship prize, select
+              the prize on the{" "}
               <a href="https://competition.igem.org/deliverables/judging-form">
                 judging form
-              </a>
-              .
+              </a>{" "}
+              and describe your work on this page.
             </p>
             <hr />
             <p>
@@ -78,4 +77,3 @@ export function Entrepreneurship () {
     </>
   );
 }
-

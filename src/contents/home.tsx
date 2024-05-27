@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Home () {
+export function Home() {
   const links: InspirationLink[] = [
     { year: 2022, teamName: "DTU-Denmark", pageName: "" },
     { year: 2022, teamName: "Virginia", pageName: "" },
@@ -50,14 +50,14 @@ export function Home () {
           </p>
           <p>
             Be cautious with the size of the assets like images, videos, and
-            more into your wiki. Large file sizes can hinder the presentation of
-            wikis due to slow internet connections. Remember to compress large
-            files before uploading them to iGEM servers.
+            more, that you put in your wiki. Large file sizes can hinder the
+            presentation of wikis due to slow internet connections. Remember to
+            compress large files before uploading them to iGEM servers.
           </p>
           <p>
             This default wiki meets the requirements, enhances navigability, and
             provides a user-friendly experience for visitors. You should not
-            feel obliged to go beyond the provided styling.
+            feel obligated to go beyond the provided styling.
           </p>
         </div>
       </div>

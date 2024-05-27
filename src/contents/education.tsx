@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Education () {
+export function Education() {
   const links: InspirationLink[] = [
     { year: 2020, teamName: "CCA_San_Diego", pageName: "Education" },
     { year: 2020, teamName: "Lambert_GA", pageName: "Education" },
@@ -25,12 +25,11 @@ export function Education () {
               was learned by everyone involved to compete for this award.
             </p>
             <p>
-              To compete for the Best Education prize, please describe your work
-              on this page and also fill out the description on the{" "}
+              To compete for the Best Education prize, select the prize on the{" "}
               <a href="https://competition.igem.org/deliverables/judging-form">
                 judging form
-              </a>
-              .
+              </a>{" "}
+              and describe your work on this page.
             </p>
             <hr />
             <p>

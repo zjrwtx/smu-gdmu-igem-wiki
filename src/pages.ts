@@ -87,7 +87,7 @@ const Pages: (Page | Folder)[] = [
         title: "Engineering Success",
         path: "/engineering",
         component: Engineering,
-        lead: "Demonstrate engineering success in a part of your project by going through at least one iteration of the engineering design cycle.",
+        lead: "Demonstrate engineering success in a technical aspect of your project by going through at least one iteration of the engineering design cycle. This achievement should be distinct from your Contribution for Bronze.",
       },
       {
         name: "Experiments",

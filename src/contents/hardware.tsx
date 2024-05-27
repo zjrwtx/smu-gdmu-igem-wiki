@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Hardware () {
+export function Hardware() {
   const links: InspirationLink[] = [
     { year: 2018, teamName: "Valencia_UPV", pageName: "Hardware" },
     { year: 2018, teamName: "Unesp_Brazil", pageName: "Hardware" },
@@ -27,12 +27,11 @@ export function Hardware () {
               what your team did for this award!
             </p>
             <p>
-              To compete for the Best Hardware prize, please describe your work
-              on this page and also fill out the description on the{" "}
+              To compete for the Best Hardware prize, select the prize on the{" "}
               <a href="https://competition.igem.org/deliverables/judging-form">
                 judging form
-              </a>
-              .
+              </a>{" "}
+              and describe your work on this page.
             </p>
             <hr />
             <p>

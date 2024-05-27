@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Sustainable () {
+export function Sustainable() {
   const links: InspirationLink[] = [
     { year: 2020, teamName: "Calgary", pageName: "Sustainable" },
     { year: 2020, teamName: "Toulouse_INSA-UPS", pageName: "Sustainable" },
@@ -28,13 +28,12 @@ export function Sustainable () {
               against the SDGs and build upon them.
             </p>
             <p>
-              To compete for the Best Sustainable Development prize, please
-              describe your work on this page and also fill out the description
-              on the{" "}
+              To compete for the Best Sustainable Development prize, select the
+              prize on the{" "}
               <a href="https://competition.igem.org/deliverables/judging-form">
                 judging form
-              </a>
-              .
+              </a>{" "}
+              and describe your work on this page.
             </p>
             <hr />
             <p>

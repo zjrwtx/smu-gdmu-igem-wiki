@@ -23,10 +23,13 @@ for web development.
    cd wiki-react-vite
    ```
 2. Install the dependencies:
+
    ```bash
    yarn install
    ```
+
    ### Important:
+
    Ensure you are using Node.js version `^18.18.0 or >=20.0.0` to mostly avoid compatibility issues. Node `v18.20.0` is
    recommended for this project. You can check your Node version by running `node -v` in your terminal.
 
@@ -35,10 +38,10 @@ for web development.
    yarn run dev
    ```
 4. Navigate to the files you wish to edit:
-    - The main App component can be found under `src/containers/App`
-    - Pre-built components are located under `src/components`
-    - Individual pages can be modified in the `src/pages.ts`
-    - Content pages can be updated in the `src/contents`
+   - The main App component can be found under `src/containers/App`
+   - Pre-built components are located under `src/components`
+   - Individual pages can be modified in the `src/pages.ts`
+   - Content pages can be updated in the `src/contents`
 5. Once you are done, save the changes by **committing** them to the _main branch_ of the repository
 6. An automated script will build, test and deploy your wiki to the iGEM server
 
@@ -75,4 +78,3 @@ Below is the structure of important files and directories in this project:
 - [React Bootstrap](https://react-bootstrap.github.io): Bootstrap components built with React
 - [React Router](https://reactrouter.com): Declarative routing for React applications
 - (Optional) [Prettier](https://prettier.io): Code formatter
-

@@ -1,4 +1,4 @@
-export function Safety () {
+export function Safety() {
   return (
     <>
       <div className="row mt-4">

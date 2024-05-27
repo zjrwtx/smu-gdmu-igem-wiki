@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Results () {
+export function Results() {
   const links: InspirationLink[] = [
     { year: 2019, teamName: "Newcastle", pageName: "Results" },
     { year: 2019, teamName: "Munich", pageName: "Results" },
@@ -68,9 +68,11 @@ export function Results () {
             </li>
             <li>
               A list of linked bullet points of the unsuccessful results during
-              your project. This is about being scientifically honest. If you
-              worked on an area for a long time with no success, tell us so we
-              know where you put your effort.
+              your project and what you learned from them. This is about being
+              scientifically honest. If you worked on an area for a long time
+              with no success, tell us so we know where you put your effort.
+              Furthermore, you can still impress the judges by thoughtfully
+              discussing what went wrong and how you might change things.
             </li>
           </ul>
         </div>

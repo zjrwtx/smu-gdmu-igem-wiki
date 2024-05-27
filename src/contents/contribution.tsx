@@ -1,4 +1,4 @@
-export function Contribution () {
+export function Contribution() {
   return (
     <>
       <div className="row mt-4">

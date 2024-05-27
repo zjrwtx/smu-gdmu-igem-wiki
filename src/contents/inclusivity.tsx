@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Inclusivity () {
+export function Inclusivity() {
   const links: InspirationLink[] = [
     { year: 2020, teamName: "Fudan", pageName: "Inclusion" },
     { year: 2020, teamName: "CCU_Taiwan", pageName: "Inclusion" },
@@ -26,12 +26,11 @@ export function Inclusivity () {
               improved inclusivity, and what was learned.
             </p>
             <p>
-              To compete for the Inclusivity award, please describe your work on
-              this page and also fill out the description on the{" "}
+              To compete for the Inclusivity award, select the prize on the{" "}
               <a href="https://competition.igem.org/deliverables/judging-form">
                 judging form
-              </a>
-              .
+              </a>{" "}
+              and describe your work on this page.
             </p>
             <hr />
             <p>

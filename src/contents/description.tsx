@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Description () {
+export function Description() {
   const links: InspirationLink[] = [
     { year: 2022, teamName: "DTU-Denmark", pageName: "Description" },
     { year: 2019, teamName: "ITESO_Guadalajara", pageName: "Description" },

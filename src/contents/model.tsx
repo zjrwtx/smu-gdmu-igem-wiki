@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Model () {
+export function Model() {
   const links: InspirationLink[] = [
     { year: 2018, teamName: "GreatBay_China", pageName: "Model" },
     { year: 2018, teamName: "Leiden", pageName: "Model" },
@@ -18,23 +18,22 @@ export function Model () {
           <div className="bd-callout bd-callout-info">
             <h4>Best Model</h4>
             <p>
-              Models and computer simulations provide a great way to describe
-              the functioning and operation of BioBrick Parts and Devices.
-              Synthetic biology is an engineering discipline and part of
-              engineering is simulation and modeling to determine system
-              behavior before building your design. Designing and simulating can
-              be iterated many times in a computer before moving to the lab.
-              This award is for teams who build a model of their system and use
-              it to inform system design or simulate expected behavior before or
-              in conjunction with experiments in the wetlab.
+              Models and computer simulations can help us understand the
+              function and operation of BioBrick Parts and Devices. Simulation
+              and modeling are critical engineering skills that can contribute
+              to project design or provide a better understanding of the modeled
+              process. These processes are even more useful and/or informative
+              when real world data are included in the model. This award is for
+              teams who build a model of their system and use it to inform
+              system design or simulate expected behavior before, or in
+              conjunction with, experiments in the wetlab.
             </p>
             <p>
-              To compete for the Best Model prize, please describe your work on
-              this page and also fill out the description on the{" "}
+              To compete for the Best Model prize, select the prize on the{" "}
               <a href="https://competition.igem.org/deliverables/judging-form">
                 judging form
-              </a>
-              .
+              </a>{" "}
+              and describe your work on this page.
             </p>
             <hr />
             <p>

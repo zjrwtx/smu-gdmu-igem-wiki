@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function HumanPractices () {
+export function HumanPractices() {
   const links: InspirationLink[] = [
     { year: 2019, teamName: "Thessaly", pageName: "Human_Practices" },
     { year: 2019, teamName: "Linkoping_Sweden", pageName: "Human_Practices" },
@@ -34,15 +34,6 @@ export function HumanPractices () {
           <div className="bd-callout bd-callout-info">
             <h4>Best Integrated Human Practices</h4>
             <p>
-              To compete for the Best Integrated Human Practices prize, please
-              describe your work on this page and also fill out the description
-              on the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>
-              .
-            </p>
-            <p>
               How does your project affect society and how does society
               influence the direction of your project? How might ethical
               considerations and stakeholder input guide your project purpose
@@ -51,6 +42,14 @@ export function HumanPractices () {
               iGEM competition? Document a thoughtful and creative approach to
               exploring these questions and how your project evolved in the
               process to compete for this award!
+            </p>
+            <p>
+              To compete for the Best Integrated Human Practices prize, select
+              the prize on the{" "}
+              <a href="https://competition.igem.org/deliverables/judging-form">
+                judging form
+              </a>{" "}
+              and describe your work on this page.
             </p>
             <hr />
             <p>

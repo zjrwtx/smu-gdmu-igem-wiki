@@ -1,6 +1,6 @@
 import { Inspirations, InspirationLink } from "../components";
 
-export function Measurement () {
+export function Measurement() {
   const links: InspirationLink[] = [
     { year: 2018, teamName: "UC_Davis", pageName: "Measurement" },
     { year: 2019, teamName: "Newcastle", pageName: "Measurement" },
@@ -17,19 +17,21 @@ export function Measurement () {
           <div className="bd-callout bd-callout-info">
             <h4>Best Measurement</h4>
             <p>
-              There are a lot of exciting Parts in the Registry, but many Parts
-              have still not been characterized. Designing great measurement
-              approaches for characterizing new parts, or developing and
-              implementing an efficient new method for characterizing thousands
-              of parts are good examples.
+              Measurements are critical to scientific communication and
+              advancement. Well-reported measurements are the only way to show
+              whether hardware is functioning correctly, whether data are
+              reliable, and whether a result is actually important. There is a
+              high value in identifying appropriate targets for measurement,
+              collecting precise measurements, and reporting results clearly and
+              with appropriate units. Document your careful measurement efforts
+              and you could win this award!
             </p>
             <p>
-              To compete for the Best Measurement prize, please describe your
-              work on this page and also fill out the description on the{" "}
+              To compete for the Best Measurement prize, select the prize on the{" "}
               <a href="https://competition.igem.org/deliverables/judging-form">
                 judging form
-              </a>
-              .
+              </a>{" "}
+              and describe your work on this page.
             </p>
             <hr />
             <p>
