@@ -37,7 +37,7 @@ export function Results() {
               <b>
                 all measurement and characterization data must also be on the
                 Part's Main Page on the{" "}
-                <a href="http://parts.igem.org/Main_Page">Registry</a>.
+                <a href="https://parts.igem.org/Main_Page">Registry</a>.
               </b>{" "}
               Otherwise these data will not be in consideration for any medals
               or part awards!

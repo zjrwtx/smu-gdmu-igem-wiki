@@ -10,7 +10,7 @@ export function Attributions() {
         if (type === "igem-attribution-form") {
           const element = document.getElementById("igem-attribution-form");
           if (element) {
-            element.style.height = `${data + 50}px`;
+            element.style.height = `${data + 100}px`;
           }
         }
       }
@@ -25,6 +25,9 @@ export function Attributions() {
     <>
       <div className="row mt-4">
         <div className="col">
+          <div>
+            <p>Teams must use the standard Attributions form. To meet the attributions requirement, you must display the standard form on your Wiki by following the instructions <a href="https://competition.igem.org/deliverables/project-attribution" target="_blank">here</a></p>
+          </div>
           <div className="bd-callout bd-callout-info">
             <p>
               In the iGEM Competition, we celebrate student effort and

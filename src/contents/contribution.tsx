@@ -13,7 +13,7 @@ export function Contribution() {
               If you are making a contribution by adding information to an
               existing Part or creating a new Part, you must document your
               contribution on the Part's Main Page on the{" "}
-              <a href="http://parts.igem.org/Main_Page">Registry</a> for your
+              <a href="https://parts.igem.org/Main_Page">Registry</a> for your
               team to be eligible for this criteria. You can use this page to
               link to that part and include additional information about your
               contribution.

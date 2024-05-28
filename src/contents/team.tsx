@@ -43,38 +43,8 @@ export function Team() {
           </div>
         </div>
         <div className="col-4">
-          <h2>Inspirations</h2>
-          <hr />
-          <ul>
-            <li>
-              <a href="https://2019.igem.org/Team:CU/Team">2019 CU</a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:UANL/Team">2019 UANL</a>
-            </li>
-            <li>
-              <a href="https://2019.igem.org/Team:William_and_Mary/Team">
-                2019 William and Mary
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:BOKU-Vienna/Team">
-                2020 BOKU Vienna{" "}
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:CAU_China/Team_Member">
-                2020 CAU China
-              </a>
-            </li>
-            <li>
-              <a href="https://2020.igem.org/Team:Lethbridge/Members">
-                2020 Lethbridge
-              </a>
-            </li>
-          </ul>
-        </div>
         <Inspirations inspirationLinkList={links} />
+        </div>
       </div>
     </>
   );

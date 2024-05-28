@@ -24,7 +24,7 @@ export function Experiments() {
           <p>
             If you made Parts this year, please remember to put all information,
             characterization, and measurement data on the Part's Main Page on
-            the <a href="http://parts.igem.org/Main_Page">Registry</a>.
+            the <a href="https://parts.igem.org/Main_Page">Registry</a>.
           </p>
         </div>
         <Inspirations inspirationLinkList={links} />
