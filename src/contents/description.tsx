@@ -16,7 +16,7 @@ export function Description() {
         <div className="col">
           <div className="bd-callout bd-callout-info">
             <h4>肝性脑病</h4>
-            <p>Describe how and why you chose your iGEM project.</p>
+            <p>描述一下项目这样</p>
             <hr />
             <p>
               Please see the{" "}
