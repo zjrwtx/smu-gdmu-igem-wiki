@@ -15,7 +15,7 @@ export function Description() {
       <div className="row mt-4">
         <div className="col">
           <div className="bd-callout bd-callout-info">
-            <h4>Bronze Medal Criterion #3</h4>
+            <h4>肝性脑病</h4>
             <p>Describe how and why you chose your iGEM project.</p>
             <hr />
             <p>
