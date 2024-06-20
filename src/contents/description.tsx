@@ -1,14 +1,7 @@
-import { Inspirations, InspirationLink } from "../components";
+
 
 export function Description() {
-  const links: InspirationLink[] = [
-    { year: 2022, teamName: "DTU-Denmark", pageName: "Description" },
-    { year: 2019, teamName: "ITESO_Guadalajara", pageName: "Description" },
-    { year: 2020, teamName: "Technion-Israel", pageName: "Description" },
-    { year: 2020, teamName: "Botchan_Lab_Tokyo", pageName: "Description" },
-    { year: 2020, teamName: "St_Andrews", pageName: "Description" },
-    { year: 2020, teamName: "MIT", pageName: "Description" },
-  ];
+
 
   return (
     <>
