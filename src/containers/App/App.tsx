@@ -1,5 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // 引入 Bootstrap JavaScript
 import { Route, Routes } from "react-router-dom";
 import { Footer, Header, Navbar, NotFound } from "../../components";
 import { getPathMapping, stringToSlug } from "../../utils";
