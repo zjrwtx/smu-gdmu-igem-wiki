@@ -40,14 +40,16 @@ export function Navbar() {
   });
 
   return (
-    <BootstrapNavbar expand="lg" className="bg-body-tertiary" fixed="top">
+    <BootstrapNavbar expand="lg" className="bg-body-tertiary" fixed="top" data-bs-theme="dark">
+      {/* 修改navbar为dark */}
       <Container>
         <BootstrapNavbar.Brand>
           {import.meta.env.VITE_TEAM_NAME}
         </BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
-          <Nav className="left-aligned">{pages}</Nav>
+          <Nav className="left-aligned" data-bs-theme="dark">{pages}</Nav>
+          {/* 修改了dropdown的颜色为dark */}
         </BootstrapNavbar.Collapse>
       </Container>
     </BootstrapNavbar>
