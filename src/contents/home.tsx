@@ -6,7 +6,7 @@ export function Home() {
   return (
     <>
       <div className="container">
-      <div className="row justify-content-center bg-victoria ">
+      <div className="row justify-content-center bg-rice_yellow ">
         <div></div>
 
 
