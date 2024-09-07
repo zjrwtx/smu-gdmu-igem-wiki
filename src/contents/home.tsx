@@ -9,14 +9,42 @@ export function Home() {
       <div className="container-fluid">
       <div className="row justify-content-center bg-rice_yellow ">
         
-        <div className="col-md-8">
-          <div className="row justify-content-center h1">Promotion Video</div>
-            <div className="embed-responsive embed-responsive-16by9 row">
-              <video className="embed-responsive-item justify-content-center" controls>
-                <source src={"https://static.igem.org/peertube/streaming-playlists/hls/b8667885-e1be-48b2-ab9b-d1aac71db0da/e35183e1-c8b5-45b0-a83a-d2b98dcb6996-480-fragmented.mp4"} type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
+        <div className="col-md-8 row justify-content-center ">
+          <div className="row justify-content-center h1 full-height-element">
+            Section 1
+            <img
+                src="https://img0.baidu.com/it/u=351821279,2605385406&fm=253&fmt=auto&app=138&f=PNG?w=600&h=335"
+                alt="dungreed"
+                className="responsive-img"
+              />
           </div>
+          <div className="row justify-content-center h1 full-height-element">
+            Section 2
+            <img
+                src="https://pic.3h3.com/up/2023/0915/20230915100746929.png"
+                alt="dungreed"
+                className="responsive-img"
+              />
+          </div>
+          <div className="row justify-content-center h1 full-height-element">
+            Section 3
+            <img
+                src="https://img0.baidu.com/it/u=3750079665,4155589639&fm=253&fmt=auto&app=138&f=PNG?w=600&h=338"
+                alt="dungreed"
+                className="responsive-img"
+              />
+          </div>
+          <div className="row justify-content-center h1">Stream our Promotion Video</div>
+            <div className="col-md-6 row justify-content-center mb-5">
+              <iframe 
+                title="SMU-GDMU-CHINA: Engineered bacterial therapeutics for Preventing Hepatic Encepha... (2024) - Project Promotion [English]"  
+                className="promotion-video"
+                src="https://video.igem.org/videos/embed/b8667885-e1be-48b2-ab9b-d1aac71db0da"  
+                allowFullScreen={true} 
+                sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+              </iframe>
+            </div>
+          
         </div>
       </div>
     </div>

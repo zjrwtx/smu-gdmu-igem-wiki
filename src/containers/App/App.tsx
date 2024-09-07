@@ -36,9 +36,11 @@ const App = () => {
               element={
                 <>
                   {/* <Header title={title || ""} lead={lead || ""} /> */}
-                  <div className="container-fluid">
-                    <Component />
-                  </div>
+
+                    <div>
+                      <Component />
+                    </div>
+                
                 </>
               }
             />

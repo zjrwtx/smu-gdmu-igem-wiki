@@ -6,44 +6,31 @@ export function Footer() {
   const teamSlug = stringToSlug(teamName);
 
   return (
-    <footer className="pt-5 pb-5 footer py-5 mt-5 bg-dark text-white">
+    <footer className="pt-5 pb-5 footer py-5 mt-0 bg-dark text-white">
       <div className="container">
         <div className="row mb-4">
-          <div className="col-lg-6 col-xs-12">
-            <h4 className="mb-3">Heading</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac
-              ante mollis quam tristique convallis
-            </p>
-          </div>
-          <div className="col-lg-3 col-xs-12">
-            <h4 className="mt-lg-0 mt-sm-3">Links</h4>
-            <ul className="m-2 p-2">
-              <li>
-                <a href="#">Lorem ipsum</a>
-              </li>
-              <li>
-                <a href="#">Nam mauris velit</a>
-              </li>
-              <li>
-                <a href="#">Etiam vitae mauris</a>
-              </li>
-              <li>
-                <a href="#">Fusce scelerisque</a>
-              </li>
-              <li>
-                <a href="#">Sed faucibus</a>
-              </li>
-              <li>
-                <a href="#">Mauris efficitur nulla</a>
-              </li>
-            </ul>
-          </div>
-          <div className="col-lg-3 col-xs-12">
-            <h4 className="mt-lg-0 mt-sm-4 mb-3">Contact</h4>
-            <p>22, Lorem ipsum dolor, consectetur adipiscing</p>
-            <p className="mb-0">(541) 754-3010</p>
-            <p>info@hsdf.com</p>
+            <div className="col-lg-2 col-xs-12">
+              <img
+                src="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                alt="SMU brand"
+                className="responsive-img"
+              />
+            </div>
+            <div className="col-lg-2"></div>
+            <div className="col-lg-2 col-xs-12">
+              <img
+                src="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                alt="GDMU brand"
+                className="responsive-img"
+              />
+            </div>
+            <div className="col-lg-2"></div>
+          <div className="col-lg-4 col-xs-12 row justify-content-center">
+          <img
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="Yanyin tech"
+                className="responsive-img"
+              />
           </div>
         </div>
         <hr />
