@@ -170,6 +170,8 @@ footer a:hover {
 
 /* wet-lab,dry-lab用的内容框框 */
 .rounded-border {
+  margin: 50px;
+  padding: 50px;
   border: 2px solid #f7a901; /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
   margin-bottom: 100px;
@@ -184,4 +186,30 @@ footer a:hover {
 /* 文本开头有缩进，起到空格作用 */
 .indent {
   text-indent: 20px; /* 设置首行缩进 20px */
+}
+
+.side-navbar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 30%;
+  background-color: rgb(245, 245, 220);
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  margin-top: 300px;
+  margin-left: 20px;
+}
+
+.side-navbar .nav-link {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.side-navbar .nav-link.active {
+  background-color: rgb(172, 172, 108);
+}
+
+.side-navbar .nav-link.notActive {
+  background-color: rgb(245, 245, 220);
 }
