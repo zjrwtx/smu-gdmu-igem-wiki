@@ -3,10 +3,9 @@
 interface HeaderProps {
   title: string;
   lead: string;
-  image:string;
 }
 
-export function Header({ title, lead,image }: HeaderProps) {
+export function Header({ title, lead }: HeaderProps) {
   return (
     <header className="py-5 mb-5">
       <div className="container h-100">
