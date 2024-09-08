@@ -104,10 +104,20 @@ footer a:hover {
 }
 
 
-.custom-header {
+.custom-header-home {
   width: 100vw;
   height: 100vh;
   background-image: url('/src/asset/img/miami.jpg'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+}
+
+.custom-header-team {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://img0.baidu.com/it/u=3144851616,2583845916&fm=253&fmt=auto&app=138&f=JPEG?w=462&h=500'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -128,4 +138,50 @@ footer a:hover {
 
 .full-height-element {
   height: 100vh; /* 设置元素的高度为视口高度的 100% */
+}
+
+/* 以下几个是team member响应式卡片 */
+.card-container {
+  max-width: 300px;
+  margin: auto;
+  height: 500px;
+}
+
+.card {
+  transition: transform 0.2s;
+}
+
+.card-img-top {
+  width: 300px;
+  height: 400px;
+}
+
+.card-container:hover .card {
+  transform: scale(1.05);
+}
+
+.row-custom-height-card {
+  height: 300px; /* 你可以根据需要调整高度 */
+}
+
+.row-custom-height-card-space {
+  height: 100px; /* 你可以根据需要调整高度 */
+}
+
+/* wet-lab,dry-lab用的内容框框 */
+.rounded-border {
+  border: 2px solid #f7a901; /* 设置边框的宽度和颜色 */
+  border-radius: 10px; /* 设置圆角半径 */
+  margin-bottom: 100px;
+}
+
+
+/* 文本居中 */
+.center-text {
+  text-align: center; /* 将文本水平居中 */
+}
+
+/* 文本开头有缩进，起到空格作用 */
+.indent {
+  text-indent: 20px; /* 设置首行缩进 20px */
 }
