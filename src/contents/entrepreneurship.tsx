@@ -1,78 +1,97 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Nav } from 'react-bootstrap';
+import { Link,Element } from 'react-scroll';
+import React,{useEffect,useState} from 'react';
+
+// sidenavbar begin
+interface SideNavbarProps {
+  activeLink: string;
+}
+const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
+  return (
+    <div className="side-navbar">
+      <Nav className="flex-column">
+        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>Section 1</Nav.Link>
+        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Section 2</Nav.Link>
+        <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Section 3</Nav.Link>
+        {/* 添加更多导航链接 */}
+      </Nav>
+    </div>
+  );
+};
+// sidenavbar end 
 
 export function Entrepreneurship() {
-  const links: InspirationLink[] = [
-    { year: 2019, teamName: "UCopenhagen", pageName: "Entrepreneurship" },
-    { year: 2019, teamName: "Thessaly", pageName: "Entrepreneurship" },
-    { year: 2019, teamName: "NCKU_Tainan", pageName: "Entrepreneurship" },
-    { year: 2020, teamName: "TAS_Taipei", pageName: "Entrepreneurship" },
-    { year: 2020, teamName: "KCL_UK", pageName: "Entrepreneurship" },
-    { year: 2020, teamName: "Calgary", pageName: "Entrepreneurship" },
-  ];
+  // sidenavbar begin
+  const [activeLink, setActiveLink] = useState<string>('');
+    useEffect(() => {
+      const handleScroll = () => {
+        const sections = document.querySelectorAll('.element');
+        let currentSection = '';
+          sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop <= window.innerHeight / 2 && sectionTop > -section.clientHeight) {
+              currentSection = section.id;
+            }
+          });
+        setActiveLink(currentSection);
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+    // sidenavbar end
+
+
 
   return (
     <>
-      <div className="row mt-4">
-        <div className="col">
-          <div className="bd-callout bd-callout-info">
-            <h4>Best Supporting Entrepreneurship</h4>
-            <p>
-              The Best Supporting Entrepreneurship award recognizes exceptional
-              effort to build a business case and commercialize an iGEM project.
-              This award is open to all teams to show that entrepreneurship is
-              something all teams can aspire to do with their project. This
-              award can go to an new project, or to a previous project that a
-              team aimed to commercialize. Have you filed a provisional patent
-              on your project/device/process? Have you raised money to build and
-              ship products? Have you pitched your idea to investors and
-              received money? As always in iGEM, the aim is to impress the
-              judges!
-            </p>
-            <p>
-              To compete for the Best Supporting Entrepreneurship prize, select
-              the prize on the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>{" "}
-              and describe your work on this page.
-            </p>
-            <hr />
-            <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/awards">
-                2024 Awards Page
-              </a>{" "}
-              for more information.
-            </p>
-          </div>
+      <div className="row  bg-rice_yellow">
+        <div className="col-3">
+          <SideNavbar activeLink={activeLink}          />
         </div>
-      </div>
+        
+        <div className="col-8">
+          
+              
+              <Element name="section1" className="element rounded-border" id='section1'>
+                 <h2>Section 1</h2>
+                 <p>Content for section 1.</p>
+                 <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+               </Element>
+          
 
-      <div className="row mt-4">
-        <div className="col-lg-8">
-          <h2>Patents and intellectual property</h2>
-          <hr />
-          <p>
-            If your team is seriously considering commercializing and looking
-            into building a company after the competition, you may want to look
-            at how you are going to protect your work and secure investment.
-            Investors will usually require some form of intellectual protection,
-            so you may want to investigate how to apply for a patent or
-            provisional patent in your country and region before disclosing your
-            project at iGEM. Remember that you can only be evaluated in iGEM
-            based on what you share on your wiki and at the Jamboree, so any
-            work you don't present can't count towards your project.
-          </p>
-          <p>
-            This is an area where we are different as we care about sharing,
-            openness and contributing to the community and investors don't
-            always agree with these values. It is up to you and your team to
-            decide what to do. Remember that most universities have a
-            commercialization department and that you can talk to them before
-            coming to a decision.
-          </p>
+          
+              
+              <Element name="section2" className="element rounded-border" id='section2'>
+                <h2>Section 2</h2>
+                <p>Content for section 2.</p>
+                <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+              </Element>
+          
+
+              <Element name="section3" className="element rounded-border" id='section3'>
+              <h2>Section 3</h2>
+              <p>Content for section 3.</p>
+              <div className="rounded-border">
+              <h4 className="center-text">Section 3</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              </div>
+              </Element>
+          
+
         </div>
-        <Inspirations inspirationLinkList={links} />
+        <div className="col-1"></div>
+
+          
+        
       </div>
     </>
   );

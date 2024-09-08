@@ -1,108 +1,97 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Nav } from 'react-bootstrap';
+import { Link,Element } from 'react-scroll';
+import React,{useEffect,useState} from 'react';
+
+// sidenavbar begin
+interface SideNavbarProps {
+  activeLink: string;
+}
+const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
+  return (
+    <div className="side-navbar">
+      <Nav className="flex-column">
+        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>Section 1</Nav.Link>
+        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Section 2</Nav.Link>
+        <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Section 3</Nav.Link>
+        {/* 添加更多导航链接 */}
+      </Nav>
+    </div>
+  );
+};
+// sidenavbar end 
 
 export function HumanPractices() {
-  const links: InspirationLink[] = [
-    { year: 2019, teamName: "Thessaly", pageName: "Human_Practices" },
-    { year: 2019, teamName: "Linkoping_Sweden", pageName: "Human_Practices" },
-    { year: 2019, teamName: "FDR-HB_Peru", pageName: "Human_Practices" },
-    { year: 2020, teamName: "William_and_Mary", pageName: "Human_Practices" },
-    { year: 2020, teamName: "Rochester", pageName: "Human_Practices" },
-    { year: 2020, teamName: "Leiden", pageName: "Human_Practices" },
-    { year: 2020, teamName: "Baltimore_BioCrew", pageName: "Human_Practices" },
-  ];
+  // sidenavbar begin
+  const [activeLink, setActiveLink] = useState<string>('');
+    useEffect(() => {
+      const handleScroll = () => {
+        const sections = document.querySelectorAll('.element');
+        let currentSection = '';
+          sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop <= window.innerHeight / 2 && sectionTop > -section.clientHeight) {
+              currentSection = section.id;
+            }
+          });
+        setActiveLink(currentSection);
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+    // sidenavbar end
+
+
 
   return (
     <>
-      <div className="row mt-4">
-        <div className="col">
-          <div className="bd-callout bd-callout-info">
-            <h4>Silver Medal Criterion #2</h4>
-            <p>
-              Explain how you have determined your work is responsible and good
-              for the world.
-            </p>
-            <hr />
-            <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/medals">
-                2024 Medals Page
-              </a>{" "}
-              for more information.
-            </p>
-          </div>
-
-          <div className="bd-callout bd-callout-info">
-            <h4>Best Integrated Human Practices</h4>
-            <p>
-              How does your project affect society and how does society
-              influence the direction of your project? How might ethical
-              considerations and stakeholder input guide your project purpose
-              and design and the experiments you conduct in the lab? How does
-              this feedback enter into the process of your work all through the
-              iGEM competition? Document a thoughtful and creative approach to
-              exploring these questions and how your project evolved in the
-              process to compete for this award!
-            </p>
-            <p>
-              To compete for the Best Integrated Human Practices prize, select
-              the prize on the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>{" "}
-              and describe your work on this page.
-            </p>
-            <hr />
-            <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/awards">
-                2024 Awards Page
-              </a>{" "}
-              for more information.
-            </p>
-          </div>
+      <div className="row  bg-rice_yellow">
+        <div className="col-3">
+          <SideNavbar activeLink={activeLink}          />
         </div>
-      </div>
+        
+        <div className="col-8">
+          
+              
+              <Element name="section1" className="element rounded-border" id='section1'>
+                 <h2>Section 1</h2>
+                 <p>Content for section 1.</p>
+                 <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+               </Element>
+          
 
-      <div className="row mt-4">
-        <div className="col-lg-8">
-          <h2>Overview</h2>
-          <hr />
-          <p>
-            At iGEM we believe societal considerations should be upfront and
-            integrated throughout the design and execution of synthetic biology
-            projects. “Human Practices” refers to iGEM teams' efforts to
-            actively consider how the world affects their work and their work
-            affects the world. Through your Human Practices activities, your
-            team should demonstrate how you have thought carefully and
-            creatively about whether your project is responsible and good for
-            the world. We invite you to explore issues relating (but not
-            limited) to the ethics, safety, security, and sustainability of your
-            project, and to show how this exploration feeds back into your
-            project purpose, design, and execution.
-          </p>
-          <p>
-            Please note you can compete for the Silver Medal criterion #2 and
-            the Best Integrated Human Practices prize with this page.
-          </p>
-          <p>
-            For more information, please see the{" "}
-            <a href="https://responsibility.igem.org/human-practices/what-is-human-practices">
-              Human Practices Hub
-            </a>
-            .
-          </p>
-          <p>
-            On this page, your team should document all of your Human Practices
-            work and activities. You should write about the Human Practices
-            topics you considered in your project, document any activities you
-            conducted to explore these topics (such as engaging with experts and
-            stakeholders), describe why you took a particular approach
-            (including referencing any work you built upon), and explain if and
-            how you integrated takeaways from your Human Practices work back
-            into your project purpose, design and/or execution.
-          </p>
+          
+              
+              <Element name="section2" className="element rounded-border" id='section2'>
+                <h2>Section 2</h2>
+                <p>Content for section 2.</p>
+                <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+              </Element>
+          
+
+              <Element name="section3" className="element rounded-border" id='section3'>
+              <h2>Section 3</h2>
+              <p>Content for section 3.</p>
+              <div className="rounded-border">
+              <h4 className="center-text">Section 3</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              </div>
+              </Element>
+          
+
         </div>
-        <Inspirations inspirationLinkList={links} />
+        <div className="col-1"></div>
+
+          
+        
       </div>
     </>
   );

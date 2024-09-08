@@ -1,82 +1,97 @@
-import { Inspirations, InspirationLink } from "../components";
+import { Nav } from 'react-bootstrap';
+import { Link,Element } from 'react-scroll';
+import React,{useEffect,useState} from 'react';
+
+// sidenavbar begin
+interface SideNavbarProps {
+  activeLink: string;
+}
+const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
+  return (
+    <div className="side-navbar">
+      <Nav className="flex-column">
+        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>Section 1</Nav.Link>
+        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Section 2</Nav.Link>
+        <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Section 3</Nav.Link>
+        {/* 添加更多导航链接 */}
+      </Nav>
+    </div>
+  );
+};
+// sidenavbar end 
 
 export function Results() {
-  const links: InspirationLink[] = [
-    { year: 2019, teamName: "Newcastle", pageName: "Results" },
-    { year: 2019, teamName: "Munich", pageName: "Results" },
-    { year: 2019, teamName: "Tec-Chihuahua", pageName: "Results" },
-    { year: 2020, teamName: "Aalto-Helsinki", pageName: "Results" },
-    { year: 2020, teamName: "GreatBay_SCIE", pageName: "Results" },
-    { year: 2020, teamName: "Queens_Canada", pageName: "Results" },
-  ];
+  // sidenavbar begin
+  const [activeLink, setActiveLink] = useState<string>('');
+    useEffect(() => {
+      const handleScroll = () => {
+        const sections = document.querySelectorAll('.element');
+        let currentSection = '';
+          sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop <= window.innerHeight / 2 && sectionTop > -section.clientHeight) {
+              currentSection = section.id;
+            }
+          });
+        setActiveLink(currentSection);
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+    // sidenavbar end
+
+
 
   return (
     <>
-      <div className="row mt-4">
-        <div className="col-lg-5">
-          <h2>What should this page contain?</h2>
-          <hr />
-          <ul>
-            <li>Clearly and objectively describe the results of your work.</li>
-            <li>Future plans for the project.</li>
-            <li>Considerations for replicating the experiments.</li>
-          </ul>
+      <div className="row  bg-rice_yellow">
+        <div className="col-3">
+          <SideNavbar activeLink={activeLink}          />
         </div>
-        <div className="col-lg-7">
-          <h2>Describe what your results mean</h2>
-          <hr />
-          <ul>
-            <li>
-              Interpretation of the results obtained during your project. Don't
-              just show a plot/figure/graph/other, tell us what you think the
-              data means. This is an important part of your project that the
-              judges will look for.
-            </li>
-            <li>
-              Show data, but remember{" "}
-              <b>
-                all measurement and characterization data must also be on the
-                Part's Main Page on the{" "}
-                <a href="https://parts.igem.org/Main_Page">Registry</a>.
-              </b>{" "}
-              Otherwise these data will not be in consideration for any medals
-              or part awards!
-            </li>
-            <li>
-              Consider including an analysis summary section to discuss what
-              your results mean. Judges like to read what you think your data
-              means, beyond all the data you have acquired during your project.
-            </li>
-          </ul>
-        </div>
-      </div>
+        
+        <div className="col-8">
+          
+              
+              <Element name="section1" className="element rounded-border" id='section1'>
+                 <h2>Section 1</h2>
+                 <p>Content for section 1.</p>
+                 <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+               </Element>
+          
 
-      <div className="row mt-4">
-        <div className="col-lg-8">
-          <h2>Project Achievements</h2>
-          <hr />
-          <p>
-            You can also include a list of bullet points (and links) of the
-            successes and failures you have had over your summer. It is a quick
-            reference page for the judges to see what you achieved during your
-            summer.
-          </p>
-          <ul>
-            <li>
-              A list of linked bullet points of the successful results during
-              your project
-            </li>
-            <li>
-              A list of linked bullet points of the unsuccessful results during
-              your project and what you learned from them. This is about being
-              scientifically honest. If you worked on an area for a long time
-              with no success, tell us so we know where you put your effort.
-              Furthermore, you can still impress the judges by thoughtfully
-              discussing what went wrong and how you might change things.
-            </li>
-          </ul>
+          
+              
+              <Element name="section2" className="element rounded-border" id='section2'>
+                <h2>Section 2</h2>
+                <p>Content for section 2.</p>
+                <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+              </Element>
+          
+
+              <Element name="section3" className="element rounded-border" id='section3'>
+              <h2>Section 3</h2>
+              <p>Content for section 3.</p>
+              <div className="rounded-border">
+              <h4 className="center-text">Section 3</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              </div>
+              </Element>
+          
+
         </div>
-        <Inspirations inspirationLinkList={links} />
+        <div className="col-1"></div>
+
+          
+        
       </div>
     </>
   );

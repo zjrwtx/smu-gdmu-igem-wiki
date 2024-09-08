@@ -1,91 +1,98 @@
+import { Nav } from 'react-bootstrap';
+import { Link,Element } from 'react-scroll';
+import React,{useEffect,useState} from 'react';
+
+// sidenavbar begin
+interface SideNavbarProps {
+  activeLink: string;
+}
+const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
+  return (
+    <div className="side-navbar">
+      <Nav className="flex-column">
+        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>Section 1</Nav.Link>
+        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Section 2</Nav.Link>
+        <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Section 3</Nav.Link>
+        {/* 添加更多导航链接 */}
+      </Nav>
+    </div>
+  );
+};
+// sidenavbar end 
+
+
 export function Safety() {
+  // sidenavbar begin
+  const [activeLink, setActiveLink] = useState<string>('');
+    useEffect(() => {
+      const handleScroll = () => {
+        const sections = document.querySelectorAll('.element');
+        let currentSection = '';
+          sections.forEach(section => {
+            const sectionTop = section.getBoundingClientRect().top;
+            if (sectionTop <= window.innerHeight / 2 && sectionTop > -section.clientHeight) {
+              currentSection = section.id;
+            }
+          });
+        setActiveLink(currentSection);
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+    // sidenavbar end
+
+
+
   return (
     <>
-      <div className="row mt-4">
-        <div className="col">
-          <div className="bd-callout bd-callout-info">
-            <h4>Safety and Security Award</h4>
-            <p>
-              Synthetic biology will need to be used safely and securely if
-              local people are to solve local problems all around the world. The
-              Safety and Security Committee is challenging teams to apply
-              biological engineering approaches to manage risks associated with
-              synthetic biology. Can you take the next step in incremental
-              progress towards knowledge, understanding, and tools that will
-              make the use of synthetic biology safer and more secure?
-            </p>
-            <p>
-              To compete for the Safety and Security award, please describe your
-              work on this page and also fill out the description on the{" "}
-              <a href="https://competition.igem.org/deliverables/judging-form">
-                judging form
-              </a>
-              .
-            </p>
-            <hr />
-            <p>
-              Please see the{" "}
-              <a href="https://competition.igem.org/judging/awards">
-                2024 Awards Page
-              </a>{" "}
-              for more information.
-            </p>
-          </div>
+      <div className="row  bg-rice_yellow">
+        <div className="col-3">
+          <SideNavbar activeLink={activeLink}          />
         </div>
-      </div>
+        
+        <div className="col-8">
+          
+              
+              <Element name="section1" className="element rounded-border" id='section1'>
+                 <h2>Section 1</h2>
+                 <p>Content for section 1.</p>
+                 <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+               </Element>
+          
 
-      <div className="row mt-4">
-        <div className="col">
-          <h2>What should this page contain?</h2>
-          <hr />
-          <p>
-            On this page of your wiki, you should write about how you are
-            addressing any safety issues in your project. The wiki is a place
-            where you can go beyond the questions on the safety forms, and write
-            about whatever safety topics are most interesting in your project.
-            (You do not need to copy your safety forms onto this wiki page.)
-          </p>
-          <div className="bd-callout bd-callout-info">
-            <p>
-              Please visit the{" "}
-              <a href="https://responsibility.igem.org/safety-policies/introduction">
-                Safety Policies page
-              </a>{" "}
-              to find this year's safety requirements & deadlines, and to learn
-              about safe & responsible research in iGEM.
-            </p>
-          </div>
-        </div>
-      </div>
+          
+              
+              <Element name="section2" className="element rounded-border" id='section2'>
+                <h2>Section 2</h2>
+                <p>Content for section 2.</p>
+                <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+              </Element>
+          
 
-      <div className="row mt-4">
-        <div className="col-lg-8">
-          <h2>Safe Project Design</h2>
-          <hr />
-          <p>
-            Does your project include any safety features? Have you made certain
-            decisions about the design to reduce risks? Write about them here!
-            For example:
-          </p>
-          <ul>
-            <li>Choosing a non-pathogenic chassis</li>
-            <li>Choosing parts that will not harm humans / animals / plants</li>
-            <li>
-              Substituting safer materials for dangerous materials in a
-              proof-of-concept experiment
-            </li>
-            <li>Including an "induced lethality" or "kill-switch" device</li>
-          </ul>
+              <Element name="section3" className="element rounded-border" id='section3'>
+              <h2>Section 3</h2>
+              <p>Content for section 3.</p>
+              <div className="rounded-border">
+              <h4 className="center-text">Section 3</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              </div>
+              </Element>
+          
+
         </div>
-        <div className="col-lg-4">
-          <h2>Safe Lab Work</h2>
-          <hr />
-          <p>
-            What safety procedures do you use every day in the lab? Did you
-            perform any unusual experiments, or face any unusual safety issues?
-            Write about them here!
-          </p>
-        </div>
+        <div className="col-1"></div>
+
+          
+        
       </div>
     </>
   );
