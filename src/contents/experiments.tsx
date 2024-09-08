@@ -44,6 +44,9 @@ export function Experiments() {
 
   return (
     <>
+      <div className="custom-header-experiments">
+<h1 className="centered-title">EXPERIMENTS</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

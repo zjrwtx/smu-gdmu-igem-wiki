@@ -117,11 +117,195 @@ footer a:hover {
 .custom-header-team {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://img0.baidu.com/it/u=3144851616,2583845916&fm=253&fmt=auto&app=138&f=JPEG?w=462&h=500'); /* 背景图片路径 */
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
   background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+}
+
+.custom-header-attributions {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+
+.custom-header-contribution {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+
+.custom-header-description {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+
+.custom-header-education {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-engineering {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-entrepreneurship {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-experiments {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-hardware {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-human-practices {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-inclusivity {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-measurement {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-model {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-notebook {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-plant {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-results {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-safety {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-software {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
+}
+.custom-header-sustainable {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+
 }
 
 .promotion-video {
@@ -177,6 +361,13 @@ footer a:hover {
   margin-bottom: 100px;
 }
 
+/* 页面title的水平与垂直居中 */
+.centered-title {
+  height: 100%; /* Full height of the container */
+  display: flex;
+  align-items: center; /* Vertical center */
+  justify-content: center; /* Horizontal center */
+}
 
 /* 文本居中 */
 .center-text {

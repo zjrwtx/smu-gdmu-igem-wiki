@@ -44,6 +44,9 @@ export function Entrepreneurship() {
 
   return (
     <>
+      <div className="custom-header-entrepreneurship">
+<h1 className="centered-title">ENTREPRENEURSHIP</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

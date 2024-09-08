@@ -44,6 +44,9 @@ export function HumanPractices() {
 
   return (
     <>
+    <div className="custom-header-human-practices">
+<h1 className="centered-title">HP</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

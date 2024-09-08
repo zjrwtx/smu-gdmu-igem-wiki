@@ -44,6 +44,9 @@ export function Education() { // sidenavbar begin
 
   return (
     <>
+    <div className="custom-header-education">
+<h1 className="centered-title">EDUCATION</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

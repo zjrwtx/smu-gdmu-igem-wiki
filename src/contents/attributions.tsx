@@ -23,6 +23,9 @@ export function Attributions() {
 
   return (
     <>
+      <div className="custom-header-attributions">
+        <h1 className="centered-title">ATTRIBUTION</h1>
+      </div>
       <div className="row mt-4">
         <div className="col">
           <div>
@@ -73,3 +76,5 @@ export function Attributions() {
     </>
   );
 }
+
+

@@ -44,6 +44,9 @@ export function Model() {
 
   return (
     <>
+    <div className="custom-header-model">
+<h1 className="centered-title">MODEL</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

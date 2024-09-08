@@ -9,6 +9,7 @@ interface SideNavbarProps {
 }
 const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
   return (
+    
     <div className="side-navbar">
       <Nav className="flex-column">
         <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>Section 1</Nav.Link>
@@ -50,6 +51,9 @@ export function Description() {
 
   return (
     <>
+    <div className="custom-header-description">
+<h1 className="centered-title">DESCRIPTION</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

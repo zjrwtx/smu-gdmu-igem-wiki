@@ -44,6 +44,9 @@ export function Hardware() {
 
   return (
     <>
+    <div className="custom-header-hardware">
+<h1 className="centered-title">HARDWARE</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

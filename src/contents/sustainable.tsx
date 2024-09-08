@@ -44,6 +44,9 @@ export function Sustainable() {
 
   return (
     <>
+    <div className="custom-header-sustainable">
+<h1 className="centered-title">SUSTAINABLE</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

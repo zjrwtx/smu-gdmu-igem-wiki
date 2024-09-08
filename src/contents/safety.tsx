@@ -45,6 +45,9 @@ export function Safety() {
 
   return (
     <>
+    <div className="custom-header-safety">
+<h1 className="centered-title">SAFETY</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

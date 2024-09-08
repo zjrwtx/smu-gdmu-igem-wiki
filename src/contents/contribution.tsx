@@ -48,6 +48,9 @@ export function Contribution() {
   
     return (
       <>
+      <div className="custom-header-contribution">
+      <h1 className="centered-title">CONTRIBUTION</h1>
+      </div>
         <div className="row  bg-rice_yellow">
           <div className="col-3">
             <SideNavbar activeLink={activeLink}          />

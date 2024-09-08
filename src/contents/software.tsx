@@ -45,6 +45,9 @@ export function Software() {
 
   return (
     <>
+    <div className="custom-header-software">
+<h1 className="centered-title">SOFTWARE</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

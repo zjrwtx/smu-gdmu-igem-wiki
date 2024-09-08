@@ -44,6 +44,9 @@ export function Measurement() {
 
   return (
     <>
+    <div className="custom-header-measurement">
+<h1 className="centered-title">MEASUREMENT</h1>
+</div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />

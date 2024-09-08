@@ -5,7 +5,9 @@ export function Home() {
 
   return (
     <>
-      <div className="custom-header-home left-align"></div>
+      <div className="custom-header-home">
+<h1 className="centered-title">HOME</h1>
+</div>
       <div className="container-fluid">
       <div className="row justify-content-center bg-rice_yellow ">
         
