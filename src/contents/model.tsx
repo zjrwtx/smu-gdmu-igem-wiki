@@ -2,6 +2,7 @@ import { Nav } from 'react-bootstrap';
 import { Link,Element } from 'react-scroll';
 import React,{useEffect,useState} from 'react';
 
+
 // sidenavbar begin
 interface SideNavbarProps {
   activeLink: string;
@@ -86,7 +87,9 @@ export function Model() {
               <h4 className="center-text">Section 3</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              
               </div>
+
               </Element>
           
 
