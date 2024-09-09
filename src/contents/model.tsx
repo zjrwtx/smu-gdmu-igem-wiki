@@ -1,6 +1,12 @@
 import { Nav } from 'react-bootstrap';
 import { Link,Element } from 'react-scroll';
 import React,{useEffect,useState} from 'react';
+import MathJax from 'react-mathjax';
+
+
+const tex = `f(x) = \\int_{-\\infty}^\\infty
+    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}
+    \\,d\\xi`
 
 
 // sidenavbar begin
@@ -87,7 +93,18 @@ export function Model() {
               <h4 className="center-text">Section 3</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              
+
+              <MathJax.Provider>
+                <div className='indent'>
+                  {/* 行内编辑数学公式，相比于下面那个方便一些。去掉inline的话效果就和下面那个一样了。 */}
+                    This is an inline math formula: <MathJax.Node inline formula={`f(x) = \\int_{-\\infty}^\\infty
+                                                                                  \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}
+                                                                                  \\,d\\xi`} />
+                    And a block one:
+                  {/* 数学公式编辑在此文件的顶部，使用latex语法 */}
+                    <MathJax.Node formula={tex} />
+                </div>
+              </MathJax.Provider>
               </div>
 
               </Element>
