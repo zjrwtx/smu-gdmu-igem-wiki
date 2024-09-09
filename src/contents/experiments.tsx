@@ -58,11 +58,12 @@ export function Experiments() {
               <Element name="section1" className="element rounded-border" id='section1'>
                  <h2>Section 1</h2>
                  <p>Content for section 1.</p>
-                 <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
-                className="responsive-img"
-              />
+                 
+              <iframe 
+              src="https://static.igem.wiki/teams/5378/pdf/example.pdf" 
+              style={{ width: '100%', height: '1000px' }}
+              title="PDF Viewer"
+              ></iframe>
                </Element>
           
 
