@@ -301,7 +301,8 @@ footer a:hover {
 }
 
 .promotion-video {
-  height: 30vh; /* 设置高度为视口高度的80% */
+  width: 100%;
+  height: auto; /* 设置高度为视口高度的80% */
   border: none; 
   border-radius: 30px; /* 圆角效果 */
 }
@@ -400,4 +401,20 @@ footer a:hover {
 
 .side-navbar .nav-link.notActive:hover {
   background-color: rgb(204, 204, 168);
+}
+
+.bold-font{
+  font-weight: bold;
+}
+
+.red-font{
+  color: #d9534f;
+}
+
+.blue-font{
+  color: #5bc0de;
+}
+
+.green-font{
+  color: #39d197;
 }

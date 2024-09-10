@@ -84,8 +84,14 @@ export function Model() {
                 className="responsive-img"
               />
                </Element>
-          
-
+                <p>预设好，用来<span className='bold-font'>粗体</span>装文本的小箱子</p>
+                <p>1234<p className="bold-font">56</p>7890</p>         
+                <div>很万能的小箱子</div>
+                <div className="rounded-border">
+                <h2 className="center-text">居中小标题</h2>
+                <p>第一行文本</p>
+                <p>第二行文本，<span className="bold-font">欧耶欧耶</span>欧耶</p>
+                </div>              
           
               
               <Element name="section2" className="element rounded-border" id='section2'>
@@ -95,6 +101,9 @@ export function Model() {
                   <div className='indent'>
                       {/* 行内编辑数学公式，相比于下面那个方便一些。去掉inline的话效果就和下面那个一样了。 */}
                       This is an inline math formula: <MathJax.Node inline formula={`f(x) = \\int_{-\\infty}^\\infty
+                                                                                    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}
+                                                                                    \\,d\\xi`} />
+                                                                                    <MathJax.Node formula={`f(x) = \\int_{-\\infty}^\\infty
                                                                                     \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}
                                                                                     \\,d\\xi`} />
                   </div>
