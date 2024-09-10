@@ -74,6 +74,8 @@ footer a:hover {
   /* navbar folder的设置 */
   /* background-color: #1b1a1a;  //自定义背景色 */
   color: #030303;  /* 自定义文字颜色 */
+  margin-left: 4vw;
+  margin-right: 0vw;
 }
 
 .custom-dropdown-menu.dropdown-item {
@@ -87,10 +89,10 @@ footer a:hover {
   color: #39d197;  /* 鼠标悬停时的文字颜色 */
 }
 
-.custom-nav-item {
+/* .custom-nav-item {
   margin-left: 200px;
   margin-right: 200px;
-}
+} */
 
 /* header */
 .custom-header-home {
