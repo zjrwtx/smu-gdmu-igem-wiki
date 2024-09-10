@@ -387,6 +387,7 @@ footer a:hover {
 .side-navbar .nav-link {
   margin-bottom: 10px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .side-navbar .nav-link.active {
@@ -395,4 +396,8 @@ footer a:hover {
 
 .side-navbar .nav-link.notActive {
   background-color: rgb(245, 245, 220);
+}
+
+.side-navbar .nav-link.notActive:hover {
+  background-color: rgb(204, 204, 168);
 }
