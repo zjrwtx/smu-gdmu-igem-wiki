@@ -74,14 +74,15 @@ footer a:hover {
   /* navbar folder的设置 */
   /* background-color: #1b1a1a;  //自定义背景色 */
   color: #030303;  /* 自定义文字颜色 */
-  margin-left: 4vw;
-  margin-right: 0vw;
+  /* margin-left: 4vw;
+  margin-right: 0vw; */
 }
 
 .custom-dropdown-menu.dropdown-item {
   /* navbar folder 展开时字体颜色与背景 */
   /* background-color: #4d4949; */
   color: #000000;  /* 自定义每个菜单项的文字颜色 */
+  border-radius: 50px;
 }
 
 .custom-dropdown-menu.dropdown-item:hover {
@@ -375,7 +376,7 @@ footer a:hover {
   position: fixed;
   top: 0;
   left: 0;
-  height: 30%;
+  height: 50%;
   background-color: rgb(245, 245, 220);
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0,0,0,0.1);
