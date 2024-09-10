@@ -61,7 +61,7 @@ export function Home() {
           </div>
 
           <div className="row full-height-element">
-            <p className="center-text h1">Stream our Promotion Video</p>
+            <p className="center-text h1 pb-0 mb-0">Stream our Promotion Video</p>
             <div className="col-1"></div>
             <div className="col-10 mb-5">
                 <iframe 
