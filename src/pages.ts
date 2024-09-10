@@ -12,13 +12,8 @@ import {
   Team,
   Education,
   Entrepreneurship,
-  Hardware,
   Inclusivity,
-  Measurement,
   Model,
-  Plant,
-  Software,
-  Sustainable,
 } from "./contents";
 
 interface Base {
@@ -143,13 +138,7 @@ const Pages: (Page | Folder)[] = [
         component: Entrepreneurship,
         lead: "The entrepreneurship prize recognizes exceptional effort to build a business case and commercialize an iGEM project.",
       },
-      {
-        name: "Hardware",
-        title: "Hardware",
-        path: "/hardware",
-        component: Hardware,
-        lead: "Hardware in iGEM should make synthetic biology based on standard parts easier, faster, better, or more accessible to our community.",
-      },
+      
       {
         name: "Inclusivity",
         title: "Diversity and Inclusion",
@@ -157,13 +146,7 @@ const Pages: (Page | Folder)[] = [
         component: Inclusivity,
         lead: "Every individual, regardless of background or experience, should have an equal opportunity to engage with scientific knowledge and technological development.",
       },
-      {
-        name: "Measurement",
-        title: "Measurement",
-        path: "/measurement",
-        component: Measurement,
-        lead: "Synthetic Biology needs great measurement approaches for characterizing parts, and efficient new methods for characterizing many parts at once. Describe your measurement approaches on this page.",
-      },
+      
       {
         name: "Model",
         title: "Model",
@@ -171,27 +154,7 @@ const Pages: (Page | Folder)[] = [
         component: Model,
         lead: "Explain your model's assumptions, data, parameters, and results in a way that anyone could understand.",
       },
-      {
-        name: "Plant",
-        title: "Plant",
-        path: "/plant",
-        component: Plant,
-        lead: "This award is designed to celebrate exemplary work done in plant synthetic biology.",
-      },
-      {
-        name: "Software",
-        title: "Software",
-        path: "/software",
-        component: Software,
-        lead: "Software in iGEM should make synthetic biology based on standard parts easier, faster, better or more accessible to our community.",
-      },
-      {
-        name: "Sustainable",
-        title: "Sustainable Development Goals",
-        path: "/sustainable",
-        component: Sustainable,
-        lead: "Describe how you have evaluated your project ideas against one or more of the SDGs.",
-      },
+
     ],
   },
 ];

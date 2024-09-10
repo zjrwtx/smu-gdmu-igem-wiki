@@ -16,10 +16,5 @@ export * from "./human-practices.tsx";
 // Awards
 export * from "./education.tsx";
 export * from "./entrepreneurship.tsx";
-export * from "./hardware.tsx";
 export * from "./inclusivity.tsx";
-export * from "./measurement.tsx";
 export * from "./model.tsx";
-export * from "./plant.tsx";
-export * from "./software.tsx";
-export * from "./sustainable.tsx";

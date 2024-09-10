@@ -87,6 +87,11 @@ footer a:hover {
   color: #39d197;  /* 鼠标悬停时的文字颜色 */
 }
 
+.custom-nav-item {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
 /* header */
 .custom-header-home {
   width: 100vw;
