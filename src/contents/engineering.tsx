@@ -54,7 +54,7 @@ export function Engineering() {
   return (
     <>
     <div className="custom-header-engineering">
-        <h1 className='center-text'>ENGINEERING</h1>
+        <h1 className='centered-title'>ENGINEERING</h1>
       </div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
