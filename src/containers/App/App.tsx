@@ -19,7 +19,8 @@ const App = () => {
     currentPath in pathMapping ? pathMapping[currentPath].title : "Not Found";
 
   useEffect(() => {
-    document.title = `${title || ""} | ${import.meta.env.VITE_TEAM_NAME} - iGEM ${import.meta.env.VITE_TEAM_YEAR}`;
+    // document.title = `${title || ""} | ${import.meta.env.VITE_TEAM_NAME} - iGEM ${import.meta.env.VITE_TEAM_YEAR}`;
+    document.title = `${title}`;
   }, [title]);
 
   // 加载页面
