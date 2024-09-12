@@ -6,10 +6,13 @@ export function Footer() {
   const teamSlug = stringToSlug(teamName);
 
   return (
-    <footer className="pt-1 pb-1 footer py-5 mt-0 bg-wine-red text-white">
-        <hr />
+    <footer className="pt-0 pb-1 footer py-5 mt-0 text-white">
+        {/* <hr /> */}
+        <div className="wave-container bg-rice_yellow">
+          <div className="wave"></div>
+        </div>
         {/* The following MUST be on every page: license information and link to the repository on gitlab.igem.org */}
-        <div className="row">
+        <div className="row bg-wine-red ">
           <div className="col-4">
 
             {/* <div className="col-1"></div> */}

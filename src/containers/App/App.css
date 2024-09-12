@@ -485,3 +485,31 @@ footer a:hover {
   95% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+.wave-container {
+  position: relative;
+  width: 100%;
+  height: 50px; /* Full viewport height */
+  overflow: hidden;
+}
+
+.wave {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 200%; /* Ensure the wave extends beyond the viewport */
+  height: 50px; /* Height of the wave */
+  background: linear-gradient(90deg, rgba(114, 47, 55, 1) 0%, rgba(114, 47, 55, 0.4) 100%);
+  border-radius: 100%;
+  transform: rotate(180deg);
+  animation: waveAnimation 10s linear infinite;
+}
+
+@keyframes waveAnimation {
+  0% {
+    transform: translateX(-100%) rotate(180deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(180deg);
+  }
+}
