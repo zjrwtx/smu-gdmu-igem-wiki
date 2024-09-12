@@ -494,7 +494,7 @@ footer a:hover {
   overflow: hidden;
 }
 
-.wave {
+.wave1 {
   position: absolute;
   bottom: -25px;
   left: 0;
@@ -503,10 +503,10 @@ footer a:hover {
   background: linear-gradient(90deg, rgba(114, 47, 55, 1) 0%, rgba(114, 47, 55, 0.4) 100%);
   border-radius: 100%;
   transform: rotate(180deg);
-  animation: waveAnimation 10s linear infinite;
+  animation: wave1Animation 10s linear infinite;
 }
 
-@keyframes waveAnimation {
+@keyframes wave1Animation {
   0% {
     transform: translateX(-100%) rotate(180deg);
   }
@@ -514,6 +514,70 @@ footer a:hover {
     transform: translateX(100%) rotate(180deg);
   }
 }
+
+.wave2 {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 200%; /* Ensure the wave extends beyond the viewport */
+  height: 50px; /* Height of the wave */
+  background: linear-gradient(90deg, rgba(114, 47, 55, 1) 0%, rgba(114, 47, 55, 0.4) 100%);
+  border-radius: 100%;
+  transform: rotate(180deg);
+  animation: wave2Animation 30s linear infinite;
+}
+
+@keyframes wave2Animation {
+  0% {
+    transform: translateX(-100%) rotate(180deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(180deg);
+  }
+}
+
+.wave3 {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 200%; /* Ensure the wave extends beyond the viewport */
+  height: 50px; /* Height of the wave */
+  background: linear-gradient(90deg, rgba(114, 47, 55, 0.8) 0%, rgba(114, 47, 55, 0.4) 100%);
+  border-radius: 100%;
+  transform: rotate(180deg);
+  animation: wave3Animation 15s linear infinite;
+}
+
+@keyframes wave3Animation {
+  0% {
+    transform: translateX(50%) rotate(180deg);
+  }
+  100% {
+    transform: translateX(-150%) rotate(180deg);
+  }
+}
+
+.wave4 {
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 200%; /* Ensure the wave extends beyond the viewport */
+  height: 50px; /* Height of the wave */
+  background: linear-gradient(90deg, rgba(114, 47, 55, 0.5) 0%, rgba(114, 47, 55, 0.5) 100%);
+  border-radius: 100%;
+  transform: rotate(180deg);
+  animation: wave4Animation 50s linear infinite;
+}
+
+@keyframes wave4Animation {
+  0% {
+    transform: translateX(0%) rotate(180deg);
+  }
+  100% {
+    transform: translateX(-100%) rotate(180deg);
+  }
+}
+
 
 .center-block {
   height: 40%;
