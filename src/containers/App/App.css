@@ -18,6 +18,9 @@ body {
   background-color: rgb(245, 245, 220);
 }
 
+.bg-wine-red {
+  background-color: #722F37;
+}
 
 /* CALLOUT */
 .bd-callout {
@@ -417,4 +420,68 @@ footer a:hover {
 
 .green-font{
   color: #39d197;
+}
+
+
+/* footer的切换动画 */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.fade-img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fade1 {
+  animation: fade1 15s infinite;
+}
+
+@keyframes fade1 {
+  0% { opacity: 0; }
+  5% { opacity: 1; }
+  30% { opacity: 1; }
+  35% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.fade2 {
+  animation: fade2 15s infinite;
+}
+
+@keyframes fade2 {
+  0% { opacity: 0; }
+  30% { opacity: 0; }
+  35% { opacity: 1; }
+  65% { opacity: 1; }
+  70% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.fade3 {
+  animation: fade3 15s infinite;
+}
+
+@keyframes fade3 {
+  0% { opacity: 0; }
+  65% { opacity: 0; }
+  70% { opacity: 1; }
+  95% { opacity: 1; }
+  100% { opacity: 0; }
 }
