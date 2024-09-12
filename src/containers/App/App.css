@@ -427,7 +427,7 @@ footer a:hover {
 .slideshow-container {
   position: relative;
   max-width: 100%;
-  height: 100%; 
+  height: 200px; 
   overflow: hidden;
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
@@ -435,8 +435,9 @@ footer a:hover {
 
 .slide {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
+  left: 40%;
   opacity: 0;
   transition: opacity 1s ease-in-out;
   justify-content: center; /* Center horizontally */
@@ -444,8 +445,8 @@ footer a:hover {
 }
 
 .fade-img {
-  width: auto;
-  height: 100%;
+  /* width: auto; */
+  height: 200px;
   object-fit: cover;
 }
 
@@ -512,4 +513,8 @@ footer a:hover {
   100% {
     transform: translateX(100%) rotate(180deg);
   }
+}
+
+.center-block {
+  height: 40%;
 }

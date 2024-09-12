@@ -13,7 +13,7 @@ export function Footer() {
         </div>
         {/* The following MUST be on every page: license information and link to the repository on gitlab.igem.org */}
         <div className="row bg-wine-red ">
-          <div className="col-4">
+          <div className="col-7">
 
             {/* <div className="col-1"></div> */}
             {/* <div className="col-5"> */}
@@ -35,7 +35,8 @@ export function Footer() {
               /> */}
 
           </div>
-          <div className="col-8">
+          <div className="col-5">
+            <div className="center-block"></div>
             <p className="mb-0">
               <small>
                 © 2024 - Content on this site is licensed under a{" "}
