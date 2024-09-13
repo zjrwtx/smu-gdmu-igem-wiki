@@ -1,5 +1,7 @@
 body {
   padding-top: 56px;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 .left-aligned {
@@ -586,7 +588,10 @@ footer a:hover {
 .fullpage-container {
   scroll-snap-type: y mandatory; /* 启用垂直方向捕捉 */
   height: 100vh;
+  width: 101vw;
   overflow-y: scroll;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 
 .section {
