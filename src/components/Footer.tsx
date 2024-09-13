@@ -6,7 +6,9 @@ export function Footer() {
   const teamSlug = stringToSlug(teamName);
 
   return (
-    <footer className="pt-0 pb-1 footer py-5 mt--8 text-white">
+    <footer className="pt-0 pb-1 footer py-5 
+ 
+    text-white">
         {/* <hr /> */}
         <div className="wave-container bg-rice_yellow">
           <div className="wave1"></div>
