@@ -608,3 +608,7 @@ footer a:hover {
 .vh20 {
   height: 20vh;
 }
+
+.mt--8 {
+  margin-top: -8vh;
+}
