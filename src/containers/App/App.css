@@ -354,9 +354,14 @@ footer a:hover {
 .rounded-border {
   margin: 50px;
   padding: 50px;
-  border: 2px solid #f7a901; /* 设置边框的宽度和颜色 */
+  border: 2px solid #f7a901; 
+  /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
   margin-bottom: 100px;
+  /* max-width: 0.9vw; */
+  background-color: #ffa6009f;
+  box-shadow: 15px 15px 5px rgba(0,0,0,0.1);
+
 }
 
 /* 页面title的水平与垂直居中 */
