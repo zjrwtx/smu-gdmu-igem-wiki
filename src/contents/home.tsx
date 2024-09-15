@@ -59,7 +59,7 @@ export function Home() {
                 <div>我是小盒子</div>
                 <div className="rounded-border">橙色</div>
                 <p>大家好，我是文本</p>
-                <h2 className="center-text">居中小标题</h2>
+                <h2 className="center-text">居中</h2>
                 <p className="indent">大家好啊，我的开头有缩进</p>
                 <p className="center-text">大家好！我是居中文本！</p>
                 <p className="bold-font">粗粗的文本</p>
