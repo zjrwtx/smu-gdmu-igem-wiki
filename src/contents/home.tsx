@@ -57,7 +57,7 @@ export function Home() {
         <section className="section bg-rice_yellow" ref={(el) => (sectionRefs.current[1] = el as HTMLDivElement)}>
         <div className="row">
                 <div>我是小盒子</div>
-                <div className="rounded-border">有橙色边框的小盒子</div>
+                <div className="rounded-border">橙色</div>
                 <p>大家好，我是文本</p>
                 <p className="indent">大家好啊，我的开头有缩进</p>
                 <p className="center-text">大家好！我是居中文本！</p>
