@@ -122,6 +122,7 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <p className="indent">Clean areas, semi-contaminated areas, and contaminated areas should be reasonably set up in the main laboratory.</p>    
 <p className="indent">Non-experimental personnel and items are not allowed to enter the laboratory.</p>
 <p className="indent">Do not eat or drink in the laboratory, or engage in other activities unrelated to the experiment</p>          
+<h4>Training of experimental members</h4>              
               </div>
               </Element>
 
