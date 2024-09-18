@@ -128,6 +128,7 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <h3>3.2.6Principles for handling special situations in the laboratory</h3> 
 <p className="indent">In order to avoid and handle accidents caused by unsafe operations, the following principles must be strictly implemented:</p>             
 <p className="indent">a)Design safe work procedures for possible risk factors.</p>              
+<p className="indent">b)Conduct effective training and simulation training beforehand.</p>              
               </div>
               </Element>
 
