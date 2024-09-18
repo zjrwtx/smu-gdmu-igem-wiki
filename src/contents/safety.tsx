@@ -65,7 +65,7 @@ export function Safety() {
           
               
               <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>Section 1</h2>
+                 <h2>Overview</h2>
                  <p>Content for section 1.</p>
                  <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
