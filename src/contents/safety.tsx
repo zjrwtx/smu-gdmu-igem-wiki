@@ -121,8 +121,7 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <h4>Laboratory layout and access</h4>              
 <p className="indent">Clean areas, semi-contaminated areas, and contaminated areas should be reasonably set up in the main laboratory.</p>    
 <p className="indent">Non-experimental personnel and items are not allowed to enter the laboratory.</p>
-<p className="indent">Do not eat or drink in the laboratory, or engage in other activities unrelated to the experiment.
-实验成员的培训Training of experimental members</p>          
+<p className="indent">Do not eat or drink in the laboratory, or engage in other activities unrelated to the experiment</p>          
               </div>
               </Element>
 
