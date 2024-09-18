@@ -105,7 +105,10 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <p className="indent">3.2.1General provisions
 The content of laboratory biosafety protection includes safety equipment, personal protective devices and measures (first-level protection), special design and construction requirements of the laboratory (second-level protection), strict management systems and standardized operating procedures and regulations.
 Our laboratory has a dedicated biosafety officer.</p>
-<p className="indent">3.2.2Personal protective</p>
+<p className="indent">3.2.2Personal protective
+Personal protective equipment cannot reduce the concentration of harmful substances in the workplace, nor can it eliminate the harmful substances present in the workplace. However, it is the last barrier to protect people from harm. As an auxiliary preventive measure, correct use of personal protective equipment can prevent or reduce the occurrence of safety accidents, etc.
+Therefore, in the daily work of the laboratory, the importance of personal protective equipment is self-evident. Among them, hand protection is of utmost importance, because our hands are the most frequently used parts in experimental operations. Gloves can protect our hands from burns, punctures, and vibration injuries, and can also avoid direct contact with chemicals on the skin of our hands.
+Laboratory members also need to be equipped with other necessary personal protective equipment, such as wearing white coats and masks.</p>
               </div>
               </Element>
 
