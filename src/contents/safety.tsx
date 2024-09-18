@@ -91,7 +91,7 @@ The next page details the security measures and considerations our team has take
 
               <Element name="section3" className="element rounded-border" id='section3'>
               <h2>Safe Lab Work</h2>
-              <p>Content for section 3.</p>
+              <p>3.1Laboratory</p>
               <div className="rounded-border">
               <h4 className="center-text">Section 3</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
