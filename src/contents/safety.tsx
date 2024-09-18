@@ -101,6 +101,7 @@ The laboratory is equipped with a ventilation system with exhaust purification d
 The laboratory is equipped with high-pressure sterilization equipment.
 Various equipment in the laboratory will undergo regular maintenance and be promptly shut down after use.</p>
 <p>3.2safety principles</p>
+<h6 className="center-text">3.2safety principles</h6>
               </div>
               </Element>
 
