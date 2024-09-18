@@ -109,6 +109,9 @@ Our laboratory has a dedicated biosafety officer.</p>
 Personal protective equipment cannot reduce the concentration of harmful substances in the workplace, nor can it eliminate the harmful substances present in the workplace. However, it is the last barrier to protect people from harm. As an auxiliary preventive measure, correct use of personal protective equipment can prevent or reduce the occurrence of safety accidents, etc.
 Therefore, in the daily work of the laboratory, the importance of personal protective equipment is self-evident. Among them, hand protection is of utmost importance, because our hands are the most frequently used parts in experimental operations. Gloves can protect our hands from burns, punctures, and vibration injuries, and can also avoid direct contact with chemicals on the skin of our hands.
 Laboratory members also need to be equipped with other necessary personal protective equipment, such as wearing white coats and masks.</p>
+<p className="indent">3.2.3Laboratory safety
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+The building where the laboratory is located has emergency passages, fire exits, fire equipment, and emergency lighting devices; and our colleagues in the Experimental Group also remember how to quickly escape from the scene when any safety accident occurs to ensure their own safety;There is also a first aid medicine storage area in the corridor for easy use when necessary.</p>   
               </div>
               </Element>
 
