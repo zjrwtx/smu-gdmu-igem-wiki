@@ -119,9 +119,10 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <h3>3.2.5Management and security system</h3>
 <h4 className="center-text">Laboratory basic management</h4>
 <h4>Laboratory layout and access</h4>              
-<p className="indent"></p>    
-<p className="indent"></p>
-<p className="indent"></p>          
+<p className="indent">Clean areas, semi-contaminated areas, and contaminated areas should be reasonably set up in the main laboratory.</p>    
+<p className="indent">Non-experimental personnel and items are not allowed to enter the laboratory.</p>
+<p className="indent">Do not eat or drink in the laboratory, or engage in other activities unrelated to the experiment.
+实验成员的培训Training of experimental members</p>          
               </div>
               </Element>
 
