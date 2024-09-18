@@ -100,6 +100,7 @@ The next page details the security measures and considerations our team has take
 The laboratory is equipped with a ventilation system with exhaust purification devices and other equipment that does not allow microorganisms to escape to ensure safety.
 The laboratory is equipped with high-pressure sterilization equipment.
 Various equipment in the laboratory will undergo regular maintenance and be promptly shut down after use.</p>
+<p>3.2safety principles</p>
               </div>
               </Element>
 
