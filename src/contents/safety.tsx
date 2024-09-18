@@ -125,6 +125,7 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <h4>Training of experimental members</h4> 
 <p className="indent">Members of our Experimental Group have received professional experimental guidance under the guidance of our advisor.</p>             
 <p className="indent">Members of the Experimental Group always comply with all regulations, rules, and operating procedures of the laboratory.</p> 
+<p className="indent">All members of the Experimental Group have passed the assessment of experimental skills and safety.</p>              
               </div>
               </Element>
 
