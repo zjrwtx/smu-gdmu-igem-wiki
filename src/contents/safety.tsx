@@ -94,7 +94,7 @@ The next page details the security measures and considerations our team has take
               
               <div className="rounded-border">
               <h3>3.1  Laboratory</h3>
-              {/* <h4 className="center-text">Section 3</h4> */}
+              {/* <h4 className="center-text">3.1Laboratory</h4> */}
               <p className="indent">Our experiment was conducted by the iGEM laboratory of Southern Medical University. It is a laboratory with a biosafety protection level of Level 2 (BSL-II), which complies with the provisions of the Biosafety Law of the People's Republic of China and the General Biosafety Guidelines for Pathogenic Microbial Laboratories.</p>
               <h4>Experimental equipment</h4>
               <p className="indent">The biosafety cabinet is the most important safety equipment and the main protective barrier. The laboratory should be equipped with a secondary biosafety cabinet as required. All related operations must be carried out inside the biosafety cabinet.Fill in the registration form consciously every time you use it.
@@ -113,6 +113,19 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <h3>3.2.3  Laboratory safety</h3>
 <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
 <p className="indent">The building where the laboratory is located has emergency passages, fire exits, fire equipment, and emergency lighting devices; and our colleagues in the Experimental Group also remember how to quickly escape from the scene when any safety accident occurs to ensure their own safety;There is also a first aid medicine storage area in the corridor for easy use when necessary.</p>   
+<h3>3.2.4Laboratory waste treatment</h3>
+<p className="indent">According to the "Regulations on the Management of Medical Waste" of the State Council and the "Measures for the Management of Medical Waste in Medical and Health Institutions" of the former Ministry of Health, we manage laboratory waste from the following aspects: ① Designate a dedicated person in the laboratory to be responsible for and coordinate the management of various types of waste; ② Establish waste classification, isolation, packaging, transportation, storage, and disposal procedures in the laboratory; ③ Members of the Experimental Group should correctly dispose of waste to their respective garbage bins, and all solutions and plates should be marked; ④ Strictly follow the waste disposal system and procedures, and have processing records.</p>
+<p className="indent">We also have a special waste treatment process for bacteria and other microorganisms, as shown in the figure:</p>             
+<h3>3.2.5Management and security system</h3>
+<h4>Laboratory layout and access</h4>              
+<p className="indent">Clean areas, semi-contaminated areas, and contaminated areas should be reasonably set up in the main laboratory.</p>    
+<p className="indent">Non-experimental personnel and items are not allowed to enter the laboratory.</p>
+<p className="indent">Do not eat or drink in the laboratory, or engage in other activities unrelated to the experiment</p>          
+<h4>Training of experimental members</h4> 
+<p className="indent">Members of our Experimental Group have received professional experimental guidance under the guidance of our advisor.</p>             
+<p className="indent">Members of the Experimental Group always comply with all regulations, rules, and operating procedures of the laboratory.</p> 
+<p className="indent">All members of the Experimental Group have passed the assessment of experimental skills and safety.</p>              
+<h3>3.2.6Principles for handling special situations in the laboratory</h3>              
               </div>
               </Element>
 
