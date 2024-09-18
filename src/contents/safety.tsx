@@ -94,7 +94,7 @@ The next page details the security measures and considerations our team has take
               
               <div className="rounded-border">
               <h3>3.1  Laboratory</h3>
-              {/* <h4 className="center-text">Section 3</h4> */}
+              {/* <h4 className="center-text">3.1Laboratory</h4> */}
               <p className="indent">Our experiment was conducted by the iGEM laboratory of Southern Medical University. It is a laboratory with a biosafety protection level of Level 2 (BSL-II), which complies with the provisions of the Biosafety Law of the People's Republic of China and the General Biosafety Guidelines for Pathogenic Microbial Laboratories.</p>
               <h4>Experimental equipment</h4>
               <p className="indent">The biosafety cabinet is the most important safety equipment and the main protective barrier. The laboratory should be equipped with a secondary biosafety cabinet as required. All related operations must be carried out inside the biosafety cabinet.Fill in the registration form consciously every time you use it.
