@@ -127,6 +127,7 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <p className="indent">All members of the Experimental Group have passed the assessment of experimental skills and safety.</p>              
 <h3>3.2.6Principles for handling special situations in the laboratory</h3> 
 <p className="indent">In order to avoid and handle accidents caused by unsafe operations, the following principles must be strictly implemented:</p>             
+<p className="indent">a)Design safe work procedures for possible risk factors.</p>              
               </div>
               </Element>
 
