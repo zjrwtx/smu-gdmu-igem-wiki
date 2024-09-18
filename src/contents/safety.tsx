@@ -135,7 +135,7 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
               </Element>
 
               <Element name="section4" className="element rounded-border" id='section4'>
-              <h2>Section 4</h2>
+              <h2>Biological Safe</h2>
               <p>Content for section 4.</p>
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
