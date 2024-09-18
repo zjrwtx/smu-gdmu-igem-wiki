@@ -125,7 +125,8 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <p className="indent">Members of our Experimental Group have received professional experimental guidance under the guidance of our advisor.</p>             
 <p className="indent">Members of the Experimental Group always comply with all regulations, rules, and operating procedures of the laboratory.</p> 
 <p className="indent">All members of the Experimental Group have passed the assessment of experimental skills and safety.</p>              
-<h3>3.2.6Principles for handling special situations in the laboratory</h3>              
+<h3>3.2.6Principles for handling special situations in the laboratory</h3> 
+<p className="indent">In order to avoid and handle accidents caused by unsafe operations, the following principles must be strictly implemented:</p>             
               </div>
               </Element>
 
