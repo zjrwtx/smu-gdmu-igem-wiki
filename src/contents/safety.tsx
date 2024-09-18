@@ -102,6 +102,9 @@ The laboratory is equipped with high-pressure sterilization equipment.
 Various equipment in the laboratory will undergo regular maintenance and be promptly shut down after use.</p>
 <p>3.2safety principles</p>
 <h6 className="center-text">Throughout the experiment, our team members who conducted the experiment always followed the basic principles of laboratory bioprotection.</h6>
+<p className="indent">3.2.1General provisions
+The content of laboratory biosafety protection includes safety equipment, personal protective devices and measures (first-level protection), special design and construction requirements of the laboratory (second-level protection), strict management systems and standardized operating procedures and regulations.
+Our laboratory has a dedicated biosafety officer.</p>
               </div>
               </Element>
 
