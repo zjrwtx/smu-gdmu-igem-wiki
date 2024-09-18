@@ -105,6 +105,7 @@ Various equipment in the laboratory will undergo regular maintenance and be prom
 <p className="indent">3.2.1General provisions
 The content of laboratory biosafety protection includes safety equipment, personal protective devices and measures (first-level protection), special design and construction requirements of the laboratory (second-level protection), strict management systems and standardized operating procedures and regulations.
 Our laboratory has a dedicated biosafety officer.</p>
+<p className="indent">3.2.2Personal protective</p>
               </div>
               </Element>
 
