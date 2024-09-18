@@ -316,6 +316,7 @@ footer a:hover {
   width: 100%; /* 图片宽度自适应容器 */
   height: auto; /* 保持图片纵横比 */
   display: block; /* 去掉图片下方的空隙 */
+  margin: 2px;
 }
 
 .full-height-element {
@@ -616,4 +617,8 @@ footer a:hover {
 
 .mt--8 {
   margin-top: -8vh;
+}
+
+.height100 {
+  height: 100%;
 }

@@ -63,27 +63,38 @@ export function Notebook() {
         <div className="col-8">
           
               
-              <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>Section 1</h2>
+              <Element name="section1" className="element" id='section1'>
+                <div className='row'>
+                  <div className='col-4'><img src='https://placehold.co/600x400' className='responsive-img' /></div>
+                  <div className='col-6 rounded-border'>
+                    <h4 className="center-text">我是大帅B</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+                </div>
+                </div>
+                </Element>
+                 {/* <h2>Section 1</h2>
                  <p>Content for section 1.</p>
                  <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
                 className="responsive-img"
-              />
-               </Element>
+              /> */}
+
           
 
           
               
-              <Element name="section2" className="element rounded-border" id='section2'>
-                <h2>Section 2</h2>
-                <p>Content for section 2.</p>
-                <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
-                className="responsive-img"
-              />
+              <Element name="section2" className="element" id='section2'>
+              <div className='row'>
+              <div className='col-6 rounded-border'>
+                    <h4 className="center-text">我是大帅B</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+                </div>
+                  <div className='col-4'><img src='https://placehold.co/600x400' className='responsive-img' /></div>
+                  
+                </div>
               </Element>
           
 
