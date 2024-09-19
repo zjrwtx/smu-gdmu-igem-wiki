@@ -51,7 +51,8 @@ export function Navbar() {
     <BootstrapNavbar expand="lg" className="bg-body-tertiary" fixed="top">
       <Container>
         <BootstrapNavbar.Brand className="left-aligned">
-          {import.meta.env.VITE_TEAM_NAME}
+          {/* {import.meta.env.VITE_TEAM_NAME} */}
+          <img src="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp" className="navbar-img" />
         </BootstrapNavbar.Brand>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">

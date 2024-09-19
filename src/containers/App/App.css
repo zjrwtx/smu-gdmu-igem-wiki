@@ -622,3 +622,8 @@ footer a:hover {
 .height100 {
   height: 100%;
 }
+
+.navbar-img {
+  height: 120px;
+  width:auto;
+}
