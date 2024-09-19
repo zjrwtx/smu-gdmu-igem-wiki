@@ -103,25 +103,25 @@ The laboratory is equipped with high-pressure sterilization equipment.
 Various equipment in the laboratory will undergo regular maintenance and be promptly shut down after use.</p>
 <h3>3.2  safety principles</h3>
 <p className="indent">Throughout the experiment, our team members who conducted the experiment always followed the basic principles of laboratory bioprotection.</p>
-<h3>3.2.1  General provisions</h3>
+<h4>3.2.1  General provisions</h4>
 <p className="indent">The content of laboratory biosafety protection includes safety equipment, personal protective devices and measures (first-level protection), special design and construction requirements of the laboratory (second-level protection), strict management systems and standardized operating procedures and regulations.</p>
 <p className="indent">Our laboratory has a dedicated biosafety officer.</p>
-<h3>3.2.2  Personal protective</h3>
+<h4>3.2.2  Personal protective</h4>
 <p className="indent">Personal protective equipment cannot reduce the concentration of harmful substances in the workplace, nor can it eliminate the harmful substances present in the workplace. However, it is the last barrier to protect people from harm. As an auxiliary preventive measure, correct use of personal protective equipment can prevent or reduce the occurrence of safety accidents, etc.</p>
 <p className="indent">Therefore, in the daily work of the laboratory, the importance of personal protective equipment is self-evident. Among them, hand protection is of utmost importance, because our hands are the most frequently used parts in experimental operations. Gloves can protect our hands from burns, punctures, and vibration injuries, and can also avoid direct contact with chemicals on the skin of our hands.</p>
 <p className="indent">Laboratory members also need to be equipped with other necessary personal protective equipment, such as wearing white coats and masks.</p>
-<h3>3.2.3  Laboratory safety</h3>
+<h4>3.2.3  Laboratory safety</h4>
 <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
 <p className="indent">The building where the laboratory is located has emergency passages, fire exits, fire equipment, and emergency lighting devices; and our colleagues in the Experimental Group also remember how to quickly escape from the scene when any safety accident occurs to ensure their own safety;There is also a first aid medicine storage area in the corridor for easy use when necessary.</p>   
-<h3>3.2.4Laboratory waste treatment</h3>
+<h4>3.2.4Laboratory waste treatment</h4>
 <p className="indent">According to the "Regulations on the Management of Medical Waste" of the State Council and the "Measures for the Management of Medical Waste in Medical and Health Institutions" of the former Ministry of Health, we manage laboratory waste from the following aspects: ① Designate a dedicated person in the laboratory to be responsible for and coordinate the management of various types of waste; ② Establish waste classification, isolation, packaging, transportation, storage, and disposal procedures in the laboratory; ③ Members of the Experimental Group should correctly dispose of waste to their respective garbage bins, and all solutions and plates should be marked; ④ Strictly follow the waste disposal system and procedures, and have processing records.</p>
 <p className="indent">We also have a special waste treatment process for bacteria and other microorganisms, as shown in the figure:</p>             
-<h3>3.2.5Management and security system</h3>
-<h4>Laboratory layout and access</h4>              
+<h4>3.2.5Management and security system</h4>
+<h5>Laboratory layout and access</h5>              
 <p className="indent">Clean areas, semi-contaminated areas, and contaminated areas should be reasonably set up in the main laboratory.</p>    
 <p className="indent">Non-experimental personnel and items are not allowed to enter the laboratory.</p>
 <p className="indent">Do not eat or drink in the laboratory, or engage in other activities unrelated to the experiment</p>          
-<h4>Training of experimental members</h4> 
+<h5>Training of experimental members</h5> 
 <p className="indent">Members of our Experimental Group have received professional experimental guidance under the guidance of our advisor.</p>             
 <p className="indent">Members of the Experimental Group always comply with all regulations, rules, and operating procedures of the laboratory.</p> 
 <p className="indent">All members of the Experimental Group have passed the assessment of experimental skills and safety.</p>              
