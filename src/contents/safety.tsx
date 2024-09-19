@@ -84,6 +84,7 @@ The next page details the security measures and considerations our team has take
                 <p>Content for section 2.</p>
                 <h3>2.2Parts Safety</h3>
                 <h3>2.3Suicidal System</h3>
+                <h3>2.4Safety Module</h3>
                 <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
