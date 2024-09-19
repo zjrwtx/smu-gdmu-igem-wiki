@@ -80,6 +80,7 @@ The next page details the security measures and considerations our team has take
               
               <Element name="section2" className="element rounded-border" id='section2'>
                 <h2>Safe Project Design</h2>
+                <h3>2.1Chassis Safety</h3>
                 <p>Content for section 2.</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
