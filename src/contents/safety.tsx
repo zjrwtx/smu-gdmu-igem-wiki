@@ -81,7 +81,7 @@ The next page details the security measures and considerations our team has take
               <Element name="section2" className="element rounded-border" id='section2'>
               <h2 className="center-text">Safe Project Design</h2>
                 <h3>2.1Chassis Safety</h3>
-                <p className="indent"Our project design took safety into account and ultimately chose E. coli Nissle 1917 as our chassis, which was included in the white list and classified as Biosafety Level 1 (BSL-1).</p>
+                <p className="indent">Our project design took safety into account and ultimately chose E. coli Nissle 1917 as our chassis, which was included in the white list and classified as Biosafety Level 1 (BSL-1).</p>
                 <p className="indent">Escherichia coli Nissle 1917 is an oral probiotic commonly used to treat various gastrointestinal diseases, including diarrhea, ulcerative colitis, etc.</p>
                 <h3>2.2Parts Safety</h3>
                 <h3>2.3Suicidal System</h3>
