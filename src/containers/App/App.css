@@ -504,10 +504,10 @@ footer a:hover {
 
 .wave1 {
   position: absolute;
-  bottom: -25px;
+  bottom: -50px;
   left: 0;
   width: 200%; /* Ensure the wave extends beyond the viewport */
-  height: 50px; /* Height of the wave */
+  height: 100px; /* Height of the wave */
   background: linear-gradient(90deg, rgba(114, 47, 55, 1) 0%, rgba(114, 47, 55, 0.4) 100%);
   border-radius: 100%;
   transform: rotate(180deg);
@@ -525,10 +525,10 @@ footer a:hover {
 
 .wave2 {
   position: absolute;
-  bottom: -25px;
+  bottom: -50px;
   left: 0;
   width: 200%; /* Ensure the wave extends beyond the viewport */
-  height: 50px; /* Height of the wave */
+  height: 100px; /* Height of the wave */
   background: linear-gradient(90deg, rgba(114, 47, 55, 1) 0%, rgba(114, 47, 55, 0.4) 100%);
   border-radius: 100%;
   transform: rotate(180deg);
@@ -546,10 +546,10 @@ footer a:hover {
 
 .wave3 {
   position: absolute;
-  bottom: -25px;
+  bottom: -50px;
   left: 0;
   width: 200%; /* Ensure the wave extends beyond the viewport */
-  height: 50px; /* Height of the wave */
+  height: 100px; /* Height of the wave */
   background: linear-gradient(90deg, rgba(114, 47, 55, 0.8) 0%, rgba(114, 47, 55, 0.4) 100%);
   border-radius: 100%;
   transform: rotate(180deg);
@@ -567,10 +567,10 @@ footer a:hover {
 
 .wave4 {
   position: absolute;
-  bottom: -25px;
+  bottom: -50px;
   left: 0;
   width: 200%; /* Ensure the wave extends beyond the viewport */
-  height: 50px; /* Height of the wave */
+  height: 100px; /* Height of the wave */
   background: linear-gradient(90deg, rgba(114, 47, 55, 0.5) 0%, rgba(114, 47, 55, 0.5) 100%);
   border-radius: 100%;
   transform: rotate(180deg);
@@ -601,7 +601,7 @@ footer a:hover {
 }
 
 .section {
-  padding-top: 20px;
+  padding-top: 200px;
   height: 100vh;
   /* display: flex;
   justify-content: center;
