@@ -82,6 +82,7 @@ The next page details the security measures and considerations our team has take
                 <h2>Safe Project Design</h2>
                 <h3>2.1Chassis Safety</h3>
                 <p>Content for section 2.</p>
+                <h3>2.2Parts Safety</h3>
                 <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
