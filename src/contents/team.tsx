@@ -40,7 +40,11 @@ export function Team() {
   return (
     <>
         <div className="custom-header-team">
-        <h1 className="centered-title">TEAM</h1>
+        <h1 className="centered-title"><img 
+                src="https://static.igem.wiki/teams/5378/header/team.webp"
+                alt="team header"
+                className="header-img"
+              /></h1>
         </div>
       <div className="row bg-rice_yellow">
         <div className='row justify-content-center h1'>SMU&GDMU CREW</div>
