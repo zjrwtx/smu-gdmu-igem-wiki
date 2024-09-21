@@ -1,0 +1,37 @@
+.custom-navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  }
+  
+  .navbar-img {
+    height: 40px;
+    width: auto;
+  }
+  
+  .custom-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .custom-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .custom-dropdown-menu {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  }
+  
+  .custom-dropdown-menu .dropdown-item {
+    color: #333;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-dropdown-menu .dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
