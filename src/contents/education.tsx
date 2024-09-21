@@ -10,10 +10,10 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
   return (
     <div className="side-navbar">
       <Nav className="flex-column">
-        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>1.Overall</Nav.Link>
-        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>2.Production of science brochures</Nav.Link>
-        <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>3.Initial outreach on university campuses</Nav.Link>
-        <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>4.Community involvement</Nav.Link>
+        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>Section 1</Nav.Link>
+        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Section 2</Nav.Link>
+        <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Section 3</Nav.Link>
+        <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>Section 4</Nav.Link>
         <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>Section 5</Nav.Link>
         <Nav.Link as={Link} to="section6" smooth={true} duration={500} className={activeLink === 'section6' ? 'active' : 'notActive'}>Section 6</Nav.Link>
         <Nav.Link as={Link} to="section7" smooth={true} duration={500} className={activeLink === 'section7' ? 'active' : 'notActive'}>Section 7</Nav.Link>
@@ -64,14 +64,8 @@ export function Education() { // sidenavbar begin
           
               
               <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>1.overview</h2>
-                 <p>Alone, we can do little, so little, together we can do so much.”——Helen Keller
-This year, our team has invested tremendous effort in education, as we all firmly believe that the promotion and advancement of synthetic biology cannot be achieved without the inclusion and participation of the public, and that this is the foundation for scientific collaboration. We have reached out to:
-- Infrastructure work: Designing and producing pamphlets on knowledge of hepatic encephalopathy for popularization of the subject on campuses, hospitals and in the community.
-- Initial rollout: Conducted scientific lectures on university campuses to promote knowledge of hepatic encephalopathy and synthetic biology among university students.
-- Community involvement: Distribution of pamphlets in the community to sensitize the general public on science and technology
-- Deepen education: Introduction to Synthetic Biology through science interaction and fun videos
-- Wide dissemination: Traveled to marginalized mountainous areas of Sichuan to conduct in-depth interviews and panel discussions on “Hepatic Encephalopathy”. Provided more detailed care and support for the health of the local population.</p>
+                 <h2>Section 1</h2>
+                 <p>Content for section 1.</p>
                  <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
