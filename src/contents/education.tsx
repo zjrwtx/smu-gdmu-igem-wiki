@@ -63,9 +63,15 @@ export function Education() { // sidenavbar begin
         <div className="col-8">
           
               
-              <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>Section 1</h2>
-                 <p>Content for section 1.</p>
+              <Element name="1.overview" className="element rounded-border" id='1.overview'>
+                 <h2>1.overview</h2>
+                 <h3>Alone, we can do little, so little, together we can do so much.”——Helen Keller</h3>
+                 <p>This year, our team has invested tremendous effort in education, as we all firmly believe that the promotion and advancement of synthetic biology cannot be achieved without the inclusion and participation of the public, and that this is the foundation for scientific collaboration. We have reached out to:</p>
+                 <p>- Infrastructure work: Designing and producing pamphlets on knowledge of hepatic encephalopathy for popularization of the subject on campuses, hospitals and in the community.</p>
+                 <p>- Initial rollout: Conducted scientific lectures on university campuses to promote knowledge of hepatic encephalopathy and synthetic biology among university students.</p>
+                 <p>- Community involvement: Distribution of pamphlets in the community to sensitize the general public on science and technology</p>
+                 <p>- Deepen education: Introduction to Synthetic Biology through science interaction and fun videos</p>
+                 <p>- Wide dissemination: Traveled to marginalized mountainous areas of Sichuan to conduct in-depth interviews and panel discussions on “Hepatic Encephalopathy”. Provided more detailed care and support for the health of the local population.</p>
                  <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
