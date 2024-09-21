@@ -362,6 +362,17 @@ footer a:hover {
   height: auto;
 }
 
+.sticky-words {
+  font-size: large;
+}
+.sticky-img {
+  width: 100%; /* 图片宽度自适应容器 */
+  height: auto; /* 保持图片纵横比 */
+  /* display: block; 去掉图片下方的空隙 */
+  margin: 2px;
+  max-height: 60vh;
+}
+
 .row-custom-height-card {
   height: 300px; /* 你可以根据需要调整高度 */
 }

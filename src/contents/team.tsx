@@ -44,10 +44,11 @@ const Card: React.FC<CardProps> = ({ image1, image2, title1,  description1,  id,
   );
 };
 
-const StickyImageContainer: React.FC<{ image: string }> = ({ image }) => {
+const StickyImageContainer: React.FC<{ image: string ,words: string}> = ({ image,words }) => {
   return (
     <div className="sticky-container" >
-      <img src={image} alt="Sticky" className='responsive-img' />
+      <img src={image} alt="Sticky" className='sticky-img' />
+      <p className='sticky-words'>{words}</p>
     </div>
   );
 };
@@ -65,6 +66,13 @@ export function Team() {
     card2: 'https://static.igem.wiki/teams/5378/school-badge/gdmu.webp',
     card3: 'https://static.igem.wiki/teams/5378/image/zxa-tp.webp',
     card4: 'https://static.igem.wiki/teams/5378/safety/03-111.webp'
+  };
+
+  const words = {
+    card1: '大家好啊，我是zxa，asdasdsadasdsasdadwdawdawdasdawdawsdaw附件格式艰苦虎骨酒扣税的哎u了如何改进南方灯具开关哎u人身攻击喀什地方韩国u爱我人员孤独和干部埃卢瑞干哈及时答复客户给',
+    card2: '我是wyf，地地道道的地地道道的地对地导弹顶顶顶顶',
+    card3: '我是leeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
+    card4: '芜湖'
   };
 
   // 下方定义重要！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
@@ -92,7 +100,7 @@ export function Team() {
         {/* 左侧sticky容器 */}
         <div className="col-4">
           {/* 下方设置默认显示图像 */}
-          <StickyImageContainer image={hoveredCardId ? images[hoveredCardId] : 'https://static.igem.wiki/teams/5378/school-badge/smu.webp'} />
+          <StickyImageContainer image={hoveredCardId ? images[hoveredCardId] : 'https://placehold.co/600x800'} words={hoveredCardId ? words[hoveredCardId] : "Good to see you here!!"} />
         </div>
 
         {/* 卡片区域 */}
@@ -103,7 +111,7 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card1"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image1="https://placehold.co/600x800"
                 image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
                 title1="Xingan Zhao"
                 description1="Shall we?"
@@ -114,7 +122,7 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card2"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image1="https://placehold.co/600x800"
                 image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
@@ -125,7 +133,7 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card3"
-                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
+                image1="https://placehold.co/600x800"
                 image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
@@ -136,7 +144,7 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card4"
-                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
+                image1="https://placehold.co/600x800"
                 image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
                 title1="SMU"
                 description1="SMU Description."
