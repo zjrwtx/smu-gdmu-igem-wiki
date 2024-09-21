@@ -105,7 +105,7 @@ export function Education() { // sidenavbar begin
                 <p>After the education of university students, We think we are more effective, but the platform on campus is more limited. We published our results and iGEM news on our WeChat, Video and QQ pages. As a newly formed team, we were able to attract a large audience on social media channels with the strong support of the university and the publicity of our instructors and students.</p>
                 <p>We contacted a social worker service station, and with their support, we went into the surrounding community with them to popularize synthetic biology and the topic of hepatic encephalopathy, and gained the public's recognition and support. </p>
                 <img 
-                  src="https://static.igem.wiki/teams/5378/.webp"
+                  src="https://static.igem.wiki/teams/5378/social-work-station.webp"
                   alt="example"
                   className="responsive-img"
                 />           
