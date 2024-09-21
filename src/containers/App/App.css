@@ -8,6 +8,10 @@ body {
   margin-left: auto;
 }
 
+.bg-gray {
+  background-color: #A9A9A9;
+}
+
 .bg-dark {
   background-color: #343a40 !important;
 }
@@ -679,4 +683,11 @@ footer a:hover {
   height: 30%;
   width: auto;
   
+}
+
+.center-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }

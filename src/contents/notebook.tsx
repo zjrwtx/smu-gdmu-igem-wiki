@@ -64,15 +64,21 @@ export function Notebook() {
           
               
               <Element name="section1" className="element" id='section1'>
-                <div className='row'>
-                  <div className='col-4'><img src='https://placehold.co/600x400' className='responsive-img' /></div>
-                  <div className='col-6 rounded-border'>
-                    <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-                </div>
+                <div className='row center-div'>
+                  <div className='col-4 '><img src='https://placehold.co/600x400' className='responsive-img' /></div>
+                    <div className='col-6 '>
+                      <div className='rounded-border '>
+                        <h3 className="center-text">我是大帅B</h3>
+                        <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+                        <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+                      </div>
+                    </div>
                 </div>
                 </Element>
+
+                <div className="bd-callout bd-callout-info bg-gray">
+                  <h1>没有什么能够阻挡我们！！</h1>
+                </div>
                  {/* <h2>Section 1</h2>
                  <p>Content for section 1.</p>
                  <img 
@@ -86,15 +92,16 @@ export function Notebook() {
           
               
               <Element name="section2" className="element" id='section2'>
-              <div className='row'>
-              <div className='col-6 rounded-border'>
-                    <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-                </div>
-                  <div className='col-4'><img src='https://placehold.co/600x400' className='responsive-img' /></div>
-                  
-                </div>
+                  <div className='row center-div'>
+                      <div className='col-6 '>
+                        <div className='rounded-border '>
+                          <h3 className="center-text">我是大帅B</h3>
+                          <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+                          <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+                        </div>
+                      </div>
+                      <div className='col-4'><img src='https://placehold.co/600x400' className='responsive-img' /></div>
+                  </div>
               </Element>
           
 
