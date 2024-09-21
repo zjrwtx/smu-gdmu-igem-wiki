@@ -308,6 +308,7 @@ footer a:hover {
   height: auto; /* 保持图片纵横比 */
   display: block; /* 去掉图片下方的空隙 */
   margin: 2px;
+  max-height: 100%;
 }
 
 .full-height-element {
@@ -318,20 +319,47 @@ footer a:hover {
 .card-container {
   max-width: 300px;
   margin: auto;
-  height: 500px;
+  height: auto;
+  margin-bottom: 150px;
 }
 
 .card {
   transition: transform 0.2s;
+  width: 100%;
+  /* height: 400px; */
+}
+
+.card-body {
+  display: flex;
+
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  font-size: large;
+
 }
 
 .card-img-top {
-  width: 300px;
-  height: 400px;
+  width: 100%;
+  height: auto;
 }
 
 .card-container:hover .card {
   transform: scale(1.05);
+}
+
+.sticky-container {
+  position: sticky;
+  top: 200px; /* 设置元素在滚动时保持与页面顶部的距离 */
+  margin: 10px;
+  margin-bottom: 150px;
+  padding: 30px;
+  border: 2px solid #f7a901; 
+  border-radius: 10px; 
+  background-color: #f77001a6;
+  height: auto;
 }
 
 .row-custom-height-card {
@@ -366,6 +394,7 @@ footer a:hover {
   /* max-width: 0.9vw; */
   background-color: #ffa600c0;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+  transform: scale(1.01);
 
 }
 
@@ -390,7 +419,7 @@ footer a:hover {
 .side-navbar {
   width: 250px;
   position: sticky;
-  top: 0;
+  top: 200px;
   left: 0;
   height: auto;
   background-color: rgb(245, 245, 220);
@@ -399,7 +428,8 @@ footer a:hover {
   /* margin-top: 500px; */
   margin-left: 20px;
   padding: 20px;
-  padding-top: 140px;
+  margin-top: 100px;
+  /* padding-top: 140px; */
 }
 
 .side-navbar .nav-link {

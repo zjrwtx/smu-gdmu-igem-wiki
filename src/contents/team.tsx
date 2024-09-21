@@ -4,125 +4,360 @@ interface CardProps {
   image1: string;
   image2: string;
   title1: string;
-  title2: string;
   description1: string;
-  description2: string;
+  id: string;
+  onHover: (id: string, isHovered: boolean) => void; // 添加回调函数，用于父组件通知悬浮状态
 }
 
-const Card: React.FC<CardProps> = ({ image1, image2, title1,title2, description1,description2 }) => {
-  const [hover, setHover] = useState(false);
-
+const Card: React.FC<CardProps> = ({ image1, image2, title1,  description1,  id, onHover }) => {
+  const [isHovered, setIsHovered] = useState(false);
   return (
-    <div 
+    <div
       className="card-container"
-      onMouseEnter={() => setHover(true)}
-      onMouseLeave={() => setHover(false)}
+      onMouseEnter={() => {
+        setIsHovered(true)
+        onHover(id, true)
+      }} // 鼠标悬浮时触发
+      onMouseLeave={() => {
+        setIsHovered(false)
+        onHover(id, false)
+      }} // 鼠标离开时触发
     >
       <div className="card">
-        <img 
-          src={hover ? image2 : image1} 
-          alt={title1} 
+        <img
+          src={isHovered ? image2 : image1}
+          alt={title1}
           className="card-img-top"
         />
-        <div className="card-body">
-
-          <h5 className="card-title">{hover? title2:title1}</h5>
-          <p className="card-text">{hover?description2:description1}</p>
-
-        </div>
+        {isHovered ? (  // 根据 isHovered 状态控制内容渲染
+          <div className="card-body">
+            <h5 className="card-title">{description1}</h5>
+          </div>
+        ) : (
+          <div className="card-body">
+            <h5 className="card-title">{title1}</h5>
+          </div>
+        )}
+        
       </div>
     </div>
   );
 };
 
+const StickyImageContainer: React.FC<{ image: string }> = ({ image }) => {
+  return (
+    <div className="sticky-container" >
+      <img src={image} alt="Sticky" className='responsive-img' />
+    </div>
+  );
+};
+
+
+// 下方定义重要！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
 export function Team() {
-  
+  const [hoveredCardId, setHoveredCardId] = useState<"card1" | "card2" | "card3" | "card4" | null>(null);
+
+
+  // 定义每个卡片的图像，当悬浮时左侧显示相应的图像
+  // 下方的定义重要！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+  const images = {
+    card1: 'https://static.igem.wiki/teams/5378/school-badge/smu.webp',
+    card2: 'https://static.igem.wiki/teams/5378/school-badge/gdmu.webp',
+    card3: 'https://static.igem.wiki/teams/5378/image/zxa-tp.webp',
+    card4: 'https://static.igem.wiki/teams/5378/safety/03-111.webp'
+  };
+
+  // 下方定义重要！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
+  const handleCardHover = (id: string, isHovered: boolean) => {
+    if (isHovered) {
+      setHoveredCardId(id as "card1" | "card2" | "card3" | "card4");
+    } else {
+      setHoveredCardId(null);
+    }
+  };
+
   return (
     <>
-        <div className="custom-header-team">
-        <h1 className="centered-title"><img 
-                src="https://static.igem.wiki/teams/5378/header/team.webp"
-                alt="team header"
-                className="header-img"
-              /></h1>
-        </div>
-      <div className="row bg-rice_yellow">
-        <div className='row justify-content-center h1'>SMU&GDMU CREW</div>
-        <div className="col-2"></div>
-        <div className="col-2">
-          <div className='row-custom-height-card-space'></div>
-          <Card 
-          image1= "https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-          image2= "https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
-          title1="SMU" 
-          title2='GDMU'
-          description1="SMU Description."
-          description2='GDMU Description'
+      <div className="custom-header-team">
+        <h1 className="centered-title">
+          <img 
+            src="https://static.igem.wiki/teams/5378/header/team.webp"
+            alt="team header"
+            className="header-img"
           />
-          <div className='row-custom-height-card-space'></div>
-          <Card 
-          image1= "https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-          image2= "https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
-          title1="SMU" 
-          title2='GDMU'
-          description1="SMU Description."
-          description2='GDMU Description'
-          />
-          <div className='row-custom-height-card-space'></div>
-          </div>
-        
-        <div className="col-1"></div>
-
-        <div className="col-2">
-          <div className='row-custom-height-card-space'></div>
-          <Card 
-          image1= "https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-          image2= "https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
-          title1="SMU" 
-          title2='GDMU'
-          description1="SMU Description."
-          description2='GDMU Description'
-          />
-          <div className='row-custom-height-card-space'></div>
-          <Card 
-          image1= "https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-          image2= "https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
-          title1="SMU" 
-          title2='GDMU'
-          description1="SMU Description."
-          description2='GDMU Description'
-          />
-          <div className='row-custom-height-card-space'></div>
-        </div>
-
-        <div className="col-1"></div>
-
-        <div className="col-2">
-          <div className='row-custom-height-card-space'></div>
-          <Card 
-          image1= "https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-          image2= "https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
-          title1="SMU" 
-          title2='GDMU'
-          description1="SMU Description."
-          description2='GDMU Description'
-          />
-          <div className='row-custom-height-card-space'></div>
-          <Card 
-          image1= "https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-          image2= "https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
-          title1="SMU" 
-          title2='GDMU'
-          description1="SMU Description."
-          description2='GDMU Description'
-          />
-          <div className='row-custom-height-card-space'></div>
-        </div>
-
-        <div className="col-2"></div>
+        </h1>
       </div>
+
+      <div className="row bg-rice_yellow">
+        {/* 左侧sticky容器 */}
+        <div className="col-4">
+          {/* 下方设置默认显示图像 */}
+          <StickyImageContainer image={hoveredCardId ? images[hoveredCardId] : 'https://static.igem.wiki/teams/5378/school-badge/smu.webp'} />
+        </div>
+
+        {/* 卡片区域 */}
+        <div className="col-8">
+
+          <div className='row justify-content-center h1'>Instructor</div>
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card1"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card2"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card3"
+                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
+                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card4"
+                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
+                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
+
+          </div>
+
+          <div className='row justify-content-center h1'>Student Leader</div>
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card1"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card2"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card3"
+                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
+                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card4"
+                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
+                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
+
+          </div>
+
+          <div className='row justify-content-center h1'>Advisor</div>
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card1"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card2"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card3"
+                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
+                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card4"
+                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
+                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
+
+          </div>
+
+          <div className='row justify-content-center h1'>Student Member</div>
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card1"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card2"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card3"
+                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
+                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card4"
+                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
+                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
+
+          </div>
+
+          <div className='row justify-content-center h1'>External Member</div>
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card1"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card2"
+                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
+                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card3"
+                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
+                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3">
+              <Card
+                id="card4"
+                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
+                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
+
+          </div>
+
+        </div>
+
+
+          
+
+
+
+          
         
-      
+
+        
+          
+        
+
+        
+          
+        
+
+        {/* <div className="col-2"></div> */}
+      </div>
     </>
   );
 }
