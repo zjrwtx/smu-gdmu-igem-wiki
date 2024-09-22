@@ -713,7 +713,7 @@ footer a:hover {
 
 div.formula_content {
   position: relative;
-  max-width: 60%; 
+  max-width: 70%; 
   margin: 0 auto; /* 容器水平居中 */
   overflow-x: auto; /* 如果公式太长，允许水平滚动 */
   white-space: nowrap; /* 防止公式换行 */
@@ -722,7 +722,7 @@ div.formula_content {
 
 div.formula_content .formula_number {
   position: absolute;
-  right: -20px; 
+  right: -40px; 
   top: 50%; 
   transform: translateY(-50%); 
 }
