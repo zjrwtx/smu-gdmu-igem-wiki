@@ -93,7 +93,7 @@ export function Model() {
   
                 <MathJax.Provider> 
                   <span>
-                      <MathJax.Node  formula={`S`} />
+                      <MathJax.Node inline formula={`S`} />
                   </span>
                  </MathJax.Provider> into a product
                
