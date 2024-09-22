@@ -723,7 +723,12 @@ div.formula_content .formula_number {
 }
 
 span.mjx-mrow {
-  max-width: 80%; 
-  overflow-x: auto; 
-  white-space: nowrap; 
+  max-width: 80%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+
+span.mjx-mrow * {
+  all: revert; /* 重置子元素的样式，防止继承 */
 }
