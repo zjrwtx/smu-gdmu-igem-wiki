@@ -472,20 +472,20 @@ export function Model() {
 <MathJax.Provider>
                   <div className='indent'>
                       formula 2.18: 
-                      <MathJax.Node formula={`P_{TynA\\_GS\\_active  \\xrightarrow[] P_{TynA\\_GS\\_active} + \\mathrm{mRNA_{GS}}}`} />
+                      <MathJax.Node formula={`P_{TynA\\_GS\\_active  \\rightarrow P_{TynA\\_GS\\_active} + \\mathrm{mRNA_{GS}}}`} />
 
                   </div>
                   <div className='indent'>
                   formula 2.19: 
-                      <MathJax.Node formula={`P_{TynA\\_TPH1\\_active}\\xrightarrow[]  P_{TynA\\_TPH1\\_active+mRNA_{TPH1}`} />                                      
+                      <MathJax.Node formula={`P_{TynA\\_TPH1\\_active} \\rightarrow  P_{TynA\\_TPH1\\_active}+mRNA_{TPH1}`} />                                      
                   </div>
                   <div className='indent'>
                   formula 2.20: 
-                      <MathJax.Node formula={`mRNA_{GS}\\xrightarrow[] \\varnothing`} />                                      
+                      <MathJax.Node formula={`mRNA_{GS}\\rightarrow \\varnothing`} />                                      
                   </div>
                   <div className='indent'>
                   formula 2.21: 
-                      <MathJax.Node formula={`mRNA_{TPH1}\\xrightarrow[] \\varnothing`} />                                      
+                      <MathJax.Node formula={`mRNA_{TPH1}\\rightarrow \\varnothing`} />                                      
                   </div>
 
                   <div className='indent'>
@@ -502,20 +502,20 @@ export function Model() {
 <MathJax.Provider>
                   <div className='indent'>
                       formula 2.24: 
-                      <MathJax.Node formula={`mRNA_{GS}\\xrightarrow[] mRNA_{GS}+GS`} />
+                      <MathJax.Node formula={`mRNA_{GS}\\rightarrow mRNA_{GS}+GS`} />
 
                   </div>
                   <div className='indent'>
                   formula 2.25: 
-                      <MathJax.Node formula={`mRNA_{TPH1}\\xrightarrow[] mRNA_{TPH1}+TPH1`} />                                      
+                      <MathJax.Node formula={`mRNA_{TPH1}\\rightarrow mRNA_{TPH1}+TPH1`} />                                      
                   </div>
                   <div className='indent'>
                   formula 2.26: 
-                      <MathJax.Node formula={`GS\\xrightarrow[] \\varnothing`} />                                      
+                      <MathJax.Node formula={`GS\\rightarrow \\varnothing`} />                                      
                   </div>
                   <div className='indent'>
                   formula 2.27: 
-                      <MathJax.Node formula={`TPH1\\xrightarrow[] \\varnothing`} />                                      
+                      <MathJax.Node formula={`TPH1\\rightarrow \\varnothing`} />                                      
                   </div>
 
                   <div className='indent'>
@@ -556,7 +556,7 @@ export function Model() {
               <MathJax.Provider>
                   <div className='indent'>
                       formula 3.5: 
-                      <MathJax.Node formula={`E+A+B\\overset{k_{f1}}}{\\underset{k_{r1}}{\\rightleftharpoons}}EAB \\xrightarrow[k_{cat}E+P]`} />
+                      <MathJax.Node formula={`E+A+B\\overset{k_{f1}}}{\\underset{k_{r1}}{\\rightleftharpoons}}EAB \\xrightarrow{k_{cat}}E+P]`} />
 
                   </div>
               </MathJax.Provider>
