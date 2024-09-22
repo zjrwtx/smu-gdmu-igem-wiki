@@ -528,6 +528,39 @@ export function Model() {
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[TPH1]}{\\mathrm{d}t} = p_{TPH1}[mRNA_{TPH1}] - d_{TPH1}[TPH1]`} />                                      
                   </div>
               </MathJax.Provider>
+
+
+              <h3>1.3 Metabolism of Ammonia and Tryptophan</h3>
+                <p>Under the catalysis of GS, glutamate accepts ammonia and is converted into glutamine. Glutamate in the gut diffuses into the cytoplasm, where it is converted into glutamine. The glutamine then diffuses back into the gut, acting as a carrier molecule.</p>
+                <MathJax.Provider>
+                  <div className='indent'>
+                      formula 3.1: 
+                      <MathJax.Node formula={`Glu_{gut}\\overset{}{\\underset{}{\\rightleftharpoons}}Glu_{cyto}`} />
+
+                  </div>
+                  <div className='indent'>
+                  formula 3.2: 
+                      <MathJax.Node formula={`NH_{3_{Peri}}\\overset{}{\\underset{}{\\rightleftharpoons}}NH_{3_{cyto}}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.3: 
+                      <MathJax.Node formula={`Glu_{cyto}+ NH_{3\\_cyto}\\xrightarrow[] Gln_{cyto}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.4: 
+                      <MathJax.Node formula={`Gln_{cyto}\\overset{}{\\underset{}{\\rightleftharpoons}} Gln_{gut}`} />                                      
+                  </div>
+
+              </MathJax.Provider>
+              <p>For an enzyme-catalyzed reaction involving two substrates that form a single product, the Michaelis-Menten equation can be extended to account for the involvement of both substrates. The general reaction can be written as</p>
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 3.5: 
+                      <MathJax.Node formula={`E+A+B\\overset{k_{f1}}}{\\underset{k_{r1}}{\\rightleftharpoons}}EAB \\xrightarrow[k_{cat}E+P]`} />
+
+                  </div>
+              </MathJax.Provider>
+
                </Element>
        
           
