@@ -377,7 +377,7 @@ export function Model() {
               <MathJax.Provider>
                   <div className='indent'>
                       formula 2.5: 
-                      <MathJax.Node formula={`k_{f1} \\approx \\frac{k_{cat}}{K_m} `} />
+                      <MathJax.Node formula={`k_{f1} \\approx \\frac{k_{cat}}{K_m}`} />
 
                   </div>
               </MathJax.Provider>
