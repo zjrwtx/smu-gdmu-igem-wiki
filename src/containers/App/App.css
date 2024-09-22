@@ -721,3 +721,9 @@ div.formula_content .formula_number {
   top: 50%;
   transform: translateY(-50%);
 }
+
+span.mjx-mrow {
+  max-width: 80%; 
+  overflow-x: auto; 
+  white-space: nowrap; 
+}
