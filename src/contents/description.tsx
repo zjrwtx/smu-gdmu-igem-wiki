@@ -71,7 +71,7 @@ export function Description() {
           
               
               <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>Section 1</h2>
+                 <h2>Project Introduction</h2>
                  <p>Content for section 1.</p>
                  <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
@@ -84,7 +84,7 @@ export function Description() {
           
               
               <Element name="section2" className="element rounded-border" id='section2'>
-                <h2>Section 2</h2>
+                <h2>Our Solutions</h2>
                 <p>Content for section 2.</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
@@ -95,7 +95,7 @@ export function Description() {
           
 
               <Element name="section3" className="element rounded-border" id='section3'>
-              <h2>Section 3</h2>
+              <h2>Outside the laboratory</h2>
               <p>Content for section 3.</p>
               <div className="rounded-border">
               <h4 className="center-text">Section 3</h4>
@@ -105,7 +105,7 @@ export function Description() {
               </Element>
 
               <Element name="section4" className="element rounded-border" id='section4'>
-              <h2>Section 4</h2>
+              <h2>future plans</h2>
               <p>Content for section 4.</p>
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
@@ -115,7 +115,7 @@ export function Description() {
               </Element>
 
               <Element name="section5" className="element rounded-border" id='section5'>
-              <h2>Section 5</h2>
+              <h2>reference</h2>
               <p>Content for section 5.</p>
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
