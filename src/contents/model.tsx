@@ -763,7 +763,7 @@ export function Model() {
                   formula 4.26: 
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[5\\mathrm{-}HTP_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_5-HTP}}{V_{gut}}([5\\mathrm{-}HTP_{cyto}]-[5\\mathrm{-}HTP_{gut}])`} />                                      
                   </div>
-              </MahthJax.Provider>
+                  </MathJax.Provider>
               <h3>Initial Conditions</h3>
 <p>Except for the variables mentioned below, the initial values of all other variables are set to 0.</p>
 <table>
