@@ -338,6 +338,166 @@ export function Model() {
                   </div>
               </MathJax.Provider>
 
+<p>Since the constants depend only on the intrinsic properties of the enzyme and substrate, we can use the values of <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`K_M`} />
+                  </span>
+              </MathJax.Provider> and <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{cat}`} />
+                  </span>
+              </MathJax.Provider> to solve for <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{f1}`} />
+                  </span>
+              </MathJax.Provider> and <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{r1}`} />
+                  </span>
+              </MathJax.Provider>. </p>
+
+
+<p>If we assume that the <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`FeaR-PA`} />
+                  </span>
+              </MathJax.Provider> complex is unlikely to dissociate back into <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`FeaR`} />
+                  </span>
+              </MathJax.Provider> and <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`PA`} />
+                  </span>
+              </MathJax.Provider> after formation, i.e., <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{r1}\\approx 0`} />
+                  </span>
+              </MathJax.Provider>, then we have</p>
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 2.5: 
+                      <MathJax.Node formula={`k_{f1} \\approx \\frac{k_{cat}}{K_m} `} />
+
+                  </div>
+              </MathJax.Provider>
+<p>Based on the two-step reaction process described, we can establish the following system of ODEs.</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 2.6: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} - k_{cat\\_FeaR}[FeaR\\mathrm{-}PA]`} />
+
+                  </div>
+                  <div className='indent'>
+                  formula 2.7: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} + k_{cat\\_FeaR}[FeaR\\mathrm{-}PA]`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.8: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{cyto}]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.9: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PAA_{cyto}]}{\\mathrm{d}t} = k_{cat\\_FeaR}[FeaR\\mathrm{-}PA] + \\frac{k_{diff\\_PAA}}{V_{cyto}}([PAA_{gut}]-[PAA_{cyto}])`} />                                      
+                  </div>
+
+                  <div className='indent'>
+                  formula 2.10: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PAA_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PAA}}{V_{gut}}([PAA_{cyto}]-[PAA_{gut}])`} />                                      
+                  </div>
+
+              </MathJax.Provider>
+
+<p>The process by which the <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`FeaR-PA`} />
+                  </span>
+              </MathJax.Provider> complex activates the PTynA promoter upstream of GS or TPH1 can be described as follows</p>
+
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 2.11: 
+                      <MathJax.Node formula={`P_{TynA\\_GS}+FeaR-PA\\overset{}{\\underset{}{\\rightleftharpoons}}P_{TynA\\_GS\\_active}`} />
+
+                  </div>
+                  <div className='indent'>
+                  formula 2.12: 
+                      <MathJax.Node formula={`P_{TynA\\_TPH1}+FeaR-PA\\overset{}{\\underset{}{\\rightleftharpoons}}P_{TynA\\_TPH1\\_active}`} />                                      
+                  </div>
+
+
+              </MathJax.Provider>
+              
+<p>The corresponding set of ODEs is</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 2.13: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_GS\\_active}]}{\\mathrm{d}t} = k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{r\\_PtynA}[P_{TynA\\_GS\\_active}]`} />
+
+                  </div>
+                  <div className='indent'>
+                  formula 2.14: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_TPH1\\_active}]}{\\mathrm{d}t} = k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] - k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.15: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_GS}]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}]`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.16: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_TPH1}]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                  </div>
+
+                  <div className='indent'>
+                  formula 2.17: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                  </div>
+
+              </MathJax.Provider>
+<p>where <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{f\\_PtynA}`} />
+                  </span>
+              </MathJax.Provider> is the rate constant for the binding of <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`FeaR-PA`} />
+                  </span>
+              </MathJax.Provider> to the PTynA promoter and the formation of the activated promoter state, while <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{r_PtynA}`} />
+                  </span>
+              </MathJax.Provider> is the rate constant for the dissociation of the activated promoter and its inactivation.</p>
+
+<p>The activated promoter initiates the transcription of downstream genes, producing the corresponding mRNA, while we also take into account the process of mRNA degradation.</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 2.18: 
+                      <MathJax.Node formula={`\\ce{\\mathrm{mRNA}_{GS} -> \\mathrm{mRNA}_{GS} + GS}`} />
+
+                  </div>
+                  <div className='indent'>
+                  formula 2.19: 
+                      <MathJax.Node formula={`\\ce{\\mathrm{mRNA}_{TPH1} -> \\mathrm{mRNA}_{TPH1} + \\mathrm{TPH1}}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.20: 
+                      <MathJax.Node formula={`\\ce{GS -> \\varnothing}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.21: 
+                      <MathJax.Node formula={`\\ce{GS -> \\varnothing}`} />                                      
+                  </div>
+
+                  <div className='indent'>
+                  formula 2.22: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.23: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                  </div>
+              </MathJax.Provider>
+
 
                </Element>
        
