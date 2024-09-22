@@ -763,8 +763,66 @@ export function Model() {
                   formula 4.26: 
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[5\\mathrm{-}HTP_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_5-HTP}}{V_{gut}}([5\\mathrm{-}HTP_{cyto}]-[5\\mathrm{-}HTP_{gut}])`} />                                      
                   </div>
-              </MathJax.Provider>
-
+              </MahthJax.Provider>
+              <h3>Initial Conditions</h3>
+<p>Except for the variables mentioned below, the initial values of all other variables are set to 0.</p>
+<table>
+    <tr>
+        <td>Variable 变量名</td>
+        <td>Value 数值</td>
+        <td>Units 单位</td>
+    </tr>
+    <tr>
+        <td>$[PEA_{gut}]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$[TynA]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$[FeaR]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$[P_{TynA\_GS}]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$[P_{TynA\_TPH1}]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$[Glu_{gut}]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$[Glu_{cyto}]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$[Gln_{gut}]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$[Gln_{cyto}]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$[Trp_{gut}]$</td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
                </Element>
        
