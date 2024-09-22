@@ -107,7 +107,7 @@ export function Model() {
               <MathJax.Provider>
                   <div className='indent'>
                       formula 1.5: 
-                      <MathJax.Node formula={`{{E+S}\\overset{k_{f1}}{\\underset{k_{r1}}{\\rightleftharpoons}}  ES \\xrightarrow[]{k_{cat}}E + P`} />
+                      <MathJax.Node formula={`{{E+S}\\overset{k_{f1}}{\\underset{k_{r1}}{\\rightleftharpoons}}  ES \\xrightarrow[]{k_{cat}}E + P}`} />
                   </div>
               </MathJax.Provider>
 <p>where <MathJax.Provider>
