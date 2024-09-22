@@ -14,6 +14,7 @@ import {
   Entrepreneurship,
   Inclusivity,
   Model,
+  collaboration,
 } from "./contents";
 
 interface Base {
@@ -155,6 +156,13 @@ const Pages: (Page | Folder)[] = [
         lead: "Explain your model's assumptions, data, parameters, and results in a way that anyone could understand.",
       },
 
+      {
+        name: "Collaboration",
+        title: "Collaboration",
+        path: "/collaboration",
+        component: collaboration,
+        lead: "Collaboration.",
+      },
     ],
   },
 ];

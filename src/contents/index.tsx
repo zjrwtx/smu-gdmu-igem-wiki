@@ -18,3 +18,4 @@ export * from "./education.tsx";
 export * from "./entrepreneurship.tsx";
 export * from "./inclusivity.tsx";
 export * from "./model.tsx";
+export * from "./collaboration.tsx";
