@@ -6,6 +6,16 @@ body {
   /* cursor: help; */
 }
 
+body a, 
+body button, 
+body input[type="button"], 
+body input[type="submit"], 
+body [role="button"], 
+body [onclick] {
+  cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
+}
+
+
 .left-aligned {
   margin-left: auto;
 }
