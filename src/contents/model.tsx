@@ -78,9 +78,9 @@ export function Model() {
               </MathJax.Provider>
 
             <p>where<MathJax.Provider>
-                  <div className='indent'>
-                      <MathJax.Node inline formula={`k_{\\mathrm{diff\\_PEA}}`} />
-                  </div>
+                  <span>
+                      <MathJax.Node  formula={`k_{\\mathrm{diff\\_PEA}}`} />
+                  </span>
               </MathJax.Provider>represents the passive diffusion constant of phenylethylamine. The amount of substance passing through the membrane per unit time is equal to the product of the concentration difference across the membrane and the passive diffusion rate constant.</p>
           <p>Subsequently, monoamine oxidase TynA oxidizes phenylethylamine into phenylacetaldehyde (PA) and ammonia.</p>
           <MathJax.Provider>
@@ -89,24 +89,25 @@ export function Model() {
                       <MathJax.Node formula={` PEA\\xrightarrow[K_{M\\_TynA},k_{cat\\_TynA}]{TynA} PA_{peri} + NH_{3\\_peri}`} />
                   </div>
               </MathJax.Provider>
-<p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate 
+<p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate
   
-  <MathJax.Provider> <span className='indent'>
-          <MathJax.Node inline formula={`S`} />
+                <MathJax.Provider> 
+                  <span>
+                      <MathJax.Node  formula={`S`} />
                   </span>
-                 </MathJax.Provider>
-
-               into a product
+                 </MathJax.Provider> into a product
                
                 <MathJax.Provider>
-                      <MathJax.Node inline formula={`P`} />
-              </MathJax.Provider> via an enzyme <MathJax.Provider>
+                      <MathJax.Node  formula={`P`} />
+              </MathJax.Provider> via an enzyme 
+              
+              <MathJax.Provider>
                   <span>
-                      <MathJax.Node inline formula={`E`} />
+                      <MathJax.Node  formula={`E`} />
                   </span>
               </MathJax.Provider>, through the formation of an enzyme-substrate complex <MathJax.Provider>
                   <span>
-                      <MathJax.Node inline formula={`ES`} />
+                      <MathJax.Node  formula={`ES`} />
                   </span>
               </MathJax.Provider>. The basic reaction scheme is:</p>
               <MathJax.Provider>
@@ -116,17 +117,17 @@ export function Model() {
                   </div>
               </MathJax.Provider>
 <p>where <MathJax.Provider>
-                  <div className='indent'>
-                      <MathJax.Node inline formula={`k_{f1}`} />
-                  </div>
+                  <span>
+                      <MathJax.Node  formula={`k_{f1}`} />
+                  </span>
               </MathJax.Provider>is the rate constant for the formation of the enzyme-substrate complex, <MathJax.Provider>
-                  <div className='indent'>
-                      <MathJax.Node inline formula={`k_{r1}`} />
-                  </div>
+                  <span>
+                      <MathJax.Node  formula={`k_{r1}`} />
+                  </span>
               </MathJax.Provider> is the rate constant for the dissociation of the complex back to free enzyme and substrate, and <MathJax.Provider>
-                  <div className='indent'>
-                      <MathJax.Node inline formula={`k_{cat}`} />
-                  </div>
+                  <span>
+                      <MathJax.Node  formula={`k_{cat}`} />
+                  </span>
               </MathJax.Provider>is the rate constant for the conversion of the enzyme-substrate complex into product and free enzyme.</p>
 
         <p>The derivation relies on two main assumptions:</p>
@@ -134,9 +135,9 @@ export function Model() {
         <p>1\. Steady-State Approximation: The concentration of the enzyme-substrate complex remains constant during the reaction because its formation and breakdown reach a dynamic equilibrium</p>
 
 <p>Thus, the rate of formation of <MathJax.Provider>
-                  <div className='indent'>
+                  <span>
                       <MathJax.Node inline formula={`ES`} />
-                  </div>
+                  </span>
               </MathJax.Provider> equals its breakdown</p>
 
               <MathJax.Provider>
