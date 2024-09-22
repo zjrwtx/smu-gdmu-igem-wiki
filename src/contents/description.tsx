@@ -155,7 +155,21 @@ export function Description() {
 
               <Element name="section5" className="element rounded-border" id='section5'>
               <h2>reference</h2>
-              <p>Content for section 5.</p>
+              <p>[1] Vilstrup H, Amodio P, Bajaj J, Cordoba J, Ferenci P, Mullen KD, et al. Hepatic encephalopathy in chronic liver disease: 2014 practice guideline by the American Association for the Study of Liver Diseases and the European Association for the Study of the Liver. Hepatology 2014;60:715–735.</p>
+              <p>[2]Randolph C, Hilsabeck R, Kato A, et al. Neuropsychological assessment of hepatic encephalopathy: ISHEN practice guidelines. Liver Int. 2009;29:629-35.</p>
+              <p>[3] Guevara M, Baccaro ME, Torre A, Gómez-Ansón B, Ríos J, Torres F, et al. Hyponatremia is a risk factor of hepatic encephalopathy in patients with cirrhosis: a prospective study with time-dependent analysis. Am J Gastroenterol 2009;104:1382–1389.</p>
+              <p>[4] Sharma BC, Sharma P, Agrawal A, Sarin SK. Secondary prophylaxis of hepatic encephalopathy: an open-label randomized controlled trial of lactulose versus placebo. Gastroenterology 2009;137:885–891. 891.e1.</p>
+              <p>[5] Cordoba J, Ventura-Cots M, Simón-Talero M, Amorós À, Pavesi M, Vilstrup H, et al. Characteristics, risk factors, and mortality of cirrhotic patients hospitalized for hepatic encephalopathy with and without acute-on-chronic liver failure (ACLF). J Hepatol 2014;60:275–281.</p>
+              <p>[6] Sotil EU, Gottstein J, Ayala E, Randolph C, Blei AT. Impact of preoperative overt hepatic encephalopathy on neurocognitive function after liver transplantation. Liver Transpl 2009;15:184–192.</p>
+              <p>[7] Keiding S, Sørensen M, Bender D, Munk OL, Ott P, Vilstrup H. Brain metabolism of 13N-ammonia during acute hepatic encephalopathy in cirrhosis measured by positron emission tomography. Hepatology 2006;43:42–50.</p>
+              <p>[8] Rose CF, Amodio P, Bajaj JS, Dhiman RK, Montagnese S, Taylor-Robinson SD, Vilstrup H, Jalan R. Hepatic encephalopathy: Novel insights into classification, pathophysiology and therapy. J Hepatol. 2020 Dec;73(6):1526-1547. </p>
+              <p>[9] ystems biology analysis of lactulose withdrawal in hepatic encephalopathy. Metab Brain Dis 2012;27:205–215.</p>
+              <p>[10] Bass NM, Mullen KD, Sanyal A, Poordad F, Neff G, Leevy CB, et al. Rifaximin treatment in hepatic encephalopathy. N Engl J Med 2010;362:1071–1081.</p>
+              <p>[11] Dalal R, McGee RG, Riordan SM, Webster AC. Probiotics for people with hepatic encephalopathy. Cochrane Database Syst Rev 2017;2:CD008716.</p>
+              <p>[12] Simón-Talero M, García-Martínez R, Torrens M, Augustin S, Gómez S, Pereira G, et al. Effects of intravenous albumin in patients with cirrhosis and episodic hepatic encephalopathy: a randomized double-blind study. J Hepatol 2013;59:1184–1192.</p>
+              <p>[13] Bai M, Yang Z, Qi X, Fan D, Han G. L-ornithine-L-aspartate for hepatic encephalopathy in patients with cirrhosis: a meta-analysis of randomized controlled trials. J Gastroenterol Hepatol 2013;28:783–792.</p>
+              <p>[14] Rottinghaus A G, Xi C, Amrofell M B, et al. Engineering ligand-specific biosensors for aromatic amino acids and neurochemicals[J]. Cell systems, 2022, 13(3): 204-214. e4.</p>
+              <p>[15] Hao DL, Zhou JY, Yang SY, Qi W, Yang KJ, Su YH. Function and Regulation of Ammonium Transporters in Plants. Int J Mol Sci. 2020 May 18;21(10):3557. </p>
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
