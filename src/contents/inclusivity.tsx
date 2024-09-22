@@ -123,14 +123,19 @@ export function Inclusivity() {
               </Element>
 
               <Element name="section5" className="element rounded-border" id='section5'>
-              <h2>Section 5</h2>
-              <p>Content for section 5.</p>
+              <h2>The arts</h2>
+              <p>Squeezy toys, made primarily from memory foam, are a type of handicraft. These crafts have the ability to deform slowly, returning to their original shape after an external force has deformed them. Handmade squishy toys are not only simple stress-relief toys but also artistic crafts that provide a variety of sensory experiences. Through the skillful hands and creativity of artisans, squishy toys can become unique works with personalized and artistic value. Due to their fun and ornamental nature, they are very popular in society. Therefore, the iGEM team decided to combine "squishy toys" with synthetic biology for a collision of art and science.</p>
               <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Charity Sale Event</h4>
+              <p className="indent">Our team members participated in a charity sale event at Jiayu Sun City Square, Baiyun District, Guangzhou City, Guangdong Province. We integrated elements of synthetic biology and hepatic encephalopathy into our squishy toy creations, printing related patterns and scientific knowledge on them. We hope that through this creation, we can combine art with science, retaining fun, ornamental value, and educational significance.</p>
               </div>
-              </Element>
+             
+              <div className="rounded-border">
+              <h4 className="center-text">Community Service Station</h4>
+              <p className="indent">In addition, our team also went to the community service station to attract the public with our handicrafts—"squishy toys"—and promote knowledge about synthetic biology and hepatic encephalopathy to them. Subsequently, we issued a survey questionnaire to receive feedback from the public, and the results showed that we indeed played an educational role for the general public."</p>
+              </div>
+              
+               </Element>
 
               <Element name="section6" className="element rounded-border" id='section6'>
               <h2>Section 6</h2>
