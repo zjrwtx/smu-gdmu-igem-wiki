@@ -192,7 +192,7 @@ export function Model() {
 <MathJax.Provider>
                   <div className='indent'>
                       formula 1.12: 
-                      <MathJax.Node formula={`ES = \\frac{ {[E_total][S]} }{K_M + [S]}  `} />               
+                      <MathJax.Node formula={`ES = \\frac{ {[E\\_total][S]} }{K_M + [S]}`} />               
                   </div>
               </MathJax.Provider>  
 
@@ -225,7 +225,7 @@ export function Model() {
 
 <p>Considering that <MathJax.Provider>
                   <span>
-                      <MathJax.Node inline formula={`k_{cat}]`} />
+                      <MathJax.Node inline formula={`k_{cat}`} />
                   </span>
               </MathJax.Provider> and <MathJax.Provider>
                   <span>
