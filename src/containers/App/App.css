@@ -713,6 +713,9 @@ footer a:hover {
 
 div.formula_content{
   position: relative;
+  max-width: 80%; 
+  overflow-x: auto; 
+  white-space: nowrap; 
 }
 
 div.formula_content .formula_number {
@@ -721,4 +724,14 @@ div.formula_content .formula_number {
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+.mathjax-provider {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  margin: 10px 0;
+}
+
+
 
