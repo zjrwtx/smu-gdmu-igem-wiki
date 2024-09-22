@@ -472,30 +472,60 @@ export function Model() {
 <MathJax.Provider>
                   <div className='indent'>
                       formula 2.18: 
-                      <MathJax.Node formula={`\\ce{P_{TynA\\_GS\\_active} -> P_{TynA\\_GS\\_active} + \\mathrm{mRNA_{GS}}}`} />
+                      <MathJax.Node formula={`P_{TynA\\_GS\\_active  \\xrightarrow[] P_{TynA\\_GS\\_active} + \\mathrm{mRNA_{GS}}}`} />
 
                   </div>
                   <div className='indent'>
                   formula 2.19: 
-                      <MathJax.Node formula={`\\ce{\\mathrm{mRNA}_{TPH1} -> \\mathrm{mRNA}_{TPH1} + \\mathrm{TPH1}}`} />                                      
+                      <MathJax.Node formula={`P_{TynA\\_TPH1\\_active}\\xrightarrow[]  P_{TynA\\_TPH1\\_active+mRNA_{TPH1}`} />                                      
                   </div>
                   <div className='indent'>
                   formula 2.20: 
-                      <MathJax.Node formula={`\\ce{GS -> \\varnothing}`} />                                      
+                      <MathJax.Node formula={`mRNA_{GS}\\xrightarrow[] \\varnothing`} />                                      
                   </div>
                   <div className='indent'>
                   formula 2.21: 
-                      <MathJax.Node formula={`\\ce{GS -> \\varnothing}`} />                                      
+                      <MathJax.Node formula={`mRNA_{TPH1}\\xrightarrow[] \\varnothing`} />                                      
                   </div>
 
                   <div className='indent'>
                   formula 2.22: 
-                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[mRNA_{GS}]}{\\mathrm{d}t} = k_{mRNA\\_GS}[P_{TynA\\_GS\\_active}] - d_{mRNA\\_GS}[mRNA_{GS}]`} />                                      
                   </div>
 
                   <div className='indent'>
                   formula 2.23: 
-                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[mRNA_{TPH1}]}{\\mathrm{d}t} = k_{mRNA\\_TPH1}[P_{TynA\\_TPH1\\_active}] - d_{mRNA\\_TPH1}[mRNA_{TPH1}]`} />                                      
+                  </div>
+              </MathJax.Provider>
+<p>Next is the process of translation and degradation of the target protein.</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 2.24: 
+                      <MathJax.Node formula={`mRNA_{GS}\\xrightarrow[] mRNA_{GS}+GS`} />
+
+                  </div>
+                  <div className='indent'>
+                  formula 2.25: 
+                      <MathJax.Node formula={`mRNA_{TPH1}\\xrightarrow[] mRNA_{TPH1}+TPH1`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.26: 
+                      <MathJax.Node formula={`GS\\xrightarrow[] \\varnothing`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.27: 
+                      <MathJax.Node formula={`TPH1\\xrightarrow[] \\varnothing`} />                                      
+                  </div>
+
+                  <div className='indent'>
+                  formula 2.28: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[GS]}{\\mathrm{d}t} = p_{GS}[mRNA_{GS}] - d_{GS}[GS]`} />                                      
+                  </div>
+
+                  <div className='indent'>
+                  formula 2.29: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[TPH1]}{\\mathrm{d}t} = p_{TPH1}[mRNA_{TPH1}] - d_{TPH1}[TPH1]`} />                                      
                   </div>
               </MathJax.Provider>
                </Element>
