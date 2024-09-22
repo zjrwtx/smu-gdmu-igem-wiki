@@ -80,7 +80,12 @@ In former times, HE was defined simply as a disease caused by a metabolic disord
 Data show that the annual cost of patients with HE is 50% higher than that of patients with heart failure or chronic obstructive pulmonary disease (COPD). [8]
 But even more important to our concern than the financial burden is the fact that it has now been demonstrated that hepatic encephalopathy is associated with a high mortality rate, regardless of its severity. [6] How to reduce mortality in patients with HE has become a very critical issue.</p>
                  <h3>Spark</h3>
-                 <p>Content for section 1.</p>
+                 <p>This year, our team felt a strong call to address global health issues that have far-reaching consequences for individuals and society. We are grateful to synthetic biology for providing a practical engineering approach that can combine modules with independent functions like a jigsaw puzzle to fulfil their joint functions. At the same time, we see great potential for synthetic biology to address this issue, and we hope to be able to provide a new line of therapeutic options for the treatment of hepatic encephalopathy through this work.</p>
+                 <p>The pathogenesis of hepatic encephalopathy is not fully understood and possible hypotheses are as follows:</p>
+                 <p>1.2.1 Ammonia Toxicity Theory
+    Several studies have elucidated that toxic levels of ammonia in the brain are one of the more prominent features, although the pathophysiology of HE is still not fully understood. [9] Ammonia is an important product of intestinal metabolic activity, and a healthy liver with an intact urea cycle is able to regulate ammonia in the body's circulation, thereby maintaining blood ammonia levels at low levels of 35-50 uM.
+    However, in cirrhosis, factors and other molecules (e.g., ammonia) that are normally prevented by the body from crossing the blood-brain barrier are able to naturally cross the blood-brain barrier, fill the brain, and stimulate pathophysiological pathways with deleterious effects. Neurological damage and cognitive decline due to liver dysfunction are the result of blood-borne factors that affect blood-brain barrier permeability and/or alter blood-brain barrier integrity. [10]
+    Normal ammonia concentrations can also be used to rule out the diagnosis of hepatic encephalopathy in patients with suspected overt hepatic encephalopathy because of the high negative predictive value of normal ammonia concentrations (0.81). [11]</p>
                  <h3>Current treatments</h3>
                  <p>Content for section 1.</p>
                  <h3>New treatments</h3>
