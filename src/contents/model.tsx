@@ -160,7 +160,7 @@ export function Model() {
               </MathJax.Provider>               
                <p>Substitute <MathJax.Provider>
                   <span>
-                      <MathJax.Node  formula={`[E] = [E_{\\text{total}}] - [ES]
+                      <MathJax.Node inline formula={`[E] = [E_{\\text{total}}] - [ES]
 `} />
                   </span>
               </MathJax.Provider>into the steady-state equation and solve for <MathJax.Provider>
@@ -202,7 +202,7 @@ export function Model() {
 <MathJax.Provider>
                   <div className='indent'>
                       formula 1.13: 
-                      <MathJax.Node formula={`v0 = k_{cat}[ES]`} />               
+                      <MathJax.Node formula={`v_0 = k_{cat}[ES]`} />               
                   </div>
               </MathJax.Provider>  
 <p>Substituting <MathJax.Provider>
@@ -214,10 +214,50 @@ export function Model() {
               <MathJax.Provider>
                   <div className='indent'>
                       formula 1.14: 
-                      <MathJax.Node formula={`v0 = \\frac{V_{max}[s]}{K_M+[S]}`} />               
+                      <MathJax.Node formula={`v_0 = \\frac{V_{max}[s]}{K_M+[S]}`} />               
                   </div>
               </MathJax.Provider>  
 
+              <p>where <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`V_{max} = k_{cat}[E_{total}]`} />
+                  </span>
+              </MathJax.Provider> </p>
+
+<p>Considering that <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{cat}]`} />
+                  </span>
+              </MathJax.Provider> and <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`K_M`} />
+                  </span>
+              </MathJax.Provider> are more readily available, we use them to express the Michaelis-Menten equation</p>
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.15: 
+                      <MathJax.Node formula={`v_0 = \\frac{k{cat}[E_{total}][S]}{K_M +[S]}`} />               
+                  </div>
+              </MathJax.Provider>  
+<p>This process can be described using Michaelis-Menten kinetics as follows</p>
+
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.16: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{peri}]}{\\mathrm{d}t} = \\frac{k_{cat\\_TynA}[TynA][PEA_{peri}]}{K_{M\\_TynA}+[PEA_{peri}]}`} />
+                                  
+                  </div>
+                  <div className='indent'>
+                  formula 1.17: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_peri}]}{\\mathrm{d}t} = \\frac{k_{cat\\_TynA}[TynA][PEA_{peri}]}{K_{M\\_TynA}+[PEA_{peri}]}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 1.18: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{peri}]}{\\mathrm{d}t} = -\\frac{k_{cat\\_TynA}[TynA][PEA_{peri}]}{K_{M\\_TynA}+[PEA_{peri}]}`} />                                      
+                  </div>
+              </MathJax.Provider>
+
+<p>The phenylacetaldehyde and ammonia formed in this reaction cross the inner membrane into the cytoplasm, where they participate in further oxidation and metabolic processes.</p>
 
 
                </Element>
