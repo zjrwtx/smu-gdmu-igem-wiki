@@ -60,7 +60,6 @@ export function Model() {
               <Element name="section1" className="element rounded-border" id='section1'>
               <h2 className="center-text">Section 1  ODE Model of Biochemical Reactions</h2>
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
-                 <p>首先肠道中的苯乙胺扩散进入大肠杆菌的外膜，进入周质空间，在这里和TynA接触。</p>
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
               <MathJax.Provider>
                   <div className='indent'>
@@ -193,7 +192,7 @@ export function Model() {
 <MathJax.Provider>
                   <div className='indent'>
                       formula 1.12: 
-                      <MathJax.Node formula={`ES = \\frac{ {[E_total][S]} }{K_M + [S]}  `} />               
+                      <MathJax.Node formula={`ES = \\frac{ {[E\\_total][S]} }{K_M + [S]}`} />               
                   </div>
               </MathJax.Provider>  
 
@@ -226,7 +225,7 @@ export function Model() {
 
 <p>Considering that <MathJax.Provider>
                   <span>
-                      <MathJax.Node inline formula={`k_{cat}]`} />
+                      <MathJax.Node inline formula={`k_{cat}`} />
                   </span>
               </MathJax.Provider> and <MathJax.Provider>
                   <span>
@@ -764,8 +763,66 @@ export function Model() {
                   formula 4.26: 
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[5\\mathrm{-}HTP_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_5-HTP}}{V_{gut}}([5\\mathrm{-}HTP_{cyto}]-[5\\mathrm{-}HTP_{gut}])`} />                                      
                   </div>
-              </MathJax.Provider>
-
+                  </MathJax.Provider>
+              <h3>Initial Conditions</h3>
+<p>Except for the variables mentioned below, the initial values of all other variables are set to 0.</p>
+<table>
+    <tr>
+        <td>Variable 变量名</td>
+        <td>Value 数值</td>
+        <td>Units 单位</td>
+    </tr>
+    <tr>
+        <td><MathJax.Node inline formula={`[PEA_{gut}]`} /></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><MathJax.Node inline formula={`[TynA]`} /></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><MathJax.Node inline formula={`[FeaR]`} /></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><MathJax.Node inline formula={`[P_{TynA\\_GS}]`} /></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>$<MathJax.Node inline formula={`[P_{TynA\\_TPH1}]`} />$</td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><MathJax.Node inline formula={`[Glu_{gut}]`} /></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><MathJax.Node inline formula={`[Glu_{cyto}]`} /></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><MathJax.Node inline formula={`[Gln_{gut}]`} /></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><MathJax.Node inline formula={`[Gln_{cyto}]`} /></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><MathJax.Node inline formula={`[Trp_{gut}]`} /></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
                </Element>
        
