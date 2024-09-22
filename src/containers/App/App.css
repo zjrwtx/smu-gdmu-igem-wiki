@@ -710,12 +710,13 @@ footer a:hover {
 
 /* formula style*/
 
-.formula_number{
-  position: absolute;
-  right: 20%;
-  top: '0' 
+
+div.formula_content{
+  position: relative;
 }
 
-.formula_content{
-  position: relative
+div.formula_content .formula_number {
+  position: absolute;
+  right: 20%;
+  top: 0
 }
