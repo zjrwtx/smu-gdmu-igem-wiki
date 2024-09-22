@@ -24,7 +24,13 @@ export function Attributions() {
   return (
     <>
       <div className="custom-header-attributions">
-        <h1 className="centered-title">ATTRIBUTION</h1>
+        <h1 className="centered-title">
+        <img 
+                src="https://static.igem.wiki/teams/5378/header/attribution.png"
+                alt="safety header"
+                className="header-img"
+              />
+        </h1>
       </div>
       <div className="row mt-4">
         <div className="col">
