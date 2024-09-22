@@ -62,15 +62,15 @@ export function Model() {
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
               <MathJax.Provider>
-                  <div className='indent'>
-                      <MathJax.Node style={{ position: 'relative' }} formula={`{PEA_{gut}\\overset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\underset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\rightleftharpoons}}  PEA_{peri}}`} />
-                      <span style={{ position: 'absolute', right: '0', top: '0' }}>（1）</span>
+                  <div className='indent' style={{ position: 'relative' }}>
+                      <MathJax.Node  formula={`{PEA_{gut}\\overset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\underset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\rightleftharpoons}}  PEA_{peri}}`} />
+                      <span style={{ position: 'absolute', right: '0', top: '0' }}>(1)</span>
                   
                   </div>
               </MathJax.Provider>
               <p>According to the law of mass action, this process can be represented by an ordinary differential equation (ODE) as follows</p>
               <MathJax.Provider>
-                  <div className='indent'>
+                  <div className='indent' >
                       formula 1.2: 
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{peri}}([PEA_{gut}] - [PEA_{peri}])`} />
                   </div>
@@ -870,86 +870,6 @@ export function Model() {
               </MathJax.Provider>
               </div>
 
-              </Element>
-
-              <Element name="section4" className="element rounded-border" id='section4'>
-              <h2>Section 4</h2>
-              <p>Content for section 4.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section5" className="element rounded-border" id='section5'>
-              <h2>Section 5</h2>
-              <p>Content for section 5.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section6" className="element rounded-border" id='section6'>
-              <h2>Section 6</h2>
-              <p>Content for section 6.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section7" className="element rounded-border" id='section7'>
-              <h2>Section 7</h2>
-              <p>Content for section 7.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section8" className="element rounded-border" id='section8'>
-              <h2>Section 8</h2>
-              <p>Content for section 8.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section9" className="element rounded-border" id='section9'>
-              <h2>Section 9</h2>
-              <p>Content for section 9.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section10" className="element rounded-border" id='section10'>
-              <h2>Section 10</h2>
-              <p>Content for section 10.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section11" className="element rounded-border" id='section11'>
-              <h2>Section 11</h2>
-              <p>Content for section 11.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
               </Element>
           
 
