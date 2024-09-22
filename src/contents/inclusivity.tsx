@@ -91,7 +91,7 @@ export function Inclusivity() {
               <h2>Section 3</h2>
               <p>"We are all connected in the great web of existence." — Chief Seattle</p>
               <div className="rounded-border">
-              <h4 className="center-text">Section 3</h4>
+              <h4 className="center-text">To see</h4>
               <p className="indent">Through iGEM, we recognize the importance of diversity and inclusivity in the scientific community. We are committed to making the synthetic biology community more accessible to minority groups and creating a learning environment where everyone feels welcome. Our project focuses on the urban-rural divide, aiming to help rural residents break down barriers to information and promote educational equity. At the same time, we have adopted a completely new approach by combining synthetic biology with Socially popular art crafts, allowing everyone to benefit from our education. In our project, we have consulted experts in various fields and communicated with other iGEM teams. We are convinced that through these initiatives, we are connected to the entire world.</p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               </div>
