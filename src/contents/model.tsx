@@ -62,17 +62,18 @@ export function Model() {
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
               <MathJax.Provider>
-                  <div className='indent' style={{ position: 'relative' }}>
+                  <div className='indent formula_content' >
                       <MathJax.Node  formula={`{PEA_{gut}\\overset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\underset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\rightleftharpoons}}  PEA_{peri}}`} />
-                      <span style={{ position: 'absolute', right: '0', top: '0' }}>(1)</span>
+                      <span className='formula_number'>1</span>
                   
                   </div>
               </MathJax.Provider>
               <p>According to the law of mass action, this process can be represented by an ordinary differential equation (ODE) as follows</p>
               <MathJax.Provider>
-                  <div className='indent' >
-                      formula 1.2: 
+                  <div className='indent formula_content' >
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{peri}}([PEA_{gut}] - [PEA_{peri}])`} />
+                      <span className='formula_number'>2</span>
+
                   </div>
 
                   <div className='indent'>
