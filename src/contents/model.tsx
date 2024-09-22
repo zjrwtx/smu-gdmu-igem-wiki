@@ -107,7 +107,7 @@ export function Model() {
               <MathJax.Provider>
                   <div className='indent'>
                       formula 1.5: 
-                      <MathJax.Node formula={`E + S \\xrightleftharpoons[k_{r1}]{k_{f1}} ES \\xrightarrow{k_{cat}} E + P`} />
+                      <MathJax.Node formula={`{{E+S}\\overset{k_{f1}}{\\underset{k_{r1}}{\\rightleftharpoons}}  ES \\xrightarrow[]{k_{cat}}E + P`} />
                   </div>
               </MathJax.Provider>
 <p>where <MathJax.Provider>
@@ -126,7 +126,7 @@ export function Model() {
 
         <p>The derivation relies on two main assumptions:</p>
 
-        <p>1\. Steady-State Approximation: The concentration of the enzyme-substrate complex remains constant during the reaction because its formation and breakdown reach a dynamic equilibrium</p>
+        <p>1. Steady-State Approximation: The concentration of the enzyme-substrate complex remains constant during the reaction because its formation and breakdown reach a dynamic equilibrium</p>
 
 <p>Thus, the rate of formation of <MathJax.Provider>
                   <span>
@@ -143,7 +143,7 @@ export function Model() {
                   </div>
               </MathJax.Provider>
 
-<p>2\. Total Enzyme Concentration: The total concentration of the enzyme is constant and can be expressed as the sum of free enzyme and enzyme bound in the enzyme-substrate complex.</p>
+<p>2. Total Enzyme Concentration: The total concentration of the enzyme is constant and can be expressed as the sum of free enzyme and enzyme bound in the enzyme-substrate complex.</p>
 <MathJax.Provider>
                   <div className='indent'>
                       formula 1.9: 
@@ -151,10 +151,10 @@ export function Model() {
                   </div>
               </MathJax.Provider>               
                <p>Substitute <MathJax.Provider>
-                  <div className='indent'>
-                      <MathJax.Node inline formula={`[E] = [E_{\\text{total}}] - [ES]
+                  <span>
+                      <MathJax.Node  formula={`[E] = [E_{\\text{total}}] - [ES]
 `} />
-                  </div>
+                  </span>
               </MathJax.Provider>into the steady-state equation and solve for <MathJax.Provider>
                   <span>
                       <MathJax.Node inline formula={`[ES]
@@ -165,7 +165,7 @@ export function Model() {
               <MathJax.Provider>
                   <div className='indent'>
                       formula 1.10: 
-                      <MathJax.Node formula={`\\[ES\\] = \\frac{\\[E_{\\text{total}}\\] [S]}{\\frac{k_{r1} + k_{\\text{cat}}}{k_{f1}} + [S]}`} />               
+                      <MathJax.Node formula={`[ES] = \\frac{[E_{\\text{total}}] [S]}{\\frac{k_{r1} + k_{\\text{cat}}}{k_{f1}} + [S]}`} />               
                   </div>
               </MathJax.Provider>    
 <p>The Michaelis constant  <MathJax.Provider>
