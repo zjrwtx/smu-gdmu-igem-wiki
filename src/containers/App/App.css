@@ -724,7 +724,7 @@ div.formula_content {
 div.formula_content .formula_number {
   position: absolute;
   top: 50%; 
-  right: -30px;
+  right: 0px;
   transform: translateY(-50%); 
 }
 
