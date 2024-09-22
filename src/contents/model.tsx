@@ -89,25 +89,19 @@ export function Model() {
                       <MathJax.Node formula={` PEA\\xrightarrow[K_{M\\_TynA},k_{cat\\_TynA}]{TynA} PA_{peri} + NH_{3\\_peri}`} />
                   </div>
               </MathJax.Provider>
-<p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate
-  
-                <MathJax.Provider> 
+<p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate <MathJax.Provider> 
                   <span>
                       <MathJax.Node inline formula={`S`} />
                   </span>
-                 </MathJax.Provider> into a product
-               
-                <MathJax.Provider>
-                      <MathJax.Node  formula={`P`} />
-              </MathJax.Provider> via an enzyme 
-              
-              <MathJax.Provider>
+                 </MathJax.Provider> into a product <MathJax.Provider>
+                      <MathJax.Node inline formula={`P`} />
+              </MathJax.Provider> via an enzyme <MathJax.Provider>
                   <span>
-                      <MathJax.Node  formula={`E`} />
+                      <MathJax.Node inline formula={`E`} />
                   </span>
               </MathJax.Provider>, through the formation of an enzyme-substrate complex <MathJax.Provider>
                   <span>
-                      <MathJax.Node  formula={`ES`} />
+                      <MathJax.Node inline formula={`ES`} />
                   </span>
               </MathJax.Provider>. The basic reaction scheme is:</p>
               <MathJax.Provider>
@@ -118,17 +112,17 @@ export function Model() {
               </MathJax.Provider>
 <p>where <MathJax.Provider>
                   <span>
-                      <MathJax.Node  formula={`k_{f1}`} />
+                      <MathJax.Node inline formula={`k_{f1}`} />
                   </span>
-              </MathJax.Provider>is the rate constant for the formation of the enzyme-substrate complex, <MathJax.Provider>
+              </MathJax.Provider> is the rate constant for the formation of the enzyme-substrate complex, <MathJax.Provider>
                   <span>
-                      <MathJax.Node  formula={`k_{r1}`} />
+                      <MathJax.Node inline formula={`k_{r1}`} />
                   </span>
               </MathJax.Provider> is the rate constant for the dissociation of the complex back to free enzyme and substrate, and <MathJax.Provider>
                   <span>
-                      <MathJax.Node  formula={`k_{cat}`} />
+                      <MathJax.Node inline formula={`k_{cat}`} />
                   </span>
-              </MathJax.Provider>is the rate constant for the conversion of the enzyme-substrate complex into product and free enzyme.</p>
+              </MathJax.Provider> is the rate constant for the conversion of the enzyme-substrate complex into product and free enzyme.</p>
 
         <p>The derivation relies on two main assumptions:</p>
 
