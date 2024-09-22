@@ -717,6 +717,6 @@ div.formula_content{
 
 div.formula_content .formula_number {
   position: absolute;
-  right: 20%;
-  top: 0
+  right: 10%;
+  top: 50%
 }
