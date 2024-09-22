@@ -77,11 +77,11 @@ export function Model() {
                   </div>
               </MathJax.Provider>
 
-            <p>where<MathJax.Provider>
+            <p>where <MathJax.Provider>
                   <span>
-                      <MathJax.Node  formula={`k_{\\mathrm{diff\\_PEA}}`} />
+                      <MathJax.Node inline formula={`k_{\\mathrm{diff\\_PEA}}`} />
                   </span>
-              </MathJax.Provider>represents the passive diffusion constant of phenylethylamine. The amount of substance passing through the membrane per unit time is equal to the product of the concentration difference across the membrane and the passive diffusion rate constant.</p>
+              </MathJax.Provider> represents the passive diffusion constant of phenylethylamine. The amount of substance passing through the membrane per unit time is equal to the product of the concentration difference across the membrane and the passive diffusion rate constant.</p>
           <p>Subsequently, monoamine oxidase TynA oxidizes phenylethylamine into phenylacetaldehyde (PA) and ammonia.</p>
           <MathJax.Provider>
                   <div className='indent'>
@@ -147,19 +147,19 @@ export function Model() {
 <MathJax.Provider>
                   <div className='indent'>
                       formula 1.9: 
-                      <MathJax.Node formula={`\\[E_{\\text{total}}\\] = \\[E\\] + \\[ES\\]`} />               
+                      <MathJax.Node formula={`[E_{\\text{total}}] = [E] + [ES]`} />               
                   </div>
               </MathJax.Provider>               
                <p>Substitute <MathJax.Provider>
                   <div className='indent'>
-                      <MathJax.Node inline formula={`\\[E\\] = \\[E_{\\text{total}}\\] - \\[ES\\]
+                      <MathJax.Node inline formula={`[E] = [E_{\\text{total}}] - [ES]
 `} />
                   </div>
-              </MathJax.Provider>into the steady-state equation and solve for  <MathJax.Provider>
-                  <div className='indent'>
-                      <MathJax.Node inline formula={`\\[ES\\]
+              </MathJax.Provider>into the steady-state equation and solve for <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`[ES]
 `} />
-                  </div>
+                  </span>
               </MathJax.Provider></p>
 
               <MathJax.Provider>
@@ -169,9 +169,9 @@ export function Model() {
                   </div>
               </MathJax.Provider>    
 <p>The Michaelis constant  <MathJax.Provider>
-                  <div className='indent'>
+                  <span>
                       <MathJax.Node inline formula={`K_M`} />
-                  </div>
+                  </span>
               </MathJax.Provider> is defined as</p>
               <MathJax.Provider>
                   <div className='indent'>
@@ -181,11 +181,9 @@ export function Model() {
                   </div>
               </MathJax.Provider>  
 <p>This simplifies the expression for  to</p>
-                 <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
-                className="responsive-img"
-              />
+
+
+
                </Element>
        
           
