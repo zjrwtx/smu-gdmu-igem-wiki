@@ -67,15 +67,14 @@ export function Model() {
               <h2 className="center-text">Section 1  ODE Model of Biochemical Reactions</h2>
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
-              <MathJax.Provider className="mathjax-provider">
+              <MathJax.Provider>
                   <div className='indent formula_content' >
                       <MathJax.Node  formula={`{PEA_{gut}\\overset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\underset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\rightleftharpoons}}  PEA_{peri}}`} />
                       <span className='formula_number'>1</span>
-
                   </div>
               </MathJax.Provider>
               <p>According to the law of mass action, this process can be represented by an ordinary differential equation (ODE) as follows</p>
-              <MathJax.Provider className="mathjax-provider">
+              <MathJax.Provider>
                   <div className='indent formula_content' >
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{peri}}([PEA_{gut}] - [PEA_{peri}])`} />
                       <span className='formula_number'>2</span>
@@ -434,8 +433,7 @@ export function Model() {
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{cyto}]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}}`} />                                      
                       <span className='formula_number'>30</span> 
                   </div>
-                  <div className='indent formula_content'>
-                   
+                  <div className='indent formula_content' id='long_formula'>
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PAA_{cyto}]}{\\mathrm{d}t} = k_{cat\\_FeaR}[FeaR\\mathrm{-}PA] + \\frac{k_{diff\\_PAA}}{V_{cyto}}([PAA_{gut}]-[PAA_{cyto}])`} />                                      
                       <span className='formula_number'>31</span> 
                   </div>
