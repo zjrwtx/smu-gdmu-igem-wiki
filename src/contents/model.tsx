@@ -65,33 +65,141 @@ export function Model() {
         </div>
         
         <div className="col-8">
-          
-              
               <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>Section 1</h2>
-                 <p>Content for section 1.</p>
-                 <MathJax.Provider>
+                 <h2 className="center-text">Section 1  ODE Model of Biochemical Reactions</h2>
+                 <h3>1.1 Oxidation of Phenylethylamine</h3>
+                 <p>首先肠道中的苯乙胺扩散进入大肠杆菌的外膜，进入周质空间，在这里和TynA接触。</p>
+                  <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
+              <MathJax.Provider>
                   <div className='indent'>
-                      {/* 行内编辑数学公式，相比于下面那个方便一些。去掉inline的话效果就和下面那个一样了。 */}
-                      This is an inline math formula: <MathJax.Node inline formula={`f(x) = \\int_{-\\infty}^\\infty
-                                                                                    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}
-                                                                                    \\,d\\xi`} />
+                      formula 1.1: <MathJax.Node  formula={`\\ce{PEA_{gut} <=>[k_{\\mathrm{diff\\_PEA}}][k_{\\mathrm{diff\\_PEA}}] PEA_{peri}}
+                    `} />
                   </div>
               </MathJax.Provider>
+              <p>According to the law of mass action, this process can be represented by an ordinary differential equation (ODE) as follows</p>
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.2: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{peri}}([PEA_{gut}] - [PEA_{peri}])`} />
+                      formula 1.3: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{gut}}([PEA_{peri}] - [PEA_{gut}])`} />                  
+                  </div>
+              </MathJax.Provider>
+
+            <p>where<MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`k_{\\mathrm{diff\\_PEA}}`} />
+                  </div>
+              </MathJax.Provider>represents the passive diffusion constant of phenylethylamine. The amount of substance passing through the membrane per unit time is equal to the product of the concentration difference across the membrane and the passive diffusion rate constant.</p>
+          <p>Subsequently, monoamine oxidase TynA oxidizes phenylethylamine into phenylacetaldehyde (PA) and ammonia.</p>
+          <MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.4: 
+                      <MathJax.Node formula={`\\ce{PEA_{peri} ->[TynA][K_{M\\_TynA},\ k_{cat\\_TynA}] PA_{peri} + NH_{3\\_peri}}`} />
+                  </div>
+              </MathJax.Provider>
+<p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`S`} />
+                  </div>
+              </MathJax.Provider>
+               into a product <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`P`} />
+                  </div>
+              </MathJax.Provider> via an enzyme <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`E`} />
+                  </div>
+              </MathJax.Provider>, through the formation of an enzyme-substrate complex <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`ES`} />
+                  </div>
+              </MathJax.Provider>. The basic reaction scheme is:</p>
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.5: 
+                      <MathJax.Node formula={`E + S \\xrightleftharpoons[k_{r1}]{k_{f1}} ES \\xrightarrow{k_{cat}} E + P`} />
+                  </div>
+              </MathJax.Provider>
+<p>where <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`k_{f1}`} />
+                  </div>
+              </MathJax.Provider>is the rate constant for the formation of the enzyme-substrate complex, <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`k_{r1}`} />
+                  </div>
+              </MathJax.Provider> is the rate constant for the dissociation of the complex back to free enzyme and substrate, and <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`k_{cat}`} />
+                  </div>
+              </MathJax.Provider>is the rate constant for the conversion of the enzyme-substrate complex into product and free enzyme.</p>
+
+        <p>The derivation relies on two main assumptions:</p>
+
+        <p>1\. Steady-State Approximation: The concentration of the enzyme-substrate complex remains constant during the reaction because its formation and breakdown reach a dynamic equilibrium</p>
+
+<p>Thus, the rate of formation of <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`ES`} />
+                  </div>
+              </MathJax.Provider> equals its breakdown</p>
+
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.7: 
+                      <MathJax.Node formula={`k_{f1}[E][S] = \\left( k_{r1} + k_{\\mathrm{cat}} \\right) [ES]`} />
+                      formula 1.8: 
+                      <MathJax.Node formula={`[ES] = \\frac{ k_{f1}[E][S] }{ k_{r1} + k_{\\mathrm{cat}} }`} />                  
+                  </div>
+              </MathJax.Provider>
+
+<p>2\. Total Enzyme Concentration: The total concentration of the enzyme is constant and can be expressed as the sum of free enzyme and enzyme bound in the enzyme-substrate complex.</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.9: 
+                      <MathJax.Node formula={`\\[E_{\\text{total}}\\] = \\[E\\] + \\[ES\\]`} />               
+                  </div>
+              </MathJax.Provider>               
+               <p>Substitute <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`\\[E\\] = \\[E_{\\text{total}}\\] - \\[ES\\]
+`} />
+                  </div>
+              </MathJax.Provider>into the steady-state equation and solve for  <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`\\[ES\\]
+`} />
+                  </div>
+              </MathJax.Provider></p>
+
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.10: 
+                      <MathJax.Node formula={`\\[ES\\] = \\frac{\\[E_{\\text{total}}\\] [S]}{\\frac{k_{r1} + k_{\\text{cat}}}{k_{f1}} + [S]}`} />               
+                  </div>
+              </MathJax.Provider>    
+<p>The Michaelis constant  <MathJax.Provider>
+                  <div className='indent'>
+                      <MathJax.Node inline formula={`K_M`} />
+                  </div>
+              </MathJax.Provider> is defined as</p>
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.11: 
+                      <MathJax.Node formula={`K_M = \\frac{k_{r1} + k_{\\text{cat}}}{k_{f1}}
+`} />               
+                  </div>
+              </MathJax.Provider>  
+<p>This simplifies the expression for  to</p>
                  <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
                 className="responsive-img"
               />
                </Element>
-                <p>预设好，用来<span className='bold-font'>粗体</span>装文本的小箱子</p>
-                <p>1234<p className="bold-font">56</p>7890</p>         
-                <div>很万能的小箱子</div>
-                <div className="rounded-border">
-                <h2 className="center-text">居中小标题</h2>
-                <p>第一行文本</p>
-                <p>第二行文本，<span className="bold-font">欧耶欧耶</span>欧耶</p>
-                </div>              
+       
           
               
               <Element name="section2" className="element rounded-border" id='section2'>
