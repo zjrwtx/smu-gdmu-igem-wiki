@@ -60,7 +60,6 @@ export function Model() {
               <Element name="section1" className="element rounded-border" id='section1'>
               <h2 className="center-text">Section 1  ODE Model of Biochemical Reactions</h2>
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
-                 <p>首先肠道中的苯乙胺扩散进入大肠杆菌的外膜，进入周质空间，在这里和TynA接触。</p>
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
               <MathJax.Provider>
                   <div className='indent'>
