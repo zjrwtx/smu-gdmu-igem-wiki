@@ -337,8 +337,7 @@ export function Model() {
 
                   </div>
               </MathJax.Provider>
-
-<p>Since the constants depend only on the intrinsic properties of the enzyme and substrate, we can use the values of <MathJax.Provider>
+        <p>Since the constants depend only on the intrinsic properties of the enzyme and substrate, we can use the values of <MathJax.Provider>
                   <span>
                       <MathJax.Node inline formula={`K_M`} />
                   </span>
@@ -382,51 +381,8 @@ export function Model() {
                   </div>
               </MathJax.Provider>
 <p>Based on the two-step reaction process described, we can establish the following system of ODEs.</p>
-<MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.6: 
-                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} - k_{cat\\_FeaR}[FeaR\\mathrm{-}PA]`} />
-
-                  </div>
-                  <div className='indent'>
-                  formula 2.7: 
-                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} + k_{cat\\_FeaR}[FeaR\\mathrm{-}PA]`} />                                      
-                  </div>
-                  <div className='indent'>
-                  formula 2.8: 
-                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{cyto}]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}}`} />                                      
-                  </div>
-                  <div className='indent'>
-                  formula 2.9: 
-                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PAA_{cyto}]}{\\mathrm{d}t} = k_{cat\\_FeaR}[FeaR\\mathrm{-}PA] + \\frac{k_{diff\\_PAA}}{V_{cyto}}([PAA_{gut}]-[PAA_{cyto}])`} />                                      
-                  </div>
-
-                  <div className='indent'>
-                  formula 2.10: 
-                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PAA_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PAA}}{V_{gut}}([PAA_{cyto}]-[PAA_{gut}])`} />                                      
-                  </div>
-
-              </MathJax.Provider>
-
-<p>The process by which the <MathJax.Provider>
-                  <span>
-                      <MathJax.Node inline formula={`FeaR-PA`} />
-                  </span>
-              </MathJax.Provider> complex activates the PTynA promoter upstream of GS or TPH1 can be described as follows</p>
-
-              <MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.11: 
-                      <MathJax.Node formula={`P_{TynA\\_GS}+FeaR-PA\\overset{}{\\underset{}{\\rightleftharpoons}}P_{TynA\\_GS\\_active}`} />
-
-                  </div>
-                  <div className='indent'>
-                  formula 2.12: 
-                      <MathJax.Node formula={`P_{TynA\\_TPH1}+FeaR-PA\\overset{}{\\underset{}{\\rightleftharpoons}}P_{TynA\\_TPH1\\_active}`} />                                      
-                  </div>
 
 
-              </MathJax.Provider>
 
 
                </Element>
