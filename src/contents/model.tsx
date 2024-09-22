@@ -63,7 +63,7 @@ export function Model() {
         </div>
         
         <div className="col-8">
-              <Element name="section1" className="element rounded-border" id='section1'>
+        <Element name="section1" className="element rounded-border" id='section1'>
               <h2 className="center-text">Section 1  ODE Model of Biochemical Reactions</h2>
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
@@ -82,10 +82,9 @@ export function Model() {
 
                   </div>
 
-                  <div className='indent'>
-                  formula 1.3: 
+                  <div className='indent formula_content'>
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{gut}}([PEA_{peri}] - [PEA_{gut}])`} />                  
-
+                      <span className='formula_number'>3</span>
                   </div>
               </MathJax.Provider>
 
@@ -96,9 +95,9 @@ export function Model() {
               </MathJax.Provider> represents the passive diffusion constant of phenylethylamine. The amount of substance passing through the membrane per unit time is equal to the product of the concentration difference across the membrane and the passive diffusion rate constant.</p>
           <p>Subsequently, monoamine oxidase TynA oxidizes phenylethylamine into phenylacetaldehyde (PA) and ammonia.</p>
           <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.4: 
+                  <div className='indent formula_content'>
                       <MathJax.Node formula={` PEA\\xrightarrow[K_{M\\_TynA},k_{cat\\_TynA}]{TynA} PA_{peri} + NH_{3\\_peri}`} />
+                      <span className='formula_number'>4</span>
                   </div>
               </MathJax.Provider>
 <p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate <MathJax.Provider> 
@@ -117,9 +116,9 @@ export function Model() {
                   </span>
               </MathJax.Provider>. The basic reaction scheme is:</p>
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.5: 
+                  <div className='indent formula_content'>
                       <MathJax.Node formula={`{{E+S}\\overset{k_{f1}}{\\underset{k_{r1}}{\\rightleftharpoons}}  ES \\xrightarrow[]{k_{cat}}E + P}`} />
+                      <span className='formula_number'>5</span>
                   </div>
               </MathJax.Provider>
 <p>where <MathJax.Provider>
@@ -147,23 +146,25 @@ export function Model() {
               </MathJax.Provider> equals its breakdown</p>
 
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.7: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`k_{f1}[E][S] = \\left( k_{r1} + k_{\\mathrm{cat}} \\right) [ES]`} />
-                                  
+                      <span className='formula_number'>6</span>
                   </div>
-                  <div className='indent'>
-                  formula 1.8: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`[ES] = \\frac{ k_{f1}[E][S] }{ k_{r1} + k_{\\mathrm{cat}} }`} />                                      
+                      <span className='formula_number'>7</span>
                   </div>
 
               </MathJax.Provider>
 
 <p>2. Total Enzyme Concentration: The total concentration of the enzyme is constant and can be expressed as the sum of free enzyme and enzyme bound in the enzyme-substrate complex.</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.9: 
-                      <MathJax.Node formula={`[E_{\\text{total}}] = [E] + [ES]`} />               
+                  <div className='indent formula_content'>
+                       
+                      <MathJax.Node formula={`[E_{\\text{total}}] = [E] + [ES]`} />    
+                      <span className='formula_number'>8</span>           
                   </div>
               </MathJax.Provider>               
                <p>Substitute <MathJax.Provider>
@@ -179,9 +180,10 @@ export function Model() {
               </MathJax.Provider></p>
 
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.10: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`[ES] = \\frac{[E_{\\text{total}}] [S]}{\\frac{k_{r1} + k_{\\text{cat}}}{k_{f1}} + [S]}`} />               
+                      <span className='formula_number'>9</span>
                   </div>
               </MathJax.Provider>    
 <p>The Michaelis constant  <MathJax.Provider>
@@ -190,27 +192,30 @@ export function Model() {
                   </span>
               </MathJax.Provider> is defined as</p>
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.11: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`K_M = \\frac{k_{r1} + k_{\\text{cat}}}{k_{f1}}
 `} />               
+        <span className='formula_number'>10</span>
                   </div>
               </MathJax.Provider>  
 <p>This simplifies the expression for  to</p>
 
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.12: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`ES = \\frac{ {[E\\_total][S]} }{K_M + [S]}`} />               
                   </div>
+                  <span className='formula_number'>11</span>
               </MathJax.Provider>  
 
 <p>The rate of product formation is 
 </p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.13: 
-                      <MathJax.Node formula={`v_0 = k_{cat}[ES]`} />               
+                  <div className='indent formula_content'>
+                       
+                      <MathJax.Node formula={`v_0 = k_{cat}[ES]`} />      
+                      <span className='formula_number'>12</span>         
                   </div>
               </MathJax.Provider>  
 <p>Substituting <MathJax.Provider>
@@ -220,9 +225,10 @@ export function Model() {
               </MathJax.Provider> gives the Michaelis-Menten equation:</p>
 
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.14: 
-                      <MathJax.Node formula={`v_0 = \\frac{V_{max}[s]}{K_M+[S]}`} />               
+                  <div className='indent formula_content'>
+                       
+                      <MathJax.Node formula={`v_0 = \\frac{V_{max}[s]}{K_M+[S]}`} />  
+                      <span className='formula_number'>13</span>             
                   </div>
               </MathJax.Provider>  
 
@@ -242,60 +248,74 @@ export function Model() {
                   </span>
               </MathJax.Provider> are more readily available, we use them to express the Michaelis-Menten equation</p>
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.15: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`v_0 = \\frac{k{cat}[E_{total}][S]}{K_M +[S]}`} />               
                   </div>
               </MathJax.Provider>  
 <p>This process can be described using Michaelis-Menten kinetics as follows</p>
 
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.16: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{peri}]}{\\mathrm{d}t} = \\frac{k_{cat\\_TynA}[TynA][PEA_{peri}]}{K_{M\\_TynA}+[PEA_{peri}]}`} />
-                                  
+                      <span className='formula_number'>14</span>             
+   
                   </div>
-                  <div className='indent'>
-                  formula 1.17: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_peri}]}{\\mathrm{d}t} = \\frac{k_{cat\\_TynA}[TynA][PEA_{peri}]}{K_{M\\_TynA}+[PEA_{peri}]}`} />                                      
+                      <span className='formula_number'>15</span>             
+
                   </div>
-                  <div className='indent'>
-                  formula 1.18: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{peri}]}{\\mathrm{d}t} = -\\frac{k_{cat\\_TynA}[TynA][PEA_{peri}]}{K_{M\\_TynA}+[PEA_{peri}]}`} />                                      
+                      <span className='formula_number'>16</span>             
+
                   </div>
               </MathJax.Provider>
 
 <p>The phenylacetaldehyde and ammonia formed in this reaction cross the inner membrane into the cytoplasm, where they participate in further oxidation and metabolic processes.</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.19: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`PA_{peri}\\overset{}{\\underset{}{\\rightleftharpoons}}PA_{cyto}`} />
-                                  
+                      <span className='formula_number'>17</span>             
+
                   </div>
-                  <div className='indent'>
-                  formula 1.20: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`NH_{3\\_peri}\\overset{}{\\underset{}{\\rightleftharpoons}}NH_{3\\_cyto}`} />                                      
+                      <span className='formula_number'>18</span>             
+
                   </div>
               </MathJax.Provider>
 <p>According to the law of mass action</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 1.21: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PA}}{V_{cyto}}([PA_{peri}]-[PA_{cyto}])`} />
-                                  
+                      <span className='formula_number'>19</span>             
+
                   </div>
-                  <div className='indent'>
-                  formula 1.22: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PA}}{V_{peri}}([PA_{cyto}]-[PA_{peri}])`} />                                      
+                      <span className='formula_number'>20</span>             
+
                   </div>
-                  <div className='indent'>
-                      formula 1.23: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_NH3}}{V_{cyto}}([NH_{3\\_peri}]-[NH_{3\\_cyto}])`} />
-                                  
+                      <span className='formula_number'>21</span>             
+
                   </div>
-                  <div className='indent'>
-                  formula 1.24: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_NH3}}{V_{peri}}([NH_{3\\_cyto}]-[NH_{3\\_peri}])`} />                                      
+                      <span className='formula_number'>22</span>             
+
                   </div>
 
               </MathJax.Provider>
@@ -303,18 +323,23 @@ export function Model() {
               <h3>1.2 Production of GS and TPH1</h3>
 <p>The process by which FeaR catalyzes the further oxidation of phenylacetaldehyde into phenylacetic acid (PAA) in the cytoplasm can be broken down into two steps according to the principles of Michaelis-Menten kinetics. The phenylacetic acid produced by the reaction then diffuses out of the cell.</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.1: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`FeaR+PA_{cyto}\\overset{}{\\underset{}{\\rightleftharpoons}}FearR-PA`} />
+                      <span className='formula_number'>23</span>             
 
                   </div>
-                  <div className='indent'>
-                  formula 2.2: 
-                      <MathJax.Node formula={`FeaR-PA\\xrightarrow{}FearR+PAA_{cyto}`} />                                      
+                  <div className='indent formula_content'>
+                   
+                      <MathJax.Node formula={`FeaR-PA\\xrightarrow{}FearR+PAA_{cyto}`} />       
+                      <span className='formula_number'>24</span>             
+                               
                   </div>
-                  <div className='indent'>
-                  formula 2.3: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`PAA_{cyto}\\overset{}{\\underset{}{\\rightleftharpoons}}PAA_{gut}`} />                                      
+                      <span className='formula_number'>25</span>             
+
                   </div>
               </MathJax.Provider>
 <p>The FeaR-phenylacetaldehyde complex can bind and activate the PTynA promoter. In this case, the concentration of the enzyme-substrate complex <MathJax.Provider>
@@ -339,9 +364,11 @@ export function Model() {
                   </span>
               </MathJax.Provider> still holds.</p>
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.4: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`K_M = \\frac{k_{r1}+k_{cat}}{k_{f1}}`} />
+                      <span className='formula_number'>26</span>             
+
 
                   </div>
               </MathJax.Provider>
@@ -382,35 +409,41 @@ export function Model() {
                   </span>
               </MathJax.Provider>, then we have</p>
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.5: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`k_{f1} \\approx \\frac{k_{cat}}{K_m}`} />
+                      <span className='formula_number'>27</span>             
+
 
                   </div>
               </MathJax.Provider>
 <p>Based on the two-step reaction process described, we can establish the following system of ODEs.</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.6: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} - k_{cat\\_FeaR}[FeaR\\mathrm{-}PA]`} />
-
+                      <span className='formula_number'>28</span> 
                   </div>
-                  <div className='indent'>
-                  formula 2.7: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} + k_{cat\\_FeaR}[FeaR\\mathrm{-}PA]`} />                                      
+                      <span className='formula_number'>29</span> 
                   </div>
-                  <div className='indent'>
-                  formula 2.8: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{cyto}]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}}`} />                                      
+                      <span className='formula_number'>30</span> 
                   </div>
-                  <div className='indent'>
-                  formula 2.9: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PAA_{cyto}]}{\\mathrm{d}t} = k_{cat\\_FeaR}[FeaR\\mathrm{-}PA] + \\frac{k_{diff\\_PAA}}{V_{cyto}}([PAA_{gut}]-[PAA_{cyto}])`} />                                      
+                      <span className='formula_number'>31</span> 
                   </div>
 
-                  <div className='indent'>
-                  formula 2.10: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PAA_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PAA}}{V_{gut}}([PAA_{cyto}]-[PAA_{gut}])`} />                                      
+                      <span className='formula_number'>32</span> 
                   </div>
 
               </MathJax.Provider>
@@ -422,14 +455,15 @@ export function Model() {
               </MathJax.Provider> complex activates the PTynA promoter upstream of GS or TPH1 can be described as follows</p>
 
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.11: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`P_{TynA\\_GS}+FeaR-PA\\overset{}{\\underset{}{\\rightleftharpoons}}P_{TynA\\_GS\\_active}`} />
-
+                      <span className='formula_number'>33</span> 
                   </div>
-                  <div className='indent'>
-                  formula 2.12: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`P_{TynA\\_TPH1}+FeaR-PA\\overset{}{\\underset{}{\\rightleftharpoons}}P_{TynA\\_TPH1\\_active}`} />                                      
+                      <span className='formula_number'>34</span> 
                   </div>
 
 
@@ -438,27 +472,31 @@ export function Model() {
               
               <p>The corresponding set of ODEs is</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.13: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_GS\\_active}]}{\\mathrm{d}t} = k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{r\\_PtynA}[P_{TynA\\_GS\\_active}]`} />
-
+                      <span className='formula_number'>35</span> 
                   </div>
-                  <div className='indent'>
-                  formula 2.14: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_TPH1\\_active}]}{\\mathrm{d}t} = k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] - k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                      <span className='formula_number'>36</span> 
                   </div>
-                  <div className='indent'>
-                  formula 2.15: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_GS}]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}]`} />                                      
+                      <span className='formula_number'>37</span> 
                   </div>
-                  <div className='indent'>
-                  formula 2.16: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_TPH1}]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                      <span className='formula_number'>38</span> 
                   </div>
 
-                  <div className='indent'>
-                  formula 2.17: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                      <span className='formula_number'>39</span> 
                   </div>
 
               </MathJax.Provider>
@@ -478,62 +516,73 @@ export function Model() {
 
 <p>The activated promoter initiates the transcription of downstream genes, producing the corresponding mRNA, while we also take into account the process of mRNA degradation.</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.18: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`P_{TynA\\_GS\\_active}  \\rightarrow P_{TynA\\_GS\\_active} + mRNA_{GS}`} />
-
+                      <span className='formula_number'>40</span> 
                   </div>
-                  <div className='indent'>
-                  formula 2.19: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`P_{TynA\\_TPH1\\_active} \\rightarrow  P_{TynA\\_TPH1\\_active}+mRNA_{TPH1}`} />                                      
+                      <span className='formula_number'>41</span> 
                   </div>
-                  <div className='indent'>
-                  formula 2.20: 
-                      <MathJax.Node formula={`mRNA_{GS}\\rightarrow \\varnothing`} />                                      
+                  <div className='indent formula_content'>
+                   
+                      <MathJax.Node formula={`mRNA_{GS}\\rightarrow \\varnothing`} />    
+                      <span className='formula_number'>42</span>                                   
                   </div>
-                  <div className='indent'>
-                  formula 2.21: 
-                      <MathJax.Node formula={`mRNA_{TPH1}\\rightarrow \\varnothing`} />                                      
+                  <div className='indent formula_content'>
+                   
+                      <MathJax.Node formula={`mRNA_{TPH1}\\rightarrow \\varnothing`} />    
+                      <span className='formula_number'>43</span>                                   
                   </div>
 
-                  <div className='indent'>
-                  formula 2.22: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[mRNA_{GS}]}{\\mathrm{d}t} = k_{mRNA\\_GS}[P_{TynA\\_GS\\_active}] - d_{mRNA\\_GS}[mRNA_{GS}]`} />                                      
+                      <span className='formula_number'>44</span> 
                   </div>
 
-                  <div className='indent'>
-                  formula 2.23: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[mRNA_{TPH1}]}{\\mathrm{d}t} = k_{mRNA\\_TPH1}[P_{TynA\\_TPH1\\_active}] - d_{mRNA\\_TPH1}[mRNA_{TPH1}]`} />                                      
+                      <span className='formula_number'>45</span> 
                   </div>
               </MathJax.Provider>
 <p>Next is the process of translation and degradation of the target protein.</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 2.24: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`mRNA_{GS}\\rightarrow mRNA_{GS}+GS`} />
+                      <span className='formula_number'>46</span> 
 
                   </div>
-                  <div className='indent'>
-                  formula 2.25: 
-                      <MathJax.Node formula={`mRNA_{TPH1}\\rightarrow mRNA_{TPH1}+TPH1`} />                                      
+                  <div className='indent formula_content'>
+                   
+                      <MathJax.Node formula={`mRNA_{TPH1}\\rightarrow mRNA_{TPH1}+TPH1`} />  
+                      <span className='formula_number'>48</span>                                     
                   </div>
-                  <div className='indent'>
-                  formula 2.26: 
-                      <MathJax.Node formula={`GS\\rightarrow \\varnothing`} />                                      
+                  <div className='indent formula_content'>
+                   
+                      <MathJax.Node formula={`GS\\rightarrow \\varnothing`} />          
+                      <span className='formula_number'>49</span>                             
                   </div>
-                  <div className='indent'>
-                  formula 2.27: 
-                      <MathJax.Node formula={`TPH1\\rightarrow \\varnothing`} />                                      
+                  <div className='indent formula_content'>
+                   
+                      <MathJax.Node formula={`TPH1\\rightarrow \\varnothing`} />  
+                      <span className='formula_number'>50</span>                                     
                   </div>
 
-                  <div className='indent'>
-                  formula 2.28: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[GS]}{\\mathrm{d}t} = p_{GS}[mRNA_{GS}] - d_{GS}[GS]`} />                                      
+                      <span className='formula_number'>51</span> 
                   </div>
 
-                  <div className='indent'>
-                  formula 2.29: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[TPH1]}{\\mathrm{d}t} = p_{TPH1}[mRNA_{TPH1}] - d_{TPH1}[TPH1]`} />                                      
+                      <span className='formula_number'>52</span> 
                   </div>
               </MathJax.Provider>
 
@@ -541,39 +590,41 @@ export function Model() {
               <h3>1.3 Metabolism of Ammonia and Tryptophan</h3>
                 <p>Under the catalysis of GS, glutamate accepts ammonia and is converted into glutamine. Glutamate in the gut diffuses into the cytoplasm, where it is converted into glutamine. The glutamine then diffuses back into the gut, acting as a carrier molecule.</p>
                 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 3.1: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`Glu_{gut}\\overset{}{\\underset{}{\\rightleftharpoons}}Glu_{cyto}`} />
-
+                      <span className='formula_number'>53</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.2: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`NH_{3_{Peri}}\\overset{}{\\underset{}{\\rightleftharpoons}}NH_{3_{cyto}}`} />                                      
+                      <span className='formula_number'>54</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.3: 
-                      <MathJax.Node formula={`Glu_{cyto}+ NH_{3\\_cyto}\\xrightarrow[] Gln_{cyto}`} />                                      
+                  <div className='indent formula_content'>
+                   
+                      <MathJax.Node formula={`Glu_{cyto}+ NH_{3\\_cyto}\\xrightarrow[] Gln_{cyto}`} /> 
+                      <span className='formula_number'>55</span>                                      
                   </div>
-                  <div className='indent'>
-                  formula 3.4: 
+                  <div className='indent formula_content'>
                       <MathJax.Node formula={`Gln_{cyto}\\overset{}{\\underset{}{\\rightleftharpoons}} Gln_{gut}`} />                                      
+                      <span className='formula_number'>56</span> 
                   </div>
 
               </MathJax.Provider>
               <p>For an enzyme-catalyzed reaction involving two substrates that form a single product, the Michaelis-Menten equation can be extended to account for the involvement of both substrates. The general reaction can be written as</p>
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 3.5: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`E+A+B\\overset{k_{f1}}{\\underset{k_{r1}}{\\rightleftharpoons}}EAB \\xrightarrow{k_{cat}}E+P]`} />
-
+                      <span className='formula_number'>57</span> 
                   </div>
               </MathJax.Provider>
 <p>The Michaelis-Menten equation is</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 3.6: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`v_0 = \\frac{V_{max} [A] [B]}{K_{M\\_A}[B] + K_{M\\_B}[A] + [A][B]}`} />
-
+                      <span className='formula_number'>58</span> 
                   </div>
               </MathJax.Provider>
 <p>where <MathJax.Provider>
@@ -604,173 +655,205 @@ export function Model() {
 
 <p>the corresponding set of ODEs is</p>
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 3.7: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Glu_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Glu}}{V_{gut}}([Glu_{cyto}]-[Glu_{gut}])`} />
-
+                      <span className='formula_number'>59</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.8: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Glu_{cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Glu}}{V_{cyto}}([Glu_{gut}]-[Glu_{cyto}]) - \\frac{k_{cat\\_GS}[GS][Glu_{cyto}][NH_{3\\_cyto}]}{(K_{M\\_GS\\_Glu}+[Glu_{cyto}])(K_{M\\_GS\\_NH3}+[NH_{3\\_cyto}])}`} />                                      
+                      <span className='formula_number'>60</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.9: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_NH3}}{V_{cyto}}([NH_{3\\_peri}]-[NH_{3\\_cyto}]) - \\frac{k_{cat\\_GS}[GS][Glu_{cyto}][NH_{3\\_cyto}]}{(K_{M\\_GS\\_Glu}+[Glu_{cyto}])(K_{M\\_GS\\_NH3}+[NH_{3\\_cyto}])}`} />                                      
+                      <span className='formula_number'>61</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.10: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Gln_{cyto}]}{\\mathrm{d}t} = \\frac{k_{cat\\_GS}[GS][Glu_{cyto}][NH_{3\\_cyto}]}{(K_{M\\_GS\\_Glu}+[Glu_{cyto}])(K_{M\\_GS\\_NH3}+[NH_{3\\_cyto}])} + \\frac{k_{diff\\_Gln}}{V_{cyto}}([Gln_{gut}]-[Gln_{cyto}])`} />                                      
+                      <span className='formula_number'>62</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.11: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Gln_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Gln}}{V_{gut}}([Gln_{cyto}]-[Gln_{gut}])`} />                                      
+                      <span className='formula_number'>63</span> 
                   </div>
 
               </MathJax.Provider>
 <p>TPH1 converts tryptophan that enters the cytoplasm into 5-hydroxytryptophan, which is then transported from the cytoplasm into the gut. The corresponding reaction equations and ODEs are as follows</p>
                
 <MathJax.Provider>
-                  <div className='indent'>
-                      formula 3.8: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`Trp_{gut}\\overset{}{\\underset{}{\\rightleftharpoons}}Trp_{cyto}`} />
-
+                      <span className='formula_number'>64</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.9: 
-                      <MathJax.Node formula={`Trp_{cyto}\\xrightarrow{TPH1}5-HTP_{cyto}`} />                                      
+                  <div className='indent formula_content'>
+                   
+                      <MathJax.Node formula={`Trp_{cyto}\\xrightarrow{TPH1}5-HTP_{cyto}`} />    
+                      <span className='formula_number'>65</span>                                   
                   </div>
-                  <div className='indent'>
-                  formula 3.10: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`5-HTP_{cyto}\\overset{}{\\underset{}{\\rightleftharpoons}}5-HTP_{gut}`} />                                      
+                      <span className='formula_number'>66</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.11: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Trp_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Trp}}{V_{gut}}([Trp_{cyto}]-[Trp_{gut}])`} />                                      
+                      <span className='formula_number'>67</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.12: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Trp_{cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Trp}}{V_{cyto}}([Trp_{gut}]-[Trp_{cyto}]) - \\frac{k_{cat\\_TPH1}[TPH1][Trp_{cyto}]}{K_{M\\_TPH1}+[Trp_{cyto}]}`} />                                      
+                      <span className='formula_number'>68</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.13: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[5\\mathrm{-}HTP_{cyto}]}{\\mathrm{d}t} = \\frac{k_{cat\\_TPH1}[TPH1][Trp_{cyto}]}{K_{M\\_TPH1}+[Trp_{cyto}]} - \\frac{k_{diff\\_5-HTP}}{V_{cyto}}([5\\mathrm{-}HTP_{gut}]-[5\\mathrm{-}HTP_{cyto}])`} />                                      
+                      <span className='formula_number'>69</span> 
                   </div>
-                  <div className='indent'>
-                  formula 3.14: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[5\\mathrm{-}HTP_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_5-HTP}}{V_{gut}}([5\\mathrm{-}HTP_{cyto}]-[5\\mathrm{-}HTP_{gut}])`} />                                      
+                      <span className='formula_number'>70</span> 
                   </div>
 
               </MathJax.Provider>
               <h3>1.4 Full ODE Model</h3>
                
               <MathJax.Provider>
-                  <div className='indent'>
-                      formula 4.1: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{gut}}([PEA_{peri}]-[PEA_{gut}])`} />
-
+                      <span className='formula_number'>71</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.2: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{peri}}([PEA_{gut}]-[PEA_{peri}]) -\\frac{k_{cat\\_TynA}[TynA][PEA_{peri}]}{K_{M\\_TynA}+[PEA_{peri}]}`} />                                      
+                      <span className='formula_number'>72</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.3: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{peri}]}{\\mathrm{d}t} = \\frac{k_{cat\\_TynA}[TynA][PEA_{peri}]}{K_{M\\_TynA}+[PEA_{peri}]} + \\frac{k_{diff\\_PA}}{V_{peri}}([PA_{cyto}]-[PA_{peri}])`} />                                      
+                      <span className='formula_number'>73</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.4: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_peri}]}{\\mathrm{d}t} = \\frac{k_{cat\\_TynA}[TynA][PEA_{peri}]}{K_{M\\_TynA}+[PEA_{peri}]} + \\frac{k_{diff\\_NH3}}{V_{peri}}([NH_{3\\_cyto}]-[NH_{3\\_peri}])`} />                                      
+                      <span className='formula_number'>74</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.5: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PA}}{V_{cyto}}([PA_{peri}]-[PA_{cyto}]) - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}}`} />                                      
+                      <span className='formula_number'>75</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.6: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_NH3}}{V_{cyto}}([NH_{3\\_peri}]-[NH_{3\\_cyto}]) - \\frac{k_{cat\\_GS}[GS][Glu_{cyto}][NH_{3\\_cyto}]}{(K_{M\\_GS\\_Glu}+[Glu_{cyto}])(K_{M\\_GS\\_NH3}+[NH_{3\\_cyto}])}`} />                                      
+                      <span className='formula_number'>76</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.7: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PAA_{cyto}]}{\\mathrm{d}t} = k_{cat\\_FeaR}[FeaR\\mathrm{-}PA] + \\frac{k_{diff\\_PAA}}{V_{cyto}}([PAA_{gut}]-[PAA_{cyto}])`} />                                      
+                      <span className='formula_number'>77</span> 
                   </div>
-                  <div className='indent'>
-                      formula 4.8: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PAA_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PAA}}{V_{gut}}([PAA_{cyto}]-[PAA_{gut}])`} />
-
+                      <span className='formula_number'>78</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.9: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_GS\\_active}]}{\\mathrm{d}t} = k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{r\\_PtynA}[P_{TynA\\_GS\\_active}]`} />                                      
+                      <span className='formula_number'>79</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.10: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_TPH1\\_active}]}{\\mathrm{d}t} = k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] - k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                      <span className='formula_number'>80</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.11: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_GS}]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}]`} />                                      
+                      <span className='formula_number'>81</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.12: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[P_{TynA\\_TPH1}]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                      <span className='formula_number'>82</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.13: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} + k_{cat\\_FeaR}[FeaR\\mathrm{-}PA]`} />                                      
+                      <span className='formula_number'>83</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.14: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} - k_{cat\\_FeaR}[FeaR\\mathrm{-}PA] -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
+                      <span className='formula_number'>84</span> 
                   </div>
-                  <div className='indent'>
-                      formula 4.15: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[mRNA_{GS}]}{\\mathrm{d}t} = k_{mRNA\\_GS}[P_{TynA\\_GS\\_active}] - d_{mRNA\\_GS}[mRNA_{GS}]`} />
-
+                      <span className='formula_number'>85</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.16: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[mRNA_{TPH1}]}{\\mathrm{d}t} = k_{mRNA\\_TPH1}[P_{TynA\\_TPH1\\_active}] - d_{mRNA\\_TPH1}[mRNA_{TPH1}]`} />                                      
+                      <span className='formula_number'>86</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.17: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[GS]}{\\mathrm{d}t} = p_{GS}[mRNA_{GS}] - d_{GS}[GS]`} />                                      
+                      <span className='formula_number'>87</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.18: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[TPH1]}{\\mathrm{d}t} = p_{TPH1}[mRNA_{TPH1}] - d_{TPH1}[TPH1]`} />                                      
+                      <span className='formula_number'>88</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.19: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Glu_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Glu}}{V_{gut}}([Glu_{cyto}]-[Glu_{gut}])`} />                                      
+                      <span className='formula_number'>89</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.20: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Glu_{cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Glu}}{V_{cyto}}([Glu_{gut}]-[Glu_{cyto}]) - \\frac{k_{cat\\_GS}[GS][Glu_{cyto}][NH_{3\\_cyto}]}{(K_{M\\_GS\\_Glu}+[Glu_{cyto}])(K_{M\\_GS\\_NH3}+[NH_{3\\_cyto}])}`} />                                      
+                      <span className='formula_number'>90</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.21: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Gln_{cyto}]}{\\mathrm{d}t} = \\frac{k_{cat\\_GS}[GS][Glu_{cyto}][NH_{3\\_cyto}]}{(K_{M\\_GS\\_Glu}+[Glu_{cyto}])(K_{M\\_GS\\_NH3}+[NH_{3\\_cyto}])} + \\frac{k_{diff\\_Gln}}{V_{cyto}}([Gln_{gut}]-[Gln_{cyto}])`} />                                      
+                      <span className='formula_number'>91</span> 
                   </div>
-                  <div className='indent'>
-                      formula 4.22: 
+                  <div className='indent formula_content'>
+                       
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Gln_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Gln}}{V_{gut}}([Gln_{cyto}]-[Gln_{gut}])`} />
-
+                      <span className='formula_number'>92</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.23: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Trp_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Trp}}{V_{gut}}([Trp_{cyto}]-[Trp_{gut}])`} />                                      
+                      <span className='formula_number'>93</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.24: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[Trp_{cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Trp}}{V_{cyto}}([Trp_{gut}]-[Trp_{cyto}]) - \\frac{k_{cat\\_TPH1}[TPH1][Trp_{cyto}]}{K_{M\\_TPH1}+[Trp_{cyto}]}`} />                                      
+                      <span className='formula_number'>94</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.25: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[5\\mathrm{-}HTP_{cyto}]}{\\mathrm{d}t} = \\frac{k_{cat\\_TPH1}[TPH1][Trp_{cyto}]}{K_{M\\_TPH1}+[Trp_{cyto}]} - \\frac{k_{diff\\_5-HTP}}{V_{cyto}}([5\\mathrm{-}HTP_{gut}]-[5\\mathrm{-}HTP_{cyto}])`} />                                      
+                      <span className='formula_number'>95</span> 
                   </div>
-                  <div className='indent'>
-                  formula 4.26: 
+                  <div className='indent formula_content'>
+                   
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[5\\mathrm{-}HTP_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_5-HTP}}{V_{gut}}([5\\mathrm{-}HTP_{cyto}]-[5\\mathrm{-}HTP_{gut}])`} />                                      
+                      <span className='formula_number'>96</span> 
                   </div>
                   </MathJax.Provider>
               <h3>Initial Conditions</h3>
