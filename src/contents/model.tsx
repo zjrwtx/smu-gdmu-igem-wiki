@@ -190,6 +190,34 @@ export function Model() {
               </MathJax.Provider>  
 <p>This simplifies the expression for  to</p>
 
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.12: 
+                      <MathJax.Node formula={`ES = \\frac{ {[E_total][S]} }{K_M + [S]}  `} />               
+                  </div>
+              </MathJax.Provider>  
+
+<p>The rate of product formation is 
+</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.13: 
+                      <MathJax.Node formula={`v0 = k_{cat}[ES]`} />               
+                  </div>
+              </MathJax.Provider>  
+<p>Substituting <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`[ES]`} />
+                  </span>
+              </MathJax.Provider> gives the Michaelis-Menten equation:</p>
+
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.14: 
+                      <MathJax.Node formula={`v0 = \\frac{V_{max}[s]}{K_M+[S]}`} />               
+                  </div>
+              </MathJax.Provider>  
+
 
 
                </Element>
