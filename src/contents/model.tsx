@@ -773,52 +773,52 @@ export function Model() {
         <td>Units 单位</td>
     </tr>
     <tr>
-        <td>$[PEA_{gut}]$</td>
+        <td><MathJax.Node inline formula={`[PEA_{gut}]`} /></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>$[TynA]$</td>
+        <td><MathJax.Node inline formula={`[TynA]`} /></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>$[FeaR]$</td>
+        <td><MathJax.Node inline formula={`[FeaR]`} /></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>$[P_{TynA\_GS}]$</td>
+        <td><MathJax.Node inline formula={`[P_{TynA\\_GS}]`} /></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>$[P_{TynA\_TPH1}]$</td>
+        <td>$<MathJax.Node inline formula={`[P_{TynA\\_TPH1}]`} />$</td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>$[Glu_{gut}]$</td>
+        <td><MathJax.Node inline formula={`[Glu_{gut}]`} /></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>$[Glu_{cyto}]$</td>
+        <td><MathJax.Node inline formula={`[Glu_{cyto}]`} /></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>$[Gln_{gut}]$</td>
+        <td><MathJax.Node inline formula={`[Gln_{gut}]`} /></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>$[Gln_{cyto}]$</td>
+        <td><MathJax.Node inline formula={`[Gln_{cyto}]`} /></td>
         <td></td>
         <td></td>
     </tr>
     <tr>
-        <td>$[Trp_{gut}]$</td>
+        <td><MathJax.Node inline formula={`[Trp_{gut}]`} /></td>
         <td></td>
         <td></td>
     </tr>
