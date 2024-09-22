@@ -58,7 +58,7 @@ export function Model() {
         
         <div className="col-8">
               <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2 className="center-text">Section 1  ODE Model of Biochemical Reactions</h2>
+              <h2 className="center-text">Section 1  ODE Model of Biochemical Reactions</h2>
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
                  <p>首先肠道中的苯乙胺扩散进入大肠杆菌的外膜，进入周质空间，在这里和TynA接触。</p>
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
@@ -498,10 +498,6 @@ export function Model() {
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR\\mathrm{-}PA]}{\\mathrm{d}t} = -k_{f\\_PtynA}[P_{TynA\\_GS}][FeaR\\mathrm{-}PA] - k_{f\\_PtynA}[P_{TynA\\_TPH1}][FeaR\\mathrm{-}PA] + k_{r\\_PtynA}[P_{TynA\\_GS\\_active}] + k_{r\\_PtynA}[P_{TynA\\_TPH1\\_active}]`} />                                      
                   </div>
               </MathJax.Provider>
-
-
-
-
                </Element>
        
           
