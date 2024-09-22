@@ -62,7 +62,7 @@ export function Description() {
     <div className="custom-header-description">
 <h1 className="centered-title">
 <img 
-                src="https://static.igem.wiki/teams/5378/header/human-practices.png"
+                src="https://static.igem.wiki/teams/5378/header/description.png"
                 alt="safety header"
                 className="header-img"
               />
