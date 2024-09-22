@@ -14,7 +14,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
   return (
     <div className="side-navbar">
       <Nav className="flex-column">
-        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>Section 1</Nav.Link>
+        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>ODE Model of Biochemical Reactions</Nav.Link>
         <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Section 2</Nav.Link>
         <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Section 3</Nav.Link>
         <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>Section 4</Nav.Link>
@@ -98,23 +98,27 @@ export function Model() {
                   </div>
               </MathJax.Provider>
 <p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate 
-  <MathJax.Provider> <div className='indent'>
+  
+  <MathJax.Provider> <span className='indent'>
           <MathJax.Node inline formula={`S`} />
-                  </div>
+                  </span>
                  </MathJax.Provider>
 
-               into a product <MathJax.Provider>
-                  <div className='indent'>
+               into a product
+               
+                <MathJax.Provider>
+                  <span>
                       <MathJax.Node inline formula={`P`} />
-                  </div>
+                  </span>
+
               </MathJax.Provider> via an enzyme <MathJax.Provider>
-                  <div className='indent'>
+                  <span>
                       <MathJax.Node inline formula={`E`} />
-                  </div>
+                  </span>
               </MathJax.Provider>, through the formation of an enzyme-substrate complex <MathJax.Provider>
-                  <div className='indent'>
+                  <span>
                       <MathJax.Node inline formula={`ES`} />
-                  </div>
+                  </span>
               </MathJax.Provider>. The basic reaction scheme is:</p>
               <MathJax.Provider>
                   <div className='indent'>
