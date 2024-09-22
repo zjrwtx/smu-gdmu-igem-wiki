@@ -94,7 +94,7 @@ export function Model() {
           <MathJax.Provider>
                   <div className='indent'>
                       formula 1.4: 
-                      <MathJax.Node formula={`PEA_{peri} \\xrightarrow[TynA]{K_{M\\_TynA}, k_{cat\\_TynA}} PA_{peri} + NH_{3\\_peri}}`} />
+                      <MathJax.Node formula={` PEA\\xrightarrow[K_{M\\_TynA},k_{cat\\_TynA}]{TynA} PA_{peri} + NH_{3\\_peri}`} />
                   </div>
               </MathJax.Provider>
 <p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate <MathJax.Provider>
