@@ -63,8 +63,8 @@ export function Model() {
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
               <MathJax.Provider>
                   <div className='indent'>
-                      <MathJax.Node  formula={`{PEA_{gut}\\overset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\underset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\rightleftharpoons}}  PEA_{peri}}`} />
-                      <span style={{ float: 'right' }}>（1）</span>
+                      <MathJax.Node style={{ position: 'relative' }} formula={`{PEA_{gut}\\overset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\underset{k_{\\text{diff}}\\_{\\text{PEA}}}{\\rightleftharpoons}}  PEA_{peri}}`} />
+                      <span style={{ position: 'absolute', right: '0', top: '0' }}>（1）</span>
                   
                   </div>
               </MathJax.Provider>
