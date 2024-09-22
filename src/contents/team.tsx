@@ -89,7 +89,7 @@ export function Team() {
       <div className="custom-header-team">
         <h1 className="centered-title">
           <img 
-            src="https://static.igem.wiki/teams/5378/header/team.webp"
+            src="https://static.igem.wiki/teams/5378/header/team.png"
             alt="team header"
             className="header-img"
           />

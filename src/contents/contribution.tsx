@@ -57,7 +57,13 @@ export function Contribution() {
     return (
       <>
       <div className="custom-header-contribution">
-      <h1 className="centered-title">CONTRIBUTION</h1>
+      <h1 className="centered-title">
+      <img 
+                src="https://static.igem.wiki/teams/5378/header/contribution.png"
+                alt="safety header"
+                className="header-img"
+              />
+      </h1>
       </div>
         <div className="row  bg-rice_yellow">
           <div className="col-3">

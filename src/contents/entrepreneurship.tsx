@@ -53,7 +53,13 @@ export function Entrepreneurship() {
   return (
     <>
       <div className="custom-header-entrepreneurship">
-<h1 className="centered-title">ENTREPRENEURSHIP</h1>
+<h1 className="centered-title">
+              <img 
+                src="https://static.igem.wiki/teams/5378/header/entrepreneurship.png"
+                alt="safety header"
+                className="header-img"
+              />
+</h1>
 </div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
