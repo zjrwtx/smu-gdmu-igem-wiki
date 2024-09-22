@@ -707,3 +707,15 @@ footer a:hover {
   justify-content: center;
   height: 100%;
 }
+
+/* formula style*/
+
+.formula_number{
+  position: absolute;
+  right: 20%;
+  top: '0' 
+}
+
+.formula_content{
+  position: relative
+}
