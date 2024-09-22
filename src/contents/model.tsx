@@ -72,8 +72,12 @@ export function Model() {
                   <div className='indent'>
                       formula 1.2: 
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{peri}}([PEA_{gut}] - [PEA_{peri}])`} />
-                      formula 1.3: 
+                  </div>
+
+                  <div className='indent'>
+                  formula 1.3: 
                       <MathJax.Node formula={`\\frac{\\mathrm{d}[PEA_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PEA}}{V_{gut}}([PEA_{peri}] - [PEA_{gut}])`} />                  
+
                   </div>
               </MathJax.Provider>
 
@@ -138,9 +142,13 @@ export function Model() {
                   <div className='indent'>
                       formula 1.7: 
                       <MathJax.Node formula={`k_{f1}[E][S] = \\left( k_{r1} + k_{\\mathrm{cat}} \\right) [ES]`} />
-                      formula 1.8: 
-                      <MathJax.Node formula={`[ES] = \\frac{ k_{f1}[E][S] }{ k_{r1} + k_{\\mathrm{cat}} }`} />                  
+                                  
                   </div>
+                  <div className='indent'>
+                  formula 1.8: 
+                      <MathJax.Node formula={`[ES] = \\frac{ k_{f1}[E][S] }{ k_{r1} + k_{\\mathrm{cat}} }`} />                                      
+                  </div>
+
               </MathJax.Provider>
 
 <p>2. Total Enzyme Concentration: The total concentration of the enzyme is constant and can be expressed as the sum of free enzyme and enzyme bound in the enzyme-substrate complex.</p>
