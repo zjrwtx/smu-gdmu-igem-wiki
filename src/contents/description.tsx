@@ -88,12 +88,13 @@ But even more important to our concern than the financial burden is the fact tha
                  <p>The conduction of nerve impulses is accomplished by means of transmitters. Neurotransmitters are divided into two categories, excitatory and inhibitory, which maintain a physiological balance when normal. Excitatory neurotransmitters include dopamine and norepinephrine in catecholamines, acetylcholine, glutamate and menthionine; inhibitory neurotransmitters are formed only in the brain. Aromatic amino acids in food, such as tyrosine and phenylpropanoid amino acids, are converted to tyramine and phenylethylamine PEA, respectively, by the action of enterobacterial decarboxylase. In normal times, these two amines are cleared by monoamine oxidase in the liver, but when liver failure occurs, clearance is impaired, and these two amines can enter the brain tissue, where they are formed into amines (β-hydroxytyramine) and phenylethanolamine by β-hydroxylase, respectively. The latter two are similar in chemical structure to the normal neurotransmitter norepinephrine, but are unable to transmit nerve impulses or have very weak effects, and are therefore called pseudoneurotransmitters. When pseudoneurotransmitters are taken up by brain cells and replace normal transmitters in the synapses, nerve conduction is impaired, and excitatory impulses are not transmitted normally to the cerebral cortex, resulting in abnormal inhibition; impaired consciousness and coma occur. []</p>
                  <p>In an effort to find out more precisely what risk factors are associated with the development of HE, our team actively communicated with the PI and learned of a related, unpublished study that concluded that patients with higher baseline PEA levels (upper quartile) had a 6.95-fold higher risk of developing HE at 3 months than patients in the lower quartile (p = 0.0017) [].</p>
                  <h3>Current treatments</h3>
-                 <p>1</p>
-                 <p>1</p>
-                 <p>1</p>
-                 <p>1</p>
-                 <p>1</p>
-                 <p>1</p>
+                 <p>In cirrhosis, in addition to the urea cycle, two other enzymes are essential for the maintenance of ammonia homeostasis:glutamine synthetase (expressed mainly in the liver, muscle, and kidney) and glutaminase (expressed mainly in the intestine, liver, and kidney). Therefore, in addition to controlling GS and glutaminase, reducing ammonia production and preventing intestinal absorption of ammonia are both potential targets for reducing circulating ammonia levels. [10]</p>
+                 <p>1.Osmotic laxatives:Non-absorbable disaccharides, lactulose and sugar alcohols, are recommended as first-line treatment for HE. Lactulose is a laxative that has a negligible effect on the composition or function of the gut microbiota and may reduce ammonia production and absorption in the gut and increase intestinal excretion by increasing intestinal transport as well as acidification of the intestinal environment. [12]However, some studies have reported potential side effects of laxatives such as lactulose, including diarrhoea, nausea and bloating. Diarrhoea and vomiting can lead to electrolyte disturbances and even exacerbate HE.[10]</p>
+                 <p>2.Anti-microbial agents:Rifaximin is a semi-synthetic non-aminoglycoside drug that fights Gram-positive, Gram-negative, aerobic and anaerobic enteric bacteria. The strongest evidence for the utility of rifaximin is the use of the drug as an add-on to lactulose for the prevention of hepatic encephalopathy recurrence. [13]However, clinical trials of rifaximin in combination with lactulose have rarely been reported and lack wide public acceptance.</p>
+                 <p>3.Probiotics:Probiotics are live bacteria that are thought to improve intestinal ecological dysbiosis, help enhance ammonia metabolism, and reduce the burden of ammonia on the gut. However, to date, the quality of most clinical trials has been low, so the evidence remains unconvincing. [14]</p>
+                 <p>4.Albumin and extracorporeal albumin dialysis (ECAD):The quantity and quality of albumin, a multifunctional protein synthesised in the liver, is significantly reduced in patients with cirrhosis. An early uncontrolled, non-randomised study suggested its potential role in the treatment of hepatic encephalopathy. [15] However, it was not confirmed in randomised controlled clinical trials.</p>
+                 <p>5.L-Mentholated Ornithine (LOLA).A preliminary meta-analysis of eight randomised controlled trials comparing LOLA with placebo/no intervention control showed that intravenous LOLA improved significant hepatic atherosclerosis. [16] However, the effectiveness of oral LOLA has been the subject of debate, as the AASLD-EASL clinical guidelines suggest that oral supplementation with LOLA is ineffective. [1] Therefore, the potential benefits of LOLA remain uncertain.</p>
+                 <p>In conclusion, there is great uncertainty and instability in the treatment of HE, and it is urgent to find more effective and safe treatment options in order to reduce the suffering of patients and the burden on the social healthcare system.</p>
                  <h3>New treatments</h3>
                  <p>Content for section 1.</p>
                  <h3>foresight</h3>
@@ -105,7 +106,7 @@ But even more important to our concern than the financial burden is the fact tha
                 className="responsive-img"
               />
                </Element>
-          
+        
 
           
               
