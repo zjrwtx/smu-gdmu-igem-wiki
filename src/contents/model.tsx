@@ -302,7 +302,7 @@ export function Model() {
                   </div>
                   <div className='indent'>
                   formula 2.2: 
-                      <MathJax.Node formula={`FeaR-PA\\overrightarrow{}FearR+PAA_{cyto}`} />                                      
+                      <MathJax.Node formula={`FeaR-PA\\xrightarrow{}FearR+PAA_{cyto}`} />                                      
                   </div>
                   <div className='indent'>
                   formula 2.3: 
