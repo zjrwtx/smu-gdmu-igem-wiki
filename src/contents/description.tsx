@@ -72,6 +72,16 @@ export function Description() {
               
               <Element name="section1" className="element rounded-border" id='section1'>
                  <h2>Project Introduction</h2>
+                 <h3>Global impact of the disease</h3>
+                 <p>Content for section 1.</p>
+                 <h3>Spark</h3>
+                 <p>Content for section 1.</p>
+                 <h3>Current treatments</h3>
+                 <p>Content for section 1.</p>
+                 <h3>New treatments</h3>
+                 <p>Content for section 1.</p>
+                 <h3>foresight</h3>
+                 <p>Content for section 1.</p>
                  <p>Content for section 1.</p>
                  <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
