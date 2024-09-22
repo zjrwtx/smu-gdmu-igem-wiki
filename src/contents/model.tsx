@@ -72,7 +72,7 @@ export function Model() {
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
               <MathJax.Provider>
                   <div className='indent'>
-                      formula 1.1: <MathJax.Node  formula={`PEA_{gut}\\overset{k_{diff\\_PEA}}{\\underset{k_{diff\\_PEA}}{\\rightleftharpoons}}PEA_{peri}`} />
+                      formula 1.1: <MathJax.Node  formula={`{PEA_{gut}\\overset{k_{\\text{diff}}^{\\text{PEA}}}{\\underset{k_{\\text{diff}}^{\\text{PEA}}}{\\rightleftharpoons}}  PEA_{peri}}`} />
                   </div>
               </MathJax.Provider>
               <p>According to the law of mass action, this process can be represented by an ordinary differential equation (ODE) as follows</p>
@@ -98,7 +98,11 @@ export function Model() {
                   </div>
               </MathJax.Provider>
 <p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate 
-      <span className='indent'> <MathJax.Node inline formula={`S`} /></span>
+  <MathJax.Provider> <div className='indent'>
+          <MathJax.Node inline formula={`S`} />
+                  </div>
+                 </MathJax.Provider>
+
                into a product <MathJax.Provider>
                   <div className='indent'>
                       <MathJax.Node inline formula={`P`} />
