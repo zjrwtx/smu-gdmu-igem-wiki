@@ -128,16 +128,16 @@ export function Education() { // sidenavbar begin
                 />
               </Element>
 
-              <Element name="5.High School Education" className="element rounded-border" id='section5'>
+              <Element name="5.High School Education" className="element rounded-border" id='5.High School Education'>
               <h2>5.High School Education</h2>
               <p className="indent">In order to further promote the knowledge of synthetic biology and hepatic encephalopathy prevention and treatment, we travelled to No.1 High School in Huizhou, Guangdong Province and conducted an educational activity. The activity included showing the project promotional video, introducing the basic knowledge of synthetic biology and hepatic encephalopathy, and interactive question and answer sessions. The application of synthetic biology in the diagnosis and treatment of hepatic encephalopathy was demonstrated through specific cases.</p>
               <p className="indent">After the activity, we conducted a questionnaire survey, and the results showed that the students' understanding of the relevant knowledge was significantly improved. Many students expressed a strong interest in synthetic biology, and some even expressed a desire to engage in related research in the future. Students also gained new knowledge about the prevention and treatment of hepatic encephalopathy, and some of them said they would share this knowledge with their family and friends. In addition, the students gave us valuable suggestions for more practical activities and in-depth lectures in the future to expand the scope of knowledge dissemination. Overall, through this educational activity in Huizhou No. 1 Middle School, we not only successfully popularised the knowledge of synthetic biology and hepatic encephalopathy among the students, but also stimulated their enthusiasm for scientific exploration, laying a foundation for training future scientists and technical talents.</p>
               </Element>
 
               <Element name="6. Mountain Mission" className="element rounded-border" id='6. Mountain Mission'>
-
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h2>6. Mountain Mission</h2>
+              <p className="indent">After accepting the students' suggestion, on 14 July 2024, we joined hands with a doctoral medical team from Southern Medical University to travel to Wari Town, Daofu County, Sichuan Province, a mountainous area at an altitude of 3,000 metres above sea level, to gain a deeper understanding of, and to help improve, the hepatic encephalopathy problem of the local population. In collaboration with the local health hospital, we organised interviews and panel discussions to collect valuable first-hand information. In addition, we provided free health checks, disseminated knowledge about the prevention and treatment of hepatic encephalopathy, improved the villagers' health records, and paid special attention to patients with more serious conditions to provide personalised support. Through these efforts, we raised local residents' awareness of hepatic encephalopathy and contributed to the promotion of public health in the area.</p>
+              <p className="indent">las ijffs aiskfd  fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               </Element>
 
               <Element name="section7" className="element rounded-border" id='section7'>
