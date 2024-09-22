@@ -718,11 +718,12 @@ div.formula_content {
   overflow-x: auto; /* 如果公式太长，允许水平滚动 */
   white-space: nowrap; /* 防止公式换行 */
   text-align: center; 
+  font-size: 0.9em;
 }
 
 div.formula_content .formula_number {
   position: absolute;
-  right: -40px; 
+  right: 0; 
   top: 50%; 
   transform: translateY(-50%); 
 }
