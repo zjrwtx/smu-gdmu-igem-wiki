@@ -713,7 +713,7 @@ footer a:hover {
 
 div.formula_content {
   position: relative;
-  max-width: 80%; /* 宽度限制为容器宽度的80% */
+  max-width: 70%; /* 宽度限制为容器宽度的80% */
   margin: 0 auto; /* 容器水平居中 */
   overflow-x: auto; /* 如果公式太长，允许水平滚动 */
   white-space: nowrap; /* 防止公式换行 */
@@ -725,4 +725,18 @@ div.formula_content .formula_number {
   right: 0; /* 数字靠容器的右边 */
   top: 50%; /* 垂直居中 */
   transform: translateY(-50%); /* 使数字完全垂直居中 */
+}
+
+div.formula_content::-webkit-scrollbar {
+  width: 3px; 
+  height: 3px; 
+}
+
+div.formula_content::-webkit-scrollbar-thumb {
+  background-color: #f5deb3; /* 滚动条滑块的淡黄色 */
+  border-radius: 10px; /* 使滚动条更圆滑 */
+}
+
+div.formula_content::-webkit-scrollbar-track {
+  background: transparent; /* 滚动条背景透明 */
 }
