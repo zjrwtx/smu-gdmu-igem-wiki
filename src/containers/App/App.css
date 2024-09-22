@@ -467,10 +467,12 @@ footer a:hover {
 
 .side-navbar .nav-link.active {
   background-color: rgb(172, 172, 108);
+  cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
 }
 
 .side-navbar .nav-link.notActive {
   background-color: rgb(245, 245, 220);
+  cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
 }
 
 .side-navbar .nav-link.notActive:hover {
