@@ -88,7 +88,7 @@ export function Inclusivity() {
           
 
               <Element name="section3" className="element rounded-border" id='section3'>
-              <h2>Section 3</h2>
+              <h2>To see</h2>
               <p>"We are all connected in the great web of existence." — Chief Seattle</p>
               <div className="rounded-border">
               <h4 className="center-text">To see</h4>
