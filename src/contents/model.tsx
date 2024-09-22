@@ -269,8 +269,74 @@ export function Model() {
                       <MathJax.Node formula={`NH_{3\\_peri}\\overset{}{\\underset{}{\\rightleftharpoons}}NH_{3\\_cyto}`} />                                      
                   </div>
               </MathJax.Provider>
+<p>According to the law of mass action</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 1.21: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PA}}{V_{cyto}}([PA_{peri}]-[PA_{cyto}])`} />
+                                  
+                  </div>
+                  <div className='indent'>
+                  formula 1.22: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[PA_{peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_PA}}{V_{peri}}([PA_{cyto}]-[PA_{peri}])`} />                                      
+                  </div>
+                  <div className='indent'>
+                      formula 1.23: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_NH3}}{V_{cyto}}([NH_{3\\_peri}]-[NH_{3\\_cyto}])`} />
+                                  
+                  </div>
+                  <div className='indent'>
+                  formula 1.24: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_peri}]}{\\mathrm{d}t} = \\frac{k_{diff\\_NH3}}{V_{peri}}([NH_{3\\_cyto}]-[NH_{3\\_peri}])`} />                                      
+                  </div>
 
+              </MathJax.Provider>
 
+              <h3>1.2 Production of GS and TPH1</h3>
+<p>The process by which FeaR catalyzes the further oxidation of phenylacetaldehyde into phenylacetic acid (PAA) in the cytoplasm can be broken down into two steps according to the principles of Michaelis-Menten kinetics. The phenylacetic acid produced by the reaction then diffuses out of the cell.</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 2.1: 
+                      <MathJax.Node formula={`FeaR+PA_{cyto}\\overset{}{\\underset{}{\\rightleftharpoons}}FearR-PA`} />
+
+                  </div>
+                  <div className='indent'>
+                  formula 2.2: 
+                      <MathJax.Node formula={`FeaR-PA\\overrightarrow{}FearR+PAA_{cyto}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 2.3: 
+                      <MathJax.Node formula={`PAA_{cyto}\\overset{}{\\underset{}{\\rightleftharpoons}}PAA_{gut}`} />                                      
+                  </div>
+              </MathJax.Provider>
+<p>The FeaR-phenylacetaldehyde complex can bind and activate the PTynA promoter. In this case, the concentration of the enzyme-substrate complex <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`[FeaR-PA]`} />
+                  </span>
+              </MathJax.Provider> is no longer constant, violating the two main assumptions of the Michaelis-Menten equation. However, the relationship between <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`K_M`} />
+                  </span>
+              </MathJax.Provider> and the rate constants <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{f1}`} />
+                  </span>
+              </MathJax.Provider>, <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{r1}`} />
+                  </span>
+              </MathJax.Provider> and <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`k_{cat}`} />
+                  </span>
+              </MathJax.Provider> still holds.</p>
+              <MathJax.Provider>
+                  <div className='indent'>
+                      formula 2.4: 
+                      <MathJax.Node formula={`K_M = \\frac{k_{r1}+k_{cat}}{k_{f1}}`} />
+
+                  </div>
+              </MathJax.Provider>
 
 
                </Element>
