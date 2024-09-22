@@ -99,11 +99,7 @@ export function Model() {
               </MathJax.Provider>
 <p>The Michaelis-Menten mechanism describes the enzymatic conversion of a substrate <MathJax.Provider> <div className='indent'> <MathJax.Node inline formula={`S`} /></div>
               </MathJax.Provider>
-               into a product <MathJax.Provider>
-                  <div className='indent'>
-                      <MathJax.Node inline formula={`P`} />
-                  </div>
-              </MathJax.Provider> via an enzyme <MathJax.Provider>
+               into a product <span className='indent'> <MathJax.Node inline formula={`S`} /></span> via an enzyme <MathJax.Provider>
                   <div className='indent'>
                       <MathJax.Node inline formula={`E`} />
                   </div>
