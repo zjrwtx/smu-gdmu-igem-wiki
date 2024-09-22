@@ -472,7 +472,7 @@ export function Model() {
 <MathJax.Provider>
                   <div className='indent'>
                       formula 2.18: 
-                      <MathJax.Node formula={`P_{TynA\\_GS\\_active  \\rightarrow P_{TynA\\_GS\\_active} + \\mathrm{mRNA_{GS}}}`} />
+                      <MathJax.Node formula={`P_{TynA\\_GS\\_active}  \\rightarrow P_{TynA\\_GS\\_active} + \\mathrm{mRNA_{GS}}}`} />
 
                   </div>
                   <div className='indent'>
@@ -556,11 +556,105 @@ export function Model() {
               <MathJax.Provider>
                   <div className='indent'>
                       formula 3.5: 
-                      <MathJax.Node formula={`E+A+B\\overset{k_{f1}}}{\\underset{k_{r1}}{\\rightleftharpoons}}EAB \\xrightarrow{k_{cat}}E+P]`} />
+                      <MathJax.Node formula={`E+A+B\\overset{k_{f1}}{\\underset{k_{r1}}{\\rightleftharpoons}}EAB \\xrightarrow{k_{cat}}E+P]`} />
 
                   </div>
               </MathJax.Provider>
+<p>The Michaelis-Menten equation is</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 3.6: 
+                      <MathJax.Node formula={`v_0 = \\frac{V_{max} [A] [B]}{K_{M\\_A}[B] + K_{M\\_B}[A] + [A][B]}`} />
 
+                  </div>
+              </MathJax.Provider>
+<p>where <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`V_{max}`} />
+                  </span>
+              </MathJax.Provider> is the maximum reaction velocity, given by <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`V_{max}=k_{cat}[E_{total}]`} />
+                  </span>
+              </MathJax.Provider>, while <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`K_{M\\_A}`} />
+                  </span>
+              </MathJax.Provider> and<MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`K_{M\\_B}`} />
+                  </span>
+              </MathJax.Provider> are the Michaelis constant for substrate<MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`A}`} />
+                  </span>
+              </MathJax.Provider> and <MathJax.Provider>
+                  <span>
+                      <MathJax.Node inline formula={`B`} />
+                  </span>
+              </MathJax.Provider> respectively. </p>
+
+<p>the corresponding set of ODEs is</p>
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 3.7: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[Glu_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Glu}}{V_{gut}}([Glu_{cyto}]-[Glu_{gut}])`} />
+
+                  </div>
+                  <div className='indent'>
+                  formula 3.8: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[Glu_{cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Glu}}{V_{cyto}}([Glu_{gut}]-[Glu_{cyto}]) - \\frac{k_{cat\\_GS}[GS][Glu_{cyto}][NH_{3\\_cyto}]}{(K_{M\\_GS\\_Glu}+[Glu_{cyto}])(K_{M\\_GS\\_NH3}+[NH_{3\\_cyto}])}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.9: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[NH_{3\\_cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_NH3}}{V_{cyto}}([NH_{3\\_peri}]-[NH_{3\\_cyto}]) - \\frac{k_{cat\\_GS}[GS][Glu_{cyto}][NH_{3\\_cyto}]}{(K_{M\\_GS\\_Glu}+[Glu_{cyto}])(K_{M\\_GS\\_NH3}+[NH_{3\\_cyto}])}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.10: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[Gln_{cyto}]}{\\mathrm{d}t} = \\frac{k_{cat\\_GS}[GS][Glu_{cyto}][NH_{3\\_cyto}]}{(K_{M\\_GS\\_Glu}+[Glu_{cyto}])(K_{M\\_GS\\_NH3}+[NH_{3\\_cyto}])} + \\frac{k_{diff\\_Gln}}{V_{cyto}}([Gln_{gut}]-[Gln_{cyto}])`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.11: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[Gln_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Gln}}{V_{gut}}([Gln_{cyto}]-[Gln_{gut}])`} />                                      
+                  </div>
+
+              </MathJax.Provider>
+<p>TPH1 converts tryptophan that enters the cytoplasm into 5-hydroxytryptophan, which is then transported from the cytoplasm into the gut. The corresponding reaction equations and ODEs are as follows</p>
+               
+<MathJax.Provider>
+                  <div className='indent'>
+                      formula 3.8: 
+                      <MathJax.Node formula={`Trp_{gut}\\overset{}{\\underset{}{\\rightleftharpoons}}Trp_{cyto}`} />
+
+                  </div>
+                  <div className='indent'>
+                  formula 3.9: 
+                      <MathJax.Node formula={`Trp_{cyto}\\xrightarrow{TPH1}5-HTP_{cyto}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.10: 
+                      <MathJax.Node formula={`5-HTP_{cyto}\\overset{}{\\underset{}{\\rightleftharpoons}}5-HTP_{gut}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.11: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[Trp_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Trp}}{V_{gut}}([Trp_{cyto}]-[Trp_{gut}])`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.12: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[Trp_{cyto}]}{\\mathrm{d}t} = \\frac{k_{diff\\_Trp}}{V_{cyto}}([Trp_{gut}]-[Trp_{cyto}]) - \\frac{k_{cat\\_TPH1}[TPH1][Trp_{cyto}]}{K_{M\\_TPH1}+[Trp_{cyto}]}`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.13: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[5\\mathrm{-}HTP_{cyto}]}{\\mathrm{d}t} = \\frac{k_{cat\\_TPH1}[TPH1][Trp_{cyto}]}{K_{M\\_TPH1}+[Trp_{cyto}]} - \\frac{k_{diff\\_5-HTP}}{V_{cyto}}([5\\mathrm{-}HTP_{gut}]-[5\\mathrm{-}HTP_{cyto}])`} />                                      
+                  </div>
+                  <div className='indent'>
+                  formula 3.14: 
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[5\\mathrm{-}HTP_{gut}]}{\\mathrm{d}t} = \\frac{k_{diff\\_5-HTP}}{V_{gut}}([5\\mathrm{-}HTP_{cyto}]-[5\\mathrm{-}HTP_{gut}])`} />                                      
+                  </div>
+
+              </MathJax.Provider>
+               
+               
                </Element>
        
           
