@@ -2,7 +2,8 @@ body {
   padding-top: 56px;
   overflow-x: hidden;
   /* overflow-y: hidden; */
-  cursor: url("https://static.igem.wiki/teams/5378/image/cursor.png") 2 2, auto;
+  cursor: url("https://static.igem.wiki/teams/5378/image/dg-cursor.png") 2 2, auto;
+  /* cursor: help; */
 }
 
 .left-aligned {
