@@ -749,11 +749,11 @@ div.formula_content::-webkit-scrollbar {
   height: 3px; 
 }
 
-div.formula_content .formula_line::-webkit-scrollbar-thumb {
+div.formula_line::-webkit-scrollbar-thumb {
   background-color: #f5deb3; /* 滚动条滑块的淡黄色 */
   border-radius: 10px; /* 使滚动条更圆滑 */
 }
 
-div.formula_content .formula_line::-webkit-scrollbar-track {
+div.formula_line::-webkit-scrollbar-track {
   background: transparent; /* 滚动条背景透明 */
 }
