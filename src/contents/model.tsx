@@ -783,7 +783,7 @@ export function Model() {
                   </div>
                   <div className='indent formula_content'>
                   <span className = 'formula_line'>
-                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} + k_{cat\\_FeaR}[FeaR\\mathrm{-}PA]`} />                                      
+                      <MathJax.Node formula={`\\frac{\\mathrm{d}[FeaR]}{\\mathrm{d}t} = - \\frac{k_{cat\\_FeaR}[FeaR][PA_{cyto}]}{K_{M\\_FeaR}} + k_{cat\\_FeaR}[FeaR\\mathrm{-}PA]`} />     </span>                                    
                       <span className='formula_number'>83</span> 
                   </div>
                   <div className='indent formula_content'>
