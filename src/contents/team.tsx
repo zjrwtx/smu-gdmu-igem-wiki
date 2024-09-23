@@ -135,8 +135,8 @@ export function Team() {
     card31: '陈莹莹Hi, I\'m Ying, your go-to sparkle for all things bright and informative!',
     card32: '赵兴安Shall we?',
     card33: '巫芷凌Hello this is Tina from The University of Singapore. The best way to predict the future is to create it!',
-    card34: '',
-    card35: '',
+    card34: 'aminuosi',
+    card35: 'aminuosi',
 
   };
 
