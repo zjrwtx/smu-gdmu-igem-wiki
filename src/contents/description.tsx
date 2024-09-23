@@ -91,7 +91,7 @@ export function Description() {
                  <h3>Spark</h3>
                  <p>This year, our team felt a strong call to address global health issues that have far-reaching consequences for individuals and society. We are grateful to synthetic biology for providing a practical engineering approach that can combine modules with independent functions like a jigsaw puzzle to fulfil their joint functions. At the same time, we see great potential for synthetic biology to address this issue, and we hope to be able to provide a new line of therapeutic options for the treatment of hepatic encephalopathy through this work.</p>
                  <p>The pathogenesis of hepatic encephalopathy is not fully understood and possible hypotheses are as follows:</p>
-                 <p>1.Ammonia Toxicity Theory.</p>
+                 <p className="bold-font">1.Ammonia Toxicity Theory.</p>
                  <p>Several studies have elucidated that toxic levels of ammonia in the brain are one of the more prominent features, although the pathophysiology of he is still not fully understood. [7] A healthy liver is able to maintain blood ammonia levels at low levels of 35-50 uM through the urea cycle. However, in cirrhosis, factors and other molecules (e.g., ammonia) that are normally prevented by the body from crossing the blood-brain barrier are able to naturally cross the blood-brain barrier, fill the brain, and stimulate pathophysiological pathways that can have deleterious effects. Neurological damage and cognitive decline due to liver dysfunction are the result of blood-borne factors that affect blood-brain barrier permeability and/or alter blood-brain barrier integrity.[8]</p>
                  <p>2.Pseudo-neurotransmitter theory</p>
                  <p>The conduction of nerve impulses is accomplished by means of transmitters. There are two types of neurotransmitters, excitatory and inhibitory, which maintain a physiological balance when normal. Among them, inhibitory neurotransmitters are formed only in the brain. Aromatic amino acids in food, such as tyrosine and phenylpropanoid amino acids, are converted to tyramine and phenylethylamine PEA, respectively, by the action of the decarboxylase enzyme of enterobacteria.</p>
@@ -115,10 +115,6 @@ export function Description() {
                  <h3>foresight</h3>
                  <p>Our goal: to design probiotics (EcN) based on PEA levels that, under the supervision of a safety module, are able to specifically sense PEA in the intestines of HE patients, rapidly degrade ammonia, and reduce the risk of HE development.</p>
                  <img 
-                src="https://static.igem.wiki/teams/5378/describe/methods.webp"
-                alt="methods"
-                className="responsive-img"
-              />
                </Element>
         
 
