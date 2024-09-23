@@ -2,7 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';  // 引入 Bootstrap JavaScript
 import { Route, Routes, useLocation } from "react-router-dom";
-import { Footer, Header, Navbar, NotFound, Loading } from "../../components";
+import { Footer, Header, Navbar, NotFound, Loading,} from "../../components";
 import { getPathMapping, stringToSlug } from "../../utils";
 import { useEffect, useState } from "react";
 import axios from "axios";

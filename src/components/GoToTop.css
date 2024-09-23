@@ -1,0 +1,24 @@
+/* GoToTop.css */
+.go-to-top-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff69b4; /* 可爱的粉红色 */
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+  }
+  
+  .go-to-top-button:hover {
+    opacity: 1; /* 鼠标悬停时变得更清晰 */
+  }
+  
+  .go-to-top-button:active {
+    background-color: #ff1493; /* 点击时颜色变深 */
+  }
