@@ -102,39 +102,39 @@ export function Team() {
   };
 
   const words = {
-    card1: '大家好啊，我是zxa，asdasdsadasdsasdadwdawdawdasdawdawsdaw附件格式艰苦虎骨酒扣税的哎u了如何改进南方灯具开关哎u人身攻击喀什地方韩国u爱我人员孤独和干部埃卢瑞干哈及时答复客户给',
-    card2: '我是wyf，地地道道的地地道道的地对地导弹顶顶顶顶',
-    card3: '我是leeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee',
-    card4: '',
-    card5: '',
-    card6: '',
-    card7: '',
-    card8: '',
-    card9: '',
-    card10: '',
-    card11: '',
-    card12: '',
-    card13: '',
-    card14: '',
-    card15: '',
-    card16: '',
-    card17: '',
-    card18: '',
-    card19: '',
-    card20: '',
-    card21: '',
-    card22: '',
-    card23: '',
-    card24: '',
-    card25: '',
-    card26: '',
-    card27: '',
-    card28: '',
-    card29: '',
-    card30: '',
-    card31: '',
-    card32: '',
-    card33: '',
+    card1: '张华Hua Zhang, Dean of School of Medical Technology, Guangdong Medical University, China. Section editor of Biomarker Research, Research field: tumor pathogenesis.',
+    card2: '刘坤Dr. Kun Liu, Associated Researcher, Southern Medical University. My research interesting focuses on solving the key clinical issues by employing interdisciplinary techniques. “I think therefore I am.”',
+    card3: '李凌Inspire originality, ignite innovation.',
+    card4: '何肖龙Xiaolong He, principal investigator at the Microbiome Medicine Center, Zhujiang Hospital, Southern Medical University.Where there\'s a will, there\'s a way.',
+    card5: '王译锋coder、enjoy making  AI products',
+    card6: '方芷欣Second year in iGEM. Always chasing after thrilling knowledge about life. Hope everyone can enjoy this meaningful event and have fun with synthetic biology.',
+    card7: '黎俊灏A creative students and adolescent，once iGEMer，always iGEMer！',
+    card8: '詹可怡Remain passionate and embark on a journey across mountains and seas.',
+    card9: '朱敏Where there\'s a will, there\'s a way.',
+    card10: '吴奕翰Inperfection is beauty.',
+    card11: '陈圣林"In every job that must be done, there is an element of fun. You find the fun, and snap! The job is a game." Marry Poppins',
+    card12: '林裕豪My name is Yuhao Lin. I majored pathobiology at Southern Medical University in China. My hobbies are fitness, playing video games, making models and so on. My credo is “the road stretches on as long as you keep moving.”',
+    card13: '段邑静萱Keep a single spark to start a prairie fire.',
+    card14: '黄鹿鸣The world is my oyster, which I with sword will open.',
+    card15: '李婉Regardless of the twists and turns， but at the end.',
+    card16: '温文荣My name is Wen, a student majoring in psychiatry. To see the world, to unveil the mystery of brain, to feel, to find each other and draw closer. We are all explorers.',
+    card17: '刘紫源Valar Dohaeris',
+    card18: '赵攀Don’t worry,good things take time.',
+    card19: '管文仪The meaning of life is not in the outward search, but in the inward construction.',
+    card20: '张健华Consider things from every angle.',
+    card21: '温润泽can it be a ＿？yes.',
+    card22: '蔡国茁Better late than never .',
+    card23: '杨莹蓥Nothing seek , nothing find.',
+    card24: '李伟欢My name is Weihuan Li, my personality is quite extroverted. I love socializing people.',
+    card25: '田菲儿My name is TianFeier.I\'m from Guangdong Medical University, majoring in applied psychology. My favorite quote is “To live is to think.”',
+    card26: '黎嘉进I am Jiajin Li, an MPH student at the University of Hongkong, focusing on epidemiology and biostatistics.',
+    card27: '王康Fortune favors the bold.',
+    card28: '韩美彤Make magic happen.',
+    card29: '蔡彦秋No need to hurry. No need to sparkle. No need to be anybody but oneself.',
+    card30: '刘可Alis volat propriis.',
+    card31: '陈莹莹Hi, I\'m Ying, your go-to sparkle for all things bright and informative!',
+    card32: '赵兴安Shall we?',
+    card33: '巫芷凌Hello this is Tina from The University of Singapore. The best way to predict the future is to create it!',
     card34: '',
     card35: '',
 
@@ -177,40 +177,37 @@ export function Team() {
               <Card
                 id="card1"
                 image1="https://placehold.co/600x800"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                image2="https://placehold.co/600x80"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
                 id="card2"
                 image1="https://placehold.co/600x800"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                image2="https://placehold.co/600x80"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
                 id="card3"
                 image1="https://placehold.co/600x800"
-                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                image2="https://placehold.co/600x80"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
                 id="card4"
                 image1="https://placehold.co/600x800"
-                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                image2="https://placehold.co/600x80"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -223,9 +220,9 @@ export function Team() {
           <div className="row">
             <div className="col-3">
               <Card
-                id="card1"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                id="card5"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -234,181 +231,381 @@ export function Team() {
 
             <div className="col-3">
               <Card
-                id="card2"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                id="card6"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card3"
-                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
-                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                id="card7"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card4"
-                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
-                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                id="card8"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
               />
             </div>
-
           </div>
 
           <div className='row justify-content-center h1'>Advisor</div>
           <div className="row">
             <div className="col-3">
               <Card
-                id="card1"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                id="card9"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card2"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                id="card10"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card3"
-                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
-                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                id="card11"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card4"
-                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
-                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                id="card12"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
               />
             </div>
-
           </div>
 
           <div className='row justify-content-center h1'>Student Member</div>
+
           <div className="row">
             <div className="col-3">
               <Card
-                id="card1"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                id="card13"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card2"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                id="card14"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card3"
-                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
-                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                id="card15"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card4"
-                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
-                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                id="card16"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
               />
             </div>
+          </div>
 
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card17"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card18"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card19"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card20"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card21"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card22"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card23"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card24"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card25"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card26"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card27"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card28"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card29"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card30"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card31"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card32"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-3">
+              <Card
+                id="card33"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Xingan Zhao"
+                description1="Shall we?"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card34"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Yifeng Wang"
+                description1="hahahahaahhahaha."
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card35"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="Hermit Lee"
+                description1="Genshin,launch!!"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+              <Card
+                id="card36"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
+                title1="SMU"
+                description1="SMU Description."
+                onHover={handleCardHover}
+              />
+            </div>
           </div>
 
           <div className='row justify-content-center h1'>External Member</div>
           <div className="row">
             <div className="col-3">
               <Card
-                id="card1"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                id="card37"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card2"
-                image1="https://static.igem.wiki/teams/5378/school-badge/smu.webp"
-                image2="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp"
+                id="card38"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card3"
-                image1="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
-                image2="https://static.igem.wiki/teams/5378/lesser-panda/smal.webp"
+                id="card39"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
               />
             </div>
-
             <div className="col-3">
               <Card
-                id="card4"
-                image1="https://static.igem.wiki/teams/5378/safety/03-111.webp"
-                image2="https://static.igem.wiki/teams/5378/safety/03-11.webp"
+                id="card40"
+                image1="https://placehold.co/600x80"
+                image2="https://placehold.co/600x80"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
               />
             </div>
-
           </div>
 
         </div>
