@@ -720,6 +720,7 @@ div.formula_content {
   text-align: center;
   font-size: 0.9em;
   display: flex; /* 使用Flexbox布局 */
+  align-items: center; /* 垂直居中所有子元素 */
 }
 
 div.formula_content .formula_line {
@@ -729,9 +730,6 @@ div.formula_content .formula_line {
 
 div.formula_content .formula_number {
   flex: 0 0 20%; /* 分配20%宽度，不允许伸缩 */
-  position: relative; /* 相对定位，便于垂直居中 */
-  top: 50%;
-  transform: translateY(-50%); /* 垂直居中 */
   text-align: right; /* 数字右对齐 */
 }
 
