@@ -207,8 +207,8 @@ export function Model() {
                   <div className='indent formula_content'>
                   <span className = 'formula_line'>
                       <MathJax.Node formula={`ES = \\frac{ {[E\\_total][S]} }{K_M + [S]}`} />  </span>                 
-                  </div>
-                  <span className='formula_number'>11</span>
+              
+                  <span className='formula_number'>11</span>    </div>
               </MathJax.Provider>  
 
 <p>The rate of product formation is 
