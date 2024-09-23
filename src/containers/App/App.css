@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'pangolin';
+  src: url('https://static.igem.wiki/teams/5378/font/pangolin-regular.woff2') format('woff2'),
+       url('https://static.igem.wiki/teams/5378/font/pangolin-regular.woff') format('woff'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   padding-top: 56px;
   overflow-x: hidden;
