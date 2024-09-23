@@ -110,8 +110,8 @@ export function Description() {
                  <h3>foresight</h3>
                  <p>Our goal: to design probiotics (EcN) based on PEA levels that, under the supervision of a safety module, are able to specifically sense PEA in the intestines of HE patients, rapidly degrade ammonia, and reduce the risk of HE development.</p>
                  <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
+                src="https://static.igem.wiki/teams/5378/describe/methods.webp"
+                alt="methods"
                 className="responsive-img"
               />
                </Element>
