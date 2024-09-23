@@ -732,7 +732,7 @@ div.formula_content .formula_line {
 
 div.formula_content .formula_number {
   flex: 0 0 20%; /* 分配20%宽度，不允许伸缩 */
-  text-align: right; /* 数字右对齐 */
+  text-align: left; /* 数字右对齐 */
 }
 
 
@@ -741,11 +741,11 @@ div.formula_content::-webkit-scrollbar {
   height: 3px; 
 }
 
-div.formula_content::-webkit-scrollbar-thumb {
+div.formula_content .formula_line::-webkit-scrollbar-thumb {
   background-color: #f5deb3; /* 滚动条滑块的淡黄色 */
   border-radius: 10px; /* 使滚动条更圆滑 */
 }
 
-div.formula_content::-webkit-scrollbar-track {
+div.formula_content .formula_line::-webkit-scrollbar-track {
   background: transparent; /* 滚动条背景透明 */
 }
