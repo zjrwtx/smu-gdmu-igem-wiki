@@ -117,16 +117,18 @@ export function HumanPractices() {
               <h2>Section 5</h2>
               <p>Content for section 5.</p>
               <div className="rounded-border">
-              <h4 className="center-text">STAKEHOLDER</h4>
-              <p className="indent">Stakeholder Identification
-Our iGEM project, focusing on innovative treatment for hepatic encephalopathy (HE), has identified key stakeholders critical to the success and real-world application of our research. These stakeholders include HE patients, medical professionals (doctors), pharmaceutical company representatives, research experts involved in HE-related studies, and the general public. 
-Patients: Suffering from HE represent a primary stakeholder, as their quality of life directly depends on effective treatment options. 
-Doctors: Especially hepatologists and neurologists, are integral in diagnosing and treating HE, providing us with valuable insights into clinical needs. 
-Pharmaceutical company representatives: They are vital for translating research into market-ready therapies, ensuring accessibility and scalability of our solutions.
-Researchers: Including academics and specialists in liver disease, are critical for guiding the scientific direction of the project. 
-General public: As raising awareness and educating people about HE can significantly contribute to early diagnosis and treatment, ultimately benefiting the healthcare ecosystem as a whole.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
+              <h2 className="center-text">5. STAKEHOLDER</h2>
+              <h3 >5.1. Stakeholder Identification</h3>
+              <p className='indent'>
+Our iGEM project, focusing on innovative treatment for hepatic encephalopathy (<span className='bold-font'>HE</span>), has identified key stakeholders critical to the success and real-world application of our research. These stakeholders include HE patients, medical professionals (doctors), pharmaceutical company representatives, research experts involved in HE-related studies, and the general public. 
+      <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+        <li><span className='bold-font'>Patients</span>: Suffering from HE represent a primary stakeholder, as their quality of life directly depends on effective treatment options. </li>
+        <li><span className='bold-font'>Doctors</span>: Especially hepatologists and neurologists, are integral in diagnosing and treating HE, providing us with valuable insights into clinical needs. Pharmaceutical company representatives: They are vital for translating research into market-ready therapies, ensuring accessibility and scalability of our solutions.</li>
+        <li><span className='bold-font'>Researchers</span>: Including academics and specialists in liver disease, are critical for guiding the scientific direction of the project. </li>
+        <li><span className='bold-font'>General public</span>: As raising awareness and educating people about HE can significantly contribute to early diagnosis and treatment, ultimately benefiting the healthcare ecosystem as a whole.</li>
+      </ul>
+      </p>
+      </div>
               </Element>
 
               <Element name="section6" className="element rounded-border" id='section6'>
