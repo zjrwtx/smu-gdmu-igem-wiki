@@ -68,7 +68,10 @@ export function Notebook() {
         
         <div className="col-8">
           
-              
+        <div className="bd-callout bd-callout-info bg-gray">
+                  <h1>What do we do to ...? See...</h1>
+                </div>
+                
               <Element name="section1" className="element" id='section1'>
                 <div className='row center-div'>
                   <div className='col-4 '><img src='https://placehold.co/600x400' className='responsive-img' /></div>

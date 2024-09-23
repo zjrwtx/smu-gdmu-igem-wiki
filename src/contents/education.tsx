@@ -80,7 +80,9 @@ export function Education() { // sidenavbar begin
                  <p>- Wide dissemination: Traveled to marginalized mountainous areas of Sichuan to conduct in-depth interviews and panel discussions on “Hepatic Encephalopathy”. Provided more detailed care and support for the health of the local population.</p>
                </Element>
           
-
+               <div className="bd-callout bd-callout-info bg-gray">
+                  <h1>What do we do to ...? See...</h1>
+                </div>
           
               
               <Element name="2.Production of science brochures" className="element rounded-border" id='2.Production of science brochures'>

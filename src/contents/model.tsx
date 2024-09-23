@@ -62,6 +62,10 @@ export function Model() {
           <SideNavbar activeLink={activeLink}          />
         </div>
         
+        <div className="bd-callout bd-callout-info bg-gray">
+                  <h1>What do we do to ...? See...</h1>
+                </div>
+
         <div className="col-8">
         <Element name="section1" className="element rounded-border" id='section1'>
               <h2 className="center-text">Section 1  ODE Model of Biochemical Reactions</h2>
