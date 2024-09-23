@@ -114,10 +114,9 @@ export function HumanPractices() {
               </Element>
 
               <Element name="section5" className="element rounded-border" id='section5'>
-              <h2>Section 5</h2>
-              <p>Content for section 5.</p>
+              <h2>5. STAKEHOLDER</h2>
+              <p>Our stakeholders.</p>
               <div className="rounded-border">
-              <h2 className="center-text">5. STAKEHOLDER</h2>
               <h3 >5.1. Stakeholder Identification</h3>
               <p className='indent'>
 Our iGEM project, focusing on innovative treatment for hepatic encephalopathy (<span className='bold-font'>HE</span>), has identified key stakeholders critical to the success and real-world application of our research. These stakeholders include HE patients, medical professionals (doctors), pharmaceutical company representatives, research experts involved in HE-related studies, and the general public. 
