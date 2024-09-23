@@ -177,7 +177,7 @@ export function Team() {
               <Card
                 id="card1"
                 image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x80"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -187,7 +187,7 @@ export function Team() {
               <Card
                 id="card2"
                 image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x80"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -197,7 +197,7 @@ export function Team() {
               <Card
                 id="card3"
                 image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x80"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -207,7 +207,7 @@ export function Team() {
               <Card
                 id="card4"
                 image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x80"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -221,8 +221,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card5"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -232,8 +232,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card6"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -242,8 +242,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card7"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -252,8 +252,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card8"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -266,8 +266,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card9"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -276,8 +276,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card10"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -286,8 +286,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card11"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -296,8 +296,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card12"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -311,8 +311,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card13"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -321,8 +321,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card14"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -331,8 +331,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card15"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -341,8 +341,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card16"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -354,8 +354,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card17"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -364,8 +364,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card18"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -374,8 +374,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card19"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -384,8 +384,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card20"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -396,8 +396,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card21"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -406,8 +406,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card22"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -416,8 +416,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card23"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -426,8 +426,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card24"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -439,8 +439,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card25"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -449,8 +449,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card26"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -459,8 +459,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card27"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -469,8 +469,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card28"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -482,8 +482,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card29"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -492,8 +492,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card30"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -502,8 +502,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card31"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -512,8 +512,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card32"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -525,8 +525,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card33"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -535,8 +535,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card34"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -545,8 +545,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card35"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -555,8 +555,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card36"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
@@ -569,8 +569,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card37"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Xingan Zhao"
                 description1="Shall we?"
                 onHover={handleCardHover}
@@ -579,8 +579,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card38"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Yifeng Wang"
                 description1="hahahahaahhahaha."
                 onHover={handleCardHover}
@@ -589,8 +589,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card39"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="Hermit Lee"
                 description1="Genshin,launch!!"
                 onHover={handleCardHover}
@@ -599,8 +599,8 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card40"
-                image1="https://placehold.co/600x80"
-                image2="https://placehold.co/600x80"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
                 title1="SMU"
                 description1="SMU Description."
                 onHover={handleCardHover}
