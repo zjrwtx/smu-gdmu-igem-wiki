@@ -162,10 +162,14 @@ export function Description() {
               <h2>future plans</h2>
               <p>In our plan, we expect to complete the full build of the three functional modules. We may not be able to continue the subsequent animal validation experiments due to laboratory, funding, and personnel changes, but we hope to make further efforts in the following areas to make the project more complete:</p>
               <div className="rounded-border">
-              <p className="indent">1.Safety: EcN is an internationally recognised harmless probiotic, but we have still added a controlled safety module to it to ensure that the modified EcN will not cause other unforeseen harm when it enters the human gut.</p>
-              <p className="indent">2.Controllable: The three modules we constructed are precisely and minutely regulated, and are only allowed to be expressed when stimulated by the external environment, and to a controlled extent.</p>
-              <p className="indent">3.Persistent: EcN is able to remain in the normal gut and the beneficial effects are long lasting.</p>
-              <p className="indent">4.Convenient: Our modified EcN was encapsulated in a material that is resistant to stomach acid but not intestinal fluids to create an edible capsule that can be used as a convenient drug to improve hepatic encephalopathy.</p>
+              <p className="bold-font">1.Safety:</p>
+              <p>EcN is an internationally recognised harmless probiotic, but we have still added a controlled safety module to it to ensure that the modified EcN will not cause other unforeseen harm when it enters the human gut.</p>
+              <p className="bold-font">2.Controllable:</p>
+              <p>The three modules we constructed are precisely and minutely regulated, and are only allowed to be expressed when stimulated by the external environment, and to a controlled extent.</p>
+              <p className="bold-font">3.Persistent:</p>
+              <p>EcN is able to remain in the normal gut and the beneficial effects are long lasting.</p>
+              <p className="bold-font">4.Convenient:</p>
+              <p>Our modified EcN was encapsulated in a material that is resistant to stomach acid but not intestinal fluids to create an edible capsule that can be used as a convenient drug to improve hepatic encephalopathy.</p>
               </div>
               </Element>
 
