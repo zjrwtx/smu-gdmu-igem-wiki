@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
   /* overflow-y: hidden; */
   cursor: url("https://static.igem.wiki/teams/5378/image/dg-cursor.png") 2 2, auto;
-  font-family: 'pangolin', sans-serif;
+  font-family: 'pangolin', sans-serif !important;
   /* cursor: help; */
 }
 
