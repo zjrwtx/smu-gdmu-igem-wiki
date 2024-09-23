@@ -99,6 +99,11 @@ export function Description() {
                  <p>In an effort to find out more precisely what risk factors are associated with the development of HE, our team actively communicated with the PI and learned of a related, unpublished study that concluded that patients with higher baseline PEA levels (upper quartile) had a 6.95-fold higher risk of developing HE at 3 months than patients in the lower quartile (p = 0.0017) [].</p>
                  <h3>Current treatments</h3>
                  <p>Given the specificity of ammonia in the diagnosis and treatment of HE, the general pharmacological approach to HE is broadly directed towards ammonia.</p>
+                 <img 
+                src="https://static.igem.wiki/teams/5378/describe/methods.webp"
+                alt="methods"
+                className="responsive-img"
+              />
                  <p>1.Osmotic laxatives:Non-absorbable disaccharides, lactulose and sugar alcohols, are recommended as first-line treatment for HE. Lactulose is a laxative that has a negligible effect on the composition or function of the gut microbiota and may reduce ammonia production and absorption in the gut and increase intestinal excretion by increasing intestinal transport as well as acidification of the intestinal environment. [9]However, some studies have reported potential side effects of laxatives such as lactulose, including diarrhoea, nausea and bloating. Diarrhoea and vomiting can lead to electrolyte disturbances and even exacerbate HE.[8]</p>
                  <p>2.Anti-microbial agents:Rifaximin is a semi-synthetic non-aminoglycoside drug that fights Gram-positive, Gram-negative, aerobic and anaerobic enteric bacteria. The strongest evidence for the utility of rifaximin is the use of the drug as an add-on to lactulose for the prevention of hepatic encephalopathy recurrence. [10]However, clinical trials of rifaximin in combination with lactulose have rarely been reported and lack wide public acceptance.</p>
                  <p>3.Probiotics:Probiotics are live bacteria that are thought to improve intestinal ecological dysbiosis, help enhance ammonia metabolism, and reduce the burden of ammonia on the gut. However, to date, the quality of most clinical trials has been low, so the evidence remains unconvincing. [11]</p>
