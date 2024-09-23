@@ -713,7 +713,6 @@ footer a:hover {
 
 div.formula_content {
   position: relative;
-  max-width: 70%;
   margin: 0 auto; /* 容器水平居中 */
   overflow-x: auto; /* 如果公式太长，允许水平滚动 */
   white-space: nowrap; /* 防止公式换行 */
@@ -726,6 +725,9 @@ div.formula_content {
 div.formula_content .formula_line {
   flex: 0 0 80%; /* 分配80%宽度，不允许伸缩 */
   text-align: left; /* 公式左对齐 */
+  max-width: 80%; /* 最大宽度为80% */
+  overflow-x: auto; /* 超出部分显示滚动条 */
+  white-space: nowrap; /* 防止公式换行 */
 }
 
 div.formula_content .formula_number {
