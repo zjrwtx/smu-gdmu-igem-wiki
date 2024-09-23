@@ -535,7 +535,7 @@ footer a:hover {
 }
 
 .fade1 {
-  animation: fade1 15s infinite;
+  animation: fade1 9s infinite;
 }
 
 @keyframes fade1 {
@@ -547,7 +547,7 @@ footer a:hover {
 }
 
 .fade2 {
-  animation: fade2 15s infinite;
+  animation: fade2 9s infinite;
 }
 
 @keyframes fade2 {
@@ -560,7 +560,7 @@ footer a:hover {
 }
 
 .fade3 {
-  animation: fade3 15s infinite;
+  animation: fade3 9s infinite;
 }
 
 @keyframes fade3 {
