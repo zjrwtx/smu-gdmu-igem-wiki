@@ -65,7 +65,7 @@ export function Model() {
         
         <div className="col-9 model-font">
         <Element name="section1" className="element" id='section1'>
-              <h2 className="center-text mt-5">Section 1  ODE Model of Biochemical Reactions</h2>
+              <h2 className="center-text mt-5">1. ODE Model of Biochemical Reactions</h2>
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
               <MathJax.Provider>
