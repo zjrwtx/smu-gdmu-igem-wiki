@@ -6,12 +6,24 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'LexieReadable';
+  src: url('https://static.igem.wiki/teams/5378/font/lexiereadable-regular.woff') format('woff2'),
+       url('https://static.igem.wiki/teams/5378/font/lexiereadable-bold.woff') format('woff'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   padding-top: 56px;
   overflow-x: hidden;
   /* overflow-y: hidden; */
   cursor: url("https://static.igem.wiki/teams/5378/image/dg-cursor.png") 2 2, auto;
-  
+  font-family: 'LexieReadable', cursive !important;
+  text-rendering: optimizeLegibility; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
   font-size: 20px !important;
   /* cursor: help; */
 }
@@ -27,6 +39,13 @@ body [onclick] {
 
 .pangolin {
   font-family: 'pangolin', cursive !important;
+  text-rendering: optimizeLegibility; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+.LexieReadable {
+  font-family: 'LexieReadable', cursive !important;
   text-rendering: optimizeLegibility; 
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale; 
