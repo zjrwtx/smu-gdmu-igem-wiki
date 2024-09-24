@@ -174,7 +174,7 @@ export function Team() {
         <div className="col-8">
 
           
-
+          <div className='vh20'></div>
           <div className='row justify-content-center h1'>Student Leader</div>
           <div className="card-body">
             <div className="col-3">
@@ -234,7 +234,7 @@ export function Team() {
             </div>
 
           </div>
-          
+
           <div className='row justify-content-center h1'>Advisor</div>
           <div className="row">
             <div className="col-3">
