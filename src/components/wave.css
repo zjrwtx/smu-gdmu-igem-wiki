@@ -29,7 +29,11 @@
 }
 
 .wave5 {
-  animation: wave-animation-4 18s linear infinite;
+  animation: wave-animation-5 18s linear infinite;
+}
+
+.wave6 {
+  animation: wave-animation-6 15s linear infinite;
 }
 
 @keyframes wave-animation-1 {
@@ -53,6 +57,11 @@
 }
 
 @keyframes wave-animation-5 {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(50%); }
+}
+
+@keyframes wave-animation-6 {
   0% { transform: translateX(-50%); }
   100% { transform: translateX(50%); }
 }

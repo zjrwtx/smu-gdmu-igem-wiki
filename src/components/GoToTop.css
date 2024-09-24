@@ -17,6 +17,7 @@
   
   .go-to-top-button:hover {
     opacity: 1; /* 鼠标悬停时变得更清晰 */
+    cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
   }
   
   .go-to-top-button:active {

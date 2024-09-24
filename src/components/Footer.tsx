@@ -7,7 +7,7 @@ export function Footer() {
 
   return (
     <footer className="pt-0 pb-1 footer py-5 mt--8 text-white">
-        {/* <hr /> */}
+        <hr />
         {/* <div className="wave-container bg-rice_yellow">
           <div className="wave1"></div>
           <div className="wave2"></div>
