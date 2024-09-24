@@ -136,8 +136,8 @@ export function Description() {
                 <p>Although EcN has been shown to be a harmless strain, from the point of view of human health and environmental protection, we still need an absolute guarantee that the modified EcN will be able to function properly in the organism on demand, have a favourable impact, and even circumvent the intestinal inflammation that may occur as a result of treatment with drugs. In this regard, we aim to develop an engineered bacterium capable of fighting inflammation and repairing the intestinal barrier.</p>
                 <p>TFF (Trefoil Factor Family proteins) are small 7-12 kDa proteins secreted by mucus-secreting cells on the surface of the gastrointestinal tract and other mucous membranes that primarily promote epithelial recovery. In order to make therapeutic crimped fibres, we planned to attach TFF3 (Trefoil Factor 3) to the naturally secreted crimped fibres of E. coli to reduce the adhesion of TFF3 to the intestinal mucus layer. The gene fragment responsible for the expression of curly fibres was first attached to the PBbB8k plasmid, then a 6xHis-tagged linker was introduced to connect the curly fibres to TFF3, and finally the TFF3 gene fragment was added. This structure allows EcN to secrete and self-assemble the coiled fibres, linker and TFF3 upon arrival in the gut, forming an active domain layer on the gut surface. This will maximise the ability of TFF3 to repair the intestinal barrier and reduce inflammation, effectively preventing and treating abdominal infections in patients with liver disease, addressing dysbiosis, especially repairing common intestinal problems, and improving the safety and efficacy of the engineered bacterium while alleviating the complications of hepatic encephalopathy.</p>
                 <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
+                src="https://static.igem.wiki/teams/5378/describe/.webp"
+                alt="design"
                 className="responsive-img"
               />
                </Element>
@@ -150,7 +150,7 @@ export function Description() {
               <h3>art design</h3>
               <p>2</p>
               <h3>hp</h3>
-              <p>3</p>
+              <p className="indent">Cooperation and promotion are the main tone of hp's work, and internal and external communication is the foundation of hp's work. It carries out human practice, exchange and cooperation, education and publicity for the public, and is also responsible for outreach, reporting and other work within the team.</p>
               <div className="rounded-border">
               <h4 className="center-text">Section 3</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
