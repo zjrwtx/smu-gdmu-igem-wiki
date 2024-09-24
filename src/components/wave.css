@@ -2,7 +2,7 @@
 .transition {
     position: relative;
     overflow: hidden;
-    height: 200px; /* 根据需要调整高度 */
+    height: 20%; /* 根据需要调整高度 */
   }
   
   .wave {
