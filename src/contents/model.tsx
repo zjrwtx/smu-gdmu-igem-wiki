@@ -57,17 +57,15 @@ export function Model() {
               />
 </h1>
 </div>
-<div className="bd-callout bd-callout-info bg-gray">
-                  <h1>What do we do to ...? See...</h1>
-                </div>
+
       <div className="row  bg-rice_yellow">
         <div className="col-3">
           <SideNavbar activeLink={activeLink}          />
         </div>
         
-        <div className="col-8">
-        <Element name="section1" className="element rounded-border" id='section1'>
-              <h2 className="center-text">Section 1  ODE Model of Biochemical Reactions</h2>
+        <div className="col-9">
+        <Element name="section1" className="element" id='section1'>
+              <h2 className="center-text mt-5">Section 1  ODE Model of Biochemical Reactions</h2>
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
                   <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
               <MathJax.Provider>
@@ -917,9 +915,11 @@ export function Model() {
 
                </Element>
        
-          
+               <div className="bd-callout bd-callout-info bg-gray">
+                  <h1>What do we do to ...? See...</h1>
+                </div>
               
-              <Element name="section2" className="element rounded-border" id='section2'>
+              <Element name="section2" className="element" id='section2'>
                 <h2>Section 2</h2>
                 <p>Content for section 2.</p>
                 <MathJax.Provider>
@@ -941,10 +941,10 @@ export function Model() {
               </Element>
           
 
-              <Element name="section3" className="element rounded-border" id='section3'>
+              <Element name="section3" className="element " id='section3'>
               <h2>Section 3</h2>
               <p>Content for section 3.</p>
-              <div className="rounded-border">
+              <div className="">
               <h4 className="center-text">Section 3</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
@@ -963,7 +963,7 @@ export function Model() {
           
 
         </div>
-        <div className="col-1"></div>
+        
 
           
         
