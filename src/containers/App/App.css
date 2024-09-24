@@ -770,3 +770,7 @@ span.formula_line::-webkit-scrollbar-thumb {
 span.formula_line::-webkit-scrollbar-track {
   background: transparent; /* 滚动条背景透明 */
 }
+
+.margin-0 {
+  margin: 0px !important;
+}
