@@ -63,7 +63,7 @@ export function Model() {
           <SideNavbar activeLink={activeLink}          />
         </div>
         
-        <div className="col-9">
+        <div className="col-9 model-font">
         <Element name="section1" className="element" id='section1'>
               <h2 className="center-text mt-5">Section 1  ODE Model of Biochemical Reactions</h2>
                  <h3>1.1 Oxidation of Phenylethylamine</h3>
