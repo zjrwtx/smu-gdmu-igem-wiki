@@ -150,7 +150,7 @@ export function Description() {
               <h3>art design</h3>
               <p>2</p>
               <h3>hp</h3>
-              <p>3</p>
+              <p className="indent">Cooperation and promotion are the main tone of hp's work, and internal and external communication is the foundation of hp's work. It carries out human practice, exchange and cooperation, education and publicity for the public, and is also responsible for outreach, reporting and other work within the team.</p>
               <div className="rounded-border">
               <h4 className="center-text">Section 3</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
