@@ -11,10 +11,7 @@ body {
   overflow-x: hidden;
   /* overflow-y: hidden; */
   cursor: url("https://static.igem.wiki/teams/5378/image/dg-cursor.png") 2 2, auto;
-  font-family: 'pangolin', cursive !important;
-  text-rendering: optimizeLegibility; 
-  -webkit-font-smoothing: antialiased; 
-  -moz-osx-font-smoothing: grayscale; 
+  
   font-size: 20px !important;
   /* cursor: help; */
 }
@@ -28,6 +25,12 @@ body [onclick] {
   cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
 }
 
+.pangolin {
+  font-family: 'pangolin', cursive !important;
+  text-rendering: optimizeLegibility; 
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+}
 
 .left-aligned {
   margin-left: auto;
