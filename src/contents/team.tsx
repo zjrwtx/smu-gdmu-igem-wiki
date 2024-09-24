@@ -176,40 +176,40 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card1"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Xingan Zhao"
-                description1="Shall we?"
+                image1="https://static.igem.wiki/teams/5378/team-member/0101-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0102-1.webp"
+                title1="Keyi Zhan"
+                description1="Remain passionate and embark on a journey across mountains and seas."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card2"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Yifeng Wang"
-                description1="hahahahaahhahaha."
+                image1="https://static.igem.wiki/teams/5378/team-member/0201-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0202-1.webp"
+                title1="Ming Zhu"
+                description1="Where there's a will, there's a way."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card3"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Hermit Lee"
-                description1="Genshin,launch!!"
+                image1="https://static.igem.wiki/teams/5378/team-member/0301-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0302-1.webp"
+                title1="Yihan Wu"
+                description1="Inperfection is beauty."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card4"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="SMU"
-                description1="SMU Description."
+                image1="https://static.igem.wiki/teams/5378/team-member/0401-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0402-1.webp"
+                title1="Shenglin Chen"
+                description1="\'In every job that must be done, there is an element of fun. You find the fun, and snap! The job is a game.\' Marry Poppins"
                 onHover={handleCardHover}
               />
             </div>
@@ -221,10 +221,10 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card5"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Xingan Zhao"
-                description1="Shall we?"
+                image1="https://static.igem.wiki/teams/5378/team-member/0501-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0502-1.webp"
+                title1="Yuhao Lin"
+                description1="My name is Yuhao Lin. I majored pathobiology at Southern Medical University in China. My hobbies are fitness, playing video games, making models and so on. My credo is \“the road stretches on as long as you keep moving.\”"
                 onHover={handleCardHover}
               />
             </div>
@@ -232,30 +232,30 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card6"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Yifeng Wang"
-                description1="hahahahaahhahaha."
+                image1="https://static.igem.wiki/teams/5378/team-member/0601-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0602-1.webp"
+                title1="Xiaolong He"
+                description1="Xiaolong He, principal investigator at the Microbiome Medicine Center, Zhujiang Hospital, Southern Medical University.Where there's a will, there's a way."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card7"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Hermit Lee"
-                description1="Genshin,launch!!"
+                image1="https://static.igem.wiki/teams/5378/team-member/0701-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0702-1.webp"
+                title1="Jingxuan Duanyi"
+                description1="Keep a single spark to start a prairie fire."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card8"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="SMU"
-                description1="SMU Description."
+                image1="https://static.igem.wiki/teams/5378/team-member/0801-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0802-1.webp"
+                title1="Luming Huang"
+                description1="The world is my oyster, which I with sword will open."
                 onHover={handleCardHover}
               />
             </div>
@@ -266,40 +266,40 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card9"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Xingan Zhao"
-                description1="Shall we?"
+                image1="https://static.igem.wiki/teams/5378/team-member/0901-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0902-1.webp"
+                title1="Wan Li"
+                description1="Regardless of the twists and turns, but at the end."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card10"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Yifeng Wang"
-                description1="hahahahaahhahaha."
+                image1="https://static.igem.wiki/teams/5378/team-member/1001-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1002-1.webp"
+                title1="Wenrong Wen"
+                description1="My name is Wen, a student majoring in psychiatry. To see the world, to unveil the mystery of brain, to feel, to find each other and draw closer. We are all explorers."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card11"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Hermit Lee"
-                description1="Genshin,launch!!"
+                image1="https://static.igem.wiki/teams/5378/team-member/1101-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1102-1.webp"
+                title1="Ziyuan Liu"
+                description1="Valar Dohaeris."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card12"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="SMU"
-                description1="SMU Description."
+                image1="https://static.igem.wiki/teams/5378/team-member/1201-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1202-1.webp"
+                title1="Pan Zhao"
+                description1="Don't worry,good things take time."
                 onHover={handleCardHover}
               />
             </div>
@@ -311,40 +311,40 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card13"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Xingan Zhao"
-                description1="Shall we?"
+                image1="https://static.igem.wiki/teams/5378/team-member/1301-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1302-1.webp"
+                title1="Wenyi Guan"
+                description1="The meaning of life is not in the outward search, but in the inward construction."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card14"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Yifeng Wang"
-                description1="hahahahaahhahaha."
+                image1="https://static.igem.wiki/teams/5378/team-member/1401-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1402-1.webp"
+                title1="Jianhua Zhang"
+                description1="Consider things from every angle."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card15"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Hermit Lee"
-                description1="Genshin,launch!!"
+                image1="https://static.igem.wiki/teams/5378/team-member/1501-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1502-1.webp"
+                title1="Runze Wen"
+                description1="can it be a _? yes."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card16"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="SMU"
-                description1="SMU Description."
+                image1="https://static.igem.wiki/teams/5378/team-member/1601-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1602-1.webp"
+                title1="Hua Zhang"
+                description1="Hua Zhang, Dean of School of Medical Technology, Guangdong Medical University, China. Section editor of Biomarker Research, Research field: tumor pathogenesis."
                 onHover={handleCardHover}
               />
             </div>
@@ -354,40 +354,40 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card17"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Xingan Zhao"
-                description1="Shall we?"
+                image1="https://static.igem.wiki/teams/5378/team-member/1701-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1702-1.webp"
+                title1="Guozhuo Cai"
+                description1="Better late than never."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card18"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Yifeng Wang"
-                description1="hahahahaahhahaha."
+                image1="https://static.igem.wiki/teams/5378/team-member/1801-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1802-1.webp"
+                title1="Yinyin Yang"
+                description1="Nothing seek , nothing find."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card19"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Hermit Lee"
-                description1="Genshin,launch!!"
+                image1="https://static.igem.wiki/teams/5378/team-member/1901-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1902-1.webp"
+                title1="Weihuan Li"
+                description1="My name is Weihuan Li, my personality is quite extroverted. I love socializing people."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card20"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="SMU"
-                description1="SMU Description."
+                image1="https://static.igem.wiki/teams/5378/team-member/2001-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2002-1.webp"
+                title1="Yifeng Wang"
+                description1="coder,enjoy making  AI products."
                 onHover={handleCardHover}
               />
             </div>
@@ -396,40 +396,40 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card21"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Xingan Zhao"
-                description1="Shall we?"
+                image1="https://static.igem.wiki/teams/5378/team-member/2101-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2102-1.webp"
+                title1="Feier Tian"
+                description1="My name is TianFeier.I'm from Guangdong Medical University, majoring in applied psychology. My favorite quote is “To live is to think.”"
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card22"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Yifeng Wang"
-                description1="hahahahaahhahaha."
+                image1="https://static.igem.wiki/teams/5378/team-member/2201-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2202-1.webp"
+                title1="Zhixin Fang"
+                description1="Second year in iGEM. Always chasing after thrilling knowledge about life. Hope everyone can enjoy this meaningful event and have fun with synthetic biology."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card23"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Hermit Lee"
-                description1="Genshin,launch!!"
+                image1="https://static.igem.wiki/teams/5378/team-member/2301-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2302-1.webp"
+                title1="Kun Liu"
+                description1="Kun Liu, Associated Researcher, Southern Medical University. My research interesting focuses on solving the key clinical issues by employing interdisciplinary techniques. “I think therefore I am.”"
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card24"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="SMU"
-                description1="SMU Description."
+                image1="https://static.igem.wiki/teams/5378/team-member/2401-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2402-1.webp"
+                title1="Lin Li"
+                description1="Inspire originality, ignite innovation."
                 onHover={handleCardHover}
               />
             </div>
@@ -439,40 +439,40 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card25"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Xingan Zhao"
-                description1="Shall we?"
+                image1="https://static.igem.wiki/teams/5378/team-member/2501-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2502-1.webp"
+                title1="Jiajin Li"
+                description1="I am Jiajin Li, an MPH student at the University of Hongkong, focusing on epidemiology and biostatistics."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card26"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Yifeng Wang"
-                description1="hahahahaahhahaha."
+                image1="https://static.igem.wiki/teams/5378/team-member/2601-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2602-1.webp"
+                title1="Kang Wang"
+                description1="Fortune favors the bold."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card27"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Hermit Lee"
-                description1="Genshin,launch!!"
+                image1="https://static.igem.wiki/teams/5378/team-member/2701-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2702-1.webp"
+                title1="Meitong Han"
+                description1="Make magic happen."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card28"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="SMU"
-                description1="SMU Description."
+                image1="https://static.igem.wiki/teams/5378/team-member/2801-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2802-1.webp"
+                title1="Yanqiu Cai"
+                description1="No need to hurry. No need to sparkle. No need to be anybody but oneself."
                 onHover={handleCardHover}
               />
             </div>
@@ -482,40 +482,40 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card29"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Xingan Zhao"
-                description1="Shall we?"
+                image1="https://static.igem.wiki/teams/5378/team-member/2901-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2902-1.webp"
+                title1="Junhao Li"
+                description1="creative students and adolescent,once iGEMer,always iGEMer!"
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card30"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Yifeng Wang"
-                description1="hahahahaahhahaha."
+                image1="https://static.igem.wiki/teams/5378/team-member/3001-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/3002-1.webp"
+                title1="Ke Liu"
+                description1="Alis volat propriis."
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card31"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Hermit Lee"
-                description1="Genshin,launch!!"
+                image1="https://static.igem.wiki/teams/5378/team-member/3101-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/3102-1.webp"
+                title1="Yingying Chen"
+                description1="Hi, I'm Ying, your go-to sparkle for all things bright and informative!"
                 onHover={handleCardHover}
               />
             </div>
             <div className="col-3">
               <Card
                 id="card32"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="SMU"
-                description1="SMU Description."
+                image1="https://static.igem.wiki/teams/5378/team-member/3201-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/3202-1.webp"
+                title1="Xingan Zhao"
+                description1="First year in iGEM , Wiki coder of SMU-GDMU-China , honored to see you here!"
                 onHover={handleCardHover}
               />
             </div>
@@ -525,10 +525,10 @@ export function Team() {
             <div className="col-3">
               <Card
                 id="card33"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Xingan Zhao"
-                description1="Shall we?"
+                image1="https://static.igem.wiki/teams/5378/team-member/3301-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/3302-1.webp"
+                title1="ZhiLin Wu"
+                description1="Hello this is Tina from The University of Singapore. The best way to predict the future is to create it!"
                 onHover={handleCardHover}
               />
             </div>
