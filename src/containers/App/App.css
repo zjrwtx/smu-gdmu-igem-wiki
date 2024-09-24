@@ -358,6 +358,8 @@ footer a:hover {
 
 .card-body {
   display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -379,25 +381,35 @@ footer a:hover {
 
 .sticky-container {
   position: sticky;
-  top: 200px; /* 设置元素在滚动时保持与页面顶部的距离 */
+  top: 120px; /* 设置元素在滚动时保持与页面顶部的距离 */
   margin: 10px;
   margin-bottom: 150px;
   padding: 30px;
-  border: 2px solid #f7a901; 
+  border: 5px solid rgba(114, 47, 55, 1); 
   border-radius: 10px; 
   background-color: #f77001a6;
   height: auto;
+  padding-bottom: 0px;
 }
 
 .sticky-words {
   font-size: large;
+  /* display: flex;
+  align-items: center;
+  justify-items: center; */
 }
 .sticky-img {
   width: 100%; /* 图片宽度自适应容器 */
   height: auto; /* 保持图片纵横比 */
   /* display: block; 去掉图片下方的空隙 */
   margin: 2px;
-  max-height: 60vh;
+  /* max-height: 60vh; */
+}
+.sticky-description {
+  background-color: #e4dfb4b0;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 5px;
 }
 
 .row-custom-height-card {
