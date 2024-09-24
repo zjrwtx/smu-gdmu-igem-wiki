@@ -91,7 +91,12 @@ export function Education() { // sidenavbar begin
                 <p>In order to help you understand hepatic encephalopathy more easily and comprehensively, we have created the following brochure. It begins with a brief introduction to the functions of the liver, followed by a brief disease overview of hepatic encephalopathy. </p>
                 <p>After a brief understanding of hepatic encephalopathy, we introduce it to the public in terms of the causes, diagnosis and prevention of the disease. For patients with hepatic encephalopathy, we also hope to help them better understand their own situation through the introduction of the pathogenesis and staging of the disease, and to do a targeted job of treatment and care, in an effort to mitigate the development of the disease, and even to achieve the effect of treatment and cure.</p>
                 <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                src="https://static.igem.wiki/teams/5378/pdf/brochures1.webp"
+                alt="example"
+                className="responsive-img"
+              />
+                <img 
+                src="https://static.igem.wiki/teams/5378/pdf/brochures2.webp"
                 alt="example"
                 className="responsive-img"
               />
