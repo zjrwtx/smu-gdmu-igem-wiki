@@ -1,5 +1,5 @@
 import { stringToSlug } from "../utils";
-
+import { WaveAnimation } from "./wave";
 export function Footer() {
   const teamYear = import.meta.env.VITE_TEAM_YEAR;
   const teamName = import.meta.env.VITE_TEAM_NAME;
@@ -8,11 +8,13 @@ export function Footer() {
   return (
     <footer className="pt-0 pb-1 footer py-5 mt--8 text-white">
         {/* <hr /> */}
-        <div className="wave-container bg-rice_yellow">
+        {/* <div className="wave-container bg-rice_yellow">
           <div className="wave1"></div>
           <div className="wave2"></div>
           <div className="wave3"></div>
-        </div>
+        </div> */}
+        <div className="bg-rice_yellow"><WaveAnimation /></div>
+        
         {/* The following MUST be on every page: license information and link to the repository on gitlab.igem.org */}
         <div className="row bg-wine-red ">
           <div className="col-7">

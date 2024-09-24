@@ -1,0 +1,58 @@
+/* WaveAnimation.css */
+.transition {
+    position: relative;
+    overflow: hidden;
+    height: 200px; /* 根据需要调整高度 */
+  }
+  
+  .wave {
+    position: absolute;
+    bottom: 0;
+    width: 200%; /* 确保波浪超出视口 */
+    height: 200%; /* 设置高度以匹配容器 */
+}
+
+.wave1 {
+    animation: wave-animation-1 10s linear infinite;
+}
+
+.wave2 {
+    animation: wave-animation-2 12s linear infinite;
+}
+
+.wave3 {
+    animation: wave-animation-3 14s linear infinite;
+}
+
+.wave4 {
+    animation: wave-animation-4 16s linear infinite;
+}
+
+.wave5 {
+  animation: wave-animation-4 18s linear infinite;
+}
+
+@keyframes wave-animation-1 {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(50%); }
+}
+
+@keyframes wave-animation-2 {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(50%); }
+}
+
+@keyframes wave-animation-3 {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(50%); }
+}
+
+@keyframes wave-animation-4 {
+    0% { transform: translateX(-50%); }
+    100% { transform: translateX(50%); }
+}
+
+@keyframes wave-animation-5 {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(50%); }
+}
