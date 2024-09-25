@@ -153,11 +153,6 @@ export function Description() {
               <p>Through the efforts of the art team, the publicity and display of the project team have been significantly improved and improved, and the cooperation with other groups is more close, jointly improving the overall image and efficiency of the team.</p>
               <h3>hp team</h3>
               <p className="indent">Cooperation and promotion are the main tone of hp's work, and internal and external communication is the foundation of hp's work. It carries out human practice, exchange and cooperation, education and publicity for the public, and is also responsible for outreach, reporting and other work within the team.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">Section 3</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
               </Element>
 
               <Element name="section4" className="element rounded-border" id='section4'>
