@@ -7,40 +7,40 @@ import Pages from "../pages.ts";
 import { Container } from "react-bootstrap";
 import "./Navbar.css";
 // 导入更多图标
-// import { 
-//   FaHome, 
-//   FaFolder, 
-//   FaInfo, 
-//   FaFlask, 
-//   FaUsers, 
-//   FaCog, 
-//   FaBook, 
-//   FaTrophy,
-//   FaLightbulb,
-//   FaChartBar
-// } from "react-icons/fa";
+import { 
+  FaHome, 
+  FaFolder, 
+  FaInfo, 
+  FaFlask, 
+  FaUsers, 
+  FaCog, 
+  FaBook, 
+  FaTrophy,
+  FaLightbulb,
+  FaChartBar
+} from "react-icons/fa";
 
-// // 创建一个图标映射对象
-// const iconMap = {
-//   Home: FaHome,
-//   About: FaInfo,
-//   Team: FaUsers,
-//   Project: FaFlask,
-//   Parts: FaCog,
-//   Lab: FaBook,
-//   Human: FaUsers,
-//   Model: FaChartBar,
-//   Results: FaTrophy,
-//   Implementation: FaLightbulb,
-//   // 添加更多映射...
-// };
+// 创建一个图标映射对象
+const iconMap = {
+  Home: FaHome,
+  About: FaInfo,
+  Team: FaUsers,
+  Project: FaFlask,
+  Parts: FaCog,
+  Lab: FaBook,
+  Human: FaUsers,
+  Model: FaChartBar,
+  Results: FaTrophy,
+  Implementation: FaLightbulb,
+  // 添加更多映射...
+};
 
 export function Navbar() {
   const pages = Pages.map((item, pageIndex) => {
     if ("folder" in item && item.folder) {
       const folderItems = item.folder.map((subpage, subpageIndex) => {
         if (subpage.path) {
-          // const SubIcon = iconMap[subpage.name] || FaFolder;
+          const SubIcon = iconMap[subpage.name] || FaFolder;
           return (
             <NavDropdown.Item
               key={`subpage-${pageIndex}-${subpageIndex}`}
@@ -48,7 +48,7 @@ export function Navbar() {
               to={subpage.path}
               className="custom-dropdown-menu"
             >
-              {/* <SubIcon className="nav-icon" /> {subpage.name} */}
+              <SubIcon className="nav-icon" /> {subpage.name}
             </NavDropdown.Item>
           );
         }
@@ -58,7 +58,7 @@ export function Navbar() {
           key={`page-${pageIndex}`}
           title={
             <>
-              {/* <FaFolder className="nav-icon" /> {item.name} */}
+              <FaFolder className="nav-icon" /> {item.name}
             </>
           }
           id="basic-nav-dropdown"
@@ -68,7 +68,7 @@ export function Navbar() {
         </NavDropdown>
       );
     } else if ("path" in item && item.path) {
-      // const Icon = iconMap[item.name] || FaFolder;
+      const Icon = iconMap[item.name] || FaFolder;
       return (
         <Nav.Link 
           key={`page-${pageIndex}`}
@@ -76,7 +76,7 @@ export function Navbar() {
           to={item.path}
           className="custom-dropdown-menu"
         >
-          {/* <Icon className="nav-icon" /> {item.name} */}
+          <Icon className="nav-icon" /> {item.name}
         </Nav.Link>
       );
     }
