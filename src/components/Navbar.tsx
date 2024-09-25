@@ -5,7 +5,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import Pages from "../pages.ts";
 import { Container } from "react-bootstrap";
-import "./Navbar.css"; // 添加这行来引入自定义 CSS 文件的
+import "./Navbar.css"; // 添加这行来引入自定义 CSS 文件的1
 
 export function Navbar() {
   const pages = Pages.map((item, pageIndex) => {
