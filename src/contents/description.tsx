@@ -192,11 +192,11 @@ export function Description() {
               <p>[15] Hao DL, Zhou JY, Yang SY, Qi W, Yang KJ, Su YH. Function and Regulation of Ammonium Transporters in Plants. Int J Mol Sci. 2020 May 18;21(10):3557. </p>
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
-              <div class="image">
+              <div className="image">
                 <img src="https://static.igem.wiki/teams/5378/project-description-section3/1280x1280.webp" alt="示例图片" />
               </div>
 
-              <div class="image">
+              <div className="image">
                 <img src="https://static.igem.wiki/teams/5378/project-description-section3/project-description-section4/1280x1280-1.webp" alt="示例图片" />
               </div>
 
