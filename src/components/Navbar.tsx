@@ -1,50 +1,65 @@
-
+import React from 'react';
 import Nav from "react-bootstrap/Nav";
 import BootstrapNavbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
-import Pages from "../pages.ts";
+import Pages from "../pages";
 import { Container } from "react-bootstrap";
-import "./Navbar.css"; // 添加这行来引入自定义 CSS 文件的1
+import "./Navbar.css";
 
 export function Navbar() {
-  const pages = Pages.map((item, pageIndex) => {
-    if ("folder" in item && item.folder) {
-      const folderItems = item.folder.map((subpage, subpageIndex) => {
-        if (subpage.path) {
-          return (
-            <NavDropdown.Item
-              key={`subpage-${pageIndex}-${subpageIndex}`}
-              as={Link}
-              to={subpage.path}
-              className="custom-dropdown-menu"
-            >
-              {subpage.name}
-            </NavDropdown.Item>
-          );
-        }
-      });
+  const renderNavItem = (item: any, pageIndex: number, isSubItem: boolean = false) => {
+    if (item.folder) {
+      const folderItems = item.folder.map((subpage: any, subpageIndex: number) =>
+        renderNavItem(subpage, subpageIndex, true)
+      );
       return (
         <NavDropdown
           key={`page-${pageIndex}`}
-          title={item.name}
-          id="basic-nav-dropdown"
-          className="custom-dropdown-menu"
+          title={
+            <span className="nav-item">
+              <img src={`/icons/${item.name.toLowerCase()}.png`} alt={item.name} className="nav-icon" />
+              <span className="nav-text">{item.name}</span>
+            </span>
+          }
+          id={`dropdown-${item.name.toLowerCase()}`}
+          className="custom-dropdown"
         >
           {folderItems}
         </NavDropdown>
       );
-    } else if ("path" in item && item.path) {
-      return (
-        <Nav.Link 
-        key={`page-${pageIndex}`} as={Link} to={item.path}
-        className="custom-dropdown-menu"
+    } else if (item.path) {
+      const content = (
+        <span className="nav-item">
+          <img src={`/icons/${item.name.toLowerCase()}.png`} alt={item.name} className="nav-icon" />
+          <span className="nav-text">{item.name}</span>
+        </span>
+      );
+      
+      return isSubItem ? (
+        <NavDropdown.Item
+          key={`subpage-${pageIndex}`}
+          as={Link}
+          to={item.path}
+          className="custom-dropdown-item"
         >
-          {item.name}
+          {content}
+        </NavDropdown.Item>
+      ) : (
+        <Nav.Link
+          key={`page-${pageIndex}`}
+          as={Link}
+          to={item.path}
+          className="custom-nav-link"
+        >
+          {content}
         </Nav.Link>
       );
     }
-  });
+    return null;
+  };
+
+  const pages = Pages.map((item, index) => renderNavItem(item, index));
 
   return (
     <BootstrapNavbar expand="lg" className="apple-navbar" fixed="top">
