@@ -144,13 +144,18 @@ export function Description() {
           
 
               <Element name="section3" className="element rounded-border" id='section3'>
-              <h2>Outside the laboratory</h2>
-              <h3>dry lab</h3>
-              <p className="indent">model: We developed an ODE model for our iGEM project that simulates the biochemical reactions within Escherichia coli. This includes the diffusion of phenylethylamine, its enzymatic oxidation, and the subsequent metabolic pathways involving gene regulation and substrate interactions across cellular compartments, all modeled using Michaelis-Menten kinetics.</p>
-              <p className="indent">wiki: The wiki team built a wiki page based on react and typescript, and wrote a wiki upload tutorial to help the team members present their work. When the team members encountered difficulties in uploading, the students in the wiki team gave them timely help and gradually improved the effect of the webpage. When the team members uploaded content to part.igem.org, the wiki team also provided the code framework and teaching support. In addition, the wiki team took on a certain amount of art design, providing inspiration for the experimental team's text script design and assisting the art team in turning their ideas into reality.</p>
-              <h3>art team</h3>
-              <p>In the past few months, the art team has actively carried out a series of art design work around the needs of the project. Our main tasks include but are not limited to the design of project team emblem, team flag and uniform, design of project academic posters, production of project periphery and creation of wiki related visual material.</p>
-              <p>Through the efforts of the art team, the publicity and display of the project team have been significantly improved and improved, and the cooperation with other groups is more close, jointly improving the overall image and efficiency of the team.</p>
+                <h2>Outside the laboratory</h2>
+                <h3>dry lab</h3>
+                <p className="indent">model: We developed an ODE model for our iGEM project that simulates the biochemical reactions within Escherichia coli. This includes the diffusion of phenylethylamine, its enzymatic oxidation, and the subsequent metabolic pathways involving gene regulation and substrate interactions across cellular compartments, all modeled using Michaelis-Menten kinetics.</p>
+                <p className="indent">wiki: The wiki team built a wiki page based on react and typescript, and wrote a wiki upload tutorial to help the team members present their work. When the team members encountered difficulties in uploading, the students in the wiki team gave them timely help and gradually improved the effect of the webpage. When the team members uploaded content to part.igem.org, the wiki team also provided the code framework and teaching support. In addition, the wiki team took on a certain amount of art design, providing inspiration for the experimental team's text script design and assisting the art team in turning their ideas into reality.</p>
+                <h3>art team</h3>
+                <p>In the past few months, the art team has actively carried out a series of art design work around the needs of the project. Our main tasks include but are not limited to the design of project team emblem, team flag and uniform, design of project academic posters, production of project periphery and creation of wiki related visual material.</p>
+                <p>Through the efforts of the art team, the publicity and display of the project team have been significantly improved and improved, and the cooperation with other groups is more close, jointly improving the overall image and efficiency of the team.</p>
+                <img 
+                src="https://static.igem.wiki/teams/5378/describe/art-work.webp"
+                alt="art work"
+                className="responsive-img"
+              />
               <h3>hp team</h3>
               <p className="indent">Cooperation and promotion are the main tone of hp's work, and internal and external communication is the foundation of hp's work. It carries out human practice, exchange and cooperation, education and publicity for the public, and is also responsible for outreach, reporting and other work within the team.</p>
               </Element>
