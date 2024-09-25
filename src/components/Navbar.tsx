@@ -1,4 +1,3 @@
-// 导入图标
 import Nav from "react-bootstrap/Nav";
 import BootstrapNavbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
@@ -6,7 +5,6 @@ import { Link } from "react-router-dom";
 import Pages from "../pages.ts";
 import { Container } from "react-bootstrap";
 import "./Navbar.css";
-// 导入更多图标
 import { 
   FaHome, 
   FaFolder, 
@@ -20,7 +18,6 @@ import {
   FaChartBar
 } from "react-icons/fa";
 
-// 创建一个图标映射对象
 const iconMap = {
   Home: FaHome,
   About: FaInfo,
@@ -32,7 +29,6 @@ const iconMap = {
   Model: FaChartBar,
   Results: FaTrophy,
   Implementation: FaLightbulb,
-  // 添加更多映射...
 };
 
 export function Navbar() {
@@ -82,19 +78,17 @@ export function Navbar() {
     }
   });
 
-
-
-return (
-  <BootstrapNavbar expand="lg" className="apple-navbar" fixed="top">
-    <Container fluid>
-      <BootstrapNavbar.Brand as={Link} to="/" className="apple-brand">
-        <img src="https://static.igem.wiki/teams/5378/lesser-panda/logo.webp" className="apple-logo" alt="Logo" />
-      </BootstrapNavbar.Brand>
-      <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" className="apple-toggler" />
-      <BootstrapNavbar.Collapse id="basic-navbar-nav">
-        <Nav className="ms-auto apple-nav">{pages}</Nav>
-      </BootstrapNavbar.Collapse>
-    </Container>
-  </BootstrapNavbar>
-);
+  return (
+    <BootstrapNavbar expand="lg" className="apple-navbar" fixed="top">
+      <Container fluid>
+        <BootstrapNavbar.Brand as={Link} to="/" className="apple-brand">
+          <img src="https://static.igem.wiki/teams/5378/lesser-panda/logo.webp" className="apple-logo" alt="Logo" />
+        </BootstrapNavbar.Brand>
+        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" className="apple-toggler" />
+        <BootstrapNavbar.Collapse id="basic-navbar-nav">
+          <Nav className="ms-auto apple-nav">{pages}</Nav>
+        </BootstrapNavbar.Collapse>
+      </Container>
+    </BootstrapNavbar>
+  );
 }
