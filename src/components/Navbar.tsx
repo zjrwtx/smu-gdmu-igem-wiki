@@ -1,42 +1,17 @@
+
 import Nav from "react-bootstrap/Nav";
 import BootstrapNavbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import Pages from "../pages.ts";
 import { Container } from "react-bootstrap";
-import "./Navbar.css";
-import { 
-  FaHome, 
-  FaFolder, 
-  FaInfo, 
-  FaFlask, 
-  FaUsers, 
-  FaCog, 
-  FaBook, 
-  FaTrophy,
-  FaLightbulb,
-  FaChartBar
-} from "react-icons/fa";
-
-const iconMap = {
-  Home: FaHome,
-  About: FaInfo,
-  Team: FaUsers,
-  Project: FaFlask,
-  Parts: FaCog,
-  Lab: FaBook,
-  Human: FaUsers,
-  Model: FaChartBar,
-  Results: FaTrophy,
-  Implementation: FaLightbulb,
-};
+import "./Navbar.css"; // 添加这行来引入自定义 CSS 文件的
 
 export function Navbar() {
   const pages = Pages.map((item, pageIndex) => {
     if ("folder" in item && item.folder) {
       const folderItems = item.folder.map((subpage, subpageIndex) => {
         if (subpage.path) {
-          const SubIcon = iconMap[subpage.name] || FaFolder;
           return (
             <NavDropdown.Item
               key={`subpage-${pageIndex}-${subpageIndex}`}
@@ -44,7 +19,7 @@ export function Navbar() {
               to={subpage.path}
               className="custom-dropdown-menu"
             >
-              <SubIcon className="nav-icon" /> {subpage.name}
+              {subpage.name}
             </NavDropdown.Item>
           );
         }
@@ -52,11 +27,7 @@ export function Navbar() {
       return (
         <NavDropdown
           key={`page-${pageIndex}`}
-          title={
-            <>
-              <FaFolder className="nav-icon" /> {item.name}
-            </>
-          }
+          title={item.name}
           id="basic-nav-dropdown"
           className="custom-dropdown-menu"
         >
@@ -64,15 +35,12 @@ export function Navbar() {
         </NavDropdown>
       );
     } else if ("path" in item && item.path) {
-      const Icon = iconMap[item.name] || FaFolder;
       return (
         <Nav.Link 
-          key={`page-${pageIndex}`}
-          as={Link}
-          to={item.path}
-          className="custom-dropdown-menu"
+        key={`page-${pageIndex}`} as={Link} to={item.path}
+        className="custom-dropdown-menu"
         >
-          <Icon className="nav-icon" /> {item.name}
+          {item.name}
         </Nav.Link>
       );
     }
