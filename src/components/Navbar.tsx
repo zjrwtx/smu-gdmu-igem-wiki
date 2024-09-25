@@ -1,17 +1,46 @@
-
+// 导入图标
 import Nav from "react-bootstrap/Nav";
 import BootstrapNavbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import Pages from "../pages.ts";
 import { Container } from "react-bootstrap";
-import "./Navbar.css"; // 添加这行来引入自定义 CSS 文件
+import "./Navbar.css";
+// 导入更多图标
+import { 
+  FaHome, 
+  FaFolder, 
+  FaInfo, 
+  FaFlask, 
+  FaUsers, 
+  FaCog, 
+  FaBook, 
+  FaTrophy,
+  FaLightbulb,
+  FaChartBar
+} from "react-icons/fa";
+
+// 创建一个图标映射对象
+const iconMap = {
+  Home: FaHome,
+  About: FaInfo,
+  Team: FaUsers,
+  Project: FaFlask,
+  Parts: FaCog,
+  Lab: FaBook,
+  Human: FaUsers,
+  Model: FaChartBar,
+  Results: FaTrophy,
+  Implementation: FaLightbulb,
+  // 添加更多映射...
+};
 
 export function Navbar() {
   const pages = Pages.map((item, pageIndex) => {
     if ("folder" in item && item.folder) {
       const folderItems = item.folder.map((subpage, subpageIndex) => {
         if (subpage.path) {
+          const SubIcon = iconMap[subpage.name] || FaFolder;
           return (
             <NavDropdown.Item
               key={`subpage-${pageIndex}-${subpageIndex}`}
@@ -19,7 +48,7 @@ export function Navbar() {
               to={subpage.path}
               className="custom-dropdown-menu"
             >
-              {subpage.name}
+              <SubIcon className="nav-icon" /> {subpage.name}
             </NavDropdown.Item>
           );
         }
@@ -27,7 +56,11 @@ export function Navbar() {
       return (
         <NavDropdown
           key={`page-${pageIndex}`}
-          title={item.name}
+          title={
+            <>
+              <FaFolder className="nav-icon" /> {item.name}
+            </>
+          }
           id="basic-nav-dropdown"
           className="custom-dropdown-menu"
         >
@@ -35,28 +68,33 @@ export function Navbar() {
         </NavDropdown>
       );
     } else if ("path" in item && item.path) {
+      const Icon = iconMap[item.name] || FaFolder;
       return (
         <Nav.Link 
-        key={`page-${pageIndex}`} as={Link} to={item.path}
-        className="custom-dropdown-menu"
+          key={`page-${pageIndex}`}
+          as={Link}
+          to={item.path}
+          className="custom-dropdown-menu"
         >
-          {item.name}
+          <Icon className="nav-icon" /> {item.name}
         </Nav.Link>
       );
     }
   });
 
-  return (
-    <BootstrapNavbar expand="lg" className="apple-navbar" fixed="top">
-      <Container fluid>
-        <BootstrapNavbar.Brand as={Link} to="/" className="apple-brand">
-          <img src="https://static.igem.wiki/teams/5378/lesser-panda/logo.webp" className="apple-logo" alt="Logo" />
-        </BootstrapNavbar.Brand>
-        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" className="apple-toggler" />
-        <BootstrapNavbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto apple-nav">{pages}</Nav>
-        </BootstrapNavbar.Collapse>
-      </Container>
-    </BootstrapNavbar>
-  );
+
+
+return (
+  <BootstrapNavbar expand="lg" className="apple-navbar" fixed="top">
+    <Container fluid>
+      <BootstrapNavbar.Brand as={Link} to="/" className="apple-brand">
+        <img src="https://static.igem.wiki/teams/5378/lesser-panda/logo.webp" className="apple-logo" alt="Logo" />
+      </BootstrapNavbar.Brand>
+      <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" className="apple-toggler" />
+      <BootstrapNavbar.Collapse id="basic-navbar-nav">
+        <Nav className="ms-auto apple-nav">{pages}</Nav>
+      </BootstrapNavbar.Collapse>
+    </Container>
+  </BootstrapNavbar>
+);
 }
