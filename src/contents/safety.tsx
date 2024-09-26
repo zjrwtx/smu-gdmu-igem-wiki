@@ -156,9 +156,19 @@ The next page details the security measures and considerations our team has take
 <h4>3.2.3  Laboratory safety</h4>
 <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
 <p className="indent">The building where the laboratory is located has emergency passages, fire exits, fire equipment, and emergency lighting devices; and our colleagues in the Experimental Group also remember how to quickly escape from the scene when any safety accident occurs to ensure their own safety;There is also a first aid medicine storage area in the corridor for easy use when necessary.</p>   
+<img 
+                src="https://static.igem.wiki/teams/5378/safety/03-2-3.webp"
+                alt="example"
+                className="responsive-img"
+              />
 <h4>3.2.4Laboratory waste treatment</h4>
 <p className="indent">According to the "Regulations on the Management of Medical Waste" of the State Council and the "Measures for the Management of Medical Waste in Medical and Health Institutions" of the former Ministry of Health, we manage laboratory waste from the following aspects: ① Designate a dedicated person in the laboratory to be responsible for and coordinate the management of various types of waste; ② Establish waste classification, isolation, packaging, transportation, storage, and disposal procedures in the laboratory; ③ Members of the Experimental Group should correctly dispose of waste to their respective garbage bins, and all solutions and plates should be marked; ④ Strictly follow the waste disposal system and procedures, and have processing records.</p>
 <p className="indent">We also have a special waste treatment process for bacteria and other microorganisms, as shown in the figure:</p>             
+<img 
+                src="https://static.igem.wiki/teams/5378/safety/03-2-2.webp"
+                alt="example"
+                className="responsive-img"
+              />
 <h4>3.2.5Management and security system</h4>
 <h5>Laboratory layout and access</h5>              
 <p className="indent">Clean areas, semi-contaminated areas, and contaminated areas should be reasonably set up in the main laboratory.</p>    
@@ -174,6 +184,21 @@ The next page details the security measures and considerations our team has take
 <p className="indent">b)Conduct effective training and simulation training beforehand.</p>              
 <p className="indent">c)For accidents, measures including emergency assistance or professional health treatment should be provided to cope with emergencies.</p>             
 <p className="indent">d)Laboratory Accident Handling: Accidents that occur during the operation of experimental members, such as needle punctures and cuts, skin contamination, infectious specimens and body surfaces and inside the mouth, nose, and eyes, clothing contamination, contamination of the test bench, etc., are all considered safety accidents. Emergency treatment should be carried out immediately depending on the type of accident and other situations. At the same time of emergency treatment, it is necessary to report to the instructor and record the specific location and degree of the accident and injury in detail. Medical personnel will evaluate whether preventive treatment is needed.</p>             
+<img 
+                src="https://static.igem.wiki/teams/5378/safety/03-2-2.webp"
+                alt="example"
+                className="responsive-img"
+              />
+              <img 
+                src="https://static.igem.wiki/teams/5378/safety/03-2-2.webp"
+                alt="example"
+                className="responsive-img"
+              />
+              <img 
+                src="https://static.igem.wiki/teams/5378/safety/03-2-2.webp"
+                alt="example"
+                className="responsive-img"
+              />              
               </div>
               </Element>
 
