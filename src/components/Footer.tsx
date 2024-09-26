@@ -7,7 +7,6 @@ export function Footer() {
 
   return (
     <footer className="pt-0 pb-1 py-5 mt--8 text-white">
-        <hr />
         {/* <div className="wave-container bg-rice_yellow">
           <div className="wave1"></div>
           <div className="wave2"></div>
@@ -21,7 +20,7 @@ export function Footer() {
 
             {/* <div className="col-1"></div> */}
             {/* <div className="col-5"> */}
-              <div className="slideshow-container">
+              <div className="slideshow-container mb-5">
                       <div className="slide fade1 ">
                         <img className="fade-img" src="https://static.igem.wiki/teams/5378/school-badge/gdmu.webp" alt="Image 1" />
                       </div>
@@ -66,6 +65,7 @@ export function Footer() {
             </p>
           </div>
         </div>
+        <div className="bg-wine-red pb-5"></div>
     </footer>
   );
 }
