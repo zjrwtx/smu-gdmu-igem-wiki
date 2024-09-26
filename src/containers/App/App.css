@@ -804,3 +804,9 @@ span.formula_line::-webkit-scrollbar-track {
 .model-font p {
   padding-right: 20% !important;
 }
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

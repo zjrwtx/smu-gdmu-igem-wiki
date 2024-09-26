@@ -6,7 +6,7 @@ export function Footer() {
   const teamSlug = stringToSlug(teamName);
 
   return (
-    <footer className="pt-0 pb-1 footer py-5 mt--8 text-white">
+    <footer className="pt-0 pb-1 py-5 mt--8 text-white">
         <hr />
         {/* <div className="wave-container bg-rice_yellow">
           <div className="wave1"></div>
@@ -16,7 +16,7 @@ export function Footer() {
         <div className="bg-rice_yellow"><WaveAnimation /></div>
         
         {/* The following MUST be on every page: license information and link to the repository on gitlab.igem.org */}
-        <div className="row bg-wine-red ">
+        <div className="row bg-wine-red footer-container">
           <div className="col-7">
 
             {/* <div className="col-1"></div> */}
@@ -32,17 +32,18 @@ export function Footer() {
                         <img className="fade-img" src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp" alt="Image 3" />
                     </div>
               </div>
-          {/* <img
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="Yanyin tech"
-                className="responsive-img"
-              /> */}
+              {/* <img
+                    src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                    alt="Yanyin tech"
+                    className="responsive-img"
+                  /> */}
 
           </div>
-          <div className="col-5">
-            <div className="center-block"></div>
+        </div>
+        <div className="row bg-wine-red footer-container">
+          <div>
             <p className="mb-0">
-              <small>
+              <small className="footer-container">
                 © 2024 - Content on this site is licensed under a{" "}
                 <a
                   className="subfoot"
@@ -55,7 +56,7 @@ export function Footer() {
               </small>
             </p>
             <p>
-              <small>
+              <small className="footer-container">
                 The repository used to create this website is available at{" "}
                 <a href={`https://gitlab.igem.org/${teamYear}/${teamSlug}`}>
                   gitlab.igem.org/{teamYear}/{teamSlug}
