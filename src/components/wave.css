@@ -16,25 +16,39 @@
     animation: wave-animation-1 10s linear infinite;
 }
 
+.wave9 {
+  animation: wave-animation-6 11s linear infinite;
+}
+
 .wave2 {
     animation: wave-animation-2 12s linear infinite;
+}
+
+.wave8 {
+  animation: wave-animation-6 13s linear infinite;
 }
 
 .wave3 {
     animation: wave-animation-3 14s linear infinite;
 }
 
+.wave6 {
+  animation: wave-animation-6 15s linear infinite;
+}
+
 .wave4 {
     animation: wave-animation-4 16s linear infinite;
+}
+
+.wave7 {
+  animation: wave-animation-6 17s linear infinite;
 }
 
 .wave5 {
   animation: wave-animation-5 18s linear infinite;
 }
 
-.wave6 {
-  animation: wave-animation-6 15s linear infinite;
-}
+
 
 @keyframes wave-animation-1 {
     0% { transform: translateX(-50%); }
