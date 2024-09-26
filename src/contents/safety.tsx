@@ -165,7 +165,7 @@ The next page details the security measures and considerations our team has take
 <p className="indent">According to the "Regulations on the Management of Medical Waste" of the State Council and the "Measures for the Management of Medical Waste in Medical and Health Institutions" of the former Ministry of Health, we manage laboratory waste from the following aspects: ① Designate a dedicated person in the laboratory to be responsible for and coordinate the management of various types of waste; ② Establish waste classification, isolation, packaging, transportation, storage, and disposal procedures in the laboratory; ③ Members of the Experimental Group should correctly dispose of waste to their respective garbage bins, and all solutions and plates should be marked; ④ Strictly follow the waste disposal system and procedures, and have processing records.</p>
 <p className="indent">We also have a special waste treatment process for bacteria and other microorganisms, as shown in the figure:</p>             
 <img 
-                src="https://static.igem.wiki/teams/5378/safety/03-2-2.webp"
+                src="https://static.igem.wiki/teams/5378/safety/03-2-4.webp"
                 alt="example"
                 className="responsive-img"
               />
