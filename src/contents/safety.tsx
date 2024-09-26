@@ -126,8 +126,18 @@ The next page details the security measures and considerations our team has take
               />
               <h4>Experimental equipment</h4>
               <p className="indent">The biosafety cabinet is the most important safety equipment and the main protective barrier. The laboratory should be equipped with a secondary biosafety cabinet as required. All related operations must be carried out inside the biosafety cabinet.Fill in the registration form consciously every time you use it.</p>
+              <img 
+                src="https://static.igem.wiki/teams/5378/safety/03-12.webp"
+                alt="example"
+                className="responsive-img"
+              />
               <p className="indent">The laboratory is equipped with a ventilation system with exhaust purification devices and other equipment that does not allow microorganisms to escape to ensure safety.</p>
               <p className="indent">The laboratory is equipped with high-pressure sterilization equipment.</p>
+              <img 
+                src="https://static.igem.wiki/teams/5378/safety/03-122.webp"
+                alt="example"
+                className="responsive-img"
+              />
               <p className="indent">Various equipment in the laboratory will undergo regular maintenance and be promptly shut down after use.</p>
 <h3>3.2  safety principles</h3>
 <p className="indent">Throughout the experiment, our team members who conducted the experiment always followed the basic principles of laboratory bioprotection.</p>
@@ -138,6 +148,11 @@ The next page details the security measures and considerations our team has take
 <p className="indent">Personal protective equipment cannot reduce the concentration of harmful substances in the workplace, nor can it eliminate the harmful substances present in the workplace. However, it is the last barrier to protect people from harm. As an auxiliary preventive measure, correct use of personal protective equipment can prevent or reduce the occurrence of safety accidents, etc.</p>
 <p className="indent">Therefore, in the daily work of the laboratory, the importance of personal protective equipment is self-evident. Among them, hand protection is of utmost importance, because our hands are the most frequently used parts in experimental operations. Gloves can protect our hands from burns, punctures, and vibration injuries, and can also avoid direct contact with chemicals on the skin of our hands.</p>
 <p className="indent">Laboratory members also need to be equipped with other necessary personal protective equipment, such as wearing white coats and masks.</p>
+<img 
+                src="https://static.igem.wiki/teams/5378/safety/03-2-2.webp"
+                alt="example"
+                className="responsive-img"
+              />
 <h4>3.2.3  Laboratory safety</h4>
 <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
 <p className="indent">The building where the laboratory is located has emergency passages, fire exits, fire equipment, and emergency lighting devices; and our colleagues in the Experimental Group also remember how to quickly escape from the scene when any safety accident occurs to ensure their own safety;There is also a first aid medicine storage area in the corridor for easy use when necessary.</p>   
