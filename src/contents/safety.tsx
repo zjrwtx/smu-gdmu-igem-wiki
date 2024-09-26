@@ -48,7 +48,7 @@ export function Safety() {
     <div className="custom-header-safety">
 <h1 className="centered-title">
               <img 
-                src="https://static.igem.wiki/teams/5378/safety/011111.webp"
+                src="https://static.igem.wiki/teams/5378/safety/101111100.webp"
                 alt="safety header"
                 className="header-img"
               />
