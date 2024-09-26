@@ -119,6 +119,11 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="responsive-img"
               />
+              <img 
+                src="https://static.igem.wiki/teams/5378/safety/03-111.webp"
+                alt="example"
+                className="responsive-img"
+              />
               <h4>Experimental equipment</h4>
               <p className="indent">The biosafety cabinet is the most important safety equipment and the main protective barrier. The laboratory should be equipped with a secondary biosafety cabinet as required. All related operations must be carried out inside the biosafety cabinet.Fill in the registration form consciously every time you use it.
 The laboratory is equipped with a ventilation system with exhaust purification devices and other equipment that does not allow microorganisms to escape to ensure safety.
