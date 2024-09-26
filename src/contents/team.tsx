@@ -96,7 +96,7 @@ export function Team() {
     card31: 'https://static.igem.wiki/teams/5378/team-member/3101-1.webp',
     card32: 'https://static.igem.wiki/teams/5378/team-member/3201.webp',
     card33: 'https://static.igem.wiki/teams/5378/team-member/3301-1.webp',
-    card34: 'https://placehold.co/600x800',
+    card34: 'https://static.igem.wiki/teams/5378/team-member/3401.webp',
     card35: 'https://placehold.co/600x800',
 
 
@@ -137,7 +137,7 @@ export function Team() {
     card31: 'Hi, I\'m Ying, your go-to sparkle for all things bright and informative!',
     card32: 'First year in iGem , once iGEMer , always iGEMer !',
     card33: 'Hello this is Tina from The University of Singapore. The best way to predict the future is to create it!',
-    card34: 'aminuosi',
+    card34: 'Jian Sun, representative of the 14th National People\'s Congress of China, serving as the president, second-level professor and chief physician of Nanfang Hospital, Southern Medical University, Guangzhou. His research interests focus on the pathogenesis, diagnosis and treatment of chronic hepatitis B and other metabolic associtaed liver diseases.',
     card35: 'aminuosi',
 
   };
@@ -191,18 +191,20 @@ export function Team() {
           </div>
 
           <div className='row justify-content-center h1'>Instructor</div>
-          <div className="row">
-            <div className="col-3">
-            <Card
-                id="card6"
-                image1="https://static.igem.wiki/teams/5378/team-member/0601-1.webp"
-                image2="https://static.igem.wiki/teams/5378/team-member/0602-1.webp"
-                title1="Xiaolong He"
+          <div className='row'>
+            <div className='card-body'>
+            <div className="col-3 margin-20">
+              <Card
+                id="card34"
+                image1="https://static.igem.wiki/teams/5378/team-member/3401.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/3402.webp"
+                title1="Jian Sun"
                 description1="Instructor"
                 onHover={handleCardHover}
               />
             </div>
-            <div className="col-3">
+
+            <div className="col-3 margin-20">
             <Card
                 id="card16"
                 image1="https://static.igem.wiki/teams/5378/team-member/1601-1.webp"
@@ -212,17 +214,7 @@ export function Team() {
                 onHover={handleCardHover}
               />
             </div>
-            <div className="col-3">
-            <Card
-                id="card23"
-                image1="https://static.igem.wiki/teams/5378/team-member/2301-1.webp"
-                image2="https://static.igem.wiki/teams/5378/team-member/2302-1.webp"
-                title1="Kun Liu"
-                description1="Instructor"
-                onHover={handleCardHover}
-              />
-            </div>
-            <div className="col-3">
+            <div className="col-3 margin-20">
             <Card
                 id="card24"
                 image1="https://static.igem.wiki/teams/5378/team-member/2401-1.webp"
@@ -232,7 +224,34 @@ export function Team() {
                 onHover={handleCardHover}
               />
             </div>
+            </div>
+          
 
+          </div>
+          <div className="row">
+            <div className='card-body'>
+            <div className="col-3 margin-20">
+            <Card
+                id="card6"
+                image1="https://static.igem.wiki/teams/5378/team-member/0601-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/0602-1.webp"
+                title1="Xiaolong He"
+                description1="Instructor"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3 margin-20">
+            <Card
+                id="card23"
+                image1="https://static.igem.wiki/teams/5378/team-member/2301-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2302-1.webp"
+                title1="Kun Liu"
+                description1="Instructor"
+                onHover={handleCardHover}
+              />
+            </div>
+            </div>
           </div>
 
           <div className='row justify-content-center h1'>Advisor</div>
@@ -543,26 +562,6 @@ export function Team() {
           </div>
 
           <div className="row">
-            <div className="col-3">
-            <Card
-                id="card34"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Example"
-                description1="Description."
-                onHover={handleCardHover}
-              />
-            </div>
-            <div className="col-3">
-              <Card
-                id="card34"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
-                title1="Example"
-                description1="Description."
-                onHover={handleCardHover}
-              />
-            </div>
             <div className="col-3">
               <Card
                 id="card35"
