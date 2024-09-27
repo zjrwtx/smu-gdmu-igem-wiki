@@ -48,7 +48,7 @@ export function Safety() {
     <div className="custom-header-safety">
 <h1 className="centered-title">
               <img 
-                src="https://static.igem.wiki/teams/5378/safety/0111111111.webp"
+                src="https://static.igem.wiki/teams/5378/header/safety.png"
                 alt="safety header"
                 className="header-img"
               />
@@ -101,16 +101,25 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="responsive-img"
               />
+              <div className='row'>
+              <div className='col-6'>
               <img 
                 src="https://static.igem.wiki/teams/5378/safety/03-11.webp"
                 alt="example"
                 className="responsive-img"
               />
+
+              </div>
+              <div className='col-6'>
               <img 
                 src="https://static.igem.wiki/teams/5378/safety/03-111.webp"
                 alt="example"
                 className="responsive-img"
               />
+              </div>
+              </div>
+              
+              
               <h4>Experimental equipment</h4>
               <p className="indent">The biosafety cabinet is the most important safety equipment and the main protective barrier. The laboratory should be equipped with a secondary biosafety cabinet as required. All related operations must be carried out inside the biosafety cabinet.Fill in the registration form consciously every time you use it.</p>
               <img 

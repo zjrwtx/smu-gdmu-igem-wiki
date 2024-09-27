@@ -321,7 +321,7 @@ footer a:hover {
 .custom-header-safety {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: url('https://static.igem.wiki/teams/5378/safety/0111111111.webp'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
