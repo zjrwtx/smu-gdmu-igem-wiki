@@ -109,6 +109,7 @@ export function Description() {
                 alt="methods"
                 className="responsive-img"
               />
+              <figcaption className='caption'>Current treatments for hepatic encephalopathy[8]</figcaption>
                  <p className="bold-font">1.Osmotic laxatives:</p>
                  <p>Non-absorbable disaccharides, lactulose and sugar alcohols, are recommended as first-line treatment for HE. Lactulose is a laxative that has a negligible effect on the composition or function of the gut microbiota and may reduce ammonia production and absorption in the gut and increase intestinal excretion by increasing intestinal transport as well as acidification of the intestinal environment. [9]However, some studies have reported potential side effects of laxatives such as lactulose, including diarrhoea, nausea and bloating. Diarrhoea and vomiting can lead to electrolyte disturbances and even exacerbate HE.[8]</p>
                  <p className="bold-font">2.Anti-microbial agents:</p>
