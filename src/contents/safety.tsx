@@ -90,11 +90,15 @@ The next page details the security measures and considerations our team has take
                 <h3>2.2Parts Safety</h3>
                 <h3>2.3Suicidal System</h3>
                 <h3>2.4Safety Module</h3>
+                <div className='image-container'>
                 <img 
                 src="https://static.igem.wiki/teams/5378/safety/03-1.webp"
                 alt="example"
-                className="responsive-img"
+                className="image-wide"
               />
+              <figcaption className='caption'>Describe.......</figcaption>
+                </div>
+                
               </Element>
           
 
@@ -105,6 +109,7 @@ The next page details the security measures and considerations our team has take
               <h3>3.1  Laboratory</h3>
               {/* <h4 className="center-text">3.1Laboratory</h4> */}
               <p className="indent">Our experiment was conducted by the iGEM laboratory of Southern Medical University. It is a laboratory with a biosafety protection level of Level 2 (BSL-II), which complies with the provisions of the Biosafety Law of the People's Republic of China and the General Biosafety Guidelines for Pathogenic Microbial Laboratories.</p>
+              <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/safety/03-1.webp"
                 alt="example"
@@ -127,6 +132,9 @@ The next page details the security measures and considerations our team has take
               />
               </div>
               </div>
+                <figcaption className='caption'>Example</figcaption>
+              </div>
+              
               
               
               <h4>Experimental equipment</h4>

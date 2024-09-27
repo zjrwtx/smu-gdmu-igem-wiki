@@ -354,7 +354,6 @@ footer a:hover {
   height: auto; /* 保持图片纵横比 */
   display: block; /* 去掉图片下方的空隙 */
   margin: 2px;
-  max-height: 100vh;
 }
 
 .full-height-element {
@@ -455,7 +454,8 @@ footer a:hover {
   /* max-width: 0.9vw; */
   background-color: #ffa6009f;
   /* box-shadow: 15px 15px 5px rgba(0,0,0,0.1); */
-
+  /* display: flex;
+  flex-direction: column;  */
 }
 
 .rounded-border:hover {
@@ -845,6 +845,23 @@ span.formula_line::-webkit-scrollbar-track {
   color: #555; 
   margin-top: 8px; 
   font-style: italic; 
+  align-items: center;
+  justify-content: center;
+}
+
+.image-wide {
+  width: 70%;
+  height: auto;
+}
+
+.image-height {
+  width: auto;
+  height: 70vh;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
