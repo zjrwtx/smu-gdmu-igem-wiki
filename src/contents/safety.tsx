@@ -190,7 +190,7 @@ The next page details the security measures and considerations our team has take
 <p className="indent">c)For accidents, measures including emergency assistance or professional health treatment should be provided to cope with emergencies.</p>             
 <p className="indent">d)Laboratory Accident Handling: Accidents that occur during the operation of experimental members, such as needle punctures and cuts, skin contamination, infectious specimens and body surfaces and inside the mouth, nose, and eyes, clothing contamination, contamination of the test bench, etc., are all considered safety accidents. Emergency treatment should be carried out immediately depending on the type of accident and other situations. At the same time of emergency treatment, it is necessary to report to the instructor and record the specific location and degree of the accident and injury in detail. Medical personnel will evaluate whether preventive treatment is needed.</p>             
 <img 
-                src="https://static.igem.wiki/teams/5378/safety/03-2-61.webp"
+                src="https://static.igem.wiki/teams/5378/safety/2-666666.webp"
                 alt="example"
                 className="responsive-img"
               />
