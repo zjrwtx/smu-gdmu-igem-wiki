@@ -74,7 +74,9 @@ export function Notebook() {
                 
               <Element name="section1" className="element" id='section1'>
                 <div className='row center-div'>
-                  <div className='col-4 '><img src='https://placehold.co/600x500' className='responsive-img' /></div>
+                  <div className='col-4 '><img src='https://placehold.co/600x500' className='responsive-img' />
+                  <figcaption className='caption'>这是图注的代码,在图片下面使用</figcaption>
+                  </div>
                     <div className='col-6 '>
                       <div className='rounded-border margin-0'>
                         <h3 className="center-text">Was ilusma</h3>
@@ -109,7 +111,11 @@ export function Notebook() {
                           <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
                         </div>
                       </div>
-                      <div className='col-4'><img src='https://placehold.co/600x500' className='responsive-img' /></div>
+                      <div className='col-4'>
+                        <img src='https://placehold.co/600x500' className='responsive-img' />
+                        <figcaption className='caption'>这是图注的代码,在图片下面使用</figcaption>
+                      </div>
+                      
                   </div>
               </Element>
           

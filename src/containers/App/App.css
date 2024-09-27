@@ -818,3 +818,13 @@ span.formula_line::-webkit-scrollbar-track {
 .margin-20 {
   margin: 20px;
 }
+
+.caption {
+  display: flex;
+  font-size: 14px; 
+  color: #555; 
+  margin-top: 8px; 
+  font-style: italic; 
+  align-items: center;
+  justify-content: center;
+}
