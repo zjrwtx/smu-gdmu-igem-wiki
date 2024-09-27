@@ -193,17 +193,7 @@ The next page details the security measures and considerations our team has take
                 src="https://static.igem.wiki/teams/5378/safety/2-666666.webp"
                 alt="example"
                 className="responsive-img"
-              />
-              <img 
-                src="https://static.igem.wiki/teams/5378/safety/03-611.webp"
-                alt="example"
-                className="responsive-img"
-              />
-              <img 
-                src="https://static.igem.wiki/teams/5378/safety/03-2-6111.webp"
-                alt="example"
-                className="responsive-img"
-              />              
+              />            
               </div>
               </Element>
 
