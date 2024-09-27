@@ -126,7 +126,7 @@ export function Education() { // sidenavbar begin
                 />  
                 <p>After the lecture, a questionnaire was distributed to the students to assess whether they had increased their understanding of the field and their interest in synthetic biology through the lecture. The questionnaire was designed to include questions of multiple dimensions, such as the understanding of the basic concepts of synthetic biology, the level of interest in the content of the lecture, and the willingness to participate in related activities in the future.</p>
                 <img 
-                  src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"#放分析图
+                  src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                   alt="example"
                   className="responsive-img"
                 />     
@@ -144,14 +144,14 @@ export function Education() { // sidenavbar begin
                 <p>We had the honour of inviting the iGEM team from Spirit Spider Labs to visit our Pathogenic Microbiology Laboratory and experience a number of fun lab activities first hand.</p>
                 <p>Under our guidance, they had an initial training on mosquito rearing techniques and operations, covering the basics of mosquito biology, environmental settings and rearing management. Through this training, they gained a preliminary understanding of the full cycle of rearing techniques from egg hatching to adult, and mastered how to adjust the laboratory environment to suit the needs of different mosquitoes. Particularly worth mentioning is that we briefly introduced the basic concepts and tools of synthetic biology, such as CRISPR-Cas9 gene editing technology, which helped them understand how to optimise the rearing conditions of mosquitoes and improve their resistance to diseases through gene editing.</p>
                 <img 
-                  src="https://static.igem.wiki/teams/5378/lingzhu1.webp"#放分析图
+                  src="https://static.igem.wiki/teams/5378/lingzhu1.webp"
                   alt="example"
                   className="responsive-img"
                 />  
                 <p>Meanwhile, the iGEM team from Spirit Spider Lab also brought their latest research results and innovative ideas in the field of synthetic biology. They shared their experience in gene circuit design and biosensor development, which provided us with valuable reference and inspiration. This two-way communication not only enriches our research vision, but also promotes the deep integration of technology, methodology and concepts between both sides.</p>
                 <p>Through this activity, we not only improved the professional and technical level of our team members, but also strengthened the two-way educational outreach between us and the iGEM team of Spirit Spider Labs. We believe that this two-way communication and educational outreach will make a greater contribution to promoting the development of synthetic biology and the level of iGEM competition.</p>
                 <img 
-                  src="https://static.igem.wiki/teams/5378/lingzhu2.webp"#放分析图
+                  src="https://static.igem.wiki/teams/5378/lingzhu2.webp"
                   alt="example"
                   className="responsive-img"
                 />  
@@ -233,14 +233,15 @@ export function Education() { // sidenavbar begin
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               </div>
-              </Element>
-
-
               <img 
                   src="https://static.igem.wiki/teams/5378/social-work-station.webp"
                   alt="example"
                   className="responsive-img"
-                />      
+                />  
+              </Element>
+
+
+                  
           
 
         </div>
