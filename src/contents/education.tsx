@@ -67,11 +67,11 @@ export function Education() { // sidenavbar begin
   </h1>
 </div>
       <div className="row  bg-rice_yellow">
-        <div className="col-3">
+        <div className="col-2">
           <SideNavbar activeLink={activeLink}          />
         </div>
         
-        <div className="col-8">
+        <div className="col-10">
           
               
               <Element name="1.overview" className="element rounded-border" id='1.overview'>

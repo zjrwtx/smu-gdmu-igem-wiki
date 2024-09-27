@@ -68,11 +68,11 @@ export function Notebook() {
 </h1>
 </div>
       <div className="row  bg-rice_yellow">
-        <div className="col-3">
+        <div className="col-2">
           <SideNavbar activeLink={activeLink}          />
         </div>
         
-        <div className="col-8">
+        <div className="col-10">
           
         <div className="bd-callout bd-callout-info bg-gray">
                   <h1>What do we do to ...? See...</h1>

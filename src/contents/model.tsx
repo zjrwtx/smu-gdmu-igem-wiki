@@ -64,11 +64,11 @@ export function Model() {
 </div>
 
       <div className="row  bg-rice_yellow">
-        <div className="col-3">
+        <div className="col-2">
           <SideNavbar activeLink={activeLink}          />
         </div>
         
-        <div className="col-9 model-font">
+        <div className="col-10 model-font">
         <Element name="section1" className="element" id='section1'>
               <h2 className="center-text mt-5">1. ODE Model of Biochemical Reactions</h2>
                  <h3>1.1 Oxidation of Phenylethylamine</h3>

@@ -451,6 +451,7 @@ footer a:hover {
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
   margin-bottom: 100px;
+  margin-left: 20px;
   /* max-width: 0.9vw; */
   background-color: #ffa6009f;
   /* box-shadow: 15px 15px 5px rgba(0,0,0,0.1); */
@@ -459,6 +460,7 @@ footer a:hover {
 
 .rounded-border:hover {
   margin: 50px;
+  margin-left: 20px;
   padding: 50px;
   border: 2px solid #f7a901; 
   /* 设置边框的宽度和颜色 */
@@ -469,6 +471,30 @@ footer a:hover {
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
   transform: scale(1.01);
 
+}
+
+.rounded-border.rounded-border{
+  margin: 50px;
+  padding: 50px;
+  border: 2px solid #f7a901; 
+  /* 设置边框的宽度和颜色 */
+  border-radius: 10px; /* 设置圆角半径 */
+  margin-bottom: 100px;
+  /* max-width: 0.9vw; */
+  background-color: #ffa600c0;
+}
+
+.rounded-border.rounded-border:hover{
+  margin: 50px;
+  padding: 50px;
+  border: 2px solid #f7a901; 
+  /* 设置边框的宽度和颜色 */
+  border-radius: 10px; /* 设置圆角半径 */
+  margin-bottom: 100px;
+  /* max-width: 0.9vw; */
+  background-color: #ffa600c0;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
+  transform: scale(1.01);
 }
 
 /* 页面title的水平与垂直居中 */

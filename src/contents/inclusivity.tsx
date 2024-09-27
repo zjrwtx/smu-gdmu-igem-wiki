@@ -67,11 +67,11 @@ export function Inclusivity() {
 </h1>
 </div>
       <div className="row  bg-rice_yellow">
-        <div className="col-3">
+        <div className="col-2">
           <SideNavbar activeLink={activeLink}          />
         </div>
         
-        <div className="col-8">
+        <div className="col-10">
           
               
               <Element name="section1" className="element rounded-border" id='section1'>

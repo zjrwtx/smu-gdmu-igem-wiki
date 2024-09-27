@@ -64,11 +64,11 @@ export function Safety() {
 
 </div>
       <div className="row  bg-rice_yellow">
-        <div className="col-3">
+        <div className="col-2">
           <SideNavbar activeLink={activeLink}          />
         </div>
         
-        <div className="col-8">
+        <div className="col-10">
           
               
               <Element name="section1" className="element rounded-border" id='section1'>
@@ -208,7 +208,6 @@ The next page details the security measures and considerations our team has take
               </Element>
 
         </div>
-        <div className="col-1"></div>
 
           
         
