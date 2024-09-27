@@ -4,7 +4,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import Pages from "../pages.ts";
 import { Container } from "react-bootstrap";
-import { FaHome, FaFolder, FaFileAlt } from "react-icons/fa"; // 引入图标
 import "./Navbar.css"; // 添加这行来引入自定义 CSS 文件的1
 
 export function Navbar() {
@@ -12,6 +11,7 @@ export function Navbar() {
     if ("folder" in item && item.folder) {
       const folderItems = item.folder.map((subpage, subpageIndex) => {
         if (subpage.path) {
+          const SubpageIcon = subpage.icon; // 获取子页面图标
           return (
             <NavDropdown.Item
               key={`subpage-${pageIndex}-${subpageIndex}`}
@@ -19,15 +19,16 @@ export function Navbar() {
               to={subpage.path}
               className="custom-dropdown-menu"
             >
-              <FaFileAlt className="nav-icon" /> {subpage.name} {/* 添加图标 */}
+              <SubpageIcon className="nav-icon" /> {subpage.name} {/* 添加图标 */}
             </NavDropdown.Item>
           );
         }
       });
+      const ItemIcon = item.icon; // 获取文件夹图标
       return (
         <NavDropdown
           key={`page-${pageIndex}`}
-          title={<><FaFolder className="nav-icon" /> {item.name}</>} // 添加图标
+          title={<><ItemIcon className="nav-icon" /> {item.name}</>} // 添加图标
           id="basic-nav-dropdown"
           className="custom-dropdown-menu"
         >
@@ -35,12 +36,13 @@ export function Navbar() {
         </NavDropdown>
       );
     } else if ("path" in item && item.path) {
+      const ItemIcon = item.icon; // 获取页面图标
       return (
         <Nav.Link 
         key={`page-${pageIndex}`} as={Link} to={item.path}
         className="custom-dropdown-menu"
         >
-          <FaHome className="nav-icon" /> {item.name} {/* 添加图标 */}
+          <ItemIcon className="nav-icon" /> {item.name} {/* 添加图标 */}
         </Nav.Link>
       );
     }

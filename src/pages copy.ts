@@ -16,17 +16,14 @@ import {
   Model,
   collaboration,
 } from "./contents";
-import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward, FaBook, FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake } from "react-icons/fa"; // 引入图标
 
 interface Base {
   name: string | undefined;
-  icon?: React.ComponentType; // 添加 icon 属性
 }
 
 class Folder implements Base {
   name: string | undefined;
   folder: Page[] | undefined;
-  icon?: React.ComponentType;
 }
 
 class Page implements Base {
@@ -35,7 +32,6 @@ class Page implements Base {
   path: string | undefined;
   component: React.FC | undefined;
   lead: string | undefined;
-  icon?: React.ComponentType;
 }
 
 const Pages: (Page | Folder)[] = [
@@ -45,7 +41,6 @@ const Pages: (Page | Folder)[] = [
     path: "/",
     component: Home,
     lead: "Welcome to iGEM 2024! Your team has been approved and you are ready to start the iGEM season!",
-    icon: FaHome,
   },
   {
     name: "Team",
@@ -56,7 +51,6 @@ const Pages: (Page | Folder)[] = [
         path: "/team",
         component: Team,
         lead: "On this page you can introduce your team members, instructors, and advisors.",
-        icon: FaUsers,
       },
       {
         name: "Attributions",
@@ -64,10 +58,8 @@ const Pages: (Page | Folder)[] = [
         path: "/attributions",
         component: Attributions,
         lead: "In the iGEM Competition, we celebrate student effort and achievement. The Attributions form helps the judges differentiate between what students accomplished from how their external collaborators supported them. Therefore, teams must clearly explain on the standard Project Attributions form what work they have conducted by themselves and what has been done by others.",
-        icon: FaUsers,
       },
     ],
-    icon: FaUsers,
   },
   {
     name: "Project",
@@ -78,7 +70,6 @@ const Pages: (Page | Folder)[] = [
         path: "/contribution",
         component: Contribution,
         lead: "Make a useful contribution for future iGEM teams. Use this page to document that contribution.",
-        icon: FaProjectDiagram,
       },
       {
         name: "Description",
@@ -86,7 +77,6 @@ const Pages: (Page | Folder)[] = [
         path: "/description",
         component: Description,
         lead: "Describe how and why you chose your iGEM project.",
-        icon: FaProjectDiagram,
       },
       {
         name: "Engineering",
@@ -94,7 +84,6 @@ const Pages: (Page | Folder)[] = [
         path: "/engineering",
         component: Engineering,
         lead: "Demonstrate engineering success in a technical aspect of your project by going through at least one iteration of the engineering design cycle. This achievement should be distinct from your Contribution for Bronze.",
-        icon: FaCogs,
       },
       {
         name: "Experiments",
@@ -102,7 +91,6 @@ const Pages: (Page | Folder)[] = [
         path: "/experiments",
         component: Experiments,
         lead: "Describe the research, experiments, and protocols you used in your iGEM project.",
-        icon: FaFlask,
       },
       {
         name: "Notebook",
@@ -110,7 +98,6 @@ const Pages: (Page | Folder)[] = [
         path: "/notebook",
         component: Notebook,
         lead: "Document the dates you worked on your project. This should be a detailed account of the work done each day for your project.",
-        icon: FaBook,
       },
       {
         name: "Results",
@@ -118,10 +105,8 @@ const Pages: (Page | Folder)[] = [
         path: "/results",
         component: Results,
         lead: "You can describe the results of your project and your future plans here.",
-        icon: FaFlask,
       },
     ],
-    icon: FaProjectDiagram,
   },
   {
     name: "Safety",
@@ -129,7 +114,6 @@ const Pages: (Page | Folder)[] = [
     path: "/safety",
     component: Safety,
     lead: "Describe all the safety issues of your project.",
-    icon: FaShieldAlt,
   },
   {
     name: "Human Practices",
@@ -137,7 +121,6 @@ const Pages: (Page | Folder)[] = [
     path: "/human-practices",
     component: HumanPractices,
     lead: "We ask every team to think deeply and creatively about whether their project is responsible and good for the world. Consider how the world affects your work and how your work affects the world.",
-    icon: FaHandsHelping,
   },
   {
     name: "Awards",
@@ -148,7 +131,6 @@ const Pages: (Page | Folder)[] = [
         path: "/education",
         component: Education,
         lead: "Innovative educational tools and outreach activities have the ability to establish a two-way dialogue with new communities by discussing public values and the science behind synthetic biology.",
-        icon: FaLightbulb,
       },
       {
         name: "Entrepreneurship",
@@ -156,34 +138,32 @@ const Pages: (Page | Folder)[] = [
         path: "/entrepreneurship",
         component: Entrepreneurship,
         lead: "The entrepreneurship prize recognizes exceptional effort to build a business case and commercialize an iGEM project.",
-        icon: FaBusinessTime,
       },
+      
       {
         name: "Inclusivity",
         title: "Diversity and Inclusion",
         path: "/inclusivity",
         component: Inclusivity,
         lead: "Every individual, regardless of background or experience, should have an equal opportunity to engage with scientific knowledge and technological development.",
-        icon: FaUniversalAccess,
       },
+      
       {
         name: "Model",
         title: "Model",
         path: "/model",
         component: Model,
         lead: "Explain your model's assumptions, data, parameters, and results in a way that anyone could understand.",
-        icon: FaCogs,
       },
+
       {
         name: "Collaboration",
         title: "Collaboration",
         path: "/collaboration",
         component: collaboration,
         lead: "Collaboration.",
-        icon: FaHandshake,
       },
     ],
-    icon: FaAward,
   },
 ];
 
