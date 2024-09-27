@@ -109,6 +109,7 @@ export function Description() {
                 alt="methods"
                 className="responsive-img"
               />
+              <figcaption className='caption'>Fig.1: Current treatments for hepatic encephalopathy[8]</figcaption>
                  <p className="bold-font">1.Osmotic laxatives:</p>
                  <p>Non-absorbable disaccharides, lactulose and sugar alcohols, are recommended as first-line treatment for HE. Lactulose is a laxative that has a negligible effect on the composition or function of the gut microbiota and may reduce ammonia production and absorption in the gut and increase intestinal excretion by increasing intestinal transport as well as acidification of the intestinal environment. [9]However, some studies have reported potential side effects of laxatives such as lactulose, including diarrhoea, nausea and bloating. Diarrhoea and vomiting can lead to electrolyte disturbances and even exacerbate HE.[8]</p>
                  <p className="bold-font">2.Anti-microbial agents:</p>
@@ -145,6 +146,7 @@ export function Description() {
                 alt="design"
                 className="responsive-img"
               />
+              <figcaption className='caption'>Fig.2: Our experimental design ideas</figcaption>
                </Element>
           
 
@@ -161,6 +163,7 @@ export function Description() {
                 alt="art work"
                 className="responsive-img"
               />
+              <figcaption className='caption'>Fig.3: Work of the art team</figcaption>
               <h3>hp team</h3>
               <p className="indent">Cooperation and promotion are the main tone of hp's work, and internal and external communication is the foundation of hp's work. It carries out human practice, exchange and cooperation, education and publicity for the public, and is also responsible for outreach, reporting and other work within the team.</p>
               </Element>
