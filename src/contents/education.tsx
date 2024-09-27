@@ -71,13 +71,9 @@ export function Education() { // sidenavbar begin
               
               <Element name="1.overview" className="element rounded-border" id='1.overview'>
                  <h2>1.overview</h2>
-                 <h4>Alone, we can do little, so little, together we can do so much.”——Helen Keller</h4>
-                 <p>This year, our team has invested tremendous effort in education, as we all firmly believe that the promotion and advancement of synthetic biology cannot be achieved without the inclusion and participation of the public, and that this is the foundation for scientific collaboration. We have reached out to:</p>
-                 <p>- Infrastructure work: Designing and producing pamphlets on knowledge of hepatic encephalopathy for popularization of the subject on campuses, hospitals and in the community.</p>
-                 <p>- Initial rollout: Conducted scientific lectures on university campuses to promote knowledge of hepatic encephalopathy and synthetic biology among university students.</p>
-                 <p>- Community involvement: Distribution of pamphlets in the community to sensitize the general public on science and technology</p>
-                 <p>- Deepen education: Introduction to Synthetic Biology through science interaction and fun videos</p>
-                 <p>- Wide dissemination: Traveled to marginalized mountainous areas of Sichuan to conduct in-depth interviews and panel discussions on “Hepatic Encephalopathy”. Provided more detailed care and support for the health of the local population.</p>
+                 <p>This year, our team has devoted a great deal of effort to the field of education, as we are convinced that the development and popularisation of synthetic biology cannot be achieved without the broad participation and support of the public, which is at the heart of science education.</p>
+                 <p>To this end, we have elaborated a series of promotional materials, taken the initiative to reach out to patient groups, carried out science popularisation activities in schools, and worked to expand our regional influence while actively speaking out on the international stage. At the local level, in particular, we are working hard to reach out to a wider range of people, with a view to creating a far-reaching social impact.</p>
+                 <p>At the same time, we have established a systematic educational mechanism that aims to transform high school students from passive recipients of knowledge to active practitioners at the university level, thus forming a sustainable educational loop.</p>
                </Element>
           
                <div className="bd-callout bd-callout-info bg-gray">
@@ -85,11 +81,10 @@ export function Education() { // sidenavbar begin
                 </div>
           
               
-              <Element name="2.Production of science brochures" className="element rounded-border" id='2.Production of science brochures'>
-                <h2>2.Production of science brochures</h2>
-                <p>For better education, we design and produce scientific brochures on hepatic encephalopathy.</p>
-                <p>In order to help you understand hepatic encephalopathy more easily and comprehensively, we have created the following brochure. It begins with a brief introduction to the functions of the liver, followed by a brief disease overview of hepatic encephalopathy. </p>
-                <p>After a brief understanding of hepatic encephalopathy, we introduce it to the public in terms of the causes, diagnosis and prevention of the disease. For patients with hepatic encephalopathy, we also hope to help them better understand their own situation through the introduction of the pathogenesis and staging of the disease, and to do a targeted job of treatment and care, in an effort to mitigate the development of the disease, and even to achieve the effect of treatment and cure.</p>
+              <Element name="Science Brochure - Foundation Project" className="element rounded-border" id='Science Brochure - Foundation Project'>
+                <h2>Science Brochure - Foundation Project</h2>
+                <p>In order to help you understand hepatic encephalopathy more easily and comprehensively, we have created the following science brochure. It begins with a brief introduction to the functions of the liver, followed by a brief disease overview of hepatic encephalopathy. After a brief understanding of hepatic encephalopathy, the causes, diagnosis and prevention of the disease are introduced to the public. For patients with hepatic encephalopathy, we also hope that by introducing the pathogenesis and staging of the disease, we can help them better understand their own situation and target their treatment and care, so as to mitigate the development of the disease and even achieve the effect of treatment and cure.</p>
+                <p>This pamphlet will support a series of activities that we will follow up. Not only does it provide the public with easy-to-understand medical knowledge, it will also serve as an educational tool to complement our talks in schools, community centres and other venues. Through these activities, we can further expand the reach of our science outreach, ensure that more people have access to the necessary health information, and raise the level of awareness of hepatic encephalopathy in the community as a whole. </p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/pdf/brochures1.webp"
                 alt="example"
@@ -103,26 +98,39 @@ export function Education() { // sidenavbar begin
               </Element>
           
 
-              <Element name="3.Initial outreach on university campuses" className="element rounded-border" id='3.Initial outreach on university campuses'>
-                <h2>3.Initial outreach on university campuses</h2>
-                <p>Since our team is made up of more college students, the educational modules are first conducted on our campuses.There are several options for educating university students, such as giving a lecture or a workshop. </p>
-                <p>We first distributed science pamphlets in the crowded places in the campus to help people understand the related knowledge of hepatic encephalopathy, and at the same time, we distributed questionnaires to investigate the direction of college students' interest in synthetic biology.</p>
-                <p>In the process of investigation and publicity, we found that college students have a basic knowledge and understanding of the concepts of hepatic encephalopathy and synthetic biology, but it is not comprehensive and profound. Therefore, we have strengthened the popularization of science in the process of publicity, hoping that through our publicity, we can help people better understand these contents.</p>
-                <p>Not only that, we have learned that college students have a strong interest in both hepatic encephalopathy and synthetic biology. Therefore, we held a popularization seminar to introduce the related contents, which was well received by everyone.</p>
-                <p>After the lecture, the participating members had an in-depth and friendly discussion and exchange with the team members, which helped us to recognize their interests and promote the subsequent educational work.</p>
+              <Element name="Patient level - Care Project" className="element rounded-border" id='Patient level - Care Project'>
+                <h2>Patient level - Care Project</h2>
+                <p>In order to gain a deeper understanding of the actual needs of our patients, we plan to conduct an exhaustive interview with them. Our interview will cover a wide range of aspects such as disease experience, medical history, abdominal infections and personal feelings, aiming to gain a comprehensive understanding of the patient's life situation and treatment experience. Through this interview, we hope to not only educate patients on disease management and self-care, but also pay special attention to collecting feedback from patients on our existing services and to understand where they would like us to improve or provide additional support. </p>
+                <p>In particular, we will introduce a new treatment option - the oral administration of yoghurt containing specific probiotics to help alleviate the condition and reduce inflammation - and ask patients about their expectations and suggestions for such new treatments. We expect that through this feedback, we will be able to more accurately meet the needs of our patients, improve our programme design, and enhance patient outcomes and quality of life.</p>
               </Element>
 
 
-              <Element name="4.Community involvement" className="element rounded-border" id='4.Community involvement'>
-                <h2>4.Community involvement</h2>
-                <p>After the education of university students, We think we are more effective, but the platform on campus is more limited. We published our results and iGEM news on our WeChat, Video and QQ pages. As a newly formed team, we were able to attract a large audience on social media channels with the strong support of the university and the publicity of our instructors and students.</p>
-                <p>We contacted a social worker service station, and with their support, we went into the surrounding community with them to popularize synthetic biology and the topic of hepatic encephalopathy, and gained the public's recognition and support. </p>
+              <Element name="School level - Universalisation Project" className="element rounded-border" id='School level - Universalisation Project'>
+                <h2>School level - Universalisation Project</h2>
+                <h3>Lectures for high school students - recipients of knowledge</h3>
+                <p>In order to promote the knowledge of synthetic biology and to enhance the interest of young people in this cutting-edge field of science and technology, we have successfully travelled to Xiangyin No. 1 High School in Hunan Province, China and Foshan High School in Guangdong Province to deliver in-school lectures. During this event, high school students showed great enthusiasm and curiosity as active absorbers of knowledge. The lectures focused on the basic concepts of synthetic biology and its applications, with a special introduction to our team's research project on tackling hepatic encephalopathy by means of synthetic biology.</p>
+                <p>After the lecture, a questionnaire was distributed to the students to assess whether they had increased their understanding of the field and their interest in synthetic biology through the lecture. The questionnaire was designed to include questions of multiple dimensions, such as the understanding of the basic concepts of synthetic biology, the level of interest in the content of the lecture, and the willingness to participate in related activities in the future.</p>
                 <img 
                   src="https://static.igem.wiki/teams/5378/social-work-station.webp"
                   alt="example"
                   className="responsive-img"
                 />           
-                <p>In the process of popularization, we found that adults, compared with college students, pay more attention to their own health, and the elderly, as a vulnerable group of hepatic encephalopathy, have a strong interest in this disease. At the same time, we also gave lectures on hepatic encephalopathy to the local senior university.</p>
+                <p>By collecting and analysing students' feedback, we can more accurately grasp the current situation of young people's knowledge of synthetic biology, and then adjust and improve the content of our lectures to ensure the effectiveness and attractiveness of our educational activities.</p>
+                <p>This process is not only a one-way information transfer, but also a two-way communication and feedback mechanism. Based on the valuable feedback provided by students, we have optimised and adjusted some of the lectures, such as adding more illustrative examples and interactive sessions to enhance students' participation and depth of understanding.</p>
+
+                <h3>University Lectures - Practitioners of Knowledge</h3>
+                <p>After the completion of science education at the high school level, we further set our sights on university campuses, aiming to train university students to become practitioners of knowledge. We first distributed pamphlets about hepatic encephalopathy on campus, and at the same time, we distributed questionnaires to survey college students about their interest in synthetic biology and their current level of knowledge.</p>
+                <p>The survey found that most university students have some basic knowledge about hepatic encephalopathy and synthetic biology, but it is not comprehensive and in-depth enough. Therefore, we have strengthened the popularisation of science in the publicity process to help people better understand these contents through in-depth explanations. This initiative was widely welcomed, with many students reporting a clearer understanding of these areas.</p>
+                <p>In view of the keen interest shown by the university students, we organised a science talk dedicated to hepatic encephalopathy and synthetic biology, covering the basics, the latest research results and development trends. The lecture was well received by the participants, many of whom expressed that they had benefited from it and developed a deeper interest in the related fields.</p>
+                <p>After the lecture, the participating members had an in-depth and friendly discussion and exchange with our team. Through this exchange, we clarified the interest points of university students and collected valuable suggestions and feedback. These feedbacks pointed out the direction for our subsequent educational work, and we will continue to optimise the content of science popularisation and enhance the interactivity, aiming to benefit more people.</p>
+                
+                <h3>Guided Laboratory Tours - A Two-Way Touch of Knowledge</h3>
+                <p>We had the honour of inviting the iGEM team from Spirit Spider Labs to visit our Pathogenic Microbiology Laboratory and experience a number of fun lab activities first hand.</p>
+                <p>Under our guidance, they had an initial training on mosquito rearing techniques and operations, covering the basics of mosquito biology, environmental settings and rearing management. Through this training, they gained a preliminary understanding of the full cycle of rearing techniques from egg hatching to adult, and mastered how to adjust the laboratory environment to suit the needs of different mosquitoes. Particularly worth mentioning is that we briefly introduced the basic concepts and tools of synthetic biology, such as CRISPR-Cas9 gene editing technology, which helped them understand how to optimise the rearing conditions of mosquitoes and improve their resistance to diseases through gene editing.</p>
+                <p>Meanwhile, the iGEM team from Spirit Spider Lab also brought their latest research results and innovative ideas in the field of synthetic biology. They shared their experience in gene circuit design and biosensor development, which provided us with valuable reference and inspiration. This two-way communication not only enriches our research vision, but also promotes the deep integration of technology, methodology and concepts between both sides.</p>
+                <p>Through this activity, we not only improved the professional and technical level of our team members, but also strengthened the two-way educational outreach between us and the iGEM team of Spirit Spider Labs. We believe that this two-way communication and educational outreach will make a greater contribution to promoting the development of synthetic biology and the level of iGEM competition.</p>
+
+
                 <img 
                   src="https://static.igem.wiki/teams/5378/society.webp"
                   alt="example"
