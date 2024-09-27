@@ -44,10 +44,10 @@ const Card: React.FC<CardProps> = ({ image1, image2, title1,  description1,  id,
   );
 };
 
-const StickyImageContainer: React.FC<{ image: string ,words: string}> = ({ image,words }) => {
+const StickyImageContainer: React.FC<{ image: string ,words: string ,names: string}> = ({ image,words,names }) => {
   return (
     <div className="sticky-container" >
-      <h3 className='center-text'>⭐SMU-GDMU-China crew⭐</h3>
+      <h3 className='center-text'>⭐{names}⭐</h3>
       <img src={image} alt="Sticky" className='sticky-img' />
       <p className='sticky-words sticky-description indent'>{words}</p>
     </div>
@@ -142,6 +142,44 @@ export function Team() {
 
   };
 
+  const names = {
+    card1:'Keyi Zhan',
+    card2:'Ming Zhu',
+    card3:'Yihan Wu',
+    card4:'Shenglin chen',
+    card5:'Yuhao lin',
+    card6:'Xiaolong He',
+    card7:'Jingxuan Duanyi',
+    card8:'Luming Huang',
+    card9:'Wan Li',
+    card10:'Wenrong Wen',
+    card11:'Ziyuan Liu',
+    card12:'Pan Zhao',
+    card13:'Wenyi Guan',
+    card14:'Jianhua Zhang',
+    card15:'Runze Wen',
+    card16:'Hua Zhang',
+    card17:'Guozhuo Cai',
+    card18:'Yingying Yang',
+    card19:'Weihuan Li',
+    card20:'Yifeng Wang',
+    card21:'Feier Tian',
+    card22:'Zhixin Fang',
+    card23:'Kun Liu',
+    card24:'Lin Li',
+    card25:'Jiajin Li',
+    card26:'Kang Wang',
+    card27:'Meitong Han',
+    card28:'Yanqiu Cai',
+    card29:'Junhao Li',
+    card30:'Ke Liu',
+    card31:'Yingying Chen',
+    card32:'Xingan Zhao',
+    card33:'Zhilin Wu',
+    card34:'Jian Sun',
+    card35:'',
+  }
+
   // 下方定义重要！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
   const handleCardHover = (id: string, isHovered: boolean) => {
     if (isHovered) {
@@ -167,7 +205,11 @@ export function Team() {
         {/* 左侧sticky容器 */}
         <div className="col-3">
           {/* 下方设置默认显示图像 */}
-          <StickyImageContainer image={hoveredCardId ? images[hoveredCardId] : 'https://placehold.co/600x800'} words={hoveredCardId ? words[hoveredCardId] : "Good to see you here!!"} />
+          <StickyImageContainer 
+          image={hoveredCardId ? images[hoveredCardId] : 'https://placehold.co/600x800'} 
+          words={hoveredCardId ? words[hoveredCardId] : "Glad to introduce our team to you!"} 
+          names={hoveredCardId ? names[hoveredCardId] : "Our crew"}
+          />
         </div>
 
         {/* 卡片区域 */}
