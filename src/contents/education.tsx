@@ -94,12 +94,12 @@ export function Education() { // sidenavbar begin
                 src="https://static.igem.wiki/teams/5378/pdf/brochures1.webp"
                 alt="example"
                 className="responsive-img"
-              />
+                />
                 <img 
                 src="https://static.igem.wiki/teams/5378/pdf/brochures2.webp"
                 alt="example"
                 className="responsive-img"
-              />
+                />
               </Element>
           
 
@@ -233,15 +233,7 @@ export function Education() { // sidenavbar begin
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               </div>
-              <img 
-                  src="https://static.igem.wiki/teams/5378/social-work-station.webp"
-                  alt="example"
-                  className="responsive-img"
-                />  
-              </Element>
-
-
-                  
+              </Element>         
           
 
         </div>
