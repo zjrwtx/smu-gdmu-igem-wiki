@@ -125,11 +125,7 @@ export function Education() { // sidenavbar begin
                   className="responsive-img"
                 />  
                 <p>After the lecture, a questionnaire was distributed to the students to assess whether they had increased their understanding of the field and their interest in synthetic biology through the lecture. The questionnaire was designed to include questions of multiple dimensions, such as the understanding of the basic concepts of synthetic biology, the level of interest in the content of the lecture, and the willingness to participate in related activities in the future.</p>
-                <img 
-                  src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                  alt="example"
-                  className="responsive-img"
-                />     
+   
                 <p>By collecting and analysing students' feedback, we can more accurately grasp the current situation of young people's knowledge of synthetic biology, and then adjust and improve the content of our lectures to ensure the effectiveness and attractiveness of our educational activities.</p>
                 <p>This process is not only a one-way information transfer, but also a two-way communication and feedback mechanism. Based on the valuable feedback provided by students, we have optimised and adjusted some of the lectures, such as adding more illustrative examples and interactive sessions to enhance students' participation and depth of understanding.</p>
 
