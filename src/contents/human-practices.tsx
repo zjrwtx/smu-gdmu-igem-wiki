@@ -139,7 +139,7 @@ Our iGEM project, focusing on innovative treatment for hepatic encephalopathy (<
       </div>
       </Element>
 
-      Element name="section5_2" className="element rounded-border" id='section5_2'>
+      <Element name="section5_2" className="element rounded-border" id='section5_2'>
   <div className="rounded-border">
     <h3>5.2. Stakeholder Engagement</h3>
     <p className='indent'>
