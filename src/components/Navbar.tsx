@@ -1,10 +1,10 @@
-
 import Nav from "react-bootstrap/Nav";
 import BootstrapNavbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { Link } from "react-router-dom";
 import Pages from "../pages.ts";
 import { Container } from "react-bootstrap";
+import { FaHome, FaFolder, FaFileAlt } from "react-icons/fa"; // 引入图标
 import "./Navbar.css"; // 添加这行来引入自定义 CSS 文件的1
 
 export function Navbar() {
@@ -19,7 +19,7 @@ export function Navbar() {
               to={subpage.path}
               className="custom-dropdown-menu"
             >
-              {subpage.name}
+              <FaFileAlt className="nav-icon" /> {subpage.name} {/* 添加图标 */}
             </NavDropdown.Item>
           );
         }
@@ -27,7 +27,7 @@ export function Navbar() {
       return (
         <NavDropdown
           key={`page-${pageIndex}`}
-          title={item.name}
+          title={<><FaFolder className="nav-icon" /> {item.name}</>} // 添加图标
           id="basic-nav-dropdown"
           className="custom-dropdown-menu"
         >
@@ -40,7 +40,7 @@ export function Navbar() {
         key={`page-${pageIndex}`} as={Link} to={item.path}
         className="custom-dropdown-menu"
         >
-          {item.name}
+          <FaHome className="nav-icon" /> {item.name} {/* 添加图标 */}
         </Nav.Link>
       );
     }
@@ -49,9 +49,9 @@ export function Navbar() {
   return (
     <BootstrapNavbar expand="lg" className="apple-navbar" fixed="top">
       <Container fluid>
-        <BootstrapNavbar.Brand as={Link} to="/" className="apple-brand">
+        <Link to="/" className="apple-brand">
           <img src="https://static.igem.wiki/teams/5378/lesser-panda/logo.webp" className="apple-logo" alt="Logo" />
-        </BootstrapNavbar.Brand>
+        </Link>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" className="apple-toggler" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto apple-nav">{pages}</Nav>
