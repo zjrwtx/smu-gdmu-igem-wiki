@@ -19,7 +19,7 @@ export function Navbar() {
               to={subpage.path}
               className="custom-dropdown-menu"
             >
-              <SubpageIcon className="nav-icon" /> {subpage.name} {/* 添加图标 */}
+              {SubpageIcon && <SubpageIcon />} {subpage.name} {/* 添加图标 */}
             </NavDropdown.Item>
           );
         }
@@ -28,7 +28,7 @@ export function Navbar() {
       return (
         <NavDropdown
           key={`page-${pageIndex}`}
-          title={<><ItemIcon className="nav-icon" /> {item.name}</>} // 添加图标
+          title={<>{ItemIcon && <ItemIcon  />} {item.name}</>} // 添加图标
           id="basic-nav-dropdown"
           className="custom-dropdown-menu"
         >
@@ -42,7 +42,7 @@ export function Navbar() {
         key={`page-${pageIndex}`} as={Link} to={item.path}
         className="custom-dropdown-menu"
         >
-          <ItemIcon className="nav-icon" /> {item.name} {/* 添加图标 */}
+          {ItemIcon && <ItemIcon />} {item.name} {/* 添加图标 */}
         </Nav.Link>
       );
     }
