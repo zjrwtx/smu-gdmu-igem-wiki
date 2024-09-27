@@ -146,6 +146,7 @@ export function Description() {
                 alt="design"
                 className="responsive-img"
               />
+              <figcaption className='caption'>Our experimental design ideas</figcaption>
                </Element>
           
 
