@@ -37,6 +37,32 @@ body [onclick] {
   cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+
+
 .pangolin {
   font-family: 'pangolin', cursive !important;
   text-rendering: optimizeLegibility; 
@@ -288,7 +314,24 @@ footer a:hover {
   background-repeat: no-repeat;  /* 防止背景图片重复 */
   background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
 }
-
+.custom-header-collaboration {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+}
+.custom-header-parts {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-size: cover;        /* 使背景图片覆盖整个容器 */
+  background-position: center;   /* 居中对齐背景图片 */
+  background-repeat: no-repeat;  /* 防止背景图片重复 */
+  background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
+}
 
 
 .header-bar {
@@ -311,7 +354,7 @@ footer a:hover {
   height: auto; /* 保持图片纵横比 */
   display: block; /* 去掉图片下方的空隙 */
   margin: 2px;
-  max-height: 100%;
+  max-height: 100vh;
 }
 
 .full-height-element {

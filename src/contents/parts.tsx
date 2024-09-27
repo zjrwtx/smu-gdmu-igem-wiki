@@ -29,7 +29,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
 };
 // sidenavbar end 
 
-export function collaboration() {
+export function parts() {
     // sidenavbar begin
     const [activeLink, setActiveLink] = useState<string>('');
       useEffect(() => {
@@ -53,8 +53,7 @@ export function collaboration() {
     return (
       <>
 
-        <div className="custom-header-collaboration">
-            {/* <h1 className="centered-title">COLLABORATION</h1> */}
+        <div className="custom-header-parts">
             
             <img 
                 src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
@@ -69,9 +68,6 @@ export function collaboration() {
           
           <div className="col-8">
             
-          <div className="vh20">
-                <a href="https://2024.igem.wiki/cjuh-jlu-china/collaboration" >CJUH-JLU-china</a>
-            </div>
                 <Element name="section1" className="element rounded-border" id='section1'>
                    <h2>Section 1</h2>
                    <p>Content for section 1.</p>

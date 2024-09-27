@@ -15,6 +15,7 @@ import {
   Inclusivity,
   Model,
   collaboration,
+  parts,
 } from "./contents";
 import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward, FaBook, FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake } from "react-icons/fa"; // 引入图标
 
@@ -117,6 +118,14 @@ const Pages: (Page | Folder)[] = [
         title: "Results",
         path: "/results",
         component: Results,
+        lead: "You can describe the results of your project and your future plans here.",
+        icon: FaFlask,
+      },
+      {
+        name: "Parts",
+        title: "Parts",
+        path: "/parts",
+        component: parts,
         lead: "You can describe the results of your project and your future plans here.",
         icon: FaFlask,
       },
