@@ -326,7 +326,7 @@ footer a:hover {
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
   background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
-
+  position: relative;
 }
 .custom-header-software {
   width: 100vw;
@@ -347,6 +347,13 @@ footer a:hover {
   background-repeat: no-repeat;  /* 防止背景图片重复 */
   background-attachment: fixed;  /* 固定背景图片，使其在滚动时不移动 */
 
+}
+
+.header-bar {
+  position:absolute;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 0px;
 }
 
 .promotion-video {

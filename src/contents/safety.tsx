@@ -46,13 +46,22 @@ export function Safety() {
   return (
     <>
     <div className="custom-header-safety">
-<h1 className="centered-title">
+
               <img 
-                src="https://static.igem.wiki/teams/5378/header/safety.png"
+                src="https://static.igem.wiki/teams/5378/header/header.png"
                 alt="safety header"
-                className="header-img"
+                className="header-bar"
               />
+
+<h1 className="centered-title">
+  
+  <img 
+    src="https://static.igem.wiki/teams/5378/header/safety.png"
+    alt="safety header"
+    className="header-img"
+  />
 </h1>
+
 </div>
       <div className="row  bg-rice_yellow">
         <div className="col-3">
