@@ -55,6 +55,11 @@ export function Model() {
                 alt="safety header"
                 className="header-img"
               />
+                            <img 
+                src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
+                alt="safety header"
+                className="header-bar"
+              />
 </h1>
 </div>
 

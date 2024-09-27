@@ -48,7 +48,7 @@ export function Safety() {
     <div className="custom-header-safety">
 
               <img 
-                src="https://static.igem.wiki/teams/5378/header/header.png"
+                src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
                 alt="safety header"
                 className="header-bar"
               />
