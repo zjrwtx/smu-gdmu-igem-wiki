@@ -29,17 +29,16 @@ const Card: React.FC<CardProps> = ({ image1, image2, title1,  description1,  id,
           alt={title1}
           className="card-img-top"
         />
-        {isHovered ? (  // 根据 isHovered 状态控制内容渲染
-          <div className="card-body">
+      </div>
+      {isHovered ? (  // 根据 isHovered 状态控制内容渲染
+          <div className="card-body mt-5">
             <h5 className="card-title">{description1}</h5>
           </div>
         ) : (
-          <div className="card-body">
+          <div className="card-body mt-5">
             <h5 className="card-title">{title1}</h5>
           </div>
         )}
-        
-      </div>
     </div>
   );
 };
@@ -198,6 +197,11 @@ export function Team() {
             alt="team header"
             className="header-img"
           />
+          <img 
+                src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
+                alt="safety header"
+                className="header-bar"
+              />
         </h1>
       </div>
 

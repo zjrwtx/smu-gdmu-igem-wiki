@@ -329,8 +329,8 @@ footer a:hover {
 .card {
   transition: transform 0.2s;
   width: 100%;
-  border: 5px solid rgba(114, 47, 55, 1) !important;
-  background-color: #f77001a6 !important;
+  border: 15px solid rgba(114, 47, 55, 1) !important;
+  background-color: rgba(114, 47, 55, 1) !important;
   border-radius: 10px !important;
   /* height: 400px; */
 }
