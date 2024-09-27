@@ -137,18 +137,38 @@ Our iGEM project, focusing on innovative treatment for hepatic encephalopathy (<
       </ul>
       </p>
       </div>
-      <div className="rounded-border">
-              <h3 >5.1. Stakeholder Identification</h3>
-              <p className='indent'>
-Our iGEM project, focusing on innovative treatment for hepatic encephalopathy (<span className='bold-font'>HE</span>), has identified key stakeholders critical to the success and real-world application of our research. These stakeholders include HE patients, medical professionals (doctors), pharmaceutical company representatives, research experts involved in HE-related studies, and the general public. 
-      <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
-        <li><span className='bold-font'>Patients</span>: Suffering from HE represent a primary stakeholder, as their quality of life directly depends on effective treatment options. </li>
-        <li><span className='bold-font'>Doctors</span>: Especially hepatologists and neurologists, are integral in diagnosing and treating HE, providing us with valuable insights into clinical needs. Pharmaceutical company representatives: They are vital for translating research into market-ready therapies, ensuring accessibility and scalability of our solutions.</li>
-        <li><span className='bold-font'>Researchers</span>: Including academics and specialists in liver disease, are critical for guiding the scientific direction of the project. </li>
-        <li><span className='bold-font'>General public</span>: As raising awareness and educating people about HE can significantly contribute to early diagnosis and treatment, ultimately benefiting the healthcare ecosystem as a whole.</li>
-      </ul>
-      </p>
-      </div>
+      </Element>
+      <Element name="section5_2" className="element rounded-border" id='section5_2'>
+  <div className="rounded-border">
+    <h3>5.2. Stakeholder Engagement</h3>
+    <p className='indent'>
+      We reached out to the stakeholders for expert insights through structured interviews, following a comprehensive engagement process: Preparation, Contact, Content Development, Execution, Summary, Reflection, and Updates. This approach allowed us to better understand the specific needs and challenges faced by each stakeholder group. Their feedback provided critical insights that guided improvements to our project design, ensuring it addresses real-world issues effectively.
+    </p>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+      <li><span className='bold-font'>Prepare:</span> We researched stakeholder backgrounds to understand their relevance to our project.</li>
+      <li><span className='bold-font'>Contact:</span> Initial outreach was made via email and phone calls.</li>
+      <li><span className='bold-font'>Interview Content Construction:</span> We developed targeted questions focusing on hepatic encephalopathy.</li>
+      <li><span className='bold-font'>Conduct Interview:</span> Interviews were held online or in person.</li>
+      <li><span className='bold-font'>Summarization:</span> Key insights were documented.</li>
+      <li><span className='bold-font'>Reflection:</span> We analyzed the feedback to refine our approach.</li>
+      <li><span className='bold-font'>Update:</span> Stakeholder feedback was integrated into project updates.</li>
+    </ul>
+  </div>
+</Element>
+
+<Element name="section5_3" className="element rounded-border" id='section5_3'>
+  <div className="rounded-border">
+    <h3>5.3. Feedback and Continuous Improvement</h3>
+    <p className='indent'>
+      Throughout our stakeholder engagement, we have received valuable feedback from stakeholders which has significantly informed our project’s development.
+    </p>
+    <p className='indent'>
+      One significant insight came from patients who highlighted a critical gap in public understanding of hepatic encephalopathy, particularly regarding dietary management. Patients shared that while doctors recommend a low-salt diet, this is meant to be balanced with daily nutritional needs. However, due to family members' limited understanding of the disease, many believe salt intake should be nearly zero, resulting in insufficient daily salt consumption for patients.
+    </p>
+  </div>
+</Element>
+
+      
               </Element>
 
               <Element name="section6" className="element rounded-border" id='section6'>
