@@ -154,30 +154,44 @@ export function Education() { // sidenavbar begin
                   src="https://static.igem.wiki/teams/5378/lingzhu2.webp"
                   alt="example"
                   className="responsive-img"
-                />  
+                />                
+              </Element>
 
-                <img 
-                  src="https://static.igem.wiki/teams/5378/society.webp"
-                  alt="example"
-                  className="responsive-img"
-                />
-                <p>During this year's Mid-Autumn Festival, we followed the community volunteers and went to the front of the local mall, which has a high traffic flow, to follow them in the Mid-Autumn Cultural and Creative Sale. We combined the concept of synthetic biology in the artifacts we sold, and actively promoted synthetic biology and hepatic encephalopathy to the public in the process.</p>
+
+              <Element name="Regional level - Coverage Project" className="element rounded-border" id='Regional level - Coverage Project'>
+                <h1>Regional level - Coverage Project</h1>
+                <p className="bold-font">(1) Mid-Autumn Festival Community Bazaar Promotion</p>
+                <p className="indent">During this year's Mid-Autumn Festival, we followed the community volunteers to participate in the Mid-Autumn Cultural and Creative Sale in front of the local mall with heavy traffic. We cleverly incorporated the concept of synthetic biology into the cultural and creative products we sold, which not only attracted the attention of many citizens, but also actively promoted the knowledge of synthetic biology and popularised the content of hepatic encephalopathy to the public during the publicity process. Through this form of education and fun, we successfully raised public awareness of synthetic biology and hepatic encephalopathy.</p>
                 <img 
                   src="https://static.igem.wiki/teams/5378/sun1.webp"
                   alt="example"
                   className="responsive-img"
-                />
+                  />
                 <img 
                   src="https://static.igem.wiki/teams/5378/sun2.webp"
                   alt="example"
                   className="responsive-img"
-                />
-              </Element>
+                  />
+                <p>  </p>
 
-              <Element name="5.High School Education" className="element rounded-border" id='5.High School Education'>
-              <h2>5.High School Education</h2>
-              <p className="indent">In order to further promote the knowledge of synthetic biology and hepatic encephalopathy prevention and treatment, we travelled to No.1 High School in Huizhou, Guangdong Province and conducted an educational activity. The activity included showing the project promotional video, introducing the basic knowledge of synthetic biology and hepatic encephalopathy, and interactive question and answer sessions. The application of synthetic biology in the diagnosis and treatment of hepatic encephalopathy was demonstrated through specific cases.</p>
-              <p className="indent">After the activity, we conducted a questionnaire survey, and the results showed that the students' understanding of the relevant knowledge was significantly improved. Many students expressed a strong interest in synthetic biology, and some even expressed a desire to engage in related research in the future. Students also gained new knowledge about the prevention and treatment of hepatic encephalopathy, and some of them said they would share this knowledge with their family and friends. In addition, the students gave us valuable suggestions for more practical activities and in-depth lectures in the future to expand the scope of knowledge dissemination. Overall, through this educational activity in Huizhou No. 1 Middle School, we not only successfully popularised the knowledge of synthetic biology and hepatic encephalopathy among the students, but also stimulated their enthusiasm for scientific exploration, laying a foundation for training future scientists and technical talents.</p>
+                <p className="bold-font">(2) Community science outreach activities</p>
+                <p className="indent">We also contacted a social work service station, and with their support, we went into the surrounding community together to promote science. By distributing pamphlets and giving on-site lectures, we popularised the knowledge of synthetic biology and introduced the topic of hepatic encephalopathy in detail to the community residents. This activity was widely recognised and supported by the community residents.</p>
+                <img 
+                  src="https://static.igem.wiki/teams/5378/social-work-station.webp"
+                  alt="example"
+                  className="responsive-img"
+                  />
+                <p>  </p>
+
+                <p className="bold-font">(3) Popular science lectures for the elderly</p>
+                <p className="indent">During the popularisation of the science, we found that adults are more concerned about their health compared to university students, especially the elderly who, as a vulnerable group to hepatic encephalopathy, show a keen interest in this disease.</p>
+                <p className="indent">Therefore, we have specially arranged popularisation lectures on hepatic encephalopathy for the local elderly university. Through these lectures, we not only helped the elderly to better understand the causes, symptoms and prevention methods of hepatic encephalopathy, but also enhanced their understanding of the application of synthetic biology in the medical field.</p>
+                <img 
+                  src="https://static.igem.wiki/teams/5378/society.webp"
+                  alt="example"
+                  className="responsive-img"
+                  />
+                <p className="indent">Based on the previous popularisation campaigns in schools and the advice received, we have adjusted the narrative. These activities not only raised public health awareness, but also accumulated valuable experience for our popularisation work.  </p>
               </Element>
 
               <Element name="6. Mountain Mission" className="element rounded-border" id='6. Mountain Mission'>
