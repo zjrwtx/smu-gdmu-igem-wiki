@@ -24,7 +24,7 @@ body {
   text-rendering: optimizeLegibility; 
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale; 
-  font-size: 30px !important;
+  font-size: 25px !important;
   /* cursor: help; */
 }
 
