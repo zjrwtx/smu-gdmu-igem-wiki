@@ -540,6 +540,8 @@ footer a:hover {
 .side-navbar .nav-link.active {
   background-color: rgb(172, 172, 108);
   cursor: url('https://static.igem.wiki/teams/5378/image/dg-pointer2.png') 32 32, pointer;
+  transform: scale(1.2);
+  border-radius: 30px;
 }
 
 .side-navbar .nav-link.notActive {
