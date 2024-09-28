@@ -19,7 +19,7 @@ body {
   padding-top: 56px;
   overflow-x: hidden;
   /* overflow-y: hidden; */
-  cursor: url("https://static.igem.wiki/teams/5378/image/dg-cursor.png") 2 2, auto;
+  cursor: url("https://static.igem.wiki/teams/5378/image/dg-cursor2.png") 2 2, auto;
   font-family: 'LexieReadable', cursive !important;
   text-rendering: optimizeLegibility; 
   -webkit-font-smoothing: antialiased; 
@@ -34,7 +34,7 @@ body input[type="button"],
 body input[type="submit"], 
 body [role="button"], 
 body [onclick] {
-  cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
+  cursor: url('https://static.igem.wiki/teams/5378/image/dg-pointer2.png') 32 32, pointer;
 }
 
 h1 {
@@ -158,7 +158,7 @@ footer a:hover {
   color: #030303;  /* 自定义文字颜色 */
   /* margin-left: 4vw;
   margin-right: 0vw; */
-  cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
+  cursor: url('https://static.igem.wiki/teams/5378/image/dg-pointer2.png') 32 32, pointer;
 }
 
 .custom-dropdown-menu.dropdown-item {
@@ -166,7 +166,7 @@ footer a:hover {
   /* background-color: #4d4949; */
   color: #000000;  /* 自定义每个菜单项的文字颜色 */
   border-radius: 50px;
-  cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
+  cursor: url('https://static.igem.wiki/teams/5378/image/dg-pointer2.png') 32 32, pointer;
 }
 
 .custom-dropdown-menu.dropdown-item:hover {
@@ -539,12 +539,12 @@ footer a:hover {
 
 .side-navbar .nav-link.active {
   background-color: rgb(172, 172, 108);
-  cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
+  cursor: url('https://static.igem.wiki/teams/5378/image/dg-pointer2.png') 32 32, pointer;
 }
 
 .side-navbar .nav-link.notActive {
   background-color: rgb(245, 245, 220);
-  cursor: url('https://static.igem.wiki/teams/5378/image/pointer.png') 32 32, pointer;
+  cursor: url('https://static.igem.wiki/teams/5378/image/dg-pointer2.png') 32 32, pointer;
 }
 
 .side-navbar .nav-link.notActive:hover {
