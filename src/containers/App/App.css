@@ -523,7 +523,7 @@ footer a:hover {
   height: auto;
   background-color: rgb(245, 245, 220);
   padding: 20px;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  /* box-shadow: 2px 0 5px rgba(0,0,0,0.1); */
   /* margin-top: 500px; */
   margin-left: 20px;
   padding: 20px;
