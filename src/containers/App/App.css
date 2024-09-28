@@ -467,7 +467,7 @@ footer a:hover {
   border-radius: 10px; /* 设置圆角半径 */
   margin-bottom: 100px;
   /* max-width: 0.9vw; */
-  background-color: #e4dfb4b0;
+  background-color: #e4dfb4;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
   transform: scale(1.01);
 
@@ -492,7 +492,7 @@ footer a:hover {
   border-radius: 10px; /* 设置圆角半径 */
   margin-bottom: 100px;
   /* max-width: 0.9vw; */
-  background-color: #e4dfb4b0;
+  background-color: #e4dfb4;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
   transform: scale(1.01);
 }
