@@ -42,10 +42,10 @@ export function Footer() {
         <div className="row bg-wine-red footer-container">
           <div>
             <p className="mb-0">
-              <small className="footer-container">
-                © 2024 - Content on this site is licensed under a{" "}
+              <small className="footer-container small-font">
+                © 2024 - Content on this site is licensed under a &nbsp; {" "} 
                 <a
-                  className="subfoot"
+                  className="subfoot small-font"
                   href="https://creativecommons.org/licenses/by/4.0/"
                   rel="license"
                 >
@@ -55,9 +55,9 @@ export function Footer() {
               </small>
             </p>
             <p>
-              <small className="footer-container">
-                The repository used to create this website is available at{" "}
-                <a href={`https://gitlab.igem.org/${teamYear}/${teamSlug}`}>
+              <small className="footer-container small-font">
+                The repository used to create this website is available at &nbsp;{" "}
+                <a href={`https://gitlab.igem.org/${teamYear}/${teamSlug}`} className="small-font">
                   gitlab.igem.org/{teamYear}/{teamSlug}
                 </a>
                 .

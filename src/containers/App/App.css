@@ -865,3 +865,7 @@ span.formula_line::-webkit-scrollbar-track {
   align-items: center;
   justify-content: center;
 }
+
+.small-font {
+  font-size: small;
+}
