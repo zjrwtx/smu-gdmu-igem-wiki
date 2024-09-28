@@ -476,23 +476,23 @@ footer a:hover {
 .rounded-border.rounded-border{
   margin: 50px;
   padding: 50px;
-  border: 2px solid #f7a901; 
+  border: 2px solid #e4dfb4b0; 
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
   margin-bottom: 100px;
   /* max-width: 0.9vw; */
-  background-color: #ffa600c0;
+  background-color: #e4dfb4b0;
 }
 
 .rounded-border.rounded-border:hover{
   margin: 50px;
   padding: 50px;
-  border: 2px solid #f7a901; 
+  border: 2px solid #e4dfb4b0; 
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
   margin-bottom: 100px;
   /* max-width: 0.9vw; */
-  background-color: #ffa600c0;
+  background-color: #e4dfb4b0;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
   transform: scale(1.01);
 }
