@@ -446,13 +446,13 @@ footer a:hover {
 .rounded-border {
   margin: 50px;
   padding: 50px;
-  border: 2px solid #f7a901; 
+  border: 2px solid #e4dfb4b0; 
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
   margin-bottom: 100px;
   margin-left: 20px;
   /* max-width: 0.9vw; */
-  background-color: #ffa6009f;
+  background-color: #e4dfb4b0;
   /* box-shadow: 15px 15px 5px rgba(0,0,0,0.1); */
   /* display: flex;
   flex-direction: column;  */
@@ -462,12 +462,12 @@ footer a:hover {
   margin: 50px;
   margin-left: 20px;
   padding: 50px;
-  border: 2px solid #f7a901; 
+  border: 2px solid #e4dfb4b0; 
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
   margin-bottom: 100px;
   /* max-width: 0.9vw; */
-  background-color: #ffa600c0;
+  background-color: #e4dfb4b0;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
   transform: scale(1.01);
 
