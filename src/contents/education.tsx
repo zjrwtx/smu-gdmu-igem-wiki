@@ -112,7 +112,7 @@ export function Education() { // sidenavbar begin
 
               <Element name="School level - Universalisation Project" className="element rounded-border" id='School level - Universalisation Project'>
                 <h1>School level - Universalisation Project</h1>
-                <p className="bold-font">Lectures for high school students - recipients of knowledge</p>
+                <p className="bold-font">(1) Lectures for high school students - recipients of knowledge</p>
                 <p>In order to promote the knowledge of synthetic biology and to enhance the interest of young people in this cutting-edge field of science and technology, we have successfully travelled to Xiangyin No. 1 High School in Hunan Province, China and Foshan High School in Guangdong Province to deliver in-school lectures. During this event, high school students showed great enthusiasm and curiosity as active absorbers of knowledge. The lectures focused on the basic concepts of synthetic biology and its applications, with a special introduction to our team's research project on tackling hepatic encephalopathy by means of synthetic biology.</p>
                 <img 
                   src="https://static.igem.wiki/teams/5378/high-school1.webp"
@@ -129,14 +129,18 @@ export function Education() { // sidenavbar begin
                 <p>By collecting and analysing students' feedback, we can more accurately grasp the current situation of young people's knowledge of synthetic biology, and then adjust and improve the content of our lectures to ensure the effectiveness and attractiveness of our educational activities.</p>
                 <p>This process is not only a one-way information transfer, but also a two-way communication and feedback mechanism. Based on the valuable feedback provided by students, we have optimised and adjusted some of the lectures, such as adding more illustrative examples and interactive sessions to enhance students' participation and depth of understanding.</p>
 
-                <p className="bold-font">University Lectures - Practitioners of Knowledge</p>
+                <p></p>
+                <p></p>
+                <p className="bold-font">(2) University Lectures - Practitioners of Knowledge</p>
                 <p>After the completion of science education at the high school level, we further set our sights on university campuses, aiming to train university students to become practitioners of knowledge. We first distributed pamphlets about hepatic encephalopathy on campus, and at the same time, we distributed questionnaires to survey college students about their interest in synthetic biology and their current level of knowledge.</p>
                 <p>The survey found that most university students have some basic knowledge about hepatic encephalopathy and synthetic biology, but it is not comprehensive and in-depth enough. Therefore, we have strengthened the popularisation of science in the publicity process to help people better understand these contents through in-depth explanations. This initiative was widely welcomed, with many students reporting a clearer understanding of these areas.</p>
                 <p>In view of the keen interest shown by the university students, we organised a science talk dedicated to hepatic encephalopathy and synthetic biology, covering the basics, the latest research results and development trends. The lecture was well received by the participants, many of whom expressed that they had benefited from it and developed a deeper interest in the related fields.</p>
                 <p>After the lecture, the participating members had an in-depth and friendly discussion and exchange with our team. Through this exchange, we clarified the interest points of university students and collected valuable suggestions and feedback. These feedbacks pointed out the direction for our subsequent educational work, and we will continue to optimise the content of science popularisation and enhance the interactivity, aiming to benefit more people.</p>
                 
 
-                <p className="bold-font">Guided Laboratory Tours - A Two-Way Touch of Knowledge</p>
+                <p></p>
+                <p></p>
+                <p className="bold-font">(3) Guided Laboratory Tours - A Two-Way Touch of Knowledge</p>
                 <p>We had the honour of inviting the iGEM team from Spirit Spider Labs to visit our Pathogenic Microbiology Laboratory and experience a number of fun lab activities first hand.</p>
                 <p>Under our guidance, they had an initial training on mosquito rearing techniques and operations, covering the basics of mosquito biology, environmental settings and rearing management. Through this training, they gained a preliminary understanding of the full cycle of rearing techniques from egg hatching to adult, and mastered how to adjust the laboratory environment to suit the needs of different mosquitoes. Particularly worth mentioning is that we briefly introduced the basic concepts and tools of synthetic biology, such as CRISPR-Cas9 gene editing technology, which helped them understand how to optimise the rearing conditions of mosquitoes and improve their resistance to diseases through gene editing.</p>
                 <img 
