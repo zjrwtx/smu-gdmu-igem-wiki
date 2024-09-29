@@ -24,7 +24,7 @@ body {
   text-rendering: optimizeLegibility; 
   -webkit-font-smoothing: antialiased; 
   -moz-osx-font-smoothing: grayscale; 
-  font-size: 25px !important;
+  font-size: 2.1vh !important;
   /* cursor: help; */
 }
 
@@ -403,7 +403,9 @@ footer a:hover {
 
 .sticky-container {
   position: sticky;
-  top: 120px; /* 设置元素在滚动时保持与页面顶部的距离 */
+  display: flex;
+  flex-direction: column;
+  top: 70px; /* 设置元素在滚动时保持与页面顶部的距离 */
   margin: 10px;
   margin-bottom: 150px;
   padding: 30px;
@@ -411,7 +413,10 @@ footer a:hover {
   border-radius: 10px; 
   background-color: #f77001a6;
   height: auto;
+  max-height: 100vh;
   padding-bottom: 0px;
+  align-items: center;
+  justify-content: center;
 }
 
 .sticky-words {
@@ -421,9 +426,8 @@ footer a:hover {
   justify-items: center; */
 }
 .sticky-img {
-  width: 100%; /* 图片宽度自适应容器 */
-  height: auto; /* 保持图片纵横比 */
-  /* display: block; 去掉图片下方的空隙 */
+  width: auto; 
+  height: 50vh; 
   margin: 2px;
   /* max-height: 60vh; */
 }
