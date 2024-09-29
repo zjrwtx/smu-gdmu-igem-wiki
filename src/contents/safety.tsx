@@ -113,7 +113,7 @@ The next page details the security measures and considerations our team has take
               <img 
                 src="https://static.igem.wiki/teams/5378/safety/03-1.webp"
                 alt="example"
-                className="responsive-img"
+                className="image-wide"
               />
               <div className='row'>
               <div className='col-6'>
@@ -139,18 +139,27 @@ The next page details the security measures and considerations our team has take
               
               <h4>Experimental equipment</h4>
               <p className="indent">The biosafety cabinet is the most important safety equipment and the main protective barrier. The laboratory should be equipped with a secondary biosafety cabinet as required. All related operations must be carried out inside the biosafety cabinet.Fill in the registration form consciously every time you use it.</p>
+              <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/safety/03-12.webp"
                 alt="example"
-                className="responsive-img"
+                className="image-wide"
               />
+              <figcaption className='caption'>Example</figcaption>
+              </div>
+              
               <p className="indent">The laboratory is equipped with a ventilation system with exhaust purification devices and other equipment that does not allow microorganisms to escape to ensure safety.</p>
               <p className="indent">The laboratory is equipped with high-pressure sterilization equipment.</p>
+              <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/safety/03-122.webp"
                 alt="example"
-                className="responsive-img"
+                className="image-height"
               />
+              <figcaption className='caption'>Example</figcaption>
+              </div>
+              
+
               <p className="indent">Various equipment in the laboratory will undergo regular maintenance and be promptly shut down after use.</p>
 <h3>3.2  safety principles</h3>
 <p className="indent">Throughout the experiment, our team members who conducted the experiment always followed the basic principles of laboratory bioprotection.</p>
