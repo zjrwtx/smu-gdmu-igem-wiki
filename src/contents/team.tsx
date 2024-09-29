@@ -145,7 +145,7 @@ export function Team() {
     card1:'Keyi Zhan',
     card2:'Ming Zhu',
     card3:'Yihan Wu',
-    card4:'Shenglin chen',
+    card4:'Shenglin Chen',
     card5:'Yuhao lin',
     card6:'Xiaolong He',
     card7:'Jingxuan Duanyi',
