@@ -11,7 +11,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
     <div className="side-navbar">
       <Nav className="flex-column">
         <Nav.Link as={Link} to="1.overview" smooth={true} duration={500} className={activeLink === '1.overview' ? 'active' : 'notActive'}>1.overview</Nav.Link>
-        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>2.Production of science brochures</Nav.Link>
+        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>section2</Nav.Link>
         <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>3.Initial outreach on university campuses</Nav.Link>
         <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>4.Community involvement</Nav.Link>
         <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>5.High School Education</Nav.Link>
@@ -86,7 +86,7 @@ export function Education() { // sidenavbar begin
               </div>
           
               
-              <Element name="Science Brochure - Foundation Project" className="element rounded-border" id='Science Brochure - Foundation Project'>
+              <Element name="section2" className="element rounded-border" id='section2'>
                 <h1>Science Brochure - Foundation Project</h1>
                 <p className="indent">In order to help you understand hepatic encephalopathy more easily and comprehensively, we have created the following science brochure. It begins with a brief introduction to the functions of the liver, followed by a brief disease overview of hepatic encephalopathy. After a brief understanding of hepatic encephalopathy, the causes, diagnosis and prevention of the disease are introduced to the public. For patients with hepatic encephalopathy, we also hope that by introducing the pathogenesis and staging of the disease, we can help them better understand their own situation and target their treatment and care, so as to mitigate the development of the disease and even achieve the effect of treatment and cure.</p>
                 <p className="indent">This pamphlet will support a series of activities that we will follow up. Not only does it provide the public with easy-to-understand medical knowledge, it will also serve as an educational tool to complement our talks in schools, community centres and other venues. Through these activities, we can further expand the reach of our science outreach, ensure that more people have access to the necessary health information, and raise the level of awareness of hepatic encephalopathy in the community as a whole. </p>
