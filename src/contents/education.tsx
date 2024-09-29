@@ -90,32 +90,42 @@ export function Education() { // sidenavbar begin
                 <h1>Science Brochure - Foundation Project</h1>
                 <p className="indent">In order to help you understand hepatic encephalopathy more easily and comprehensively, we have created the following science brochure. It begins with a brief introduction to the functions of the liver, followed by a brief disease overview of hepatic encephalopathy. After a brief understanding of hepatic encephalopathy, the causes, diagnosis and prevention of the disease are introduced to the public. For patients with hepatic encephalopathy, we also hope that by introducing the pathogenesis and staging of the disease, we can help them better understand their own situation and target their treatment and care, so as to mitigate the development of the disease and even achieve the effect of treatment and cure.</p>
                 <p className="indent">This pamphlet will support a series of activities that we will follow up. Not only does it provide the public with easy-to-understand medical knowledge, it will also serve as an educational tool to complement our talks in schools, community centres and other venues. Through these activities, we can further expand the reach of our science outreach, ensure that more people have access to the necessary health information, and raise the level of awareness of hepatic encephalopathy in the community as a whole. </p>
+                <div className='image-container'>
                 <img 
                 src="https://static.igem.wiki/teams/5378/pdf/brochures1.webp"
                 alt="example"
-                className="responsive-img"
+                className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
                 <img 
                 src="https://static.igem.wiki/teams/5378/pdf/brochures2.webp"
                 alt="example"
-                className="responsive-img"
+                className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
+                </div>
               </Element>
           
 
               <Element name="section3" className="element rounded-border" id='section3'>
                 <h1>Patient level - Care Project</h1>
                 <p className="indent">In order to gain a deeper understanding of the actual needs of our patients, we plan to conduct an exhaustive interview with them. Our interview will cover a wide range of aspects such as disease experience, medical history, abdominal infections and personal feelings, aiming to gain a comprehensive understanding of the patient's life situation and treatment experience. Through this interview, we hope to not only educate patients on disease management and self-care, but also pay special attention to collecting feedback from patients on our existing services and to understand where they would like us to improve or provide additional support. </p>
+                <div className='image-container'>
                 <img 
                 src="https://static.igem.wiki/teams/5378/patients1.webp"
                 alt="example"
-                className="responsive-img"
+                className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
                 <img 
                 src="https://static.igem.wiki/teams/5378/patients2.webp"
                 alt="example"
-                className="responsive-img"
+                className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
+
+                </div>
+                
                 <p className="indent">In particular, we will introduce a new treatment option - the oral administration of yoghurt containing specific probiotics to help alleviate the condition and reduce inflammation - and ask patients about their expectations and suggestions for such new treatments. We expect that through this feedback, we will be able to more accurately meet the needs of our patients, improve our programme design, and enhance patient outcomes and quality of life.</p>
               </Element>
 
@@ -124,16 +134,20 @@ export function Education() { // sidenavbar begin
                 <h1>School level - Universalisation Project</h1>
                 <p className="bold-font">(1) Lectures for high school students - recipients of knowledge</p>
                 <p className="indent">In order to promote the knowledge of synthetic biology and to enhance the interest of young people in this cutting-edge field of science and technology, we have successfully travelled to Xiangyin No. 1 High School in Hunan Province, China and Foshan High School in Guangdong Province to deliver in-school lectures. During this event, high school students showed great enthusiasm and curiosity as active absorbers of knowledge. The lectures focused on the basic concepts of synthetic biology and its applications, with a special introduction to our team's research project on tackling hepatic encephalopathy by means of synthetic biology.</p>
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/high-school1.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                 />
+                <figcaption className='caption'>1234567687</figcaption>
                 <img 
                   src="https://static.igem.wiki/teams/5378/high-school2.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                 />  
+                </div>
+                <figcaption className='caption'>1234567687</figcaption>
                 <p className="indent">After the lecture, a questionnaire was distributed to the students to assess whether they had increased their understanding of the field and their interest in synthetic biology through the lecture. The questionnaire was designed to include questions of multiple dimensions, such as the understanding of the basic concepts of synthetic biology, the level of interest in the content of the lecture, and the willingness to participate in related activities in the future.</p>
    
                 <p className="indent">By collecting and analysing students' feedback, we can more accurately grasp the current situation of young people's knowledge of synthetic biology, and then adjust and improve the content of our lectures to ensure the effectiveness and attractiveness of our educational activities.</p>
@@ -153,18 +167,30 @@ export function Education() { // sidenavbar begin
                 <p className="bold-font">(3) Guided Laboratory Tours - A Two-Way Touch of Knowledge</p>
                 <p className="indent">We had the honour of inviting the iGEM team from Spirit Spider Labs to visit our Pathogenic Microbiology Laboratory and experience a number of fun lab activities first hand.</p>
                 <p className="indent">Under our guidance, they had an initial training on mosquito rearing techniques and operations, covering the basics of mosquito biology, environmental settings and rearing management. Through this training, they gained a preliminary understanding of the full cycle of rearing techniques from egg hatching to adult, and mastered how to adjust the laboratory environment to suit the needs of different mosquitoes. Particularly worth mentioning is that we briefly introduced the basic concepts and tools of synthetic biology, such as CRISPR-Cas9 gene editing technology, which helped them understand how to optimise the rearing conditions of mosquitoes and improve their resistance to diseases through gene editing.</p>
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/lingzhu1.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                 />  
+                <figcaption className='caption'>1234567687</figcaption>
+
+                </div>
+                
+
+
                 <p className="indent">Meanwhile, the iGEM team from Spirit Spider Lab also brought their latest research results and innovative ideas in the field of synthetic biology. They shared their experience in gene circuit design and biosensor development, which provided us with valuable reference and inspiration. This two-way communication not only enriches our research vision, but also promotes the deep integration of technology, methodology and concepts between both sides.</p>
                 <p className="indent">Through this activity, we not only improved the professional and technical level of our team members, but also strengthened the two-way educational outreach between us and the iGEM team of Spirit Spider Labs. We believe that this two-way communication and educational outreach will make a greater contribution to promoting the development of synthetic biology and the level of iGEM competition.</p>
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/lingzhu2.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                 />                
+                <figcaption className='caption'>1234567687</figcaption>
+                </div>
+                
+
               </Element>
 
 
@@ -172,35 +198,50 @@ export function Education() { // sidenavbar begin
                 <h1>Regional level - Coverage Project</h1>
                 <p className="bold-font">(1) Mid-Autumn Festival Community Bazaar Promotion</p>
                 <p className="indent">During this year's Mid-Autumn Festival, we followed the community volunteers to participate in the Mid-Autumn Cultural and Creative Sale in front of the local mall with heavy traffic. We cleverly incorporated the concept of synthetic biology into the cultural and creative products we sold, which not only attracted the attention of many citizens, but also actively promoted the knowledge of synthetic biology and popularised the content of hepatic encephalopathy to the public during the publicity process. Through this form of education and fun, we successfully raised public awareness of synthetic biology and hepatic encephalopathy.</p>
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/sun1.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-height"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
+
                 <img 
                   src="https://static.igem.wiki/teams/5378/sun2.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
+                </div>
+                
                 <p>  </p>
 
                 <p className="bold-font">(2) Community science outreach activities</p>
                 <p className="indent">We also contacted a social work service station, and with their support, we went into the surrounding community together to promote science. By distributing pamphlets and giving on-site lectures, we popularised the knowledge of synthetic biology and introduced the topic of hepatic encephalopathy in detail to the community residents. This activity was widely recognised and supported by the community residents.</p>
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/social-work-station.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
+                </div>
+                
                 <p>  </p>
 
                 <p className="bold-font">(3) Popular science lectures for the elderly</p>
                 <p className="indent">During the popularisation of the science, we found that adults are more concerned about their health compared to university students, especially the elderly who, as a vulnerable group to hepatic encephalopathy, show a keen interest in this disease.</p>
                 <p className="indent">Therefore, we have specially arranged popularisation lectures on hepatic encephalopathy for the local elderly university. Through these lectures, we not only helped the elderly to better understand the causes, symptoms and prevention methods of hepatic encephalopathy, but also enhanced their understanding of the application of synthetic biology in the medical field.</p>
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/society.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
+                </div>
+                
+
                 <p className="indent">Based on the previous popularisation campaigns in schools and the advice received, we have adjusted the narrative. These activities not only raised public health awareness, but also accumulated valuable experience for our popularisation work.  </p>
               </Element>
 
@@ -209,11 +250,16 @@ export function Education() { // sidenavbar begin
                 <p className="bold-font">(1) Social media outreach</p>
                 <p className="indent">After a series of missions, we thought we had better results, but realised the limitations of the platform.In order to further expand our influence, we published our results and iGEM news on social media platforms such as WeChat, Video and Xiaohongshu. As a newly established team, with strong support from the university and through the joint efforts of our instructors and students, we attracted a large audience on social media channels.</p>
                 <p className="indent">As part of our initiative to make science more accessible, we run an account on Little Red Book that focuses on the field of hepatic encephalopathy. We publish fortnightly posts, which are written, edited and illustrated by our team themselves, and are designed to help the public better understand scientific issues.Through these posts, we hope to stimulate the curiosity of users on social media platforms about current scientific issues and attract the attention of professionals and students. We believe that it is important to keep abreast of current events and think critically about scientific issues in today's world. Therefore, we provide interesting reads that are relevant to life, combine social facts with scientific issues, and introduce scientific research in an easy-to-understand way.</p>
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/red-book.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-height"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
+                </div>
+                
+
                 <p className="indent">Through these efforts, we have not only raised public awareness of synthetic biology and hepatic encephalopathy, but also established a platform for interaction with our audience and collected valuable feedback, which provides a basis for further optimisation of our science popularisation content. We believe that through continuous efforts, our popularisation of science will be able to better serve the community and enhance the public's scientific literacy and health awareness. </p>
 
                 <p className="bold-font">(2) Remote Mountain Missions</p>
@@ -223,23 +269,33 @@ export function Education() { // sidenavbar begin
               
                 <p className="bold-font">(3) "Science+" Synthetic Biology Competition for Young Talents in Bright Science City</p>
                 <p className="indent">Our team also participated in the 3rd Synthetic Biology Innovation Competition (SynBio Challenges) organised by the Synthetic Biology Branch of the Chinese Society of Bioengineering. Our project focuses on the use of synthetic biology technology to treat hepatic encephalopathy, which is a very challenging medical problem. At the conference, we detailed how to alleviate the symptoms of hepatic encephalopathy by means of gene editing and metabolic engineering.</p>
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/science-1.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
+                </div>
+                
+
                 <p className="indent">The conference attracted 147 teams from more than 60 universities around the world, with more than 450 students interacting on site. Our presentations attracted a lot of attention, with over 100 audience members listening attentively to our presentations and engaging in lively discussions with us after the conference.</p>
                 <p className="indent">This educational outreach not only demonstrated the great potential of synthetic biology in solving practical medical problems, but also stimulated the strong interest and enthusiasm of other young students in this field. We believe that through this two-way educational exchange, we can not only promote the development of synthetic biology, but also inject new vitality into the iGEM competition and research in related fields.</p>
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/science-2.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
                 <img 
                   src="https://static.igem.wiki/teams/5378/science-3.webp"
                   alt="example"
-                  className="responsive-img"
+                  className="image-wide"
                   />
+                  <figcaption className='caption'>1234567687</figcaption>
+                </div>
+                
                 <p className="indent"></p>
 
 
