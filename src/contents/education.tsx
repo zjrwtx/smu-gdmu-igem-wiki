@@ -10,7 +10,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
   return (
     <div className="side-navbar">
       <Nav className="flex-column">
-        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>1.overview</Nav.Link>
+        <Nav.Link as={Link} to="1.overview" smooth={true} duration={500} className={activeLink === '1.overview' ? 'active' : 'notActive'}>1.overview</Nav.Link>
         <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>2.Production of science brochures</Nav.Link>
         <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>3.Initial outreach on university campuses</Nav.Link>
         <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>4.Community involvement</Nav.Link>
