@@ -52,7 +52,7 @@ export function Navbar() {
     <BootstrapNavbar expand="lg" className="apple-navbar" fixed="top">
       <Container fluid>
         <Link to="/" className="apple-brand">
-          <img src="https://static.igem.wiki/teams/5378/lesser-panda/logo.webp" className="apple-logo" alt="Logo" />
+          <img src="https://static.igem.wiki/teams/5378/school-badge/liverbrainguardian.webp" className="apple-logo" alt="Logo" />
         </Link>
         <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" className="apple-toggler" />
         <BootstrapNavbar.Collapse id="basic-navbar-nav">
