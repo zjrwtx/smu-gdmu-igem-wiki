@@ -347,7 +347,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2901-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2902-1.webp"
                 title1="Junhao Li"
-                description1="example"
+                description1="Background Research, Public Engagement, Visualization"
                 onHover={handleCardHover}
               />
             </div>
@@ -358,7 +358,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0101-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0102-1.webp"
                 title1="Keyi Zhan"
-                description1="example"
+                description1="Public Engagement"
                 onHover={handleCardHover}
               />
             </div>
@@ -368,7 +368,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0701-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0702-1.webp"
                 title1="Yijingxuan Duan"
-                description1="example"
+                description1="Public Engagement"
                 onHover={handleCardHover}
               />
             </div>
@@ -390,7 +390,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1301-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1302-1.webp"
                 title1="Wenyi Guan"
-                description1="example"
+                description1="Project description"
                 onHover={handleCardHover}
               />
             </div>
@@ -410,7 +410,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1501-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1502-1.webp"
                 title1="Runze Wen"
-                description1="example"
+                description1="Visualization"
                 onHover={handleCardHover}
               />
             </div>
@@ -434,7 +434,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1701-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1702-1.webp"
                 title1="Guozhuo Cai"
-                description1="example"
+                description1="Analysis"
                 onHover={handleCardHover}
               />
             </div>
@@ -444,7 +444,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1801-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1802-1.webp"
                 title1="Yingying Yang"
-                description1="example"
+                description1="Public Engagement"
                 onHover={handleCardHover}
               />
             </div>
@@ -464,7 +464,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2001-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2002-1.webp"
                 title1="Yifeng Wang"
-                description1="example"
+                description1="Visualization"
                 onHover={handleCardHover}
               />
             </div>
@@ -486,7 +486,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0901-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0902-1.webp"
                 title1="Wan Li"
-                description1="example"
+                description1="Public Engagement"
                 onHover={handleCardHover}
               />
             </div>
@@ -497,7 +497,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0301-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0302-1.webp"
                 title1="Yihan Wu"
-                description1="example"
+                description1="Public Engagement"
                 onHover={handleCardHover}
               />
 
@@ -508,7 +508,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0401-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0402-1.webp"
                 title1="Shenglin Chen"
-                description1="example"
+                description1="Analysis"
                 onHover={handleCardHover}
               />
             </div>
@@ -551,7 +551,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2801-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2802-1.webp"
                 title1="Yanqiu Cai"
-                description1="example"
+                description1="Public Engagement"
                 onHover={handleCardHover}
               />
             </div>
@@ -585,7 +585,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1101-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1102-1.webp"
                 title1="Ziyuan Liu"
-                description1="example"
+                description1="Investigation"
                 onHover={handleCardHover}
               />
             </div>
@@ -608,7 +608,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1201-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1202-1.webp"
                 title1="Pan Zhao"
-                description1="example"
+                description1="Safety"
                 onHover={handleCardHover}
               />
             </div>
