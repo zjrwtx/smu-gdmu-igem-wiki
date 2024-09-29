@@ -946,7 +946,7 @@ span.formula_line::-webkit-scrollbar-track {
 }
 
 .accordion {
-  width: 95%;
+  width: 99%;
   margin: 20px auto;
   /* border: 1px solid #ccc; */
   border-radius: 8px;
@@ -971,7 +971,7 @@ span.formula_line::-webkit-scrollbar-track {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s ease;
-  background-color: #fff;
+  background-color: rgb(245, 245, 220);
   padding: 0 15px;
 }
 
@@ -985,6 +985,6 @@ span.formula_line::-webkit-scrollbar-track {
 
 .accordion-content p {
   margin: 0;
-  font-size: 16px;
+  font-size: 2.1vh;
   color: #333;
 }
