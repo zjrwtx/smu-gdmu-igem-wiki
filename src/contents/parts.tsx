@@ -29,6 +29,31 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
 };
 // sidenavbar end 
 
+type TableRowData = {
+  id: string;
+  type: string;
+  description: string;
+  class: string;
+  link: string;
+};
+
+const basicParts: TableRowData[] = [
+  { id: 'BBa_K5378000', type: 'Coding', description: 'GS',class:"table-element-yellow",link:'' },
+  { id: 'BBa_K5378001', type: 'Coding', description: 'TPH1',class:"table-element-orange",link:''},
+  { id: 'BBa_K5378006', type: 'Coding', description: 'tynA-G494S',class:"table-element-yellow",link:''},
+  { id: 'BBa_K5378007', type: 'Coding', description: 'feaR-A81L',class:"table-element-orange",link:''},
+  { id: 'BBa_K5378009', type: 'Promoter', description: 'PtynA',class:"table-element-yellow",link:''},
+  { id: 'BBa_K5378016', type: 'RBS', description: 'RBS',class:"table-element-orange",link:''},
+  { id: 'BBa_K5378007', type: 'Coding', description: 'GFP',class:"table-element-yellow table-bottom-line",link:''},
+];
+const compositeParts: TableRowData[] = [
+  { id: 'BBa_K5378002', type: 'Composite', description: 'PtynA-RBS-TPH1',class:"table-element-yellow",link:'' },
+  { id: 'BBa_K5378003', type: 'Composite', description: 'PtynA-RBS-GS',class:"table-element-orange",link:''},
+  { id: 'BBa_K5378004', type: 'Composite', description: 'feaR-A81L-G494S-PtynA-GS',class:"table-element-yellow",link:''},
+  { id: 'BBa_K5378005', type: 'Composite', description: 'feaR-A81L-G494S-PtynA-TPH1',class:"table-element-orange",link:''},
+  { id: 'BBa_K5378010', type: 'Composite', description: 'PtynA-RBS-GFP',class:"table-element-yellow table-bottom-line",link:''},
+];
+
 export function parts() {
     // sidenavbar begin
     const [activeLink, setActiveLink] = useState<string>('');
@@ -71,6 +96,43 @@ export function parts() {
                 <Element name="section1" className="element rounded-border" id='section1'>
                    <h2>Section 1</h2>
                    <p>Content for section 1.</p>
+                   <table className="three-line-table">
+                      <thead>
+                            <tr className='table-head-line'>
+                                <th>Part Name</th>
+                                <th>Type</th>
+                                <th>Short Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {basicParts.map((row) => (
+                                <tr className={row.class} key={row.id}>
+                                    <td><a href={row.link}>{row.id}</a></td>
+                                    <td>{row.type}</td>
+                                    <td>{row.description}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+
+                    <table className="three-line-table">
+                      <thead>
+                            <tr className='table-head-line'>
+                                <th >Part Name</th>
+                                <th >Type</th>
+                                <th >Short Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {compositeParts.map((row) => (
+                                <tr className={row.class} key={row.id}>
+                                    <td><a href={row.link}>{row.id}</a></td>
+                                    <td>{row.type}</td>
+                                    <td>{row.description}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
                    <img 
                   src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                   alt="example"
