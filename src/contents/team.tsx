@@ -308,7 +308,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0901-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0902-1.webp"
                 title1="Wan Li"
-                description1="Human practices expert"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -318,7 +318,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1001-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1002-1.webp"
                 title1="Wenrong Wen"
-                description1="Wet lab bro"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -328,7 +328,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1101-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1102-1.webp"
                 title1="Ziyuan Liu"
-                description1="Wet lab superman"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -338,7 +338,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1201-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1202-1.webp"
                 title1="Pan Zhao"
-                description1="Wet lab girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -353,7 +353,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2901-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2902-1.webp"
                 title1="Junhao Li"
-                description1="Core Member"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -364,7 +364,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0101-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0102-1.webp"
                 title1="Keyi Zhan"
-                description1="Human Practices girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -374,7 +374,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0701-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0702-1.webp"
                 title1="Jingxuan Duanyi"
-                description1="Wow"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -384,7 +384,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0801-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0802-1.webp"
                 title1="Luming Huang"
-                description1="Girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -396,7 +396,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1301-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1302-1.webp"
                 title1="Wenyi Guan"
-                description1="Girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -406,7 +406,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1401-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1402-1.webp"
                 title1="Jianhua Zhang"
-                description1="Boy"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -416,7 +416,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1501-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1502-1.webp"
                 title1="Runze Wen"
-                description1="Wet lab boy"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -427,7 +427,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0201-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0202-1.webp"
                 title1="Ming Zhu"
-                description1="Model girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -440,7 +440,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1701-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1702-1.webp"
                 title1="Guozhuo Cai"
-                description1="Modeling wizard"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -449,8 +449,8 @@ export function Team() {
                 id="card18"
                 image1="https://static.igem.wiki/teams/5378/team-member/1801-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1802-1.webp"
-                title1="Yinyin Yang"
-                description1="Girl"
+                title1="Yingying Yang"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -460,7 +460,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1901-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1902-1.webp"
                 title1="Weihuan Li"
-                description1="Grand artist"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -470,7 +470,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2001-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2002-1.webp"
                 title1="Yifeng Wang"
-                description1="Wiki member"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -482,7 +482,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2101-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2102-1.webp"
                 title1="Feier Tian"
-                description1="Girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -492,7 +492,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0501-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0502-1.webp"
                 title1="Yuhao Lin"
-                description1="Wet lab expert"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -503,7 +503,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0301-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0302-1.webp"
                 title1="Yihan Wu"
-                description1="Artist"
+                description1="example"
                 onHover={handleCardHover}
               />
 
@@ -514,7 +514,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0401-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0402-1.webp"
                 title1="Shenglin Chen"
-                description1="Grand Modeling genius"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -527,7 +527,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2501-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2502-1.webp"
                 title1="Jiajin Li"
-                description1="Boy"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -537,7 +537,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2601-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2602-1.webp"
                 title1="Kang Wang"
-                description1="Modeling artist"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -547,7 +547,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2701-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2702-1.webp"
                 title1="Meitong Han"
-                description1="Girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -557,7 +557,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2801-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2802-1.webp"
                 title1="Yanqiu Cai"
-                description1="HP Girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -571,7 +571,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/3301-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/3302-1.webp"
                 title1="ZhiLin Wu"
-                description1="HP girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -581,7 +581,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/3001-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/3002-1.webp"
                 title1="Ke Liu"
-                description1="Wet lab queen"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -591,7 +591,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/3101-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/3102-1.webp"
                 title1="Yingying Chen"
-                description1="Wet Lab Girl"
+                description1="example"
                 onHover={handleCardHover}
               />
             </div>
@@ -601,7 +601,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/3201.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/3202.webp"
                 title1="Xingan Zhao"
-                description1="Wiki coder"
+                description1="Wiki"
                 onHover={handleCardHover}
               />
             </div>
