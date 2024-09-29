@@ -20,7 +20,7 @@ export function Footer() {
 
             {/* <div className="col-1"></div> */}
             {/* <div className="col-5"> */}
-              <div className="slideshow-container mb-5">
+              <div className="slideshow-container mb-5 mt-2">
                       <div className="slide-small fade1 ">
                         <img className="fade-img" src="https://static.igem.wiki/teams/5378/school-badge/gdmu2.webp" alt="Image 1" />
                       </div>

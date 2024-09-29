@@ -610,6 +610,10 @@ footer a:hover {
   z-index: 2 !important;
 }
 
+.line-top {
+  border-top:2px solid #504e4e38;
+}
+
 .fade1 {
   animation: fade1 9s infinite;
 }
