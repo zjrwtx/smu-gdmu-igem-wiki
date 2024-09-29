@@ -165,7 +165,7 @@ export function Team() {
     card21:'Feier Tian',
     card22:'Zhixin Fang',
     card23:'Kun Liu',
-    card24:'Lin Li',
+    card24:'Ling Li',
     card25:'Jiajin Li',
     card26:'Kang Wang',
     card27:'Meitong Han',
@@ -265,7 +265,7 @@ export function Team() {
                 id="card24"
                 image1="https://static.igem.wiki/teams/5378/team-member/2401-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2402-1.webp"
-                title1="Lin Li"
+                title1="Ling Li"
                 description1="Insructor"
                 onHover={handleCardHover}
               />
