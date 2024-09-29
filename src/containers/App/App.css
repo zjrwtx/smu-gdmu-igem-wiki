@@ -418,6 +418,13 @@ footer a:hover {
   justify-content: center;
 }
 
+.sticky-font {
+  font-size: 1.3vh !important;
+}
+.sticky-title {
+  font-size: 3vh !important;
+}
+
 .sticky-words {
   font-size: large;
   /* display: flex;

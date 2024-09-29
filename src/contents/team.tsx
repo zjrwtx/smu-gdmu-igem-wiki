@@ -46,9 +46,9 @@ const Card: React.FC<CardProps> = ({ image1, image2, title1,  description1,  id,
 const StickyImageContainer: React.FC<{ image: string ,words: string ,names: string}> = ({ image,words,names }) => {
   return (
     <div className="sticky-container" >
-      <h3 className='center-text'>⭐{names}⭐</h3>
+      <h3 className='sticky-title center-text'>⭐{names}⭐</h3>
       <img src={image} alt="Sticky" className='sticky-img' />
-      <p className='sticky-words sticky-description indent'>{words}</p>
+      <p className='sticky-font sticky-description indent'>{words}</p>
     </div>
   );
 };
