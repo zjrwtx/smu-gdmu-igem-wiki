@@ -945,3 +945,46 @@ span.formula_line::-webkit-scrollbar-track {
     white-space: nowrap; 
 }
 
+.accordion {
+  width: 95%;
+  margin: 20px auto;
+  /* border: 1px solid #ccc; */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  background-color: #e4dfb4;
+  padding: 15px;
+  width: 100%;
+  cursor: pointer;
+  user-select: none; 
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #e0e0e0;
+  cursor: url('https://static.igem.wiki/teams/5378/image/dg-pointer2.png') 18 18, pointer;
+}
+
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  background-color: #fff;
+  padding: 0 15px;
+}
+
+.accordion-content.open {
+  max-height: 100vh; 
+  padding: 15px;
+  margin-left: 5px;
+  border-left:3px solid #5bc0de ;
+  background-color: rgb(245, 245, 220);
+}
+
+.accordion-content p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}

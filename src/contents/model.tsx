@@ -44,6 +44,10 @@ export function Model() {
     }, []);
     // sidenavbar end
 
+    const [isOpen, setIsOpen] = useState(false);
+    const toggleAccordion = () => {
+      setIsOpen(!isOpen);
+    };
 
 
   return (
@@ -923,6 +927,17 @@ export function Model() {
                <div className="bd-callout bd-callout-info bg-gray">
                   <h1>What do we do to ...? See...</h1>
                 </div>
+
+                <div className="accordion">
+
+      <div className="accordion-header" onClick={toggleAccordion}>
+        <h3>{isOpen ? 'Collapse' : 'Learn more about'} ......</h3>
+      </div>
+      <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus consequatur nesciunt iure labore voluptatem! Unde, voluptates ipsam et soluta minima hic, aliquid, nam doloribus illo quas odit ducimus? Vero?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem laudantium asperiores tempore quisquam repellendus deleniti corporis ratione dolores eligendi, atque impedit esse dolore eum sequi harum cum cumque quae necessitatibus!longerlore!</p>
+      </div>
+
+    </div>
               
               <Element name="section2" className="element" id='section2'>
                 <h2>Section 2</h2>
