@@ -123,7 +123,7 @@ export function Description() {
                  <p>In conclusion, there is great uncertainty and instability in the treatment of HE, and it is urgent to find more effective and safe treatment options in order to reduce the suffering of patients and the burden on the social healthcare system.</p>
                  <h3>New treatments</h3>
                  <p>We recognise the potential advantage of synthetic biology in solving global health problems by enabling the tight integration of dispersed functional modules. As a result, we plan to take a new angle - sensing phenylethylamine - to stimulate the expression of downstream metabolic modules to degrade excess ammonia in the patient's body, thereby undoing the toxic effects of ammonia overload on the brain. At the same time, our safety module operates at all times to reduce the level of intestinal inflammatory factors and maintain the stability of the intestinal barrier, ensuring the normal state of the metabolic and sensing modules.</p>
-                 <h3>foresight</h3>
+                 <h3>Foresight</h3>
                  <p>Our goal: to design probiotics (EcN) based on PEA levels that, under the supervision of a safety module, are able to specifically sense PEA in the intestines of HE patients, rapidly degrade ammonia, and reduce the risk of HE development.</p>
                  <img ></img>
                </Element>
@@ -133,7 +133,7 @@ export function Description() {
               
               <Element name="section2" className="element rounded-border" id='section2'>
                 <h2>Our Solutions</h2>
-                <h3>sensor module</h3>
+                <h3>Sensor module</h3>
                 <p>In a round of research work dedicated to phenylethylamine, we searched for a system that can sensitively sense aromatic amines using the TynA-FeaR system. [14] The authors of this paper screened for a mutant specific for phenylethylamine, TynA G494S-FeaR M83Y, by judiciously selecting and individually mutating amino acids in the monoamine oxidase TynA and the transcriptional regulator protein FeaR to adjust their sensitivities. In this case, the TynA enzyme converts extraplastidial amines to aldehydes, which are imported into the cytoplasm. In the presence of aldehydes, FeaR induces expression of the PtynA promoter, which activates downstream gene expression in an interlocking and sophisticated switch.</p>
                 <h3>Metabolic model</h3>
                 <p>The main task of the metabolic model is to metabolise, in the gut, the ammonia accumulated in patients with cirrhosis, in order to assist the liver in mitigating the neurotoxic effects of excess ammonia on the brain.</p>
