@@ -15,35 +15,36 @@ export function Footer() {
         <div className="bg-rice_yellow"><WaveAnimation /></div>
         
         {/* The following MUST be on every page: license information and link to the repository on gitlab.igem.org */}
-        <div className="row bg-wine-red footer-container">
-          <div className="col-7">
+        <div className="bg-wine-red footer-container">
+
 
             {/* <div className="col-1"></div> */}
             {/* <div className="col-5"> */}
               <div className="slideshow-container mb-5">
-                      <div className="slide fade1 ">
+                      <div className="slide-small fade1 ">
                         <img className="fade-img" src="https://static.igem.wiki/teams/5378/school-badge/gdmu2.webp" alt="Image 1" />
                       </div>
-                      <div className="slide fade2">
+                      <div className="slide-small fade2">
                         <img className="fade-img" src="https://static.igem.wiki/teams/5378/school-badge/smu.webp" alt="Image 2" />
                       </div>
-                      <div className="slide fade3">
+                      <div className="slide-big fade3">
                         <img className="fade-img" src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp" alt="Image 3" />
-                    </div>
+                      </div>
               </div>
+              
               {/* <img
                     src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                     alt="Yanyin tech"
                     className="responsive-img"
                   /> */}
 
-          </div>
+
         </div>
         <div className="row bg-wine-red footer-container">
           <div>
             <p className="mb-0">
-              <small className="footer-container small-font">
-                © 2024 - Content on this site is licensed under a &nbsp; {" "} 
+              <small className="footer-container-text small-font">
+                © 2024 - Content on this site is licensed under a &nbsp;{" "} 
                 <a
                   className="subfoot small-font"
                   href="https://creativecommons.org/licenses/by/4.0/"
@@ -55,7 +56,7 @@ export function Footer() {
               </small>
             </p>
             <p>
-              <small className="footer-container small-font">
+              <small className="footer-container-text small-font">
                 The repository used to create this website is available at &nbsp;{" "}
                 <a href={`https://gitlab.igem.org/${teamYear}/${teamSlug}`} className="small-font">
                   gitlab.igem.org/{teamYear}/{teamSlug}
