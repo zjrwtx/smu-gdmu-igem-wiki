@@ -969,17 +969,6 @@ export function Model() {
 <p>In COBRApy, the default unit for flux is mmol/(gDW*hr), which represents the millimoles of a substance produced or consumed per gram dry cell weight per hour.</p>
     </div>
 
-                <MathJax.Propvider>
-                  <div className='indent'>
-                      {/* 行内编辑数学公式，相比于下面那个方便一些。去掉inline的话效果就和下面那个一样了。 */}
-                      This is an inline math formula: <MathJax.Node inline formula={`f(x) = \\int_{-\\infty}^\\infty
-                                                                                    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}
-                                                                                    \\,d\\xi`} />
-                                                                                    <MathJax.Node formula={`f(x) = \\int_{-\\infty}^\\infty
-                                                                                    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}
-                                                                                    \\,d\\xi`} />
-                  </div>
-              </MathJax.Provider>
                 <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
