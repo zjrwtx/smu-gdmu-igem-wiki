@@ -997,8 +997,6 @@ export function Model() {
 
                             </div>
                         </div>
-
-                        <p>由OptiGene算法，我们定位了2个有价值的目标反应：<b>Glycine Cleavage System (GLYCL)</b> 和<b> Glutamate dehydrogenase (NADP, GLUDy)</b>，其涉及的主要反应、候选的敲除目标、以及敲除对通量的影响如下表所示：</p>
                         <p>Based on the OptiGene algorithm, we identified two valuable target reactions: <b>Glycine Cleavage System (GLYCL)</b> and <b>Glutamate Dehydrogenase (NADP, GLUDy)</b>. The main reactions involved, the candidate knockout targets, and the effects of their knockout on flux are summarized in the table below:</p>
                         <p>Subsequently, we evaluated the potential impact of <b>15 candidate genes</b> resulting in <b>32,767 knockout combinations</b> on the growth and ammonia production of the strain using FBA. The results indicated that enhancing the reverse reaction of GLUDy is a key factor in reducing ammonia production, while the knockout of the <b>ECOLIN_RS15500</b> gene (corresponding to the ENO reaction) is a crucial step toward achieving this goal. Although the knockout of the GLYCL reaction can also reduce ammonia production to a small extent, it is not a primary factor. Additionally, different knockout schemes significantly affect the strain's growth, specifically the biomass flux.</p>
                         <p>Considering that excessive knockouts may impair the strain's normal physiological functions and increase operational complexity, we ultimately identified <b>6 alternative knockout schemes</b> that balance ammonia production and biomass:</p>
@@ -1015,53 +1013,53 @@ export function Model() {
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
-                                    <td></td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
+                                    <td>  </td>
                                 </tr>
                             </tbody>
                         </table>
