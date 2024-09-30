@@ -8,12 +8,10 @@ import {
   Experiments,
   Home,
   HumanPractices,
-
   Results,
   Safety,
   Team,
   Education,
-  Entrepreneurship,
   Inclusivity,
   Model,
   collaboration,
@@ -73,6 +71,36 @@ const Pages: (Page | Folder)[] = [
     icon: FaUsers,
   },
   {
+    name: "Lab Work",
+    folder: [
+      {
+        name: "Experiments",
+        title: "Experiments",
+        path: "/experiments",
+        component: Experiments,
+        lead: "Describe the research, experiments, and protocols you used in your iGEM project.",
+        icon: FaFlask,
+      },
+      {
+        name: "Results",
+        title: "Results",
+        path: "/results",
+        component: Results,
+        lead: "You can describe the results of your project and your future plans here.",
+        icon: FaFlask,
+      },
+      {
+        name: "Safety",
+        title: "Safety",
+        path: "/safety",
+        component: Safety,
+        lead: "Describe all the safety issues of your project.",
+        icon: FaShieldAlt,
+      },
+    ],
+    icon: FaProjectDiagram,
+  },
+  {
     name: "Project",
     folder: [
       {
@@ -89,7 +117,7 @@ const Pages: (Page | Folder)[] = [
         path: "/description",
         component: Description,
         lead: "Describe how and why you chose your iGEM project.",
-        icon: FaProjectDiagram,
+        icon: FaBusinessTime,
       },
       {
         name: "Engineering",
@@ -100,29 +128,12 @@ const Pages: (Page | Folder)[] = [
         icon: FaCogs,
       },
       {
-        name: "Experiments",
-        title: "Experiments",
-        path: "/experiments",
-        component: Experiments,
-        lead: "Describe the research, experiments, and protocols you used in your iGEM project.",
-        icon: FaFlask,
-      },
-      {
         name: "Model",
         title: "Model",
         path: "/model",
         component: Model,
         lead: "Explain your model's assumptions, data, parameters, and results in a way that anyone could understand.",
         icon: FaCogs,
-      },
-
-      {
-        name: "Results",
-        title: "Results",
-        path: "/results",
-        component: Results,
-        lead: "You can describe the results of your project and your future plans here.",
-        icon: FaFlask,
       },
       {
         name: "Parts",
@@ -132,28 +143,22 @@ const Pages: (Page | Folder)[] = [
         lead: "You can describe the results of your project and your future plans here.",
         icon: FaFlask,
       },
+      
     ],
     icon: FaProjectDiagram,
   },
+  
   {
-    name: "Safety",
-    title: "Safety",
-    path: "/safety",
-    component: Safety,
-    lead: "Describe all the safety issues of your project.",
-    icon: FaShieldAlt,
-  },
-  {
-    name: "Human Practices",
-    title: "Human Practices",
-    path: "/human-practices",
-    component: HumanPractices,
-    lead: "We ask every team to think deeply and creatively about whether their project is responsible and good for the world. Consider how the world affects your work and how your work affects the world.",
-    icon: FaHandsHelping,
-  },
-  {
-    name: "Awards",
+    name: "Human Practice",
     folder: [
+      {
+        name: "Integrated Human Practices",
+        title: "Integrated Human Practices",
+        path: "/human-practices",
+        component: HumanPractices,
+        lead: "We ask every team to think deeply and creatively about whether their project is responsible and good for the world. Consider how the world affects your work and how your work affects the world.",
+        icon: FaHandsHelping,
+      },
       {
         name: "Education",
         title: "Education",
@@ -161,14 +166,6 @@ const Pages: (Page | Folder)[] = [
         component: Education,
         lead: "Innovative educational tools and outreach activities have the ability to establish a two-way dialogue with new communities by discussing public values and the science behind synthetic biology.",
         icon: FaLightbulb,
-      },
-      {
-        name: "Entrepreneurship",
-        title: "Entrepreneurship",
-        path: "/entrepreneurship",
-        component: Entrepreneurship,
-        lead: "The entrepreneurship prize recognizes exceptional effort to build a business case and commercialize an iGEM project.",
-        icon: FaBusinessTime,
       },
       {
         name: "Inclusivity",
@@ -190,6 +187,7 @@ const Pages: (Page | Folder)[] = [
     ],
     icon: FaAward,
   },
+  
 ];
 
 export default Pages;
