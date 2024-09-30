@@ -1001,69 +1001,6 @@ export function Model() {
                         <p>Subsequently, we evaluated the potential impact of <b>15 candidate genes</b> resulting in <b>32,767 knockout combinations</b> on the growth and ammonia production of the strain using FBA. The results indicated that enhancing the reverse reaction of GLUDy is a key factor in reducing ammonia production, while the knockout of the <b>ECOLIN_RS15500</b> gene (corresponding to the ENO reaction) is a crucial step toward achieving this goal. Although the knockout of the GLYCL reaction can also reduce ammonia production to a small extent, it is not a primary factor. Additionally, different knockout schemes significantly affect the strain's growth, specifically the biomass flux.</p>
                         <p>Considering that excessive knockouts may impair the strain's normal physiological functions and increase operational complexity, we ultimately identified <b>6 alternative knockout schemes</b> that balance ammonia production and biomass:</p>
 
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Target Genes for Knockout</th>
-                                    <th>Name</th>
-                                    <th>Formula</th>
-                                    <th>Flux [mmol/(gDW*hr)]</th>
-                                    <th>Strategy</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>CBMKr</td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                </tr>
-                                <tr>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                </tr>
-                                <tr>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                </tr>
-                                <tr>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                </tr>
-                                <tr>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                </tr>
-                                <tr>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                </tr>
-                                <tr>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                    <td>  </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
                         <p>The table displays the biomass flux and ammonia production per unit biomass for the wild-type strain and various knockout strains, along with the percentage of these values compared to the wild-type strain.</p>
                         <p>In summary, our metabolic engineering analysis provided multiple knockout schemes, including single and multi-gene knockouts. Through gene knockout, ammonia production can be reduced to approximately <b>18% </b>of the wild-type levels, while the growth rate of the strain can be maintained at about <b>80%</b> of the wild-type. This finding offers significant directions for genetic modifications in the development of engineered strains intended for in vivo therapy.</p>
                     </Element>
