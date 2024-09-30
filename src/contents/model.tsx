@@ -90,7 +90,7 @@ export function Model() {
     const [isOpen1, setIsOpen1] = useState(false);
     const [isOpen2, setIsOpen2] = useState(false);
 
-    
+
     const toggleAccordion1 = () => {
         setIsOpen1(!isOpen1);
     };
@@ -112,9 +112,10 @@ export function Model() {
                         className="header-img"
                     />
                     <img
-                        src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
+                        src="https://static.igem.wiki/teams/5378/model/model-page.webp"
                         alt="safety header"
                         className="header-bar"
+                        style={{ opacity: 0.7 }}
                     />
                 </h1>
             </div>
@@ -125,10 +126,12 @@ export function Model() {
 
                 <div className="col-10 model-font">
                     <Element name="section1" className="element" id='section1'>
-                       
-
                         <h2 className="center-text mt-5">1. ODE Model of Biochemical Reactions</h2>
+                        <img src='https://static.igem.wiki/teams/5378/model/model-page.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto',paddingRight: '15%' }} />
+                        <figcaption className='caption' style={{paddingRight: '15%' }} >Placeholders</figcaption>
+
                         <h3>1.1 Oxidation of Phenylethylamine</h3>
+
                         <p>Firstly, phenylethylamine (PEA) diffuses through the outer membrane of <em>Escherichia coli</em> into the periplasmic space, where it interacts with TynA.</p>
                         <MathJax.Provider>
                             <div className='indent formula_content' >
@@ -1071,7 +1074,7 @@ export function Model() {
                             </div>
                         </div>
                         <p>Based on the OptiGene algorithm, we identified two valuable target reactions: <b>Glycine Cleavage System (GLYCL)</b> and <b>Glutamate Dehydrogenase (NADP, GLUDy)</b>. The main reactions involved, the candidate knockout targets, and the effects of their knockout on flux are summarized in the table below:</p>
-                        <table className="model-table three-line-table">
+                        <table className="three-line-table">
                             <thead>
                                 <tr className='table-head-line'>
                                     <th>Target Reaction</th>
