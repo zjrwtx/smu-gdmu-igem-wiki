@@ -964,12 +964,60 @@ export function Model() {
                             </div>
                         </div>
                         <p>To identify knockout targets, we ran FBA optimization on iDK1463, yielding the flux values for various metabolic reactions in the optimized strain. Next, we filtered out the reactions related to ammonia, excluding those with a flux of zero under normal physiological conditions. The biomass reaction and reactions linearly related to it were considered essential and not selected as targets. Ultimately, among the **6 reactions identified**, the flux of ammonia-producing reactions will be minimized, while the flux of ammonia-consuming reactions will be maximized.</p>
-                        <iframe
-                src="https://static.igem.wiki/teams/5378/model/table2.pdf"  
-                style={{ width: '100%', height: '1000px' }}
-                title="PDF Viewer"
-                ></iframe>
-                        
+                        <table style="border-collapse:collapse; border:none;">
+<tr>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; text-align:left; ">ID</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Name</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Formula</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Flux..mmol..gDW.hr..</th>
+<th style="border-top: double; text-align:center; font-style:italic; font-weight:normal; padding:0.2cm; border-bottom:1px solid black; ">Strategy</th>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">CBMKr</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Carbamate kinase</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">atp_c + co2_c + nh4_c <=> adp_c + cbp_c + 2.0 h_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.55</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Maximize</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">GMPS</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">GMP synthase</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">atp_c + nh4_c + xmp_c --> amp_c + gmp_c + 2.0 h_c + ppi_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.21</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Maximize</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">ASNS2</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Asparagine synthetase</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">asp__L_c + atp_c + nh4_c --> amp_c + asn__L_c + h_c + ppi_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.21</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Maximize</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">GLYCL</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Glycine Cleavage System</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">gly_c + nad_c + thf_c --> co2_c + mlthf_c + nadh_c + nh4_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.05</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Minimize</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">TRPAS2</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Tryptophanase (L-tryptophan)</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">h2o_c + trp__L_c <=> indole_c + nh4_c + pyr_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.05</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Minimize</td>
+</tr>
+<tr>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; border-bottom: double; ">GLUDy</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">Glutamate dehydrogenase (NADP)</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">glu__L_c + h2o_c + nadp_c <=> akg_c + h_c + nadph_c + nh4_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">-7.53</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">Minimize</td>
+</tr>
+</table>
+
+
+
                         <h3>2.3 Target Gene Search Based on Evolutionary Algorithms</h3>
                         <p>After identifying the ammonia-related reactions, the next objective is to search for target genes that can reduce ammonia production while increasing its consumption. For this purpose, we employed the OptGene algorithm proposed by Patil et al.
                         </p>
