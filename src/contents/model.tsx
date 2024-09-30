@@ -968,62 +968,132 @@ export function Model() {
 <p>In COBRApy, the default unit for flux is mmol/(gDW*hr), which represents the millimoles of a substance produced or consumed per gram dry cell weight per hour.</p>
       </div>
 <p>To identify knockout targets, we ran FBA optimization on iDK1463, yielding the flux values for various metabolic reactions in the optimized strain. Next, we filtered out the reactions related to ammonia, excluding those with a flux of zero under normal physiological conditions. The biomass reaction and reactions linearly related to it were considered essential and not selected as targets. Ultimately, among the **6 reactions identified**, the flux of ammonia-producing reactions will be minimized, while the flux of ammonia-consuming reactions will be maximized.</p>
-<table border="1">
+<table>
     <thead>
         <tr>
             <th>ID</th>
             <th>Name</th>
             <th>Formula</th>
             <th>Flux [mmol/(gDW*hr)]</th>
-            <th>Strategy</th>
+            <th>Strategy </th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td align="center">CBMKr</td>
-            <td align="center">Carbamate kinase</td>
-            <td align="center">atp_c + co2_c + nh4_c &harr; adp_c + cbp_c + 2.0 h_c</td>
-            <td align="center">0.551604</td>
-            <td align="center">Maximize</td>
+            <td>CBMKr</td>
+            <td>Carbamate kinase</td>
+            <td>atp_c + co2_c + nh4_c &lt;=&gt; adp_c + cbp_c + 2.0 h_c</td>
+            <td>0.551604</td>
+            <td>Maximize </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-            <td align="center">GMPS</td>
-            <td align="center">GMP synthase</td>
-            <td align="center">atp_c + nh4_c + xmp_c &rarr; amp_c + gmp_c + 2.0 h_c + ppi_c</td>
-            <td align="center">0.214121</td>
-            <td align="center">Maximize</td>
+            <td>GMPS</td>
+            <td>GMP synthase</td>
+            <td>atp_c + nh4_c + xmp_c --&gt; amp_c + gmp_c + 2.0 h_c + ppi_c</td>
+            <td>0.214121</td>
+            <td>Maximize </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-            <td align="center">ASNS2</td>
-            <td align="center">Asparagine synthetase</td>
-            <td align="center">asp_L_c + atp_c + nh4_c &rarr; amp_c + asn_L_c + h_c + ppi_c</td>
-            <td align="center">0.212208</td>
-            <td align="center">Maximize</td>
+            <td>ASNS2</td>
+            <td>Asparagine synthetase</td>
+            <td>asp__L_c + atp_c + nh4_c --&gt; amp_c + asn__L_c + h_c + ppi_c</td>
+            <td>0.212208</td>
+            <td>Maximize </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-            <td align="center">GLYCL</td>
-            <td align="center">Glycine Cleavage System</td>
-            <td align="center">gly_c + nad_c + thf_c &rarr; co2_c + mlthf_c + nadh_c + nh4_c</td>
-            <td align="center">0.047647</td>
-            <td align="center">Minimize</td>
+            <td>GLYCL</td>
+            <td>Glycine Cleavage System</td>
+            <td>gly_c + nad_c + thf_c --&gt; co2_c + mlthf_c + nadh_c + nh4_c</td>
+            <td>0.047647</td>
+            <td>Minimize </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-            <td align="center">TRPAS2</td>
-            <td align="center">Tryptophanase (L-tryptophan)</td>
-            <td align="center">h2o_c + trp__L_c &harr; indole_c + nh4_c + pyr_c</td>
-            <td align="center">-0.050040</td>
-            <td align="center">Minimize</td>
+            <td>TRPAS2</td>
+            <td>Tryptophanase (L-tryptophan)</td>
+            <td>h2o_c + trp__L_c &lt;=&gt; indole_c + nh4_c + pyr_c</td>
+            <td>-0.05004</td>
+            <td>Minimize </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
         <tr>
-            <td align="center">GLUDy</td>
-            <td align="center">Glutamate dehydrogenase (NADP)</td>
-            <td align="center">glu__L_c + h2o_c + nadp_c &harr; akg_c + h_c + nadph_c + nh4_c</td>
-            <td align="center">-7.527480</td>
-            <td align="center">Minimize</td>
+            <td>GLUDy</td>
+            <td>Glutamate dehydrogenase (NADP)</td>
+            <td>glu__L_c + h2o_c + nadp_c &lt;=&gt; akg_c + h_c + nadph_c + nh4_c</td>
+            <td>-7.52748</td>
+            <td>Minimize </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
     </tbody>
 </table>
-
 
     </div>
 
