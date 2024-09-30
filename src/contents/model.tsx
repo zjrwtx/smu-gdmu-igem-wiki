@@ -968,14 +968,42 @@ export function Model() {
                                 <p>In COBRApy, the default unit for flux is mmol/(gDW*hr), which represents the millimoles of a substance produced or consumed per gram dry cell weight per hour.</p>
                             </div>
                         </div>
-
                         <p>To identify knockout targets, we ran FBA optimization on iDK1463, yielding the flux values for various metabolic reactions in the optimized strain. Next, we filtered out the reactions related to ammonia, excluding those with a flux of zero under normal physiological conditions. The biomass reaction and reactions linearly related to it were considered essential and not selected as targets. Ultimately, among the **6 reactions identified**, the flux of ammonia-producing reactions will be minimized, while the flux of ammonia-consuming reactions will be maximized.</p>
+<h3>2.3 Target Gene Search Based on Evolutionary Algorithms</h3>
+<p>After identifying the ammonia-related reactions, the next objective is to search for target genes that can reduce ammonia production while increasing its consumption. For this purpose, we employed the OptGene algorithm proposed by Patil et al.
+</p>        
+<div className="accordion">
+                            <div className="accordion-header" onClick={toggleAccordion}>
+                                <h3>{isOpen ? 'Collapse' : 'Click here to see the details of OptGene algorithm!'} ......</h3>
+                            </div>
 
-                        <img
-                            src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                            alt="example"
-                            className="responsive-img"
-                        />
+                            <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
+                                <p>OptGene is a target gene search algorithm based on genetic algorithms (GA), which utilize the principles of Darwinian evolution to search for global optimal solutions. The basic workflow is outlined as follows:</p>
+                           <ol><li><b>Population Initialization</b> : A specified number of solutions are randomly generated, where each solution is represented as a one-hot encoded gene "switch" vector. In this vector, a gene marked as "on" has a value of 1, indicating normal expression, while a gene marked as "off" has a value of 0, indicating that the gene is knocked out. Each solution is referred to as an individual.</li>
+                           <li><b>Fitness Calculation</b> : The fitness (objective function value) of each individual is calculated, taking into account three factors: the biomass should be maximized, ammonia production should be minimized (or ammonia consumption should be maximized), and the number of genes knocked out should be minimized. Biomass, ammonia production, and ammonia consumption will be computed using the FBA method.</li>
+                           <li><b>Termination Check</b>: Verify if the termination criteria are met. If they are, return the results; if not, proceed to the next step.</li>
+                           <li><b>Adjustment of Individuals</b>: Each individual undergoes adjustment, which includes crossover and mutation. Crossover, akin to chromosomal crossover, involves exchanging segments of data between two individuals. Mutation entails modifying a specific point in an individual's data (e.g., marking a gene as "off"). Individuals with higher fitness scores have a greater probability of being adjusted.</li>
+                           <li><b>Return to Step 2</b>: Repeat the fitness calculation and subsequent steps.</li></ol>
+                           <p>For genes marked as "off", these genes are considered inactive, and the upper and lower bounds for the corresponding reactions are both set to 0, effectively achieving the knockout of that gene.</p>
+                           <p>The process of the algorithm and the representation method of query phenotype are shown in the following two figures:</p>
+                           <div>
+< img src='https://static.igem.wiki/teams/5378/model/model1.webp' className='responsive-img' />
+<figcaption className='caption'>Figure 1:  Schematic overview of the OptGene algorithm</figcaption>
+
+< img src='https://static.igem.wiki/teams/5378/model/model2.webp' className='responsive-img' />
+<figcaption className='caption'>Figure 2: Representation of the metabolic genotype</figcaption>
+ </div>
+
+
+                            </div>
+                        </div>    
+                   
+<p>由OptiGene算法，我们定位了2个有价值的目标反应：<b>Glycine Cleavage System (GLYCL)</b> 和<b> Glutamate dehydrogenase (NADP, GLUDy)</b>，其涉及的主要反应、候选的敲除目标、以及敲除对通量的影响如下表所示：</p>
+<p>Based on the OptiGene algorithm, we identified two valuable target reactions: <b>Glycine Cleavage System (GLYCL)</b> and <b>Glutamate Dehydrogenase (NADP, GLUDy)</b>. The main reactions involved, the candidate knockout targets, and the effects of their knockout on flux are summarized in the table below:</p>
+   <p>Subsequently, we evaluated the potential impact of <b>15 candidate genes</b> resulting in <b>32,767 knockout combinations</b> on the growth and ammonia production of the strain using FBA. The results indicated that enhancing the reverse reaction of GLUDy is a key factor in reducing ammonia production, while the knockout of the <b>ECOLIN_RS15500</b> gene (corresponding to the ENO reaction) is a crucial step toward achieving this goal. Although the knockout of the GLYCL reaction can also reduce ammonia production to a small extent, it is not a primary factor. Additionally, different knockout schemes significantly affect the strain's growth, specifically the biomass flux.</p>
+<p>Considering that excessive knockouts may impair the strain's normal physiological functions and increase operational complexity, we ultimately identified <b>6 alternative knockout schemes</b> that balance ammonia production and biomass:</p>
+         <p>The table displays the biomass flux and ammonia production per unit biomass for the wild-type strain and various knockout strains, along with the percentage of these values compared to the wild-type strain.</p>
+         <p>In summary, our metabolic engineering analysis provided multiple knockout schemes, including single and multi-gene knockouts. Through gene knockout, ammonia production can be reduced to approximately <b>18% </b>of the wild-type levels, while the growth rate of the strain can be maintained at about <b>80%</b> of the wild-type. This finding offers significant directions for genetic modifications in the development of engineered strains intended for in vivo therapy.</p>
                     </Element>
 
 
