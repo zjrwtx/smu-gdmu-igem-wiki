@@ -1,97 +1,227 @@
-// import { url } from "inspector";
-import React, { useRef } from "react";
-
 
 export function Home() {
-    const containerRef = useRef<HTMLDivElement>(null);
-    const sectionRefs = useRef<(HTMLDivElement | null)[]>([]); // 储存每个section的引用
-    let currentPage = 0; // 当前页面索引
-  
-    const scrollToSection = (index: number) => {
-      if (containerRef.current && sectionRefs.current[index]) {
-        const target = sectionRefs.current[index];
-        if (target) {
-          target.scrollIntoView({
-            behavior: "smooth",
-          });
-          currentPage = index;
-        }
-      }
-    };
-  
-    const handleScroll = (event: React.WheelEvent) => {
-      if (event.deltaY > 0) {
-        // 向下滚动
-        if (currentPage < sectionRefs.current.length - 1) {
-          scrollToSection(currentPage + 1);
-        }
-      } else {
-        // 向上滚动
-        if (currentPage > 0) {
-          scrollToSection(currentPage - 1);
-        }
-      }
-    };
-  
-    return (
-      <div
-        className="fullpage-container"
-        ref={containerRef}
-        onWheel={handleScroll}
-      >
-        <section className="section bg-rice_yellow" ref={(el) => (sectionRefs.current[0] = el as HTMLDivElement)}>
-          <div className="row">
 
-            <div className="col-3"></div>
-            <div className="col-6">
-              <div className="vh20"></div>
-              <img
-                src="https://static.igem.wiki/teams/5378/image/zxa-tp.webp"
-                alt="zxa"
-                className="responsive-img"
-              />
-            </div>
-            <div className="col-3"></div>
-          </div>
-        </section>
-        <section className="section bg-rice_yellow" ref={(el) => (sectionRefs.current[1] = el as HTMLDivElement)}>
-        <div className="row">
-                <div>我是小盒子</div>
-                <div className="rounded-border">橙色</div>
-                <p>大家好，我是文本</p>
-                <h2 className="center-text">居中</h2>
-                <p className="indent">大家好啊，我的开头有缩进</p>
-                <p className="center-text">大家好！我是居中文本！</p>
-                <p className="bold-font">粗粗的文本</p>
-                <p className="red-font">红色的文本</p>
-                <p className="green-font">绿色的文本</p>
-                <p className="blue-font">蓝色的文本</p>
-                <p className="red-font center-text">叠加了多种属性的文本，
-                <span className="bold-font">插入了粗体</span>文字</p>
-                <h1>一级标题</h1>
-                <h2>二级标题</h2>
-                <h3>三级标题</h3>
-                <h4>四级标题</h4>
-              </div>
-        </section>
-
-        <section className="section bg-rice_yellow" ref={(el) => (sectionRefs.current[2] = el as HTMLDivElement)}>
-        <div className="row">
-        <div className="col-3"></div>
-        
-             <div className="col-6 mb-5">
-             <div className="vh20 row h1 justify-content-center">Stream our PV!!!</div>
-                 <iframe 
-                  title="SMU-GDMU-CHINA: Engineered bacterial therapeutics for Preventing Hepatic Encepha... (2024) - Project Promotion [English]"  
-                  className="promotion-video"
-                  src="https://video.igem.org/videos/embed/b8667885-e1be-48b2-ab9b-d1aac71db0da"  
-                  allowFullScreen={true} 
-                  sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
-                </iframe>
-            </div>
-            <div className="col-3"></div>
-            </div>
-        </section>
+  return (
+    <div className="bg-rice_yellow">
+      {/* 1 */}
+      <div className="page-container-1">
+        <div className="page-element-0">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/23.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-1">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/25.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-2">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/24.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-3">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/26.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
       </div>
-    );
-  }
+
+      {/* 2 */}
+      <div className="page-container-2">
+        <div className="page-element-4">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/22.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+
+      </div>
+
+
+      {/* 3 */}
+      <div className="page-container-3">
+
+        <div className="page-element-5">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/girlroar.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        
+        
+        <div className="page-element-6">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/20.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        </div>
+
+      {/* 4 */}
+      <div className="page-container-4">
+        <div className="page-element-7">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/21.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+      </div>
+      {/* 5 */}
+      <div className="page-container-5">
+        <div className="page-element-8">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/nh3.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-9">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/path.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-10">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/hepacry.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-11">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/gut.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+      </div>
+
+      {/* 6 */}
+      <div className="page-container-6">
+        <div className="page-element-12">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/boycoma.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-13">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/boyint.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-14">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/boyinsanity.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-15">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/boyhead.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+      </div>
+
+      {/* 7 */}
+      <div className="page-container-7">
+        <div className="page-element-16">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/boywhat.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-17">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/girlfort.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+      </div>
+      {/* 8 */}
+      <div className="page-container-8">
+        <div className="page-element-18">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/28.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-19">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/27.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-20">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/8.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-21">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/4.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-21p">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/2.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+      </div>
+
+      {/* 9 */}
+      <div className="page-container-9">
+        <div className="page-element-22">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/future.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-23">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/girlboy.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+
+
+      </div>
+
+
+
+
+    </div>
+  );
+}
