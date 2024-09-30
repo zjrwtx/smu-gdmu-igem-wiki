@@ -522,6 +522,10 @@ footer a:hover {
   text-align: center; /* 将文本水平居中 */
 }
 
+.model-font .center-text {
+  padding-right: 20%;
+}
+
 /* 文本开头有缩进，起到空格作用 */
 .indent {
   text-indent: 20px; /* 设置首行缩进 20px */
