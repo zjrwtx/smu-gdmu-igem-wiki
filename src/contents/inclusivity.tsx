@@ -269,22 +269,41 @@ export function Inclusivity() {
               </Element>
 
               <Element name="section8" className="element rounded-border" id='section8'>
-              <h2>Section 8</h2>
-              <p>Content for section 8.</p>
+              <h2>Link within the world</h2>
               <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Female Strength</h4>
+              <p className="indent">(1)Female Leadership:</p>
+              <p className="indent">In promoting diversity and inclusivity and fostering female leadership, we have made many noticeable efforts. Our team leader, Fang Zhixin, a remarkable woman from the eight-year Clinical Medicine program, inspires us all with her love and strength. Her leadership creates a supportive and empowering environment for all team members, embodying the importance of diversity and inclusivity.</p>
+              <p className="indent">(2) Research Innovation:</p>
+              <p className="indent">To challenge the stereotype that women are not good at rational thinking or lack practical skills, it is worth noting that several key experiment designers in our team are women. Their outstanding contributions prove that these stereotypes are baseless. By showcasing the talents and abilities of our female team members, we aim to promote gender equality and inclusivity in science.</p>
+              <p className="indent">(3) Interdisciplinary Collaboration:</p>
+              <p className="indent">Our team consists of 16 women and 13 men, with female members bringing diverse disciplinary backgrounds such as Biostatistics, Information Management and Information Systems, Medical Laboratory Technology, Clinical Medicine, and Preventive Medicine. Through interdisciplinary collaboration, they have made critical contributions to the team, collectively driving the success of our project.</p>
               </div>
+
+              <div className="rounded-border">
+              <h4 className="center-text">Collaboration</h4>
+              <p className="indent">Our team collaborates with the Hepatology Center at Nanfang Hospital and the Microecology Treatment Center at Zhujiang Hospital. Under their guidance, we collected serum samples from patients with cirrhosis before undergoing TIPS surgery and performed metabolomics testing. We also followed up with the patients for three months to record the occurrence of HE.</p>
+              <p className="indent">Our team participated in the South China Exchange Conference, where we shared our project progress and experiences with Shenzhen University, Southern University of Science and Technology, and others.</p>
+              <p className="indent">Our team was invited to participate in the China Regional Exchange Conference (CCIC), where we engaged in in-depth discussions with other teams regarding project optimization and improvements. This enhanced our collaborative abilities and promoted the development of each team's projects.</p>
+              </div>
+
+              <div className="rounded-border">
+              <h4 className="center-text">Communication with professors</h4>
+              <p className="indent">To refine our project design, we interviewed several doctors and professors for their advice.</p>
+              <p className="indent">To perfect and determine the direction of the sensing module, we interviewed Professor Zhu from the First Affiliated Hospital of Sun Yat-sen University, who suggested that we switch to a bile acid-responsive marker to address the issue of not finding a suitable ammonia-inducible promoter; subsequently, following the advice of Professor He from the Zhujiang Hospital of Southern Medical University, our team replaced bile acid with PEA.</p>
+              <p className="indent">To refine the design of the safety module, we approached President Zhou from Shenzhen Hospital, an expert in hepatic encephalopathy and gut microbiota, who offered valuable suggestions to address complications.</p>
+              <p className="indent">To resolve experimental issues, we consulted with Professor Chen from the School of Basic Medical Sciences at Southern Medical University and also had an online discussion with Teacher Qiu from the National University of Defense Technology.</p>
+              <p className="indent">Additionally, another female scientist we interviewed was Professor Ren from the School of Marxism, who provided us with advice from an ethical safety perspective. She advised that any genetic editing of organisms must be conducted in accordance with existing ethical regulations, especially adhering to the "do not disseminate principle"; at the same time, it is imperative not to release genetically modified organisms or products of genetically modified organisms from the laboratory into the environment, and any sites of genetic editing or deletion and the sequences edited must be reported to the safety committee.</p>
+              <p className="indent">Subsequently, she reminded us that our project should be educational and popularizing, capable of enhancing the public's understanding and awareness of synthetic biology, and through public interaction and the organization of science popularization activities, allow more people to understand the significance, value, and application prospects of the project.</p>
+              </div>
+
               </Element>
 
               <Element name="section9" className="element rounded-border" id='section9'>
-              <h2>Section 9</h2>
-              <p>Content for section 9.</p>
+              <h2>Conclusion</h2>
               <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Maximizing Inclusivity</h4>
+              <p className="indent">Through these measures, our team has succeeded in increasing the participation and representation of people from different backgrounds in scientific research. The Rural Outreach Programme and the Language Project remove information and language barriers and make scientific knowledge more accessible to a wider range of people. Project Help and Project Ethics, on the other hand, helped disadvantaged groups overcome barriers through resource sharing and financial assistance. These efforts not only enhance the scientific value of the projects, but also lay a solid foundation for building a more inclusive and equitable scientific community. We hope that through these practical actions, we can motivate more people to understand iGEM, and can inspire more people to participate in scientific research, so that everyone's voice can be heard, and everyone has the opportunity to be a force for change in the world.</p>
               </div>
               </Element>
 
