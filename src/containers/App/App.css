@@ -193,7 +193,7 @@ footer a:hover {
 .custom-header-team {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -203,7 +203,7 @@ footer a:hover {
 .custom-header-attributions {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -213,7 +213,7 @@ footer a:hover {
 .custom-header-contribution {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -223,7 +223,7 @@ footer a:hover {
 .custom-header-description {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -233,7 +233,7 @@ footer a:hover {
 .custom-header-education {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -242,7 +242,7 @@ footer a:hover {
 .custom-header-engineering {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -251,7 +251,7 @@ footer a:hover {
 .custom-header-experiments {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -261,7 +261,7 @@ footer a:hover {
 .custom-header-human-practices {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -270,7 +270,7 @@ footer a:hover {
 .custom-header-inclusivity {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -299,7 +299,7 @@ footer a:hover {
 .custom-header-results {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -308,7 +308,7 @@ footer a:hover {
 .custom-header-safety {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://static.igem.wiki/teams/5378/safety/0111111111.webp'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2)),url('https://static.igem.wiki/teams/5378/safety/0111111111.webp'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -317,7 +317,7 @@ footer a:hover {
 .custom-header-collaboration {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
@@ -326,7 +326,7 @@ footer a:hover {
 .custom-header-parts {
   width: 100vw;
   height: 100vh;
-  background-image: url('https://placehold.co/1200x600'); /* 背景图片路径 */
+  background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2))url('https://placehold.co/1200x600'); /* 背景图片路径 */
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */
