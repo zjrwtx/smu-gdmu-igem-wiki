@@ -975,42 +975,42 @@ export function Model() {
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">CBMKr</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Carbamate kinase</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">atp_c + co2_c + nh4_c <=> adp_c + cbp_c + 2.0 h_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">{"atp_c + co2_c + nh4_c <=> adp_c + cbp_c + 2.0 h_c"}</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.55</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Maximize</td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">GMPS</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">GMP synthase</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">atp_c + nh4_c + xmp_c --> amp_c + gmp_c + 2.0 h_c + ppi_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">{"atp_c + nh4_c + xmp_c --> amp_c + gmp_c + 2.0 h_c + ppi_c"}</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.21</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Maximize</td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">ASNS2</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Asparagine synthetase</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">asp__L_c + atp_c + nh4_c --> amp_c + asn__L_c + h_c + ppi_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">{"asp__L_c + atp_c + nh4_c -->amp_c + asn__L_c + h_c + ppi_c"}</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.21</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Maximize</td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">GLYCL</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Glycine Cleavage System</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">gly_c + nad_c + thf_c --> co2_c + mlthf_c + nadh_c + nh4_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">{"gly_c + nad_c + thf_c --'{'>'}' co2_c + mlthf_c + nadh_c + nh4_c"}</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">0.05</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Minimize</td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; ">TRPAS2</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Tryptophanase (L-tryptophan)</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">h2o_c + trp__L_c <=> indole_c + nh4_c + pyr_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">{"h2o_c + trp__L_c <=> indole_c + nh4_c + pyr_c"}</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">-0.05</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; ">Minimize</td>
 </tr>
 <tr>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:left; border-bottom: double; ">GLUDy</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">Glutamate dehydrogenase (NADP)</td>
-<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">glu__L_c + h2o_c + nadp_c <=> akg_c + h_c + nadph_c + nh4_c</td>
+<td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">{"glu__L_c + h2o_c + nadp_c <=> akg_c + h_c + nadph_c + nh4_c"}</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">-7.53</td>
 <td style=" padding:0.2cm; text-align:left; vertical-align:top; text-align:center; border-bottom: double; ">Minimize</td>
 </tr>
