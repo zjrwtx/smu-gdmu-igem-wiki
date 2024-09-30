@@ -15,7 +15,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
     <div className="side-navbar">
       <Nav className="flex-column">
         <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>ODE Model of Biochemical Reactions</Nav.Link>
-        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Section 2</Nav.Link>
+        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Metabolic Engineering Strategy to Reduce Ammonia Production</Nav.Link>
         <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Section 3</Nav.Link>
         {/* 添加更多导航链接 */}
       </Nav>
@@ -933,7 +933,7 @@ export function Model() {
                 <p>In Escherichia coli Nissle 1917, various metabolic processes, such as amino acid deamination and urea metabolism, generate ammonia, which may pose potential risks to patients undergoing treatment with engineered bacteria. In our wet lab experiments, we utilized M9 medium to reduce ammonia production; however, it is crucial to decrease the strain's intrinsic ammonia production through methods such as gene knockout for strains intended for therapeutic use.</p>
                <p>Our goal is to identify the key genes influencing ammonia production and uptake, and to perform knockouts based on their effects on ammonia metabolism. This approach aims to simulate the overall impact of these modifications on ammonia metabolism in Escherichia coli, thereby providing genetic targets for future production of therapeutic strains. To achieve this objective, we utilized a genome-scale metabolic model (GEM) of Escherichia coli Nissle 1917, a flux balance analysis (FBA) computational framework, and the OptGene gene optimization strategy. The GEM was provided by Hof et al., the FBA computational framework was supplied by COBRApy, and the OptGene algorithm was sourced from the Cameo library.</p>
    <h3>2.2 Identification of Ammonia-Related Reactions and Flux</h3>
-   <p>First, we loaded the genome-scale metabolic model **iDK1463** for Escherichia coli Nissle 1917, which includes **1,464** genes, **2,112** metabolites, and **2,984** reactions based on genomic annotations and experimental data. Subsequently, we employed the flux balance analysis (FBA) method to calculate the steady-state metabolic fluxes (i.e., reaction rates) for various metabolic reactions in the wild-type strain.</p>
+   <p>First, we loaded the genome-scale metabolic model <strong>iDK1463</strong>  for Escherichia coli Nissle 1917, which includes <strong>1,464</strong>  genes,<b>2,112</b> metabolites, and <b>2,984</b> reactions based on genomic annotations and experimental data. Subsequently, we employed the flux balance analysis (FBA) method to calculate the steady-state metabolic fluxes (i.e., reaction rates) for various metabolic reactions in the wild-type strain.</p>
    <div className="accordion">
       <div className="accordion-header" onClick={toggleAccordion}>
         <h3>{isOpen ? 'Collapse' : 'Click here to see the details of FBA method!'} ......</h3>
@@ -948,8 +948,7 @@ export function Model() {
                       <span className='formula_number'>1</span>
                   </div>
               </MathJax.Provider>
-      </div>
-    <p>Where:</p>
+              <p>Where:</p>
     <ul><li><MathJax.Provider>
                       <MathJax.Node inline formula={`v`} />
               </MathJax.Provider> is the <strong>flux vector</strong> , with each value representing the rate of a specific reaction.</li>
@@ -967,6 +966,65 @@ export function Model() {
 </ul>
 <p>In other words, the goal of FBA is to maximize the flux of the objective reaction (typically the biomass reaction) under the constraints of balanced input-output fluxes and ensuring that the fluxes of each reaction remain within their specified bounds</p>
 <p>In COBRApy, the default unit for flux is mmol/(gDW*hr), which represents the millimoles of a substance produced or consumed per gram dry cell weight per hour.</p>
+      </div>
+<p>To identify knockout targets, we ran FBA optimization on iDK1463, yielding the flux values for various metabolic reactions in the optimized strain. Next, we filtered out the reactions related to ammonia, excluding those with a flux of zero under normal physiological conditions. The biomass reaction and reactions linearly related to it were considered essential and not selected as targets. Ultimately, among the **6 reactions identified**, the flux of ammonia-producing reactions will be minimized, while the flux of ammonia-consuming reactions will be maximized.</p>
+<table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Formula</th>
+            <th>Flux [mmol/(gDW*hr)]</th>
+            <th>Strategy</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">CBMKr</td>
+            <td align="center">Carbamate kinase</td>
+            <td align="center">atp_c + co2_c + nh4_c &harr; adp_c + cbp_c + 2.0 h_c</td>
+            <td align="center">0.551604</td>
+            <td align="center">Maximize</td>
+        </tr>
+        <tr>
+            <td align="center">GMPS</td>
+            <td align="center">GMP synthase</td>
+            <td align="center">atp_c + nh4_c + xmp_c &rarr; amp_c + gmp_c + 2.0 h_c + ppi_c</td>
+            <td align="center">0.214121</td>
+            <td align="center">Maximize</td>
+        </tr>
+        <tr>
+            <td align="center">ASNS2</td>
+            <td align="center">Asparagine synthetase</td>
+            <td align="center">asp_L_c + atp_c + nh4_c &rarr; amp_c + asn_L_c + h_c + ppi_c</td>
+            <td align="center">0.212208</td>
+            <td align="center">Maximize</td>
+        </tr>
+        <tr>
+            <td align="center">GLYCL</td>
+            <td align="center">Glycine Cleavage System</td>
+            <td align="center">gly_c + nad_c + thf_c &rarr; co2_c + mlthf_c + nadh_c + nh4_c</td>
+            <td align="center">0.047647</td>
+            <td align="center">Minimize</td>
+        </tr>
+        <tr>
+            <td align="center">TRPAS2</td>
+            <td align="center">Tryptophanase (L-tryptophan)</td>
+            <td align="center">h2o_c + trp__L_c &harr; indole_c + nh4_c + pyr_c</td>
+            <td align="center">-0.050040</td>
+            <td align="center">Minimize</td>
+        </tr>
+        <tr>
+            <td align="center">GLUDy</td>
+            <td align="center">Glutamate dehydrogenase (NADP)</td>
+            <td align="center">glu__L_c + h2o_c + nadp_c &harr; akg_c + h_c + nadph_c + nh4_c</td>
+            <td align="center">-7.527480</td>
+            <td align="center">Minimize</td>
+        </tr>
+    </tbody>
+</table>
+
+
     </div>
 
                 <img 
