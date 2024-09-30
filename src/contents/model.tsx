@@ -1095,7 +1095,7 @@ export function Model() {
     </tbody>
 </table>
 
-    </div>
+
 
                 <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
