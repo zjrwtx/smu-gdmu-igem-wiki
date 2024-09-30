@@ -526,6 +526,9 @@ footer a:hover {
 .indent {
   text-indent: 20px; /* 设置首行缩进 20px */
 }
+.model-nav .side-navbar .nav-link.active{
+  width: 200px;
+}
 
 .side-navbar {
   width: 250px;
