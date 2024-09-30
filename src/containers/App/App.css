@@ -863,8 +863,9 @@ span.formula_line::-webkit-scrollbar-track {
 
 .model-font p {
   padding-right: 20% !important;
-  padding-left: 20px;
 }
+
+
 
 .footer-container {
   display: flex;
@@ -1286,3 +1287,8 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 60vw;
  }
+
+
+.col-10.model-font{
+  padding-left: 40px;
+}
