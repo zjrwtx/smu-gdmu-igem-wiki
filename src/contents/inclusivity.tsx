@@ -156,8 +156,21 @@ export function Inclusivity() {
               </div>
               
               <div className="rounded-border">
+              <h4 className="center-text">Public Health Regimen</h4>
+              <p className="indent">To promote inclusivity and enhance community engagement, the SMU-GDMU team introduced a series of self-compiled health exercises to the villagers. These exercises are designed to be both enjoyable and beneficial to physical health. By teaching these routines, we aim to encourage regular physical activity that is accessible to everyone, regardless of age or fitness level. The health exercises include simple movements that are easy to follow, ensuring that all participants can engage actively and derive health benefits. Through this initiative, we strive to create a fun and supportive environment where every individual can participate and enjoy the positive effects on their well-being, thereby fostering a sense of community and mutual support.</p>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/1-1.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+              </div>
+              </div>
+
+              <div className="rounded-border">
               <h4 className="center-text">Free Medical Services</h4>
-              <p className="indent">Not only that, but to better serve the villagers, the iGEM team, in collaboration with town government and health clinic staff, also provided comprehensive free medical services to the left-behind villagers by going deep into the villages. While waiting for the free medical services, Teacher Li Ling, the guidance teacher of the iGEM team, and other team members conducted a detailed survey among the villagers. The aim was to understand their awareness of the prevention and treatment of hepatic encephalopathy, as well as the treatment experiences and living habits of the patients.</p>
+              <p className="indent">Not only that, but to better serve the villagers, the iGEM team, in collaboration with town government and health clinic staff, also provided comprehensive free medical services to the left-behind villagers by going deep into the villages. At the same time, the team also had in-depth exchanges with the local health clinic, collected detailed information about hepatic encephalopathy, and compiled a list of villagers. Starting with the patients who needed the most attention, team members conducted one-on-one visits, communication, and health guidance in each household. We hope that through this initiative, we can help them understand and prevent hepatic encephalopathy, and eliminate the information barriers associated with living in rural areas.</p>
               <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/award-inclusivity/555555-1.webp"
@@ -165,8 +178,7 @@ export function Inclusivity() {
                 className="image-wide"
                 />
                 <figcaption className='caption'>12345678</figcaption>
-                </div>
-              <p className="indent">At the same time, the team also had in-depth exchanges with the local health clinic, collected detailed information about hepatic encephalopathy, and compiled a list of villagers. Starting with the patients who needed the most attention, team members conducted one-on-one visits, communication, and health guidance in each household. We hope that through this initiative, we can help them understand and prevent hepatic encephalopathy, and eliminate the information barriers associated with living in rural areas.</p>
+               </div>
               </div>
               
               <div className="rounded-border">
