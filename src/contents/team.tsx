@@ -97,6 +97,7 @@ export function Team() {
     card33: 'https://static.igem.wiki/teams/5378/team-member/3301-1.webp',
     card34: 'https://static.igem.wiki/teams/5378/team-member/3401.webp',
     card35: 'https://placehold.co/600x800',
+    card36: 'https://placehold.co/600x800',
 
 
   };
@@ -138,6 +139,7 @@ export function Team() {
     card33: 'Hello this is Tina from The University of Singapore. The best way to predict the future is to create it!',
     card34: 'Jian Sun, representative of the 14th National People\'s Congress of China, serving as the president, second-level professor and chief physician of Nanfang Hospital, Southern Medical University, Guangzhou. His research interests focus on the pathogenesis, diagnosis and treatment of chronic hepatitis B and other metabolic associtaed liver diseases.',
     card35: 'aminuosi',
+    card36: 'aminuosi',
 
   };
 
@@ -174,9 +176,10 @@ export function Team() {
     card30:'Ke Liu',
     card31:'Yingying Chen',
     card32:'Xingan Zhao',
-    card33:'Zhilin Wu',
+    card33:'Zhiling Wu',
     card34:'Jian Sun',
-    card35:'',
+    card35:'Qingfeng Zhu',
+    card36: 'Sheng Shen',
   }
 
   // 下方定义重要！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
@@ -236,53 +239,77 @@ export function Team() {
 
           </div>
 
-          <div className='row justify-content-center h1'>Instructor</div>
+          <div className='row justify-content-center h1'>PRIMARY & Secondary PIs</div>
           <div className='row'>
             <div className='card-body'>
-            <div className="col-3 margin-20">
+            <div className="col-3">
               <Card
                 id="card34"
                 image1="https://static.igem.wiki/teams/5378/team-member/3401.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/3402.webp"
                 title1="Jian Sun"
-                description1="INSTRUCTOR"
+                description1="PRIMARY PIs"
                 onHover={handleCardHover}
               />
             </div>
-
-            <div className="col-3 margin-20">
-            <Card
-                id="card16"
-                image1="https://static.igem.wiki/teams/5378/team-member/1601-1.webp"
-                image2="https://static.igem.wiki/teams/5378/team-member/1602-1.webp"
-                title1="Hua Zhang"
-                description1="INSTRUCTOR"
-                onHover={handleCardHover}
-              />
-            </div>
-            <div className="col-3 margin-20">
+            <div className="col-3">
             <Card
                 id="card24"
                 image1="https://static.igem.wiki/teams/5378/team-member/2401-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2402-1.webp"
                 title1="Ling Li"
-                description1="PRIMARY PI"
+                description1="PRIMARY PIs"
                 onHover={handleCardHover}
               />
             </div>
+            <div className="col-3">
+            <Card
+                id="card16"
+                image1="https://static.igem.wiki/teams/5378/team-member/1601-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1602-1.webp"
+                title1="Hua Zhang"
+                description1="Secondary PIs"
+                onHover={handleCardHover}
+              />
             </div>
-          
 
-          </div>
-          <div className="row">
-            <div className='card-body'>
-            <div className="col-3 margin-20">
+            <div className="col-3">
             <Card
                 id="card6"
                 image1="https://static.igem.wiki/teams/5378/team-member/0601-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0602-1.webp"
                 title1="Xiaolong He"
-                description1="INSTRUCTOR"
+                description1="Secondary PIs"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            </div>
+          
+
+          </div>
+
+          <div className='row justify-content-center h1'>Instructors</div>
+          <div className="row">
+            <div className='card-body'>
+            <div className="col-3 margin-20">
+            <Card
+                id="card35"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
+                title1="Qingfeng Zhu"
+                description1="Instructors"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3 margin-20">
+            <Card
+                id="card36"
+                image1="https://placehold.co/600x800"
+                image2="https://placehold.co/600x800"
+                title1="Sheng Shen"
+                description1="Instructors"
                 onHover={handleCardHover}
               />
             </div>
@@ -293,7 +320,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2301-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2302-1.webp"
                 title1="Kun Liu"
-                description1="INSTRUCTOR"
+                description1="Instructors"
                 onHover={handleCardHover}
               />
             </div>
@@ -309,7 +336,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1001-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1002-1.webp"
                 title1="Wenrong Wen"
-                description1="ADVISOR"
+                description1="Advisors"
                 onHover={handleCardHover}
               />
             </div>
@@ -319,7 +346,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0501-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0502-1.webp"
                 title1="Yuhao Lin"
-                description1="ADVISOR"
+                description1="Advisors"
                 onHover={handleCardHover}
               />
             </div>
@@ -329,13 +356,39 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/3101-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/3102-1.webp"
                 title1="Yingying Chen"
-                description1="ADVISOR"
+                description1="Advisors"
                 onHover={handleCardHover}
               />
             </div>
             </div>
-            
+          </div>
 
+          <div className="row">
+            <div className='card-body'>
+            <div className="col-3 margin-20">
+              <Card
+                id="card25"
+                image1="https://static.igem.wiki/teams/5378/team-member/2501-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/2502-1.webp"
+                title1="Jiajin Li"
+                description1="Advisors"
+                onHover={handleCardHover}
+              />
+            </div>
+
+            <div className="col-3 margin-20">
+            <Card
+                id="card33"
+                image1="https://static.igem.wiki/teams/5378/team-member/3301-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/3302-1.webp"
+                title1="ZhiLing Wu"
+                description1="Advisors"
+                onHover={handleCardHover}
+              />
+
+
+            </div>
+            </div>
           </div>
 
           <div className='row justify-content-center h1'>Student Member</div>
@@ -347,7 +400,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2901-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2902-1.webp"
                 title1="Junhao Li"
-                description1="Background Research, Public Engagement, Visualization"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -358,7 +411,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0101-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0102-1.webp"
                 title1="Keyi Zhan"
-                description1="Public Engagement"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -368,7 +421,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0701-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0702-1.webp"
                 title1="Yijingxuan Duan"
-                description1="Public Engagement"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -378,7 +431,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0801-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0802-1.webp"
                 title1="Luming Huang"
-                description1="example"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -390,7 +443,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1301-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1302-1.webp"
                 title1="Wenyi Guan"
-                description1="Project description"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -400,7 +453,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1401-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1402-1.webp"
                 title1="Jianhua Zhang"
-                description1="example"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -410,7 +463,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1501-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1502-1.webp"
                 title1="Runze Wen"
-                description1="Visualization"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -421,7 +474,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0201-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0202-1.webp"
                 title1="Ming Zhu"
-                description1="example"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -434,7 +487,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1701-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1702-1.webp"
                 title1="Guozhuo Cai"
-                description1="Analysis"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -444,7 +497,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1801-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1802-1.webp"
                 title1="Yingying Yang"
-                description1="Public Engagement"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -454,7 +507,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/1901-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1902-1.webp"
                 title1="Weihuan Li"
-                description1="example"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -464,7 +517,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2001-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2002-1.webp"
                 title1="Yifeng Wang"
-                description1="Visualization"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -476,7 +529,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2101-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2102-1.webp"
                 title1="Feier Tian"
-                description1="example"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -486,7 +539,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0901-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0902-1.webp"
                 title1="Wan Li"
-                description1="Public Engagement"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -497,7 +550,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0301-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0302-1.webp"
                 title1="Yihan Wu"
-                description1="Public Engagement"
+                description1="Students"
                 onHover={handleCardHover}
               />
 
@@ -508,30 +561,26 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/0401-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/0402-1.webp"
                 title1="Shenglin Chen"
-                description1="Analysis"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
           </div>
 
           <div className="row">
-            <div className="col-3">
-              <Card
-                id="card25"
-                image1="https://static.igem.wiki/teams/5378/team-member/2501-1.webp"
-                image2="https://static.igem.wiki/teams/5378/team-member/2502-1.webp"
-                title1="Jiajin Li"
-                description1="example"
-                onHover={handleCardHover}
-              />
-            </div>
+            
+
+
+
+
+            
             <div className="col-3">
               <Card
                 id="card26"
                 image1="https://static.igem.wiki/teams/5378/team-member/2601-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2602-1.webp"
                 title1="Kang Wang"
-                description1="example"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -541,7 +590,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2701-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2702-1.webp"
                 title1="Meitong Han"
-                description1="example"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -551,41 +600,7 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/2801-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/2802-1.webp"
                 title1="Yanqiu Cai"
-                description1="Public Engagement"
-                onHover={handleCardHover}
-              />
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-3">
-              
-            <Card
-                id="card33"
-                image1="https://static.igem.wiki/teams/5378/team-member/3301-1.webp"
-                image2="https://static.igem.wiki/teams/5378/team-member/3302-1.webp"
-                title1="ZhiLin Wu"
-                description1="example"
-                onHover={handleCardHover}
-              />
-            </div>
-            <div className="col-3">
-              <Card
-                id="card30"
-                image1="https://static.igem.wiki/teams/5378/team-member/3001-1.webp"
-                image2="https://static.igem.wiki/teams/5378/team-member/3002-1.webp"
-                title1="Ke Liu"
-                description1="example"
-                onHover={handleCardHover}
-              />
-            </div>
-            <div className="col-3">
-            <Card
-                id="card11"
-                image1="https://static.igem.wiki/teams/5378/team-member/1101-1.webp"
-                image2="https://static.igem.wiki/teams/5378/team-member/1102-1.webp"
-                title1="Ziyuan Liu"
-                description1="Investigation"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
@@ -595,22 +610,51 @@ export function Team() {
                 image1="https://static.igem.wiki/teams/5378/team-member/3201.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/3202.webp"
                 title1="Xingan Zhao"
-                description1="Wiki"
+                description1="Students"
                 onHover={handleCardHover}
               />
             </div>
           </div>
 
           <div className="row">
-          <div className="col-3">
-              <Card
+            <div className="col-3">
+            <Card
                 id="card12"
                 image1="https://static.igem.wiki/teams/5378/team-member/1201-1.webp"
                 image2="https://static.igem.wiki/teams/5378/team-member/1202-1.webp"
                 title1="Pan Zhao"
-                description1="Safety"
+                description1="Students"
                 onHover={handleCardHover}
               />
+            
+
+            </div>
+            <div className="col-3">
+              <Card
+                id="card30"
+                image1="https://static.igem.wiki/teams/5378/team-member/3001-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/3002-1.webp"
+                title1="Ke Liu"
+                description1="Students"
+                onHover={handleCardHover}
+              />
+            </div>
+            <div className="col-3">
+            <Card
+                id="card11"
+                image1="https://static.igem.wiki/teams/5378/team-member/1101-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/1102-1.webp"
+                title1="Ziyuan Liu"
+                description1="Students"
+                onHover={handleCardHover}
+              />
+            </div>
+            
+          </div>
+
+          <div className="row">
+          <div className="col-3">
+              
             </div>
             <div className="col-3">
               <Card
