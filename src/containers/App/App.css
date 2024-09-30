@@ -1292,3 +1292,19 @@ span.formula_line::-webkit-scrollbar-track {
 .col-10.model-font{
   padding-left: 40px;
 }
+
+.model-table.three-line-table th, .model-table.three-line-table td {
+  width: 20%;
+  max-width: 200px;
+  word-wrap: break-word;
+  word-break: break-all; /* 强制在边界处断字 */
+  text-align: left;
+  overflow:visible;
+  white-space: normal;
+}
+
+.model-table.three-line-table td{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
