@@ -922,11 +922,6 @@ export function Model() {
                         </table>
 
                     </Element>
-                    <div className="bd-callout bd-callout-info bg-gray">
-                        <h1>What do we do to ...? See...</h1>
-                    </div>
-
-
                     <Element name="section2" className="element" id='section2'>
                         <h2>PART2 Metabolic Engineering Strategy to Reduce Ammonia Production</h2>
                         <h3>2.1 Goals</h3>
@@ -993,8 +988,6 @@ export function Model() {
                                     < img src='https://static.igem.wiki/teams/5378/model/model2.webp' className='responsive-img' />
                                     <figcaption className='caption'>Figure 2: Representation of the metabolic genotype</figcaption>
                                 </div>
-
-
                             </div>
                         </div>
                         <p>Based on the OptiGene algorithm, we identified two valuable target reactions: <b>Glycine Cleavage System (GLYCL)</b> and <b>Glutamate Dehydrogenase (NADP, GLUDy)</b>. The main reactions involved, the candidate knockout targets, and the effects of their knockout on flux are summarized in the table below:</p>
@@ -1007,23 +1000,6 @@ export function Model() {
 
 
                     <Element name="section3" className="element " id='section3'>
-                        <h2>Section 3</h2>
-                        <p>Content for section 3.</p>
-                        <div className="">
-                            <h4 className="center-text">Section 3</h4>
-                            <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-                            <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-
-                            <MathJax.Provider>
-                                <div className='indent'>
-                                    {/* 行内编辑数学公式，相比于下面那个方便一些。去掉inline的话效果就和下面那个一样了。 */}
-                                    This is an inline math formula: <MathJax.Node inline formula={`f(x) = \\int_{-\\infty}^\\infty
-                                                                                    \\hat f(\\xi)\\,e^{2 \\pi i \\xi x}
-                                                                                    \\,d\\xi`} />
-                                </div>
-                            </MathJax.Provider>
-                        </div>
-
                     </Element>
 
 
