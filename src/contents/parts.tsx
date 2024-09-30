@@ -70,15 +70,21 @@ export function parts() {
   
     return (
       <>
+      <div className="custom-header-model">
+                <h1 className="centered-title">
+                <img
+                        src="https://static.igem.wiki/teams/5378/header/parts.png"
+                        alt="safety header"
+                        className="header-img"
+                    />
+                    <img
+                        src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
+                        alt="safety header"
+                        className="header-bar"
+                    />
+                </h1>
+            </div>
 
-        <div className="custom-header-parts">
-            
-            <img 
-                src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
-                alt="safety header"
-                className="header-bar"
-              />
-        </div>
         <div className='row bg-rice_yellow'>
         <div className="col-2">
             <SideNavbar activeLink={activeLink}          />

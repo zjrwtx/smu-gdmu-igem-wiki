@@ -112,11 +112,16 @@ export function Model() {
                         className="header-img"
                     />
                     <img
+                        src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
+                        alt="safety header"
+                        className="header-bar"
+                    />
+                    {/* <img
                         src="https://static.igem.wiki/teams/5378/model/model-page.webp"
                         alt="safety header"
                         className="header-bar"
                         style={{ opacity: 0.7 }}
-                    />
+                    /> */}
                 </h1>
             </div>
             <div className="row  bg-rice_yellow">
