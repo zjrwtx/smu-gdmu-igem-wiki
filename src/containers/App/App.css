@@ -1144,12 +1144,28 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 50vw;
  }
+ .page-element-12:hover {
+  position: absolute;
+  left: 50vw;
+  top: 0;
+  height: auto;
+  width: 50vw;
+  transform: scale(1.1);
+ }
  .page-element-13 {
   position: absolute;
   left: 0;
   top: 0;
   height: auto;
   width: 49vw;
+ }
+ .page-element-13:hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: auto;
+  width: 49vw;
+  transform: scale(1.1);
  }
  .page-element-14 {
   position: absolute;
@@ -1158,13 +1174,23 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 50vw;
  }
+ .page-element-14:hover {
+  position: absolute;
+  left: 0;
+  top: 28vw;
+  height: auto;
+  width: 50vw;
+  transform: scale(1.1);
+ }
  .page-element-15 {
   position: absolute;
-  left: 30vw;
+  left: 35vw;
   top: 10vw;
   height: auto;
-  width: 60vw;
+  width: 40vw;
  }
+ 
+
  .page-element-16 {
   position: absolute;
   left: 17vw;

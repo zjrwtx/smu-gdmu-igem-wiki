@@ -1,4 +1,5 @@
 
+
 export function Home() {
 
   return (
@@ -215,13 +216,7 @@ export function Home() {
             className="home-img-wide"
           />
         </div>
-
-
       </div>
-
-
-
-
     </div>
   );
 }
