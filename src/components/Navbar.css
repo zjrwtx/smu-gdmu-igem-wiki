@@ -5,7 +5,21 @@
   vertical-align: middle;
 }
 
+@font-face {
+  font-family: 'pangolin';
+  src: url('https://static.igem.wiki/teams/5378/font/pangolin-regular.woff2') format('woff2'),
+       url('https://static.igem.wiki/teams/5378/font/pangolin-regular.woff') format('woff'); 
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'LexieReadable';
+  src: url('https://static.igem.wiki/teams/5378/font/lexiereadable-regular.woff') format('woff2'),
+       url('https://static.igem.wiki/teams/5378/font/lexiereadable-bold.woff') format('woff'); 
+  font-weight: normal;
+  font-style: normal;
+}
 .apple-navbar {
   /* background-color: rgba(255, 255, 255, 0.8); */
   background-color: rgba(245, 245, 220,0.8);
@@ -27,7 +41,7 @@
 }
 
 .apple-nav {
-  font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'pangolin', cursive;
   margin-right: auto;
 }
 
