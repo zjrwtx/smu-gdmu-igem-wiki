@@ -967,6 +967,7 @@ export function Model() {
 <p>In other words, the goal of FBA is to maximize the flux of the objective reaction (typically the biomass reaction) under the constraints of balanced input-output fluxes and ensuring that the fluxes of each reaction remain within their specified bounds</p>
 <p>In COBRApy, the default unit for flux is mmol/(gDW*hr), which represents the millimoles of a substance produced or consumed per gram dry cell weight per hour.</p>
       </div>
+      </div>
 <p>To identify knockout targets, we ran FBA optimization on iDK1463, yielding the flux values for various metabolic reactions in the optimized strain. Next, we filtered out the reactions related to ammonia, excluding those with a flux of zero under normal physiological conditions. The biomass reaction and reactions linearly related to it were considered essential and not selected as targets. Ultimately, among the **6 reactions identified**, the flux of ammonia-producing reactions will be minimized, while the flux of ammonia-consuming reactions will be maximized.</p>
 <table>
     <thead>
