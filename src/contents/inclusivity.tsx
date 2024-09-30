@@ -113,7 +113,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>SMU-GDMU iGEM Team Members Group Photo</figcaption>
               </div>
               </Element>
 
