@@ -1,17 +1,23 @@
-image: node:18.20.0
+image: node:18.20.0-alpine
+
+stages:
+  - build
 
 build:
   stage: build
   cache:
-    - key:
-        files:
-          - yarn.lock
-      paths:
-        - .yarn-cache/
+    key:
+      files:
+        - yarn.lock
+    paths:
+      - .yarn-cache/
+    policy: pull
   before_script:
     - echo 'yarn-offline-mirror ".yarn-cache/"' >> .yarnrc
     - echo 'yarn-offline-mirror-pruning true' >> .yarnrc
     - yarn install --frozen-lockfile
+    - yarn cache clean
+    - rm -rf node_modules/.cache
   script:
     - yarn build
   rules:
@@ -20,15 +26,18 @@ build:
 pages:
   stage: build
   cache:
-    - key:
-        files:
-          - yarn.lock
-      paths:
-        - .yarn-cache/
+    key:
+      files:
+        - yarn.lock
+    paths:
+      - .yarn-cache/
+    policy: pull
   before_script:
     - echo 'yarn-offline-mirror ".yarn-cache/"' >> .yarnrc
     - echo 'yarn-offline-mirror-pruning true' >> .yarnrc
     - yarn install --frozen-lockfile
+    - yarn cache clean
+    - rm -rf node_modules/.cache
   script:
     - yarn build
     - cp -a dist/. public/
