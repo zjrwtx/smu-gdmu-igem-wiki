@@ -251,68 +251,21 @@ export function Inclusivity() {
                 </div>
               
               </div>
-              
-              <div className="rounded-border">
-              <h4 className="center-text">Collaboration</h4>
-              <p className="indent">The team collaborated with the Liver Disease Center of Southern Hospital and the Microecological Diagnosis and Treatment Center of Pearl River Hospital. Under their guidance, the team collected the serum of cirrhosis patients before TIPS operation and conducted metabolomics detection. They also followed up on the patients for three months to record the incidence of HE;</p>
-              <p className="indent">The team participated in the South China Exchange Conference, sharing the progress of the project and project experience with Shenzhen University, Southern University of Science and Technology, etc.;</p>
-              <p className="indent">The team was invited to participate in the China Regional Exchange Conference CCIC, where they had in-depth communication with other teams to improve project optimization and cooperation, promoting the development of their respective projects.</p>
-              <div className='image-container'>
-              <img 
-                src="https://static.igem.wiki/teams/5378/award-inclusivity/1010101001-4-1.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>12345678</figcaption>
-
-                <img 
-                src="https://static.igem.wiki/teams/5378/award-inclusivity/12121212-1-1-1.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>12345678</figcaption>
-                </div>
-              
-              
-              </div>
-
-              <div className="rounded-border">
-              <h4 className="center-text">Communication with professors</h4>
-              <p className="indent">To refine our project design, we interviewed several doctors and professors for their advice.</p>
-              <p className="indent">To perfect and determine the direction of the sensing module, we interviewed Professor Zhu from the First Affiliated Hospital of Sun Yat-sen University, who suggested that we switch to a bile acid-responsive marker to address the issue of not finding a suitable ammonia-inducible promoter; subsequently, following the advice of Professor He from the Zhujiang Hospital of Southern Medical University, our team replaced bile acid with PEA.</p>
-              <p className="indent">To refine the design of the safety module, we approached President Zhou from Shenzhen Hospital, an expert in hepatic encephalopathy and gut microbiota, who offered valuable suggestions to address complications.</p>
-              <p className="indent">To resolve experimental issues, we consulted with Professor Chen from the School of Basic Medical Sciences at Southern Medical University and also had an online discussion with Teacher Qiu from the National University of Defense Technology.</p>
-              <p className="indent">Additionally, another female scientist we interviewed was Professor Ren from the School of Marxism, who provided us with advice from an ethical safety perspective. She advised that any genetic editing of organisms must be conducted in accordance with existing ethical regulations, especially adhering to the "do not disseminate principle"; at the same time, it is imperative not to release genetically modified organisms or products of genetically modified organisms from the laboratory into the environment, and any sites of genetic editing or deletion and the sequences edited must be reported to the safety committee.</p>
-              <p className="indent">Subsequently, she reminded us that our project should be educational and popularizing, capable of enhancing the public's understanding and awareness of synthetic biology, and through public interaction and the organization of science popularization activities, allow more people to understand the significance, value, and application prospects of the project.</p>
-              <div className='image-container'>
-              <img 
-                src="https://static.igem.wiki/teams/5378/award-inclusivity/999999999-1.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>12345678</figcaption>
-
-                <img 
-                src="https://static.igem.wiki/teams/5378/award-inclusivity/13131313-2-1.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>12345678</figcaption>
-                </div>
-              
-              
-              </div>
 
               </Element>
 
               <Element name="section7" className="element rounded-border" id='section7'>
-              <h2>Section 7</h2>
-              <p>Content for section 7.</p>
+              <h2>Inclusivity within our team</h2>
               <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">（1）Interdisciplinary Team:</h4>
+              <p className="indent">Modern science is both highly differentiated and highly integrated, while intersectional science combines differentiation and synthesis to realize the integration of science. Interdisciplinary  science is a comprehensive and interdisciplinary product, which is conducive to solving the major complex scientific problems, social problems and global problems faced by mankind.</p>
+              <p className="indent">Our team is composed of students from various disciplines, including Clinical Medicine, Statistics, Bioinformatics, Psychiatry, Preventive Medicine, Medical Laboratory Technology, Biomedical Materials Science, Applied Psychology, Information Management and Information Systems, and Health Insurance Studies, etc.. This diversity contributes to inspiring thinking collisions and continuous innovation.</p>
+              <h4 className="center-text">（2）Multi-Ethnic Team</h4>
+              <p className="indent">Our team is a multicultural ensemble, composed of members from various ethnic backgrounds, including Tibetan, Hani, Tujia, Miao, and Han ethnicities. This diversity enriches our perspectives and enhances our ability to address challenges inclusively. By bringing together individuals from different cultural backgrounds, we foster a collaborative environment that values unique viewpoints and experiences. Each member contributes to our team's strength, allowing us to approach problems with a broader and more inclusive mindset.</p>
+              <h4 className="center-text">（3）Team Building</h4>
+              <p className="indent">"Alone we can do so little; together we can do so much."Team building is highly valued, and we owe our success and harmonious atmosphere to it. When we build connections with each other, when we realize our responsibility for the project, when we feel a sense of belonging to the team, it's natural to dedicate to the research. We hope all future iGEM teams attach importance to team building, which undoubtedly contributes to work efficiency and most importantly, precious relationships.</p>
               </div>
+              
               </Element>
 
               <Element name="section8" className="element rounded-border" id='section8'>
