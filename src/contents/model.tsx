@@ -119,7 +119,7 @@ export function Model() {
                 </h1>
             </div>
             <div className="row  bg-rice_yellow">
-                <div className="col-2">
+                <div className="col-2 model-nav">
                     <SideNavbar activeLink={activeLink} />
                 </div>
 
