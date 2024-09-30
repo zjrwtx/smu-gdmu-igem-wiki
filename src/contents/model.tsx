@@ -66,7 +66,6 @@ export function Model() {
               />
 </h1>
 </div>
-
       <div className="row  bg-rice_yellow">
         <div className="col-2">
           <SideNavbar activeLink={activeLink}          />
@@ -923,26 +922,54 @@ export function Model() {
 </table>
 
                </Element>
-       
                <div className="bd-callout bd-callout-info bg-gray">
                   <h1>What do we do to ...? See...</h1>
                 </div>
 
-                <div className="accordion">
-
-      <div className="accordion-header" onClick={toggleAccordion}>
-        <h3>{isOpen ? 'Collapse' : 'Learn more about'} ......</h3>
-      </div>
-      <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam possimus consequatur nesciunt iure labore voluptatem! Unde, voluptates ipsam et soluta minima hic, aliquid, nam doloribus illo quas odit ducimus? Vero?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem laudantium asperiores tempore quisquam repellendus deleniti corporis ratione dolores eligendi, atque impedit esse dolore eum sequi harum cum cumque quae necessitatibus!longerlore!</p>
-      </div>
-
-    </div>
               
               <Element name="section2" className="element" id='section2'>
-                <h2>Section 2</h2>
-                <p>Content for section 2.</p>
-                <MathJax.Provider>
+                <h2>PART2 Metabolic Engineering Strategy to Reduce Ammonia Production</h2>
+                <h3>2.1 Goals</h3>
+                <p>In Escherichia coli Nissle 1917, various metabolic processes, such as amino acid deamination and urea metabolism, generate ammonia, which may pose potential risks to patients undergoing treatment with engineered bacteria. In our wet lab experiments, we utilized M9 medium to reduce ammonia production; however, it is crucial to decrease the strain's intrinsic ammonia production through methods such as gene knockout for strains intended for therapeutic use.</p>
+               <p>Our goal is to identify the key genes influencing ammonia production and uptake, and to perform knockouts based on their effects on ammonia metabolism. This approach aims to simulate the overall impact of these modifications on ammonia metabolism in Escherichia coli, thereby providing genetic targets for future production of therapeutic strains. To achieve this objective, we utilized a genome-scale metabolic model (GEM) of Escherichia coli Nissle 1917, a flux balance analysis (FBA) computational framework, and the OptGene gene optimization strategy. The GEM was provided by Hof et al., the FBA computational framework was supplied by COBRApy, and the OptGene algorithm was sourced from the Cameo library.</p>
+   <h3>2.2 Identification of Ammonia-Related Reactions and Flux</h3>
+   <p>First, we loaded the genome-scale metabolic model **iDK1463** for Escherichia coli Nissle 1917, which includes **1,464** genes, **2,112** metabolites, and **2,984** reactions based on genomic annotations and experimental data. Subsequently, we employed the flux balance analysis (FBA) method to calculate the steady-state metabolic fluxes (i.e., reaction rates) for various metabolic reactions in the wild-type strain.</p>
+   <div className="accordion">
+      <div className="accordion-header" onClick={toggleAccordion}>
+        <h3>{isOpen ? 'Collapse' : 'Click here to see the details of FBA method!'} ......</h3>
+      </div>
+      
+      <div className={`accordion-content ${isOpen ? 'open' : ''}`}>
+        <p>FBA is a constraint-based reconstruction and analysis (COBRA) method that requires input data including all reactions involved in the metabolic processes, the upper and lower bounds for the flux of each reaction, and the weights for each reaction in the optimization objective. This framework allows for the systematic evaluation of metabolic network behavior under specified constraints, enabling the identification of optimal flux distributions that align with the chosen objectives.</p>
+      <p>The basic mathematical model of FBA can be expressed in the following linear programming form</p>
+      <MathJax.Provider>
+                  <div className='indent formula_content' >
+                  <span className = 'formula_line'><MathJax.Node  formula={`\\begin{align*}&\\max  \\quad  \\mathbf{c}^T \\mathbf{v}\\\\&\\begin{array}{r@{\\quad}l@{}l@{\\quad}l}\\text{s.t.}  \\quad & \\mathbf{S} \\mathbf{v} = \\mathbf{0}\\\\&\\mathbf{v}_{\\text{min}} \\leq \\mathbf{v} \\leq \\mathbf{v}_{\\text{max}}\\end{array} \\end{align*}`} /> </span>   
+                      <span className='formula_number'>1</span>
+                  </div>
+              </MathJax.Provider>
+      </div>
+    <p>Where:</p>
+    <ul><li><MathJax.Provider>
+                      <MathJax.Node inline formula={`v`} />
+              </MathJax.Provider> is the <strong>flux vector</strong> , with each value representing the rate of a specific reaction.</li>
+    <li><MathJax.Provider>
+                      <MathJax.Node inline formula={`c`} />
+              </MathJax.Provider> is the <strong>coefficient vector</strong>  of the objective function, which includes the weight values for each reaction in the optimization objective. Typically, the goal is to maximize the biomass reaction to promote the fastest growth of the organism, with the weight of the biomass reaction set to 1 and all other reactions set to 0.</li>
+    <li><MathJax.Provider>
+                      <MathJax.Node inline formula={`S`} />
+              </MathJax.Provider> is the <strong>stoichiometric matrix</strong> of the metabolic network, where rows represent metabolites and columns represent reactions. The values indicate the stoichiometric coefficients of metabolites in the reactions, with substrates represented as negative and products as positive.</li>
+    <li><MathJax.Provider>
+                      <MathJax.Node inline formula={`v_{min}`} />
+              </MathJax.Provider> and <MathJax.Provider>
+                      <MathJax.Node inline formula={`v_{max}`} />
+              </MathJax.Provider> are the <strong>lower and upper bounds</strong>  on the fluxes, respectively.</li>
+</ul>
+<p>In other words, the goal of FBA is to maximize the flux of the objective reaction (typically the biomass reaction) under the constraints of balanced input-output fluxes and ensuring that the fluxes of each reaction remain within their specified bounds</p>
+<p>In COBRApy, the default unit for flux is mmol/(gDW*hr), which represents the millimoles of a substance produced or consumed per gram dry cell weight per hour.</p>
+    </div>
+
+                <MathJax.Propvider>
                   <div className='indent'>
                       {/* 行内编辑数学公式，相比于下面那个方便一些。去掉inline的话效果就和下面那个一样了。 */}
                       This is an inline math formula: <MathJax.Node inline formula={`f(x) = \\int_{-\\infty}^\\infty
