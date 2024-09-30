@@ -988,7 +988,7 @@ export function Model() {
                                 <h3>{isOpen1 ? 'Collapse' : 'Click here to see the details of FBA method!'} ......</h3>
                             </div>
 
-                            <div className={`accordion-content ${isOpen1 ? 'open' : ''}`}>
+                            <div className={`accordion-content-model ${isOpen1 ? 'open' : ''}`}>
                                 <p>FBA is a constraint-based reconstruction and analysis (COBRA) method that requires input data including all reactions involved in the metabolic processes, the upper and lower bounds for the flux of each reaction, and the weights for each reaction in the optimization objective. This framework allows for the systematic evaluation of metabolic network behavior under specified constraints, enabling the identification of optimal flux distributions that align with the chosen objectives.</p>
                                 <p>The basic mathematical model of FBA can be expressed in the following linear programming form</p>
                                 <MathJax.Provider>
@@ -1052,7 +1052,7 @@ export function Model() {
                                 <h3>{isOpen2 ? 'Collapse' : 'Click here to see the details of OptGene algorithm!'} ......</h3>
                             </div>
 
-                            <div className={`accordion-content ${isOpen2 ? 'open' : ''}`}>
+                            <div className={`accordion-content-model ${isOpen2 ? 'open' : ''}`}>
                                 <p>OptGene is a target gene search algorithm based on genetic algorithms (GA), which utilize the principles of Darwinian evolution to search for global optimal solutions. The basic workflow is outlined as follows:</p>
                                 <ol><li><b>Population Initialization</b> : A specified number of solutions are randomly generated, where each solution is represented as a one-hot encoded gene "switch" vector. In this vector, a gene marked as "on" has a value of 1, indicating normal expression, while a gene marked as "off" has a value of 0, indicating that the gene is knocked out. Each solution is referred to as an individual.</li>
                                     <li><b>Fitness Calculation</b> : The fitness (objective function value) of each individual is calculated, taking into account three factors: the biomass should be maximized, ammonia production should be minimized (or ammonia consumption should be maximized), and the number of genes knocked out should be minimized. Biomass, ammonia production, and ammonia consumption will be computed using the FBA method.</li>
