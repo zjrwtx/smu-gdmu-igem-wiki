@@ -863,6 +863,7 @@ span.formula_line::-webkit-scrollbar-track {
 
 .model-font p {
   padding-right: 20% !important;
+  padding-left: 20px;
 }
 
 .footer-container {
