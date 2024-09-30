@@ -105,7 +105,7 @@ export function Inclusivity() {
               <p>"We are all connected in the great web of existence." — Chief Seattle</p>
               <div className="rounded-border">
               <h4 className="center-text">To see</h4>
-              <p className="indent">Through iGEM, we recognize the importance of diversity and inclusivity in the scientific community. We are committed to making the synthetic biology community more accessible to minority groups and creating a learning environment where everyone feels welcome. Our project focuses on the urban-rural divide, aiming to help rural residents break down barriers to information and promote educational equity. At the same time, we have adopted a completely new approach by combining synthetic biology with Socially popular art crafts, allowing everyone to benefit from our education. In our project, we have consulted experts in various fields and communicated with other iGEM teams. We are convinced that through these initiatives, we are connected to the entire world.</p>
+              <p className="indent">Through iGEM, we recognize the importance of diversity and inclusivity in the scientific community.Our team is committed to the inclusion of people from diverse backgrounds in scientific research, particularly in the areas of educational equity and social inclusion in urban and rural areas. Through a series of concrete activities, we help people of different identities and backgrounds to learn about science, in particular the importance and applications of hepatic encephalopathy and synthetic biology. Our aim is to enable everyone to do their part to improve health and promote scientific progress, and to stimulate interest in scientific research, wherever they come from.</p>
               </div>
               <div className='image-container'>
               <img 
@@ -113,7 +113,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>SMU-GDMU iGEM Team Members Group Photo</figcaption>
               </div>
               </Element>
 

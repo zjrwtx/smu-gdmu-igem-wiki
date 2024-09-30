@@ -1,3 +1,5 @@
+// 导航顺序
+
 import {
   Attributions,
   Contribution,
@@ -6,7 +8,7 @@ import {
   Experiments,
   Home,
   HumanPractices,
-  Notebook,
+
   Results,
   Safety,
   Team,
@@ -17,7 +19,7 @@ import {
   collaboration,
   parts,
 } from "./contents";
-import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward, FaBook, FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake } from "react-icons/fa"; // 引入图标
+import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward,  FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake } from "react-icons/fa"; // 引入图标
 
 interface Base {
   name: string | undefined;
@@ -106,13 +108,14 @@ const Pages: (Page | Folder)[] = [
         icon: FaFlask,
       },
       {
-        name: "Notebook",
-        title: "Notebook",
-        path: "/notebook",
-        component: Notebook,
-        lead: "Document the dates you worked on your project. This should be a detailed account of the work done each day for your project.",
-        icon: FaBook,
+        name: "Model",
+        title: "Model",
+        path: "/model",
+        component: Model,
+        lead: "Explain your model's assumptions, data, parameters, and results in a way that anyone could understand.",
+        icon: FaCogs,
       },
+
       {
         name: "Results",
         title: "Results",
@@ -175,14 +178,7 @@ const Pages: (Page | Folder)[] = [
         lead: "Every individual, regardless of background or experience, should have an equal opportunity to engage with scientific knowledge and technological development.",
         icon: FaUniversalAccess,
       },
-      {
-        name: "Model",
-        title: "Model",
-        path: "/model",
-        component: Model,
-        lead: "Explain your model's assumptions, data, parameters, and results in a way that anyone could understand.",
-        icon: FaCogs,
-      },
+   
       {
         name: "Collaboration",
         title: "Collaboration",

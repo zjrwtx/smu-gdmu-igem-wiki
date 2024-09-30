@@ -991,6 +991,34 @@ span.formula_line::-webkit-scrollbar-track {
   color: #333;
 }
 
+
+.accordion-content-model {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  background-color: rgb(245, 245, 220);
+  padding: 0 15px;
+}
+
+.accordion-content-model.open {
+  max-height: 300vh; 
+  padding: 15px;
+  margin-left: 5px;
+  border-left:3px solid #5bc0de ;
+  background-color: rgb(245, 245, 220);
+}
+
+.accordion-content-model p {
+  margin: 0;
+  font-size: 2.1vh;
+  color: #333;
+}
+
+.accordion-content-model img{
+  max-width: 600px;
+  margin: auto;
+}
+
 .home-container {
   position:relative;
   width: 100vw;
