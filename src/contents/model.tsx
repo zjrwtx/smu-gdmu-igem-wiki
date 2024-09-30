@@ -6,6 +6,49 @@ import MathJax from 'react-mathjax';
 
 
 
+type formData = {
+    id: string;
+    col1: string;
+    col2: string;
+    col3: string;
+    col4: string;
+};
+const table1: formData[] = [
+    { id: 'CBMKr', col1: 'Carbamate kinase', col2: 'atp_c + co2_c + nh4_c <=> adp_c + cbp_c + 2.0 h_c', col3: '0.551604', col4: 'Maximize' },
+    { id: 'GMPS', col1: 'GMP synthase', col2: 'atp_c + nh4_c + xmp_c --> amp_c + gmp_c + 2.0 h_c + ppi_c', col3: '0.214121', col4: 'Maximize' },
+    { id: 'ASNS2', col1: 'Asparagine synthetase', col2: 'asp\\_\\_L_c + atp_c + nh4_c --> amp_c + asn\\_\\_L_c + h_c + ppi_c', col3: '0.212208', col4: 'Maximize' },
+    { id: 'GLYCL', col1: 'Glycine Cleavage System', col2: 'gly_c + nad_c + thf_c --> co2_c + mlthf_c + nadh_c + nh4_c', col3: '0.047647', col4: 'Minimize' },
+    { id: 'TRPAS2', col1: 'Tryptophanase (L-tryptophan)', col2: 'h2o_{c} + trp\\_\\_L_{c} <=> indole_{c} + nh4_{c} +  pyr_{c}', col3: '-0.050040', col4: 'Minimize' },
+    { id: 'GLUDy', col1: 'Glutamate dehydrogenase (NADP)', col2: 'glu\\_\\_L_c + h2o_c + nadp_c <=> akg_c + h_c + nadph_c + nh4_c', col3: '-7.527480', col4: 'Minimize' }
+];
+
+
+const table2: formData[] = [
+    { id: 'GLYCL', col1: 'ATPS4rpp', col2: 'ECOLIN_RS21500, ECOLIN_RS21495, ECOLIN_RS21480, ECOLIN_RS21490, ECOLIN_RS21485, ECOLIN_RS21470', col3: '0', col4: '0.313876' },
+    { id: 'GLYCL', col1: 'GHMT2r, THFAT', col2: 'ECOLIN_RS14440', col3: '0', col4: '0.859271' },
+    { id: 'GLYCL', col1: 'GLYCL', col2: 'ECOLIN_RS16175, ECOLIN_RS16165', col3: '0', col4: '0.880005' },
+    { id: 'GLYCL', col1: 'PSERT, OHPBAT', col2: 'ECOLIN_RS04805', col3: '0', col4: '0.838756' },
+    { id: 'GLYCL', col1: 'PSP_L', col2: 'ECOLIN_RS25185', col3: '0', col4: '0.847929' },
+    { id: 'GLUDy', col1: '4HTHRA', col2: 'ECOLIN_RS04630', col3: '-7.528802', col4: '0.880325' },
+    { id: 'GLUDy', col1: 'DSERt2pp, ALAt2pp_copy1, DALAt2pp, BALAt2pp, GLYt2pp', col2: 'ECOLIN_RS24450', col3: '-7.538280', col4: '0.880164' },
+    { id: 'GLUDy', col1: 'ENO', col2: 'ECOLIN_RS15500', col3: '-13.732623', col4: '0.704571' },
+    { id: 'GLUDy', col1: 'TRPAS2', col2: 'ECOLIN_RS21355', col3: '-7.572622', col4: '0.879762' }
+];
+
+
+
+const table3: formData[] = [
+    { id: 'None (WT)', col1: '0.880331', col2: '10.799070', col3: "1", col4: "1" },
+    { id: 'ECOLIN_RS15500', col1: '0.704571', col2: '1.992122', col3: '80.034818', col4: '18.447165' },
+    { id: 'ECOLIN_RS04630, ECOLIN_RS15500', col1: '0.704571', col2: '1.919909', col3: '80.034818', col4: '17.778463' },
+    { id: 'ECOLIN_RS15500, ECOLIN_RS21355', col1: '0.704571', col2: '1.919909', col3: '80.034818', col4: '17.778463' },
+    { id: 'ECOLIN_RS04630, ECOLIN_RS15500, ECOLIN_RS21355', col1: '0.704571', col2: '1.883483', col3: '80.034818', col4: '17.441162' },
+    { id: 'ECOLIN_RS16175, ECOLIN_RS15500, ECOLIN_RS21355', col1: '0.703909', col2: '1.883483', col3: '79.959584', col4: '17.441162' },
+    { id: 'ECOLIN_RS16175, ECOLIN_RS16165, ECOLIN_RS15500, ECOLIN_RS21355', col1: '0.703909', col2: '1.876610', col3: '79.959584', col4: '17.377514' }
+];
+
+
+
 // sidenavbar begin
 interface SideNavbarProps {
     activeLink: string;
@@ -964,7 +1007,30 @@ export function Model() {
                             </div>
                         </div>
                         <p>To identify knockout targets, we ran FBA optimization on iDK1463, yielding the flux values for various metabolic reactions in the optimized strain. Next, we filtered out the reactions related to ammonia, excluding those with a flux of zero under normal physiological conditions. The biomass reaction and reactions linearly related to it were considered essential and not selected as targets. Ultimately, among the **6 reactions identified**, the flux of ammonia-producing reactions will be minimized, while the flux of ammonia-consuming reactions will be maximized.</p>
-                       
+                        <table className="three-line-table">
+                            <thead>
+                                <tr className='table-head-line'>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Formula</th>
+                                    <th>Flux [mmol/(gDW*hr)]</th>
+                                    <th>Strategy</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {table1.map((row) => (
+                                    <tr>
+                                        <td>{row.id}</td>
+                                        <td>{row.col1}</td>
+                                        <td> <MathJax.Provider>
+                                <MathJax.Node inline formula={row.col2} />
+                            </MathJax.Provider>   </td>
+                                        <td>{row.col3}</td>
+                                        <td>{row.col4}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
 
 
                         <h3>2.3 Target Gene Search Based on Evolutionary Algorithms</h3>
@@ -994,9 +1060,53 @@ export function Model() {
                             </div>
                         </div>
                         <p>Based on the OptiGene algorithm, we identified two valuable target reactions: <b>Glycine Cleavage System (GLYCL)</b> and <b>Glutamate Dehydrogenase (NADP, GLUDy)</b>. The main reactions involved, the candidate knockout targets, and the effects of their knockout on flux are summarized in the table below:</p>
+                        <table className="three-line-table">
+                            <thead>
+                                <tr className='table-head-line'>
+                                    <th>Target Reaction</th>
+                                    <th>Related Reactions</th>
+                                    <th>Genes</th>
+                                    <th>Target Flux [mmol/(gDW*hr)]</th>
+                                    <th>Biomass Flux [mmol/(gDW*hr)]</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {table2.map((row) => (
+                                    <tr>
+                                        <td>{row.id}</td>
+                                        <td>{row.col1}</td>
+                                        <td>{row.col2}</td>
+                                        <td>{row.col3}</td>
+                                        <td>{row.col4}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+
                         <p>Subsequently, we evaluated the potential impact of <b>15 candidate genes</b> resulting in <b>32,767 knockout combinations</b> on the growth and ammonia production of the strain using FBA. The results indicated that enhancing the reverse reaction of GLUDy is a key factor in reducing ammonia production, while the knockout of the <b>ECOLIN_RS15500</b> gene (corresponding to the ENO reaction) is a crucial step toward achieving this goal. Although the knockout of the GLYCL reaction can also reduce ammonia production to a small extent, it is not a primary factor. Additionally, different knockout schemes significantly affect the strain's growth, specifically the biomass flux.</p>
                         <p>Considering that excessive knockouts may impair the strain's normal physiological functions and increase operational complexity, we ultimately identified <b>6 alternative knockout schemes</b> that balance ammonia production and biomass:</p>
-
+                        <table className="three-line-table">
+                            <thead>
+                                <tr className='table-head-line'>
+                                    <th>Target Genes for Knockout</th>
+                                    <th>Biomass Flux [mmol/(gDW*hr)]</th>
+                                    <th>Ammonia Production per Biomass [mmol/(gDW*hr)]</th>
+                                    <th>Biomass Ratio Compared to WT (%)</th>
+                                    <th>Ammonia Production Ratio Compared to WT (%)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {table3.map((row) => (
+                                    <tr>
+                                        <td>{row.id}</td>
+                                        <td>{row.col1}</td>
+                                        <td>{row.col2}</td>
+                                        <td>{row.col3}</td>
+                                        <td>{row.col4}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
                         <p>The table displays the biomass flux and ammonia production per unit biomass for the wild-type strain and various knockout strains, along with the percentage of these values compared to the wild-type strain.</p>
                         <p>In summary, our metabolic engineering analysis provided multiple knockout schemes, including single and multi-gene knockouts. Through gene knockout, ammonia production can be reduced to approximately <b>18% </b>of the wild-type levels, while the growth rate of the strain can be maintained at about <b>80%</b> of the wild-type. This finding offers significant directions for genetic modifications in the development of engineered strains intended for in vivo therapy.</p>
                     </Element>
