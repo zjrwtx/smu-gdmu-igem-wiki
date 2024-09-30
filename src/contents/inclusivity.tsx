@@ -198,11 +198,11 @@ export function Inclusivity() {
               </Element>
 
               <Element name="section5" className="element rounded-border" id='section5'>
-              <h2>The arts</h2>
-              <p>Squeezy toys, made primarily from memory foam, are a type of handicraft. These crafts have the ability to deform slowly, returning to their original shape after an external force has deformed them. Handmade squishy toys are not only simple stress-relief toys but also artistic crafts that provide a variety of sensory experiences. Through the skillful hands and creativity of artisans, squishy toys can become unique works with personalized and artistic value. Due to their fun and ornamental nature, they are very popular in society. Therefore, the iGEM team decided to combine "squishy toys" with synthetic biology for a collision of art and science.</p>
+              <h2>Assistance Engineering</h2>
+              <p>To Address Regional Development Imbalances and Unequal Resource Distribution (Such as Educational Opportunities, Service Access, and Resource Acquisition)，Southern Medical University (SMU) has formed a support team to assist Guangdong Medical University (GMU) in various ways. Through this mutually beneficial partnership, SMU and GMU demonstrate how support and collaboration can lead to significant progress for both institutions. Notably, our team consists of students from both universities, which is a vivid representation of this cooperative relationship. Through an interview with Professor Li Ling, the leader of the SMU support team and mentor of the SMU&GDMU iGEM team, we learned that the goals of this support initiative are:</p>
               <div className="rounded-border">
-              <h4 className="center-text">Charity Sale Event</h4>
-              <p className="indent">Our team members participated in a charity sale event at Jiayu Sun City Square, Baiyun District, Guangzhou City, Guangdong Province. We integrated elements of synthetic biology and hepatic encephalopathy into our squishy toy creations, printing related patterns and scientific knowledge on them. We hope that through this creation, we can combine art with science, retaining fun, ornamental value, and educational significance.</p>
+              <h4 className="center-text">（1）Achieving Interdisciplinary Integration:</h4>
+              <p className="indent">By forming research teams in foundational medical sciences, clinical medicine, and other fields, we aim to promote interdisciplinary integration, reflecting the interdisciplinary spirit of iGEM. For example, SMU and GMU can jointly conduct a research project on genetic disease gene therapy, combining SMU's expertise in genetics with GMU's experience in clinical applications to form complementary research strengths.</p>
               </div>
               <div className='image-container'>
               <img 
@@ -213,9 +213,21 @@ export function Inclusivity() {
                 <figcaption className='caption'>12345678</figcaption>
                 </div>
               
+                <div className="rounded-border">
+              <h4 className="center-text">（2）Building a 'Collaborative Talent Cultivation' System:</h4>
+              <p className="indent">Through joint talent cultivation programs, such as integrated undergraduate-master’s degree programs and exchange student initiatives, we provide students with broader learning platforms, emphasizing iGEM's commitment to talent development. Additionally, we implement summer internship programs, allowing students to conduct research internships in the laboratories of the partner university, enhancing practical experience and research capabilities.</p>
+              </div>
+              
               <div className="rounded-border">
-              <h4 className="center-text">Community Service Station</h4>
-              <p className="indent">In addition, our team also went to the community service station to attract the public with our handicrafts—"squishy toys"—and promote knowledge about synthetic biology and hepatic encephalopathy to them. Subsequently, we issued a survey questionnaire to receive feedback from the public, and the results showed that we indeed played an educational role for the general public."</p>
+              <h4 className="center-text">（3）Research Collaboration:</h4>
+              <p className="indent">The support team facilitates the establishment of shared laboratories and research centers, promoting the sharing of research resources and enhancing collaboration between researchers in synthetic biology and related fields, reflecting iGEM's ethos of shared research. Furthermore, the support team regularly organizes joint research projects, inviting researchers from both sides to apply for national and international research grants, driving high-level research outcomes.</p>
+              </div>
+
+              <div className="rounded-border">
+              <h4 className="center-text">（4）Achieving Equal Access to Educational Resources:</h4>
+              <p className="indent">The support team promotes the opening of course resources and online education platforms, benefiting more students from both universities, reflecting iGEM's principle of equitable access to educational resources. Additionally, student exchange programs are established, and regular academic symposiums are held to promote interaction and cooperation among students, eliminating barriers caused by unequal distribution of educational resources.</p>
+              <p className="indent">The support team promotes the opening of course resources and online education platforms, benefiting more students from both universities, reflecting iGEM's principle of equitable access to educational resources. Additionally, student exchange programs are established, and regular academic symposiums are held to promote interaction and cooperation among students, eliminating barriers caused by unequal distribution of educational resources.</p>
+              <p className="indent">The support team promotes the opening of course resources and online education platforms, benefiting more students from both universities, reflecting iGEM's principle of equitable access to educational resources. Additionally, student exchange programs are established, and regular academic symposiums are held to promote interaction and cooperation among students, eliminating barriers caused by unequal distribution of educational resources.</p>
               </div>
               
                </Element>
