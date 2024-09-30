@@ -964,6 +964,12 @@ export function Model() {
                             </div>
                         </div>
                         <p>To identify knockout targets, we ran FBA optimization on iDK1463, yielding the flux values for various metabolic reactions in the optimized strain. Next, we filtered out the reactions related to ammonia, excluding those with a flux of zero under normal physiological conditions. The biomass reaction and reactions linearly related to it were considered essential and not selected as targets. Ultimately, among the **6 reactions identified**, the flux of ammonia-producing reactions will be minimized, while the flux of ammonia-consuming reactions will be maximized.</p>
+                        <iframe
+                src="https://static.igem.wiki/teams/5378/model/table2.pdf"  
+                style={{ width: '100%', height: '1000px' }}
+                title="PDF Viewer"
+                ></iframe>
+                        
                         <h3>2.3 Target Gene Search Based on Evolutionary Algorithms</h3>
                         <p>After identifying the ammonia-related reactions, the next objective is to search for target genes that can reduce ammonia production while increasing its consumption. For this purpose, we employed the OptGene algorithm proposed by Patil et al.
                         </p>
