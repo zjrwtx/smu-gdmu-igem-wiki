@@ -146,13 +146,13 @@ export function Education() { // sidenavbar begin
                 <img 
                   src="https://static.igem.wiki/teams/5378/037e7fc08b8f8518098e3af706f9eef.webp"
                   alt="example"
-                  className="image-wide"
+                  className="col-6"
                 />  
                  <figcaption className='caption'>1234567687</figcaption>
                 <img 
                   src="https://static.igem.wiki/teams/5378/b4c93550a4f89a9080ca9516245d152.webp"
                   alt="example"
-                  className="image-height"
+                  className="col-4"
                 />  
                  <figcaption className='caption'>1234567687</figcaption>
                 <img 
