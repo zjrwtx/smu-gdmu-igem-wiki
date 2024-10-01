@@ -98,7 +98,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>The team members are distributing medical supplies.</figcaption>
               </div>
               </div>
 
@@ -112,7 +112,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Tibetan version Science Popularization Pamphlet 1</figcaption>
               </div>
               <div className='image-container'>
               <img 
@@ -120,7 +120,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Tibetan version Science Popularization Pamphlet 2</figcaption>
               </div>
               <p className="indent">(2) Sign Language Interpretation:</p>
               <p className="indent">To ensure that our educational videos reach a wider audience, the SMU-GDMU team has specifically included sign language interpretation in our videos. This initiative aims to remove communication barriers for individuals who are deaf or hard of hearing, enabling them to access and understand the scientific information presented just as easily as the general audience. We consulted professional sign language interpreters to display sign language synchronously within the videos, ensuring the accuracy and clarity of the information conveyed. We believe that such efforts not only help improve the accessibility of the information but also strive to create a more inclusive environment where everyone can benefit from the knowledge we share, allowing people from different backgrounds to have equal access to scientific educational resources.</p>              
@@ -130,7 +130,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Sign Language Version Science Popularization Video 1</figcaption>
               </div>
               <div className='image-container'>
               <img 
@@ -138,7 +138,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Sign Language Version Science Popularization Video 2</figcaption>
               </div>
               </div>
               
@@ -151,7 +151,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Health Exercise Instructional Video</figcaption>
               </div>
               </div>
 
@@ -164,7 +164,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Free Clinic Service Site</figcaption>
                </div>
               </div>
               
