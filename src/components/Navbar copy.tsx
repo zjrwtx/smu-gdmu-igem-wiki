@@ -11,8 +11,6 @@ export function Navbar() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const location = useLocation();
 
-
-
   useEffect(() => {
     const handleScroll = () => {
       const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
@@ -21,9 +19,10 @@ export function Navbar() {
       setScrollProgress(scrollPercentage);
     };
 
-    // Remove the condition for the home page
-    window.addEventListener("scroll", handleScroll);
-    handleScroll(); // Initialize progress
+    if (location.pathname === "/") {
+      window.addEventListener("scroll", handleScroll);
+      handleScroll(); // 初始化进度
+    }
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -84,10 +83,12 @@ export function Navbar() {
         </BootstrapNavbar.Collapse>
       </Container>
     </BootstrapNavbar>
-    <div 
-        className="scroll-progress-bar" 
-        style={{ width: `${scrollProgress}%` }}
-      ></div>
+    {location.pathname === "/" && (
+        <div 
+          className="scroll-progress-bar" 
+          style={{ width: `${scrollProgress}%` }}
+        ></div>
+      )}
     </>
   );
 }
