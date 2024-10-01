@@ -1,6 +1,25 @@
-
+import  {  useEffect, useState } from "react";
+import { Element } from 'react-scroll';
 
 export function Home() {
+  const [activeLink, setActiveLink] = useState<string>('');
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll('.element');
+      let currentSection = '';
+      console.log(sections)
+      sections.forEach(section => {
+        const sectionTop = section.getBoundingClientRect().top;
+        if (sectionTop <= window.innerHeight / 2 && sectionTop > -section.clientHeight) {
+          currentSection = section.id;
+          console.log(currentSection)
+        }
+      });
+      setActiveLink(currentSection);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <div className="bg-rice_yellow">
@@ -59,33 +78,33 @@ export function Home() {
       {/* 3 */}
       <div className="page-container-3">
 
-        <div className="page-element-5">
+        <Element name="element-5" id="element-5" className='element page-element-5' >
           <img
             src="https://static.igem.wiki/teams/5378/home/girlroar.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-5' ? 'img-5-active' : 'img-5'}`}
           />
-        </div>
+        </Element>
         
         
-        <div className="page-element-6">
+        <Element name="element-6" id="element-6" className="element page-element-6">
           <img
             src="https://static.igem.wiki/teams/5378/home/20.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-6' ? 'img-6-active' : 'img-6'}`}
           />
-        </div>
+        </Element>
         </div>
 
       {/* 4 */}
       <div className="page-container-4">
-        <div className="page-element-7">
+        <Element name="element-7" id="element-7" className="element page-element-7">
           <img
             src="https://static.igem.wiki/teams/5378/home/21.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-7' ? 'img-7-active' : 'img-7'}`}
           />
-        </div>
+        </Element>
       </div>
       {/* 5 */}
       <div className="page-container-5">
@@ -149,13 +168,27 @@ export function Home() {
             className="home-img-wide"
           />
         </div>
+        <div className="page-element-15p">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/d3.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
       </div>
 
       {/* 7 */}
       <div className="page-container-7">
         <div className="page-element-16">
           <img
-            src="https://static.igem.wiki/teams/5378/home/boywhat.webp"
+            src="https://static.igem.wiki/teams/5378/home/boybigmouth.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-16p">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/words1.webp"
             alt="example"
             className="home-img-wide"
           />
@@ -170,9 +203,65 @@ export function Home() {
       </div>
       {/* 8 */}
       <div className="page-container-8">
-        <div className="page-element-18">
+        {/* <div className="page-element-18">
           <img
             src="https://static.igem.wiki/teams/5378/home/28.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div> */}
+        <div className="page-element-18p">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/smallgut.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-18p2">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/pathway.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-18p3">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/dialog3.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-18p4">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/dialog2.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-18p5">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/dialog1.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-18p6">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/devil.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-18p7">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/d1.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-18p8">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/d2.webp"
             alt="example"
             className="home-img-wide"
           />
@@ -184,20 +273,13 @@ export function Home() {
             className="home-img-wide"
           />
         </div>
-        <div className="page-element-20">
-          <img
-            src="https://static.igem.wiki/teams/5378/home/8.webp"
-            alt="example"
-            className="home-img-wide"
-          />
-        </div>
-        <div className="page-element-21">
+        {/* <div className="page-element-21">
           <img
             src="https://static.igem.wiki/teams/5378/home/4.webp"
             alt="example"
             className="home-img-wide"
           />
-        </div>
+        </div> */}
         <div className="page-element-21p">
           <img
             src="https://static.igem.wiki/teams/5378/home/2.webp"
@@ -211,7 +293,7 @@ export function Home() {
       <div className="page-container-9">
         <div className="page-element-22">
           <img
-            src="https://static.igem.wiki/teams/5378/home/future.webp"
+            src="https://static.igem.wiki/teams/5378/home/future2.webp"
             alt="example"
             className="home-img-wide"
           />
