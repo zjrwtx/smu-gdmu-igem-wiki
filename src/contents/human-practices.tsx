@@ -86,11 +86,8 @@ export function HumanPractices() {
       Our objective is to gather <span className='bold-font'>diverse perspectives</span>, from the general public to patients, ensuring we consider all possible viewpoints that may shape the trajectory of our project.
     </p>
     </div>
-      <img 
-          src="https://static.igem.wiki/teams/5378/037e7fc08b8f8518098e3af706f9eef.webp" 
-          alt="Related Image" 
-          style={{ display: 'block', margin: '20px auto' }} 
-      />
+
+
     <div className="rounded-border">
     <h3 className="center-text">1.2 Understanding Hepatic Encephalopathy (HE)</h3>
     <p className='indent'>
