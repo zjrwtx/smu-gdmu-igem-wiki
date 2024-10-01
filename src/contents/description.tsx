@@ -165,7 +165,7 @@ export function Description() {
               />
               <figcaption className='caption'>Fig.3: Work of the art team</figcaption>
               <h3>hp team</h3>
-              <p className="indent">Cooperation and promotion are the main tone of hp's work, and internal and external communication is the foundation of hp's work. It carries out human practice, exchange and cooperation, education and publicity for the public, and is also responsible for outreach, reporting and other work within the team.</p>
+              <p>Cooperation and promotion are the main tone of hp's work, and internal and external communication is the foundation of hp's work. It carries out human practice, exchange and cooperation, education and publicity for the public, and is also responsible for outreach, reporting and other work within the team.</p>
               </Element>
 
               <Element name="section4" className="element rounded-border" id='section4'>
