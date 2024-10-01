@@ -456,13 +456,13 @@ footer a:hover {
 
 /* wet-lab,dry-lab用的内容框框 */
 .rounded-border {
-  margin: 50px;
-  padding: 50px;
+  margin: 5vw;
+  margin-top: 5vh;
+  margin-bottom: 1vh ;
+  padding: 5vw;
   border: 2px solid #e4dfb4b0; 
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
-  margin-bottom: 100px;
-  margin-left: 20px;
   /* max-width: 0.9vw; */
   background-color: #e4dfb4b0;
   /* box-shadow: 15px 15px 5px rgba(0,0,0,0.1); */
@@ -471,13 +471,13 @@ footer a:hover {
 }
 
 .rounded-border:hover {
-  margin: 50px;
-  margin-left: 20px;
-  padding: 50px;
+  margin: 5vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh ;
+  padding: 5vw;
   border: 2px solid #e4dfb4b0; 
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
-  margin-bottom: 100px;
   /* max-width: 0.9vw; */
   background-color: #e4dfb4;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
@@ -485,24 +485,26 @@ footer a:hover {
 
 }
 
-.rounded-border.rounded-border{
-  margin: 50px;
-  padding: 50px;
+.rounded-border .rounded-border{
+  margin: 5vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh ;
+  padding: 5vw;
   border: 2px solid #e4dfb4b0; 
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
-  margin-bottom: 100px;
   /* max-width: 0.9vw; */
   background-color: #e4dfb4b0;
 }
 
-.rounded-border.rounded-border:hover{
-  margin: 50px;
-  padding: 50px;
+.rounded-border .rounded-border:hover{
+  margin: 5vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh ;
+  padding: 5vw;
   border: 2px solid #e4dfb4b0; 
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
-  margin-bottom: 100px;
   /* max-width: 0.9vw; */
   background-color: #e4dfb4;
   box-shadow: 10px 10px 5px rgba(0,0,0,0.1);
