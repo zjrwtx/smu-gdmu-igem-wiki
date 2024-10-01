@@ -102,9 +102,11 @@ export function Results() {
               />
                <figcaption className='caption'>Figure 2. Validation of the feasibility of the metabolic module. (a)Schematic representation of the construction and mechanism of engineered EcN with metabolic module. EcN was transformed with plasmid Ptac-GS via electroporation. After co-culturing with different concentration of NH4Cl for different time, NH3 concentration was measured and calculated by NH3 detection kit based on indigol blue reaction via microplate reader (OD 630nm). The structure of GS was predicted based on AlphaFold3. (b)NH3 concentration after coculturing 0μM, 0.5μM, 5μM and 50μM NH4Cl with engineered EcNs for 12 hours. EcN_vector was transformed with the vector plasmid, pET-32a. Data shows mean±SD, n=3 independent experiments. (c)NH3 concentration in 0h, 4h, 8h, 12h and 24h after coculturing 50μM NH3Cl with engineered EcNs. Data shows mean±SD, n=3 independent experiments.</figcaption>
                 <h3>Tackling Intrinsic Ammonia of Engineered EcN</h3>
-                <p></p>
+                <p>Interestingly, the level of NH3 increased rather than decreased as we expected throughout 24 hours after coculturing with additional NH4Cl. This can be explained by the complicated metabolic curcuits of nitrogen, especially the urea metabolism[1]. Therefore, we tried to seek paths to knock out relative genes to lower the intrinsic ammonia production (See details in our Model Page) but due to time limit, we didn't conduct wet lab experiments, which is well-planned in our future optimization.</p>
                 <h3>Safety concerns of GS enzyme to degrade normal level of ammonia</h3>
-                <p></p>
+                <p>According to a review in Journal of Hepatology[2] , the physiological level of blood ammonia is around 35~50μM, a level of 120μM is associated with high risk of death in HE patients.</p>
+                <p>As shown in Figure 2b, the difference between EcN_vector and EcN_GS with lower NH4Cl concentration such as 5μM decreased and was even not significant with 0.5μM. This indicates that the GS enzyme requires a rather high level NH4Cl to reach the most efficient status. Therefore, when the level of ammonia is in a normal range, the metabolic module is not likely to cause a significant decrease in ammonia, which might be useful in other metabolic cycles. </p>
+                <p>These results could allay some safety concerns of expressing GS enzymes to some extent, but more animal experiments are essential for further evaluation.</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
