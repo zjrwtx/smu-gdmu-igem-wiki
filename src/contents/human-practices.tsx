@@ -11,7 +11,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
     <div className="side-navbar">
       <Nav className="flex-column">
         <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>1.Overview</Nav.Link>
-        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>2.Ethical considerations</Nav.Link>
+        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>2.Ethical Considerations</Nav.Link>
         <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>3.Collaboration</Nav.Link>
         <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>4.Questionnaire</Nav.Link>
         <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>5.STAKEHOLDER</Nav.Link>
@@ -112,7 +112,7 @@ export function HumanPractices() {
 
 
 <Element name="section2" className="element rounded-border" id='section2'>
-            <h2>2. Ethical considerations</h2>
+            <h2>2. Ethical Considerations</h2>
             <p>Informed consent, privacy, fairness, non-harm, responsibility.</p>
   <div className="rounded-border">
   <h3 className="center-text">2.1Ethical and Safe Biotechnology Research</h3>
@@ -306,20 +306,3 @@ export function HumanPractices() {
 </Element>
 
 
-      <Element name="section7" className="element rounded-border" id='section7'>
-        <h2>Section 7</h2>
-        <p>Content for section 7.</p>
-        <div className="rounded-border">
-          <h4 className="center-text">我是大帅B</h4>
-          <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-          <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-        </div>
-      </Element>
-
-
-
-    </div>
-    </div>
-    </>
-  );
-}
