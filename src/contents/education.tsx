@@ -80,7 +80,7 @@ export function Education() { // sidenavbar begin
                 alt="example"
                 className="image-wide"
                   />  
-                 <figcaption className='caption'>1234567687</figcaption>
+                 <figcaption className='caption'>Figure 1 Map of our education model</figcaption>
                 </div>
                </Element>
           
@@ -99,13 +99,13 @@ export function Education() { // sidenavbar begin
                 alt="example"
                 className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 2 Home page of our science education brochure</figcaption>
                 <img 
                 src="https://static.igem.wiki/teams/5378/pdf/brochures2.webp"
                 alt="example"
                 className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 3 End page of our science education brochure</figcaption>
                 </div>
               </Element>
           
@@ -119,13 +119,13 @@ export function Education() { // sidenavbar begin
                 alt="example"
                 className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 4 In May 2024, we have an in-depth conversation with our patients</figcaption>
                 <img 
                 src="https://static.igem.wiki/teams/5378/patients2.webp"
                 alt="example"
                 className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 5 We are at the Southern Hospital Liver Centre</figcaption>
 
                 </div>
                 
@@ -157,7 +157,7 @@ export function Education() { // sidenavbar begin
                 />  
                 </div>
                 </div>
-                <figcaption className='caption'>1234567687</figcaption>
+                <figcaption className='caption'>Figure 6 In June 2024, we went into high schools in China to speak to students and get feedback</figcaption>
                 </div>
                 
                 <p className="indent">After the lecture, a questionnaire was distributed to the students to assess whether they had increased their understanding of the field and their interest in synthetic biology through the lecture. The questionnaire was designed to include questions of multiple dimensions, such as the understanding of the basic concepts of synthetic biology, the level of interest in the content of the lecture, and the willingness to participate in related activities in the future.</p>
@@ -170,7 +170,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                 />  
-                 <figcaption className='caption'>1234567687</figcaption>
+                 <figcaption className='caption'>Figure 7 Graph analysing the feedback obtained from the questionnaires distributed after the lectures</figcaption>
                 </div>
 
                 <p></p>
@@ -193,7 +193,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                 />  
-                <figcaption className='caption'>1234567687</figcaption>
+                <figcaption className='caption'>Figure 8 Spirit Spider Labs team learnt about mosquito technology in our school</figcaption>
 
                 </div>
                 
@@ -207,7 +207,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                 />                
-                <figcaption className='caption'>1234567687</figcaption>
+                <figcaption className='caption'>Figure 9 We learnt from each other's strengths with the Spirit Pearl Laboratory.</figcaption>
                 </div>
                 
 
@@ -238,7 +238,7 @@ export function Education() { // sidenavbar begin
                 />  
                 </div>
                 </div>
-                <figcaption className='caption'>1234567687</figcaption>
+                <figcaption className='caption'>Figure 10 September 2024 We are educating the community on outreach</figcaption>
                 </div>
 
                 <div className='image-container'>
@@ -247,7 +247,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 11 Photo with volunteers</figcaption>
                 </div>
                 
                 <p>  </p>
@@ -260,7 +260,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 12 Entering the community for peer-to-peer two-way communication</figcaption>
                 </div>
                 
                 <p>  </p>
@@ -274,7 +274,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 13 Education for vulnerable groups</figcaption>
                 </div>
                 
 
@@ -292,7 +292,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-height"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 14 Team outreach education on social media</figcaption>
                 </div>
                 
 
@@ -311,7 +311,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 15 The team came to the Synthetic Biology Competition to popularise our project in August 2024</figcaption>
                 </div>
                 
 
@@ -323,13 +323,13 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 16 Our Educational Perimeter1</figcaption>
                 <img 
                   src="https://static.igem.wiki/teams/5378/9be818cffa6a960902ea3bacf9f6d7f.webp"
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  <figcaption className='caption'>Figure 17 Our Educational Perimeter2</figcaption>
                 </div>
                 
                 <p className="indent"></p>

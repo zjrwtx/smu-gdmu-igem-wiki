@@ -72,13 +72,13 @@ export function HumanPractices() {
 
         <Element name="section1" className="element rounded-border" id='section1'>
         <h2>1. Overview</h2>
-            <p>Our Picture.</p>
+            <p>Have a picture of what we did.</p>
   <div className="rounded-border">
     <h3 className="center-text">1.1 A Pillar of Our iGEM Project</h3>
     <p className='indent'>
       One of the pillars supporting a successful and responsible iGEM project is <span className='bold-font'>human practices</span>. We place great emphasis on human practices to ensure our product’s <span className='bold-font'>real-world applicability</span> and to assess its impact on <span className='bold-font'>Chinese society</span>, the <span className='bold-font'>global community</span>, and the <span className='bold-font'>scientific field</span>.
     </p>
-    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '10px' }}>
       <li><span className='bold-font'>How does our project impact the world around us?</span></li>
       <li><span className='bold-font'>How does the world influence our project?</span></li>
     </ul>
@@ -113,7 +113,7 @@ export function HumanPractices() {
 
 <Element name="section2" className="element rounded-border" id='section2'>
             <h2>2. Ethical considerations</h2>
-            <p>Our stakeholders.</p>
+            <p>Informed consent, privacy, fairness, non-harm, responsibility.</p>
   <div className="rounded-border">
   <h3 className="center-text">2.1Ethical and Safe Biotechnology Research</h3>
     <p className='indent'>
@@ -129,10 +129,6 @@ export function HumanPractices() {
     <h3>Rigorous Safety Evaluation</h3>
     <p className='indent'>
       In terms of experimental design and implementation, we rigorously evaluate the safety of <span className='bold-font'>engineered bacteria</span> to minimize any <span className='bold-font'>health risks</span> to patients. <span className='bold-font'>Pre-experiments</span> and <span className='bold-font'>animal studies</span> are conducted to verify safety, while a thorough assessment of potential <span className='bold-font'>side effects</span> and <span className='bold-font'>adverse reactions</span> is performed, with contingency plans developed to manage any risks.
-    </p>
-    <h3 className="center-text">2.2Ethical Compliance</h3>
-    <p className='indent'>
-      We have held <span className='bold-font'>in-depth discussions with ethical experts</span>, conducted extensive literature reviews, and considered <span className='bold-font'>local customs</span> and <span className='bold-font'>moral standards</span> to ensure the ethical integrity of our research project.
     </p>
   </div>
 </Element>
@@ -175,7 +171,7 @@ export function HumanPractices() {
 
 <Element name="section4" className="element rounded-border" id='section4'>
             <h2>4 Questionnaire</h2>
-            <p>What did we investigate</p>
+            <p>What did we investigate.</p>
   <div className="rounded-border">
     <p className='indent'>
       During the development of our hepatic encephalopathy (<span className='bold-font'>HE</span>) project, we conducted extensive <span className='bold-font'>Human Practices (HP)</span> activities to understand the challenges and gather feedback from professionals and patients. Our HP work is divided into three key areas:
@@ -227,7 +223,7 @@ export function HumanPractices() {
             <h2>5. Stakeholder</h2>
             <p>Our stakeholders.</p>
             <div className="rounded-border">
-              <h3 >5.1. Stakeholder Identification</h3>
+              <h3 className="center-text">5.1 Stakeholder Identification</h3>
               <p className='indent'>
                 Our iGEM project, focusing on innovative treatment for hepatic encephalopathy (<span className='bold-font'>HE</span>), has identified key stakeholders critical to the success and real-world application of our research. These stakeholders include HE patients, medical professionals (doctors), pharmaceutical company representatives, research experts involved in HE-related studies, and the general public.
                 <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
@@ -238,10 +234,9 @@ export function HumanPractices() {
                 </ul>
               </p>
             </div>
-          </Element>
-          <Element name="section5" className="element rounded-border" id='section5'>
+
             <div className="rounded-border">
-              <h3>5.2. Stakeholder Engagement</h3>
+              <h3 className="center-text">5.2. Stakeholder Engagement</h3>
               <p className='indent'>
                 We reached out to the stakeholders for expert insights through structured interviews, following a comprehensive engagement process: Preparation, Contact, Content Development, Execution, Summary, Reflection, and Updates. This approach allowed us to better understand the specific needs and challenges faced by each stakeholder group. Their feedback provided critical insights that guided improvements to our project design, ensuring it addresses real-world issues effectively.
               </p>
@@ -260,7 +255,7 @@ export function HumanPractices() {
 
         <Element name="section5" className="element rounded-border" id='section5'>
         <h2>6. Expert Consultation</h2>
-            <p>What did we learn from experts</p>
+            <p>Explore what did we learn from experts.</p>
   <div className="rounded-border">
     
     <h4>February 2024 - Yang Xiaolin</h4>

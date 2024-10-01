@@ -88,15 +88,20 @@ The next page details the security measures and considerations our team has take
                 <p className="indent">Our project design took safety into account and ultimately chose E. coli Nissle 1917 as our chassis, which was included in the white list and classified as Biosafety Level 1 (BSL-1).</p>
                 <p className="indent">Escherichia coli Nissle 1917 is an oral probiotic commonly used to treat various gastrointestinal diseases, including diarrhea, ulcerative colitis, etc.</p>
                 <h3>2.2Parts Safety</h3>
-                <h3>2.3Suicidal System</h3>
-                <h3>2.4Safety Module</h3>
+                <h3>2.3Safety Module</h3>
+                <p className="indent">From both environmental and human health protection perspectives, the design of the safety module aims to detect environmental variations inside and outside the human body, such as temperature and oxygen concentration, to induce bacterial death. This ensures that the bacteria do not cause environmental pollution after being expelled.</p>
+                <p className="indent">Conversely, there is a risk of excessive proliferation of the engineered E. coli within the human body, necessitating the development of controllable switches to regulate bacterial growth and death effectively. </p>
+                <h4>2.3.1Suicidal System</h4>
+                <p className="indent">Additionally, we recognize that abdominal infections are a significant cause of recurrent hepatic encephalopathy and can lead to death. In response, we aim to develop an engineered bacterium capable of resisting inflammation and repairing the intestinal barrier. </p>
+                <p className="indent">Insights from discussions with the Peking University Medical School team have inspired our approach to utilizing curli fibers.And we referred to a study published in Nature Communications And the PATCH system was used for plasmid design. </p>
+                <p className="indent">In the end, the safety module we designed can effectively prevent and treat abdominal infection in patients with liver disease, solve intestinal flora disorders, support intestinal barrier function repair and alleviate complications of hepatic encephalopathy.</p>
                 <div className='image-container'>
                 <img 
-                src="https://static.igem.wiki/teams/5378/safety/03-1.webp"
+                src="https://static.igem.wiki/teams/5378/safety/2.webp"
                 alt="example"
                 className="image-wide"
               />
-              <figcaption className='caption'>Describe.......</figcaption>
+              <figcaption className='caption'>Safety module design ideas</figcaption>
                 </div>
                 
               </Element>
@@ -132,7 +137,7 @@ The next page details the security measures and considerations our team has take
               />
               </div>
               </div>
-                <figcaption className='caption'>Example</figcaption>
+                <figcaption className='caption'>Laboratory Safety</figcaption>
               </div>
               
               
@@ -145,7 +150,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="image-wide"
               />
-              <figcaption className='caption'>Example</figcaption>
+              <figcaption className='caption'>biosafety cabinet</figcaption>
               </div>
               
               <p className="indent">The laboratory is equipped with a ventilation system with exhaust purification devices and other equipment that does not allow microorganisms to escape to ensure safety.</p>
@@ -156,7 +161,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="image-height"
               />
-              <figcaption className='caption'>Example</figcaption>
+              <figcaption className='caption'>high-pressure sterilization equipment</figcaption>
               </div>
               
 
@@ -175,6 +180,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="responsive-img"
               />
+              <figcaption className='caption'>The team members are conducting experiments</figcaption>
 <h4>3.2.3  Laboratory safety</h4>
 <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
 <p className="indent">The building where the laboratory is located has emergency passages, fire exits, fire equipment, and emergency lighting devices; and our colleagues in the Experimental Group also remember how to quickly escape from the scene when any safety accident occurs to ensure their own safety;There is also a first aid medicine storage area in the corridor for easy use when necessary.</p>   
@@ -183,6 +189,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="responsive-img"
               />
+              <figcaption className='caption'>Fire safety management</figcaption>
 <h4>3.2.4Laboratory waste treatment</h4>
 <p className="indent">According to the "Regulations on the Management of Medical Waste" of the State Council and the "Measures for the Management of Medical Waste in Medical and Health Institutions" of the former Ministry of Health, we manage laboratory waste from the following aspects: ① Designate a dedicated person in the laboratory to be responsible for and coordinate the management of various types of waste; ② Establish waste classification, isolation, packaging, transportation, storage, and disposal procedures in the laboratory; ③ Members of the Experimental Group should correctly dispose of waste to their respective garbage bins, and all solutions and plates should be marked; ④ Strictly follow the waste disposal system and procedures, and have processing records.</p>
 <p className="indent">We also have a special waste treatment process for bacteria and other microorganisms, as shown in the figure:</p>             
@@ -191,6 +198,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="responsive-img"
               />
+              <figcaption className='caption'>waste treatment process</figcaption>
 <h4>3.2.5Management and security system</h4>
 <h5>Laboratory layout and access</h5>              
 <p className="indent">Clean areas, semi-contaminated areas, and contaminated areas should be reasonably set up in the main laboratory.</p>    
@@ -210,7 +218,8 @@ The next page details the security measures and considerations our team has take
                 src="https://static.igem.wiki/teams/5378/safety/2-666666.webp"
                 alt="example"
                 className="responsive-img"
-              />            
+              />
+              <figcaption className='caption'>Medical first aid items</figcaption>            
               </div>
               </Element>
 
