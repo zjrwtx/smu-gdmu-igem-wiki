@@ -220,8 +220,11 @@ export function Education() { // sidenavbar begin
                 <p className="bold-font">(1) Mid-Autumn Festival Community Bazaar Promotion</p>
                 <p className="indent">During this year's Mid-Autumn Festival, we followed the community volunteers to participate in the Mid-Autumn Cultural and Creative Sale in front of the local mall with heavy traffic. We cleverly incorporated the concept of synthetic biology into the cultural and creative products we sold, which not only attracted the attention of many citizens, but also actively promoted the knowledge of synthetic biology and popularised the content of hepatic encephalopathy to the public during the publicity process. Through this form of education and fun, we successfully raised public awareness of synthetic biology and hepatic encephalopathy.</p>
                 <div className='image-container'>
+                <div className='row'>
+                <div className='col-6'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/sun1.webp"
+
                   alt="example"
                   className="responsive-img"
                 />
@@ -229,10 +232,14 @@ export function Education() { // sidenavbar begin
                 </div>
                 <div className='col-6'>
                 <img
+
                   src="https://static.igem.wiki/teams/5378/boy.webp"
                   alt="example"
                   className="responsive-img"
                 />
+                </div>
+
+                </div>
                 <figcaption className='caption'>1234567687</figcaption>
                 </div>
 
