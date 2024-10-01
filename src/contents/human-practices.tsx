@@ -76,7 +76,7 @@ export function HumanPractices() {
 
         <Element name="section1" className="element rounded-border" id='section1'>
   <div className="rounded-border">
-    <h3>Human Practices: A Pillar of Our iGEM Project</h3>
+    <h3>Overview</h3>
     <p className='indent'>
       One of the pillars supporting a successful and responsible iGEM project is <span className='bold-font'>human practices</span>. We place great emphasis on human practices to ensure our product’s <span className='bold-font'>real-world applicability</span> and to assess its impact on <span className='bold-font'>Chinese society</span>, the <span className='bold-font'>global community</span>, and the <span className='bold-font'>scientific field</span>.
     </p>
@@ -87,6 +87,9 @@ export function HumanPractices() {
     <p className='indent'>
       Our objective is to gather <span className='bold-font'>diverse perspectives</span>, from the general public to patients, ensuring we consider all possible viewpoints that may shape the trajectory of our project.
     </p>
+    </div>
+
+    <div className="rounded-border">
     <h3>Understanding Hepatic Encephalopathy (HE)</h3>
     <p className='indent'>
       Hepatic encephalopathy, or <span className='bold-font'>HE</span>, is a syndrome resulting from <span className='bold-font'>central nervous system dysfunction</span> due to <span className='bold-font'>severe liver disease</span>. In this context, "hepatic" refers to the <span className='bold-font'>liver</span>, and "encephalopathy" refers to the <span className='bold-font'>brain</span>.
