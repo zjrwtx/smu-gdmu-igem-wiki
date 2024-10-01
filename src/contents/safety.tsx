@@ -100,7 +100,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="image-wide"
               />
-              <figcaption className='caption'>Describe.......</figcaption>
+              <figcaption className='caption'>Safety module design ideas</figcaption>
                 </div>
                 
               </Element>
