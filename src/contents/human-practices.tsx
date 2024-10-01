@@ -76,8 +76,7 @@ export function HumanPractices() {
 
         <Element name="section1" className="element rounded-border" id='section1'>
   <div className="rounded-border">
-  <h3 style={{ textAlign: 'center' }}>5.2 Ethical and Safe Biotechnology Research</h3>
-
+    <h3 style={{ textAlign: 'center' }}>5.1 Overview</h3>
     <p className='indent'>
       One of the pillars supporting a successful and responsible iGEM project is <span className='bold-font'>human practices</span>. We place great emphasis on human practices to ensure our product’s <span className='bold-font'>real-world applicability</span> and to assess its impact on <span className='bold-font'>Chinese society</span>, the <span className='bold-font'>global community</span>, and the <span className='bold-font'>scientific field</span>.
     </p>
@@ -115,7 +114,7 @@ export function HumanPractices() {
 
 <Element name="section2" className="element rounded-border" id='section2'>
   <div className="rounded-border">
-    <h3>5.2 Ethical and Safe Biotechnology Research</h3>
+  <h3 style={{ textAlign: 'center' }}>5.2 Ethical and Safe Biotechnology Research</h3>
     <p className='indent'>
       Our project operates within the legal framework and adheres to strict <span className='bold-font'>laboratory safety regulations</span>. From an <span className='bold-font'>ethical standpoint</span>, responsible scientific research not only requires the involvement of <span className='bold-font'>experts</span>, but also must align with the values of <span className='bold-font'>citizens</span>, ensuring that our innovations address <span className='bold-font'>real-world challenges</span>.
     </p>
