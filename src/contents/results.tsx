@@ -117,8 +117,15 @@ export function Results() {
           
 
               <Element name="section3" className="element rounded-border" id='section3'>
-              <h2>Section 3</h2>
-              <p>Content for section 3.</p>
+              <h2>Altogether: Sensing-Metabolic System Validation</h2>
+              <p>To demonstrate the function of our system after assembly, we co-transformed EcNs with plasmid Pcon-tynA-Pcon-feaR and plasmid PTynA-GS and coculture the engineered bacteria with different concentrations of PEA and NH4Cl (Figure 3a). Results showed that with the concentration of 50μM NH4Cl, 100ng/ml PEA induced the most significant decrease in ammonia (Figure 3b), which was consistent with the trend in both sensing and metabolic modules. </p>
+              <p>We also transformed plasmid Pcon-tynA-Pcon-feaR into EcN as the control group, and cocultured them with 100ng/ml PEA and 50μM NH4Cl for 4,8,12 and 24 hours. Results demonstrated a significant ammonia decrease in experiment group compared with the control group (Figure 3c), indicateing that a rahter high level of PEA could iniitate downstream metabolic module to express GS and resulted in the decrease of over-accumulated ammonia.</p>
+              <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+               <figcaption className='caption'>Figure 3. Functionality verification of the PEA-sensing NH3-metabolizing system. (a)Schematic representation of the process of sensing and metabolic module. EcN was co-transformed with plasmid Pcon-FeaR-Pcon-TynA and plasmid PTynA-GS via electroporation. (b)NH3 concentration after coculturing different concentration of PEA and NH4Cl with engineered EcN for 12 hours. Data shows mean±SD, n=3 independent experiments. (c)NH3 concentration after coculturing 100ng/ml PEA and 50μM NH4Cl engineered EcN for 0, 4, 8,12 and 24 hours. EcN-FeaR-TynA was transformed with only plasmid Pcon-FeaR-Pcon-TynA as the control group. Data shows mean±SD, n=3 independent experiments.</figcaption>
               <div className="rounded-border">
               <h4 className="center-text">Section 3</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
