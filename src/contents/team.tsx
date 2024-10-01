@@ -96,8 +96,8 @@ export function Team() {
     card32: 'https://static.igem.wiki/teams/5378/team-member/3201.webp',
     card33: 'https://static.igem.wiki/teams/5378/team-member/3301-1.webp',
     card34: 'https://static.igem.wiki/teams/5378/team-member/3401.webp',
-    card35: 'https://placehold.co/600x800',
-    card36: 'https://placehold.co/600x800',
+    card35: 'https://static.igem.wiki/teams/5378/team-member/qingfeng2.webp',
+    card36: 'https://static.igem.wiki/teams/5378/team-member/shenshen.webp',
 
 
   };
@@ -138,8 +138,8 @@ export function Team() {
     card32: 'First year in iGem , once iGEMer , always iGEMer !',
     card33: 'Hello this is Tina from The University of Singapore. The best way to predict the future is to create it!',
     card34: 'Jian Sun, representative of the 14th National People\'s Congress of China, serving as the president, second-level professor and chief physician of Nanfang Hospital, Southern Medical University, Guangzhou. His research interests focus on the pathogenesis, diagnosis and treatment of chronic hepatitis B and other metabolic associtaed liver diseases.',
-    card35: 'aminuosi',
-    card36: 'aminuosi',
+    card35: 'There is no royal road to science, and only those who do not dread the fatiguing climb of its steep paths have a chance of gaining its luminous summits.',
+    card36: 'The Beauty of Science is to Make Things Simple',
 
   };
 
@@ -295,8 +295,8 @@ export function Team() {
             <div className="col-3 margin-20">
             <Card
                 id="card35"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
+                image1="https://static.igem.wiki/teams/5378/team-member/qingfeng2.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/qingfeng.webp"
                 title1="Qingfeng Zhu"
                 description1="Instructors"
                 onHover={handleCardHover}
@@ -306,8 +306,8 @@ export function Team() {
             <div className="col-3 margin-20">
             <Card
                 id="card36"
-                image1="https://placehold.co/600x800"
-                image2="https://placehold.co/600x800"
+                image1="https://static.igem.wiki/teams/5378/team-member/shenshen.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/shenshen2.webp"
                 title1="Sheng Shen"
                 description1="Instructors"
                 onHover={handleCardHover}
