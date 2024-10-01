@@ -96,7 +96,7 @@ export function parts() {
             
                 <Element name="section1" className="element rounded-border" id='section1'>
                    <h2>1.Our Basic Parts</h2>
-                   <p>Content for section 1.</p>
+                   <p>We designed six basic parts in total this year,you can click on the part to see details.</p>
                    <table className="three-line-table">
                       <thead>
                             <tr className='table-head-line'>
