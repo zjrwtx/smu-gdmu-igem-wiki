@@ -97,7 +97,7 @@ The next page details the security measures and considerations our team has take
                 <p className="indent">In the end, the safety module we designed can effectively prevent and treat abdominal infection in patients with liver disease, solve intestinal flora disorders, support intestinal barrier function repair and alleviate complications of hepatic encephalopathy.</p>
                 <div className='image-container'>
                 <img 
-                src="https://static.igem.wiki/teams/5378/safety/1.webp"
+                src="https://static.igem.wiki/teams/5378/safety/2.webp"
                 alt="example"
                 className="image-wide"
               />
