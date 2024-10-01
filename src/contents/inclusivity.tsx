@@ -241,15 +241,6 @@ export function Inclusivity() {
               <p className="indent">Conducting public education campaigns to dispel misunderstandings and reduce discrimination against patients with hepatic encephalopathy. Through media and community events, we aim to raise public awareness about hepatic encephalopathy and reduce societal biases.</p>
               <h4 className="center-text">（3）Promoting Multidimensional Participation:</h4>
               <p className="indent">Our team is dedicated to promoting patient involvement, community support, and interdisciplinary collaboration. First, by collecting patient feedback and suggestions, we better understand their needs to develop more suitable treatment plans. Second, establishing community support systems to provide psychological support and practical assistance, helping to address real-life issues faced by patients. Additionally, we have formed an interdisciplinary team including doctors, nurses, psychologists, and social workers to provide comprehensive support to patients.</p>
-              <div className='image-container'>
-              <img 
-                src="https://static.igem.wiki/teams/5378/award-inclusivity/888888888-1.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>12345678</figcaption>
-                </div>
-              
               </div>
 
               </Element>
