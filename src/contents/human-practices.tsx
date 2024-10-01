@@ -115,18 +115,18 @@ export function HumanPractices() {
             <h2>2. Ethical Considerations</h2>
             <p>Informed consent, privacy, fairness, non-harm, responsibility.</p>
   <div className="rounded-border">
-  <h3 className="center-text">2.1Ethical and Safe Biotechnology Research</h3>
+  <h3 className="center-text">2.1 Ethical and Safe Biotechnology Research</h3>
     <p className='indent'>
       Our project operates within the legal framework and adheres to strict <span className='bold-font'>laboratory safety regulations</span>. From an <span className='bold-font'>ethical standpoint</span>, responsible scientific research not only requires the involvement of <span className='bold-font'>experts</span>, but also must align with the values of <span className='bold-font'>citizens</span>, ensuring that our innovations address <span className='bold-font'>real-world challenges</span>.
     </p>
     <p className='indent'>
       We actively engage with <span className='bold-font'>schools</span>, <span className='bold-font'>hospitals</span>, and <span className='bold-font'>communities</span> through <span className='bold-font'>public outreach activities</span>, encouraging <span className='bold-font'>citizen participation</span>. By inviting people to share their suggestions, we are motivated to enhance <span className='bold-font'>scientific communication</span>. Through the <span className='bold-font'>popularization of science</span>, we aim to eliminate misconceptions about hepatic encephalopathy, thereby <span className='bold-font'>bridging the gap</span> between scientists and the public.
     </p>
-    <h3>Informed Consent and Privacy Protection</h3>
+    <h3>2.2 Informed Consent and Privacy Protection</h3>
     <p className='indent'>
       In our research, ensuring <span className='bold-font'>informed consent</span> and protecting <span className='bold-font'>patient information rights</span> are our top priorities. Participants will fully understand the experimental procedures, risks, and potential benefits before voluntarily signing an <span className='bold-font'>informed consent form</span>. We also commit to keeping all questionnaire content and <span className='bold-font'>participant privacy</span> strictly confidential.
     </p>
-    <h3>Rigorous Safety Evaluation</h3>
+    <h3>2.3 Rigorous Safety Evaluation</h3>
     <p className='indent'>
       In terms of experimental design and implementation, we rigorously evaluate the safety of <span className='bold-font'>engineered bacteria</span> to minimize any <span className='bold-font'>health risks</span> to patients. <span className='bold-font'>Pre-experiments</span> and <span className='bold-font'>animal studies</span> are conducted to verify safety, while a thorough assessment of potential <span className='bold-font'>side effects</span> and <span className='bold-font'>adverse reactions</span> is performed, with contingency plans developed to manage any risks.
     </p>
@@ -188,7 +188,9 @@ export function HumanPractices() {
     <p className='indent'>
       The figure below shows how our HP activities integrate with <span className='bold-font'>lab work</span> and <span className='bold-font'>scientific exchange</span>. This collaboration helps us better understand the complexity of HE and provides a foundation for developing <span className='bold-font'>probiotic-based treatments</span>. By combining patient feedback with scientific research, our goal is to improve HE treatment and enhance <span className='bold-font'>patient quality of life</span>.
     </p>
+    </div>
 
+    <div className="rounded-border">
     <h4 className="center-text">4.1 Basic Principles</h4>
     <p className='indent'>
       <span className='bold-font'>Hepatic encephalopathy (HE)</span> is a neurological disorder caused by liver dysfunction, with symptoms like <span className='bold-font'>cognitive impairment</span>, <span className='bold-font'>emotional instability</span>, and decreased <span className='bold-font'>social functioning</span>, all of which affect <span className='bold-font'>quality of life</span>. Many patients have <span className='bold-font'>low self-awareness</span> of their condition, delaying treatment and increasing psychological burden. Our goal is to explore why HE patients have low awareness of their symptoms and stress.
