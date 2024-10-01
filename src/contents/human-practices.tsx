@@ -74,15 +74,39 @@ export function HumanPractices() {
         <div className="col-10">
 
 
-          <Element name="section1" className="element rounded-border" id='section1'>
-            <h2>Section 1</h2>
-            <p>Content for section 1.</p>
-            <img
-              src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-              alt="example"
-              className="responsive-img"
-            />
-          </Element>
+        <Element name="section1" className="element rounded-border" id='section1'>
+  <div className="rounded-border">
+    <h3>Human Practices: A Pillar of Our iGEM Project</h3>
+    <p className='indent'>
+      One of the pillars supporting a successful and responsible iGEM project is <span className='bold-font'>human practices</span>. We place great emphasis on human practices to ensure our product’s <span className='bold-font'>real-world applicability</span> and to assess its impact on <span className='bold-font'>Chinese society</span>, the <span className='bold-font'>global community</span>, and the <span className='bold-font'>scientific field</span>.
+    </p>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+      <li><span className='bold-font'>How does our project impact the world around us?</span></li>
+      <li><span className='bold-font'>How does the world influence our project?</span></li>
+    </ul>
+    <p className='indent'>
+      Our objective is to gather <span className='bold-font'>diverse perspectives</span>, from the general public to patients, ensuring we consider all possible viewpoints that may shape the trajectory of our project.
+    </p>
+    <h3>Understanding Hepatic Encephalopathy (HE)</h3>
+    <p className='indent'>
+      Hepatic encephalopathy, or <span className='bold-font'>HE</span>, is a syndrome resulting from <span className='bold-font'>central nervous system dysfunction</span> due to <span className='bold-font'>severe liver disease</span>. In this context, "hepatic" refers to the <span className='bold-font'>liver</span>, and "encephalopathy" refers to the <span className='bold-font'>brain</span>.
+    </p>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+      <li><span className='bold-font'>Mild HE patients</span> are typically characterized by a <span className='bold-font'>decline in cognitive function</span>, including <span className='bold-font'>coordination</span> and <span className='bold-font'>balance abilities</span>.</li>
+      <li><span className='bold-font'>Moderate HE patients</span> may experience <span className='bold-font'>anxiety</span>, <span className='bold-font'>insomnia</span>, <span className='bold-font'>sudden personality changes</span>, and <span className='bold-font'>abnormal behavior</span>.</li>
+      <li><span className='bold-font'>Severe HE cases</span> can lead to <span className='bold-font'>drowsiness</span>, <span className='bold-font'>coma</span>, and may even become <span className='bold-font'>life-threatening</span>.</li>
+    </ul>
+    <p className='indent'>
+      HE is frequently seen in patients with <span className='bold-font'>advanced liver diseases</span> like <span className='bold-font'>cirrhosis</span> and <span className='bold-font'>liver failure</span>. Severe episodes of HE can be:
+    </p>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+      <li><span className='bold-font'>Dangerous</span> and difficult to manage</li>
+      <li>Prone to <span className='bold-font'>recurrence</span></li>
+      <li>Likely to cause significant harm to a patient’s <span className='bold-font'>social functioning</span>, leading to a substantial burden on both the <span className='bold-font'>individual</span> and their <span className='bold-font'>family</span>.</li>
+    </ul>
+  </div>
+</Element>
+
 
 
 
