@@ -59,6 +59,9 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
             <Nav className="flex-column">
                 <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>ODE Model of Biochemical Reactions</Nav.Link>
                 <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Metabolic Engineering Strategy to Reduce Ammonia Production</Nav.Link>
+                
+                <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>part3</Nav.Link>
+
                 {/* 添加更多导航链接 */}
             </Nav>
         </div>
@@ -925,7 +928,7 @@ export function Model() {
                         <h3>Initial Conditions</h3>
                         <p>Except for the variables mentioned below, the initial values of all other variables are set to 0.</p>
                     
-
+<p>Placeholders</p>
                     </Element>
                     <Element name="section2" className="element" id='section2'>
                         <h2>PART2 Metabolic Engineering Strategy to Reduce Ammonia Production</h2>
@@ -1078,6 +1081,9 @@ export function Model() {
                         <p>In summary, our metabolic engineering analysis provided multiple knockout schemes, including single and multi-gene knockouts. Through gene knockout, ammonia production can be reduced to approximately <b>18% </b>of the wild-type levels, while the growth rate of the strain can be maintained at about <b>80%</b> of the wild-type. This finding offers significant directions for genetic modifications in the development of engineered strains intended for in vivo therapy.</p>
                     </Element>
                     <Element name="section3" className="element " id='section3'>
+                    <img src='https://static.igem.wiki/teams/5378/model/model3.webp' className='responsive-img'/>
+                    <p><figcaption className='caption' >Placeholders</figcaption></p>
+
                     </Element>
                 </div>
             </div>
