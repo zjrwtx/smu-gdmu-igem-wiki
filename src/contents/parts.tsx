@@ -40,7 +40,7 @@ const basicParts: TableRowData[] = [
   { id: 'BBa_K5378012', type: 'Coding', description: 'TFF3',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378012'},
   { id: 'BBa_K5378016', type: 'RBS', description: 'RBS',class:"table-element-orange",link:''},
   { id: 'BBa_K5378018', type: 'Coding', description: 'GFP',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378018' },
-  { id: 'BBa_K5378007', type: 'Coding', description: 'GFP',class:"table-element-yellow table-bottom-line",link:''},
+  { id: 'BBa_K5378020', type: 'Coding', description: '6xHis',class:"table-element-yellow table-bottom-line",link:'https://parts.igem.org/partsdb/edit_seq.cgi?part=BBa_K5378020'},
 
 ];
 const compositeParts: TableRowData[] = [
