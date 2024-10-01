@@ -149,7 +149,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="image-wide"
               />
-              <figcaption className='caption'>Example</figcaption>
+              <figcaption className='caption'>biosafety cabinet</figcaption>
               </div>
               
               <p className="indent">The laboratory is equipped with a ventilation system with exhaust purification devices and other equipment that does not allow microorganisms to escape to ensure safety.</p>
