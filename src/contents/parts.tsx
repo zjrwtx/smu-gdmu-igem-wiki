@@ -143,7 +143,7 @@ export function parts() {
             
   
                 <Element name="section3" className="element rounded-border" id='section3'>
-                <h2>Contribution</h2>
+                <h2>3.Contribution</h2>
                 <p className="indent">In addition, we have added content to the uploaded parts.</p>
                 <p className="indent">We optimized the codon of BBa_K3924011 and BBa_K3924002, and added two basic components accordingly, namely BBa_K5378011 and BBa_K5378012.</p>
                 </Element>
