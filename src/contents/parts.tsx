@@ -31,17 +31,16 @@ type TableRowData = {
 };
 
 const basicParts: TableRowData[] = [
-  { id: 'BBa_K5378000', type: 'Coding', description: 'GS',class:"table-element-yellow",link:'' },
-  { id: 'BBa_K5378001', type: 'Coding', description: 'TPH1',class:"table-element-orange",link:''},
-  { id: 'BBa_K5378006', type: 'Coding', description: 'tynA-G494S',class:"table-element-yellow",link:''},
-  { id: 'BBa_K5378007', type: 'Coding', description: 'feaR-A81L',class:"table-element-orange",link:''},
-  { id: 'BBa_K5378009', type: 'Promoter', description: 'PtynA',class:"table-element-yellow",link:''},
+  { id: 'BBa_K5378000', type: 'Coding', description: 'GS',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378000' },
+  { id: 'BBa_K5378001', type: 'Coding', description: 'TPH1',class:"table-element-orange",link:'https://parts.igem.org/Part:BBa_K5378001'},
+  { id: 'BBa_K5378006', type: 'Coding', description: 'tynA-G494S',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378006'},
+  { id: 'BBa_K5378007', type: 'Coding', description: 'feaR-A81L',class:"table-element-orange",link:'https://parts.igem.org/Part:BBa_K5378007'},
+  { id: 'BBa_K5378009', type: 'Promoter', description: 'PtynA',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378009'},
   { id: 'BBa_K5378011', type: 'Coding', description: 'CsgA',class:"table-element-orange",link:'https://parts.igem.org/Part:BBa_K5378011'},
   { id: 'BBa_K5378012', type: 'Coding', description: 'TFF3',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378012'},
-  { id: 'BBa_K5378016', type: 'RBS', description: 'RBS',class:"table-element-orange",link:''},
+  { id: 'BBa_K5378016', type: 'RBS', description: 'RBS',class:"table-element-orange",link:'https://parts.igem.org/Part:BBa_K5378016'},
   { id: 'BBa_K5378018', type: 'Coding', description: 'GFP',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378018' },
   { id: 'BBa_K5378020', type: 'Coding', description: '6xHis',class:"table-element-yellow table-bottom-line",link:'https://parts.igem.org/partsdb/edit_seq.cgi?part=BBa_K5378020'},
-
 ];
 const compositeParts: TableRowData[] = [
   { id: 'BBa_K5378002', type: 'Composite', description: 'PtynA-RBS-TPH1',class:"table-element-yellow",link:'' },
