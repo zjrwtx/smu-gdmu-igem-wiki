@@ -106,22 +106,41 @@ export function Inclusivity() {
               <h4 className="center-text">Language Engineering</h4>
               <p className="indent">(1) Language-Diverse Educational Brochures:</p>
               <p className="indent">To overcome language barriers and promote inclusivity in our outreach efforts, we have created educational brochures in both Tibetan and Chinese languages for the residents of Wa Rizhen. This initiative aims to ensure that all community members, regardless of their primary language, can access and understand the information provided. By offering materials in multiple languages, we are committed to eliminating linguistic obstacles and fostering a more inclusive environment where everyone can benefit from the shared knowledge.</p>
-              <p className="indent">(2) Sign Language Interpretation:</p>
-              <p className="indent">To ensure that our educational videos reach a wider audience, the SMU-GDMU team has specifically included sign language interpretation in our videos. This initiative aims to remove communication barriers for individuals who are deaf or hard of hearing, enabling them to access and understand the scientific information presented just as easily as the general audience. We consulted professional sign language interpreters to display sign language synchronously within the videos, ensuring the accuracy and clarity of the information conveyed. We believe that such efforts not only help improve the accessibility of the information but also strive to create a more inclusive environment where everyone can benefit from the knowledge we share, allowing people from different backgrounds to have equal access to scientific educational resources.</p>              <p className="indent">（1）Language-Diverse Educational Brochures:</p>
               <div className='image-container'>
               <img 
-                src="https://static.igem.wiki/teams/5378/award-inclusivity/20240922214356-1.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>12345678</figcaption>
-                <img 
-                src="https://static.igem.wiki/teams/5378/award-inclusivity/44-1.webp"
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/2.webp"
                 alt="example"
                 className="image-wide"
                 />
                 <figcaption className='caption'>12345678</figcaption>
               </div>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/3.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+              </div>
+              <p className="indent">(2) Sign Language Interpretation:</p>
+              <p className="indent">To ensure that our educational videos reach a wider audience, the SMU-GDMU team has specifically included sign language interpretation in our videos. This initiative aims to remove communication barriers for individuals who are deaf or hard of hearing, enabling them to access and understand the scientific information presented just as easily as the general audience. We consulted professional sign language interpreters to display sign language synchronously within the videos, ensuring the accuracy and clarity of the information conveyed. We believe that such efforts not only help improve the accessibility of the information but also strive to create a more inclusive environment where everyone can benefit from the knowledge we share, allowing people from different backgrounds to have equal access to scientific educational resources.</p>              
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/4.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+              </div>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/5.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+              </div>
+              <p className="indent">(1) Language-Diverse Educational Brochures:</p>
               </div>
               
               <div className="rounded-border">
@@ -129,7 +148,7 @@ export function Inclusivity() {
               <p className="indent">To promote inclusivity and enhance community engagement, the SMU-GDMU team introduced a series of self-compiled health exercises to the villagers. These exercises are designed to be both enjoyable and beneficial to physical health. By teaching these routines, we aim to encourage regular physical activity that is accessible to everyone, regardless of age or fitness level. The health exercises include simple movements that are easy to follow, ensuring that all participants can engage actively and derive health benefits. Through this initiative, we strive to create a fun and supportive environment where every individual can participate and enjoy the positive effects on their well-being, thereby fostering a sense of community and mutual support.</p>
               <div className='image-container'>
               <img 
-                src="https://static.igem.wiki/teams/5378/award-inclusivity/1-1.webp"
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/6.webp"
                 alt="example"
                 className="image-wide"
                 />
@@ -167,10 +186,18 @@ export function Inclusivity() {
               </Element>
 
               <Element name="section5" className="element rounded-border" id='section5'>
-              <h2>Assistance Engineering</h2>
-              <p>To Address Regional Development Imbalances and Unequal Resource Distribution (Such as Educational Opportunities, Service Access, and Resource Acquisition)，Southern Medical University (SMU) has formed a support team to assist Guangdong Medical University (GMU) in various ways. Through this mutually beneficial partnership, SMU and GMU demonstrate how support and collaboration can lead to significant progress for both institutions. Notably, our team consists of students from both universities, which is a vivid representation of this cooperative relationship. Through an interview with Professor Li Ling, the leader of the SMU support team and mentor of the SMU&GDMU iGEM team, we learned that the goals of this support initiative are:</p>
+              <h2>Assistance Engineering</h2>
+              <p>To Address Regional Development Imbalances and Unequal Resource Distribution (Such as Educational Opportunities, Service Access, and Resource Acquisition)，Southern Medical University (SMU) has formed a support team to assist Guangdong Medical University (GMU) in various ways. Through this mutually beneficial partnership, SMU and GMU demonstrate how support and collaboration can lead to significant progress for both institutions. Notably, our team consists of students from both universities, which is a vivid representation of this cooperative relationship. Through an interview with Professor Li Ling, the leader of the SMU support team and mentor of the SMU&GDMU iGEM team, we learned that the goals of this support initiative are:</p>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/7.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
               <div className="rounded-border">
-              <h4 className="center-text">（1）Achieving Interdisciplinary Integration:</h4>
+              <h4 className="center-text">(1) Achieving Interdisciplinary Integration:</h4>
               <p className="indent">By forming research teams in foundational medical sciences, clinical medicine, and other fields, we aim to promote interdisciplinary integration, reflecting the interdisciplinary spirit of iGEM. For example, SMU and GMU can jointly conduct a research project on genetic disease gene therapy, combining SMU's expertise in genetics with GMU's experience in clinical applications to form complementary research strengths.</p>
               </div>
               <div className='image-container'>
@@ -230,12 +257,28 @@ export function Inclusivity() {
               <Element name="section7" className="element rounded-border" id='section7'>
               <h2>Inclusivity within our team</h2>
               <div className="rounded-border">
-              <h4 className="center-text">（1）Interdisciplinary Team:</h4>
+              <h4 className="center-text">(1) Interdisciplinary Team:</h4>
               <p className="indent">Modern science is both highly differentiated and highly integrated, while intersectional science combines differentiation and synthesis to realize the integration of science. Interdisciplinary  science is a comprehensive and interdisciplinary product, which is conducive to solving the major complex scientific problems, social problems and global problems faced by mankind.</p>
               <p className="indent">Our team is composed of students from various disciplines, including Clinical Medicine, Statistics, Bioinformatics, Psychiatry, Preventive Medicine, Medical Laboratory Technology, Biomedical Materials Science, Applied Psychology, Information Management and Information Systems, and Health Insurance Studies, etc.. This diversity contributes to inspiring thinking collisions and continuous innovation.</p>
-              <h4 className="center-text">（2）Multi-Ethnic Team</h4>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/8.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
+              <h4 className="center-text">(2) Multi-Ethnic Team</h4>
               <p className="indent">Our team is a multicultural ensemble, composed of members from various ethnic backgrounds, including Tibetan, Hani, Tujia, Miao, and Han ethnicities. This diversity enriches our perspectives and enhances our ability to address challenges inclusively. By bringing together individuals from different cultural backgrounds, we foster a collaborative environment that values unique viewpoints and experiences. Each member contributes to our team's strength, allowing us to approach problems with a broader and more inclusive mindset.</p>
-              <h4 className="center-text">（3）Team Building</h4>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/9-3.webp"
+                alt="example"
+                className="image-height"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
+              <h4 className="center-text">(3) Team Building</h4>
               <p className="indent">"Alone we can do so little; together we can do so much."Team building is highly valued, and we owe our success and harmonious atmosphere to it. When we build connections with each other, when we realize our responsibility for the project, when we feel a sense of belonging to the team, it's natural to dedicate to the research. We hope all future iGEM teams attach importance to team building, which undoubtedly contributes to work efficiency and most importantly, precious relationships.</p>
               </div>
               
@@ -251,6 +294,22 @@ export function Inclusivity() {
               <p className="indent">To challenge the stereotype that women are not good at rational thinking or lack practical skills, it is worth noting that several key experiment designers in our team are women. Their outstanding contributions prove that these stereotypes are baseless. By showcasing the talents and abilities of our female team members, we aim to promote gender equality and inclusivity in science.</p>
               <p className="indent">(3) Interdisciplinary Collaboration:</p>
               <p className="indent">Our team consists of 16 women and 13 men, with female members bringing diverse disciplinary backgrounds such as Biostatistics, Information Management and Information Systems, Medical Laboratory Technology, Clinical Medicine, and Preventive Medicine. Through interdisciplinary collaboration, they have made critical contributions to the team, collectively driving the success of our project.</p>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/10-1.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
+                <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/11-1.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
               </div>
 
               <div className="rounded-border">
@@ -258,6 +317,31 @@ export function Inclusivity() {
               <p className="indent">Our team collaborates with the Hepatology Center at Nanfang Hospital and the Microecology Treatment Center at Zhujiang Hospital. Under their guidance, we collected serum samples from patients with cirrhosis before undergoing TIPS surgery and performed metabolomics testing. We also followed up with the patients for three months to record the occurrence of HE.</p>
               <p className="indent">Our team participated in the South China Exchange Conference, where we shared our project progress and experiences with Shenzhen University, Southern University of Science and Technology, and others.</p>
               <p className="indent">Our team was invited to participate in the China Regional Exchange Conference (CCIC), where we engaged in in-depth discussions with other teams regarding project optimization and improvements. This enhanced our collaborative abilities and promoted the development of each team's projects.</p>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/12.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
+                <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/13-1.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
+                <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/14.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
+              
               </div>
 
               <div className="rounded-border">
@@ -268,6 +352,31 @@ export function Inclusivity() {
               <p className="indent">To resolve experimental issues, we consulted with Professor Chen from the School of Basic Medical Sciences at Southern Medical University and also had an online discussion with Teacher Qiu from the National University of Defense Technology.</p>
               <p className="indent">Additionally, another female scientist we interviewed was Professor Ren from the School of Marxism, who provided us with advice from an ethical safety perspective. She advised that any genetic editing of organisms must be conducted in accordance with existing ethical regulations, especially adhering to the "do not disseminate principle"; at the same time, it is imperative not to release genetically modified organisms or products of genetically modified organisms from the laboratory into the environment, and any sites of genetic editing or deletion and the sequences edited must be reported to the safety committee.</p>
               <p className="indent">Subsequently, she reminded us that our project should be educational and popularizing, capable of enhancing the public's understanding and awareness of synthetic biology, and through public interaction and the organization of science popularization activities, allow more people to understand the significance, value, and application prospects of the project.</p>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/15-1.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
+                <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/16.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
+                <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/17-1.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>12345678</figcaption>
+                </div>
+              
               </div>
 
               </Element>
