@@ -231,7 +231,7 @@ export function Education() { // sidenavbar begin
                 <img
                   src="https://static.igem.wiki/teams/5378/boy.webp"
                   alt="example"
-                  className="image-wide"
+                  className="responsive-img"
                 />
                 <figcaption className='caption'>1234567687</figcaption>
                 </div>
