@@ -94,6 +94,7 @@ The next page details the security measures and considerations our team has take
                 <p className="indent">Additionally, we recognize that abdominal infections are a significant cause of recurrent hepatic encephalopathy and can lead to death. In response, we aim to develop an engineered bacterium capable of resisting inflammation and repairing the intestinal barrier. </p>
                 <p className="indent">Insights from discussions with the Peking University Medical School team have inspired our approach to utilizing curli fibers.And we referred to a study published in Nature Communications And the PATCH system was used for plasmid design. </p>
                 <p className="indent">In the end, the safety module we designed can effectively prevent and treat abdominal infection in patients with liver disease, solve intestinal flora disorders, support intestinal barrier function repair and alleviate complications of hepatic encephalopathy.</p>
+                <p className="indent">For details, you can see our safety module design section.</p>
                 <div className='image-container'>
                 <img 
                 src="https://static.igem.wiki/teams/5378/safety/2.webp"
