@@ -130,10 +130,6 @@ export function HumanPractices() {
     <p className='indent'>
       In terms of experimental design and implementation, we rigorously evaluate the safety of <span className='bold-font'>engineered bacteria</span> to minimize any <span className='bold-font'>health risks</span> to patients. <span className='bold-font'>Pre-experiments</span> and <span className='bold-font'>animal studies</span> are conducted to verify safety, while a thorough assessment of potential <span className='bold-font'>side effects</span> and <span className='bold-font'>adverse reactions</span> is performed, with contingency plans developed to manage any risks.
     </p>
-    <h3 className="center-text">2.2Ethical Compliance</h3>
-    <p className='indent'>
-      We have held <span className='bold-font'>in-depth discussions with ethical experts</span>, conducted extensive literature reviews, and considered <span className='bold-font'>local customs</span> and <span className='bold-font'>moral standards</span> to ensure the ethical integrity of our research project.
-    </p>
   </div>
 </Element>
 
