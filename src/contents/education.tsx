@@ -156,7 +156,6 @@ export function Education() { // sidenavbar begin
                   className="responsive-img"
                 />  
                 </div>
-                
                 </div>
                 <figcaption className='caption'>1234567687</figcaption>
                 </div>
@@ -224,20 +223,22 @@ export function Education() { // sidenavbar begin
                 <div className='col-6'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/sun1.webp"
-
+                  
                   alt="example"
                   className="responsive-img"
-                />
-
+                />  
+                 
                 </div>
                 <div className='col-6'>
-                <img
-
+                <img 
+                  
                   src="https://static.igem.wiki/teams/5378/boy.webp"
                   alt="example"
                   className="responsive-img"
-                  />
-                  <figcaption className='caption'>1234567687</figcaption>
+                />  
+                </div>
+                </div>
+                <figcaption className='caption'>1234567687</figcaption>
                 </div>
 
                 <div className='image-container'>
