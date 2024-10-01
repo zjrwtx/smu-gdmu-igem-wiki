@@ -76,7 +76,8 @@ export function HumanPractices() {
 
         <Element name="section1" className="element rounded-border" id='section1'>
   <div className="rounded-border">
-    <h3>5.1 Overview</h3>
+  <h3 style={{ textAlign: 'center' }}>5.2 Ethical and Safe Biotechnology Research</h3>
+
     <p className='indent'>
       One of the pillars supporting a successful and responsible iGEM project is <span className='bold-font'>human practices</span>. We place great emphasis on human practices to ensure our product’s <span className='bold-font'>real-world applicability</span> and to assess its impact on <span className='bold-font'>Chinese society</span>, the <span className='bold-font'>global community</span>, and the <span className='bold-font'>scientific field</span>.
     </p>
@@ -112,15 +113,30 @@ export function HumanPractices() {
 
 
 
-          <Element name="section2" className="element rounded-border" id='section2'>
-            <h2>Section 2</h2>
-            <p>Content for section 2.</p>
-            <img
-              src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-              alt="example"
-              className="responsive-img"
-            />
-          </Element>
+<Element name="section2" className="element rounded-border" id='section2'>
+  <div className="rounded-border">
+    <h3>5.2 Ethical and Safe Biotechnology Research</h3>
+    <p className='indent'>
+      Our project operates within the legal framework and adheres to strict <span className='bold-font'>laboratory safety regulations</span>. From an <span className='bold-font'>ethical standpoint</span>, responsible scientific research not only requires the involvement of <span className='bold-font'>experts</span>, but also must align with the values of <span className='bold-font'>citizens</span>, ensuring that our innovations address <span className='bold-font'>real-world challenges</span>.
+    </p>
+    <p className='indent'>
+      We actively engage with <span className='bold-font'>schools</span>, <span className='bold-font'>hospitals</span>, and <span className='bold-font'>communities</span> through <span className='bold-font'>public outreach activities</span>, encouraging <span className='bold-font'>citizen participation</span>. By inviting people to share their suggestions, we are motivated to enhance <span className='bold-font'>scientific communication</span>. Through the <span className='bold-font'>popularization of science</span>, we aim to eliminate misconceptions about hepatic encephalopathy, thereby <span className='bold-font'>bridging the gap</span> between scientists and the public.
+    </p>
+    <h3>Informed Consent and Privacy Protection</h3>
+    <p className='indent'>
+      In our research, ensuring <span className='bold-font'>informed consent</span> and protecting <span className='bold-font'>patient information rights</span> are our top priorities. Participants will fully understand the experimental procedures, risks, and potential benefits before voluntarily signing an <span className='bold-font'>informed consent form</span>. We also commit to keeping all questionnaire content and <span className='bold-font'>participant privacy</span> strictly confidential.
+    </p>
+    <h3>Rigorous Safety Evaluation</h3>
+    <p className='indent'>
+      In terms of experimental design and implementation, we rigorously evaluate the safety of <span className='bold-font'>engineered bacteria</span> to minimize any <span className='bold-font'>health risks</span> to patients. <span className='bold-font'>Pre-experiments</span> and <span className='bold-font'>animal studies</span> are conducted to verify safety, while a thorough assessment of potential <span className='bold-font'>side effects</span> and <span className='bold-font'>adverse reactions</span> is performed, with contingency plans developed to manage any risks.
+    </p>
+    <h3>Ethical Compliance</h3>
+    <p className='indent'>
+      We have held <span className='bold-font'>in-depth discussions with ethical experts</span>, conducted extensive literature reviews, and considered <span className='bold-font'>local customs</span> and <span className='bold-font'>moral standards</span> to ensure the ethical integrity of our research project.
+    </p>
+  </div>
+</Element>
+
 
 
           <Element name="section3" className="element rounded-border" id='section3'>
