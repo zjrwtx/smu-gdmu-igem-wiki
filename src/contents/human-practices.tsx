@@ -188,7 +188,9 @@ export function HumanPractices() {
     <p className='indent'>
       The figure below shows how our HP activities integrate with <span className='bold-font'>lab work</span> and <span className='bold-font'>scientific exchange</span>. This collaboration helps us better understand the complexity of HE and provides a foundation for developing <span className='bold-font'>probiotic-based treatments</span>. By combining patient feedback with scientific research, our goal is to improve HE treatment and enhance <span className='bold-font'>patient quality of life</span>.
     </p>
+    </div>
 
+    <div className="rounded-border">
     <h4 className="center-text">4.1 Basic Principles</h4>
     <p className='indent'>
       <span className='bold-font'>Hepatic encephalopathy (HE)</span> is a neurological disorder caused by liver dysfunction, with symptoms like <span className='bold-font'>cognitive impairment</span>, <span className='bold-font'>emotional instability</span>, and decreased <span className='bold-font'>social functioning</span>, all of which affect <span className='bold-font'>quality of life</span>. Many patients have <span className='bold-font'>low self-awareness</span> of their condition, delaying treatment and increasing psychological burden. Our goal is to explore why HE patients have low awareness of their symptoms and stress.
