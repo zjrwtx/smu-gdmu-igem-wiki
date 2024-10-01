@@ -131,7 +131,7 @@ export function Model() {
                 <div className="col-10 model-font">
                     <Element name="section1" className="element" id='section1'>
                         <h2 className="center-text mt-5">1. ODE Model of Biochemical Reactions</h2>
-                        <img src='https://static.igem.wiki/teams/5378/model/model-page.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', paddingRight: '15%' }} />
+                        <img src='https://static.igem.wiki/teams/5378/model/model-page.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', paddingRight: '20%' }} />
                         <figcaption className='caption' style={{ paddingRight: '15%' }} >Placeholders</figcaption>
 
                         <h3>1.1 Oxidation of Phenylethylamine</h3>
