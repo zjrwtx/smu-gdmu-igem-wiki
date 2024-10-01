@@ -73,15 +73,10 @@ export function Safety() {
               
               <Element name="section1" className="element rounded-border" id='section1'>
               <h2 className="center-text">Overview</h2>
-                 <p>Members of SMU-GDMU attach great importance to all safety issues involved in the project progress process and implement effective and feasible solutions to the safety issues faced, including project design safety, experimental safety, and biosafety.
+              <p className="indent">Members of SMU-GDMU attach great importance to all safety issues involved in the project progress process and implement effective and feasible solutions to the safety issues faced, including project design safety, experimental safety, and biosafety.
 The next page details the security measures and considerations our team has taken into account for this iGEM project.</p>
                </Element>
           
-               <div className="bd-callout bd-callout-info bg-gray">
-                  <h1>What do we do to ...? See...</h1>
-                </div>
-          
-              
               <Element name="section2" className="element rounded-border" id='section2'>
               <h2 className="center-text">Safe Project Design</h2>
                 <h3>2.1Chassis Safety</h3>
