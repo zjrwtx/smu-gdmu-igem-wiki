@@ -95,6 +95,7 @@ export function parts() {
           <div className="col-10">
             
                 <Element name="section1" className="element rounded-border" id='section1'>
+                <p>We have built several BioBricks, which cover all aspects throughout our projects, constituting our sensory module, metabolic module, and safety module.</p>
                    <h2>1.Our Basic Parts</h2>
                    <p>We designed six basic parts in total this year,you can click on the part to see details.</p>
                    <table className="three-line-table">
