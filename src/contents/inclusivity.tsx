@@ -200,14 +200,6 @@ export function Inclusivity() {
               <h4 className="center-text">(1) Achieving Interdisciplinary Integration:</h4>
               <p className="indent">By forming research teams in foundational medical sciences, clinical medicine, and other fields, we aim to promote interdisciplinary integration, reflecting the interdisciplinary spirit of iGEM. For example, SMU and GMU can jointly conduct a research project on genetic disease gene therapy, combining SMU's expertise in genetics with GMU's experience in clinical applications to form complementary research strengths.</p>
               </div>
-              <div className='image-container'>
-              <img 
-                src="https://static.igem.wiki/teams/5378/award-inclusivity/77777-1.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>12345678</figcaption>
-                </div>
               
                 <div className="rounded-border">
               <h4 className="center-text">（2）Building a 'Collaborative Talent Cultivation' System:</h4>
