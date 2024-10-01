@@ -223,9 +223,18 @@ export function Education() { // sidenavbar begin
                 <img 
                   src="https://static.igem.wiki/teams/5378/sun1.webp"
                   alt="example"
-                  className="image-height"
-                  />
-                  <figcaption className='caption'>1234567687</figcaption>
+                  className="responsive-img"
+                />
+
+                </div>
+                <div className='col-6'>
+                <img
+                  src="https://static.igem.wiki/teams/5378/boy.webp"
+                  alt="example"
+                  className="image-wide"
+                />
+                <figcaption className='caption'>1234567687</figcaption>
+                </div>
 
                 <img 
                   src="https://static.igem.wiki/teams/5378/sun2.webp"
