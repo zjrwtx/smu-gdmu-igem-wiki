@@ -144,12 +144,8 @@ export function parts() {
   
                 <Element name="section3" className="element rounded-border" id='section3'>
                 <h2>Contribution</h2>
-                <p className="indent"></p>
-                <div className="rounded-border">
-                <h4 className="center-text">Section 3</h4>
-                <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-                <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-                </div>
+                <p className="indent">In addition, we have added content to the uploaded parts.</p>
+                <p className="indent">We optimized the codon of BBa_K3924011 and BBa_K3924002, and added two basic components accordingly, namely BBa_K5378011 and BBa_K5378012.</p>
                 </Element>
 
               
