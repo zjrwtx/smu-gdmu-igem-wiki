@@ -217,7 +217,8 @@ The next page details the security measures and considerations our team has take
                 src="https://static.igem.wiki/teams/5378/safety/2-666666.webp"
                 alt="example"
                 className="responsive-img"
-              />            
+              />
+              <figcaption className='caption'>Medical first aid items</figcaption>            
               </div>
               </Element>
 
