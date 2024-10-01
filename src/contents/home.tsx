@@ -7,7 +7,6 @@ export function Home() {
     const handleScroll = () => {
       const sections = document.querySelectorAll('.element');
       let currentSection = '';
-      console.log(sections)
       sections.forEach(section => {
         const sectionTop = section.getBoundingClientRect().top;
         if (sectionTop <= window.innerHeight / 2 && sectionTop > -section.clientHeight) {
@@ -129,13 +128,13 @@ export function Home() {
       </div>
       {/* 5 */}
       <div className="page-container-5">
-        <div className="page-element-8">
+        <Element name="element-8" id="element-8" className="element page-element-8">
           <img
             src="https://static.igem.wiki/teams/5378/home/nh3.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-8' ? 'img-8-active' : 'img-8'}`}
           />
-        </div>
+        </Element>
         <div className="page-element-9">
           <img
             src="https://static.igem.wiki/teams/5378/home/path.webp"
@@ -143,20 +142,20 @@ export function Home() {
             className="home-img-wide"
           />
         </div>
-        <div className="page-element-10">
+        <Element name="element-10" id="element-10" className="element page-element-10">
           <img
             src="https://static.igem.wiki/teams/5378/home/hepacry.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-10' ? 'img-10-active' : 'img-10'}`}
           />
-        </div>
-        <div className="page-element-11">
+        </Element>
+        <Element name="element-11" id="element-11" className="element page-element-11">
           <img
             src="https://static.igem.wiki/teams/5378/home/gut.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-11' ? 'img-11-active' : 'img-11'}`}
           />
-        </div>
+        </Element>
       </div>
 
       {/* 6 */}
@@ -182,13 +181,13 @@ export function Home() {
             className="home-img-wide"
           />
         </div>
-        <div className="page-element-15">
+        <Element name="element-15" id="element-15" className="element page-element-15">
           <img
             src="https://static.igem.wiki/teams/5378/home/boyhead.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-15' ? 'img-15' : 'img-15'}`}
           />
-        </div>
+        </Element>
         <div className="page-element-15p">
           <img
             src="https://static.igem.wiki/teams/5378/home/d3.webp"
@@ -200,27 +199,29 @@ export function Home() {
 
       {/* 7 */}
       <div className="page-container-7">
-        <div className="page-element-16">
+        <Element name="element-16" id="element-16" className="element page-element-16">
           <img
             src="https://static.igem.wiki/teams/5378/home/boybigmouth.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-16' ? 'img-16-active' : 'img-16'}`}
           />
-        </div>
-        <div className="page-element-16p">
+          <div className="page-element-16p">
           <img
             src="https://static.igem.wiki/teams/5378/home/words1.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-16' ? 'img-16p-active' : 'img-16p'}`}
           />
-        </div>
-        <div className="page-element-17">
+          </div>
+
+        </Element>
+
+        <Element name="element-17" id="element-17" className="element page-element-17">
           <img
             src="https://static.igem.wiki/teams/5378/home/girlfort.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide ${activeLink === 'element-17' ? 'img-17-active' : 'img-17'}`}
           />
-        </div>
+        </Element>
       </div>
       {/* 8 */}
       <div className="page-container-8">

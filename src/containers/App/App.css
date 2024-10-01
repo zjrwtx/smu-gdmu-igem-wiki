@@ -1120,7 +1120,7 @@ span.formula_line::-webkit-scrollbar-track {
 }
 @keyframes element-1 {
   0% { opacity: 0; }
-  60% { opacity: 0; }
+  40% { opacity: 0; }
   70% { opacity: 1; }
   100% { opacity: 1; }
 }
@@ -1278,9 +1278,7 @@ span.formula_line::-webkit-scrollbar-track {
   opacity: 1; 
   transition: transform 1s ease-out, opacity 1s ease-out;
   animation: element-7 1.5s linear ;
- }
-
- @keyframes element-7 {
+ }@keyframes element-7 {
   0% { scale: 0; }
   50% { scale: 1.1; }
   80% { scale: 1.2; }
@@ -1293,6 +1291,24 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 30vw;
  }
+
+ .img-8 {
+  scale: 1;
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+ .img-8-active {
+  transform: translateX(0); 
+  scale: 1;
+  opacity: 1; 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+  animation: element-8 0.8s linear infinite;
+ }@keyframes element-8 {
+  0% { transform: rotate(0deg); }
+  33% { transform: rotate(6deg); }
+  67% { transform: rotate(-10deg); }
+  100% { transform: rotate(0deg); }
+}
+
  .page-element-9 {
   position: absolute;
   left: 20vw;
@@ -1307,6 +1323,20 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 30vw;
  }
+ .img-10 {
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+ .img-10-active {
+  transform: translateX(0); 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+  animation: element-10 1s linear infinite;
+ }@keyframes element-10 {
+  0% { transform: rotate(0deg) scale(1); }
+  33% { transform: rotate(3deg) scale(1.1); }
+  67% { transform: rotate(-3deg) scale(1);}
+  100% { transform: rotate(0deg) scale(1); }
+}
+
  .page-element-11 {
   position: absolute;
   left: 22vw;
@@ -1314,6 +1344,20 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 50vw;
  }
+ .img-11 {
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+ .img-11-active {
+  transform: translateX(0); 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+  animation: element-11 1s linear infinite;
+ }@keyframes element-11 {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(1vw); }
+  67% { transform: translateX(-1vw);}
+  100% { transform: translateX(0); }
+}
+
  .page-element-12 {
   position: absolute;
   left: 50vw;
@@ -1361,11 +1405,27 @@ span.formula_line::-webkit-scrollbar-track {
  }
  .page-element-15 {
   position: absolute;
-  left: 35vw;
+  left: 30vw;
   top: 10vw;
   height: auto;
   width: 55vw;
  }
+ .img-15 {
+  transform-origin: center; 
+  animation: rotate-head 7s linear infinite; 
+ }@keyframes rotate-head {
+  0% {
+    transform: rotate(0deg) scale(0.7); 
+  }
+  50% {
+    transform: rotate(180deg) scale(0.5);
+  }
+  100% {
+    transform: rotate(360deg) scale(0.7);
+  }
+}
+
+
  .page-element-15p {
   position: absolute;
   left: 13vw;
@@ -1381,13 +1441,52 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 20vw;
  }
+ .img-16 {
+  opacity: 0;;
+ }
+ .img-16-active {
+  transform: translateX(0); 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+  animation: element-16 1s linear;
+ }@keyframes element-16 {
+  0% { 
+    opacity: 0;
+    transform: translateY(0) ; }
+  33% { 
+    opacity: 1;
+    transform: translateY(1vw); }
+  67% { 
+    opacity: 1;
+    transform: translateY(-1vw);}
+  100% { 
+    opacity: 1;
+    transform: translateY(0); }
+}
+
  .page-element-16p {
   position: absolute;
-  left: 30vw;
-  top: 10vw;
+  left: -40vw;
+  top: 0vw;
   height: auto;
   width: 40vw;
  }
+ .img-16p {
+  opacity: 0;
+ }
+ .img-16p-active {
+  opacity: 1;
+  animation: element-16p 1s linear;
+ }@keyframes element-16p {
+  0% { 
+    opacity: 0; }
+  33% { 
+    opacity: 1; }
+  67% { 
+    opacity: 1;}
+  100% { 
+    opacity: 1;}
+}
+
  .page-element-17 {
   position: absolute;
   left: 3vw;
@@ -1395,6 +1494,27 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 80vw;
  }
+ 
+ .img-17 {
+  opacity: 0;
+ }
+ .img-17-active {
+  opacity: 1;
+  animation: element-17 1s linear;
+ }@keyframes element-17 {
+  0% { 
+    opacity: 0;
+    transform: translateY(0) ; }
+  33% { 
+    opacity: 1;
+    transform: translateY(1vw); }
+  67% { 
+    opacity: 1;
+    transform: translateY(-1vw);}
+  100% { 
+    opacity: 1;
+    transform: translateY(0); }
+}
  .page-element-18 {
   position: absolute;
   left: 75vw;
