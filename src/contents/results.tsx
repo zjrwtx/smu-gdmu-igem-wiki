@@ -144,7 +144,7 @@ export function Results() {
                 alt="example"
                 className="responsive-img"
               />
-               <figcaption className='caption'>Figure 3. Functionality verification of the PEA-sensing NH3-metabolizing system. (a)Schematic representation of the process of sensing and metabolic module. EcN was co-transformed with plasmid Pcon-FeaR-Pcon-TynA and plasmid PTynA-GS via electroporation. (b)NH3 concentration after coculturing different concentration of PEA and NH4Cl with engineered EcN for 12 hours. Data shows mean±SD, n=3 independent experiments. (c)NH3 concentration after coculturing 100ng/ml PEA and 50μM NH4Cl engineered EcN for 0, 4, 8,12 and 24 hours. EcN-FeaR-TynA was transformed with only plasmid Pcon-FeaR-Pcon-TynA as the control group. Data shows mean±SD, n=3 independent experiments.</figcaption>
+               <figcaption className='caption'>Figure 4. Expression of the safety module. (a)Schematic diagram of safety module plasmid and expected product. PBbB8k plasmid was transformed into EcNvia electroporation to achieve the secretion and self-assembly of EcN-derived TFF-fused curli. The structure of CsgA-TFF3 was predicted based on AlphaFold3. (b)Validation of TFF3 expression by Elisa. The fluorescence was measured on microplate reader by OD450 and OD650 (absorbance of 450nm and 650nm).Data shows mean±SD,n=3 independent experiments. (c)Validation of TFF3 expression by SDS-PAGE. 1: bacteria after inducible expression by arabinose. 2: supernatant after inducible expression. 3: bacteria before inducible expression by arabinose. 4: supernatant before inducible expression. (d)Schematic of quantitative Congo Red (CR)-binding assay. White ovals = E. coli; Orange and green lines = engineered curli fibers; Red circles = Congo Red (left). Normalized amyloid production of each EcN variant, as measured by CR binding assay (right), after induction with arabinose (Ara) at 37 °C in LB media.</figcaption>
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
@@ -153,8 +153,13 @@ export function Results() {
               </Element>
 
               <Element name="section5" className="element rounded-border" id='section5'>
-              <h2>Section 5</h2>
+              <h2>Model Results</h2>
               <p>Content for section 5.</p>
+              <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
