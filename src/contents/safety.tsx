@@ -160,7 +160,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="image-height"
               />
-              <figcaption className='caption'>Example</figcaption>
+              <figcaption className='caption'>high-pressure sterilization equipment</figcaption>
               </div>
               
 
