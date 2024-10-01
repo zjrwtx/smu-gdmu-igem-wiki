@@ -134,8 +134,17 @@ export function Results() {
               </Element>
 
               <Element name="section4" className="element rounded-border" id='section4'>
-              <h2>Section 4</h2>
-              <p>Content for section 4.</p>
+              <h2>Safety Module Validation</h2>
+              <p>In order to confirm that curli fibers decorated with TFFs could be produced by EcN, as they can in laboratory strains of E. coli, we transformed EcN with the panel of synthetic curli plasmid constructs (Fig.3-a), in addition to a vector in place of the curli genes as a negative control. The transformed cells were cultured at 37 °C and induced with L-(+)-arabinose.</p>
+              <p>The secretion of TFF3 can be detected by Mouse trefoil factor 3(TFF3) enzyme-linked immunosorbent Assay kit. Results show that the engineered EcN was strongly induced by L-(+)-arabinose with twice as much TFF3 is produced comparing to no induction (Fig3-b).</p>
+              <p>The secretion of TFF3-fused curli was proved successful (Fig.3-c), however, In some cases, basal expression of the csgA genes was observed without induction.</p>
+              <p>A quantitative Congo Red-binding (CR) assay, normally used for curli fiber detection, indicated that CsgA-TFF3 fusions could be expressed and assembled into curli fibers under these conditions, while EcN control vector showed no CR binding(Fig3-d).</p>
+              <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="responsive-img"
+              />
+               <figcaption className='caption'>Figure 3. Functionality verification of the PEA-sensing NH3-metabolizing system. (a)Schematic representation of the process of sensing and metabolic module. EcN was co-transformed with plasmid Pcon-FeaR-Pcon-TynA and plasmid PTynA-GS via electroporation. (b)NH3 concentration after coculturing different concentration of PEA and NH4Cl with engineered EcN for 12 hours. Data shows mean±SD, n=3 independent experiments. (c)NH3 concentration after coculturing 100ng/ml PEA and 50μM NH4Cl engineered EcN for 0, 4, 8,12 and 24 hours. EcN-FeaR-TynA was transformed with only plasmid Pcon-FeaR-Pcon-TynA as the control group. Data shows mean±SD, n=3 independent experiments.</figcaption>
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
