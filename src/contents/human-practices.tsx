@@ -142,15 +142,39 @@ export function HumanPractices() {
 
 
 
-          <Element name="section3" className="element rounded-border" id='section3'>
-            <h2>Section 3</h2>
-            <p>Content for section 3.</p>
-            <div className="rounded-border">
-              <h4 className="center-text">Section 3</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-            </div>
-          </Element>
+<Element name="section3" className="element rounded-border" id='section3'>
+            <h2>5.3 Collaboration</h2>
+            <p>Who are we connecting with.</p>
+  <div className="rounded-border">
+    <h3 style={{ textAlign: 'center' }}>Guidance and Cooperation</h3>
+    <p className='indent'>
+      Our team collaborates with the <span className='bold-font'>Liver Disease Center of Nanfang Hospital</span> and the <span className='bold-font'>Microecological Diagnosis and Treatment Center of Pearl River Hospital</span>.
+    </p>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+      <li>We collected <span className='bold-font'>preoperative serum samples</span> from cirrhosis patients undergoing <span className='bold-font'>TIPS</span>, conducted <span className='bold-font'>metabolomics testing</span>, and followed up with the patients for three months to monitor the occurrence of <span className='bold-font'>hepatic encephalopathy (HE)</span>.</li>
+    </ul>
+
+    <p className='indent'>
+      The team participated in the <span className='bold-font'>South China Exchange Conference</span>, sharing project progress and experiences with institutions like <span className='bold-font'>Shenzhen University</span> and the <span className='bold-font'>Southern University of Science and Technology</span>.
+    </p>
+    <p className='indent'>
+      We were invited to the <span className='bold-font'>China Regional Exchange Conference (CCIC)</span>, engaging in in-depth discussions with other teams to optimize and improve our project, enhancing <span className='bold-font'>collaboration abilities</span> and promoting mutual project development.
+    </p>
+
+    <p className='indent'>
+      <span className='bold-font'>Professor Qiu Xinyuan</span> from the <span className='bold-font'>National University of Defense Technology</span> provided valuable team guidance, offering practical suggestions and insights to support our team’s growth.
+    </p>
+
+    <p className='indent'>
+      We consulted with <span className='bold-font'>Dr. Liu</span>, a synthetic biology expert from the <span className='bold-font'>South China University of Technology</span>, to discuss the experimental content of our project, exchanging knowledge and experiences related to <span className='bold-font'>hepatic encephalopathy</span>.
+    </p>
+
+    <p className='indent'>
+      Team members participated in the <span className='bold-font'>National Synthetic Biology Innovation Competition</span> at <span className='bold-font'>Shenzhen Guangming Tian'an Cloud Valley</span>, where they engaged in deep discussions and collaboration with iGEM teams from across the country, exchanging innovative ideas on a shared platform.
+    </p>
+  </div>
+</Element>
+
 
           <Element name="section4" className="element rounded-border" id='section4'>
             <h2>Section 4</h2>
