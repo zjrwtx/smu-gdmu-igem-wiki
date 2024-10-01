@@ -188,6 +188,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="responsive-img"
               />
+              <figcaption className='caption'>Fire safety management</figcaption>
 <h4>3.2.4Laboratory waste treatment</h4>
 <p className="indent">According to the "Regulations on the Management of Medical Waste" of the State Council and the "Measures for the Management of Medical Waste in Medical and Health Institutions" of the former Ministry of Health, we manage laboratory waste from the following aspects: ① Designate a dedicated person in the laboratory to be responsible for and coordinate the management of various types of waste; ② Establish waste classification, isolation, packaging, transportation, storage, and disposal procedures in the laboratory; ③ Members of the Experimental Group should correctly dispose of waste to their respective garbage bins, and all solutions and plates should be marked; ④ Strictly follow the waste disposal system and procedures, and have processing records.</p>
 <p className="indent">We also have a special waste treatment process for bacteria and other microorganisms, as shown in the figure:</p>             
