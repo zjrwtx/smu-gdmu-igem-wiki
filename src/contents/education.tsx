@@ -162,15 +162,7 @@ export function Education() { // sidenavbar begin
                 </div>
                 
                 </div>
-                <div className='image-container'>
-                <img 
-                  
-                  src="https://static.igem.wiki/teams/5378/b4c93550a4f89a9080ca9516245d152.webp"
-                  alt="example"
-                  className="image-height"
-                />
                 
-                </div>
                 <figcaption className='caption'>1234567687</figcaption>
                 <p className="indent">After the lecture, a questionnaire was distributed to the students to assess whether they had increased their understanding of the field and their interest in synthetic biology through the lecture. The questionnaire was designed to include questions of multiple dimensions, such as the understanding of the basic concepts of synthetic biology, the level of interest in the content of the lecture, and the willingness to participate in related activities in the future.</p>
    
