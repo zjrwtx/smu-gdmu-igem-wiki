@@ -16,6 +16,7 @@ import {
   Model,
   collaboration,
   parts,
+  Design,
 } from "./contents";
 import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward,  FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake } from "react-icons/fa"; // 引入图标
 
@@ -74,14 +75,6 @@ const Pages: (Page | Folder)[] = [
     name: "Lab Work",
     folder: [
       {
-        name: "Experiments",
-        title: "Experiments",
-        path: "/experiments",
-        component: Experiments,
-        lead: "Describe the research, experiments, and protocols you used in your iGEM project.",
-        icon: FaFlask,
-      },
-      {
         name: "Results",
         title: "Results",
         path: "/results",
@@ -96,6 +89,14 @@ const Pages: (Page | Folder)[] = [
         component: Safety,
         lead: "Describe all the safety issues of your project.",
         icon: FaShieldAlt,
+      },
+      {
+        name: "Experiments",
+        title: "Experiments",
+        path: "/experiments",
+        component: Experiments,
+        lead: "Describe the research, experiments, and protocols you used in your iGEM project.",
+        icon: FaFlask,
       },
     ],
     icon: FaProjectDiagram,
@@ -118,6 +119,14 @@ const Pages: (Page | Folder)[] = [
         component: Description,
         lead: "Describe how and why you chose your iGEM project.",
         icon: FaBusinessTime,
+      },
+      {
+        name: "Design",
+        title: "Design",
+        path: "/design",
+        component: Design,
+        lead: "Describe the research, experiments, and protocols you used in your iGEM project.",
+        icon: FaFlask,
       },
       {
         name: "Engineering",

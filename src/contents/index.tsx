@@ -20,3 +20,4 @@ export * from "./inclusivity.tsx";
 export * from "./model.tsx";
 export * from "./collaboration.tsx";
 export * from "./parts.tsx"
+export * from "./design.tsx"
