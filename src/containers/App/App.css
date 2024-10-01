@@ -1312,6 +1312,7 @@ span.formula_line::-webkit-scrollbar-track {
   padding-bottom: 15px;
   padding-right: 15px;
 }
+
 .formula-scroll {
   white-space: nowrap;  
   overflow-x: auto;  
