@@ -16,7 +16,6 @@ import {
   Model,
   collaboration,
   parts,
-  Entrepreneurship,
 } from "./contents";
 import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward,  FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake } from "react-icons/fa"; // 引入图标
 
