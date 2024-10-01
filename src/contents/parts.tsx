@@ -36,8 +36,12 @@ const basicParts: TableRowData[] = [
   { id: 'BBa_K5378006', type: 'Coding', description: 'tynA-G494S',class:"table-element-yellow",link:''},
   { id: 'BBa_K5378007', type: 'Coding', description: 'feaR-A81L',class:"table-element-orange",link:''},
   { id: 'BBa_K5378009', type: 'Promoter', description: 'PtynA',class:"table-element-yellow",link:''},
+  { id: 'BBa_K5378011', type: 'Coding', description: 'CsgA',class:"table-element-orange",link:'https://parts.igem.org/Part:BBa_K5378011'},
+  
   { id: 'BBa_K5378016', type: 'RBS', description: 'RBS',class:"table-element-orange",link:''},
+  
   { id: 'BBa_K5378007', type: 'Coding', description: 'GFP',class:"table-element-yellow table-bottom-line",link:''},
+
 ];
 const compositeParts: TableRowData[] = [
   { id: 'BBa_K5378002', type: 'Composite', description: 'PtynA-RBS-TPH1',class:"table-element-yellow",link:'' },
@@ -45,6 +49,8 @@ const compositeParts: TableRowData[] = [
   { id: 'BBa_K5378004', type: 'Composite', description: 'feaR-A81L-G494S-PtynA-GS',class:"table-element-yellow",link:''},
   { id: 'BBa_K5378005', type: 'Composite', description: 'feaR-A81L-G494S-PtynA-TPH1',class:"table-element-orange",link:''},
   { id: 'BBa_K5378010', type: 'Composite', description: 'PtynA-RBS-GFP',class:"table-element-yellow table-bottom-line",link:''},
+
+
 ];
 
 export function parts() {
