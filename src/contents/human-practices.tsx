@@ -171,7 +171,7 @@ export function HumanPractices() {
 
 <Element name="section4" className="element rounded-border" id='section4'>
             <h2>4 Questionnaire</h2>
-            <p>What did we investigate</p>
+            <p>What did we investigate.</p>
   <div className="rounded-border">
     <p className='indent'>
       During the development of our hepatic encephalopathy (<span className='bold-font'>HE</span>) project, we conducted extensive <span className='bold-font'>Human Practices (HP)</span> activities to understand the challenges and gather feedback from professionals and patients. Our HP work is divided into three key areas:
@@ -223,7 +223,7 @@ export function HumanPractices() {
             <h2>5. Stakeholder</h2>
             <p>Our stakeholders.</p>
             <div className="rounded-border">
-              <h3 >5.1. Stakeholder Identification</h3>
+              <h3 className="center-text">5.1 Stakeholder Identification</h3>
               <p className='indent'>
                 Our iGEM project, focusing on innovative treatment for hepatic encephalopathy (<span className='bold-font'>HE</span>), has identified key stakeholders critical to the success and real-world application of our research. These stakeholders include HE patients, medical professionals (doctors), pharmaceutical company representatives, research experts involved in HE-related studies, and the general public.
                 <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
@@ -234,10 +234,9 @@ export function HumanPractices() {
                 </ul>
               </p>
             </div>
-          </Element>
-          <Element name="section5" className="element rounded-border" id='section5'>
+
             <div className="rounded-border">
-              <h3>5.2. Stakeholder Engagement</h3>
+              <h3 className="center-text">5.2. Stakeholder Engagement</h3>
               <p className='indent'>
                 We reached out to the stakeholders for expert insights through structured interviews, following a comprehensive engagement process: Preparation, Contact, Content Development, Execution, Summary, Reflection, and Updates. This approach allowed us to better understand the specific needs and challenges faced by each stakeholder group. Their feedback provided critical insights that guided improvements to our project design, ensuring it addresses real-world issues effectively.
               </p>
