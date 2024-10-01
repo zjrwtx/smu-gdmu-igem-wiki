@@ -10,17 +10,13 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
   return (
     <div className="side-navbar">
       <Nav className="flex-column">
-        <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>Section 1</Nav.Link>
-        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Section 2</Nav.Link>
         <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Overview</Nav.Link>
         <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>Rural outreach program</Nav.Link>
-        <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>The arts</Nav.Link>
-        <Nav.Link as={Link} to="section6" smooth={true} duration={500} className={activeLink === 'section6' ? 'active' : 'notActive'}>Link with the world</Nav.Link>
-        <Nav.Link as={Link} to="section7" smooth={true} duration={500} className={activeLink === 'section7' ? 'active' : 'notActive'}>Section 7</Nav.Link>
-        <Nav.Link as={Link} to="section8" smooth={true} duration={500} className={activeLink === 'section8' ? 'active' : 'notActive'}>Section 8</Nav.Link>
-        <Nav.Link as={Link} to="section9" smooth={true} duration={500} className={activeLink === 'section9' ? 'active' : 'notActive'}>Section 9</Nav.Link>
-        <Nav.Link as={Link} to="section10" smooth={true} duration={500} className={activeLink === 'section10' ? 'active' : 'notActive'}>Section 10</Nav.Link>
-        <Nav.Link as={Link} to="section11" smooth={true} duration={500} className={activeLink === 'section11' ? 'active' : 'notActive'}>Section 11</Nav.Link>
+        <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>Assistance Engineering</Nav.Link>
+        <Nav.Link as={Link} to="section6" smooth={true} duration={500} className={activeLink === 'section6' ? 'active' : 'notActive'}>Ethical Engineering</Nav.Link>
+        <Nav.Link as={Link} to="section7" smooth={true} duration={500} className={activeLink === 'section7' ? 'active' : 'notActive'}>Inclusivity within our team</Nav.Link>
+        <Nav.Link as={Link} to="section8" smooth={true} duration={500} className={activeLink === 'section8' ? 'active' : 'notActive'}>Link within the world</Nav.Link>
+        <Nav.Link as={Link} to="section9" smooth={true} duration={500} className={activeLink === 'section9' ? 'active' : 'notActive'}>Conclusion</Nav.Link>
         {/* 添加更多导航链接 */}
       </Nav>
     </div>
@@ -73,33 +69,6 @@ export function Inclusivity() {
         
         <div className="col-10">
           
-              
-              <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>Section 1</h2>
-                 <p>Content for section 1.</p>
-                 <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
-                className="responsive-img"
-              />
-               </Element>
-          
-
-               <div className="bd-callout bd-callout-info bg-gray">
-                  <h1>What do we do to ...? See...</h1>
-                </div>
-              
-              <Element name="section2" className="element rounded-border" id='section2'>
-                <h2>Section 2</h2>
-                <p>Content for section 2.</p>
-                <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
-                className="responsive-img"
-              />
-              </Element>
-          
-
               <Element name="section3" className="element rounded-border" id='section3'>
               <h2>Overview</h2>
               <p>"We are all connected in the great web of existence." — Chief Seattle</p>
@@ -298,29 +267,10 @@ export function Inclusivity() {
               </div>
               </Element>
 
-              <Element name="section10" className="element rounded-border" id='section10'>
-              <h2>Section 10</h2>
-              <p>Content for section 10.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section11" className="element rounded-border" id='section11'>
-              <h2>Section 11</h2>
-              <p>Content for section 11.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-          
+            
 
         </div>
-        <div className="col-1"></div>
+        
 
           
         
