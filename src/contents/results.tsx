@@ -83,7 +83,7 @@ export function Results() {
                 alt="example"
                 className="responsive-img"
               />
-              <figcaption className='caption'></figcaption>
+              <figcaption className='caption'>Figure 1. Validation of the feasibility of the sensing module. (a)Schematic representation of the construction and mechanism of engineered EcN with sensing module. EcN was co-transformed with plasmid Pcon-FeaR-Pcon-TynA and plasmid PTynA-GFP via electroporation. After co-culturing with different concentration of PEA for different time, fluorescence intensity was measure by microplate reader and fluorescence microscopy. (b)Fluorescence Intensity with 100ng/ml, 50ng/ml, 25ng/ml, 5ng/mland 0ng/ml PEA cocultured in engineered EcN. The fluorescence was measured on microplate reader by excitation at 410 nm and detection of emission at 500 nm. OD600 (absorbance of 600nm) was also measured on  microplate reader for normalization. Data shows mean±SD, n=3 independent experiments.(c)Fluorescence observation of the Pcon-FeaR-Pcon-TynA and PTynA-GFP engineered bacteria fluid cocultured with different concentrations of PEA. Fluorescence was observed after 12-hour co-culturing through fluorescence microscopy. </figcaption>
                </Element>
                <div className="bd-callout bd-callout-info bg-gray">
                   <h1>What do we do to ...? See...</h1>
