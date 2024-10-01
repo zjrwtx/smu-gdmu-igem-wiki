@@ -91,7 +91,7 @@ The next page details the security measures and considerations our team has take
                 <h3>2.3Suicidal System</h3>
                 <h3>2.4Safety Module</h3>
                 <p className="indent">Conversely, there is a risk of excessive proliferation of the engineered E. coli within the human body, necessitating the development of controllable switches to regulate bacterial growth and death effectively. </p>
-                <p className="indent">Additionally, we recognize that abdominal infections are a significant cause of recurrent hepatic encephalopathy and can lead to death[1][2]. In response, we aim to develop an engineered bacterium capable of resisting inflammation and repairing the intestinal barrier. </p>
+                <p className="indent">Additionally, we recognize that abdominal infections are a significant cause of recurrent hepatic encephalopathy and can lead to death. In response, we aim to develop an engineered bacterium capable of resisting inflammation and repairing the intestinal barrier. </p>
                 <p className="indent">Insights from discussions with the Peking University Medical School team have inspired our approach to utilizing curli fibers.And we referred to a study published in Nature Communications And the PATCH system was used for plasmid design. </p>
                 <p className="indent">In the end, the safety module we designed can effectively prevent and treat abdominal infection in patients with liver disease, solve intestinal flora disorders, support intestinal barrier function repair and alleviate complications of hepatic encephalopathy.</p>
                 <div className='image-container'>
