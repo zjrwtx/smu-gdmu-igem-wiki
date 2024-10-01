@@ -59,7 +59,6 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
             <Nav className="flex-column">
                 <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>ODE Model of Biochemical Reactions</Nav.Link>
                 <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Metabolic Engineering Strategy to Reduce Ammonia Production</Nav.Link>
-                <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Section 3</Nav.Link>
                 {/* 添加更多导航链接 */}
             </Nav>
         </div>
@@ -925,63 +924,7 @@ export function Model() {
                         </MathJax.Provider>
                         <h3>Initial Conditions</h3>
                         <p>Except for the variables mentioned below, the initial values of all other variables are set to 0.</p>
-                        <table>
-                            <tr>
-                                <td>Variable 变量名</td>
-                                <td>Value 数值</td>
-                                <td>Units 单位</td>
-                            </tr>
-                            <tr>
-                                <td><MathJax.Node inline formula={`[PEA_{gut}]`} /></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><MathJax.Node inline formula={`[TynA]`} /></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><MathJax.Node inline formula={`[FeaR]`} /></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><MathJax.Node inline formula={`[P_{TynA\\_GS}]`} /></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td>$<MathJax.Node inline formula={`[P_{TynA\\_TPH1}]`} />$</td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><MathJax.Node inline formula={`[Glu_{gut}]`} /></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><MathJax.Node inline formula={`[Glu_{cyto}]`} /></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><MathJax.Node inline formula={`[Gln_{gut}]`} /></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><MathJax.Node inline formula={`[Gln_{cyto}]`} /></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td><MathJax.Node inline formula={`[Trp_{gut}]`} /></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </table>
+                    
 
                     </Element>
                     <Element name="section2" className="element" id='section2'>
@@ -1025,7 +968,7 @@ export function Model() {
                                 <p>In COBRApy, the default unit for flux is mmol/(gDW*hr), which represents the millimoles of a substance produced or consumed per gram dry cell weight per hour.</p>
                             </div>
                         </div>
-                        <p>To identify knockout targets, we ran FBA optimization on iDK1463, yielding the flux values for various metabolic reactions in the optimized strain. Next, we filtered out the reactions related to ammonia, excluding those with a flux of zero under normal physiological conditions. The biomass reaction and reactions linearly related to it were considered essential and not selected as targets. Ultimately, among the **6 reactions identified**, the flux of ammonia-producing reactions will be minimized, while the flux of ammonia-consuming reactions will be maximized.</p>
+                        <p>To identify knockout targets, we ran FBA optimization on iDK1463, yielding the flux values for various metabolic reactions in the optimized strain. Next, we filtered out the reactions related to ammonia, excluding those with a flux of zero under normal physiological conditions. The biomass reaction and reactions linearly related to it were considered essential and not selected as targets. Ultimately, among the <b>6 reactions identified</b>, the flux of ammonia-producing reactions will be minimized, while the flux of ammonia-consuming reactions will be maximized.</p>
                         <table className="model-table three-line-table">
                             <thead>
                                 <tr className='table-head-line'>
