@@ -72,7 +72,7 @@ export function HumanPractices() {
 
         <Element name="section1" className="element rounded-border" id='section1'>
         <h2>1. Overview</h2>
-            <p>Have a picture of what we did</p>
+            <p>Have a picture of what we did.</p>
   <div className="rounded-border">
     <h3 className="center-text">1.1 A Pillar of Our iGEM Project</h3>
     <p className='indent'>
@@ -255,7 +255,7 @@ export function HumanPractices() {
 
         <Element name="section5" className="element rounded-border" id='section5'>
         <h2>6. Expert Consultation</h2>
-            <p>What did we learn from experts</p>
+            <p>Explore what did we learn from experts.</p>
   <div className="rounded-border">
     
     <h4>February 2024 - Yang Xiaolin</h4>
