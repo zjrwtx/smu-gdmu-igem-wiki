@@ -201,17 +201,22 @@ export function Inclusivity() {
                </Element>
 
               <Element name="section6" className="element rounded-border" id='section6'>
-              <h2>Ethical Engineering</h2>
-              <p>By integrating evidence-based medicine with narrative medicine, our team aims to enhance the quality of the doctor-patient relationship, making the medical process more humane. Specifically, we pay special attention to patient groups facing additional challenges due to economic, social, or other reasons, striving to eliminate the barriers they face so that everyone can benefit.</p>
+              <h2>From evidence to narrative: humanistic care and inclusive practice in medicine</h2>
+              <p>Against the backdrop of rapidly evolving medical technology, we recognise that relying on data and standardised treatments alone cannot fully meet the needs of patients. For this reason, we have turned to narrative medicine. Through an in-depth conversation with Professor Xiaolin Yang from the Centre for Narrative Medicine at Southern Medical University, we have learned how to incorporate more humanistic care into medical practice and communicate with doctors to apply it in their clinical practice. Narrative medicine emphasises an equal dialogue between doctors and patients, understanding patients' unique experiences by listening to their stories and engaging them to provide a more personalised treatment plan.</p>
               <div className="rounded-border">
-              <h4 className="center-text">（1）Eliminating Economic Pressures:</h4>
-              <p className="indent">Providing financial assistance and medical subsidies to alleviate the economic burden on patients. For example, collaborating with charitable organizations to offer free or low-cost medical services to economically disadvantaged patients.</p>
-              <h4 className="center-text">（2）Eliminating Social Stigmas:</h4>
-              <p className="indent">Conducting public education campaigns to dispel misunderstandings and reduce discrimination against patients with hepatic encephalopathy. Through media and community events, we aim to raise public awareness about hepatic encephalopathy and reduce societal biases.</p>
-              <h4 className="center-text">（3）Promoting Multidimensional Participation:</h4>
-              <p className="indent">Our team is dedicated to promoting patient involvement, community support, and interdisciplinary collaboration. First, by collecting patient feedback and suggestions, we better understand their needs to develop more suitable treatment plans. Second, establishing community support systems to provide psychological support and practical assistance, helping to address real-life issues faced by patients. Additionally, we have formed an interdisciplinary team including doctors, nurses, psychologists, and social workers to provide comprehensive support to patients.</p>
+              <h4 className="center-text">（1）Narrative Intervention and Prescription:</h4>
+              <p className="indent">Doctors actively listen to the patient's personal story and use it as part of the treatment plan, while providing emotional support and psychological relief to enhance treatment outcomes.</p>
+              <h4 className="center-text">（2）Establishment of a support network:</h4>
+              <p className="indent">Create a community of patients, family members and healthcare professionals to facilitate experience sharing and resource exchange, and enhance mutual psychological support.</p>
+              <h4 className="center-text">（3）Diversified participation:</h4>
+              <p className="indent">Provide scholarships and internship opportunities for students from different backgrounds, especially supporting members of underrepresented groups such as women and ethnic minorities.</p>
+              <h4 className="center-text">（4）Elimination of social prejudice:</h4>
+              <p className="indent">Increase public awareness of hepatic encephalopathy through media and community activities to reduce misunderstanding and discrimination.</p>
+              <h4 className="center-text">（5）Patient participation mechanisms:</h4>
+              <p className="indent">Encourage patients to participate in their own treatment decisions, and provide channels for feedback so that patients' voices can be heard.</p>
+              <h4 className="center-text">（6）Interdisciplinary co-operation:</h4>
+              <p className="indent">Collaborate with experts from multiple fields to form a multidisciplinary team to provide comprehensive services and support. This philosophy holds true for iGEM, synthetic biology, and the broader sciences as well. We believe that anyone should have the opportunity to have a voice and contribute to these communities.</p>
               </div>
-
               </Element>
 
               <Element name="section7" className="element rounded-border" id='section7'>
