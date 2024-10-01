@@ -467,8 +467,8 @@ footer a:hover {
 .rounded-border {
   margin: 5vw;
   margin-top: 5vh;
-  margin-bottom: 1vh ;
-  padding: 5vw;
+  margin-bottom: 5vh ;
+  padding: 3vw;
   border: 2px solid #e4dfb4b0; 
   /* 设置边框的宽度和颜色 */
   border-radius: 10px; /* 设置圆角半径 */
