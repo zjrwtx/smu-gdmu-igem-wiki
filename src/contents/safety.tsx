@@ -197,6 +197,7 @@ The next page details the security measures and considerations our team has take
                 alt="example"
                 className="responsive-img"
               />
+              <figcaption className='caption'>waste treatment process</figcaption>
 <h4>3.2.5Management and security system</h4>
 <h5>Laboratory layout and access</h5>              
 <p className="indent">Clean areas, semi-contaminated areas, and contaminated areas should be reasonably set up in the main laboratory.</p>    
