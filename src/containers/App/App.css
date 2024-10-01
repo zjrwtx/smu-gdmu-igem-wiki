@@ -1099,6 +1099,40 @@ span.formula_line::-webkit-scrollbar-track {
   position:relative;
   min-height: 90vw;
 }
+.img-fade-in {
+  /* position: relative; */
+  opacity: 0;
+  transform: translateX(0vw); 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+ .img-fade-in-active {
+  transform: translateX(0); 
+  opacity: 1; 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+.img-left-in {
+  /* position: relative; */
+  opacity: 0;
+  transform: translateX(-20vw); 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+ .img-left-in-active {
+  transform: translateX(0); 
+  opacity: 1; 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+
+ .img-right-in {
+  /* position: relative; */
+  opacity: 0;
+  transform: translateX(20vw); 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+ .img-right-in-active {
+  transform: translateX(0); 
+  opacity: 1; 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
 
 .page-element-0 {
   position: absolute;
@@ -1543,62 +1577,382 @@ span.formula_line::-webkit-scrollbar-track {
  }
  .page-element-18p2 {
   position: absolute;
-  left: 45vw;
-  top: 60vw;
+  left: 50vw;
+  top: 20vw;
   height: auto;
   width: 40vw;
   z-index: 2;
  }
+ .element-18p3-container {
+  position: absolute;
+  left: 0vw;
+  top: 10vw;
+  height: 25vw;
+  width: 100vw;
+ }
  .page-element-18p3 {
   position: absolute;
   left: 30vw;
-  top: 10vw;
+  top: 0vw;
   height: auto;
   width: 60vw;
  }
  .page-element-18p4 {
   position: absolute;
   left: 5vw;
-  top: 46vw;
+  top: 0vw;
   height: auto;
   width: 50vw;
+ }
+ .page-element-18p4-container {
+  position: absolute;
+  left: 0vw;
+  top: 46vw;
+  height: 20vw;
+  width: 100vw;
  }
  .page-element-18p5 {
   position: absolute;
   left: 2vw;
-  top: 80vw;
+  top: 0vw;
   height: auto;
   width: 95vw;
  }
  .page-element-18p6 {
   position: absolute;
   left: 2vw;
-  top: 79vw;
+  top: 0vw;
   height: auto;
   width: 62vw;
   z-index: 3;
  }
+ .page-element-18p6-container {
+  position: absolute;
+  left: 0vw;
+  top: 79vw;
+  height: 40vw;
+  width: 100vw;
+  z-index: 3;
+ }
+ .page-element-18p6p {
+  position: absolute;
+  left: 24vw;
+  top: 9vw;
+  height: auto;
+  width: 11vw;
+  z-index: 4;
+ }
+ .img-18p6p {
+  opacity: 0;
+ }
+ .img-18p6p-active {
+  opacity: 1;
+  transform-origin: center; 
+  animation: img-18p6p-animation 10s linear infinite; 
+ }@keyframes img-18p6p-animation {
+  0% {
+    opacity: 0;
+    transform:rotate(0deg); 
+  }
+  7% {
+    opacity: 1;
+    transform:rotate(0deg); 
+  }
+  70% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  85% {
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+  95% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+}
+
+ .page-element-18p6p2 {
+  position: absolute;
+  left: 48vw;
+  top: 10vw;
+  height: auto;
+  width: 11vw;
+  z-index: 4;
+ }
+ 
+ .img-18p6p2 {
+  opacity: 0;
+ }
+ .img-18p6p2-active {
+  opacity: 1;
+  transform-origin: center; 
+  animation: img-18p6p2-animation 10s linear infinite; 
+ }@keyframes img-18p6p2-animation {
+  0% {
+    opacity: 0;
+    transform:translateX(0) translateY(0); 
+  }
+  87% {
+    opacity: 0 ;
+    transform: translateX(-22vw) translateY(0); 
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(-22vw) translateY(0); 
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(-2vw); 
+  }
+}
+
+ .page-element-18p6p3 {
+  position: absolute;
+  left: 39vw;
+  top: 7vw;
+  height: auto;
+  width: 8vw;
+  z-index: 4;
+ }
+ .img-18p6p3 {
+  opacity: 0;
+ }
+ .img-18p6p3-active {
+  opacity: 1;
+  transform-origin: center; 
+  animation: img-18p6p3-animation 10s linear infinite; 
+ }@keyframes img-18p6p3-animation {
+  0% {
+    opacity: 0;
+    transform:translateX(0) translateY(0); 
+  }
+  20% {
+    opacity: 0 ;
+    transform: translateX(-21vw) translateY(0); 
+  }
+  25% {
+    opacity: 1;
+    transform: translateX(-21vw) translateY(0); 
+  }
+  40% {
+    opacity: 1;
+    transform: translateX(-15vw) translateY(0); 
+  }
+
+  55% {
+    opacity: 1;
+    transform: translateX(-15vw) translateY(0); 
+  }
+  70% {
+    opacity: 1;
+    transform: translateX(-15vw) translateY(2vw);
+  }
+  85% {
+    opacity: 1;
+    transform: translateX(-15vw) translateY(0);
+  }
+  95% {
+    opacity: 1;
+    transform: translateX(-15vw) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(0) translateY(0);
+  }
+}
+ .page-element-18p6p4 {
+  position: absolute;
+  left: 10vw;
+  top: 7vw;
+  height: auto;
+  width: 11vw;
+  z-index: 4;
+ }
+ .img-18p6p4 {
+  opacity: 0;
+ }
+ .img-18p6p4-active {
+  opacity: 1;
+  transform-origin: center; 
+  animation: img-18p6p4-animation 10s linear infinite; 
+ }@keyframes img-18p6p4-animation {
+  0% {
+    opacity: 0;
+    transform: rotate(0deg); 
+  }
+  10% {
+    opacity: 1 ;
+    transform: rotate(0deg); 
+  }
+  20% {
+    opacity: 1;
+    transform: rotate(360deg); 
+  }
+  50% {
+    opacity: 1;
+    transform: rotate(360deg); 
+  }
+
+  55% {
+    opacity: 0;
+    transform: rotate(360deg); 
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+}
+
  .page-element-18p7 {
   position: absolute;
   left: 2vw;
-  top: 127vw;
+  top: 0vw;
   height: auto;
   width: 55vw;
  }
  .page-element-18p8 {
   position: absolute;
   left: 42vw;
-  top: 127vw;
+  top: 0vw;
   height: auto;
   width: 55vw;
  }
+.page-element-18p8-container {
+  position: absolute;
+  left: 0vw;
+  top: 127vw;
+  height: 15vw;
+  width: 100vw;
+}
+
+.page-element-18p9 {
+  position: absolute;
+  left: 42vw;
+  top: 3vw;
+  height: auto;
+  width: 10vw;
+  z-index: 4;
+ }
+ .img-18p9 {
+  opacity: 0;
+ }
+ .img-18p9-active {
+  opacity: 1;
+  animation: element-18p9 10s linear infinite;
+ }@keyframes element-18p9 {
+  0% { 
+    opacity: 0;
+    transform: translateY(0) translateX(0); }
+    10% {
+      opacity: 1;
+    transform: translateY(0) translateX(0);
+    }
+    20% {
+      opacity: 1;
+    transform: translateY(2vw) translateX(0);
+    }
+    35% {
+      opacity: 1;
+    transform: translateY(-2vw) translateX(0);
+    }
+    40% {
+      opacity: 0;
+    transform: translateY(0) translateX(0);
+    }
+    100% {
+      opacity: 0;
+    transform: translateY(0) translateX(0);
+    }
+  
+}
+.img-18p10 {
+  opacity: 0;
+ }
+ .img-18p10-active {
+  opacity: 1;
+  animation: element-18p10 10s linear infinite;
+ }@keyframes element-18p10 {
+  0% { 
+    opacity: 0;
+    transform: translateY(0) translateX(0); }
+    40% {
+      opacity: 0;
+    transform: translateY(0) translateX(0);
+    }
+    45% {
+      opacity: 1;
+    transform: translateY(0) translateX(0);
+    }
+    60% {
+      opacity: 1;
+    transform: translateY(35vw) translateX(0);
+    }
+  70% { 
+    opacity: 1;
+    transform: translateY(35vw) translateX(30vw); }
+  80% { 
+    opacity: 1;
+    transform: translateY(35vw) translateX(30vw);}
+  100% { 
+    opacity: 0;
+    transform: translateY(35vw) translateX(30vw); }
+}
+.img-18p3 {
+  opacity: 0;
+ }
+ .img-18p3-active {
+  opacity: 1;
+  animation: element-18p3 10s linear infinite;
+ }@keyframes element-18p3 {
+  0% { 
+    opacity: 0;
+    transform: translateY(0) translateX(0); }
+    10% {
+      opacity: 1;
+    transform: translateY(0) translateX(0);
+    }
+    20% {
+      opacity: 1;
+    transform: translateY(2vw) translateX(0);
+    }
+    35% {
+      opacity: 1;
+    transform: translateY(-2vw) translateX(0);
+    }
+    40% {
+      opacity: 0;
+    transform: translateY(0) translateX(0);
+    }
+    100% {
+      opacity: 0;
+    transform: translateY(0) translateX(0);
+    }
+}
+
  .page-element-19 {
   position: absolute;
   left: 7vw;
-  top: 12vw;
+  top: 0vw;
   height: auto;
   width: 30vw;
  }
+ .img-19 {
+  /* position: relative; */
+  opacity: 0;
+  transform: translateX(-20vw); 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+ .img-19-active {
+  transform: translateX(0); 
+  opacity: 1; 
+  transition: transform 1s ease-out, opacity 1s ease-out;
+ }
+
  .page-element-20 {
   position: absolute;
   left: 30vw;
@@ -1616,7 +1970,7 @@ span.formula_line::-webkit-scrollbar-track {
  .page-element-21p {
   position: absolute;
   left: 36vw;
-  top: 15vw;
+  top: 3vw;
   height: auto;
   width: 8vw;
  }
