@@ -97,7 +97,7 @@ export function parts() {
                 <Element name="section1" className="element rounded-border" id='section1'>
                 <p className="indent">We have built several BioBricks, which cover all aspects throughout our projects, constituting our sensory module, metabolic module, and safety module.</p>
                    <h2>1.Our Basic Parts</h2>
-                   <p>We designed six basic parts in total this year,you can click on the part to see details.</p>
+                   <p className="indent">We designed six basic parts in total this year,you can click on the part to see details.</p>
                    <table className="three-line-table">
                       <thead>
                             <tr className='table-head-line'>
@@ -120,7 +120,7 @@ export function parts() {
 
                 <Element name="section2" className="element rounded-border" id='section2'>
                   <h2>2.Our Composite Parts</h2>
-                  <p>We designed seven composite parts in total this year,you can click on the part to see details.</p>
+                  <p className="indent">We designed seven composite parts in total this year,you can click on the part to see details.</p>
                   <table className="three-line-table">
                       <thead>
                             <tr className='table-head-line'>
@@ -144,7 +144,7 @@ export function parts() {
   
                 <Element name="section3" className="element rounded-border" id='section3'>
                 <h2>Contribution</h2>
-                <p>Content for section 3.</p>
+                <p className="indent"></p>
                 <div className="rounded-border">
                 <h4 className="center-text">Section 3</h4>
                 <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
