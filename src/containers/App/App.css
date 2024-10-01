@@ -1333,3 +1333,14 @@ span.formula_line::-webkit-scrollbar-track {
   max-width: 80%;
 }
 
+.model-font .accordion-header{
+  max-width: 80%;
+}
+
+.model-font .accordion-content-model.open{
+  max-width: 80%;
+}
+
+.model-font h2{
+  padding-right: 10%;
+}
