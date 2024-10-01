@@ -64,9 +64,30 @@ export function Home() {
 
       {/* 2 */}
       <div className="page-container-2">
-        <div className="page-element-4">
+        <div className="page-element-4p">
           <img
-            src="https://static.igem.wiki/teams/5378/home/22.webp"
+            src="https://static.igem.wiki/teams/5378/home/mortality.webp"
+            alt="example"
+            className="home-img-wide"
+          />
+        </div>
+        <div className="page-element-4p2">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/earth.webp"
+            alt="example"
+            className="home-img-wide img-4p2"
+          />
+        </div>
+        <div className="page-element-4p3">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/d4.webp"
+            alt="example"
+            className="home-img-wide img-4p3"
+          />
+        </div>
+        <div className="page-element-4p4">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/orbit2.webp"
             alt="example"
             className="home-img-wide"
           />

@@ -1051,17 +1051,17 @@ span.formula_line::-webkit-scrollbar-track {
 
 .page-container-2 {
   position:relative;
-  min-height: 70vw;
+  min-height: 60vw;
 }
 
 .page-container-3 {
   position:relative;
-  min-height: 100vw;
+  min-height: 80vw;
 }
 
 .page-container-4 {
   position:relative;
-  min-height: 40vw;
+  min-height: 30vw;
 }
 
 .page-container-5 {
@@ -1161,17 +1161,73 @@ span.formula_line::-webkit-scrollbar-track {
   100% { opacity: 1; }
 }
 
- .page-element-4 {
+ /* .page-element-4 {
   position: absolute;
-  left: auto;
+  left: 10vw;
   top: 0;
   height: 100vh;
-  width: 95vw;
+  width: 80vw;
+ } */
+ .page-element-4p {
+  position: absolute;
+  left: 60vw;
+  top: 22vw;
+  height: auto;
+  width: 30vw;
+ }
+ .page-element-4p2 {
+  position: absolute;
+  left: 10vw;
+  top: 13vw;
+  height: auto;
+  width: 40vw;
+ }
+ .img-4p2 {
+  transform-origin: center; 
+  animation: rotate 2s linear infinite; 
+ }@keyframes rotate {
+  0% {
+    transform: rotate(0deg); /* 初始状态 */
+  }
+  100% {
+    transform: rotate(360deg); /* 完成一整圈旋转 */
+  }
+}
+ .page-element-4p3 {
+  position: absolute;
+  left: 36vw;
+  top: 0;
+  height: auto;
+  width: 26vw;
+ }
+ .page-element-4p3 {
+  position: absolute;
+  left: 36vw;
+  top: 0;
+  height: auto;
+  width: 26vw;
+ }
+ .img-4p3 {
+  transform: translateX(0); 
+  animation: element-4p3 3s linear infinite;
+ }@keyframes element-4p3 {
+  0% { scale: 1; }
+  50% { scale: 1.05; }
+  80% { scale: 1.1; }
+  100% { scale: 1; }
+}
+
+ .page-element-4p4 {
+  position: absolute;
+  left: 3.2vw;
+  top: 7.9vw;
+  height: auto;
+  width: 58vw;
  }
  .page-element-5 {
   position: absolute;
   left: 10vw;
-  top: 22vw;
+  top: 10vw;
   height: auto;
   width: 60vw;
  }
@@ -1189,7 +1245,7 @@ span.formula_line::-webkit-scrollbar-track {
  .page-element-6 {
   position: absolute;
   right: 10vw;
-  top: 55vw;
+  top: 40vw;
   height: auto;
   width: 60vw;
  }
