@@ -136,7 +136,7 @@ The next page details the security measures and considerations our team has take
               />
               </div>
               </div>
-                <figcaption className='caption'>Example</figcaption>
+                <figcaption className='caption'>Laboratory Safety</figcaption>
               </div>
               
               
