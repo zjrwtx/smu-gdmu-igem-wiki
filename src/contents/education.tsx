@@ -240,6 +240,7 @@ export function Education() { // sidenavbar begin
                   <figcaption className='caption'>1234567687</figcaption>
                 </div>
 
+                <div className='image-container'>
                 <img 
                   src="https://static.igem.wiki/teams/5378/sun2.webp"
                   alt="example"
