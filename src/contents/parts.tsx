@@ -143,7 +143,7 @@ export function parts() {
             
   
                 <Element name="section3" className="element rounded-border" id='section3'>
-                <h2>Section 3</h2>
+                <h2>Contribution</h2>
                 <p>Content for section 3.</p>
                 <div className="rounded-border">
                 <h4 className="center-text">Section 3</h4>
