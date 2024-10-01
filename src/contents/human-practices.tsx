@@ -305,4 +305,8 @@ export function HumanPractices() {
   </div>
 </Element>
 
-
+</div>
+</div>
+</>
+  );
+}
