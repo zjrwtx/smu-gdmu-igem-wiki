@@ -104,9 +104,9 @@ export function Inclusivity() {
 
               <div className="rounded-border">
               <h4 className="center-text">Language Engineering</h4>
-              <p className="indent">（1）Language-Diverse Educational Brochures:</p>
+              <p className="indent">(1) Language-Diverse Educational Brochures:</p>
               <p className="indent">To overcome language barriers and promote inclusivity in our outreach efforts, we have created educational brochures in both Tibetan and Chinese languages for the residents of Wa Rizhen. This initiative aims to ensure that all community members, regardless of their primary language, can access and understand the information provided. By offering materials in multiple languages, we are committed to eliminating linguistic obstacles and fostering a more inclusive environment where everyone can benefit from the shared knowledge.</p>
-              <p className="indent">（2）Sign Language Interpretation:</p>
+              <p className="indent">(2) Sign Language Interpretation:</p>
               <p className="indent">To ensure that our educational videos reach a wider audience, the SMU-GDMU team has specifically included sign language interpretation in our videos. This initiative aims to remove communication barriers for individuals who are deaf or hard of hearing, enabling them to access and understand the scientific information presented just as easily as the general audience. We consulted professional sign language interpreters to display sign language synchronously within the videos, ensuring the accuracy and clarity of the information conveyed. We believe that such efforts not only help improve the accessibility of the information but also strive to create a more inclusive environment where everyone can benefit from the knowledge we share, allowing people from different backgrounds to have equal access to scientific educational resources.</p>              <p className="indent">（1）Language-Diverse Educational Brochures:</p>
               <div className='image-container'>
               <img 
