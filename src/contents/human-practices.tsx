@@ -75,10 +75,10 @@ export function HumanPractices() {
 
 
         <Element name="section1" className="element rounded-border" id='section1'>
-        <h2>5.1 Overview</h2>
+        <h2>1. Overview</h2>
             <p>Our Picture.</p>
   <div className="rounded-border">
-    <h3 style={{ textAlign: 'center' }}>A Pillar of Our iGEM Project</h3>
+    <h3 className="center-text">1.1 A Pillar of Our iGEM Project</h3>
     <p className='indent'>
       One of the pillars supporting a successful and responsible iGEM project is <span className='bold-font'>human practices</span>. We place great emphasis on human practices to ensure our product’s <span className='bold-font'>real-world applicability</span> and to assess its impact on <span className='bold-font'>Chinese society</span>, the <span className='bold-font'>global community</span>, and the <span className='bold-font'>scientific field</span>.
     </p>
@@ -92,7 +92,7 @@ export function HumanPractices() {
     </div>
 
     <div className="rounded-border">
-    <h3>Understanding Hepatic Encephalopathy (HE)</h3>
+    <h3 className="center-text">1.2 Understanding Hepatic Encephalopathy (HE)</h3>
     <p className='indent'>
       Hepatic encephalopathy, or <span className='bold-font'>HE</span>, is a syndrome resulting from <span className='bold-font'>central nervous system dysfunction</span> due to <span className='bold-font'>severe liver disease</span>. In this context, "hepatic" refers to the <span className='bold-font'>liver</span>, and "encephalopathy" refers to the <span className='bold-font'>brain</span>.
     </p>
@@ -115,10 +115,10 @@ export function HumanPractices() {
 
 
 <Element name="section2" className="element rounded-border" id='section2'>
-            <h2>5.2 Ethical considerations</h2>
+            <h2>2. Ethical considerations</h2>
             <p>Our stakeholders.</p>
   <div className="rounded-border">
-  <h3>Ethical and Safe Biotechnology Research</h3>
+  <h3 className="center-text">2.1Ethical and Safe Biotechnology Research</h3>
     <p className='indent'>
       Our project operates within the legal framework and adheres to strict <span className='bold-font'>laboratory safety regulations</span>. From an <span className='bold-font'>ethical standpoint</span>, responsible scientific research not only requires the involvement of <span className='bold-font'>experts</span>, but also must align with the values of <span className='bold-font'>citizens</span>, ensuring that our innovations address <span className='bold-font'>real-world challenges</span>.
     </p>
@@ -133,7 +133,7 @@ export function HumanPractices() {
     <p className='indent'>
       In terms of experimental design and implementation, we rigorously evaluate the safety of <span className='bold-font'>engineered bacteria</span> to minimize any <span className='bold-font'>health risks</span> to patients. <span className='bold-font'>Pre-experiments</span> and <span className='bold-font'>animal studies</span> are conducted to verify safety, while a thorough assessment of potential <span className='bold-font'>side effects</span> and <span className='bold-font'>adverse reactions</span> is performed, with contingency plans developed to manage any risks.
     </p>
-    <h3>Ethical Compliance</h3>
+    <h3 className="center-text">2.2Ethical Compliance</h3>
     <p className='indent'>
       We have held <span className='bold-font'>in-depth discussions with ethical experts</span>, conducted extensive literature reviews, and considered <span className='bold-font'>local customs</span> and <span className='bold-font'>moral standards</span> to ensure the ethical integrity of our research project.
     </p>
@@ -143,10 +143,10 @@ export function HumanPractices() {
 
 
 <Element name="section3" className="element rounded-border" id='section3'>
-            <h2>5.3 Collaboration</h2>
+            <h2>3 Collaboration</h2>
             <p>Who are we connecting with.</p>
   <div className="rounded-border">
-    <h3 style={{ textAlign: 'center' }}>Guidance and Cooperation</h3>
+    <h3 className="center-text">3.1 Guidance and Cooperation</h3>
     <p className='indent'>
       Our team collaborates with the <span className='bold-font'>Liver Disease Center of Nanfang Hospital</span> and the <span className='bold-font'>Microecological Diagnosis and Treatment Center of Pearl River Hospital</span>.
     </p>
