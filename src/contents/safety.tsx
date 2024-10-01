@@ -77,11 +77,6 @@ export function Safety() {
 The next page details the security measures and considerations our team has taken into account for this iGEM project.</p>
                </Element>
           
-               <div className="bd-callout bd-callout-info bg-gray">
-                  <h1>What do we do to ...? See...</h1>
-                </div>
-          
-              
               <Element name="section2" className="element rounded-border" id='section2'>
               <h2 className="center-text">Safe Project Design</h2>
                 <h3>2.1Chassis Safety</h3>
