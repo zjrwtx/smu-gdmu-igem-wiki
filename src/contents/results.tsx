@@ -75,13 +75,15 @@ export function Results() {
           
               
               <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>Section 1</h2>
-                 <p>Content for section 1.</p>
+                 <h2>Sensing Module Validation</h2>
+                 <p>To demonstrate that PEA, a reliable risk factor of HE identified by the current work of our secondary PI (see details in our Design page) , could initiate the downstream gene circuit, we first engineered Escherichia coli Nissle 1917(EcN) to produce FeaR and TynA constantly by transforming EcN with plasmid Pcon-tynA-Pcon-feaR. Thereby, PEA could be degraded by the enzyme TynA into PAG and PAG could bind with FeaR as a transcriptional factor, which could activate the inducible promoter PTynA. Then we transformed the engineered EcN with plasmid PTynA-GFP to demonstrate the feasibility and efficiency of sensing module via fluorensence (Figure 1a).</p>
+                 <p>After coculturing with 0, 5, 25, 50 and 100ng/ml PEA for 12 hours, results showed a significant increase in fluorensence  under microscopy, along with the the increased level in PEA concentration (Figure 1b), suggesting a successful expression and high feasibility of the sensing module. Moreover, the fluorescent intensity under different concentrations of PEA throughout 24 hours also verified that our engineered EcN could indeed be more sensitive to the increase in PEA concentration  (Figure 1c).</p>
                  <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
                 className="responsive-img"
               />
+              <figcaption className='caption'></figcaption>
                </Element>
                <div className="bd-callout bd-callout-info bg-gray">
                   <h1>What do we do to ...? See...</h1>
@@ -97,6 +99,7 @@ export function Results() {
                 alt="example"
                 className="responsive-img"
               />
+               <figcaption className='caption'></figcaption>
               </Element>
           
 
