@@ -1096,6 +1096,16 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 20vw;
  }
+ .element-0-animation {
+  animation: element-0 8s linear ;
+  opacity: 1;
+}
+@keyframes element-0 {
+  0% { opacity: 0; }
+  60% { opacity: 0; }
+  70% { opacity: 1; }
+  100% { opacity: 1; }
+}
 
 .page-element-1 {
  position: absolute;
@@ -1103,6 +1113,16 @@ span.formula_line::-webkit-scrollbar-track {
  top: 12px;
  height: auto;
  width: 60vw;
+}
+.element-1-animation {
+  animation: element-1 5s linear ;
+  opacity: 1;
+}
+@keyframes element-1 {
+  0% { opacity: 0; }
+  60% { opacity: 0; }
+  70% { opacity: 1; }
+  100% { opacity: 1; }
 }
 
 .page-element-2 {
@@ -1112,6 +1132,17 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 20vw;
  }
+ .element-2-animation {
+  animation: element-2 8s linear ;
+  opacity: 1;
+}
+@keyframes element-2 {
+  0% { opacity: 0; }
+  70% { opacity: 0; }
+  80% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
  .page-element-3 {
   position: absolute;
   left: 1vw;
@@ -1119,6 +1150,17 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 40vw;
  }
+ .element-3-animation {
+  animation: element-2 6s linear ;
+  opacity: 1;
+}
+@keyframes element-3 {
+  0% { opacity: 0; }
+  60% { opacity: 0; }
+  70% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
  .page-element-4 {
   position: absolute;
   left: auto;
@@ -1292,7 +1334,23 @@ span.formula_line::-webkit-scrollbar-track {
   height: auto;
   width: 60vw;
  }
-
+.page-element-title {
+  position: absolute;
+  left: 20vw;
+  top: 20vh;
+  height: auto;
+  width: 60vw;
+}
+.element-title-animation {
+  animation: element-title 2s linear ;
+  opacity: 0;
+}
+@keyframes element-title {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
 
 .col-10.model-font{
   padding-left: 40px;
@@ -1345,3 +1403,4 @@ span.formula_line::-webkit-scrollbar-track {
 .model-font h2{
   padding-right: 10%;
 }
+

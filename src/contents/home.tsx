@@ -6,32 +6,39 @@ export function Home() {
     <div className="bg-rice_yellow">
       {/* 1 */}
       <div className="page-container-1">
+      <div className="page-element-title">
+        <img
+            src="https://static.igem.wiki/teams/5378/home/guard.webp"
+            alt="example"
+            className="home-img-wide element-title-animation"
+          />
+        </div>
         <div className="page-element-0">
           <img
             src="https://static.igem.wiki/teams/5378/home/23.webp"
             alt="example"
-            className="home-img-wide"
+            className="home-img-wide element-0-animation"
           />
         </div>
         <div className="page-element-1">
           <img
             src="https://static.igem.wiki/teams/5378/home/25.webp"
             alt="example"
-            className="home-img-wide"
+            className="home-img-wide element-1-animation"
           />
         </div>
         <div className="page-element-2">
           <img
             src="https://static.igem.wiki/teams/5378/home/24.webp"
             alt="example"
-            className="home-img-wide"
+            className="home-img-wide element-2-animation"
           />
         </div>
         <div className="page-element-3">
           <img
             src="https://static.igem.wiki/teams/5378/home/26.webp"
             alt="example"
-            className="home-img-wide"
+            className="home-img-wide element-3-animation"
           />
         </div>
       </div>
