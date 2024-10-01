@@ -132,8 +132,8 @@ export function Model() {
                 <div className="col-10 model-font">
                     <Element name="section1" className="element" id='section1'>
                         <h2 className="center-text mt-5">1. ODE Model of Biochemical Reactions</h2>
-                        <img src='https://static.igem.wiki/teams/5378/model/model-page.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto',paddingRight: '15%' }} />
-                        <figcaption className='caption' style={{paddingRight: '15%' }} >Placeholders</figcaption>
+                        <img src='https://static.igem.wiki/teams/5378/model/model-page.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', paddingRight: '15%' }} />
+                        <figcaption className='caption' style={{ paddingRight: '15%' }} >Placeholders</figcaption>
 
                         <h3>1.1 Oxidation of Phenylethylamine</h3>
 
@@ -1041,15 +1041,20 @@ export function Model() {
                                     <tr>
                                         <td>{row.id}</td>
                                         <td>{row.col1}</td>
-                                        <td> <MathJax.Provider>
-                                            <MathJax.Node inline formula={row.col2} />
-                                        </MathJax.Provider>   </td>
+                                        <td>
+                                            <div className="formula-scroll">
+                                                <MathJax.Provider>
+                                                    <MathJax.Node inline formula={row.col2} />
+                                                </MathJax.Provider>
+                                            </div>
+                                        </td>
                                         <td>{row.col3}</td>
                                         <td>{row.col4}</td>
                                     </tr>
                                 ))}
                             </tbody>
                         </table>
+
 
 
                         <h3>2.3 Target Gene Search Based on Evolutionary Algorithms</h3>
@@ -1079,7 +1084,7 @@ export function Model() {
                             </div>
                         </div>
                         <p>Based on the OptiGene algorithm, we identified two valuable target reactions: <b>Glycine Cleavage System (GLYCL)</b> and <b>Glutamate Dehydrogenase (NADP, GLUDy)</b>. The main reactions involved, the candidate knockout targets, and the effects of their knockout on flux are summarized in the table below:</p>
-                        <table className="three-line-table">
+                        <table className="model-table three-line-table">
                             <thead>
                                 <tr className='table-head-line'>
                                     <th>Target Reaction</th>
@@ -1129,17 +1134,9 @@ export function Model() {
                         <p>The table displays the biomass flux and ammonia production per unit biomass for the wild-type strain and various knockout strains, along with the percentage of these values compared to the wild-type strain.</p>
                         <p>In summary, our metabolic engineering analysis provided multiple knockout schemes, including single and multi-gene knockouts. Through gene knockout, ammonia production can be reduced to approximately <b>18% </b>of the wild-type levels, while the growth rate of the strain can be maintained at about <b>80%</b> of the wild-type. This finding offers significant directions for genetic modifications in the development of engineered strains intended for in vivo therapy.</p>
                     </Element>
-
-
                     <Element name="section3" className="element " id='section3'>
                     </Element>
-
-
                 </div>
-
-
-
-
             </div>
         </>
     );
