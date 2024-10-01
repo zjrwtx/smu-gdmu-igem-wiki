@@ -16,6 +16,7 @@ import {
   Model,
   collaboration,
   parts,
+  Entrepreneurship,
 } from "./contents";
 import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward,  FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake } from "react-icons/fa"; // 引入图标
 
@@ -108,6 +109,14 @@ const Pages: (Page | Folder)[] = [
         title: "Contribution",
         path: "/contribution",
         component: Contribution,
+        lead: "Make a useful contribution for future iGEM teams. Use this page to document that contribution.",
+        icon: FaProjectDiagram,
+      },
+      {
+        name: "Entrepreneurship",
+        title: "Entrepreneurship",
+        path: "/entrepreneurship",
+        component: Entrepreneurship,
         lead: "Make a useful contribution for future iGEM teams. Use this page to document that contribution.",
         icon: FaProjectDiagram,
       },
