@@ -97,7 +97,7 @@ The next page details the security measures and considerations our team has take
                 <div className='image-container'>
                 <img 
                 src="https://static.igem.wiki/teams/5378/safety/1.webp"
-                alt="example"
+                alt="Safety module design ideas"
                 className="image-wide"
               />
               <figcaption className='caption'>Describe.......</figcaption>
