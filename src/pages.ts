@@ -113,14 +113,6 @@ const Pages: (Page | Folder)[] = [
         icon: FaProjectDiagram,
       },
       {
-        name: "Entrepreneurship",
-        title: "Entrepreneurship",
-        path: "/entrepreneurship",
-        component: Entrepreneurship,
-        lead: "Make a useful contribution for future iGEM teams. Use this page to document that contribution.",
-        icon: FaProjectDiagram,
-      },
-      {
         name: "Description",
         title: "Project Description",
         path: "/description",
