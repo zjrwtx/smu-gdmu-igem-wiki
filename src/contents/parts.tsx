@@ -95,7 +95,7 @@ export function parts() {
           <div className="col-10">
             
                 <Element name="section1" className="element rounded-border" id='section1'>
-                   <h2>1. Basic Parts</h2>
+                   <h2>1.Our Basic Parts</h2>
                    <p>Content for section 1.</p>
                    <table className="three-line-table">
                       <thead>
