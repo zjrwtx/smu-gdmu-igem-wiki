@@ -1,12 +1,33 @@
+import React, { useState, useEffect } from "react";
 import Nav from "react-bootstrap/Nav";
 import BootstrapNavbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Pages from "../pages.ts";
 import { Container } from "react-bootstrap";
-import "./Navbar.css"; // 添加这行来引入自定义 CSS 文件的1
+import "./Navbar.css";
 
 export function Navbar() {
+  const [scrollProgress, setScrollProgress] = useState(0);
+  const location = useLocation();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
+      const currentScroll = window.pageYOffset;
+      const scrollPercentage = (currentScroll / totalScroll) * 100;
+      setScrollProgress(scrollPercentage);
+    };
+
+    if (location.pathname === "/") {
+      window.addEventListener("scroll", handleScroll);
+      handleScroll(); // 初始化进度
+    }
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [location]);
   const pages = Pages.map((item, pageIndex) => {
     if ("folder" in item && item.folder) {
       const folderItems = item.folder.map((subpage, subpageIndex) => {
@@ -49,6 +70,8 @@ export function Navbar() {
   });
 
   return (
+
+  <>
     <BootstrapNavbar expand="lg" className="apple-navbar" fixed="top">
       <Container fluid>
         <Link to="/" className="apple-brand">
@@ -60,5 +83,12 @@ export function Navbar() {
         </BootstrapNavbar.Collapse>
       </Container>
     </BootstrapNavbar>
+    {location.pathname === "/" && (
+        <div 
+          className="scroll-progress-bar" 
+          style={{ width: `${scrollProgress}%` }}
+        ></div>
+      )}
+    </>
   );
 }

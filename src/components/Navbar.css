@@ -43,6 +43,7 @@
 .apple-nav {
   font-family: 'pangolin', cursive;
   margin-right: auto;
+  z-index: 999;
 }
 
 .apple-nav .nav-link,
@@ -55,13 +56,23 @@
   padding: 12px 20px;
   transition: opacity 0.2s ease;
 }
-
+.scroll-progress-bar {
+  width: var(--scroll-progress);
+}
 
 .apple-nav .nav-link:hover,
 .apple-nav .dropdown-toggle:hover {
   opacity: 0.65;
 }
-
+.scroll-progress-bar {
+  position: fixed;
+  top: 68px; /* 调整这个值以匹配你的导航栏高度 */
+  left: 0;
+  height: 3px;
+  background-color: #007aff; /* 使用 Apple 风格的蓝色 */
+  z-index: 1000;
+  transition: width 0.1s ease-out;
+}
 .apple-nav .dropdown-menu {
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: saturate(180%) blur(20px);
