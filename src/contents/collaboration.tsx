@@ -53,15 +53,20 @@ export function collaboration() {
     return (
       <>
 
-        <div className="custom-header-collaboration">
-            {/* <h1 className="centered-title">COLLABORATION</h1> */}
-            
-            <img 
+<div className="custom-header-inclusivity">
+<h1 className="centered-title">
+              <img 
+                src="https://static.igem.wiki/teams/5378/header/collaboration.png"
+                alt="safety header"
+                className="header-img"
+              />
+                            <img 
                 src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
                 alt="safety header"
                 className="header-bar"
               />
-        </div>
+</h1>
+</div>
         <div className='row bg-rice_yellow'>
         <div className="col-2">
             <SideNavbar activeLink={activeLink}          />

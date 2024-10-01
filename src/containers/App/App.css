@@ -806,8 +806,9 @@ footer a:hover {
 }
 
 .header-img {
-  height: 30%;
-  width: auto;
+  height: auto;
+  min-width: 40%;
+  max-width: 60%;
   position: relative;
   z-index: 2;
 }
