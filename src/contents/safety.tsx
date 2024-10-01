@@ -90,6 +90,7 @@ The next page details the security measures and considerations our team has take
                 <h3>2.2Parts Safety</h3>
                 <h3>2.3Suicidal System</h3>
                 <h3>2.4Safety Module</h3>
+                <p className="indent">Conversely, there is a risk of excessive proliferation of the engineered E. coli within the human body, necessitating the development of controllable switches to regulate bacterial growth and death effectively. </p>
                 <div className='image-container'>
                 <img 
                 src="https://static.igem.wiki/teams/5378/safety/03-1.webp"
