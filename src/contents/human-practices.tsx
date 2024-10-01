@@ -176,15 +176,51 @@ export function HumanPractices() {
 </Element>
 
 
-          <Element name="section4" className="element rounded-border" id='section4'>
-            <h2>Section 4</h2>
-            <p>Content for section 4.</p>
-            <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-            </div>
-          </Element>
+<Element name="section4" className="element rounded-border" id='section4'>
+            <h2>4 Questionnaire</h2>
+            <p>What did we investigate</p>
+  <div className="rounded-border">
+    <p className='indent'>
+      During the development of our hepatic encephalopathy (<span className='bold-font'>HE</span>) project, we conducted extensive <span className='bold-font'>Human Practices (HP)</span> activities to understand the challenges and gather feedback from professionals and patients. Our HP work is divided into three key areas:
+    </p>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+      <li><span className='bold-font'>Questionnaire-based research</span> to identify HE symptoms and their impact on <span className='bold-font'>quality of life</span>.</li>
+      <li><span className='bold-font'>Interviews with doctors</span> and liver disease experts to explore the <span className='bold-font'>limitations</span> of current treatments and potential <span className='bold-font'>probiotic therapies</span>.</li>
+      <li><span className='bold-font'>Patient and family feedback</span> to understand their expectations and concerns about new therapies.</li>
+    </ul>
+
+    <p className='indent'>
+      We designed a comprehensive <span className='bold-font'>questionnaire</span> covering patient <span className='bold-font'>medical history</span>, <span className='bold-font'>current symptoms</span>, treatment experience, and awareness of <span className='bold-font'>new therapies</span> like probiotics. This allows us to collect <span className='bold-font'>real-world data</span> to further our research on HE.
+    </p>
+    <p className='indent'>
+      The figure below shows how our HP activities integrate with <span className='bold-font'>lab work</span> and <span className='bold-font'>scientific exchange</span>. This collaboration helps us better understand the complexity of HE and provides a foundation for developing <span className='bold-font'>probiotic-based treatments</span>. By combining patient feedback with scientific research, our goal is to improve HE treatment and enhance <span className='bold-font'>patient quality of life</span>.
+    </p>
+
+    <h4 className="center-text">4.1 Basic Principles</h4>
+    <p className='indent'>
+      <span className='bold-font'>Hepatic encephalopathy (HE)</span> is a neurological disorder caused by liver dysfunction, with symptoms like <span className='bold-font'>cognitive impairment</span>, <span className='bold-font'>emotional instability</span>, and decreased <span className='bold-font'>social functioning</span>, all of which affect <span className='bold-font'>quality of life</span>. Many patients have <span className='bold-font'>low self-awareness</span> of their condition, delaying treatment and increasing psychological burden. Our goal is to explore why HE patients have low awareness of their symptoms and stress.
+    </p>
+
+    <h4 className="center-text">4.2 Method</h4>
+    <p className='indent'>
+      We designed a questionnaire in three parts:
+    </p>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+      <li><span className='bold-font'>Symptom awareness</span>: Participants rated their symptoms and stress on a scale from 0 (no symptoms) to 100 (severe symptoms) to measure <span className='bold-font'>self-awareness</span>.</li>
+      <li><span className='bold-font'>Clinical assessment</span>: Participants were guided through <span className='bold-font'>West Haven Criteria</span> to evaluate their actual condition.</li>
+      <li><span className='bold-font'>Coping and understanding</span>: Focused on how participants manage stress and understand their condition.</li>
+    </ul>
+    <p className='indent'>
+      The questionnaire was distributed online to HE patients in collaboration with hospitals to ensure <span className='bold-font'>diverse samples</span>.
+    </p>
+
+    <h4 className="center-text">4.3 Results</h4>
+    <p className='indent'>
+      We received <span className='bold-font'>725 responses</span>, including <span className='bold-font'>350 HE patients</span>. Only <span className='bold-font'>3.5%</span> could accurately recognize the severity of their condition, with most patients underestimating their symptoms. Comparisons with <span className='bold-font'>clinical assessments</span> showed that patients' self-reported symptoms were generally lower than professional evaluations. Over <span className='bold-font'>65%</span> of participants had never actively assessed their condition, despite some using mobile apps. These findings highlight the need to improve <span className='bold-font'>self-awareness</span> in HE patients, which is crucial for better treatment planning.
+    </p>
+  </div>
+</Element>
+
 
           <div className="bd-callout bd-callout-info bg-gray">
             <h1>What do we do to ...? See...</h1>
