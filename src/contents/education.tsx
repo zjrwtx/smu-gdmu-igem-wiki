@@ -145,7 +145,7 @@ export function Education() { // sidenavbar begin
                 <div className='row'>
                 <div className='col-6'>
                 <img 
-                  src="https://static.igem.wiki/teams/5378/037e7fc08b8f8518098e3af706f9eef.webp"
+                  src="https://static.igem.wiki/teams/5378/high-school1.webp"
                   alt="example"
                   className="responsive-img"
                 />  
@@ -158,13 +158,13 @@ export function Education() { // sidenavbar begin
                   className="responsive-img"
                 />  
                 </div>
-                
+
                 </div>
                 <div className='image-container'>
                 <img 
-                  src="https://static.igem.wiki/teams/5378/high-school1.webp"
+                  src="https://static.igem.wiki/teams/5378/b4c93550a4f89a9080ca9516245d152.webp"
                   alt="example"
-                  className="image-wide"
+                  className="image-height"
                 />
                 
                 </div>
