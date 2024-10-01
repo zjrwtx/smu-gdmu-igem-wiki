@@ -144,22 +144,37 @@ export function Education() { // sidenavbar begin
                 <p className="indent">In order to promote the knowledge of synthetic biology and to enhance the interest of young people in this cutting-edge field of science and technology, we have successfully travelled to Xiangyin No. 1 High School in Hunan Province, China and Foshan High School in Guangdong Province to deliver in-school lectures. During this event, high school students showed great enthusiasm and curiosity as active absorbers of knowledge. The lectures focused on the basic concepts of synthetic biology and its applications, with a special introduction to our team's research project on tackling hepatic encephalopathy by means of synthetic biology.</p>
                 <div className='image-container'>
                 <img 
+                  src="https://static.igem.wiki/teams/5378/037e7fc08b8f8518098e3af706f9eef.webp"
+                  alt="example"
+                  className="image-wide"
+                />  
+                 <figcaption className='caption'>1234567687</figcaption>
+                <img 
+                  src="https://static.igem.wiki/teams/5378/b4c93550a4f89a9080ca9516245d152.webp"
+                  alt="example"
+                  className="image-height"
+                />  
+                 <figcaption className='caption'>1234567687</figcaption>
+                <img 
                   src="https://static.igem.wiki/teams/5378/high-school1.webp"
                   alt="example"
                   className="image-wide"
                 />
                 <figcaption className='caption'>1234567687</figcaption>
-                <img 
-                  src="https://static.igem.wiki/teams/5378/high-school2.webp"
-                  alt="example"
-                  className="image-wide"
-                />  
                 </div>
                 <figcaption className='caption'>1234567687</figcaption>
                 <p className="indent">After the lecture, a questionnaire was distributed to the students to assess whether they had increased their understanding of the field and their interest in synthetic biology through the lecture. The questionnaire was designed to include questions of multiple dimensions, such as the understanding of the basic concepts of synthetic biology, the level of interest in the content of the lecture, and the willingness to participate in related activities in the future.</p>
    
                 <p className="indent">By collecting and analysing students' feedback, we can more accurately grasp the current situation of young people's knowledge of synthetic biology, and then adjust and improve the content of our lectures to ensure the effectiveness and attractiveness of our educational activities.</p>
                 <p className="indent">This process is not only a one-way information transfer, but also a two-way communication and feedback mechanism. Based on the valuable feedback provided by students, we have optimised and adjusted some of the lectures, such as adding more illustrative examples and interactive sessions to enhance students' participation and depth of understanding.</p>
+                <div className='image-container'>
+                <img 
+                  src="https://static.igem.wiki/teams/5378/2aa0ec5a9fb4f335edaec4f17198721.webp"
+                  alt="example"
+                  className="image-wide"
+                />  
+                 <figcaption className='caption'>1234567687</figcaption>
+                </div>
 
                 <p></p>
                 <p></p>
@@ -291,13 +306,13 @@ export function Education() { // sidenavbar begin
                 <p className="indent">This educational outreach not only demonstrated the great potential of synthetic biology in solving practical medical problems, but also stimulated the strong interest and enthusiasm of other young students in this field. We believe that through this two-way educational exchange, we can not only promote the development of synthetic biology, but also inject new vitality into the iGEM competition and research in related fields.</p>
                 <div className='image-container'>
                 <img 
-                  src="https://static.igem.wiki/teams/5378/science-2.webp"
+                  src="https://static.igem.wiki/teams/5378/ed5600ea233495db9ea03688d34f64e.webp"
                   alt="example"
                   className="image-wide"
                   />
                   <figcaption className='caption'>1234567687</figcaption>
                 <img 
-                  src="https://static.igem.wiki/teams/5378/science-3.webp"
+                  src="https://static.igem.wiki/teams/5378/9be818cffa6a960902ea3bacf9f6d7f.webp"
                   alt="example"
                   className="image-wide"
                   />
