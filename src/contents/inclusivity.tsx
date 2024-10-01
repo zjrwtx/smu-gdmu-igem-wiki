@@ -140,7 +140,6 @@ export function Inclusivity() {
                 />
                 <figcaption className='caption'>12345678</figcaption>
               </div>
-              <p className="indent">(1) Language-Diverse Educational Brochures:</p>
               </div>
               
               <div className="rounded-border">
