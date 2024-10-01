@@ -177,7 +177,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-height"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Health Record Form</figcaption>
                 </div>
               </div>
               
@@ -193,7 +193,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Group Photo of the Assistance Team Members</figcaption>
                 </div>
               <div className="rounded-border">
               <h4 className="center-text">(1) Achieving Interdisciplinary Integration:</h4>
@@ -257,7 +257,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
                 </div>
               <h4 className="center-text">(2) Multi-Ethnic Team</h4>
               <p className="indent">Our team is a multicultural ensemble, composed of members from various ethnic backgrounds, including Tibetan, Hani, Tujia, Miao, and Han ethnicities. This diversity enriches our perspectives and enhances our ability to address challenges inclusively. By bringing together individuals from different cultural backgrounds, we foster a collaborative environment that values unique viewpoints and experiences. Each member contributes to our team's strength, allowing us to approach problems with a broader and more inclusive mindset.</p>
@@ -267,7 +267,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-height"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Team Members from Different Ethnic Groups</figcaption>
                 </div>
               <h4 className="center-text">(3) Team Building</h4>
               <p className="indent">"Alone we can do so little; together we can do so much."Team building is highly valued, and we owe our success and harmonious atmosphere to it. When we build connections with each other, when we realize our responsibility for the project, when we feel a sense of belonging to the team, it's natural to dedicate to the research. We hope all future iGEM teams attach importance to team building, which undoubtedly contributes to work efficiency and most importantly, precious relationships.</p>
@@ -291,7 +291,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>The girls from our team are introducing our project to other teams</figcaption>
                 </div>
                 <div className='image-container'>
               <img 
@@ -299,7 +299,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Our team leader's interaction with other teams.</figcaption>
                 </div>
               </div>
 
@@ -314,7 +314,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>11th China Regional iGEMer Exchange Conference</figcaption>
                 </div>
                 <div className='image-container'>
               <img 
@@ -322,7 +322,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>8th iGEM South China Exchange Conference</figcaption>
                 </div>
                 <div className='image-container'>
               <img 
@@ -330,7 +330,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>SMU-GDMU iGEM and AIS-China exchange at Southern Medical University</figcaption>
                 </div>
               
               </div>
@@ -349,7 +349,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>11 September 2024 at the Southern Hospital Life Narrative Centre</figcaption>
                 </div>
                 <div className='image-container'>
               <img 
@@ -357,7 +357,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>Exchanging with teachers from Shenzhen University</figcaption>
                 </div>
                 <div className='image-container'>
               <img 
@@ -365,7 +365,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>12345678</figcaption>
+                <figcaption className='caption'>"iGEMers exchanging suggestions" or "iGEMers exchanging advice</figcaption>
                 </div>
               
               </div>
