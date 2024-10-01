@@ -227,7 +227,7 @@ export function HumanPractices() {
           </div>
 
           <Element name="section5" className="element rounded-border" id='section5'>
-            <h2>5. STAKEHOLDER</h2>
+            <h2>5. Stakeholder</h2>
             <p>Our stakeholders.</p>
             <div className="rounded-border">
               <h3 >5.1. Stakeholder Identification</h3>
@@ -261,15 +261,58 @@ export function HumanPractices() {
         </Element>
 
 
-      <Element name="section6" className="element rounded-border" id='section6'>
-        <h2>Section 6</h2>
-        <p>Content for section 6.</p>
-        <div className="rounded-border">
-          <h4 className="center-text">我是大帅B</h4>
-          <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-          <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-        </div>
-      </Element>
+        <Element name="section5" className="element rounded-border" id='section5'>
+        <h2>6. Expert Consultation</h2>
+            <p>What did we learn from experts</p>
+  <div className="rounded-border">
+    
+    <h4>February 2024 - Yang Xiaolin</h4>
+    <p className='indent'>
+      The application of <span className='bold-font'>probiotics</span> in treating <span className='bold-font'>hepatic encephalopathy (HE)</span> has sparked significant <span className='bold-font'>ethical discussions</span>. HE, a neurological complication caused by liver failure, severely affects patients' <span className='bold-font'>quality of life</span>. In addition to traditional treatments, probiotics regulate the <span className='bold-font'>intestinal microbiota</span>, improve <span className='bold-font'>intestinal barrier function</span>, reduce <span className='bold-font'>toxin absorption</span>, and alleviate symptoms. However, several ethical considerations arise when using probiotics for HE:
+    </p>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+      <li><span className='bold-font'>Safety and effectiveness</span>: Clinical research must strictly adhere to <span className='bold-font'>ethical standards</span>, ensure <span className='bold-font'>informed consent</span>, and thoroughly assess potential risks.</li>
+      <li><span className='bold-font'>Patient autonomy</span>: Patients should freely decide whether to receive new treatments after understanding the risks and benefits.</li>
+      <li><span className='bold-font'>Transparency</span>: It is our responsibility to provide clear information on the role of probiotics in the overall treatment plan.</li>
+    </ul>
+
+    <h4>February 2024 - Qiu Xinyuan</h4>
+    <p className='indent'>
+      Professor Qiu provided an overview of the <span className='bold-font'>iGEM competition</span> and shared experiences from the NUDT CHINA team, particularly from their 2022 project. We discussed using <span className='bold-font'>genetic engineering</span> to modify existing probiotic strains, introducing genes targeting <span className='bold-font'>ammonia metabolism</span>, and enhancing their functionality to reduce <span className='bold-font'>toxin accumulation</span> in HE patients. The conversation also focused on ensuring the <span className='bold-font'>safety and effectiveness</span> of these probiotics in clinical practice through <span className='bold-font'>synthetic biology</span> methods.
+    </p>
+
+    <h4>March 2024 - Zhu Bo</h4>
+    <p className='indent'>
+      Facing difficulties in finding suitable <span className='bold-font'>inducing promoters</span>, Professor Zhu from Sun Yat-sen University suggested using <span className='bold-font'>bile acid</span> as a biomarker. Bile acids not only have vital physiological roles but also reflect <span className='bold-font'>metabolic changes</span>. By building a bile acid-responsive system, gene expression can be more accurately regulated, leading to <span className='bold-font'>flexible experimental designs</span>. This strategy enhances both the <span className='bold-font'>operability</span> of the experiment and its relevance to <span className='bold-font'>clinical applications</span>.
+    </p>
+
+    <h4>May 2024 - He Xiaolong</h4>
+    <p className='indent'>
+      After consulting with HE expert Professor He Xiaolong, we were advised to replace bile acid markers with <span className='bold-font'>phenylethylamine (PEA)</span>. As a significant biogenic amine, PEA plays a role in <span className='bold-font'>nerve transmission</span> and physiological regulation. Using PEA as a response marker introduces a <span className='bold-font'>more flexible regulatory mechanism</span> and offers clearer insights into its role in various diseases. This shift provides a <span className='bold-font'>novel approach</span> to selecting inducing promoters and promotes <span className='bold-font'>deeper exploration</span> in related fields.
+    </p>
+
+    <h4>May 2024 - Zhou Hongwei and Chen Jin-Jun</h4>
+    <p className='indent'>
+      Dr. Zhou Hongwei from Shenzhen Hospital emphasized the need to solve complications during the <span className='bold-font'>design of the safety module</span>. Complications can greatly impact patient <span className='bold-font'>recovery</span> and <span className='bold-font'>quality of life</span>. Dean Zhou suggested <span className='bold-font'>real-time monitoring</span> of physiological indicators and drug responses to adjust treatment plans. This approach enhances <span className='bold-font'>medical care quality</span> and ensures patient safety, reflecting a <span className='bold-font'>people-centered medical philosophy</span>.
+    </p>
+
+    <h4>June 2024 - Du Chaochao</h4>
+    <p className='indent'>
+      In the preliminary design of the <span className='bold-font'>metabolic module</span>, we initially targeted <span className='bold-font'>monoamine oxidase B (MAOB)</span>. However, this conflicted with our sensing module. After consulting Teacher Du from Pearl River Hospital, we decided to adjust the direction and adopt a new <span className='bold-font'>metabolic pathway</span>. This adjustment optimized <span className='bold-font'>system compatibility</span> and improved the stability of its functions, laying a solid foundation for future experiments.
+    </p>
+
+    <h4>June 2024 - Chen Peng</h4>
+    <p className='indent'>
+      While studying <span className='bold-font'>Escherichia coli (EcN)</span> in chassis biology, we encountered issues with strain identification. After consulting Professor Chen Peng from Southern Medical University, we conducted <span className='bold-font'>mass spectrometry</span> and <span className='bold-font'>16S rRNA sequencing</span>, which revealed errors in our strain. Professor Chen emphasized the importance of accurately identifying chassis organisms and advised revisiting the experimental design to ensure reliability in future research.
+    </p>
+
+    <h4>September 2024 - Zheng Jusheng</h4>
+    <p className='indent'>
+      Our team consulted with Professor Zheng Jusheng on the <span className='bold-font'>clinical translation</span> of probiotics for HE treatment. The discussion focused on <span className='bold-font'>oral capsules</span>, a form of probiotic delivery that offers convenience, <span className='bold-font'>dosage control</span>, and high patient acceptance. Professor Zheng stressed the importance of conducting <span className='bold-font'>large-scale clinical trials</span> to assess safety and efficacy in real-world conditions. Additionally, the <span className='bold-font'>manufacturing process</span> should comply with <span className='bold-font'>GMP standards</span> to ensure product quality. We also explored <span className='bold-font'>microencapsulation technology</span> to protect probiotic viability, ensuring effective delivery to the intestines and enhancing therapeutic effects.
+    </p>
+  </div>
+</Element>
+
 
       <Element name="section7" className="element rounded-border" id='section7'>
         <h2>Section 7</h2>
