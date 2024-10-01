@@ -148,7 +148,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="responsive-img"
                 />  
-                 <figcaption className='caption'>1234567687</figcaption>
+                 
                 </div>
                 <div className='col-4'>
                 <img 
@@ -156,7 +156,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="responsive-img"
                 />  
-                 <figcaption className='caption'>1234567687</figcaption>
+                 
                 </div>
                 <div className='image-container'>
                 <img 
@@ -164,7 +164,7 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                 />
-                <figcaption className='caption'>1234567687</figcaption>
+                
                 </div>
                 <figcaption className='caption'>1234567687</figcaption>
                 <p className="indent">After the lecture, a questionnaire was distributed to the students to assess whether they had increased their understanding of the field and their interest in synthetic biology through the lecture. The questionnaire was designed to include questions of multiple dimensions, such as the understanding of the basic concepts of synthetic biology, the level of interest in the content of the lecture, and the willingness to participate in related activities in the future.</p>
