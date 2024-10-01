@@ -1302,7 +1302,7 @@ span.formula_line::-webkit-scrollbar-track {
   max-width: 200px;
   word-wrap: break-word;
   word-break: break-all; /* 强制在边界处断字 */
-  text-align: left;
+  text-align: center;
   overflow:visible;
   white-space: normal;
 }
@@ -1328,3 +1328,8 @@ span.formula_line::-webkit-scrollbar-track {
   background-color: #f5deb3; /* 滚动条滑块的淡黄色 */
   border-radius: 10px; /* 使滚动条更圆滑 */
 }
+
+.model-table.three-line-table{
+  max-width: 80%;
+}
+
