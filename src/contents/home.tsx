@@ -379,16 +379,6 @@ export function Home() {
           />
           </div>
         </Element>
-
-
-        {/* <div className="page-element-21">
-          <img
-            src="https://static.igem.wiki/teams/5378/home/4.webp"
-            alt="example"
-            className="home-img-wide"
-          />
-        </div> */}
-        
       </div>
 
       {/* 9 */}
