@@ -98,7 +98,6 @@ export function Engineering() {
                 <p>During the next round of literature reading and brain storming, we learned that the level of bile acid decreases in cirrhosis patients and it was verified in some clinical studies[2-3], so we endeavored to seek systems that could respond to bile acids. Under the generous help and suggestions of Professor Zhu Bo (find more in our integrated human practice page), we found Martínez et al in 2019 developed bile acid inducible promoters in Lactobacillus strains[4]. </p>
                 <p>However, the level of bile acid is negatively related to the severity of cirrhosis, so we tried to utilize the "NOT" logic gate by introducing Cl/Plam genetic circuit. Plam is a potent promoter found in the lambda bacteriophage, while Cl is an inhibitory protein that can bind to the Plam promoter, thereby repressing downstream gene expression[5].</p>
                 <p>Next, we re-designed the sensing module as shown in Figure 2. The normal level of bile acid can activate the expression of pchA downstream of the inducible bile acid promoter, releasing transcriptional factor pchA to activate PLEE1 and express CL, which can inhibit Plam to express metabolic module. In contrast, when bile acid decreases in cirrhosis patients who are likely to develop HE, the inhibitory effect can be eliminated and thus initiate the expression of metabolic module to work.</p>
-
                 <h4>Test</h4>
                 <h4>Learn</h4>
                 <h3>Cycle 2: Construction of the Sensing Module</h3>
