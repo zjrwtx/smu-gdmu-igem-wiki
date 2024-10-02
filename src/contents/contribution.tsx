@@ -8,7 +8,13 @@ interface SideNavbarProps {
   activeLink: string;
 }
 
-
+type TableRowData = {
+    id: string;
+    type: string;
+    description: string;
+    class: string;
+    link: string;
+  };
 
 const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
   return (
@@ -82,7 +88,7 @@ export function Contribution() {
                 className="header-img"
               />
                             <img 
-                src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
+                src="https://static.igem.wiki/teams/5378/header/headerbar2.webp"
                 alt="safety header"
                 className="header-bar"
               />

@@ -80,7 +80,7 @@ export function parts() {
                         className="header-img"
                     />
                     <img
-                        src="https://static.igem.wiki/teams/5378/header/header-bar.webp"
+                        src="https://static.igem.wiki/teams/5378/header/headerbar2.webp"
                         alt="safety header"
                         className="header-bar"
                     />
