@@ -223,7 +223,7 @@ export function Model() {
                     <Element name="section1" className="element" id='section1'>
                         <h2 className="center-text mt-5">1. ODE Model of Biochemical Reactions</h2>
                         <img src='https://static.igem.wiki/teams/5378/model/model-page.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', paddingRight: '20%' }} />
-                        <figcaption className='caption' style={{ paddingRight: '20%' }} >Placeholders</figcaption>
+                       {/* <figcaption className='caption' style={{ paddingRight: '20%' }} >Placeholders</figcaption>*/}
 
                         <h3>1.1 Oxidation of Phenylethylamine</h3>
 
@@ -1456,6 +1456,21 @@ export function Model() {
                         <figcaption className='caption' style={{ paddingRight: '20%' }} >Figure 4 Concentration of phenylethylamine and Ammonia, 0-24h</figcaption>
                         <p>Phenylethylamine (PEA) and ammonia are two key pathogenic metabolites in hepatic encephalopathy, and their accumulation may worsen the patient's condition, significantly affecting prognosis. Therefore, we conducted further analysis of these metabolites. Simulation results show that when the initial concentration of PEA is 8.25 × 10^-4 mmol/L (100 ng/μL), after 10 hours, the PEA concentration decreases to 1.34 × 10^-4 mmol/L (16.24 ng/μL), and by the 24th hour, it decreases to approximately 1 × 10^-5 mmol/L. At this point, however, ammonia concentration rises to 7.76 × 10^-4 mmol/L, which aligns with our experimental results, confirming the model's validity and demonstrating the efficiency of our strategy in degrading PEA.</p>
                         <p>However, the increase in ammonia is concerning. Given that PEA intake occurs with daily meals, ammonia levels in the human gut would remain elevated, which could negatively impact the prognosis of hepatic encephalopathy. Further model analysis revealed that the primary factors influencing ammonia metabolism are the plasmid concentration carrying the GS gene and the enzyme activity of GS. Thus, future strain development should focus on increasing the plasmid copy number of GS within the bacteria and enhancing GS enzyme activity through protein engineering. Additionally, prior to strain-based therapy, patients' ammonia metabolism should be assessed, and during treatment, close monitoring is required. If early signs of ammonia toxicity appear, the engineered bacteria treatment should be immediately discontinued, and appropriate medical intervention should be administered.</p>
+
+                        <h4>Simulation of the Safety Module</h4>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model-23.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 5: Growth curve of EcN under anaerobic conditions with IPTG present.</figcaption></p>
+                        </div>
+
+                        <p>For the safety module, we first simulated the growth of EcN in an anaerobic environment with IPTG. The results showed that the growth curve of EcN followed the characteristics of a logistic curve, indicating that the growth of the strain slowed over time and reached saturation after approximately 3000 hours (125 days). This suggests that our strain can grow normally in the anaerobic environment of the gut while the patient regularly consumes IPTG.</p>
+
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model-24.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 6: Growth curve of EcN under aerobic conditions and/or in the absence of IPTG.</figcaption></p>
+                        </div>
+                        <p>Subsequently, we simulated the growth of EcN in the absence of IPTG, in aerobic conditions, and in the absence of IPTG in aerobic conditions. The results indicated that the strain's growth was suppressed in all scenarios, ultimately leading to its extinction, with the absence of IPTG having a more significant impact on growth. This implies that if EcN exits the gut into the external environment, or if the patient ends the treatment and stops taking IPTG, the EcN population will decline within a few days, effectively preventing environmental contamination and potential adverse effects on the human body.</p>
+                        <p>In summary, our system of ordinary differential equations (ODEs) successfully simulated the temporal changes in various metabolites during the therapeutic function of the strain, as well as the gradual extinction of the strain when treatment ends or when it exits the body. This provides valuable insights for disease treatment, minimizing side effects, and preventing biological contamination.</p>
                     </Element>
                     <Element name="section2" className="element" id='section2'>
                         <h2>PART2 Metabolic Engineering Strategy to Reduce Ammonia Production</h2>
@@ -1623,7 +1638,7 @@ export function Model() {
 
                         <div>
                             <img src='https://static.igem.wiki/teams/5378/model/model-flow-pic.png' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
-                            <p><figcaption className='caption' >Protein-Ligand Complex - Molecular Dynamics Simulation with GROMACS</figcaption></p>
+                            <p><figcaption className='caption' >Figure 1 Protein-Ligand Complex - Molecular Dynamics Simulation with GROMACS</figcaption></p>
                         </div>
 
                         <p>The protein molecules used in this section were obtained from the RCSB PDB database and the AlphaFold Protein Structure Database, while the small molecule ligands were retrieved from the PubChem database. The version of GROMACS employed was GROMACS 2024.1, and AutoDockTools version 1.5.7 was utilized.</p>
@@ -1631,19 +1646,19 @@ export function Model() {
                         <p>In the reaction involving the TynA enzyme and phenethylamine, molecular dynamics provides a deeper understanding of the intermediate details of the reaction process. After obtaining the relevant molecular PDB files from databases, preprocessing was conducted to prepare the topology files and select the appropriate force field. Specifically, Sobtop was used for generating the small molecule topologies, and the Amber99sb-ildn force field was selected. Subsequently, a simulation box was constructed, and solvent was added (water was used to simplify the model). After charge equilibration, an energy minimization procedure was performed, resulting in the figure below:</p>
 
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model8.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
-                            <p><figcaption className='caption' >FIG. 2 Schematic diagram of energy minimization curve</figcaption></p>
+                            <img src='https://static.igem.wiki/teams/5378/model/model-8.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 2 Schematic diagram of energy minimization curve</figcaption></p>
                         </div>
                         <p>It can be observed that the energy continuously decreases and eventually stabilizes over time, indicating that this step was performed correctly and is feasible.</p>
                         <p>After completing the NVT/NPT equilibration, the final production simulation was conducted. Subsequently, we performed Root Mean Square Deviation (RMSD) analyses for both the protein and the ligand molecules. By examining the trends in RMSD values, we can determine whether the system has achieved equilibrium.</p>
 
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model9.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <img src='https://static.igem.wiki/teams/5378/model/model-9.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 3 RMSD analysis of ligands</figcaption></p>
                         </div>
                         <p>As illustrated in the figure, the curve initially rises and then gradually levels off over time. Although there are slight fluctuations, it remains essentially stable around 0.56 nm. This indicates that the movement of the small molecule ligand relative to the protein becomes progressively stable.</p>
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model10.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <img src='https://static.igem.wiki/teams/5378/model/model-10.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 4 RMSD analysis of proteins</figcaption></p>
                         </div>
                         <p>As shown in the figure, the curve initially increases and then gradually levels off over time, ultimately stabilizing around 0.25 nm. This indicates that the protein conformation becomes progressively stable. It is noteworthy that, when analyzing RMSD, longer simulation times may be necessary, where feasible, to enhance the reliability and accuracy of the results.</p>
@@ -1665,7 +1680,7 @@ export function Model() {
                         </div>
                         <div>
                             <img src='https://static.igem.wiki/teams/5378/model/model14.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
-                            <p><figcaption className='caption' >FIG. 8 Schematic diagram of energy minimization curve</figcaption></p>
+                            <p><figcaption className='caption' >Figure. 8 Schematic diagram of energy minimization curve</figcaption></p>
                         </div>
                         <p>Similarly, as time progresses, the energy continuously decreases and eventually stabilizes. After performing NVT/NPT equilibration and the subsequent dynamics simulations, the trends in RMSD values can be analyzed to determine whether the system has achieved equilibrium.</p>
                         <div>
@@ -1682,9 +1697,37 @@ export function Model() {
                             <img src='https://static.igem.wiki/teams/5378/model/model17.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 11 TynA-PEA interconnection structure</figcaption></p>
                         </div>
-
-
-
+                        <h3>3.3 Molecular simulation of FeaR-Phenylacetaldehyde and GS-GA</h3>
+                        <h4>3.3.1 FeaR-Phenylacetaldehyde</h4>
+                        <p>Regarding the docking scenarios and binding sites, we also performed simulations using AutoDock Vina. For the FeaR enzyme and benzaldehyde, the docking results obtained with AutoDock Vina and AutoDockTools are presented below:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model18.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 12 Simulation of FeaR-Phenylacetaldehyde docking</figcaption></p>
+                        </div>
+                        <p>We simulated the potential interactions that may occur when the two molecules bind during the reaction process and obtained the following results:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model19.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 13 Interactions between moleculesg</figcaption></p>
+                        </div>
+                        <p>From the simulation schematic, it is evident that the binding energy of the docking interaction is –4.6 kcal/mol. Additionally, lysine residues within the protein form hydrogen bonds with the ligand, indicating that the docking complex is relatively stable.</p>
+                        <h4>3.3.2 GS-GA</h4>
+                        <p>For the GS enzyme and glutamate, the docking results obtained using AutoDock Vina and AutoDockTools are presented below:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model20.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 14 GS-GA docking simulation diagram</figcaption></p>
+                        </div>
+                        <p>We simulated the potential interaction forces that may arise when the two molecules bind during the reaction process and obtained:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model21.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 15 Interactions between molecules</figcaption></p>
+                        </div>
+                        <p>From the simulation schematic, it is evident that the binding energy of the docking interaction is –4.6 kcal/mol. Glutamine, glutamate, and histidine residues within the protein form hydrogen bonds with the ligand, indicating that the docking complex is stable and that the docking simulation results are reliable.</p>
+                        <p>In addition to the aforementioned sections, we appropriately utilized the AlphaFold Server to assist in molecular design. For example, the design of the CsgA-TFF3 construct is illustrated in the figure below.</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model22.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 16 AlphaFold Server simulates CsgA-TFF3 combination</figcaption></p>
+                        </div>
+                        <p style={{ marginTop: '50px' }} > In conclusion, the efficiency and stability of a system are critical considerations in the project design approach. By employing molecular docking and molecular dynamics simulations, we obtained more detailed information on protein–ligand binding, enhancing the efficiency of our molecule screening process and providing valuable insights for the development of other model components.</p>
                     </Element>
 
                 </div>

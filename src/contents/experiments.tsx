@@ -149,16 +149,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
         >
           Eliza for the verification of TFF3 products
         </Nav.Link>
-        <Nav.Link 
-          as={Link} 
-          to="section14" 
-          smooth={true} 
-          duration={500} 
-          className={activeLink === 'section14' ? 'active' : 'notActive'}
-          onClick={() => onLinkClick('section14')}
-        >
-          example
-        </Nav.Link>
+    
       </Nav>
     </div>
   );
@@ -226,7 +217,7 @@ export function Experiments() {
             style={{ display: visibleSection === 'section1' ? 'block' : 'none' }}
           >
             <h2>LB medium preparation</h2>
-            <p>Content for section 2.</p>
+            <p></p>
             <div className="rounded-border">
               <h4 className="center-text">LB medium preparation</h4>
               <p className="indent">(1)	Material<br />
@@ -290,7 +281,7 @@ LB selective medium (Chloramphenicol)<br />
             style={{ display: visibleSection === 'section2' ? 'block' : 'none' }}
           >
             <h2>Double Enzyme DNA Digestion& Agarose Gel Electrophoresis</h2>
-            <p>Content for section 2.</p>
+            <p></p>
             <div className="rounded-border">
               <h4 className="center-text">Double Enzyme DNA Digestion& Agarose Gel Electrophoresis</h4>
               <p className="indent">(1) Material<br />
@@ -324,7 +315,7 @@ Alkaline phosphatase<br />
             style={{ display: visibleSection === 'section3' ? 'block' : 'none' }}
           >
             <h2>Agarose Gel Electrophoresis</h2>
-            <p>Content for section 2.</p>
+            <p></p>
             <div className="rounded-border">
               <h4 className="center-text">Agarose Gel Electrophoresis</h4>
               <p className="indent">(1) Material<br />
@@ -358,7 +349,7 @@ Water Bath<br />
             style={{ display: visibleSection === 'section4' ? 'block' : 'none' }}
           >
             <h2>Infusion</h2>
-            <p>Content for section 2.</p>
+            <p></p>
             <div className="rounded-border">
               <h4 className="center-text">Infusion</h4>
               <p className="indent">(1) Material
@@ -402,7 +393,7 @@ c. When the linearized cloning vector and the amplified product of the insert fr
             style={{ display: visibleSection === 'section5' ? 'block' : 'none' }}
           >
             <h2>Colony PCR</h2>
-            <p>Content for section 2.</p>
+            <p></p>
             <div className="rounded-border">
               <h4 className="center-text">Colony PCR</h4>
               <p className="indent">(1) Material<br />
@@ -451,7 +442,7 @@ Check the result under the Blue Light Gel Imager.<br />
             style={{ display: visibleSection === 'section6' ? 'block' : 'none' }}
           >
             <h2>Plasimd conservation</h2>
-            <p>Content for section 2.</p>
+            <p></p>
             <div className="rounded-border">
               <h4 className="center-text">Plasimd conservation</h4>
               <p className="indent">(1) Material<br />
@@ -478,7 +469,7 @@ Burn the mouth and cap of the flask with an alcohol lamp before and after openin
             style={{ display: visibleSection === 'section7' ? 'block' : 'none' }}
           >
             <h2>Plasmid extraction</h2>
-            <p>Content for section 2.</p>
+            <p></p>
             <div className="rounded-border">
               <h4 className="center-text">Plasmid extraction</h4>
               <p className="indent">(1)	Material<br />
@@ -516,7 +507,7 @@ Add RNase A to solution P1 before using. After adding solution P2, do not shake 
             style={{ display: visibleSection === 'section8' ? 'block' : 'none' }}
           >
             <h2>Transformation</h2>
-            <p>Content for section 2.</p>
+            <p></p>
             <div className="rounded-border">
               <h4 className="center-text">Transformation</h4>
               <p className="indent">(1)	Material<br />
@@ -568,7 +559,7 @@ Palmitoylethanolamide solution (PEA)<br />
 Phosphate Buffered Saline (PBS)<br />
 </p>
               <p className="indent">(2)	Steps<br />
-1.Take a single colony into 5mL LB medium, then centrifuge it at 250rpm and 37℃ environments, overnight.<br />
+1.Take a single colony into 5mL LB medium, then put it in shaker at 250rpm and 37℃, overnight.<br />
 3.Place the 96-well cell culture plate in a shaker at 37℃, 250rpm for 24 hours. Then, collect the samples after 5 and 24 hours, respectively.<br />
 4.Fluorescence was observed through fluorescence microscopy.<br />
 5.The fluorescence was measured on microplate reader by excitation at 410 nm and detection of emission at 500 nm. OD600(absorbance of 600 nm) was also measured on microplate readear for normalization.<br />
@@ -712,27 +703,6 @@ The amount of TFF3 products will be gained by subtracting the absorbance at 650 
             </div>
           </Element>
 
-          <Element 
-            name="section14" 
-            className="element rounded-border" 
-            id='section14' 
-            onMouseEnter={() => handleMouseEnter('section14')}
-            style={{ display: visibleSection === 'section14' ? 'block' : 'none' }}
-          >
-            <h2>example</h2>
-            <p>Content for section .</p>
-            <div className="rounded-border">
-              <h4 className="center-text">example</h4>
-              <p className="indent">(1)	Material<br />
-
-</p>
-              <p className="indent">(2)	Steps<br />
-
-</p>
-              <p className="indent">(3)	Note:<br />
-</p>
-            </div>
-          </Element>
 
         </div>
         <div className="col-1"></div>
