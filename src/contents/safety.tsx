@@ -177,7 +177,6 @@ The next page details the security measures and considerations our team has take
               />
               <figcaption className='caption'>The team members are conducting experiments</figcaption>
 <h4>3.2.3  Laboratory safety</h4>
-<p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
 <p className="indent">The building where the laboratory is located has emergency passages, fire exits, fire equipment, and emergency lighting devices; and our colleagues in the Experimental Group also remember how to quickly escape from the scene when any safety accident occurs to ensure their own safety;There is also a first aid medicine storage area in the corridor for easy use when necessary.</p>   
 <img 
                 src="https://static.igem.wiki/teams/5378/safety/03-2-3.webp"
