@@ -5,7 +5,7 @@
     right: 30px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #ff69b4; /* 可爱的粉红色 */
+    background-color: #ff69b4;
     color: white;
     border: none;
     border-radius: 50px;
@@ -13,13 +13,14 @@
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     opacity: 0.8;
     transition: opacity 0.3s ease;
+    z-index: 50;
   }
   
   .go-to-top-button:hover {
-    opacity: 1; /* 鼠标悬停时变得更清晰 */
+    opacity: 1; 
     cursor: url('https://static.igem.wiki/teams/5378/image/dg-pointer2.png') 32 32, pointer;
   }
   
   .go-to-top-button:active {
-    background-color: #ff1493; /* 点击时颜色变深 */
+    background-color: #ff1493; 
   }

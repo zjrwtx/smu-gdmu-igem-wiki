@@ -160,41 +160,38 @@ export function Home() {
 
       {/* 6 */}
       <div className="page-container-6">
-        <div className="page-element-12">
-          <img
-            src="https://static.igem.wiki/teams/5378/home/boycoma.webp"
-            alt="example"
-            className="home-img-wide"
-          />
-        </div>
-        <div className="page-element-13">
-          <img
-            src="https://static.igem.wiki/teams/5378/home/boyint.webp"
-            alt="example"
-            className="home-img-wide"
-          />
-        </div>
-        <div className="page-element-14">
-          <img
-            src="https://static.igem.wiki/teams/5378/home/boyinsanity.webp"
-            alt="example"
-            className="home-img-wide"
-          />
-        </div>
-        <Element name="element-15" id="element-15" className="element page-element-15">
+
+        
+        
+        <Element name="element-15" id="element-15" className="element page-element-15-container">
           <img
             src="https://static.igem.wiki/teams/5378/home/boyhead.webp"
             alt="example"
-            className={`home-img-wide ${activeLink === 'element-15' ? 'img-15' : 'img-15'}`}
+            className={`home-img-wide page-element-15 img-15 ${activeLink === 'element-15' ? 'img-fade-in-active' : 'img-fade-in'}`}
           />
-        </Element>
-        <div className="page-element-15p">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/boyinsanity.webp"
+            alt="example"
+            className={`home-img-wide page-element-14 ${activeLink === 'element-15' ? 'img-left-in-active' : 'img-left-in'}`}
+          />
+
+          <img
+            src="https://static.igem.wiki/teams/5378/home/boyint.webp"
+            alt="example"
+            className={`home-img-wide page-element-13 ${activeLink === 'element-15' ? 'img-left-in-active' : 'img-left-in'}`}
+          />
+          <img
+            src="https://static.igem.wiki/teams/5378/home/boycoma.webp"
+            alt="example"
+            className={`home-img-wide page-element-12 ${activeLink === 'element-15' ? 'img-right-in-active' : 'img-right-in'}`}
+          />
           <img
             src="https://static.igem.wiki/teams/5378/home/d3.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide page-element-15p ${activeLink === 'element-15' ? 'img-fade-in-active' : 'img-fade-in'}`}
           />
-        </div>
+        </Element>
+
       </div>
 
       {/* 7 */}
@@ -253,7 +250,7 @@ export function Home() {
           <img
             src="https://static.igem.wiki/teams/5378/home/smallgut.webp"
             alt="example"
-            className={`home-img-wide page-element-18p ${activeLink === 'element-18p3' ? 'img-right-in-active' : 'img-right-in'}`}
+            className={`home-img-wide page-element-18p ${activeLink === 'element-18p3' ? 'img-fade-in-active' : 'img-fade-in'}`}
           />
           <img
             src="https://static.igem.wiki/teams/5378/home/3rd/inpill.webp"
@@ -275,9 +272,44 @@ export function Home() {
             className={`home-img-wide page-element-18p4 ${activeLink === 'element-18p4' ? 'img-left-in-active' : 'img-left-in'}`}
           />
         <img
-          src="https://static.igem.wiki/teams/5378/home/pathway.webp"
+          src="https://static.igem.wiki/teams/5378/home/4th/block.webp"
           alt="example"
           className={`home-img-wide page-element-18p2 ${activeLink === 'element-18p4' ? 'img-right-in-active' : 'img-right-in'}`}
+        />
+        <img
+          src="https://static.igem.wiki/teams/5378/home/3rd/pea.webp"
+          alt="example"
+          className={`home-img-wide page-element-18p2p1 ${activeLink === 'element-18p4' ? 'img-18p2p1-active' : 'img-18p2p1'}`}
+        />
+        <img
+          src="https://static.igem.wiki/teams/5378/home/3rd/metabolic.webp"
+          alt="example"
+          className={`home-img-wide page-element-18p2p2 ${activeLink === 'element-18p4' ? 'img-18p2p2-active' : 'img-18p2p2'}`}
+        />
+        <img
+          src="https://static.igem.wiki/teams/5378/home/3rd/pcon.webp"
+          alt="example"
+          className={`home-img-wide page-element-18p2p3 ${activeLink === 'element-18p4' ? 'img-right-in-active' : 'img-right-in'}`}
+        />
+        <img
+          src="https://static.igem.wiki/teams/5378/home/3rd/pag.webp"
+          alt="example"
+          className={`home-img-wide page-element-18p2p4 ${activeLink === 'element-18p4' ? 'img-18p2p4-active' : 'img-18p2p4'}`}
+        />
+        <img
+          src="https://static.igem.wiki/teams/5378/home/3rd/ptyna.webp"
+          alt="example"
+          className={`home-img-wide page-element-18p2p5 ${activeLink === 'element-18p4' ? 'img-18p2p5-active' : 'img-18p2p5'}`}
+        />
+        <img
+          src="https://static.igem.wiki/teams/5378/home/3rd/tyna.webp"
+          alt="example"
+          className={`home-img-wide page-element-18p2p6 ${activeLink === 'element-18p4' ? 'img-18p2p6-active' : 'img-18p2p6'}`}
+        />
+        <img
+          src="https://static.igem.wiki/teams/5378/home/3rd/fearpag.webp"
+          alt="example"
+          className={`home-img-wide page-element-18p2p7 ${activeLink === 'element-18p4' ? 'img-18p2p7-active' : 'img-18p2p7'}`}
         />
         {/* https://static.igem.wiki/teams/5378/home/3rd/pag.webp
         https://static.igem.wiki/teams/5378/home/3rd/pcon.webp
@@ -298,7 +330,7 @@ export function Home() {
           <img
             src="https://static.igem.wiki/teams/5378/home/3rd/board.webp"
             alt="example"
-            className={`home-img-wide page-element-18p6 ${activeLink === 'element-18p6' ? 'img-fade-in-active' : 'img-fade-in'}`}
+            className={`home-img-wide page-element-18p6 ${activeLink === 'element-18p6' ? 'img-left-in-active' : 'img-left-in'}`}
           />
           <img
             src="https://static.igem.wiki/teams/5378/home/3rd/demonnh3.webp"
