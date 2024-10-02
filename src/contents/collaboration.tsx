@@ -68,9 +68,6 @@ export function collaboration() {
           
           <div className="col-10">
             
-          <div className="vh20">
-                <a href="https://2024.igem.wiki/cjuh-jlu-china/collaboration" >CJUH-JLU-china</a>
-            </div>
                 <Element name="section1" className="element rounded-border" id='section1'>
                    <h2>Team profile</h2>
                    <p>The SMU-GDMU iGEM (International Genetically Engineered Machine Competition) team, as a pioneering force of research innovation at the University, is committed to exploring the latest boundaries of synthetic biology. Our team brings together the best students from different disciplines, including medicine, biology, computer science, chemical engineering and materials science, to solve global challenges through interdisciplinary collaboration.</p>
@@ -125,6 +122,7 @@ export function collaboration() {
                <div className="rounded-border">
                 <h4 className="center-text">Joint publication</h4>
                 <p className="indent">Team members are encouraged to jointly sign and publish the scientific research results obtained together to enhance the academic influence and depth of cooperation.</p>
+                <p className="indent">We collaborated with <a href='https://2024.igem.wiki/cjuh-jlu-china/collaboration'>CJUH-JLU-china</a> to record a health exercise, conveying the concept of health to everyone.</p>
                </div>
 
                <div className="rounded-border">
