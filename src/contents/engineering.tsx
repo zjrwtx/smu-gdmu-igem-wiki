@@ -76,9 +76,11 @@ export function Engineering() {
           
               
               <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>Section 1</h2>
-                 <p>Content for section 1.</p>
-                 <img 
+                 <h2>Overview </h2>
+                 <p>The engineering of the sensing and metabolic modules are two critical steps in the development of Liver-Brain Gardian, our HE prevention probiotics (see the detailed design of Liver-Brain Gardian in the Description and Design pages).</p>
+                 <p>Through multiple design-build-test-learn cycles, we have successfully engineered the PEA-sensing module, which could automatically respond to the increased level of a risk factor, PEA, of HE and initiate downstream expression of the metabolic module. Simultaneously, we have been working on constructing an efficient module that can degrade the pathogenic factor of HE. </p>
+                 <p>During actual operation, we started the first cycle after fully literation research, making the first attempt with theoretical support. Normally problems would arise which urge us to trouble-shoot with experts and dig further into literature to enter the next iteration of engineering cycle. After several iterations, we were able to achieve the original goal in most scenarios and get a comprehensive understanding of our contributions.</p>
+                 <p>In this section on engineering success, we will go through the engineering cycles we went through to develop the PEA-sensing and ammonia-metabolizing EcN. (Figure 1).</p>
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
                 className="responsive-img"
