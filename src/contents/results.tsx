@@ -160,9 +160,38 @@ export function Results() {
               </div>
               </Element>
 
+              <Element name="section6" className="element rounded-border" id='section6'>
+              <h2>Future Plans</h2>
+              <h3>Step1 Optimize the safety module by validating the self-killing switch</h3>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                alt="example"
+                className="image-wide"
+              />
+              <figcaption className='caption'>Optimize the safety module by validating the self-killing switch</figcaption>
+              </div>
+              <p className='indent'>From the beginning of the project, we carefully considered the safety problems of engineering EcN. We have conducted a broad investigation into self-killing switches to prevent EcN from overproliferation in the eco-system and human bodies.</p>
+              <h3>Switch 1: Dynamically Regulated CAP Encapsulation System</h3>
+              <p className='indent'>Key gene kfiC, responsible for the expression of surface polysaccharide capsules in ECN, was knocked out. Subsequently, kfiC was cloned under the control of the lac promoter, which is responsive to IPTG induction. After oral administration of IPTG, ECN can produce CAP. Experimental results indicate that increasing the IPTG concentration can enhance bacterial survival by at least 10^5 times. In the absence of an inducer in vivo, the loss of CAP allows for effective clearance of bacteria while minimizing long-term immune responses. By editing the CAP expression system of ECN, we can precisely control the immunogenicity and survival of bacteria in vivo, thereby increasing dosage and in situ transport to maximize therapeutic efficacy and safety.</p>
+              <h3>Switch 2: Oxygen Concentration Switch</h3>
+              <p className='indent'>We utilized a synthetic nirB promoter that does not respond to chemical inducers (such as nitrites or nitrates) and is only activated under anaerobic conditions.</p>
+              <p className='indent'>Transport Scenario: In a vacuum environment (e.g., yogurt/capsules), the survival of ECN is ensured.</p>
+              <p className='indent'>In Vivo Scenario: The low oxygen content in the intestinal lumen reaches conditions suitable for anaerobic promoter expression, while the oral administration of IPTG induces the expression of CAP, allowing for normal bacterial survival.</p>
+              <p className='indent'>Excretion Scenario: In an aerobic environment outside the body, ECN cannot express CAP and subsequently dies.</p>
+              <p className='indent'>However, due to the bumpy road of exploring sensing and metabolic modules, we failed to spare more time to conduct relevant experiments to validate our designs in the iGEM season this year. We will construct plasmids to confirm our designs and select an optimized one to ensure safety in our engineered EcN.</p>
+              
+              <h2>Step2 Determine and validate a proper way to deliver the engineered EcN</h2>
+              <p className='indent'>Our team envisions our Liver-Brain Guardian to be delivered in the form of air-dry microencapsulation so that the patients will just have to "take a pill" and the microencapsulation will protect the engineered bacteria from the acidic environment of the stomach and successfully enter the colony and colonize to start their work. We have consulted relevant bio-tech companies that can provide us with the technology of microencapsulation so we plan to test the feasibility of such delivery approach by in vitro and in vivo experiments in the future.</p>
+              
+              <h2>Step3 Carry out experiments on animals</h2>
+              <p className='indent'>Application of a medical product must be tested in animals. Due to conditions and time constraints, we were unable to conduct in vivo validation experiments. Subsequently, we plan to conduct more tests after we refine the designs and experiments in step1~3 and carry out in vivo experiments to validate the therapeutic effect in HE mice model,to obtain more convincing experimental data in vivo.</p>
+
+              </Element>
+
               
         </div>
-        <div className="col-1"></div>
+
 
           
         
