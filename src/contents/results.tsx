@@ -135,7 +135,7 @@ export function Results() {
               <p>The position of the bands in SDS-PAGE is generally consistent with the molecular weight of TFF3 (Fig.3-c), Therefore, it is initially believed that TFF3 was successfully expressed. However, In some cases, basal expression of the csgA genes was observed without induction.</p>
               <p>A quantitative Congo Red-binding (CR) assay, normally used for curli fiber detection, indicated that CsgA-TFF3 fusions could be expressed and assembled into curli fibers under these conditions, while EcN control vector showed no CR binding(Fig.3-d).</p>
               <img 
-                src="https://static.igem.wiki/teams/5378/result/result-fig4.webp"
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
                 alt="result4"
                 className="responsive-img"
               />
