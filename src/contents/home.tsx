@@ -267,6 +267,11 @@ export function Home() {
             alt="example"
             className={`home-img-wide page-element-18p9 ${activeLink === 'element-18p3' ? 'img-18p10-active' : 'img-18p10'}`}
           />
+          <img
+            src="https://static.igem.wiki/teams/5378/home/4th/pea.webp"
+            alt="example"
+            className={`home-img-wide page-element-18p9p ${activeLink === 'element-18p3' ? 'img-18p9p-active' : 'img-18p9p'}`}
+          />
           
         </Element>
         {/* sensor */}
@@ -387,22 +392,73 @@ export function Home() {
       </div>
 
       {/* 9 */}
-      <div className="page-container-9">
-        <div className="page-element-22">
+      <Element name="element-9" id="element-9" className="element page-container-9">
           <img
             src="https://static.igem.wiki/teams/5378/home/future2.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide page-element-22 ${activeLink === 'element-9' ? 'img-fade-in-active' : 'img-fade-in'}`}
           />
-        </div>
-        <div className="page-element-23">
-          <img
+
+            <img
             src="https://static.igem.wiki/teams/5378/home/girlboy.webp"
             alt="example"
-            className="home-img-wide"
+            className={`home-img-wide page-element-23 ${activeLink === 'element-9' ? 'img-right-in-active' : 'img-right-in'}`}
           />
-        </div>
+      </Element>
+      <div className="page-container-10">
+        <h1 className="pangolin page-element-pv-title">Our Promotion Video</h1>
+      <iframe 
+            title="SMU-GDMU-CHINA: Engineered bacterial therapeutics for Preventing Hepatic Encepha... (2024) - Project Promotion [English]" 
+            src="https://video.igem.org/videos/embed/b8667885-e1be-48b2-ab9b-d1aac71db0da"   
+            sandbox="allow-same-origin allow-scripts allow-popups allow-forms" 
+            className="page-element-PV">
+            </iframe>
       </div>
+      <Element name="element-11" id="element-11" className="element page-container-11">
+        <img
+            src="https://static.igem.wiki/teams/5378/home/4th/design.webp"
+            alt="example"
+            className={`home-menu-button page-element-design ${activeLink === 'element-11' ? 'img-left-in-active' : 'img-left-in'}`}
+          />
+        <img
+            src="https://static.igem.wiki/teams/5378/home/4th/model.webp"
+            alt="example"
+            className={`home-menu-button page-element-model ${activeLink === 'element-11' ? 'img-left-in-active' : 'img-left-in'}`}
+          />
+        <img
+            src="https://static.igem.wiki/teams/5378/home/4th/result.webp"
+            alt="example"
+            className={`home-menu-button page-element-result ${activeLink === 'element-11' ? 'img-left-in-active' : 'img-left-in'}`}
+          />
+
+        <img
+            src="https://static.igem.wiki/teams/5378/home/4th/education.webp"
+            alt="example"
+            className={`home-menu-button page-element-education ${activeLink === 'element-11' ? 'img-right-in-active' : 'img-right-in'}`}
+          />
+        <img
+            src="https://static.igem.wiki/teams/5378/home/4th/inclusivity.webp"
+            alt="example"
+            className={`home-menu-button page-element-inclusivity ${activeLink === 'element-11' ? 'img-right-in-active' : 'img-right-in'}`}
+          />
+        <img
+            src="https://static.igem.wiki/teams/5378/home/4th/team.webp"
+            alt="example"
+            className={`home-menu-button page-element-team ${activeLink === 'element-11' ? 'img-right-in-active' : 'img-right-in'}`}
+          />
+
+      </Element>
+
+{/* https://static.igem.wiki/teams/5378/home/4th/design.webp
+https://static.igem.wiki/teams/5378/home/4th/education.webp
+https://static.igem.wiki/teams/5378/home/4th/inclusivity.webp
+https://static.igem.wiki/teams/5378/home/4th/model.webp
+https://static.igem.wiki/teams/5378/home/4th/team.webp
+https://static.igem.wiki/teams/5378/home/4th/result.webp */}
+
+        
+        
     </div>
+    
   );
 }
