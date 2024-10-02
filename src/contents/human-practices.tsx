@@ -82,6 +82,14 @@ export function HumanPractices() {
       <li><span className='bold-font'>How does our project impact the world around us?</span></li>
       <li><span className='bold-font'>How does the world influence our project?</span></li>
     </ul>
+    <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/ihp/overview.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
     <p className='indent'>
       Our objective is to gather <span className='bold-font'>diverse perspectives</span>, from the general public to patients, ensuring we consider all possible viewpoints that may shape the trajectory of our project.
     </p>
@@ -140,6 +148,38 @@ export function HumanPractices() {
             <p>Who are we connecting with.</p>
   <div className="rounded-border">
     <h3 className="center-text">3.1 Guidance and Cooperation</h3>
+    <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration1.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
+                <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration2.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
+                <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration3.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
+                <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration4.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
     <p className='indent'>
       Our team collaborates with the <span className='bold-font'>Liver Disease Center of Nanfang Hospital</span> and the <span className='bold-font'>Microecological Diagnosis and Treatment Center of Pearl River Hospital</span>.
     </p>
@@ -172,6 +212,7 @@ export function HumanPractices() {
 <Element name="section4" className="element rounded-border" id='section4'>
             <h2>4 Questionnaire</h2>
             <p>What did we investigate.</p>
+            
   <div className="rounded-border">
     <p className='indent'>
       During the development of our hepatic encephalopathy (<span className='bold-font'>HE</span>) project, we conducted extensive <span className='bold-font'>Human Practices (HP)</span> activities to understand the challenges and gather feedback from professionals and patients. Our HP work is divided into three key areas:
@@ -181,7 +222,29 @@ export function HumanPractices() {
       <li><span className='bold-font'>Interviews with doctors</span> and liver disease experts to explore the <span className='bold-font'>limitations</span> of current treatments and potential <span className='bold-font'>probiotic therapies</span>.</li>
       <li><span className='bold-font'>Patient and family feedback</span> to understand their expectations and concerns about new therapies.</li>
     </ul>
-
+    <div className='row'>
+      <div className='col-6'>
+      <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/ihp/.webp"
+                alt="example"
+                className="image-height"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
+      </div>
+      <div className='col-6'>
+      <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/ihp/20240930.webp"
+                alt="example"
+                className="image-height"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
+      </div>
+    </div>
+    
     <p className='indent'>
       We designed a comprehensive <span className='bold-font'>questionnaire</span> covering patient <span className='bold-font'>medical history</span>, <span className='bold-font'>current symptoms</span>, treatment experience, and awareness of <span className='bold-font'>new therapies</span> like probiotics. This allows us to collect <span className='bold-font'>real-world data</span> to further our research on HE.
     </p>
@@ -189,7 +252,14 @@ export function HumanPractices() {
       The figure below shows how our HP activities integrate with <span className='bold-font'>lab work</span> and <span className='bold-font'>scientific exchange</span>. This collaboration helps us better understand the complexity of HE and provides a foundation for developing <span className='bold-font'>probiotic-based treatments</span>. By combining patient feedback with scientific research, our goal is to improve HE treatment and enhance <span className='bold-font'>patient quality of life</span>.
     </p>
     </div>
-
+    <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/ihp/ihp-questionnaire/.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
     <div className="rounded-border">
     <h4 className="center-text">4.1 Basic Principles</h4>
     <p className='indent'>
@@ -235,6 +305,14 @@ export function HumanPractices() {
                   <li><span className='bold-font'>General public</span>: As raising awareness and educating people about HE can significantly contribute to early diagnosis and treatment, ultimately benefiting the healthcare ecosystem as a whole.</li>
                 </ul>
               </p>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/hp-ihp-stakeholder/stakeholder.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
             </div>
 
             <div className="rounded-border">
@@ -259,7 +337,6 @@ export function HumanPractices() {
         <h2>6. Expert Consultation</h2>
             <p>Explore what did we learn from experts.</p>
   <div className="rounded-border">
-    
     <h4>February 2024 - Yang Xiaolin</h4>
     <p className='indent'>
       The application of <span className='bold-font'>probiotics</span> in treating <span className='bold-font'>hepatic encephalopathy (HE)</span> has sparked significant <span className='bold-font'>ethical discussions</span>. HE, a neurological complication caused by liver failure, severely affects patients' <span className='bold-font'>quality of life</span>. In addition to traditional treatments, probiotics regulate the <span className='bold-font'>intestinal microbiota</span>, improve <span className='bold-font'>intestinal barrier function</span>, reduce <span className='bold-font'>toxin absorption</span>, and alleviate symptoms. However, several ethical considerations arise when using probiotics for HE:
@@ -304,7 +381,23 @@ export function HumanPractices() {
     <p className='indent'>
       Our team consulted with Professor Zheng Jusheng on the <span className='bold-font'>clinical translation</span> of probiotics for HE treatment. The discussion focused on <span className='bold-font'>oral capsules</span>, a form of probiotic delivery that offers convenience, <span className='bold-font'>dosage control</span>, and high patient acceptance. Professor Zheng stressed the importance of conducting <span className='bold-font'>large-scale clinical trials</span> to assess safety and efficacy in real-world conditions. Additionally, the <span className='bold-font'>manufacturing process</span> should comply with <span className='bold-font'>GMP standards</span> to ensure product quality. We also explored <span className='bold-font'>microencapsulation technology</span> to protect probiotic viability, ensuring effective delivery to the intestines and enhancing therapeutic effects.
     </p>
+    <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/ihp/1.webp"
+                alt="example"
+                className="image-height"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
   </div>
+  <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/ihp/2.webp"
+                alt="example"
+                className="image-height"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
 </Element>
 
 </div>
