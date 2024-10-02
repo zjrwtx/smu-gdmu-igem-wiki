@@ -154,29 +154,10 @@ export function Contribution() {
                 <p className="indent">Moreover, we added information to an existing part created by iGEM21_Tsinghua, clearly documenting our Functional Verification on the Part's Main Page on the Registry. Here shows the link <a href='https://parts.igem.org/Part:BBa_K3924029'>BBa_K3924029</a>.And we also make our new composite part <a href='https://parts.igem.org/Part:BBa_K5378021'>BBa_K5378021</a>.</p>
                 </Element>
                 
-                <Element name="section1" className="element rounded-border" id='section1'>
-                   <h2>Section 1</h2>
-                   <p>Content for section 1.</p>
-                   <img 
-                  src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                  alt="example"
-                  className="responsive-img"
-                />
-                 </Element>
-            
-  
-                 <div className="bd-callout bd-callout-info bg-gray">
-                  <h1>What do we do to ...? See...</h1>
-                </div>
-                
                 <Element name="section2" className="element rounded-border" id='section2'>
-                  <h2>Section 2</h2>
-                  <p>Content for section 2.</p>
-                  <img 
-                  src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                  alt="example"
-                  className="responsive-img"
-                />
+                  <h2>Model</h2>
+                  <p className="indent">Our model provides novel approaches for the application and modification of engineered bacteria. Firstly, we developed an ordinary differential equation (ODE) model to represent the biochemical reactions of *Escherichia coli*, conducting a detailed analysis of the oxidation process of phenethylamine and its subsequent metabolism. We employed the law of mass action and Michaelis-Menten kinetics to describe these reactions, exploring enzyme–substrate interactions and gene regulatory mechanisms. Additionally, we designed suicide switches to enhance the safety of *E. coli* usage. Through these models, we gained a deeper understanding of *E. coli*'s operational modes and metabolic characteristics under specific conditions, thereby providing valuable insights for the therapeutic application of engineered bacteria.</p>
+                  <p className="indent">Secondly, we established a gene knockout model aimed at addressing the issue of ammonia production by *E. coli* Nissle 1917. We integrated the genome-scale metabolic model iDK1463 and utilized Flux Balance Analysis (FBA) to calculate the steady-state fluxes of various metabolic reactions. After screening, we identified key reactions associated with ammonia production and applied the OptGene algorithm to determine optimal target genes. We identified multiple alternative knockout strategies, offering significant directions for the future genetic engineering of bacterial strains.</p>
                 </Element>
             
   
