@@ -29,7 +29,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section2' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section2')}
         >
-          Section 2
+          Double Enzyme DNA Digestion& Agarose Gel Electrophoresis
         </Nav.Link>
         {/* 添加更多导航链接 */}
 
