@@ -559,7 +559,7 @@ Palmitoylethanolamide solution (PEA)<br />
 Phosphate Buffered Saline (PBS)<br />
 </p>
               <p className="indent">(2)	Steps<br />
-1.Take a single colony into 5mL LB medium, then centrifuge it at 250rpm and 37℃ environments, overnight.<br />
+1.Take a single colony into 5mL LB medium, then put it in shaker at 250rpm and 37℃, overnight.<br />
 3.Place the 96-well cell culture plate in a shaker at 37℃, 250rpm for 24 hours. Then, collect the samples after 5 and 24 hours, respectively.<br />
 4.Fluorescence was observed through fluorescence microscopy.<br />
 5.The fluorescence was measured on microplate reader by excitation at 410 nm and detection of emission at 500 nm. OD600(absorbance of 600 nm) was also measured on microplate readear for normalization.<br />
