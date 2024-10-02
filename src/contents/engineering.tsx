@@ -81,14 +81,6 @@ export function Engineering() {
                  <p>Through multiple design-build-test-learn cycles, we have successfully engineered the PEA-sensing module, which could automatically respond to the increased level of a risk factor, PEA, of HE and initiate downstream expression of the metabolic module. Simultaneously, we have been working on constructing an efficient module that can degrade the pathogenic factor of HE.  </p>
                  <p>During actual operation, we started the first cycle after fully literation research, making the first attempt with theoretical support. Normally problems would arise which urge us to trouble-shoot with experts and dig further into literature to enter the next iteration of engineering cycle. After several iterations, we were able to achieve the original goal in most scenarios and get a comprehensive understanding of our contributions.</p>
                  <p>In this section on engineering success, we will go through the engineering cycles we went through to develop the PEA-sensing and ammonia-metabolizing EcN. </p>
-                 
-                 <img 
-                src="https://static.igem.wiki/teams/5378/testengineering/engineering01.webp"
-                alt="example"
-                className="responsive-img"
-              />
-               
-               
                </Element>
           
                <div className="bd-callout bd-callout-info bg-gray">
@@ -108,19 +100,19 @@ export function Engineering() {
                 <p>Next, we re-designed the sensing module as shown in Figure 1. The normal level of bile acid can activate the expression of pchA downstream of the inducible bile acid promoter, releasing transcriptional factor pchA to activate PLEE1 and express CL, which can inhibit Plam to express metabolic module. In contrast, when bile acid decreases in cirrhosis patients who are likely to develop HE, the inhibitory effect can be eliminated and thus initiate the expression of metabolic module to work.</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
-                alt="result4"
+                alt="eng1"
                 className="responsive-img"
               />
-               <figcaption className='caption'></figcaption>
+               <figcaption className='caption'>Figure1. Re-design of bile acid inducible promoter-Cl/Plam sensory system</figcaption>
                 <h4>Test</h4>
                 <p>To ensure the feasibility of our design before construction of plasmids, we did broad HP investigations, literature reviews, group discussions and expert outreach. Professor Zhu Bo suggested us to interview experts in the field of liver diseases, especially in HE. Our HP group reached Professor He Xiaolong, who has been studying the mechanism of gut microbiota and its metabolites in the development of HE. He pointed out that although our design seemed very interesting, bile acids are not specific enough as a biomarker for HE. </p>
                 <p>Coincidentally, his team currently found a new type of gut microbiota-derived metabolite, PEA, and verified its specificity and sensitivity in animal models and patients (Figure 2, unpublished work in submission). He generously reported this work to us and showed great interest in the concept of engineering probiotics to prevent HE from progressing. Therefore, we invited him to our team as secondary PI and moved our attention to PEA as the sensor.</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
-                alt="result4"
+                alt="eng2"
                 className="responsive-img"
               />
-               <figcaption className='caption'></figcaption>
+               <figcaption className='caption'>Figure2. Partial data of PEA as an excellent risk factor for HE</figcaption>
 
 
                 <h4>Learn</h4>
@@ -131,7 +123,7 @@ export function Engineering() {
                 <p>However, TynA can oxidize various kinds of aromatic amines and lack specificity to PEA. Through literature reading, we learned that Rottinghaus et al found the mutant TynA-G494S and FeaR-A81L showed a more specific response to PEA and PAG[6]. Therefore, we constructed the plasmid Pcon-FeaR+Pcon-TynA with the two mutants and a plasmid with inducible promoter PTynA and a reporter gene GFP (Figure 3).</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
-                alt="result4"
+                alt="eng3"
                 className="responsive-img"
               />
                <figcaption className='caption'></figcaption>
@@ -140,10 +132,10 @@ export function Engineering() {
                 <p>We planned to co-transformed EcN with two plasmids via electroporation (Protocol-1). However, colony PCR suggested we only transformed successfully with plasmid Pcon-feaR-PcontynA and failed in transforming plasmid PTynA-GFP. We tried several times but all came with negative results (Figure 4).</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
-                alt="result4"
+                alt="eng4"
                 className="responsive-img"
               />
-               <figcaption className='caption'></figcaption>
+               <figcaption className='caption'>Figure 4. Wrong colony PCR results of transformation</figcaption>
              
                 
                 
@@ -151,10 +143,10 @@ export function Engineering() {
                 <p>Our experiment group members analyzed reasons carefully and searched for chemical transformation protocol in EcN (Protocol-2). Fortunately, colony PCR showed successful construction of our engineered EcN (Figure 5) and it was verified by DNA sequencing.</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
-                alt="result4"
+                alt="eng5"
                 className="responsive-img"
               />
-               <figcaption className='caption'></figcaption>
+               <figcaption className='caption'>Figure 5. Correct colony PCR results of transformation after experimental improvement</figcaption>
 
                 <h3>Cycle 3: Optimizing inducing condition of the Sensing Module</h3>
                 <h4>Design & Build</h4>
@@ -165,10 +157,10 @@ export function Engineering() {
                 <p>Results showed a significant increase in fluorescent intensity along with the increased level of PEA concentration. 100 ng/ml PEA presented the best capability of induction, and showed significant difference compared with other concentrations of PEA starting from 12 hours(Figure 6).</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
-                alt="result4"
+                alt="eng6"
                 className="responsive-img"
               />
-               <figcaption className='caption'></figcaption>
+               <figcaption className='caption'>Figure 6. Fluorescence Intensity with different concentrations of PEA cocultured in engineered EcN</figcaption>
                 <p>Therefore, the design of sensing module, which detects the rising level of HE risk factor PEA and induces the expression of gene downstream, is feasible. The opmized concentration of PEA can be set at 100 ng/ml. </p>
                 
                <img 
@@ -194,7 +186,7 @@ export function Engineering() {
                 alt="result4"
                 className="responsive-img"
               />
-               <figcaption className='caption'></figcaption>
+               <figcaption className='caption'>Figure 7. Plasmid designs of TPH1 and MAOB to metabolize False Neurotransmitters</figcaption>
 
                <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
@@ -211,10 +203,10 @@ export function Engineering() {
               <p>The unsuccessful attempts to express TPH1 and negative results of PEA degradation made us focus on metabolizing ammonia by expressing the GS enzyme (see details in the Design section of our Description Page). Fortunately, we successfully validate the feasibility of GS as our metabolic module and assembled it with sensing module (see details in our Result Page) . The final engineered design is shown in Figure 8.</p>
               <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
-                alt="result4"
+                alt="eng8"
                 className="responsive-img"
               />
-               <figcaption className='caption'></figcaption>
+               <figcaption className='caption'>Figure 8. The successful engineering of PEA-sensing and ammonia-metabolizing design</figcaption>
 
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
