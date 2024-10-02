@@ -128,8 +128,22 @@ export function Engineering() {
           
 
               <Element name="section3" className="element rounded-border" id='section3'>
-              <h2>Section 3</h2>
-              <p>Content for section 3.</p>
+              <h2>Metabolic Module Engineering</h2>
+              <h3>Cycle 1: Determination of a proper pathogenic factor</h3>
+              <h4>Design</h4>
+              <p>1</p>
+              <h4>Build & Test</h4>
+              <p>2</p>
+              <h4>Learn</h4>
+              <p>3</p>
+              <h3>Cycle 2: </h3>
+              <h4>Design</h4>
+              <p>1</p>
+              <h4>Build & Test</h4>
+              <p>2</p>
+              <h4>Learn</h4>
+              <p>3</p>
+              <p>4</p>
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
