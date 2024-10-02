@@ -890,7 +890,7 @@ span.formula_line::-webkit-scrollbar-track {
 
 .caption {
   display: flex;
-  font-size: 14px; 
+  font-size: 0.6vh; 
   color: #555; 
   margin-top: 8px; 
   font-style: italic; 
