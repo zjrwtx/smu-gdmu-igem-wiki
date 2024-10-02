@@ -14,7 +14,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
         <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>2.Ethical Considerations</Nav.Link>
         <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>3.Collaboration</Nav.Link>
         <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>4.Questionnaire</Nav.Link>
-        <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>5.STAKEHOLDER</Nav.Link>
+        <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>5.Stakeholdr</Nav.Link>
         <Nav.Link as={Link} to="section6" smooth={true} duration={500} className={activeLink === 'section6' ? 'active' : 'notActive'}>6.Expert</Nav.Link>
 
         {/* 添加更多导航链接 */}
@@ -72,7 +72,7 @@ export function HumanPractices() {
 
         <Element name="section1" className="element rounded-border" id='section1'>
         <h2>1. Overview</h2>
-            <p>Have a picture of what we did.</p>
+            <p>"You must first believe it to see it." — Norman Vincent Peale</p>
   <div className="rounded-border">
     <h3 className="center-text">1.1 A Pillar of Our iGEM Project</h3>
     <p className='indent'>
@@ -191,7 +191,7 @@ export function HumanPractices() {
       The team participated in the <span className='bold-font'>South China Exchange Conference</span>, sharing project progress and experiences with institutions like <span className='bold-font'>Shenzhen University</span> and the <span className='bold-font'>Southern University of Science and Technology</span>.
     </p>
     <p className='indent'>
-      We were invited to the <span className='bold-font'>China Regional Exchange Conference (CCIC)</span>, engaging in in-depth discussions with other teams to optimize and improve our project, enhancing <span className='bold-font'>collaboration abilities</span> and promoting mutual project development.
+      We were invited to the <span className='bold-font'>Conference of China iGEMer Community (CCIC)</span>, engaging in in-depth discussions with other teams to optimize and improve our project, enhancing <span className='bold-font'>collaboration abilities</span> and promoting mutual project development.
     </p>
 
     <p className='indent'>
