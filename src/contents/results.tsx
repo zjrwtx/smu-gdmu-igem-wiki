@@ -94,7 +94,8 @@ export function Results() {
               <Element name="section2" className="element rounded-border" id='section2'>
                 <h2>Metabolic Module Validation</h2>
                 <h3>Ammonia degrading ability of GS enzyme</h3>
-                <p>Content for section 2.</p>
+                <p>Our metabolic module aims to degrade the over-accumulated NH3 in patients' gut by expressing GS, an enzyme that could utilize NH4+ and metabolize it into glutamine which does no harm to the human body. To validate the feasibility of this module, we transformed EcN with plasmid Ptac-GS and used IPTG to induce the expression of GS (Figure 2a). Meanwhile, we transformed EcN with the vector plasmid PET-32a as control gruop and coculture them with differnt concentratioon of NH4Cl in M9 minimal culture medium (Why in M9 rather than the regular LB medium? See details in our Engineering Page).</p>
+                <p>To our joy, the ammonia level in EcN_GS group cocultured with 50μM NH4Cl for 12 hours is significantly lower than the control group (Figure 2b), and this trend remains when we extended coculturing time to 24 hours (Figure 2c). These results indicate the successful expression and function of the metabolic module.</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/result-fig2.webp"
                 alt="example"
@@ -107,12 +108,6 @@ export function Results() {
                 <p>According to a review in Journal of Hepatology[2] , the physiological level of blood ammonia is around 35~50μM, a level of 120μM is associated with high risk of death in HE patients.</p>
                 <p>As shown in Figure 2b, the difference between EcN_vector and EcN_GS with lower NH4Cl concentration such as 5μM decreased and was even not significant with 0.5μM. This indicates that the GS enzyme requires a rather high level NH4Cl to reach the most efficient status. Therefore, when the level of ammonia is in a normal range, the metabolic module is not likely to cause a significant decrease in ammonia, which might be useful in other metabolic cycles. </p>
                 <p>These results could allay some safety concerns of expressing GS enzymes to some extent, but more animal experiments are essential for further evaluation.</p>
-                <img 
-                src=""
-                alt="result"
-                className="responsive-img"
-              />
-               <figcaption className='caption'></figcaption>
               </Element>
           
 
