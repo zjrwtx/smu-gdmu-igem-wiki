@@ -323,13 +323,13 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>Figure 16 Our Educational Perimeter1</figcaption>
+                  <figcaption className='caption'>Figure 16 Our Educational Perimeter 1</figcaption>
                 <img 
                   src="https://static.igem.wiki/teams/5378/9be818cffa6a960902ea3bacf9f6d7f.webp"
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>Figure 17 Our Educational Perimeter2</figcaption>
+                  <figcaption className='caption'>Figure 17 Our Educational Perimeter 2</figcaption>
                 </div>
                 
                 <p className="indent"></p>
