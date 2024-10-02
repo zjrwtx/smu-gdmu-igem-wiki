@@ -92,10 +92,10 @@ export function Engineering() {
                 <h2>Sensing Module Engineering</h2>
                 <h3>Cycle 1: Determination of a proper Sensor</h3>
                 <h4>Design</h4>
-                <p>Since over-accumulated ammonia is one of the pathogenic factors of HE (see our Description page to learn more), we decided to design an ammonia-sensing module first. We envisioned our sensing module to specifically respond to the level of ammonia and could activate the downstream metabolic module to eliminate ammonia. </p>
+                <p>Since over-accumulated ammonia is one of the pathogenic factors of HE (see our <a href='https://2024.igem.wiki/smu-gdmu-china/description'>Description page</a> to learn more), we decided to design an ammonia-sensing module first. We envisioned our sensing module to specifically respond to the level of ammonia and could activate the downstream metabolic module to eliminate ammonia. </p>
                 <p>After literature research, we learned that most bio-sensors are based on transcriptional factor-inducible promoter systems [1]. However, we failed to find such an inducible promoter that can be activated by NH3 with high specificity. Therefore, we had to switch our design to sensing another risk factor of cirrhosis progression that may lead to HE.</p>
                 <h4>Redesign & Build</h4>
-                <p>During the next round of literature reading and brain storming, we learned that the level of bile acid decreases in cirrhosis patients and it was verified in some clinical studies[2-3], so we endeavored to seek systems that could respond to bile acids. Under the generous help and suggestions of Professor Zhu Bo (find more in our integrated human practice page), we found Martínez et al in 2019 developed bile acid inducible promoters in Lactobacillus strains[4]. </p>
+                <p>During the next round of literature reading and brain storming, we learned that the level of bile acid decreases in cirrhosis patients and it was verified in some clinical studies[2-3], so we endeavored to seek systems that could respond to bile acids. Under the generous help and suggestions of Professor Zhu Bo (find more in our <a href='https://2024.igem.wiki/smu-gdmu-china/human-practices'>integrated human practice</a> page), we found Martínez et al in 2019 developed bile acid inducible promoters in Lactobacillus strains[4]. </p>
                 <p>However, the level of bile acid is negatively related to the severity of cirrhosis, so we tried to utilize the "NOT" logic gate by introducing Cl/Plam genetic circuit. Plam is a potent promoter found in the lambda bacteriophage, while Cl is an inhibitory protein that can bind to the Plam promoter, thereby repressing downstream gene expression[5].</p>
                 <p>Next, we re-designed the sensing module as shown in Figure 1. The normal level of bile acid can activate the expression of pchA downstream of the inducible bile acid promoter, releasing transcriptional factor pchA to activate PLEE1 and express CL, which can inhibit Plam to express metabolic module. In contrast, when bile acid decreases in cirrhosis patients who are likely to develop HE, the inhibitory effect can be eliminated and thus initiate the expression of metabolic module to work.</p>
                 <img 
@@ -136,11 +136,30 @@ export function Engineering() {
                 className="responsive-img"
               />
                <figcaption className='caption'>Figure 4. Wrong colony PCR results of transformation</figcaption>
-             
-                
-                
+            
                 <h4>Learn</h4>
                 <p>Our experiment group members analyzed reasons carefully and searched for chemical transformation protocol in EcN (Protocol-2). Fortunately, colony PCR showed successful construction of our engineered EcN (Figure 5) and it was verified by DNA sequencing.</p>
+                <div className='row'>
+                  <div className='rounded-border col-6 margin-0 padding-1'><h3 className='center-text'>Electroporation Protocol</h3> 
+1. Place 100 µL of pre-prepared competent cells and the electroporation cuvette on ice.<br />
+2. Transfer 50 µL of competent cells into a clean Eppendorf tube and add 3 µL of plasmid DNA. Gently mix the solution.<br />
+3. Transfer the competent cell and plasmid mixture to the electroporation cuvette, then insert the cuvette into the electroporator.<br />
+4. Set the electroporator parameters to 1.8 kV, with an expected pulse duration of approximately 5.8 ms, and press the button to initiate the pulse.<br />
+5. After the pulse is complete, remove the cuvette and transfer the cell-plasmid mixture into the Eppendorf tube. Add 900 µL of antibiotic-free LB broth and incubate at 37°C on a shaker at 200 rpm for 1-2 hours.<br />
+6. Centrifuge at 5000 rpm for 5 minutes. Discard 700 µL of the supernatant, then resuspend the remaining pellet in the remaining supernatant. Divide the culture into two parts at a ratio of 1:9, and spread each part onto two chloramphenicol-resistant agar plates.<br />
+7. Incubate the two agar plates overnight at 37°C. The next day, pick single colonies for colony PCR to verify successful plasmid transformation.</div>
+                  <div className='rounded-border col-6 margin-0 padding-1'><h3 className='center-text'>Chemical Transformation Protocol</h3> 
+1. Place 100 µL of G4 competent cells on ice.<br />
+2. Add 2.5 µL of GFP plasmid to the 100 µL of G4 competent cells and gently flick the tube to mix.<br />
+3. Incubate on ice for 30 minutes, ensuring not to move the tube.<br />
+4. Heat shock in a 42°C water bath for 45 seconds.<br />
+5. Return to ice for 2 minutes without moving the tube.<br />
+6. Transfer the competent cell-plasmid mixture to a clean biosafety cabinet and add 500 µL of antibiotic-free LB broth.<br />
+7. Recover at 37°C on a shaker at 200 rpm for 1 hour.<br />
+8. Centrifuge at 3600 rpm for 1 minute. Discard 400 µL of the supernatant and gently resuspend the remaining pellet in the remaining supernatant. Divide the culture into two parts at a ratio of 1:9, and spread each part onto two chloramphenicol-resistant agar plates.<br />
+9. Incubate the two agar plates overnight at 37°C. The next day, pick single colonies for colony PCR to verify successful plasmid transformation.</div>
+                </div>
+                
                 <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
                 alt="eng5"
@@ -175,7 +194,7 @@ export function Engineering() {
               <Element name="section3" className="element rounded-border" id='section3'>
               <h2>Metabolic Module Engineering</h2>
               <h3>Design & Build</h3>
-              <p>The pathogenesis of HE is complicated, the mainstream theories include Ammonia Toxicity Theory and False Neurotransmitter Theory. Apart from endeavoring to metabolize ammonia (see details in the Design section of our Description Page) , we also put insights into reducing false neurotransmitters in our preliminary designs.</p>
+              <p>The pathogenesis of HE is complicated, the mainstream theories include Ammonia Toxicity Theory and False Neurotransmitter Theory. Apart from endeavoring to metabolize ammonia (see details in the <a href='https://2024.igem.wiki/smu-gdmu-china/design'>Design section</a> of our <a href='https://2024.igem.wiki/smu-gdmu-china/description'>Description Page</a> ) , we also put insights into reducing false neurotransmitters in our preliminary designs.</p>
               <p>A false neurotransmitter is a chemical substance that closely resembles and mimics the function of a neurotransmitter in the nervous system. Examples include 5-MeO-αMT, which mimics serotonin, and α-methyldopa.These chemicals can be accumulated by a neuron or secretory cell, are then packaged in secretory / synaptic vesicles, and then released with other neurotransmitters when an action potential provides the necessary stimulus for release[8]. Patients who develop liver failure can not digest those aromatic amino acids properly, and this can lead to false neuro-transmitters accumulation, causing neuro system symptoms.</p>
               <h4>TPH1: metabolize Trp</h4>
               <p>Tryptophan, through different metabolic pathways, can be converted into kynurenine, serotonin, and indole[9]. Tryptophan hydroxylase 1 (TPH1), enabling the conversion of tryptophan (Trp) into serotonin (5-HT) and reducing excess aromatic amino acids. Since serotonin synthesized in the gut cannot cross the blood-brain barrier or affect central nervous system function, there is no concern about adverse effects on the central nervous system. Therefore, we designed a plasmid to express TPH1 as our metabolic module(Figure 7a).</p>
@@ -200,7 +219,7 @@ export function Engineering() {
               <p>To demonstrate the efficiency of PEA degradation,we transformed BL21 with plasmid Ptac-RBS-MAOB and cocultured the engineered bacteria with 0, 10, 25, 50 and 100 ng/ml PEA for 16 hours. Then we collected the culture medium and filtered through 0.22μM PTFE membrane. PEA concentration was measured via HPLC. The results showed a decrease in PEA concentration in all groups, including the control group transformed with pET28a(+) vector (Table 1). Data shows mean,n=3 independent experiments. Unfortunately, the results couldn't verify the function of MAOB, we suspect the intrinsic TynA enzyme in E.coli may mediate the degradation of PEA according to literature[10].</p>
               
               <h3>Learn</h3>
-              <p>The unsuccessful attempts to express TPH1 and negative results of PEA degradation made us focus on metabolizing ammonia by expressing the GS enzyme (see details in the Design section of our Description Page). Fortunately, we successfully validate the feasibility of GS as our metabolic module and assembled it with sensing module (see details in our Result Page) . The final engineered design is shown in Figure 8.</p>
+              <p>The unsuccessful attempts to express TPH1 and negative results of PEA degradation made us focus on metabolizing ammonia by expressing the GS enzyme (see details in the <a href='https://2024.igem.wiki/smu-gdmu-china/description'>Design section of our Description Page</a>). Fortunately, we successfully validate the feasibility of GS as our metabolic module and assembled it with sensing module (see details in our Result Page) . The final engineered design is shown in Figure 8.</p>
               <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
                 alt="eng8"
