@@ -19,7 +19,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section1' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section1')}
         >
-          Section 1
+          LB medium preparation
         </Nav.Link>
         <Nav.Link 
           as={Link} 
@@ -159,9 +159,9 @@ export function Experiments() {
         
         <div className="col-10">
         <Element 
-            name="section1" 
+            name="section 1" 
             className="element rounded-border" 
-            id='section1' 
+            id='section 1' 
             onMouseEnter={() => handleMouseEnter('section1')}
             style={{ display: visibleSection === 'section1' ? 'block' : 'none' }}
           >
