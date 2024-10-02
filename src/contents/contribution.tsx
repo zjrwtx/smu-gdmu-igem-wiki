@@ -8,7 +8,13 @@ interface SideNavbarProps {
   activeLink: string;
 }
 
-
+type TableRowData = {
+    id: string;
+    type: string;
+    description: string;
+    class: string;
+    link: string;
+  };
 
 const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
   return (
