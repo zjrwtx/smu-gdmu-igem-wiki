@@ -99,6 +99,66 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
         >
           Transformation
         </Nav.Link>
+        <Nav.Link 
+          as={Link} 
+          to="section9" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section9' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section9')}
+        >
+          example
+        </Nav.Link>
+        <Nav.Link 
+          as={Link} 
+          to="section10" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section10' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section10')}
+        >
+          example
+        </Nav.Link>
+        <Nav.Link 
+          as={Link} 
+          to="section11" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section11' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section11')}
+        >
+          example
+        </Nav.Link>
+        <Nav.Link 
+          as={Link} 
+          to="section12" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section12' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section12')}
+        >
+          example
+        </Nav.Link>
+        <Nav.Link 
+          as={Link} 
+          to="section13" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section13' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section13')}
+        >
+          example
+        </Nav.Link>
+        <Nav.Link 
+          as={Link} 
+          to="section14" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section14' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section14')}
+        >
+          example
+        </Nav.Link>
       </Nav>
     </div>
   );
@@ -488,15 +548,135 @@ Flip upside down from time to time to make sure the sample is cooled evenly. Dur
 </p>
             </div>
           </Element>
+          <Element 
+            name="section9" 
+            className="element rounded-border" 
+            id='section9' 
+            onMouseEnter={() => handleMouseEnter('section9')}
+            style={{ display: visibleSection === 'section9' ? 'block' : 'none' }}
+          >
+            <h2>example</h2>
+            <p>Content for section .</p>
+            <div className="rounded-border">
+              <h4 className="center-text">example</h4>
+              <p className="indent">(1)	Material<br />
 
+</p>
+              <p className="indent">(2)	Steps<br />
 
+</p>
+              <p className="indent">(3)	Note:<br />
+</p>
+            </div>
+          </Element>
+          <Element 
+            name="section10" 
+            className="element rounded-border" 
+            id='section10' 
+            onMouseEnter={() => handleMouseEnter('section10')}
+            style={{ display: visibleSection === 'section10' ? 'block' : 'none' }}
+          >
+            <h2>example</h2>
+            <p>Content for section .</p>
+            <div className="rounded-border">
+              <h4 className="center-text">example</h4>
+              <p className="indent">(1)	Material<br />
 
+</p>
+              <p className="indent">(2)	Steps<br />
 
-          
+</p>
+              <p className="indent">(3)	Note:<br />
+</p>
+            </div>
+          </Element>
+          <Element 
+            name="section11" 
+            className="element rounded-border" 
+            id='section11' 
+            onMouseEnter={() => handleMouseEnter('section11')}
+            style={{ display: visibleSection === 'section11' ? 'block' : 'none' }}
+          >
+            <h2>example</h2>
+            <p>Content for section .</p>
+            <div className="rounded-border">
+              <h4 className="center-text">example</h4>
+              <p className="indent">(1)	Material<br />
 
+</p>
+              <p className="indent">(2)	Steps<br />
 
+</p>
+              <p className="indent">(3)	Note:<br />
+</p>
+            </div>
+          </Element>
+          <Element 
+            name="section12" 
+            className="element rounded-border" 
+            id='section12' 
+            onMouseEnter={() => handleMouseEnter('section12')}
+            style={{ display: visibleSection === 'section12' ? 'block' : 'none' }}
+          >
+            <h2>example</h2>
+            <p>Content for section .</p>
+            <div className="rounded-border">
+              <h4 className="center-text">example</h4>
+              <p className="indent">(1)	Material<br />
 
-         
+</p>
+              <p className="indent">(2)	Steps<br />
+
+</p>
+              <p className="indent">(3)	Note:<br />
+</p>
+            </div>
+          </Element>
+
+          <Element 
+            name="section13" 
+            className="element rounded-border" 
+            id='section13' 
+            onMouseEnter={() => handleMouseEnter('section13')}
+            style={{ display: visibleSection === 'section13' ? 'block' : 'none' }}
+          >
+            <h2>example</h2>
+            <p>Content for section .</p>
+            <div className="rounded-border">
+              <h4 className="center-text">example</h4>
+              <p className="indent">(1)	Material<br />
+
+</p>
+              <p className="indent">(2)	Steps<br />
+
+</p>
+              <p className="indent">(3)	Note:<br />
+</p>
+            </div>
+          </Element>
+
+          <Element 
+            name="section14" 
+            className="element rounded-border" 
+            id='section14' 
+            onMouseEnter={() => handleMouseEnter('section14')}
+            style={{ display: visibleSection === 'section14' ? 'block' : 'none' }}
+          >
+            <h2>example</h2>
+            <p>Content for section .</p>
+            <div className="rounded-border">
+              <h4 className="center-text">example</h4>
+              <p className="indent">(1)	Material<br />
+
+</p>
+              <p className="indent">(2)	Steps<br />
+
+</p>
+              <p className="indent">(3)	Note:<br />
+</p>
+            </div>
+          </Element>
+
         </div>
         <div className="col-1"></div>
       </div>
