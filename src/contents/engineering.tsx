@@ -14,14 +14,6 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
         <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Sensing Module Engineering</Nav.Link>
         <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Metabolic Module Engineering</Nav.Link>
         <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>Reference</Nav.Link>
-        <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>Section 5</Nav.Link>
-        <Nav.Link as={Link} to="section6" smooth={true} duration={500} className={activeLink === 'section6' ? 'active' : 'notActive'}>Section 6</Nav.Link>
-        <Nav.Link as={Link} to="section7" smooth={true} duration={500} className={activeLink === 'section7' ? 'active' : 'notActive'}>Section 7</Nav.Link>
-        <Nav.Link as={Link} to="section8" smooth={true} duration={500} className={activeLink === 'section8' ? 'active' : 'notActive'}>Section 8</Nav.Link>
-        <Nav.Link as={Link} to="section9" smooth={true} duration={500} className={activeLink === 'section9' ? 'active' : 'notActive'}>Section 9</Nav.Link>
-        <Nav.Link as={Link} to="section10" smooth={true} duration={500} className={activeLink === 'section10' ? 'active' : 'notActive'}>Section 10</Nav.Link>
-        <Nav.Link as={Link} to="section11" smooth={true} duration={500} className={activeLink === 'section11' ? 'active' : 'notActive'}>Section 11</Nav.Link>
-        {/* 添加更多导航链接 */}
       </Nav>
     </div>
   );
@@ -83,11 +75,6 @@ export function Engineering() {
                  <p>In this section on engineering success, we will go through the engineering cycles we went through to develop the PEA-sensing and ammonia-metabolizing EcN. </p>
                </Element>
           
-               <div className="bd-callout bd-callout-info bg-gray">
-                  <h1>What do we do to ...? See...</h1>
-                </div>
-          
-              
               <Element name="section2" className="element rounded-border" id='section2'>
                 <h2>Sensing Module Engineering</h2>
                 <h3>Cycle 1: Determination of a proper Sensor</h3>
@@ -121,16 +108,24 @@ export function Engineering() {
                 <h4>Design & Build</h4>
                 <p>To specifically respond to PEA, we designed a TynA-FeaR-PTynA inducible system. In Escherichia coli, TynA is a monoamine oxidase that can oxidize aromatic amines such as PEA to the corresponding aldehyde, PAG. FeaR is a transcription factor, which was shown to activate PtynA in the presence of aldehydes. Therefore, we designed a plasmid that constantly express TynA and FeaR and another plasmid with the inducibel promoter PTynA and downstream gene to be activated. </p>
                 <p>However, TynA can oxidize various kinds of aromatic amines and lack specificity to PEA. Through literature reading, we learned that Rottinghaus et al found the mutant TynA-G494S and FeaR-A81L showed a more specific response to PEA and PAG[6]. Therefore, we constructed the plasmid Pcon-FeaR+Pcon-TynA with the two mutants and a plasmid with inducible promoter PTynA and a reporter gene GFP (Figure 3).</p>
-                <img 
+                <div className='row'>
+                  <div className='col-6 margin-0 padding-0' >
+                  <img 
                 src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig3-1.webp"
                 alt="eng3a"
                 className="responsive-img"
               />
-              <img 
+                  </div>
+                  <div className='col-6 margin-0 padding-0' >
+                  <img 
                 src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig3-2.webp"
                 alt="eng3b"
                 className="responsive-img"
               />
+                  </div>
+                </div>
+                
+              
                <figcaption className='caption'>Figure 3. Plasmid design of the sensing module</figcaption>
             
                 <h4>Test</h4>
@@ -198,18 +193,28 @@ export function Engineering() {
               <p>Tryptophan, through different metabolic pathways, can be converted into kynurenine, serotonin, and indole[9]. Tryptophan hydroxylase 1 (TPH1), enabling the conversion of tryptophan (Trp) into serotonin (5-HT) and reducing excess aromatic amino acids. Since serotonin synthesized in the gut cannot cross the blood-brain barrier or affect central nervous system function, there is no concern about adverse effects on the central nervous system. Therefore, we designed a plasmid to express TPH1 as our metabolic module(Figure 7a).</p>
               <h4>MAOB: metabolize PEA</h4>
               <p>As we determined PEA to be the sensory substance in the sensing module, we also did literature reading on how it could be metabolized in the human body: by monoamine oxidase B (MAOB).  Therefore, we designed a plasmid to heterologously express MAOB of Homo Sapiens in E.coli (Figure 7b).</p>
-              <img 
+              <div className='row'>
+                  <div className='col-6 margin-0 padding-0' >
+                  <img 
                 src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig7a.webp"
                 alt="eng7a"
                 className="responsive-img"
               />
-               <img 
+                  </div>
+                  <div className='col-6 margin-0 padding-0' >
+                  <img 
                 src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig7b.webp"
                 alt="eng7b"
                 className="responsive-img"
               />
-               <figcaption className='caption'>Figure 7. Plasmid designs of TPH1 and MAOB to metabolize False Neurotransmitters</figcaption>
+                  </div>
+                </div>
+                <figcaption className='caption'>Figure 7. Plasmid designs of TPH1 and MAOB to metabolize False Neurotransmitters</figcaption>
 
+              
+              
+               
+               
               <h3>Test</h3>
               <p>To test the metabolizing efficiency of TPH1, we transformed EcN with plasmid Ptac-RBS-TPH1 via eletroporation and utilized 1 mM IPTG at 37℃ for 6 hours to induce expression. Unfortunately, expression of TPH1 can't be observed in the SDS-PAGE gel. Even though we changed the inducing conditions to 12 hours or 16℃, we still couldn't express TPH1 successfully. Considering that Trp may not be as specific as ammonia or PEA, we discarded this design and moved on to validating the feasibility of MAOB.</p>
               <p>To demonstrate the efficiency of PEA degradation,we transformed BL21 with plasmid Ptac-RBS-MAOB and cocultured the engineered bacteria with 0, 10, 25, 50 and 100 ng/ml PEA for 16 hours. Then we collected the culture medium and filtered through 0.22μM PTFE membrane. PEA concentration was measured via HPLC. The results showed a decrease in PEA concentration in all groups, including the control group transformed with pET28a(+) vector (Table 1). Data shows mean,n=3 independent experiments. Unfortunately, the results couldn't verify the function of MAOB, we suspect the intrinsic TynA enzyme in E.coli may mediate the degradation of PEA according to literature[10].</p>
@@ -227,12 +232,6 @@ export function Engineering() {
                 className="responsive-img"
               />
                <figcaption className='caption'>Figure 8. The successful engineering of PEA-sensing and ammonia-metabolizing design</figcaption>
-
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
               </Element>
 
               <Element name="section4" className="element rounded-border" id='section4'>
@@ -247,88 +246,10 @@ export function Engineering() {
               <p>[8]    Abarca Monge S. Cambio climático y plagas en el trópico[J/OL]. Alcances Tecnológicos, 2018, 12(1): 59-65.</p>
               <p>[9]    Yi-Kang Z, Yi-Nan W U, Tian-Min W, et al. Metabolite Biosensor :A Useful Synthetic Biology Tool to Assist the Construction of Microbial Cell Factory[J]. Biotechnology Bulletin, 2017.</p>
               <p>[10]    Zeng J, Spiro S. Finely tuned regulation of the aromatic amine degradation pathway in Escherichia  coli[J]. J Bacteriol, 2013,195(22):5141-5150.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section5" className="element rounded-border" id='section5'>
-              <h2>Section 5</h2>
-              <p>Content for section 5.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section6" className="element rounded-border" id='section6'>
-              <h2>Section 6</h2>
-              <p>Content for section 6.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section7" className="element rounded-border" id='section7'>
-              <h2>Section 7</h2>
-              <p>Content for section 7.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section8" className="element rounded-border" id='section8'>
-              <h2>Section 8</h2>
-              <p>Content for section 8.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section9" className="element rounded-border" id='section9'>
-              <h2>Section 9</h2>
-              <p>Content for section 9.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section10" className="element rounded-border" id='section10'>
-              <h2>Section 10</h2>
-              <p>Content for section 10.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section11" className="element rounded-border" id='section11'>
-              <h2>Section 11</h2>
-              <p>Content for section 11.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
+              
               </Element>
 
         </div>
-        <div className="col-1"></div>
-
-          
-        
       </div>
     </>
   );
