@@ -148,6 +148,27 @@ export function HumanPractices() {
             <p>Who are we connecting with.</p>
   <div className="rounded-border">
     <h3 className="center-text">3.1 Guidance and Cooperation</h3>
+    
+                
+                
+                
+    <p className='indent'>
+      Our team collaborates with the <span className='bold-font'>Liver Disease Center of Nanfang Hospital</span> and the <span className='bold-font'>Microecological Diagnosis and Treatment Center of Pearl River Hospital</span>.
+    </p>
+    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
+      <li>We collected <span className='bold-font'>preoperative serum samples</span> from cirrhosis patients undergoing <span className='bold-font'>TIPS</span>, conducted <span className='bold-font'>metabolomics testing</span>, and followed up with the patients for three months to monitor the occurrence of <span className='bold-font'>hepatic encephalopathy (HE)</span>.</li>
+    </ul>
+    <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration2.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
+    <p className='indent'>
+      The team participated in the <span className='bold-font'>the 8th Southern China Regional Meeting </span>, sharing project progress and experiences with institutions like <span className='bold-font'>Shenzhen University</span> and the <span className='bold-font'>Southern University of Science and Technology</span>.
+    </p>
     <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration1.webp"
@@ -156,40 +177,6 @@ export function HumanPractices() {
                 />
                 <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
                 </div>
-                <div className='image-container'>
-              <img 
-                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration2.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
-                </div>
-                <div className='image-container'>
-              <img 
-                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration3.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
-                </div>
-                <div className='image-container'>
-              <img 
-                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration4.webp"
-                alt="example"
-                className="image-wide"
-                />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
-                </div>
-    <p className='indent'>
-      Our team collaborates with the <span className='bold-font'>Liver Disease Center of Nanfang Hospital</span> and the <span className='bold-font'>Microecological Diagnosis and Treatment Center of Pearl River Hospital</span>.
-    </p>
-    <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
-      <li>We collected <span className='bold-font'>preoperative serum samples</span> from cirrhosis patients undergoing <span className='bold-font'>TIPS</span>, conducted <span className='bold-font'>metabolomics testing</span>, and followed up with the patients for three months to monitor the occurrence of <span className='bold-font'>hepatic encephalopathy (HE)</span>.</li>
-    </ul>
-
-    <p className='indent'>
-      The team participated in the <span className='bold-font'>the 8th Southern China Regional Meeting </span>, sharing project progress and experiences with institutions like <span className='bold-font'>Shenzhen University</span> and the <span className='bold-font'>Southern University of Science and Technology</span>.
-    </p>
     <p className='indent'>
       We were invited to the <span className='bold-font'>Conference of China iGEMer Community (CCiC) </span>, engaging in in-depth discussions with other teams to optimize and improve our project, enhancing <span className='bold-font'>collaboration abilities</span> and promoting mutual project development.
     </p>
@@ -197,11 +184,25 @@ export function HumanPractices() {
     <p className='indent'>
       <span className='bold-font'>Professor Qiu Xinyuan</span> from the <span className='bold-font'>National University of Defense Technology</span> provided valuable team guidance, offering practical suggestions and insights to support our team’s growth.
     </p>
-
+    <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration3.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
     <p className='indent'>
       We consulted with <span className='bold-font'>Dr. Liu</span>, a synthetic biology expert from the <span className='bold-font'>South China University of Technology</span>, to discuss the experimental content of our project, exchanging knowledge and experiences related to <span className='bold-font'>hepatic encephalopathy</span>.
     </p>
-
+    <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/hp-ihp-collaboration/collaboration4.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
     <p className='indent'>
       Team members participated in the <span className='bold-font'>National Synthetic Biology Innovation Competition</span> at <span className='bold-font'>Shenzhen Guangming Tian'an Cloud Valley</span>, where they engaged in deep discussions and collaboration with iGEM teams from across the country, exchanging innovative ideas on a shared platform.
     </p>
