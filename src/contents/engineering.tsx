@@ -106,22 +106,21 @@ export function Engineering() {
                 <p>During the next round of literature reading and brain storming, we learned that the level of bile acid decreases in cirrhosis patients and it was verified in some clinical studies[2-3], so we endeavored to seek systems that could respond to bile acids. Under the generous help and suggestions of Professor Zhu Bo (find more in our integrated human practice page), we found Martínez et al in 2019 developed bile acid inducible promoters in Lactobacillus strains[4]. </p>
                 <p>However, the level of bile acid is negatively related to the severity of cirrhosis, so we tried to utilize the "NOT" logic gate by introducing Cl/Plam genetic circuit. Plam is a potent promoter found in the lambda bacteriophage, while Cl is an inhibitory protein that can bind to the Plam promoter, thereby repressing downstream gene expression[5].</p>
                 <p>Next, we re-designed the sensing module as shown in Figure 1. The normal level of bile acid can activate the expression of pchA downstream of the inducible bile acid promoter, releasing transcriptional factor pchA to activate PLEE1 and express CL, which can inhibit Plam to express metabolic module. In contrast, when bile acid decreases in cirrhosis patients who are likely to develop HE, the inhibitory effect can be eliminated and thus initiate the expression of metabolic module to work.</p>
-               
                 <img 
-                src="https://static.igem.wiki/teams/5378/testengineering/engineering02.webp"
-                alt="example"
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                alt="result4"
                 className="responsive-img"
               />
-                
-               
+               <figcaption className='caption'></figcaption>
                 <h4>Test</h4>
                 <p>To ensure the feasibility of our design before construction of plasmids, we did broad HP investigations, literature reviews, group discussions and expert outreach. Professor Zhu Bo suggested us to interview experts in the field of liver diseases, especially in HE. Our HP group reached Professor He Xiaolong, who has been studying the mechanism of gut microbiota and its metabolites in the development of HE. He pointed out that although our design seemed very interesting, bile acids are not specific enough as a biomarker for HE. </p>
                 <p>Coincidentally, his team currently found a new type of gut microbiota-derived metabolite, PEA, and verified its specificity and sensitivity in animal models and patients (Figure 2, unpublished work in submission). He generously reported this work to us and showed great interest in the concept of engineering probiotics to prevent HE from progressing. Therefore, we invited him to our team as secondary PI and moved our attention to PEA as the sensor.</p>
                 <img 
-                src="https://static.igem.wiki/teams/5378/testengineering/engineering03.webp"
-                alt="example"
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                alt="result4"
                 className="responsive-img"
               />
+               <figcaption className='caption'></figcaption>
 
 
                 <h4>Learn</h4>
@@ -130,17 +129,33 @@ export function Engineering() {
                 <h4>Design & Build</h4>
                 <p>To specifically respond to PEA, we designed a TynA-FeaR-PTynA inducible system. In Escherichia coli, TynA is a monoamine oxidase that can oxidize aromatic amines such as PEA to the corresponding aldehyde, PAG. FeaR is a transcription factor, which was shown to activate PtynA in the presence of aldehydes. Therefore, we designed a plasmid that constantly express TynA and FeaR and another plasmid with the inducibel promoter PTynA and downstream gene to be activated. </p>
                 <p>However, TynA can oxidize various kinds of aromatic amines and lack specificity to PEA. Through literature reading, we learned that Rottinghaus et al found the mutant TynA-G494S and FeaR-A81L showed a more specific response to PEA and PAG[6]. Therefore, we constructed the plasmid Pcon-FeaR+Pcon-TynA with the two mutants and a plasmid with inducible promoter PTynA and a reporter gene GFP (Figure 3).</p>
-                
+                <img 
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                alt="result4"
+                className="responsive-img"
+              />
+               <figcaption className='caption'></figcaption>
             
                 <h4>Test</h4>
                 <p>We planned to co-transformed EcN with two plasmids via electroporation (Protocol-1). However, colony PCR suggested we only transformed successfully with plasmid Pcon-feaR-PcontynA and failed in transforming plasmid PTynA-GFP. We tried several times but all came with negative results (Figure 4).</p>
-                
+                <img 
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                alt="result4"
+                className="responsive-img"
+              />
+               <figcaption className='caption'></figcaption>
              
                 
                 
                 <h4>Learn</h4>
                 <p>Our experiment group members analyzed reasons carefully and searched for chemical transformation protocol in EcN (Protocol-2). Fortunately, colony PCR showed successful construction of our engineered EcN (Figure 5) and it was verified by DNA sequencing.</p>
-                
+                <img 
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                alt="result4"
+                className="responsive-img"
+              />
+               <figcaption className='caption'></figcaption>
+
                 <h3>Cycle 3: Optimizing inducing condition of the Sensing Module</h3>
                 <h4>Design & Build</h4>
                 <p>After transformation of two plasmids in EcN, we tried to validate the PEA-sensing GFP reporting system with different concentrations of PEA (0, 5, 25, 50 and 100 ng/ml) and explored the optimized inducing concentration of PEA.</p>
@@ -149,10 +164,11 @@ export function Engineering() {
                 <h4>Learn</h4>
                 <p>Results showed a significant increase in fluorescent intensity along with the increased level of PEA concentration. 100 ng/ml PEA presented the best capability of induction, and showed significant difference compared with other concentrations of PEA starting from 12 hours.</p>
                 <img 
-                src="https://static.igem.wiki/teams/5378/testengineering/engineering04.webp"
-                alt="example"
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                alt="result4"
                 className="responsive-img"
               />
+               <figcaption className='caption'></figcaption>
                 <p>Therefore, the design of sensing module, which detects the rising level of HE risk factor PEA and induces the expression of gene downstream, is feasible. The opmized concentration of PEA can be set at 100 ng/ml. </p>
                 
                <img 
@@ -174,14 +190,33 @@ export function Engineering() {
               <p>Tryptophan, through different metabolic pathways, can be converted into kynurenine, serotonin, and indole[9]. Tryptophan hydroxylase 1 (TPH1), enabling the conversion of tryptophan (Trp) into serotonin (5-HT) and reducing excess aromatic amino acids. Since serotonin synthesized in the gut cannot cross the blood-brain barrier or affect central nervous system function, there is no concern about adverse effects on the central nervous system. Therefore, we designed a plasmid to express TPH1 as our metabolic module(Figure 8a).</p>
               <h5>MAOB: metabolize PEA</h5>
               <p>As we determined PEA to be the sensory substance in the sensing module, we also did literature reading on how it could be metabolized in the human body: by monoamine oxidase B (MAOB).  Therefore, we designed a plasmid to heterologously express MAOB of Homo Sapiens in E.coli (Figure 8b).</p>
-              
+              <img 
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                alt="result4"
+                className="responsive-img"
+              />
+               <figcaption className='caption'></figcaption>
+
+               <img 
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                alt="result4"
+                className="responsive-img"
+              />
+               <figcaption className='caption'></figcaption>
+
               <h4>Test</h4>
               <p>To test the metabolizing efficiency of TPH1, we transformed EcN with plasmid Ptac-RBS-TPH1 via eletroporation and utilized 1 mM IPTG at 37℃ for 6 hours to induce expression. Unfortunately, expression of TPH1 can't be observed in the SDS-PAGE gel. Even though we changed the inducing conditions to 12 hours or 16℃, we still couldn't express TPH1 successfully. Considering that Trp may not be as specific as ammonia or PEA, we discarded this design and moved on to validating the feasibility of MAOB.</p>
               <p>To demonstrate the efficiency of PEA degradation,we transformed BL21 with plasmid Ptac-RBS-MAOB and cocultured the engineered bacteria with 0, 10, 25, 50 and 100 ng/ml PEA for 16 hours. Then we collected the culture medium and filtered through 0.22μM PTFE membrane. PEA concentration was measured via HPLC. The results showed a decrease in PEA concentration in all groups, including the control group transformed with pET28a(+) vector (Table 1). Data shows mean,n=3 independent experiments. Unfortunately, the results couldn't verify the function of MAOB, we suspect the intrinsic TynA enzyme in E.coli may mediate the degradation of PEA according to literature[10].</p>
               
               <h4>Learn</h4>
               <p>The unsuccessful attempts to express TPH1 and negative results of PEA degradation made us focus on metabolizing ammonia by expressing the GS enzyme (see details in our Design page). Fortunately, we successfully validate the feasibility of GS as our metabolic module and assembled it with sensing module (see details in our Result Page) . The final engineered design is shown in Figure 9.</p>
-              
+              <img 
+                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                alt="result4"
+                className="responsive-img"
+              />
+               <figcaption className='caption'></figcaption>
+               
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
