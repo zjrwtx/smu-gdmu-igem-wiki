@@ -75,7 +75,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section6' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section6')}
         >
-          Section 6
+          Plasmid conservation
         </Nav.Link>
    
         <Nav.Link 
