@@ -220,7 +220,10 @@ export function Model() {
                 </div>
 
                 <div className="col-10 model-font">
+                    <h2>Overview</h2>
+<p>Our model provides ideas and solutions for the design and implementation of the project, and it is divided into three main parts. First, we established an ordinary differential equation (ODE) model of the biochemical reactions in Escherichia coli and designed a suicide switch to enhance the safety of using E. coli. Through these models, we can better understand the working patterns and metabolic characteristics of E. coli under specific conditions. Second, we developed a gene knockout model aimed at addressing the issue of ammonia production by E. coli Nissle 1917. Finally, we constructed a protein molecular dynamics model, which offers an excellent approach for microscopic analysis.</p>
                     <Element name="section1" className="element" id='section1'>
+
                         <h2 className="center-text mt-5">1. ODE Model of Biochemical Reactions</h2>
 
                         <h3>1.1 Oxidation of Phenylethylamine</h3>
@@ -775,17 +778,17 @@ export function Model() {
                             </div>
                         </MathJax.Provider>
                         <h2>Reference</h2>
-                        <p>[1] Nilam, M., Collin, S., Karmacharya, S., Hennig, A., & Nau, W. M. (2021). Membrane Permeability and Its Activation Energies in Dependence on Analyte, Lipid, and Phase Type Obtained by the Fluorescent Artificial Receptor Membrane Assay. *ACS sensors*, *6*(1), 175–182. https://doi.org/10.1021/acssensors.0c02064
+                        <p>[1] Nilam, M., Collin, S., Karmacharya, S., Hennig, A., & Nau, W. M. (2021). Membrane Permeability and Its Activation Energies in Dependence on Analyte, Lipid, and Phase Type Obtained by the Fluorescent Artificial Receptor Membrane Assay. ACS sensors, 6(1), 175–182. https://doi.org/10.1021/acssensors.0c02064
                         </p>
-                        <p>[2] Tran, B. M., Punter, C. M., Linnik, D., Iyer, A., & Poolman, B. (2024). Single-protein Diffusion in the Periplasm of Escherichia coli. *Journal of molecular biology*, *436*(4), 168420. https://doi.org/10.1016/j.jmb.2023.168420
+                        <p>[2] Tran, B. M., Punter, C. M., Linnik, D., Iyer, A., & Poolman, B. (2024). Single-protein Diffusion in the Periplasm of Escherichia coli. Journal of molecular biology, 436(4), 168420. https://doi.org/10.1016/j.jmb.2023.168420
                         </p>
-                        <p>[3] Yu, H., Deng, H., He, J., Keasling, J. D., & Luo, X. (2023). UniKP: a unified framework for the prediction of enzyme kinetic parameters. *Nature communications*, *14*(1), 8211. https://doi.org/10.1038/s41467-023-44113-1
+                        <p>[3] Yu, H., Deng, H., He, J., Keasling, J. D., & Luo, X. (2023). UniKP: a unified framework for the prediction of enzyme kinetic parameters. Nature communications, 14(1), 8211. https://doi.org/10.1038/s41467-023-44113-1
                         </p>
                         <p>[4] https://2023.igem.wiki/toulouse-insa-ups/functional-optimization
                         </p>
-                        <p>[5] van 't Hof, M., Mohite, O. S., Monk, J. M., Weber, T., Palsson, B. O., & Sommer, M. O. A. (2022). High-quality genome-scale metabolic network reconstruction of probiotic bacterium Escherichia coli Nissle 1917. *BMC bioinformatics*, *23*(1), 566. https://doi.org/10.1186/s12859-022-05108-9
+                        <p>[5] van 't Hof, M., Mohite, O. S., Monk, J. M., Weber, T., Palsson, B. O., & Sommer, M. O. A. (2022). High-quality genome-scale metabolic network reconstruction of probiotic bacterium Escherichia coli Nissle 1917. BMC bioinformatics, 23(1), 566. https://doi.org/10.1186/s12859-022-05108-9
                         </p>
-                        <p>[6] Patil, K.R., Rocha, I., Förster, J. *et al.* Evolutionary programming as a platform for *in silico* metabolic engineering. *BMC Bioinformatics* **6**, 308 (2005). https://doi.org/10.1186/1471-2105-6-308
+                        <p>[6] Patil, K.R., Rocha, I., Förster, J. et al. Evolutionary programming as a platform for in silico metabolic engineering. BMC Bioinformatics 6, 308 (2005). https://doi.org/10.1186/1471-2105-6-308
                         </p>
                         <h3>1.3 Metabolism of Ammonia and Tryptophan</h3>
                         <p>Under the catalysis of GS, glutamate accepts ammonia and is converted into glutamine. Glutamate in the gut diffuses into the cytoplasm, where it is converted into glutamine. The glutamine then diffuses back into the gut, acting as a carrier molecule.</p>
@@ -925,7 +928,7 @@ export function Model() {
                         </MathJax.Provider>
                         <h3>1.4 Suicidal System</h3>
                         <img src='https://static.igem.wiki/teams/5378/model/model-page.webp' className='responsive-img' style={{ maxWidth: '80%', margin: '0 auto', paddingRight: '20%' }} />
-                        {/* <figcaption className='caption' style={{ paddingRight: '20%' }} >Placeholders</figcaption>*/}
+                         <figcaption className='caption' style={{ paddingRight: '20%' }} >Figure2: Overview of the "suicide system" in the safety module.</figcaption>
 
                         <p>In this section, we utilize <b>kfiC</b> to sense IPTG and <b>nirB</b> to sense low-oxygen conditions, combining the two into an <b> "AND"</b> gate circuit. This setup ensures that <b>Escherichia coli</b> can only express the capsular polysaccharide CAP and survive in the low-oxygen environment of the patient's intestine while receiving regular oral doses of IPTG. If either condition is not met, the bacteria will lose the protective effect of CAP and subsequently die.</p>
                         <p>First, we knocked out the key gene kfiC that expresses the capsular polysaccharide on the surface of EcN, and then cloned kfiC under the control of the lac promoter, which responds to IPTG induction. Given the complexity of this mechanism, we simplify the process using a form similar to the Michaelis-Menten equation as follows:</p>
@@ -1543,7 +1546,7 @@ export function Model() {
                                     <tr>
                                         <td>{row.id}</td>
                                         <td>{row.col1}</td>
-                                        <td>
+                                        <td  style={{minWidth:'350px',fontSize:'0.6em'}}>
                                             <div className="formula-scroll">
                                                 <MathJax.Provider>
                                                     <MathJax.Node inline formula={row.col2} />
@@ -1638,7 +1641,7 @@ export function Model() {
                         </table>
                         <p>The table displays the biomass flux and ammonia production per unit biomass for the wild-type strain and various knockout strains, along with the percentage of these values compared to the wild-type strain.</p>
                         < img src='https://static.igem.wiki/teams/5378/model/model4.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
-                        <figcaption className='caption' style={{ paddingRight: '20%' }} >Figure 1: Growth of Escherichia coli Nissle 1917 in M9 and LB Medium</figcaption>
+                        <figcaption className='caption' style={{ paddingRight: '20%' }} >Figure 7: Growth of Escherichia coli Nissle 1917 in M9 and LB Medium</figcaption>
 
                         <p>We compared the changes in biomass flux before and after gene knockouts predicted by the model with the growth characteristics of *Escherichia coli* Nissle 1917 in M9 and LB media obtained from wet experiments. After gene knockout, the biomass flux of the strain reached <b>80.03%</b>of its pre-knockout level under optimal conditions. In the M9 medium, which inhibits ammonia production, the growth rate of the strain was approximately <b> 81.77%</b> of that in LB medium. This validates the model's calculations and demonstrates that merely inhibiting ammonia production does not significantly affect the strain's growth, indicating the feasibility of the gene knockout strategy.</p>
 
@@ -1718,7 +1721,7 @@ export function Model() {
                         </div>
                         <p>We simulated the potential interactions that may occur when the two molecules bind during the reaction process and obtained the following results:</p>
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model19.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <img src='https://static.igem.wiki/teams/5378/model/model19.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 13 Interactions between moleculesg</figcaption></p>
                         </div>
                         <p>From the simulation schematic, it is evident that the binding energy of the docking interaction is –4.6 kcal/mol. Additionally, lysine residues within the protein form hydrogen bonds with the ligand, indicating that the docking complex is relatively stable.</p>
