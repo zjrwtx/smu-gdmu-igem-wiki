@@ -516,7 +516,7 @@ export function Team() {
               <Card
                 id="card20"
                 image1="https://static.igem.wiki/teams/5378/team-member/2001-1.webp"
-                image2="https://static.igem.wiki/teams/5378/team-member/2002-1.webp"
+                image2="https://static.igem.wiki/teams/5378/team-member/wyfbackground.webp"
                 title1="Yifeng Wang"
                 description1="Students"
                 onHover={handleCardHover}
