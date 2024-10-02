@@ -307,14 +307,14 @@ export function Inclusivity() {
               <h4 className="center-text">Collaboration</h4>
               <p className="indent">Our team collaborates with the Hepatology Center at Nanfang Hospital and the Microecology Treatment Center at Zhujiang Hospital. Under their guidance, we collected serum samples from patients with cirrhosis before undergoing TIPS surgery and performed metabolomics testing. We also followed up with the patients for three months to record the occurrence of HE.</p>
               <p className="indent">Our team participated in the South China Exchange Conference, where we shared our project progress and experiences with Shenzhen University, Southern University of Science and Technology, and others.</p>
-              <p className="indent">Our team was invited to participate in the 11th China Regional iGEMer Exchange Conference (CCIC), where we engaged in in-depth discussions with other teams regarding project optimization and improvements. This enhanced our collaborative abilities and promoted the development of each team's projects.</p>
+              <p className="indent">Our team was invited to participate in the Conference of China iGEMer Community (CCIC), where we engaged in in-depth discussions with other teams regarding project optimization and improvements. This enhanced our collaborative abilities and promoted the development of each team's projects.</p>
               <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/award-inclusivity/12.webp"
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>11th China Regional iGEMer Exchange Conference</figcaption>
+                <figcaption className='caption'>11th Conference of China iGEMer Community</figcaption>
                 </div>
                 <div className='image-container'>
               <img 
