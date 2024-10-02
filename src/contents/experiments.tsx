@@ -568,11 +568,10 @@ Palmitoylethanolamide solution (PEA)<br />
 Phosphate Buffered Saline (PBS)<br />
 </p>
               <p className="indent">(2)	Steps<br />
-1.Take a single colony into 5mL LB medium, then centrifuge it at 250rpm and 37℃ environments, overnight.
-2.Dilute the overnight cultured bacteria 100 times, add to a 96-well cell culture plate with 0.6 mL of M9 basal medium, and then add PEA of the corresponding concentration.
-3.Place the 96-well cell culture plate in a shaker at 37℃, 250rpm for 24 hours. Then, collect the samples after 5 and 24 hours, respectively.
-4.Fluorescence was observed through fluorescence microscopy.
-5.The fluorescence was measured on microplate reader by excitation at 410 nm and detection of emission at 500 nm. OD600(absorbance of 600 nm) was also measured on microplate readear for normalization.
+1.Take a single colony into 5mL LB medium, then centrifuge it at 250rpm and 37℃ environments, overnight.<br />
+3.Place the 96-well cell culture plate in a shaker at 37℃, 250rpm for 24 hours. Then, collect the samples after 5 and 24 hours, respectively.<br />
+4.Fluorescence was observed through fluorescence microscopy.<br />
+5.The fluorescence was measured on microplate reader by excitation at 410 nm and detection of emission at 500 nm. OD600(absorbance of 600 nm) was also measured on microplate readear for normalization.<br />
 </p>
               <p className="indent">(3)	Note:<br />
 The M9 Medium is supplemented with 1mM MgSO4, 100 μM CaCl2 and 2% w/v glycerol. The sterile PBS contains corresponding resistance antibiotics and the final volume of the diluted solution is 200μL. Flow cytometry data were gated by forward scatter and side scatter. 
@@ -586,17 +585,35 @@ The M9 Medium is supplemented with 1mM MgSO4, 100 μM CaCl2 and 2% w/v glycerol.
             onMouseEnter={() => handleMouseEnter('section10')}
             style={{ display: visibleSection === 'section10' ? 'block' : 'none' }}
           >
-            <h2>example</h2>
+            <h2>Verification for metabolic module</h2>
             <p>Content for section .</p>
             <div className="rounded-border">
-              <h4 className="center-text">example</h4>
+              <h4 className="center-text">Verification for metabolic module</h4>
               <p className="indent">(1)	Material<br />
-
+Transferred single colony<br />
+LB Medium<br />
+Shaker<br />
+Centrifuge<br />
+PBS solution<br />
+M9 Medium<br />
+96-well cell culture plates<br />
+Breath-easier membrane<br />
+0.5% glucose<br />
+25μg/mL chloramphenicol<br />
 </p>
               <p className="indent">(2)	Steps<br />
-
+1.Incubate the transferred single colony in the LB medium with 250rpm at 37℃ overnight.<br />
+2.Add 200μL cultures into 20mL LB medium, then incubate in the shaker for 2 hours.<br />
+3.Incubate for another 2 hours after the activation of promoter under static situation.<br />
+4.Centrifuge at 3200g and discard the supernatant, and resuspend the precipitate in 10mL M9 minimal medium.<br />
+5.Dilute the 1μL suspension 1000 times with PBS solution, then do the bacteria counting.<br />
+6.Adjust the concentration of the suspension to 109 cells/mL with adjusted M9 medium.<br />
+7.Add 1mL cell suspension in each well of 96-well cell culture plates, then add 10μL 5mol/L ammonium chloride solution in each cell. Each sample has three duplicates.<br />
+8.Cover the plates with breath-easier membrane, then incubate at 37℃ for 3 hours.<br />
+9.Take 150μL cultures for further detection with corresponding kits.<br />
 </p>
               <p className="indent">(3)	Note:<br />
+The M9 minimal medium contains 0.5% glucose, and add 10μg/mL chloramphenicol during the adjustment section. The detection will be conducted for samples collect at 0,1,2 and 3 hours after the transformation. 
 </p>
             </div>
           </Element>
