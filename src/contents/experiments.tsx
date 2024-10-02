@@ -335,7 +335,7 @@ Centrifuge<br />
 Shaker<br />
 Water Bath<br />
 </p>
-              <p className="indent">（2） Step (take 30ml gel for instance)<br />
+              <p className="indent">(2) Step (take 30ml gel for instance)<br />
 1.Weigh 0.3g agarose powder and 30μl 1%TAE buffer, then add to a flask;<br />
 2.Heat up until the solution is completely dissolved. If it boils, move away from the heat until it cools down and put it back on the heat until it absolutely dissolved.<br />
 3.While heating, prepare the bed where the gel polymerizes. Make sure that it is well balanced and tight, and that the comb is well placed.<br />
