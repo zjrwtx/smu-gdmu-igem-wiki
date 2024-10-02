@@ -624,17 +624,28 @@ The M9 minimal medium contains 0.5% glucose, and add 10μg/mL chloramphenicol du
             onMouseEnter={() => handleMouseEnter('section11')}
             style={{ display: visibleSection === 'section11' ? 'block' : 'none' }}
           >
-            <h2>example</h2>
+            <h2>In vitro expression of engineered curli fibers</h2>
             <p>Content for section .</p>
             <div className="rounded-border">
-              <h4 className="center-text">example</h4>
+              <h4 className="center-text">In vitro expression of engineered curli fibers</h4>
               <p className="indent">(1)	Material<br />
+Nissel 1917<br />
+pBbB8k plasmid<br />
+LB Medium<br />
+Kanamycin<br />
+L-(+)-arabinose<br />
+Shaking incubator<br />
 
 </p>
               <p className="indent">(2)	Steps<br />
-
+1.Nissel 1917 is transformed with pBbB8k plasmid using electroporation to generate variants of curli-producing cells.<br />
+2.The cells are plated on the LB medium and incubated overnight at 37℃.<br />
+3.Single colonies are inoculated in 5mL of LB medium, grown overnight in the shaking incubator at 37℃.<br />
+4.Overnight starters are diluted 100-fold in fresh LB medium and grown overnight in the shaking incubator at 37℃ each time.<br />
+5.Add 0.05%(wt/vol) L-(+)-arabinose to induce protein expression, then the cultures will be grown overnight in the shaking incubator at 37℃.<br />
 </p>
               <p className="indent">(3)	Note:<br />
+The LB Mediums used above all contain 50 μg/mL kanamycin. The dilution will be ended until the cultures reaches logarithmic phase with an optical density (OD) of 0.5 to 0.8 at 600 nm.
 </p>
             </div>
           </Element>
