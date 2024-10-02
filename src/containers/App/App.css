@@ -1205,8 +1205,8 @@ span.formula_line::-webkit-scrollbar-track {
 
 .page-element-2p {
   position: absolute;
-  right: 20vw;
-  top: 40vw;
+  left: 32vw;
+  top: 22vw;
   height: auto;
   width: 20vw;
  }
@@ -1216,8 +1216,8 @@ span.formula_line::-webkit-scrollbar-track {
 }
 @keyframes element-2p {
   0% { opacity: 0; }
-  70% { opacity: 0; }
-  80% { opacity: 1; }
+  60% { opacity: 0; }
+  70% { opacity: 1; }
   100% { opacity: 1; }
 }
 
