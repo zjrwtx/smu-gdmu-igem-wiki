@@ -149,15 +149,11 @@ export function Results() {
               <h2>Model Results</h2>
               <p>Content for section 5.</p>
               <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                src="https://static.igem.wiki/teams/5378/modelresult.webp"
                 alt="example"
                 className="responsive-img"
               />
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
+          
               </Element>
 
               <Element name="section6" className="element rounded-border" id='section6'>
