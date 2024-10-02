@@ -286,11 +286,6 @@ export function HumanPractices() {
   </div>
 </Element>
 
-
-          <div className="bd-callout bd-callout-info bg-gray">
-            <h1>What do we do to ...? See...</h1>
-          </div>
-
           <Element name="section5" className="element rounded-border" id='section5'>
             <h2>5. Stakeholder</h2>
             <p>Our stakeholders.</p>
@@ -333,7 +328,7 @@ export function HumanPractices() {
         </Element>
 
 
-        <Element name="section5" className="element rounded-border" id='section5'>
+        <Element name="section6" className="element rounded-border" id='section6'>
         <h2>6. Expert Consultation</h2>
             <p>Explore what did we learn from experts.</p>
   <div className="rounded-border">
