@@ -233,14 +233,14 @@ LB selective medium (Chloramphenicol)<br />
             <p>Content for section 2.</p>
             <div className="rounded-border">
               <h4 className="center-text">Double Enzyme DNA Digestion& Agarose Gel Electrophoresis</h4>
-              <p className="indent">（1）Material<br />
+              <p className="indent">(1) Material<br />
 Plasmid DNA<br />
 10× FastDigest or 10× FastDigest Green Buffer<br />
 Double Distillation Water (ddH2O)<br />
 FastDigest enzyme<br />
 Alkaline phosphatase<br />
 </p>
-              <p className="indent">（2）Steps<br />	
+              <p className="indent">(2) Steps<br />	
 1.Add 1μg plasmid DNA, 1μl FastDigest enzyme, 2μl 10× FastDigest or 10× FastDigest<br />
 2.	Green Buffer and ddH2O to 20μl into an PCR tube.<br />
 3.	Put the tube into the oven at 37℃ for 1h to 1.5h.<br />
@@ -267,7 +267,7 @@ Alkaline phosphatase<br />
             <p>Content for section 2.</p>
             <div className="rounded-border">
               <h4 className="center-text">Agarose Gel Electrophoresis</h4>
-              <p className="indent">(1)Material<br />
+              <p className="indent">(1) Material<br />
 TIANGEN Universal DNA Purification Kit<br />
 Gel with DNA sample<br />
 Double Distillation Water (ddH2O)<br />
@@ -275,7 +275,7 @@ Centrifuge<br />
 Shaker<br />
 Water Bath<br />
 </p>
-              <p className="indent">（2）Step (take 30ml gel for instance)<br />
+              <p className="indent">（2） Step (take 30ml gel for instance)<br />
 1.Weigh 0.3g agarose powder and 30μl 1%TAE buffer, then add to a flask;<br />
 2.Heat up until the solution is completely dissolved. If it boils, move away from the heat until it cools down and put it back on the heat until it absolutely dissolved.<br />
 3.While heating, prepare the bed where the gel polymerizes. Make sure that it is well balanced and tight, and that the comb is well placed.<br />
@@ -301,12 +301,12 @@ Water Bath<br />
             <p>Content for section 2.</p>
             <div className="rounded-border">
               <h4 className="center-text">Infusion</h4>
-              <p className="indent">(1)Material
+              <p className="indent">(1) Material
 5 × CE MultiS Buffer
 Exnase MultiS
 Double Distillation Water (ddH2O)
 Primer</p>
-              <p className="indent">(2)Steps<br />
+              <p className="indent">(2) Steps<br />
 1.Calculate the amount of DNA required for the recombination reaction according to the formula.<br />
 2.Prepare the following reaction system on ice:<br />
 a. X/Y calculates the amount of vector and the amount of each insert according to the formula.<br />
@@ -317,7 +317,7 @@ d. Positive control reactions can be used to exclude the influence of other expe
 3.Use a pipette to gently mix (do not shake to mix), and centrifuge briefly to collect the reaction solution to the bottom of the tube.<br />
 4.React at 37°C for 30 min; drop to 4°C or cool on ice immediately.<br />
 </p>
-              <p className="indent">(3)Note:<br />
+              <p className="indent">(3) Note:<br />
 1.In order to ensure the accuracy of sample addition, the linearized vector and insert can be properly diluted before preparing the recombinant system, and the sample amount of each component is not less than 1 μl.<br />
 2.Calculation of vector and fragment usage:<br />
 Optimum usage per segment=(0.02×Fragment base pairs) ng (0.03 pmol)<br />
@@ -345,7 +345,7 @@ c. When the linearized cloning vector and the amplified product of the insert fr
             <p>Content for section 2.</p>
             <div className="rounded-border">
               <h4 className="center-text">Colony PCR</h4>
-              <p className="indent">(1)Material<br />
+              <p className="indent">(1) Material<br />
 Green Taq Mix<br />
 Primer<br />
 Double Distillation Water (ddH2O)<br />
@@ -357,7 +357,7 @@ Shaker<br />
 PCR Eight-Tube<br />
 DNA Marker<br />
 </p>
-              <p className="indent">(2)Steps<br />
+              <p className="indent">(2) Steps<br />
 (Take 5 tubes of eight tube centrifuge for example)<br />
 1) Pick bacteria<br />
 1.Add 1mL Amp LB to 1.5mL EP Tube.<br />
@@ -375,7 +375,7 @@ DNA Marker<br />
 Check the result under the Blue Light Gel Imager.<br />
 8. Select the right System for Shaking bacteria and Plasmid Extraction.<br />
 </p>
-<p className="indent">(3)Note:<br />
+<p className="indent">(3) Note:<br />
 1. The lid of the PCR Eight-tube is placed in the ultra-clean workbench to make sure we add Bacteria Liquid at the ultra-clean workbench.<br />
 2.As we use Green Taq Mix, we don’t need to add Loading when Agarose Gel Electrophoresis.<br />
 </p>
@@ -390,12 +390,21 @@ Check the result under the Blue Light Gel Imager.<br />
             onMouseEnter={() => handleMouseEnter('section6')}
             style={{ display: visibleSection === 'section6' ? 'block' : 'none' }}
           >
-            <h2>Section 2</h2>
+            <h2>Plasimd conservation</h2>
             <p>Content for section 2.</p>
             <div className="rounded-border">
-              <h4 className="center-text">Section 2</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Plasimd conservation</h4>
+              <p className="indent">(1) Material<br />
+Cryopreservation tube<br />
+50% Glycerin<br />
+Alcohol lamp<br />
+</p>
+              <p className="indent">(2) Steps<br />
+1.Add 400μl 50% Glycerin and 600μl bacterial liquid.<br />
+2.Mix it upside down and put it in the refrigerator at -80℃.<br />
+</p>
+<p className="indent">(3)	Note:<br />
+Burn the mouth and cap of the flask with an alcohol lamp before and after opening the glycerin bottle.</p>
             </div>
           </Element>
 
