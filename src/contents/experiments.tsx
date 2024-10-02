@@ -32,6 +32,73 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           Section 2
         </Nav.Link>
         {/* 添加更多导航链接 */}
+
+  
+        <Nav.Link 
+          as={Link} 
+          to="section3" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section3' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section3')}
+        >
+          Section 3
+        </Nav.Link>
+  
+        <Nav.Link 
+          as={Link} 
+          to="section4" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section4' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section4')}
+        >
+          Section 4
+        </Nav.Link>
+
+        <Nav.Link 
+          as={Link} 
+          to="section5" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section5' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section5')}
+        >
+          Section 5
+        </Nav.Link>
+  
+        <Nav.Link 
+          as={Link} 
+          to="section6" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section6' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section6')}
+        >
+          Section 6
+        </Nav.Link>
+   
+        <Nav.Link 
+          as={Link} 
+          to="section7" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section7' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section7')}
+        >
+          Section 7
+        </Nav.Link>
+ 
+        <Nav.Link 
+          as={Link} 
+          to="section8" 
+          smooth={true} 
+          duration={500} 
+          className={activeLink === 'section8' ? 'active' : 'notActive'}
+          onClick={() => onLinkClick('section8')}
+        >
+          Section 8
+        </Nav.Link>
       </Nav>
     </div>
   );
@@ -91,16 +158,22 @@ export function Experiments() {
         </div>
         
         <div className="col-10">
-          <Element 
+        <Element 
             name="section1" 
             className="element rounded-border" 
             id='section1' 
             onMouseEnter={() => handleMouseEnter('section1')}
             style={{ display: visibleSection === 'section1' ? 'block' : 'none' }}
           >
-            <h2>Section 1</h2>
-            <p>Content for section 1.</p>
+            <h2>Section 2</h2>
+            <p>Content for section 2.</p>
+            <div className="rounded-border">
+              <h4 className="center-text">Section 2</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+            </div>
           </Element>
+       
           
           <Element 
             name="section2" 
@@ -117,6 +190,122 @@ export function Experiments() {
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
             </div>
           </Element>
+
+
+
+
+          <Element 
+            name="section3" 
+            className="element rounded-border" 
+            id='section3' 
+            onMouseEnter={() => handleMouseEnter('section3')}
+            style={{ display: visibleSection === 'section3' ? 'block' : 'none' }}
+          >
+            <h2>Section 2</h2>
+            <p>Content for section 2.</p>
+            <div className="rounded-border">
+              <h4 className="center-text">Section 2</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+            </div>
+          </Element>
+
+
+          <Element 
+            name="section4" 
+            className="element rounded-border" 
+            id='section4' 
+            onMouseEnter={() => handleMouseEnter('section4')}
+            style={{ display: visibleSection === 'section4' ? 'block' : 'none' }}
+          >
+            <h2>Section 2</h2>
+            <p>Content for section 2.</p>
+            <div className="rounded-border">
+              <h4 className="center-text">Section 2</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+            </div>
+          </Element>
+
+
+
+          <Element 
+            name="section5" 
+            className="element rounded-border" 
+            id='section5' 
+            onMouseEnter={() => handleMouseEnter('section5')}
+            style={{ display: visibleSection === 'section5' ? 'block' : 'none' }}
+          >
+            <h2>Section 2</h2>
+            <p>Content for section 2.</p>
+            <div className="rounded-border">
+              <h4 className="center-text">Section 2</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+            </div>
+          </Element>
+
+
+          <Element 
+            name="section6" 
+            className="element rounded-border" 
+            id='section6' 
+            onMouseEnter={() => handleMouseEnter('section6')}
+            style={{ display: visibleSection === 'section6' ? 'block' : 'none' }}
+          >
+            <h2>Section 2</h2>
+            <p>Content for section 2.</p>
+            <div className="rounded-border">
+              <h4 className="center-text">Section 2</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+            </div>
+          </Element>
+
+
+
+          <Element 
+            name="section7" 
+            className="element rounded-border" 
+            id='section7' 
+            onMouseEnter={() => handleMouseEnter('section7')}
+            style={{ display: visibleSection === 'section7' ? 'block' : 'none' }}
+          >
+            <h2>Section 2</h2>
+            <p>Content for section 2.</p>
+            <div className="rounded-border">
+              <h4 className="center-text">Section 2</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+            </div>
+          </Element>
+
+
+
+          <Element 
+            name="section8" 
+            className="element rounded-border" 
+            id='section8' 
+            onMouseEnter={() => handleMouseEnter('section8')}
+            style={{ display: visibleSection === 'section8' ? 'block' : 'none' }}
+          >
+            <h2>Section 2</h2>
+            <p>Content for section 2.</p>
+            <div className="rounded-border">
+              <h4 className="center-text">Section 2</h4>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+            </div>
+          </Element>
+
+
+
+
+          
+
+
+
+         
         </div>
         <div className="col-1"></div>
       </div>
