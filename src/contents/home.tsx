@@ -414,9 +414,9 @@ export function Home() {
             </iframe>
       </div>
       <Element name="element-11" id="element-11" className="element page-container-11">
-        <a href="https://2024.igem.wiki/smu-gdmu-china/design">
+        <a href="https://2024.igem.wiki/smu-gdmu-china/description">
         <img
-            src="https://static.igem.wiki/teams/5378/home/4th/design.webp"
+            src="https://static.igem.wiki/teams/5378/home/4th/des.webp"
             alt="example"
             className={`home-menu-button page-element-design ${activeLink === 'element-11' ? 'img-left-in-active' : 'img-left-in'}`}
           />
