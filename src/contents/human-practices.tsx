@@ -191,7 +191,7 @@ export function HumanPractices() {
       The team participated in the <span className='bold-font'>South China Exchange Conference</span>, sharing project progress and experiences with institutions like <span className='bold-font'>Shenzhen University</span> and the <span className='bold-font'>Southern University of Science and Technology</span>.
     </p>
     <p className='indent'>
-      We were invited to the <span className='bold-font'>China Regional Exchange Conference (CCIC)</span>, engaging in in-depth discussions with other teams to optimize and improve our project, enhancing <span className='bold-font'>collaboration abilities</span> and promoting mutual project development.
+      We were invited to the <span className='bold-font'>11th China Regional iGEMer Exchange Conferenc(CCIC)</span>, engaging in in-depth discussions with other teams to optimize and improve our project, enhancing <span className='bold-font'>collaboration abilities</span> and promoting mutual project development.
     </p>
 
     <p className='indent'>
