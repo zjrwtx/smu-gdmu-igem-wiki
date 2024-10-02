@@ -146,9 +146,9 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                {/* <figcaption className='caption'>Figure2. Ethical Discussion on Projects with Professor Yang Xiaolin</figcaption> */}
+                <figcaption className='caption'>Figure2. Ethical Discussion on Projects with Professor Yang Xiaolin</figcaption>
                 </div>
-\
+
 
 
 </Element>

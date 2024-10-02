@@ -84,9 +84,6 @@ export function Education() { // sidenavbar begin
                 </div>
                </Element>
           
-              <div className="bd-callout bd-callout-info bg-gray">
-                  <h1>What do we do to ...? See...</h1>
-              </div>
           
               
               <Element name="section2" className="element rounded-border" id='section2'>
