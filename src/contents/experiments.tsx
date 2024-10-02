@@ -555,17 +555,27 @@ Flip upside down from time to time to make sure the sample is cooled evenly. Dur
             onMouseEnter={() => handleMouseEnter('section9')}
             style={{ display: visibleSection === 'section9' ? 'block' : 'none' }}
           >
-            <h2>example</h2>
+            <h2>Verification for sensor module</h2>
             <p>Content for section .</p>
             <div className="rounded-border">
-              <h4 className="center-text">example</h4>
+              <h4 className="center-text">Verification for sensor module</h4>
               <p className="indent">(1)	Material<br />
-
+LB Medium<br />
+96-well cell culture plates<br />
+shaker<br />
+M9 Medium<br />
+Palmitoylethanolamide solution (PEA)<br />
+Phosphate Buffered Saline (PBS)<br />
 </p>
               <p className="indent">(2)	Steps<br />
-
+1.Take a single colony into 5mL LB medium, then centrifuge it at 250rpm and 37℃ environments, overnight.
+2.Dilute the overnight cultured bacteria 100 times, add to a 96-well cell culture plate with 0.6 mL of M9 basal medium, and then add PEA of the corresponding concentration.
+3.Place the 96-well cell culture plate in a shaker at 37℃, 250rpm for 24 hours. Then, collect the samples after 5 and 24 hours, respectively.
+4.Fluorescence was observed through fluorescence microscopy.
+5.The fluorescence was measured on microplate reader by excitation at 410 nm and detection of emission at 500 nm. OD600(absorbance of 600 nm) was also measured on microplate readear for normalization.
 </p>
               <p className="indent">(3)	Note:<br />
+The M9 Medium is supplemented with 1mM MgSO4, 100 μM CaCl2 and 2% w/v glycerol. The sterile PBS contains corresponding resistance antibiotics and the final volume of the diluted solution is 200μL. Flow cytometry data were gated by forward scatter and side scatter. 
 </p>
             </div>
           </Element>
