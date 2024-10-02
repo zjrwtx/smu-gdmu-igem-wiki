@@ -21,8 +21,8 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
     <div className="side-navbar">
       <Nav className="flex-column">
         <Nav.Link as={Link} to="section1" smooth={true} duration={500} className={activeLink === 'section1' ? 'active' : 'notActive'}>Parts</Nav.Link>
-        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Section 2</Nav.Link>
-        <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Section 3</Nav.Link>
+        <Nav.Link as={Link} to="section2" smooth={true} duration={500} className={activeLink === 'section2' ? 'active' : 'notActive'}>Model</Nav.Link>
+        <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Product</Nav.Link>
    
         {/* 添加更多导航链接 */}
       </Nav>
@@ -46,10 +46,10 @@ const basicParts: TableRowData[] = [
 ];
 const compositeParts: TableRowData[] = [
   { id: 'BBa_K5378002', type: 'Composite', description: 'PtynA-RBS-TPH1',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378002' },
-  { id: 'BBa_K5378003', type: 'Composite', description: 'PtynA-RBS-GS',class:"table-element-orange",link:'https://parts.igem.org/Part:BBa_K5378003'},
+  { id: 'BBa_K5378023', type: 'Composite', description: 'PtynA-RBS-GS',class:"table-element-orange",link:'https://parts.igem.org/Part:BBa_K5378023'},
   { id: 'BBa_K5378004', type: 'Composite', description: 'feaR-A81L-G494S-PtynA-GS',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378004'},
   { id: 'BBa_K5378005', type: 'Composite', description: 'feaR-A81L-G494S-PtynA-TPH1',class:"table-element-orange",link:'https://parts.igem.org/Part:BBa_K5378005'},
-  { id: 'BBa_K5378019', type: 'Composite', description: 'PtynA-RBS-GFP',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378019'},
+  { id: 'BBa_K5378022', type: 'Composite', description: 'PtynA-RBS-GFP',class:"table-element-yellow",link:'https://parts.igem.org/Part:BBa_K5378022'},
   { id: 'BBa_K5378021', type: 'Composite', description: 'CsgA-6xHis-TFF3',class:"table-element-orange table-bottom-line",link:'https://parts.igem.org/Part:BBa_K5378021'},
 ];
 
@@ -182,11 +182,13 @@ export function Contribution() {
   
                 <Element name="section3" className="element rounded-border" id='section3'>
                 <h2>Product</h2>
-                <p className="indent">Regarding the final method of use, we chose to prepare microbial capsules for patients to take.</p>
-                <p className="indent">Microbial microcapsules not only protect our modified E. coli from harmful environment, but also control release.</p>
+                <p className="indent">Our improved probiotics not only respond to the concentration changes of phenylethylamine by degrading NH3 through the glutamine metabolic pathway, but also have distinct advantages in the safety module, capable of secreting protective proteins to prevent intestinal mucosal damage. </p>
+                <p className="indent">They have high medicinal value, and therefore we have formulated them into medicinal capsules, allowing the probiotics to enter the intestines through oral administration and exert their therapeutic effects.</p>
+                <p className="indent">In addition, our safety module is designed in a novel manner to control the survival or death of engineered bacteria by exogenous administration, both to avoid overpopulation and to kill the engineered bacteria quickly when it is not wanted, in a controllable, human-initiated manner. Its combination with a temperature-controlled suicide system allows the engineered bacteria to die immediately after being expelled from the body without polluting the environment. </p>
+                <p className="indent">Thus, we have provided the iGEM community with new parts along with new ideas for safe genetic routes.</p>
                 <p>The ideal process is as follows:</p>
                 <div className="rounded-border">
-                <h4 className="center-text">Section 3</h4>
+                <h4 className="center-text">Air-dried microencapsulated substances</h4>
                 <p className="indent">Air-dried microencapsulated substances can be used to encapsulate genetically engineered bacteria modified to express ammonia, enhancing the stability and application performance of drugs, extending the storage time to over 7 years.</p>
                 <p className="indent">Here is a detailed explanation of our future research and development product, air-dried microencapsulated substances:</p>
                 <p className="indent">Preparation technology: Air-dried microencapsulated substances are typically prepared using the spray drying method in physical mechanical processes. This method involves dispersing the core material in a molten coating material, then spraying it into a hot airflow for drying and solidification, forming microcapsules.</p>
