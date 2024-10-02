@@ -231,7 +231,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>NUS-joanne</figcaption>
+                <figcaption className='caption'> Collaboration with Med students in NUS</figcaption>
                 </div>
               
 
@@ -247,7 +247,7 @@ export function Inclusivity() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>NUS</figcaption>
+                <figcaption className='caption'> Collaboration with gene editing specialists</figcaption>
                 </div>
               
               <p className="indent">Increase public awareness of hepatic encephalopathy through media and community activities to reduce misunderstanding and discrimination.</p>
