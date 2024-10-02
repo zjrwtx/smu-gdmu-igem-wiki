@@ -123,10 +123,15 @@ export function Engineering() {
                 <p>However, TynA can oxidize various kinds of aromatic amines and lack specificity to PEA. Through literature reading, we learned that Rottinghaus et al found the mutant TynA-G494S and FeaR-A81L showed a more specific response to PEA and PAG[6]. Therefore, we constructed the plasmid Pcon-FeaR+Pcon-TynA with the two mutants and a plasmid with inducible promoter PTynA and a reporter gene GFP (Figure 3).</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig3-1.webp"
-                alt="eng3"
+                alt="eng3a"
                 className="responsive-img"
               />
-               <figcaption className='caption'></figcaption>
+              <img 
+                src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig3-2.webp"
+                alt="eng3b"
+                className="responsive-img"
+              />
+               <figcaption className='caption'>Figure 3. Plasmid design of the sensing module</figcaption>
             
                 <h4>Test</h4>
                 <p>We planned to co-transformed EcN with two plasmids via electroporation (Protocol-1). However, colony PCR suggested we only transformed successfully with plasmid Pcon-feaR-PcontynA and failed in transforming plasmid PTynA-GFP. We tried several times but all came with negative results (Figure 4).</p>
