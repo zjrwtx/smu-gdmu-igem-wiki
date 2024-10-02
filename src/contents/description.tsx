@@ -81,77 +81,100 @@ export function Description() {
         <div className="col-10">
           
               
-        <div className="bd-callout bd-callout-info bg-gray">
-                  <h1>What do we do to ...? See...</h1>
-                </div>
 
               <Element name="section1" className="element rounded-border" id='section1'>
-                 <h2>Project Introduction</h2>
-                 <h3>Global impact of the disease</h3>
-                 <p>Hepatic encephalopathy (HE), also known as hepatic coma, is broadly defined as cerebral dysfunction caused by hepatic insufficiency and/or portal shunting, with a spectrum of impaired consciousness or neurological derangements ranging from a distinct subclinical state to coma. [1] The International Society for Hepatic Encephalopathy and Nitrogen Metabolism (ISHEN) agrees that disorientation or asterixis is the beginning of overt hepatic encephalopathy (grades II to IV), which includes neurological and psychiatric abnormalities that can be detected on bedside clinical examination, whereas occult hepatic encephalopathy (very mild and grade 1) can only be differentiated by specific psychometric tests as these patients have a normal mental and neurological status on clinical examination. [2]</p>
-                 <p>The clinical manifestations of HE are very specific and are characterised by changes in the patient's personality, behavioural abnormalities, changes in habits, presence of hepatic odour, fluttering tremor, blurred consciousness, visual disturbances and coma.</p>
-                 <p>Depending on the presence of risk factors such as mHE, grade I hepatic encephalopathy, diabetes mellitus, hyponatraemia, and hepatitis C, the risk of the first significant hepatic encephalopathy within 5 years of the diagnosis of cirrhosis is approximately 25%. [3] Despite standard treatment, patients with previous episodes of overt hepatic encephalopathy have a 42% risk of recurrence within 1 year, and patients with recurrent overt hepatic encephalopathy have a 46% risk of another episode within 6 months. [4] Compared with cirrhotic patients without hepatic encephalopathy, population-based cirrhotic patients with overt hepatic encephalopathy have a mean survival of only a few months and a twofold increased risk of death within 1 year. [5]</p>
-                 <p>In former times, HE was defined simply as a disease caused by a metabolic disorder that could be cured by liver transplantation. However, numerous studies have shown that dominant HE is characterised by a pathology of neuroinflammation as well as extensive neuronal cell death, and that the cell death is irreversible, so that dominant HE may be permanent for the patient, and that the patient's suffering will not go away, but will continue to flare up after liver transplantation. [6] This leads to prolonged hospitalisation and repeated admissions, causing great physical and mental suffering to the patient and increasing the healthcare burden and costs associated with HE management to society.</p>
-                 <p>But more importantly, it has been demonstrated that hepatic encephalopathy is associated with a high mortality rate, regardless of the severity of the disease. [5] How to reduce the mortality rate of HE patients has been a very critical issue.</p>
-                 <h3>Spark</h3>
-                 <p>This year, our team felt a strong call to address global health issues that have far-reaching consequences for individuals and society. We are grateful to synthetic biology for providing a practical engineering approach that can combine modules with independent functions like a jigsaw puzzle to fulfil their joint functions. At the same time, we see great potential for synthetic biology to address this issue, and we hope to be able to provide a new line of therapeutic options for the treatment of hepatic encephalopathy through this work.</p>
-                 <p>The pathogenesis of hepatic encephalopathy is not fully understood and possible hypotheses are as follows:</p>
-                 <p className="bold-font">1.Ammonia Toxicity Theory.</p>
-                 <p>Several studies have elucidated that toxic levels of ammonia in the brain are one of the more prominent features, although the pathophysiology of he is still not fully understood. [7] A healthy liver is able to maintain blood ammonia levels at low levels of 35-50 uM through the urea cycle. However, in cirrhosis, factors and other molecules (e.g., ammonia) that are normally prevented by the body from crossing the blood-brain barrier are able to naturally cross the blood-brain barrier, fill the brain, and stimulate pathophysiological pathways that can have deleterious effects. Neurological damage and cognitive decline due to liver dysfunction are the result of blood-borne factors that affect blood-brain barrier permeability and/or alter blood-brain barrier integrity.[8]</p>
-                 <p className="bold-font">2.Pseudo-neurotransmitter theory</p>
-                 <p>The conduction of nerve impulses is accomplished by means of transmitters. There are two types of neurotransmitters, excitatory and inhibitory, which maintain a physiological balance when normal. Among them, inhibitory neurotransmitters are formed only in the brain. Aromatic amino acids in food, such as tyrosine and phenylpropanoid amino acids, are converted to tyramine and phenylethylamine PEA, respectively, by the action of the decarboxylase enzyme of enterobacteria.</p>
-                 <p>Normally, these two amines are cleared by monoamine oxidase in the liver, but when liver failure occurs, clearance is impaired, and these two amines can enter the brain tissue, where they are formed into amines (β-hydroxytyramine) and phenylethanolamine, respectively, by β-hydroxylase. The latter two are similar in chemical structure to the normal neurotransmitter norepinephrine, but are unable to transmit nerve impulses or have very weak effects, and are therefore called pseudoneurotransmitters. When pseudoneurotransmitters are taken up by brain cells and replace normal transmitters in the synapses, nerve conduction is impaired, and excitatory impulses are not transmitted normally to the cerebral cortex, resulting in abnormal inhibition; impaired consciousness and coma occur. </p>
-                 <p>In an effort to find out more precisely what risk factors are associated with the development of HE, our team actively communicated with the PI and learned of a related, unpublished study that concluded that patients with higher baseline PEA levels (upper quartile) had a 6.95-fold higher risk of developing HE at 3 months than patients in the lower quartile (p = 0.0017) .</p>
-                 <h3>Current treatments</h3>
-                 <p>Given the specificity of ammonia in the diagnosis and treatment of HE, the general pharmacological approach to HE is broadly directed towards ammonia.</p>
-                 <img 
-                src="https://static.igem.wiki/teams/5378/describe/methods.webp"
-                alt="methods"
-                className="responsive-img"
-              />
-              <figcaption className='caption'>Fig.1: Current treatments for hepatic encephalopathy[8]</figcaption>
-                 <p className="bold-font">1.Osmotic laxatives:</p>
-                 <p>Non-absorbable disaccharides, lactulose and sugar alcohols, are recommended as first-line treatment for HE. Lactulose is a laxative that has a negligible effect on the composition or function of the gut microbiota and may reduce ammonia production and absorption in the gut and increase intestinal excretion by increasing intestinal transport as well as acidification of the intestinal environment. [9]However, some studies have reported potential side effects of laxatives such as lactulose, including diarrhoea, nausea and bloating. Diarrhoea and vomiting can lead to electrolyte disturbances and even exacerbate HE.[8]</p>
-                 <p className="bold-font">2.Anti-microbial agents:</p>
-                 <p>Rifaximin is a semi-synthetic non-aminoglycoside drug that fights Gram-positive, Gram-negative, aerobic and anaerobic enteric bacteria. The strongest evidence for the utility of rifaximin is the use of the drug as an add-on to lactulose for the prevention of hepatic encephalopathy recurrence. [10]However, clinical trials of rifaximin in combination with lactulose have rarely been reported and lack wide public acceptance.</p>
-                 <p className="bold-font">3.Probiotics:</p>
-                 <p>Probiotics are live bacteria that are thought to improve intestinal ecological dysbiosis, help enhance ammonia metabolism, and reduce the burden of ammonia on the gut. However, to date, the quality of most clinical trials has been low, so the evidence remains unconvincing. [11]</p>
-                 <p className="bold-font">4.Albumin and extracorporeal albumin dialysis (ECAD):</p>
-                 <p>The quantity and quality of albumin, a multifunctional protein synthesised in the liver, is significantly reduced in patients with cirrhosis. An early uncontrolled, non-randomised study suggested its potential role in the treatment of hepatic encephalopathy. [12] However, it was not confirmed in randomised controlled clinical trials.</p>
-                 <p className="bold-font">5.L-Mentholated Ornithine (LOLA):</p>
-                 <p>A preliminary meta-analysis of eight randomised controlled trials comparing LOLA with placebo/no intervention control showed that intravenous LOLA improved significant hepatic atherosclerosis. [13] However, the effectiveness of oral LOLA has been the subject of debate, as the AASLD-EASL clinical guidelines suggest that oral supplementation with LOLA is ineffective. [1] Therefore, the potential benefits of LOLA remain uncertain.</p>
-                 <p>In conclusion, there is great uncertainty and instability in the treatment of HE, and it is urgent to find more effective and safe treatment options in order to reduce the suffering of patients and the burden on the social healthcare system.</p>
-                 <h3>New treatments</h3>
-                 <p>We recognise the potential advantage of synthetic biology in solving global health problems by enabling the tight integration of dispersed functional modules. As a result, we plan to take a new angle - sensing phenylethylamine - to stimulate the expression of downstream metabolic modules to degrade excess ammonia in the patient's body, thereby undoing the toxic effects of ammonia overload on the brain. At the same time, our safety module operates at all times to reduce the level of intestinal inflammatory factors and maintain the stability of the intestinal barrier, ensuring the normal state of the metabolic and sensing modules.</p>
-                 <h3>Foresight</h3>
-                 <p>Our goal: to design probiotics (EcN) based on PEA levels that, under the supervision of a safety module, are able to specifically sense PEA in the intestines of HE patients, rapidly degrade ammonia, and reduce the risk of HE development.</p>
-                 <img ></img>
+                 <h1>Abstract</h1>
                </Element>
-        
-
-          
-              
               <Element name="section2" className="element rounded-border" id='section2'>
-                <h2>Our Solutions</h2>
-                <h3>Sensor module</h3>
-                <p>In a round of research work dedicated to phenylethylamine, we searched for a system that can sensitively sense aromatic amines using the TynA-FeaR system. [14] The authors of this paper screened for a mutant specific for phenylethylamine, TynA G494S-FeaR M83Y, by judiciously selecting and individually mutating amino acids in the monoamine oxidase TynA and the transcriptional regulator protein FeaR to adjust their sensitivities. In this case, the TynA enzyme converts extraplastidial amines to aldehydes, which are imported into the cytoplasm. In the presence of aldehydes, FeaR induces expression of the PtynA promoter, which activates downstream gene expression in an interlocking and sophisticated switch.</p>
-                <h3>Metabolic model</h3>
-                <p>The main task of the metabolic model is to metabolise, in the gut, the ammonia accumulated in patients with cirrhosis, in order to assist the liver in mitigating the neurotoxic effects of excess ammonia on the brain.</p>
-                <p>Ammonia metabolism in the liver is essential to prevent severe clinical conditions such as hepatic encephalopathy. In cirrhosis, in addition to the urea cycle, two other enzymes are critical for maintaining ammonia homeostasis:glutamine synthetase (expressed primarily in the liver, muscle, and kidneys) and glutaminase (expressed primarily in the intestines, liver, and kidneys). Therefore, controlling GS and glutaminase, reducing ammonia production and preventing intestinal absorption of ammonia are all potential targets for reducing circulating ammonia levels. [8] We ultimately decided to mimic the GS-GOGAT cycle within the EcN to metabolise ammonia in HE patients. [15]</p>
-                <h3>Safety model</h3>
-                <p>Although EcN has been shown to be a harmless strain, from the point of view of human health and environmental protection, we still need an absolute guarantee that the modified EcN will be able to function properly in the organism on demand, have a favourable impact, and even circumvent the intestinal inflammation that may occur as a result of treatment with drugs. In this regard, we aim to develop an engineered bacterium capable of fighting inflammation and repairing the intestinal barrier.</p>
-                <p>TFF (Trefoil Factor Family proteins) are small 7-12 kDa proteins secreted by mucus-secreting cells on the surface of the gastrointestinal tract and other mucous membranes that primarily promote epithelial recovery. In order to make therapeutic crimped fibres, we planned to attach TFF3 (Trefoil Factor 3) to the naturally secreted crimped fibres of E. coli to reduce the adhesion of TFF3 to the intestinal mucus layer. The gene fragment responsible for the expression of curly fibres was first attached to the PBbB8k plasmid, then a 6xHis-tagged linker was introduced to connect the curly fibres to TFF3, and finally the TFF3 gene fragment was added. This structure allows EcN to secrete and self-assemble the coiled fibres, linker and TFF3 upon arrival in the gut, forming an active domain layer on the gut surface. This will maximise the ability of TFF3 to repair the intestinal barrier and reduce inflammation, effectively preventing and treating abdominal infections in patients with liver disease, addressing dysbiosis, especially repairing common intestinal problems, and improving the safety and efficacy of the engineered bacterium while alleviating the complications of hepatic encephalopathy.</p>
-                <img 
-                src="https://static.igem.wiki/teams/5378/describe/.webp"
-                alt="design"
-                className="responsive-img"
+                <h1>Focusing on Hepatic Encephalopathy (HE)</h1>
+              <p className='indent'>This year, our team felt a strong call to address global health issues that have far-reaching consequences for individuals and society. During our brainstorming process, we recognized the potential value of synthetic biology in medical treatments, particularly its applications in engineering probiotic therapy. Common chassis organisms like Escherichia coli Nissle 1917, which tend to thrive in low-oxygen environments and have been approved for clinical use, are well-suited for metabolic diseases caused by the lower digestive system. Additionally, various synthetic biology components allow us to assemble different control systems within these chassis organisms, much like building blocks, to achieve comprehensive and precise control over the treatment. These advantages are not typically found in simple surgical procedures or chemical drugs. As a result, we have tentatively selected engineering probiotic therapy as our project focus for this year.</p>
+               <p className='indent'>In our research efforts, we turned our attention to hepatic encephalopathy (HE), also known as hepatic coma, which is broadly defined as cerebral dysfunction caused by hepatic insufficiency[1]. HE mainly develops from cirrhosis, caused by viral hepatitis, ethanol, non-alcoholic fatty liver diseases (NAFLD), and other disorders. Cirrhosis is a major cause of morbidity and mortality globally, and accounts for approximately 2 million deaths per year worldwide (Figure 1) [2-3]. Along with disease progression, up to 50-70% of liver cirrhosis patients develop HE, which leads to frequent re-hospitalization and increased mortality[4]. The clinical manifestations of HE are characterised by changes in the patient's personality, behavioural abnormalities, changes in habits, presence of hepatic odour, fluttering tremor, blurred consciousness, visual disturbances and even coma. Once cirrhosis patients develop HE, it would not only jeopardize patients' physical and mental health and reduce life quality, but also generate considerable medical costs, which aggravates the economic burden of both patients and society. </p>
+                <div className='image-container'>
+                  <img
+                src=""
+                alt="example"
+                className="image-wide"
               />
-              <figcaption className='caption'>Fig.2: Our experimental design ideas</figcaption>
+              <figcaption className='caption'>Figure 1. Global disease burden of HE</figcaption>
+                </div>
+              <p className='indent'>Although Rifaxim plus lactulose therapy has been proved to alleviate HE systoms after it happens with high quality of clinical evidence[5], there still lacks a long-term treatment with low side effects for cirrhosis patients with high risk of developing HE to prevent it from progression. Therefore, in our project, we endeavored to find a reliable risk factor of HE as a sensor to initiate the treating process of our engineered probiotic to prevent HE from an early stage.</p>
+              <p className='indent'>Meanwhile, an enormous number of patients with liver diseases do not have a good understanding of the problem of developing cirrhosis and HE (see details in the <a href='https://2024.igem.wiki/smu-gdmu-china/human-practices'>questionnaire section of our iHP page</a>) and public awareness of liver health is relatively low, so we hope to raise awareness and educate the public about early liver disease screening and liver health through various means.</p>
                </Element>
           
+               <Element name="section1" className="element rounded-border" id='section1'>
+                 <h1>Current Situation</h1>
+                 <h2>Pathogenic mechanism of HE</h2>
+                 <p className='indent'>The pathogenesis of hepatic encephalopathy is not fully understood and possible hypotheses are as follows (Figure 2):</p>
+                 <div className='image-container'>
+                  <img
+                src=""
+                alt="example"
+                className="image-wide"
+              />
+              <figcaption className='caption'>Figure 2. Pathogenic mechanism of HE [5]</figcaption>
+                </div>
+              <h3>Ammonia Toxicity Theory</h3>
+              <p className='indent'>A healthy liver is able to maintain blood ammonia levels at low levels of 35-50 uM through the urea cycle. However, in cirrhosis, factors and other molecules (e.g., ammonia) that are normally prevented by the body from crossing the blood-brain barrier are able to naturally cross the blood-brain barrier, fill the brain, and stimulate pathophysiological pathways that can have deleterious effects. Neurological damage and cognitive decline due to liver dysfunction are the result of blood-borne factors that affect blood-brain barrier permeability and/or alter blood-brain barrier integrity[7-8]. </p>
+               <h3>False Neurotransmitter Theory</h3>
+               <p className='indent'>Aromatic amino acids in food, such as tyrosine and phenylpropanoid amino acids, are converted to tyramine and phenylethylamine PEA, respectively, by the action of the decarboxylase enzyme of enterobacteria.</p>
+               <p className='indent'>Normally, aromatic amino acids in food are metabolize by decarboxylase enzyme of enterobacteria into tyramine and <span className='bold-font'>phenylethylamine(PEA)</span> and cleared by monoamine oxidase in the liver. When liver failure occurs, the clearance process is impaired, and these two amines can enter the brain tissue, where they are formed into false neurotransmitters, amines (β-hydroxytyramine) and phenylethanolamine, which are similar in chemical structure to the normal neurotransmitter norepinephrine, but are unable to transmit nerve impulses or have very weak effects. When false neurotransmitters are taken up by brain cells and replace normal transmitters in the synapses, nerve conduction is impaired, and excitatory impulses are not transmitted normally to the cerebral cortex, resulting in abnormal inhibition; impaired consciousness and coma occur[8]. </p>
+               <p className='indent'>Therefore, ammonia and PEA may serve as both sensor and treating target of HE.</p>
+               
+               
+               
+               </Element>
+
+               <Element name="section1" className="element rounded-border" id='section1'>
+                 <h1>Limitation of current treatments</h1>
+                 <p className='indent'>The general pharmacological approach to treat HE included osmotic laxatives[8], anti-microbial agents[9], albumin and extracorporeal albumin dialysisprobiotics[10], L-Mentholated Ornithine (LOLA) [11]and so on. In recent years probiotic therapies have emerged as revolutionary treatment approaches. However, these conventional cancer treatment methods still exhibit several limitations (Table 1).</p>
+                  <p>Table 1. Limitation of current HE therapy</p>
+                  <div className='image-container'>
+                  <img
+                src=""
+                alt="example"
+                className="image-wide"
+              />
+              <figcaption className='caption'>Table 1. Limitation of current HE therapy</figcaption>
+                </div>
+                <p className='indent'>In conclusion, there is great uncertainty and instability in the treatment of HE, and it is urgent to find more effective and safe treatment options in order to reduce the suffering of patients and the burden on the social healthcare system.</p>
+                
+
+
+
+               </Element>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
               <Element name="section3" className="element rounded-border" id='section3'>
-                <h2>Outside the laboratory</h2>
+                <h1>Current Situation</h1>
                 <h3>dry lab</h3>
                 <p className="indent">model: We developed an ODE model for our iGEM project that simulates the biochemical reactions within Escherichia coli. This includes the diffusion of phenylethylamine, its enzymatic oxidation, and the subsequent metabolic pathways involving gene regulation and substrate interactions across cellular compartments, all modeled using Michaelis-Menten kinetics.</p>
                 <p className="indent">wiki: The wiki team built a wiki page based on react and typescript, and wrote a wiki upload tutorial to help the team members present their work. When the team members encountered difficulties in uploading, the students in the wiki team gave them timely help and gradually improved the effect of the webpage. When the team members uploaded content to part.igem.org, the wiki team also provided the code framework and teaching support. In addition, the wiki team took on a certain amount of art design, providing inspiration for the experimental team's text script design and assisting the art team in turning their ideas into reality.</p>
