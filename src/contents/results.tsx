@@ -150,7 +150,6 @@ export function Results() {
 
               <Element name="section5" className="element rounded-border" id='section5'>
               <h2>Model Results</h2>
-              <p>Content for section 5.</p>
               <img 
                 src="https://static.igem.wiki/teams/5378/modelresult.webp"
                 alt="example"
