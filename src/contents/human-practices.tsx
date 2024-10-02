@@ -51,7 +51,7 @@ export function HumanPractices() {
       <div className="custom-header-human-practices">
         <h1 className="centered-title">
           <img
-            src="https://static.igem.wiki/teams/5378/header/human-practices.png"
+            src="https://static.igem.wiki/teams/5378/header/ihp.webp"
             alt="safety header"
             className="header-img"
           />

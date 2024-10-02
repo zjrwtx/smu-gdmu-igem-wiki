@@ -1979,7 +1979,7 @@ span.formula_line::-webkit-scrollbar-track {
 .page-element-title {
   position: absolute;
   left: 20vw;
-  top: 20vh;
+  top: 0vh;
   height: auto;
   width: 60vw;
 }
