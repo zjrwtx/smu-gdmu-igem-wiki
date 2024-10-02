@@ -108,8 +108,8 @@ export function Results() {
                 <p>As shown in Figure 2b, the difference between EcN_vector and EcN_GS with lower NH4Cl concentration such as 5μM decreased and was even not significant with 0.5μM. This indicates that the GS enzyme requires a rather high level NH4Cl to reach the most efficient status. Therefore, when the level of ammonia is in a normal range, the metabolic module is not likely to cause a significant decrease in ammonia, which might be useful in other metabolic cycles. </p>
                 <p>These results could allay some safety concerns of expressing GS enzymes to some extent, but more animal experiments are essential for further evaluation.</p>
                 <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
+                src="https://static.igem.wiki/teams/5378/result-fig2.webp"
+                alt="result"
                 className="responsive-img"
               />
                <figcaption className='caption'></figcaption>
