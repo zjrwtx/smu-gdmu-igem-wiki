@@ -81,10 +81,6 @@ export function Engineering() {
                  <p>Through multiple design-build-test-learn cycles, we have successfully engineered the PEA-sensing module, which could automatically respond to the increased level of a risk factor, PEA, of HE and initiate downstream expression of the metabolic module. Simultaneously, we have been working on constructing an efficient module that can degrade the pathogenic factor of HE. </p>
                  <p>During actual operation, we started the first cycle after fully literation research, making the first attempt with theoretical support. Normally problems would arise which urge us to trouble-shoot with experts and dig further into literature to enter the next iteration of engineering cycle. After several iterations, we were able to achieve the original goal in most scenarios and get a comprehensive understanding of our contributions.</p>
                  <p>In this section on engineering success, we will go through the engineering cycles we went through to develop the PEA-sensing and ammonia-metabolizing EcN. (Figure 1).</p>
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
-                className="responsive-img"
-              />
                </Element>
           
                <div className="bd-callout bd-callout-info bg-gray">
@@ -93,8 +89,25 @@ export function Engineering() {
           
               
               <Element name="section2" className="element rounded-border" id='section2'>
-                <h2>Section 2</h2>
-                <p>Content for section 2.</p>
+                <h2>Sensing Module Engineering</h2>
+                <h3>Cycle 1: Determination of a proper Sensor</h3>
+                <h4>Design</h4>
+                <p>Since over-accumulated ammonia is one of the pathogenic factors of HE (see our Description page to learn more), we decided to design an ammonia-sensing module first. We envisioned our sensing module to specifically respond to the level of ammonia and could activate the downstream metabolic module to eliminate ammonia. </p>
+                <p>After literature research, we learned that most bio-sensors are based on transcriptional factor-inducible promoter systems [1]. However, we failed to find such an inducible promoter that can be activated by NH3 with high specificity. Therefore, we had to switch our design to sensing another risk factor of cirrhosis progression that may lead to HE.</p>
+                <h3>Cycle 2: Construction of the Sensing Module</h3>
+                <h4>Design & Build</h4>
+                <p>1</p>
+                <h4>Test</h4>
+                <p>1</p>
+                <h4>Learn</h4>
+                <h3>Cycle 3: Optimizing inducing condition of the Sensing Module</h3>
+                <h4>Design & Build</h4>
+                <p>1</p>
+                <h4>Test</h4>
+                <p>1</p>
+                <h4>Learn</h4>
+                <p>1</p>
+                <p>1</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
