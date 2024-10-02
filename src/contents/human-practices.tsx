@@ -72,7 +72,7 @@ export function HumanPractices() {
 
         <Element name="section1" className="element rounded-border" id='section1'>
         <h2>1. Overview</h2>
-            <p>Have a picture of what we did.</p>
+            <p>"You must first believe it to see it." — Norman Vincent Peale</p>
   <div className="rounded-border">
     <h3 className="center-text">1.1 A Pillar of Our iGEM Project</h3>
     <p className='indent'>
