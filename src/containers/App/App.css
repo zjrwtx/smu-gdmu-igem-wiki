@@ -1203,6 +1203,24 @@ span.formula_line::-webkit-scrollbar-track {
   100% { opacity: 1; }
 }
 
+.page-element-2p {
+  position: absolute;
+  right: 20vw;
+  top: 40vw;
+  height: auto;
+  width: 20vw;
+ }
+ .element-2p-animation {
+  animation: element-2p 8s linear ;
+  opacity: 1;
+}
+@keyframes element-2p {
+  0% { opacity: 0; }
+  70% { opacity: 0; }
+  80% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
  .page-element-3 {
   position: absolute;
   left: 1vw;

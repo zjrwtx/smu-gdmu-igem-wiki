@@ -52,6 +52,14 @@ export function Home() {
             className="home-img-wide element-2-animation"
           />
         </div>
+        <div className="page-element-2p">
+          <img
+            src="https://static.igem.wiki/teams/5378/home/4th/arrow1.webp"
+            alt="example"
+            className="home-img-wide element-2p-animation"
+          />
+        </div>
+        
         <div className="page-element-3">
           <img
             src="https://static.igem.wiki/teams/5378/home/26.webp"
