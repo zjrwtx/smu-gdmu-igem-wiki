@@ -326,6 +326,15 @@ export function HumanPractices() {
               <p className='indent'>
                 We reached out to the stakeholders for expert insights through structured interviews, following a comprehensive engagement process: Preparation, Contact, Content Development, Execution, Summary, Reflection, and Updates. This approach allowed us to better understand the specific needs and challenges faced by each stakeholder group. Their feedback provided critical insights that guided improvements to our project design, ensuring it addresses real-world issues effectively.
               </p>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/ihp/nus.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>NUS</figcaption>
+                </div>
+              
               <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
                 <li><span className='bold-font'>Prepare:</span> We researched stakeholder backgrounds to understand their relevance to our project.</li>
                 <li><span className='bold-font'>Contact:</span> Initial outreach was made via email and phone calls.</li>

@@ -275,7 +275,7 @@ footer a:hover {
   width: 100vw;
   height: 100vh;
   /* background-image: linear-gradient(rgba(245, 245, 220,0.2), rgba(245, 245, 220,0.2)),url('https://placehold.co/1200x600');  */
-  background-image: linear-gradient(rgba(253, 247, 238,0.2), rgba(253, 247, 238,0.2)),url('https://placehold.co/1200x600');
+  background-image: linear-gradient(rgba(253, 247, 238,0.2), rgba(253, 247, 238,0.2)),url('https://static.igem.wiki/teams/5378/ihp/ccic.jpg');
   background-size: cover;        /* 使背景图片覆盖整个容器 */
   background-position: center;   /* 居中对齐背景图片 */
   background-repeat: no-repeat;  /* 防止背景图片重复 */

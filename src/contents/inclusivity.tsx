@@ -225,10 +225,31 @@ export function Inclusivity() {
               <h4 className="left-text">(1)Narrative Intervention and Prescription:</h4>
               <p className="indent">Doctors actively listen to the patient's personal story and use it as part of the treatment plan, while providing emotional support and psychological relief to enhance treatment outcomes.</p>
               <h4 className="left-text">(2)Establishment of a support network:</h4>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/nus.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>NUS-joanne</figcaption>
+                </div>
+              
+
+              
+              
               <p className="indent">Create a community of patients, family members and healthcare professionals to facilitate experience sharing and resource exchange, and enhance mutual psychological support.</p>
               <h4 className="left-text">(3)Diversified participation:</h4>
               <p className="indent">Provide scholarships and internship opportunities for students from different backgrounds, especially supporting members of underrepresented groups such as women and ethnic minorities.</p>
               <h4 className="left-text">(4)Elimination of social prejudice:</h4>
+              <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/nus-joanne.webp"
+                alt="example"
+                className="image-wide"
+                />
+                <figcaption className='caption'>NUS</figcaption>
+                </div>
+              
               <p className="indent">Increase public awareness of hepatic encephalopathy through media and community activities to reduce misunderstanding and discrimination.</p>
               <h4 className="left-text">(5)Patient participation mechanisms:</h4>
               <p className="indent">Encourage patients to participate in their own treatment decisions, and provide channels for feedback so that patients' voices can be heard.</p>
