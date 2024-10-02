@@ -417,12 +417,32 @@ Burn the mouth and cap of the flask with an alcohol lamp before and after openin
             onMouseEnter={() => handleMouseEnter('section7')}
             style={{ display: visibleSection === 'section7' ? 'block' : 'none' }}
           >
-            <h2>Section 2</h2>
+            <h2>Plasmid extraction</h2>
             <p>Content for section 2.</p>
             <div className="rounded-border">
-              <h4 className="center-text">Section 2</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Plasmid extraction</h4>
+              <p className="indent">(1)	Material<br />
+TIANprep Mini Plasmid Kit II<br />
+Absolute Ethanol<br />
+Double Distillation Water (ddH2O)<br />
+Centrifuge<br />
+</p>
+              <p className="indent">(2) Steps<br />
+1.Insert the adsorption column into a collection tube, add 500μl BL equilibrium solution, centrifuge at 13,400G for 1 minute, discard the filtrate and reuse the collection tube.<br />
+2.Add the bacterium liquid to a centrifuge tube, centrifuge at 13,400G for 1 minute, remove the supernatant as much as possible, keep the precipitate in the tube.<br />
+3.Add 500μl solution P1 (the RNase A need to be added in advance) into the centrifuge tube. Use a pipette or vortex oscillator to completely suspend the bacterial cell precipitate.<br />
+4.Add 500μl solution P2 into the centrifuge tube and turn it up and down gently for 6-8 times till the cells are fully lysed, when the liquid should be clear and sticky, meanwhile the time should not be longer than 5min.<br />
+5.Add 700μl solution P3 into the centrifuge tube and turn it up and down gently for 6-8 times immediately when the white flocculent precipitate will appear. Centrifuge at 13,400G for 10 minutes.<br />
+6.Add the supernatant collected in the previous step into the adsorption column (the adsorption column is put into the collection tube). Centrifuge at 13,400G for 1 minute, discard the filtrate and reuse the collection tube.<br />
+7.Add 500μl solution PD to the adsorption column. Centrifuge at 13,400G for 1 minute, discard the filtrate and reuse the collection tube.<br />
+8.Add 600μl solution PW (the absolute ethanol need to be added in advance) to the adsorption column. Centrifuge at 13,400G for 1min, discard the filtrate and reuse the collection tube.<br />
+9.Repeat the step above.<br />
+10.Centrifuge the adsorption with collection tube at 13,400G for 2min, discard the filtrate and reuse the collection tube. Open the cover of adsorption column and dry it out in the air for 5 minutes.<br />
+11.Place the adsorption column into a clean centrifuge tube. Add 200μl ddH2O to the middle part of the adsorption membrane, placed it at room temperature for 2-5 minutes, and centrifuge at 13,400G for 2 minutes. The plasmid solution was collected into the centrifuge tube.<br />
+</p>
+              <p className="indent">(3)	Notes:<br />
+Add RNase A to solution P1 before using. After adding solution P2, do not shake the tube violently to avoid pollution. In step six, pay attention not to draw the white precipitate in the centrifuge tube out. Add absolute ethanol to solution PW before using. In step eleven, in order to increase the recovery efficiency of plasmid, the solution obtained in the centrifuge tube can be readded into the centrifugal adsorption column and repeat step eleven again. 
+</p>
             </div>
           </Element>
 
