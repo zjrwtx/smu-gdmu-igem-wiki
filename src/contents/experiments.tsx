@@ -107,7 +107,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section9' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section9')}
         >
-          example
+          Verification for sensor module
         </Nav.Link>
         <Nav.Link 
           as={Link} 
@@ -117,7 +117,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section10' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section10')}
         >
-          example
+          Verification for metabolic module
         </Nav.Link>
         <Nav.Link 
           as={Link} 
@@ -127,7 +127,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section11' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section11')}
         >
-          example
+          In vitro expression of engineered curli fibers
         </Nav.Link>
         <Nav.Link 
           as={Link} 
@@ -137,7 +137,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section12' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section12')}
         >
-          example
+          Quantitative Congo red binding assay
         </Nav.Link>
         <Nav.Link 
           as={Link} 
@@ -147,7 +147,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section13' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section13')}
         >
-          example
+          Eliza for the verification of TFF3 products
         </Nav.Link>
         <Nav.Link 
           as={Link} 
