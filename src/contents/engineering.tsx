@@ -201,18 +201,16 @@ export function Engineering() {
               <h4>MAOB: metabolize PEA</h4>
               <p>As we determined PEA to be the sensory substance in the sensing module, we also did literature reading on how it could be metabolized in the human body: by monoamine oxidase B (MAOB).  Therefore, we designed a plasmid to heterologously express MAOB of Homo Sapiens in E.coli (Figure 7b).</p>
               <img 
-                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
-                alt="result4"
+                src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig7a.webp"
+                alt="eng7a"
+                className="responsive-img"
+              />
+               <img 
+                src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig7b.webp"
+                alt="eng7b"
                 className="responsive-img"
               />
                <figcaption className='caption'>Figure 7. Plasmid designs of TPH1 and MAOB to metabolize False Neurotransmitters</figcaption>
-
-               <img 
-                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
-                alt="result4"
-                className="responsive-img"
-              />
-               <figcaption className='caption'></figcaption>
 
               <h3>Test</h3>
               <p>To test the metabolizing efficiency of TPH1, we transformed EcN with plasmid Ptac-RBS-TPH1 via eletroporation and utilized 1 mM IPTG at 37℃ for 6 hours to induce expression. Unfortunately, expression of TPH1 can't be observed in the SDS-PAGE gel. Even though we changed the inducing conditions to 12 hours or 16℃, we still couldn't express TPH1 successfully. Considering that Trp may not be as specific as ammonia or PEA, we discarded this design and moved on to validating the feasibility of MAOB.</p>
