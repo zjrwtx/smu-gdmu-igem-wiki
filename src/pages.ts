@@ -18,7 +18,7 @@ import {
   parts,
   // Design,
 } from "./contents";
-import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward,  FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake } from "react-icons/fa"; // 引入图标
+import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward,  FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake,FaBahai } from "react-icons/fa"; // 引入图标
 
 interface Base {
   name: string | undefined;
@@ -142,7 +142,7 @@ const Pages: (Page | Folder)[] = [
         path: "/model",
         component: Model,
         lead: "Explain your model's assumptions, data, parameters, and results in a way that anyone could understand.",
-        icon: FaCogs,
+        icon: FaBahai,
       },
       {
         name: "Parts",

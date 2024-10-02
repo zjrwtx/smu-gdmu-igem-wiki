@@ -138,7 +138,19 @@ export function HumanPractices() {
     <p className='indent'>
       In terms of experimental design and implementation, we rigorously evaluate the safety of <span className='bold-font'>engineered bacteria</span> to minimize any <span className='bold-font'>health risks</span> to patients. <span className='bold-font'>Pre-experiments</span> and <span className='bold-font'>animal studies</span> are conducted to verify safety, while a thorough assessment of potential <span className='bold-font'>side effects</span> and <span className='bold-font'>adverse reactions</span> is performed, with contingency plans developed to manage any risks.
     </p>
+
   </div>
+  <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/award-inclusivity/15-1.webp"
+                alt="example"
+                className="image-wide"
+                />
+                {/* <figcaption className='caption'>Figure2. Ethical Discussion on Projects with Professor Yang Xiaolin</figcaption> */}
+                </div>
+\
+
+
 </Element>
 
 
