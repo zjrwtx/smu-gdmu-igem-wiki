@@ -127,7 +127,7 @@ export function Team() {
     card21: 'My name is TianFeier.I\'m from Guangdong Medical University, majoring in applied psychology. My favorite quote is “To live is to think.”',
     card22:'Second year in iGEM. Always chasing after thrilling knowledge about life. Hope everyone can enjoy this meaningful event and have fun with synthetic biology.',
     card23:'Dr. Kun Liu, Associated Researcher, Southern Medical University. My research interesting focuses on solving the key clinical issues by employing interdisciplinary techniques. “I think therefore I am.”',
-    card24:"Ling Li，M.D., Ph.D., Professor and Ph.D. supervisor, work in Southern Medical University School of Basic Medical Sciences, and serve as the team leader of Southern Medical University's group-based support for Guangdong Medical University. Inspire originality, ignite innovation.",
+    card24:"Ling Li , M.D., Ph.D., Professor and Ph.D. supervisor, work in Southern Medical University School of Basic Medical Sciences, and serve as the team leader of Southern Medical University's group-based support for Guangdong Medical University. Inspire originality, ignite innovation.",
     card25: 'I am Jiajin Li, an MPH student at the University of Hongkong, focusing on epidemiology and biostatistics.',
     card26: 'Fortune favors the bold.',
     card27: 'Make magic happen.',
