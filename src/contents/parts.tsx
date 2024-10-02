@@ -146,6 +146,7 @@ export function parts() {
                 <h2> 3.Contribution</h2>
                 <p className="indent">In addition, we have added content to the uploaded parts.</p>
                 <p className="indent">We optimized the codon of <a href='https://parts.igem.org/Part:BBa_K3924011'>BBa_K3924011</a> and <a href='https://parts.igem.org/Part:BBa_K3924002'>BBa_K3924002</a>, and added two basic components accordingly, namely <a href='https://parts.igem.org/Part:BBa_K5378011'>BBa_K5378011</a> and <a href='https://parts.igem.org/Part:BBa_K5378012'>BBa_K5378012</a>.</p>
+                <p className="indent">Moreover, we added information to an existing part created by iGEM21_Tsinghua, clearly documenting our Functional Verification on the Part's Main Page on the Registry. Here shows the link <a href='https://parts.igem.org/Part:BBa_K3924029'>BBa_K3924029</a>.And we also make our new composite part <a href='https://parts.igem.org/Part:BBa_K5378021'>BBa_K5378021</a>.</p>
                 </Element>
 
               
