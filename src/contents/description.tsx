@@ -84,6 +84,7 @@ export function Description() {
 
               <Element name="section1" className="element rounded-border" id='section1'>
                  <h1>Abstract</h1>
+                 <p className='indent'>Hepatic encephalopathy (HE) , which develops from liver cirhosis, causes increasing mortality worldwide and places huge burden on patients and the society. However, preventing HE has been challenging, with medication mainly focus on alleviating syptoms after developing HE and have long-term side effects. Here, we demonstrate a synthetic biology-inspired probiotic therapeutic, <span className='bold-font'>Liver-Brain Guardian</span>, to automatically respond to the level of HE biomarker and initiate the degradation of HE pathogenic factor, and could improve intestinal barrier function and epithelial recovery. Our results showed that the engineered bacteira(EcN) can successfully sense the rising level of PEA, a reliable risk factor in HE patients , and activate the FeaR-TynA inducible promoter system to initiate the downstream metabolic module to degrade ammonia. Our approach offers an exciting and promising way to help cirrhosis patients with high risk of developing HE from progressing and start in-time treatment. </p>
                </Element>
               <Element name="section2" className="element rounded-border" id='section2'>
                 <h1>Focusing on Hepatic Encephalopathy (HE)</h1>
@@ -101,7 +102,7 @@ export function Description() {
               <p className='indent'>Meanwhile, an enormous number of patients with liver diseases do not have a good understanding of the problem of developing cirrhosis and HE (see details in the <a href='https://2024.igem.wiki/smu-gdmu-china/human-practices'>questionnaire section of our iHP page</a>) and public awareness of liver health is relatively low, so we hope to raise awareness and educate the public about early liver disease screening and liver health through various means.</p>
                </Element>
           
-               <Element name="section1" className="element rounded-border" id='section1'>
+               <Element name="section3" className="element rounded-border" id='section3'>
                  <h1>Current Situation</h1>
                  <h2>Pathogenic mechanism of HE</h2>
                  <p className='indent'>The pathogenesis of hepatic encephalopathy is not fully understood and possible hypotheses are as follows (Figure 2):</p>
@@ -124,7 +125,7 @@ export function Description() {
                
                </Element>
 
-               <Element name="section1" className="element rounded-border" id='section1'>
+               <Element name="section4" className="element rounded-border" id='section4'>
                  <h1>Limitation of current treatments</h1>
                  <p className='indent'>The general pharmacological approach to treat HE included osmotic laxatives[8], anti-microbial agents[9], albumin and extracorporeal albumin dialysisprobiotics[10], L-Mentholated Ornithine (LOLA) [11]and so on. In recent years probiotic therapies have emerged as revolutionary treatment approaches. However, these conventional cancer treatment methods still exhibit several limitations (Table 1).</p>
                   <p>Table 1. Limitation of current HE therapy</p>
@@ -137,62 +138,79 @@ export function Description() {
               <figcaption className='caption'>Table 1. Limitation of current HE therapy</figcaption>
                 </div>
                 <p className='indent'>In conclusion, there is great uncertainty and instability in the treatment of HE, and it is urgent to find more effective and safe treatment options in order to reduce the suffering of patients and the burden on the social healthcare system.</p>
-                
-
-
-
                </Element>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              <Element name="section3" className="element rounded-border" id='section3'>
-                <h1>Current Situation</h1>
-                <h3>dry lab</h3>
-                <p className="indent">model: We developed an ODE model for our iGEM project that simulates the biochemical reactions within Escherichia coli. This includes the diffusion of phenylethylamine, its enzymatic oxidation, and the subsequent metabolic pathways involving gene regulation and substrate interactions across cellular compartments, all modeled using Michaelis-Menten kinetics.</p>
-                <p className="indent">wiki: The wiki team built a wiki page based on react and typescript, and wrote a wiki upload tutorial to help the team members present their work. When the team members encountered difficulties in uploading, the students in the wiki team gave them timely help and gradually improved the effect of the webpage. When the team members uploaded content to part.igem.org, the wiki team also provided the code framework and teaching support. In addition, the wiki team took on a certain amount of art design, providing inspiration for the experimental team's text script design and assisting the art team in turning their ideas into reality.</p>
-                <h3>art team</h3>
-                <p>In the past few months, the art team has actively carried out a series of art design work around the needs of the project. Our main tasks include but are not limited to the design of project team emblem, team flag and uniform, design of project academic posters, production of project periphery and creation of wiki related visual material.</p>
-                <p>Through the efforts of the art team, the publicity and display of the project team have been significantly improved and improved, and the cooperation with other groups is more close, jointly improving the overall image and efficiency of the team.</p>
-                <img 
-                src="https://static.igem.wiki/teams/5378/describe/art-work.webp"
-                alt="art work"
-                className="responsive-img"
+               <Element name="section5" className="element rounded-border" id='section5'>
+                 <h1>Project Goal and Design</h1>
+                 <p className='indent bold-font'>Our project aims to provide in-time HE prevention and treatment for cirrhosis patients to improve their quality of life and lower their families' heavy burden.</p>
+                  <h2>Design Overview</h2>
+                  <p className='indent'>We recognise the potential advantage of synthetic biology in solving global health problems by enabling the tight integration of dispersed functional modules. As a result, we plan to take a new angle - <span className='bold-font'>sensing</span> phenylethylamine - to stimulate the expression of downstream <span className='bold-font'>metabolic</span> modules to degrade excess ammonia in the patient's body, thereby undoing the toxic effects of ammonia overload on the brain. At the same time, our <span className='bold-font'>safety</span> module operates at all times to reduce the level of intestinal inflammatory factors and maintain the stability of the intestinal barrier, ensuring the normal state of the metabolic and sensing modules.</p>
+                  
+                  <div className='image-container'>
+                  <img
+                src=""
+                alt="example"
+                className="image-wide"
               />
-              <figcaption className='caption'>Fig.3: Work of the art team</figcaption>
-              <h3>hp team</h3>
-              <p>Cooperation and promotion are the main tone of hp's work, and internal and external communication is the foundation of hp's work. It carries out human practice, exchange and cooperation, education and publicity for the public, and is also responsible for outreach, reporting and other work within the team.</p>
-              </Element>
+              <figcaption className='caption'>Figure 3. Overall design of our project</figcaption>
+                </div>
+                <p className='indent'>In conclusion, there is great uncertainty and instability in the treatment of HE, and it is urgent to find more effective and safe treatment options in order to reduce the suffering of patients and the burden on the social healthcare system.</p>
+               
+               <h2>Sensing Module</h2>
+               <p className='indent'>We conducted broad investigations into the determination of reliable risk factors as a proper sensor for our project and after 3 engineering cycles (see details of our design in <a href='https://2024.igem.wiki/smu-gdmu-china/model'><span className='bold-font'>Engineering Page</span></a> ) and successfully came to final design in <span className='bold-font'>Figure 4</span>.</p>
+                <p className='indent'>Clinically, high baseline PEA levels were linked to a 7-folds increased risk of HE post-intrahepatic portosystemic shunt procedures, which was verified by our secondary PI in his recent work in submission. Here we introduce a TynA-FeaR system[12] to respond to the increased level of PEA and initiate the metabolic module downstream. TynA is a monoamine oxidase that can oxidize aromatic amines such as PEA to the corresponding aldehyde, PAG. In the presence of PAG, FeaR can induce PtynA promoter to activate downstream gene expression in an interlocking and sophisticated switch.</p>
+              <h2>Metabolic Module</h2>
+              <p className='indent'>We designed several ways to metabolize the pathogenic factors in HE but only succeeded in expressing GS enzyme to metabolic ammonia in this iGEM cycle this year (see details of our efforts in <a href='https://2024.igem.wiki/smu-gdmu-china/model'><span className='bold-font'>Engineering Page</span></a>) . </p>
+              <p className='indent'>In humans and other mammals, ammonia is majorly digested by the Urea Cycle in the liver. However, as it is shown before, the liver functions are destroyed in HE patients, so the urea cycle is hard to use. So we move our sight to plants. Through literature reading, we found plants can utilize ammonium and metabolize via the glutamine synthetase-glutamate synthase (GS-GOGAT) pathway. This process wouldn't produce any harmful substance to the human body, so we tried to heterologously express GS as our metabolic module to reduce the level of ammonia.</p>
+              <div className='image-container'>
+                  <img
+                src=""
+                alt="example"
+                className="image-wide"
+              />
+              <figcaption className='caption'>Figure 5. GS-GOGAT Cycle in Liver-Brain Guardian design</figcaption>
+                </div>
 
-              <Element name="section4" className="element rounded-border" id='section4'>
-              <h2>future plans</h2>
+              <h2>Safety Module</h2>
+              <p className='indent'>Although EcN has been shown to be a harmless strain, from the point of view of human health and environmental protection, we still need an absolute guarantee that the modified EcN will be able to function properly in the organism on demand, have a favourable impact, and even circumvent the intestinal inflammation that may occur as a result of treatment with drugs[14]. In this regard, we aim to develop an engineered bacterium capable of fighting inflammation and repairing the intestinal barrier.</p>
+              <p className='indent'>TFF (Trefoil Factor Family proteins) are small 7-12 kDa proteins secreted by mucus-secreting cells on the surface of the gastrointestinal tract and other mucous membranes that primarily promote epithelial recovery[15]. In order to make therapeutic crimped fibres, we planned to attach TFF3 (Trefoil Factor 3) to the naturally secreted crimped fibres of E. coli to reduce the adhesion of TFF3 to the intestinal mucus layer. The gene fragment responsible for the expression of curly fibres was first attached to the PBbB8k plasmid, then a 6xHis-tagged linker was introduced to connect the curly fibres to TFF3, and finally the TFF3 gene fragment was added. This structure allows EcN to secrete and self-assemble the coiled fibres, linker and TFF3 upon arrival in the gut, forming an active domain layer on the gut surface. This will maximise the ability of TFF3 to repair the intestinal barrier and reduce inflammation, effectively preventing and treating abdominal infections in patients with liver disease, addressing dysbiosis, especially repairing common intestinal problems, and improving the safety and efficacy of the engineered bacterium while alleviating the complications of hepatic encephalopathy.</p>
+              <div className='image-container'>
+                  <img
+                src=""
+                alt="example"
+                className="image-wide"
+              />
+              <figcaption className='caption'>Figure 6. Design of Safety module</figcaption>
+                </div>
+                </Element>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <Element name="section6" className="element rounded-border" id='section6'>
+              <h1>future plans</h1>
               <p>In our plan, we expect to complete the full build of the three functional modules. We may not be able to continue the subsequent animal validation experiments due to laboratory, funding, and personnel changes, but we hope to make further efforts in the following areas to make the project more complete:</p>
               <div className="rounded-border">
               <p className="bold-font">1.Safety:</p>
@@ -206,10 +224,25 @@ export function Description() {
               </div>
               </Element>
 
-              <Element name="section5" className="element rounded-border" id='section5'>
+              <Element name="section7" className="element rounded-border" id='section7'>
               <h2>reference</h2>
-              <p>[1] Vilstrup H, Amodio P, Bajaj J, Cordoba J, Ferenci P, Mullen KD, et al. Hepatic encephalopathy in chronic liver disease: 2014 practice guideline by the American Association for the Study of Liver Diseases and the European Association for the Study of the Liver. Hepatology 2014;60:715–735.</p>
-              <p>[2]Randolph C, Hilsabeck R, Kato A, et al. Neuropsychological assessment of hepatic encephalopathy: ISHEN practice guidelines. Liver Int. 2009;29:629-35.</p>
+              <p>
+[1]Vilstrup H, Amodio P, Bajaj J, Cordoba J, Ferenci P, Mullen KD, et al. Hepatic encephalopathy in chronic liver disease: 2014 practice guideline by the American Association for the Study of Liver Diseases and the European Association for the Study of the Liver. Hepatology 2014;60:715–735.
+<br />[2]GBD 2017 Cirrhosis Collaborators. (2020). The global, regional, and national burden of cirrhosis by cause in 195 countries and territories, 1990-2017: a systematic analysis for the Global Burden of Disease Study 2017. Lancet. Gastroenterol. Hepatol. 5, 245-266. 10.1016/S2468-1253(19)30349-8.
+<br />[3]Häussinger, D., Dhiman, R.K., Felipo, V., Görg, B., Jalan, R., Kircheis, G., Merli, M., Montagnese, S., Romero-Gomez, M., Schnitzler, A., et al. (2022). Hepatic encephalopathy. Nat. Rev. Dis. Primers. 8, 43. 10.1038/s41572-022-00366-6.
+<br />[4]Morais, L.H., Schreiber, H.L. 4th, and Mazmanian, S.K. (2021). The gut microbiota-brain axis in behaviour and brain disorders. Nat Rev Microbiol. 19, 241-255. 10.1038/s41579-020-00460-0
+<br />[5]Bass NM, Mullen KD, Sanyal A, Poordad F, Neff G, Leevy CB, et al. Rifaximin treatment in hepatic encephalopathy. N Engl J Med 2010;362:1071–1081.
+<br />[6] Keiding S, Sørensen M, Bender D, Munk OL, Ott P, Vilstrup H. Brain metabolism of 13N-ammonia during acute hepatic encephalopathy in cirrhosis measured by positron emission tomography. Hepatology 2006;43:42–50.
+<br />[7] Rose CF, Amodio P, Bajaj JS, Dhiman RK, Montagnese S, Taylor-Robinson SD, Vilstrup H, Jalan R. Hepatic encephalopathy: Novel insights into classification, pathophysiology and therapy. J Hepatol. 2020 Dec;73(6):1526-1547. 
+<br />[8]Systems biology analysis of lactulose withdrawal in hepatic encephalopathy. Metab Brain Dis 2012;27:205–215.
+<br />[9]Dalal R, McGee RG, Riordan SM, Webster AC. Probiotics for people with hepatic encephalopathy. Cochrane Database Syst Rev 2017;2:CD008716.
+<br />[10]Simón-Talero M, García-Martínez R, Torrens M, Augustin S, Gómez S, Pereira G, et al. Effects of intravenous albumin in patients with cirrhosis and episodic hepatic encephalopathy: a randomized double-blind study. J Hepatol 2013;59:1184–1192.
+<br />[11]Bai M, Yang Z, Qi X, Fan D, Han G. L-ornithine-L-aspartate for hepatic encephalopathy in patients with cirrhosis: a meta-analysis of randomized controlled trials. J Gastroenterol Hepatol 2013;28:783–792.
+<br />[12]Rottinghaus A G, Xi C, Amrofell M B, et al. Engineering ligand-specific biosensors for aromatic amino acids and neurochemicals[J]. Cell systems, 2022, 13(3): 204-214. e4.
+<br />[13]Hao DL, Zhou JY, Yang SY, Qi W, Yang KJ, Su YH. Function and Regulation of Ammonium Transporters in Plants. Int J Mol Sci. 2020 May 18;21(10):3557. 
+<br />[14]Lachar, J., & Bajaj, J. S. (2016). Changes in the Microbiome in Cirrhosis and Relationship to Complications: Hepatic Encephalopathy, Spontaneous Bacterial Peritonitis, and Sepsis. Seminars in liver disease, 36(4), 327–330. https://doi.org/10.1055/s-0036-1593881
+<br />[15]Girleanu, I., Trifan, A., Huiban, L., Muzica, C., Nemteanu, R., Teodorescu, A., Singeap, A. M., Cojocariu, C., Chiriac, S., Petrea, O., Zenovia, S., Nastasa, R., Cuciureanu, T., & Stanciu, C. (2021). The Risk of Clostridioides difficile Infection in Cirrhotic Patients Receiving Norfloxacin for Secondary Prophylaxis of Spontaneous Bacterial Peritonitis-A Real Life Cohort. Medicina (Kaunas, Lithuania), 57(9), 964. https://doi.org/10.3390/medicina57090964</p>
+              {/* <p>[2]Randolph C, Hilsabeck R, Kato A, et al. Neuropsychological assessment of hepatic encephalopathy: ISHEN practice guidelines. Liver Int. 2009;29:629-35.</p>
               <p>[3] Guevara M, Baccaro ME, Torre A, Gómez-Ansón B, Ríos J, Torres F, et al. Hyponatremia is a risk factor of hepatic encephalopathy in patients with cirrhosis: a prospective study with time-dependent analysis. Am J Gastroenterol 2009;104:1382–1389.</p>
               <p>[4] Sharma BC, Sharma P, Agrawal A, Sarin SK. Secondary prophylaxis of hepatic encephalopathy: an open-label randomized controlled trial of lactulose versus placebo. Gastroenterology 2009;137:885–891. 891.e1.</p>
               <p>[5] Cordoba J, Ventura-Cots M, Simón-Talero M, Amorós À, Pavesi M, Vilstrup H, et al. Characteristics, risk factors, and mortality of cirrhotic patients hospitalized for hepatic encephalopathy with and without acute-on-chronic liver failure (ACLF). J Hepatol 2014;60:275–281.</p>
@@ -222,85 +255,13 @@ export function Description() {
               <p>[12] Simón-Talero M, García-Martínez R, Torrens M, Augustin S, Gómez S, Pereira G, et al. Effects of intravenous albumin in patients with cirrhosis and episodic hepatic encephalopathy: a randomized double-blind study. J Hepatol 2013;59:1184–1192.</p>
               <p>[13] Bai M, Yang Z, Qi X, Fan D, Han G. L-ornithine-L-aspartate for hepatic encephalopathy in patients with cirrhosis: a meta-analysis of randomized controlled trials. J Gastroenterol Hepatol 2013;28:783–792.</p>
               <p>[14] Rottinghaus A G, Xi C, Amrofell M B, et al. Engineering ligand-specific biosensors for aromatic amino acids and neurochemicals[J]. Cell systems, 2022, 13(3): 204-214. e4.</p>
-              <p>[15] Hao DL, Zhou JY, Yang SY, Qi W, Yang KJ, Su YH. Function and Regulation of Ammonium Transporters in Plants. Int J Mol Sci. 2020 May 18;21(10):3557. </p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <div className="image">
-                <img src="https://static.igem.wiki/teams/5378/project-description-section3/1280x1280.webp" alt="示例图片" />
-              </div>
-
-              <div className="image">
-                <img src="https://static.igem.wiki/teams/5378/project-description-section3/project-description-section4/1280x1280-1.webp" alt="示例图片" />
-              </div>
-
-
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
+              <p>[15] Hao DL, Zhou JY, Yang SY, Qi W, Yang KJ, Su YH. Function and Regulation of Ammonium Transporters in Plants. Int J Mol Sci. 2020 May 18;21(10):3557. </p> */}
               </Element>
 
-              <Element name="section6" className="element rounded-border" id='section6'>
-              <h2>Section 6</h2>
-              <p>Content for section 6.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section7" className="element rounded-border" id='section7'>
-              <h2>Section 7</h2>
-              <p>Content for section 7.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section8" className="element rounded-border" id='section8'>
-              <h2>Section 8</h2>
-              <p>Content for section 8.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section9" className="element rounded-border" id='section9'>
-              <h2>Section 9</h2>
-              <p>Content for section 9.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section10" className="element rounded-border" id='section10'>
-              <h2>Section 10</h2>
-              <p>Content for section 10.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
-
-              <Element name="section11" className="element rounded-border" id='section11'>
-              <h2>Section 11</h2>
-              <p>Content for section 11.</p>
-              <div className="rounded-border">
-              <h4 className="center-text">我是大帅B</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              </div>
-              </Element>
+           
           
 
         </div>
-        <div className="col-1"></div>
 
           
         
