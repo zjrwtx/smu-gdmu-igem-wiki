@@ -188,10 +188,10 @@ export function HumanPractices() {
     </ul>
 
     <p className='indent'>
-      The team participated in the <span className='bold-font'>the 8th Southern China Regional Meeting</span>, sharing project progress and experiences with institutions like <span className='bold-font'>Shenzhen University</span> and the <span className='bold-font'>Southern University of Science and Technology</span>.
+      The team participated in the <span className='bold-font'>the 8th Southern China Regional Meeting </span>, sharing project progress and experiences with institutions like <span className='bold-font'>Shenzhen University</span> and the <span className='bold-font'>Southern University of Science and Technology</span>.
     </p>
     <p className='indent'>
-      We were invited to the <span className='bold-font'>Conference of China iGEMer Community (CCiC)</span>, engaging in in-depth discussions with other teams to optimize and improve our project, enhancing <span className='bold-font'>collaboration abilities</span> and promoting mutual project development.
+      We were invited to the <span className='bold-font'>Conference of China iGEMer Community (CCiC) </span>, engaging in in-depth discussions with other teams to optimize and improve our project, enhancing <span className='bold-font'>collaboration abilities</span> and promoting mutual project development.
     </p>
 
     <p className='indent'>
