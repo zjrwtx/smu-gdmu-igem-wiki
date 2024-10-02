@@ -133,13 +133,14 @@ export function Engineering() {
                 
             
                 <h4>Test</h4>
-                <p>We planned to co-transformed EcN with two plasmids via electroporation (Protocol-1). However, colony PCR suggested we only transformed successfully with plasmid Pcon-feaR-PcontynA and failed in transforming plasmid PTynA-GFP. We tried several times but all came with negative results (Figure 5).</p>
+                <p>We planned to co-transformed EcN with two plasmids via electroporation (Protocol-1). However, colony PCR suggested we only transformed successfully with plasmid Pcon-feaR-PcontynA and failed in transforming plasmid PTynA-GFP. We tried several times but all came with negative results (Figure 4).</p>
                 
              
                 
                 
                 <h4>Learn</h4>
-                <p>Our experiment group members analyzed reasons carefully and searched for chemical transformation protocol in EcN (Protocol-2). Fortunately, colony PCR showed successful construction of our engineered EcN (Figure 6) and it was verified by DNA sequencing.</p>
+                <p>Our experiment group members analyzed reasons carefully and searched for chemical transformation protocol in EcN (Protocol-2). Fortunately, colony PCR showed successful construction of our engineered EcN (Figure 5) and it was verified by DNA sequencing.</p>
+                
                 <h3>Cycle 3: Optimizing inducing condition of the Sensing Module</h3>
                 <h4>Design & Build</h4>
                 <p>After transformation of two plasmids in EcN, we tried to validate the PEA-sensing GFP reporting system with different concentrations of PEA (0, 5, 25, 50 and 100 ng/ml) and explored the optimized inducing concentration of PEA.</p>
@@ -147,13 +148,13 @@ export function Engineering() {
                 <p>After co-culture with different concentraions of PEA for different time (0,4,8,12 and 24h), the fluorescence was measured on microplate reader by excitation at 410 nm and detection of emission at 500 nm. OD600 (absorbance of 600nm) was also measured on  microplate reader for normalization.</p>
                 <h4>Learn</h4>
                 <p>Results showed a significant increase in fluorescent intensity along with the increased level of PEA concentration. 100 ng/ml PEA presented the best capability of induction, and showed significant difference compared with other concentrations of PEA starting from 12 hours.</p>
-               
-                <p>Therefore, the design of sensing module, which detects the rising level of HE risk factor PEA and induces the expression of gene downstream, is feasible. The opmized concentration of PEA can be set at 100 ng/ml. </p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/testengineering/engineering04.webp"
                 alt="example"
                 className="responsive-img"
               />
+                <p>Therefore, the design of sensing module, which detects the rising level of HE risk factor PEA and induces the expression of gene downstream, is feasible. The opmized concentration of PEA can be set at 100 ng/ml. </p>
+                
                <img 
                 src="https://static.igem.wiki/teams/5378/testengineering/engineering05.webp"
                 alt="example"
@@ -166,20 +167,21 @@ export function Engineering() {
               <Element name="section3" className="element rounded-border" id='section3'>
               <h2>Metabolic Module Engineering</h2>
               <h3>Cycle 1: Determination of a proper pathogenic factor</h3>
-              <h4>Design</h4>
-              <p>1</p>
-              <h4>Build & Test</h4>
-              <p>2</p>
+              <h4>Design & Build</h4>
+              <p>The pathogenesis of HE is complicated, the mainstream theories include Ammonia Toxicity Theory and False Neurotransmitter Theory. Apart from endeavoring to metabolize ammonia (see details in our Design page) , we also put insights into reducing false neurotransmitters in our preliminary designs.</p>
+              <p>A false neurotransmitter is a chemical substance that closely resembles and mimics the function of a neurotransmitter in the nervous system. Examples include 5-MeO-αMT, which mimics serotonin, and α-methyldopa.These chemicals can be accumulated by a neuron or secretory cell, are then packaged in secretory / synaptic vesicles, and then released with other neurotransmitters when an action potential provides the necessary stimulus for release[8]. Patients who develop liver failure can not digest those aromatic amino acids properly, and this can lead to false neuro-transmitters accumulation, causing neuro system symptoms.</p>
+              <h5>TPH1: metabolize Trp</h5>
+              <p>Tryptophan, through different metabolic pathways, can be converted into kynurenine, serotonin, and indole[9]. Tryptophan hydroxylase 1 (TPH1), enabling the conversion of tryptophan (Trp) into serotonin (5-HT) and reducing excess aromatic amino acids. Since serotonin synthesized in the gut cannot cross the blood-brain barrier or affect central nervous system function, there is no concern about adverse effects on the central nervous system. Therefore, we designed a plasmid to express TPH1 as our metabolic module(Figure 8a).</p>
+              <h5>MAOB: metabolize PEA</h5>
+              <p>As we determined PEA to be the sensory substance in the sensing module, we also did literature reading on how it could be metabolized in the human body: by monoamine oxidase B (MAOB).  Therefore, we designed a plasmid to heterologously express MAOB of Homo Sapiens in E.coli (Figure 8b).</p>
+              
+              <h4>Test</h4>
+              <p>To test the metabolizing efficiency of TPH1, we transformed EcN with plasmid Ptac-RBS-TPH1 via eletroporation and utilized 1 mM IPTG at 37℃ for 6 hours to induce expression. Unfortunately, expression of TPH1 can't be observed in the SDS-PAGE gel. Even though we changed the inducing conditions to 12 hours or 16℃, we still couldn't express TPH1 successfully. Considering that Trp may not be as specific as ammonia or PEA, we discarded this design and moved on to validating the feasibility of MAOB.</p>
+              <p>To demonstrate the efficiency of PEA degradation,we transformed BL21 with plasmid Ptac-RBS-MAOB and cocultured the engineered bacteria with 0, 10, 25, 50 and 100 ng/ml PEA for 16 hours. Then we collected the culture medium and filtered through 0.22μM PTFE membrane. PEA concentration was measured via HPLC. The results showed a decrease in PEA concentration in all groups, including the control group transformed with pET28a(+) vector (Table 1). Data shows mean,n=3 independent experiments. Unfortunately, the results couldn't verify the function of MAOB, we suspect the intrinsic TynA enzyme in E.coli may mediate the degradation of PEA according to literature[10].</p>
+              
               <h4>Learn</h4>
-              <p>3</p>
-              <h3>Cycle 2: </h3>
-              <h4>Design</h4>
-              <p>1</p>
-              <h4>Build & Test</h4>
-              <p>2</p>
-              <h4>Learn</h4>
-              <p>3</p>
-              <p>4</p>
+              <p>The unsuccessful attempts to express TPH1 and negative results of PEA degradation made us focus on metabolizing ammonia by expressing the GS enzyme (see details in our Design page). Fortunately, we successfully validate the feasibility of GS as our metabolic module and assembled it with sensing module (see details in our Result Page) . The final engineered design is shown in Figure 9.</p>
+              
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
