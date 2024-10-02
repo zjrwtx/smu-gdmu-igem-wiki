@@ -428,7 +428,7 @@ export function Home() {
             className={`home-menu-button page-element-model ${activeLink === 'element-11' ? 'img-left-in-active' : 'img-left-in'}`}
           />
         </a>
-        <a href="https://2024.igem.wiki/smu-gdmu-china/result">
+        <a href="https://2024.igem.wiki/smu-gdmu-china/results">
         <img
             src="https://static.igem.wiki/teams/5378/home/4th/result.webp"
             alt="example"
