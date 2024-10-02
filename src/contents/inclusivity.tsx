@@ -71,10 +71,10 @@ export function Inclusivity() {
           
               <Element name="section3" className="element rounded-border" id='section3'>
               <h2>Overview</h2>
-              <p>"We are all connected in the great web of existence." — Chief Seattle</p>
+              <p>"We are all connected in the great web of existence. — Chief Seattle</p>
               <div className="rounded-border">
               <h4 className="center-text">To see</h4>
-              <p className="indent">Through iGEM, we recognize the importance of diversity and inclusivity in the scientific community.Our team is committed to the inclusion of people from diverse backgrounds in scientific research, particularly in the areas of educational equity and social inclusion in urban and rural areas. Through a series of concrete activities, we help people of different identities and backgrounds to learn about science, in particular the importance and applications of hepatic encephalopathy and synthetic biology. Our aim is to enable everyone to do their part to improve health and promote scientific progress, and to stimulate interest in scientific research, wherever they come from.</p>
+              <p className="indent">Through iGEM, we recognize the importance of diversity and inclusivity in the scientific community. Our team is committed to the inclusion of people from diverse backgrounds in scientific research, particularly in the areas of educational equity and social inclusion in urban and rural areas. Through a series of concrete activities, we help people of different identities and backgrounds to learn about science, in particular the importance and applications of hepatic encephalopathy and synthetic biology. Our aim is to enable everyone to do their part to improve health and promote scientific progress, and to stimulate interest in scientific research, wherever they come from.</p>
               </div>
               <div className='image-container'>
               <img 
@@ -186,7 +186,7 @@ export function Inclusivity() {
 
               <Element name="section5" className="element rounded-border" id='section5'>
               <h2>Assistance Engineering</h2>
-              <p>To Address Regional Development Imbalances and Unequal Resource Distribution (Such as Educational Opportunities, Service Access, and Resource Acquisition)，Southern Medical University (SMU) has formed a support team to assist Guangdong Medical University (GMU) in various ways. Through this mutually beneficial partnership, SMU and GMU demonstrate how support and collaboration can lead to significant progress for both institutions. Notably, our team consists of students from both universities, which is a vivid representation of this cooperative relationship. Through an interview with Professor Li Ling, the leader of the SMU support team and mentor of the SMU&GDMU iGEM team, we learned that the goals of this support initiative are:</p>
+              <p>To Address Regional Development Imbalances and Unequal Resource Distribution (Such as Educational Opportunities, Service Access, and Resource Acquisition), Southern Medical University (SMU) has formed a support team to assist Guangdong Medical University (GDMU) in various ways. Through this mutually beneficial partnership, SMU and GDMU demonstrate how support and collaboration can lead to significant progress for both institutions. Notably, our team consists of students from both universities, which is a vivid representation of this cooperative relationship. Through an interview with Professor Li Ling, the leader of the SMU support team and mentor of the SMU&GDMU iGEM team, we learned that the goals of this support initiative are:</p>
               <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/award-inclusivity/7.webp"
@@ -307,7 +307,7 @@ export function Inclusivity() {
               <h4 className="center-text">Collaboration</h4>
               <p className="indent">Our team collaborates with the Hepatology Center at Nanfang Hospital and the Microecology Treatment Center at Zhujiang Hospital. Under their guidance, we collected serum samples from patients with cirrhosis before undergoing TIPS surgery and performed metabolomics testing. We also followed up with the patients for three months to record the occurrence of HE.</p>
               <p className="indent">Our team participated in the South China Exchange Conference, where we shared our project progress and experiences with Shenzhen University, Southern University of Science and Technology, and others.</p>
-              <p className="indent">Our team was invited to participate in the China Regional Exchange Conference (CCIC), where we engaged in in-depth discussions with other teams regarding project optimization and improvements. This enhanced our collaborative abilities and promoted the development of each team's projects.</p>
+              <p className="indent">Our team was invited to participate in the 11th China Regional iGEMer Exchange Conference (CCIC), where we engaged in in-depth discussions with other teams regarding project optimization and improvements. This enhanced our collaborative abilities and promoted the development of each team's projects.</p>
               <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/award-inclusivity/12.webp"
