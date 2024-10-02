@@ -414,37 +414,55 @@ export function Home() {
             </iframe>
       </div>
       <Element name="element-11" id="element-11" className="element page-container-11">
+        <a href="https://2024.igem.wiki/smu-gdmu-china/design">
         <img
             src="https://static.igem.wiki/teams/5378/home/4th/design.webp"
             alt="example"
             className={`home-menu-button page-element-design ${activeLink === 'element-11' ? 'img-left-in-active' : 'img-left-in'}`}
           />
+        </a>
+        <a href="https://2024.igem.wiki/smu-gdmu-china/model">
         <img
             src="https://static.igem.wiki/teams/5378/home/4th/model.webp"
             alt="example"
             className={`home-menu-button page-element-model ${activeLink === 'element-11' ? 'img-left-in-active' : 'img-left-in'}`}
           />
+        </a>
+        <a href="https://2024.igem.wiki/smu-gdmu-china/result">
         <img
             src="https://static.igem.wiki/teams/5378/home/4th/result.webp"
             alt="example"
             className={`home-menu-button page-element-result ${activeLink === 'element-11' ? 'img-left-in-active' : 'img-left-in'}`}
           />
-
+        </a>
+        <a href="https://2024.igem.wiki/smu-gdmu-china/education">
         <img
             src="https://static.igem.wiki/teams/5378/home/4th/education.webp"
             alt="example"
             className={`home-menu-button page-element-education ${activeLink === 'element-11' ? 'img-right-in-active' : 'img-right-in'}`}
           />
+        </a>
+        <a href="https://2024.igem.wiki/smu-gdmu-china/inclusivity">
         <img
             src="https://static.igem.wiki/teams/5378/home/4th/inclusivity.webp"
             alt="example"
             className={`home-menu-button page-element-inclusivity ${activeLink === 'element-11' ? 'img-right-in-active' : 'img-right-in'}`}
           />
+        </a>
+        <a href="https://2024.igem.wiki/smu-gdmu-china/team">
         <img
             src="https://static.igem.wiki/teams/5378/home/4th/team.webp"
             alt="example"
             className={`home-menu-button page-element-team ${activeLink === 'element-11' ? 'img-right-in-active' : 'img-right-in'}`}
           />
+        </a>
+        
+        
+        
+
+        
+        
+        
 
       </Element>
 

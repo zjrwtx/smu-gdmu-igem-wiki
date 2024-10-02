@@ -2340,37 +2340,37 @@ span.formula_line::-webkit-scrollbar-track {
 }
 .page-element-design {
   position: absolute;
-  left: 20vw;
+  left: 30vw;
   top: 0vh;
 
 }
 .page-element-education {
   position: absolute;
-  left: 70vw;
+  left: 60vw;
   top: 20vw;
 
 }
 .page-element-inclusivity {
   position: absolute;
-  left: 60vw;
+  left: 50vw;
   top: 0vh;
 
 }
 .page-element-model {
   position: absolute;
-  left: 10vw;
+  left: 20vw;
   top: 20vw;
 
 }
 .page-element-team {
   position: absolute;
-  left: 80vw;
+  left: 70vw;
   top: 0vh;
 
 }
 .page-element-result {
   position: absolute;
-  left: 30vw;
+  left: 40vw;
   top: 20vw;
 
 }
