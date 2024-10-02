@@ -113,6 +113,7 @@ export function Contribution() {
                 <h4 className="center-text">Section 3</h4>
                 <p className="indent">Air-dried microencapsulated substances can be used to encapsulate genetically engineered bacteria modified to express ammonia, enhancing the stability and application performance of drugs, extending the storage time to over 7 years.</p>
                 <p className="indent">Here is a detailed explanation of our future research and development product, air-dried microencapsulated substances:</p>
+                <p className="indent">Preparation technology: Air-dried microencapsulated substances are typically prepared using the spray drying method in physical mechanical processes. This method involves dispersing the core material in a molten coating material, then spraying it into a hot airflow for drying and solidification, forming microcapsules.</p>
                 </div>
                 </Element>
 
