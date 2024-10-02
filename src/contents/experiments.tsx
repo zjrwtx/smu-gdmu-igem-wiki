@@ -656,17 +656,25 @@ The LB Mediums used above all contain 50 μg/mL kanamycin. The dilution will be 
             onMouseEnter={() => handleMouseEnter('section12')}
             style={{ display: visibleSection === 'section12' ? 'block' : 'none' }}
           >
-            <h2>example</h2>
+            <h2>Quantitative Congo red binding assay</h2>
             <p>Content for section .</p>
             <div className="rounded-border">
-              <h4 className="center-text">example</h4>
+              <h4 className="center-text">Quantitative Congo red binding assay</h4>
               <p className="indent">(1)	Material<br />
-
+Induced-Bacterial Culture<br />
+Congo red solution<br />
+Phosphate Buffered Saline (PBS)<br />
+Centrifuge<br />
+Ultraviolet Spec-Tropometer<br />
 </p>
               <p className="indent">(2)	Steps<br />
-
+1.1mL bacterial culture is pelleted at 8000 rpm for 10 minutes.<br />
+2.Resuspend in 0.025mM Congo red solution for 10 minutes.<br />
+3.Pelleting again at 14000rpm for 10 minutes.<br />
+4.Measure the absorbance of the supernatant at 490nm using a microplate reader and ultraviolet spec-tropometer.<br />
 </p>
               <p className="indent">(3)	Note:<br />
+              Curly fiber yield will be measure by subtracting the measured absorbance value with 0.025 mM Congo red in PBS and normalized with the OD600 of the original bacterial culture.
 </p>
             </div>
           </Element>
