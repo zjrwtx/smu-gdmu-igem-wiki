@@ -201,17 +201,17 @@ export function Inclusivity() {
               </div>
               
                 <div className="rounded-border">
-              <h4 className="center-text">（2）Building a 'Collaborative Talent Cultivation' System:</h4>
-              <p className="indent">Through joint talent cultivation programs, such as integrated undergraduate-master’s degree programs and exchange student initiatives, we provide students with broader learning platforms, emphasizing iGEM's commitment to talent development. Additionally, we implement summer internship programs, allowing students to conduct research internships in the laboratories of the partner university, enhancing practical experience and research capabilities.</p>
+              <h4 className="center-text">(2)Building a 'Collaborative Talent Cultivation' System:</h4>
+              <p className="indent">Through joint talent cultivation programs, such as integrated undergraduate-master' s degree programs and exchange student initiatives, we provide students with broader learning platforms, emphasizing iGEM's commitment to talent development. Additionally, we implement summer internship programs, allowing students to conduct research internships in the laboratories of the partner university, enhancing practical experience and research capabilities.</p>
               </div>
               
               <div className="rounded-border">
-              <h4 className="center-text">（3）Research Collaboration:</h4>
+              <h4 className="center-text">(3)Research Collaboration:</h4>
               <p className="indent">The support team facilitates the establishment of shared laboratories and research centers, promoting the sharing of research resources and enhancing collaboration between researchers in synthetic biology and related fields, reflecting iGEM's ethos of shared research. Furthermore, the support team regularly organizes joint research projects, inviting researchers from both sides to apply for national and international research grants, driving high-level research outcomes.</p>
               </div>
 
               <div className="rounded-border">
-              <h4 className="center-text">（4）Achieving Equal Access to Educational Resources:</h4>
+              <h4 className="center-text">(4)Achieving Equal Access to Educational Resources:</h4>
               <p className="indent">The support team promotes the opening of course resources and online education platforms, benefiting more students from both universities, reflecting iGEM's principle of equitable access to educational resources. Additionally, student exchange programs are established, and regular academic symposiums are held to promote interaction and cooperation among students, eliminating barriers caused by unequal distribution of educational resources.</p>
               <p className="indent">Through this support process, both institutions ultimately benefit and achieve a win-win situation. SMU is not only supporting GDMU but also achieving its own growth and progress. For example, by jointly undertaking national-level research projects, both research teams can showcase their achievements on high-level platforms, enhancing research capabilities and innovation. Simultaneously, shared resources and best practices elevate the overall quality of education. Moreover, this support initiative helps both institutions build a broader academic and professional network, increasing opportunities for future collaborations.</p>
               </div>
@@ -222,17 +222,17 @@ export function Inclusivity() {
               <h2>From evidence to narrative: humanistic care and inclusive practice in medicine</h2>
               <p>Against the backdrop of rapidly evolving medical technology, we recognise that relying on data and standardised treatments alone cannot fully meet the needs of patients. For this reason, we have turned to narrative medicine. Through an in-depth conversation with Professor Xiaolin Yang from the Centre for Narrative Medicine at Southern Medical University, we have learned how to incorporate more humanistic care into medical practice and communicate with doctors to apply it in their clinical practice. Narrative medicine emphasises an equal dialogue between doctors and patients, understanding patients' unique experiences by listening to their stories and engaging them to provide a more personalised treatment plan.</p>
               <div className="rounded-border">
-              <h4 className="left-text">（1）Narrative Intervention and Prescription:</h4>
+              <h4 className="left-text">(1)Narrative Intervention and Prescription:</h4>
               <p className="indent">Doctors actively listen to the patient's personal story and use it as part of the treatment plan, while providing emotional support and psychological relief to enhance treatment outcomes.</p>
-              <h4 className="left-text">（2）Establishment of a support network:</h4>
+              <h4 className="left-text">(2)Establishment of a support network:</h4>
               <p className="indent">Create a community of patients, family members and healthcare professionals to facilitate experience sharing and resource exchange, and enhance mutual psychological support.</p>
-              <h4 className="left-text">（3）Diversified participation:</h4>
+              <h4 className="left-text">(3)Diversified participation:</h4>
               <p className="indent">Provide scholarships and internship opportunities for students from different backgrounds, especially supporting members of underrepresented groups such as women and ethnic minorities.</p>
-              <h4 className="left-text">（4）Elimination of social prejudice:</h4>
+              <h4 className="left-text">(4)Elimination of social prejudice:</h4>
               <p className="indent">Increase public awareness of hepatic encephalopathy through media and community activities to reduce misunderstanding and discrimination.</p>
-              <h4 className="left-text">（5）Patient participation mechanisms:</h4>
+              <h4 className="left-text">(5)Patient participation mechanisms:</h4>
               <p className="indent">Encourage patients to participate in their own treatment decisions, and provide channels for feedback so that patients' voices can be heard.</p>
-              <h4 className="left-text">（6）Interdisciplinary co-operation:</h4>
+              <h4 className="left-text">(6)Interdisciplinary co-operation:</h4>
               <p className="indent">Collaborate with experts from multiple fields to form a multidisciplinary team to provide comprehensive services and support. This philosophy holds true for iGEM, synthetic biology, and the broader sciences as well. We believe that anyone should have the opportunity to have a voice and contribute to these communities.</p>
               </div>
               <div className='image-container'>
