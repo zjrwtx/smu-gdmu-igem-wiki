@@ -15,6 +15,8 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
         <Nav.Link as={Link} to="section3" smooth={true} duration={500} className={activeLink === 'section3' ? 'active' : 'notActive'}>Altogether: Sensing-Metabolic System Validation</Nav.Link>
         <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>Safety Module Validation</Nav.Link>
         <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>Model Results</Nav.Link>
+        <Nav.Link as={Link} to="section6" smooth={true} duration={500} className={activeLink === 'section6' ? 'active' : 'notActive'}>Future Plans</Nav.Link>
+        
         {/* 添加更多导航链接 */}
       </Nav>
     </div>
