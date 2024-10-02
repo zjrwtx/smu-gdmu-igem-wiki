@@ -190,7 +190,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>Figure4. Project Exchange with other University Teams</figcaption>
+                <figcaption className='caption'>Figure4. The team's commemorative photo at CCIC</figcaption>
                 </div>
     <p className='indent'>
       We consulted with <span className='bold-font'>Dr. Liu</span>, a synthetic biology expert from the <span className='bold-font'>South China University of Technology</span>, to discuss the experimental content of our project, exchanging knowledge and experiences related to <span className='bold-font'>hepatic encephalopathy</span>.
@@ -201,7 +201,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>Figure5. The team's commemorative photo at CCIC</figcaption>
+                <figcaption className='caption'>Figure5. The 8th Southern China Regional Meeting</figcaption>
                 </div>
     <p className='indent'>
       Team members participated in the <span className='bold-font'>National Synthetic Biology Innovation Competition</span> at <span className='bold-font'>Shenzhen Guangming Tian'an Cloud Valley</span>, where they engaged in deep discussions and collaboration with iGEM teams from across the country, exchanging innovative ideas on a shared platform.
@@ -234,7 +234,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>Figure6. The 8th Southern China Regional Meeting</figcaption>
+                <figcaption className='caption'>Figure6. Analysis of Survey Results</figcaption>
                 </div>
       </div>
     
@@ -252,7 +252,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>Figure7. Analysis of Survey Results</figcaption>
+                <figcaption className='caption'>Figure7. Questionnaire-based Study on Public Knowledge of Hepatic Encephalopathy</figcaption>
                 </div>
     
     <div className='row'>
@@ -288,7 +288,7 @@ export function HumanPractices() {
                 alt="example"
                 className="responsive-img"
                 />
-                <figcaption className='caption'>Figure8. Questionnaire-based Study on Public Knowledge of Hepatic Encephalopathy</figcaption>
+                <figcaption className='caption'>Figure8. Analysis of Survey Results2</figcaption>
                 </div>
     </div>
     
@@ -332,7 +332,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>NUS</figcaption>
+                <figcaption className='caption'>Figure10. Stakeholder Engagement</figcaption>
                 </div>
               
               <ul style={{ listStyleType: 'disc', paddingLeft: '20px' }}>
@@ -402,7 +402,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>Figure10. Photos of Experts Communicating with the Team</figcaption>
+                <figcaption className='caption'>Figure11. Photos of Experts Communicating with the Team</figcaption>
                 </div>
                 <div className='image-container'>
               <img 
@@ -410,7 +410,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>Figure11. Photos of Experts Communicating with the Team</figcaption>
+                <figcaption className='caption'>Figure12. Photos of Experts Communicating with the Team</figcaption>
                 </div>
   </div>
   
