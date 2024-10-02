@@ -116,8 +116,8 @@ export function Results() {
               <p>To demonstrate the function of our system after assembly, we co-transformed EcNs with plasmid Pcon-tynA-Pcon-feaR and plasmid PTynA-GS and coculture the engineered bacteria with different concentrations of PEA and NH4Cl (Figure 3a). Results showed that with the concentration of 50μM NH4Cl, 100ng/ml PEA induced the most significant decrease in ammonia (Figure 3b), which was consistent with the trend in both sensing and metabolic modules. </p>
               <p>We also transformed plasmid Pcon-tynA-Pcon-feaR into EcN as the control group, and cocultured them with 100ng/ml PEA and 50μM NH4Cl for 4,8,12 and 24 hours. Results demonstrated a significant ammonia decrease in experiment group compared with the control group (Figure 3c), indicateing that a rahter high level of PEA could iniitate downstream metabolic module to express GS and resulted in the decrease of over-accumulated ammonia.</p>
               <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
+                src="https://static.igem.wiki/teams/5378/result/result-fig3.webp"
+                alt="result3"
                 className="responsive-img"
               />
                <figcaption className='caption'>Figure 3. Functionality verification of the PEA-sensing NH3-metabolizing system. (a)Schematic representation of the process of sensing and metabolic module. EcN was co-transformed with plasmid Pcon-FeaR-Pcon-TynA and plasmid PTynA-GS via electroporation. (b)NH3 concentration after coculturing different concentration of PEA and NH4Cl with engineered EcN for 12 hours. Data shows mean±SD, n=3 independent experiments. (c)NH3 concentration after coculturing 100ng/ml PEA and 50μM NH4Cl engineered EcN for 0, 4, 8,12 and 24 hours. EcN-FeaR-TynA was transformed with only plasmid Pcon-FeaR-Pcon-TynA as the control group. Data shows mean±SD, n=3 independent experiments.</figcaption>
@@ -135,8 +135,8 @@ export function Results() {
               <p>The position of the bands in SDS-PAGE is generally consistent with the molecular weight of TFF3 (Fig.3-c), Therefore, it is initially believed that TFF3 was successfully expressed. However, In some cases, basal expression of the csgA genes was observed without induction.</p>
               <p>A quantitative Congo Red-binding (CR) assay, normally used for curli fiber detection, indicated that CsgA-TFF3 fusions could be expressed and assembled into curli fibers under these conditions, while EcN control vector showed no CR binding(Fig.3-d).</p>
               <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
-                alt="example"
+                src="https://static.igem.wiki/teams/5378/result/result-fig4.webp"
+                alt="result4"
                 className="responsive-img"
               />
                <figcaption className='caption'>Figure 4. Expression of the safety module. (a)Schematic diagram of safety module plasmid and expected product. PBbB8k plasmid was transformed into EcNvia electroporation to achieve the secretion and self-assembly of EcN-derived TFF-fused curli. The structure of CsgA-TFF3 was predicted based on AlphaFold3. (b)Validation of TFF3 expression by Elisa. The fluorescence was measured on microplate reader by OD450 and OD650 (absorbance of 450nm and 650nm).Data shows mean±SD,n=3 independent experiments. (c)Validation of TFF3 expression by SDS-PAGE. 1: bacteria after inducible expression by arabinose. 2: supernatant after inducible expression. 3: bacteria before inducible expression by arabinose. 4: supernatant before inducible expression. (d)Schematic of quantitative Congo Red (CR)-binding assay. White ovals = E. coli; Orange and green lines = engineered curli fibers; Red circles = Congo Red (left). Normalized amyloid production of each EcN variant, as measured by CR binding assay (right), after induction with arabinose (Ara) at 37 °C in LB media.</figcaption>
