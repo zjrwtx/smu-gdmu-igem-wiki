@@ -16,7 +16,7 @@ import {
   Model,
   collaboration,
   parts,
-  Design,
+  // Design,
 } from "./contents";
 import { FaHome, FaUsers, FaProjectDiagram, FaShieldAlt, FaHandsHelping, FaAward,  FaFlask, FaLightbulb, FaBusinessTime, FaUniversalAccess, FaCogs, FaHandshake } from "react-icons/fa"; // 引入图标
 
@@ -120,14 +120,14 @@ const Pages: (Page | Folder)[] = [
         lead: "Describe how and why you chose your iGEM project.",
         icon: FaBusinessTime,
       },
-      {
-        name: "Design",
-        title: "Design",
-        path: "/design",
-        component: Design,
-        lead: "Describe the research, experiments, and protocols you used in your iGEM project.",
-        icon: FaFlask,
-      },
+      // {
+      //   name: "Design",
+      //   title: "Design",
+      //   path: "/design",
+      //   component: Design,
+      //   lead: "Describe the research, experiments, and protocols you used in your iGEM project.",
+      //   icon: FaFlask,
+      // },
       {
         name: "Engineering",
         title: "Engineering Success",
