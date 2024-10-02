@@ -223,27 +223,20 @@ export function HumanPractices() {
       <li><span className='bold-font'>Patient and family feedback</span> to understand their expectations and concerns about new therapies.</li>
     </ul>
     <div className='row'>
-      <div className='col-6'>
-      <div className='image-container'>
-              <img 
-                src="https://static.igem.wiki/teams/5378/ihp/.webp"
-                alt="example"
-                className="image-height"
-                />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
-                </div>
-      </div>
-      <div className='col-6'>
+      
+      
+      
+      
       <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/ihp/20240930.webp"
                 alt="example"
-                className="image-height"
+                className="image-wide"
                 />
                 <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
                 </div>
       </div>
-    </div>
+    
     
     <p className='indent'>
       We designed a comprehensive <span className='bold-font'>questionnaire</span> covering patient <span className='bold-font'>medical history</span>, <span className='bold-font'>current symptoms</span>, treatment experience, and awareness of <span className='bold-font'>new therapies</span> like probiotics. This allows us to collect <span className='bold-font'>real-world data</span> to further our research on HE.
@@ -260,7 +253,9 @@ export function HumanPractices() {
                 />
                 <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
                 </div>
-    <div className="rounded-border">
+    
+    <div className='row'>
+    <div className="rounded-border col-6 margin-0">
     <h4 className="center-text">4.1 Basic Principles</h4>
     <p className='indent'>
       <span className='bold-font'>Hepatic encephalopathy (HE)</span> is a neurological disorder caused by liver dysfunction, with symptoms like <span className='bold-font'>cognitive impairment</span>, <span className='bold-font'>emotional instability</span>, and decreased <span className='bold-font'>social functioning</span>, all of which affect <span className='bold-font'>quality of life</span>. Many patients have <span className='bold-font'>low self-awareness</span> of their condition, delaying treatment and increasing psychological burden. Our goal is to explore why HE patients have low awareness of their symptoms and stress.
@@ -284,6 +279,21 @@ export function HumanPractices() {
       We received <span className='bold-font'>725 responses</span>, including <span className='bold-font'>350 HE patients</span>. Only <span className='bold-font'>3.5%</span> could accurately recognize the severity of their condition, with most patients underestimating their symptoms. Comparisons with <span className='bold-font'>clinical assessments</span> showed that patients' self-reported symptoms were generally lower than professional evaluations. Over <span className='bold-font'>65%</span> of participants had never actively assessed their condition, despite some using mobile apps. These findings highlight the need to improve <span className='bold-font'>self-awareness</span> in HE patients, which is crucial for better treatment planning.
     </p>
   </div>
+
+
+    <div className='image-container col-6 margin-0'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/ihp/.webp"
+                alt="example"
+                className="responsive-img"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
+    </div>
+    
+
+  
+
 </Element>
 
           <Element name="section5" className="element rounded-border" id='section5'>
@@ -380,19 +390,20 @@ export function HumanPractices() {
               <img 
                 src="https://static.igem.wiki/teams/5378/ihp/1.webp"
                 alt="example"
-                className="image-height"
+                className="image-wide"
+                />
+                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                </div>
+                <div className='image-container'>
+              <img 
+                src="https://static.igem.wiki/teams/5378/ihp/2.webp"
+                alt="example"
+                className="image-wide"
                 />
                 <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
                 </div>
   </div>
-  <div className='image-container'>
-              <img 
-                src="https://static.igem.wiki/teams/5378/ihp/2.webp"
-                alt="example"
-                className="image-height"
-                />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
-                </div>
+  
 </Element>
 
 </div>
