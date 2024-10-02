@@ -162,7 +162,7 @@ export function Engineering() {
                 <h4>Test</h4>
                 <p>After co-culture with different concentraions of PEA for different time (0,4,8,12 and 24h), the fluorescence was measured on microplate reader by excitation at 410 nm and detection of emission at 500 nm. OD600 (absorbance of 600nm) was also measured on  microplate reader for normalization.</p>
                 <h4>Learn</h4>
-                <p>Results showed a significant increase in fluorescent intensity along with the increased level of PEA concentration. 100 ng/ml PEA presented the best capability of induction, and showed significant difference compared with other concentrations of PEA starting from 12 hours.</p>
+                <p>Results showed a significant increase in fluorescent intensity along with the increased level of PEA concentration. 100 ng/ml PEA presented the best capability of induction, and showed significant difference compared with other concentrations of PEA starting from 12 hours(Figure 6).</p>
                 <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
                 alt="result4"
@@ -187,9 +187,9 @@ export function Engineering() {
               <p>The pathogenesis of HE is complicated, the mainstream theories include Ammonia Toxicity Theory and False Neurotransmitter Theory. Apart from endeavoring to metabolize ammonia (see details in our Design page) , we also put insights into reducing false neurotransmitters in our preliminary designs.</p>
               <p>A false neurotransmitter is a chemical substance that closely resembles and mimics the function of a neurotransmitter in the nervous system. Examples include 5-MeO-αMT, which mimics serotonin, and α-methyldopa.These chemicals can be accumulated by a neuron or secretory cell, are then packaged in secretory / synaptic vesicles, and then released with other neurotransmitters when an action potential provides the necessary stimulus for release[8]. Patients who develop liver failure can not digest those aromatic amino acids properly, and this can lead to false neuro-transmitters accumulation, causing neuro system symptoms.</p>
               <h5>TPH1: metabolize Trp</h5>
-              <p>Tryptophan, through different metabolic pathways, can be converted into kynurenine, serotonin, and indole[9]. Tryptophan hydroxylase 1 (TPH1), enabling the conversion of tryptophan (Trp) into serotonin (5-HT) and reducing excess aromatic amino acids. Since serotonin synthesized in the gut cannot cross the blood-brain barrier or affect central nervous system function, there is no concern about adverse effects on the central nervous system. Therefore, we designed a plasmid to express TPH1 as our metabolic module(Figure 8a).</p>
+              <p>Tryptophan, through different metabolic pathways, can be converted into kynurenine, serotonin, and indole[9]. Tryptophan hydroxylase 1 (TPH1), enabling the conversion of tryptophan (Trp) into serotonin (5-HT) and reducing excess aromatic amino acids. Since serotonin synthesized in the gut cannot cross the blood-brain barrier or affect central nervous system function, there is no concern about adverse effects on the central nervous system. Therefore, we designed a plasmid to express TPH1 as our metabolic module(Figure 7a).</p>
               <h5>MAOB: metabolize PEA</h5>
-              <p>As we determined PEA to be the sensory substance in the sensing module, we also did literature reading on how it could be metabolized in the human body: by monoamine oxidase B (MAOB).  Therefore, we designed a plasmid to heterologously express MAOB of Homo Sapiens in E.coli (Figure 8b).</p>
+              <p>As we determined PEA to be the sensory substance in the sensing module, we also did literature reading on how it could be metabolized in the human body: by monoamine oxidase B (MAOB).  Therefore, we designed a plasmid to heterologously express MAOB of Homo Sapiens in E.coli (Figure 7b).</p>
               <img 
                 src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
                 alt="result4"
