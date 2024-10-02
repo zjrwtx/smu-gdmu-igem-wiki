@@ -97,7 +97,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section8' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section8')}
         >
-          Section 8
+          Transformation
         </Nav.Link>
       </Nav>
     </div>
