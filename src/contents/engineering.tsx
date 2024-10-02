@@ -130,12 +130,16 @@ export function Engineering() {
             
                 <h4>Test</h4>
                 <p>We planned to co-transformed EcN with two plasmids via electroporation (Protocol-1). However, colony PCR suggested we only transformed successfully with plasmid Pcon-feaR-PcontynA and failed in transforming plasmid PTynA-GFP. We tried several times but all came with negative results (Figure 4).</p>
+                <div className='image-container'>
                 <img 
                 src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig4.webp"
                 alt="eng4"
-                className="responsive-img"
+                className="image-height"
               />
                <figcaption className='caption'>Figure 4. Wrong colony PCR results of transformation</figcaption>
+
+                </div>
+
             
                 <h4>Learn</h4>
                 <p>Our experiment group members analyzed reasons carefully and searched for chemical transformation protocol in EcN (Protocol-2). Fortunately, colony PCR showed successful construction of our engineered EcN (Figure 5) and it was verified by DNA sequencing.</p>
@@ -160,12 +164,15 @@ export function Engineering() {
 9. Incubate the two agar plates overnight at 37°C. The next day, pick single colonies for colony PCR to verify successful plasmid transformation.</div>
                 </div>
                 
+                <div className='image-container'>
                 <img 
                 src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig5.webp"
                 alt="eng5"
-                className="responsive-img"
+                className="image-height"
               />
                <figcaption className='caption'>Figure 5. Correct colony PCR results of transformation after experimental improvement</figcaption>
+                </div>
+
 
                 <h3>Cycle 3: Optimizing inducing condition of the Sensing Module</h3>
                 <h4>Design & Build</h4>
@@ -174,12 +181,15 @@ export function Engineering() {
                 <p>After co-culture with different concentraions of PEA for different time (0,4,8,12 and 24h), the fluorescence was measured on microplate reader by excitation at 410 nm and detection of emission at 500 nm. OD600 (absorbance of 600nm) was also measured on  microplate reader for normalization.</p>
                 <h4>Learn</h4>
                 <p>Results showed a significant increase in fluorescent intensity along with the increased level of PEA concentration. 100 ng/ml PEA presented the best capability of induction, and showed significant difference compared with other concentrations of PEA starting from 12 hours(Figure 6).</p>
+                <div className='image-container'>
                 <img 
                 src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig6.webp"
                 alt="eng6"
-                className="responsive-img"
+                className="image-wide"
               />
                <figcaption className='caption'>Figure 6. Fluorescence Intensity with different concentrations of PEA cocultured in engineered EcN</figcaption>
+                </div>
+                
                 <p>Therefore, the design of sensing module, which detects the rising level of HE risk factor PEA and induces the expression of gene downstream, is feasible. The opmized concentration of PEA can be set at 100 ng/ml. </p>
               </Element>
           
@@ -218,12 +228,15 @@ export function Engineering() {
               <h3>Test</h3>
               <p>To test the metabolizing efficiency of TPH1, we transformed EcN with plasmid Ptac-RBS-TPH1 via eletroporation and utilized 1 mM IPTG at 37℃ for 6 hours to induce expression. Unfortunately, expression of TPH1 can't be observed in the SDS-PAGE gel. Even though we changed the inducing conditions to 12 hours or 16℃, we still couldn't express TPH1 successfully. Considering that Trp may not be as specific as ammonia or PEA, we discarded this design and moved on to validating the feasibility of MAOB.</p>
               <p>To demonstrate the efficiency of PEA degradation,we transformed BL21 with plasmid Ptac-RBS-MAOB and cocultured the engineered bacteria with 0, 10, 25, 50 and 100 ng/ml PEA for 16 hours. Then we collected the culture medium and filtered through 0.22μM PTFE membrane. PEA concentration was measured via HPLC. The results showed a decrease in PEA concentration in all groups, including the control group transformed with pET28a(+) vector (Table 1). Data shows mean,n=3 independent experiments. Unfortunately, the results couldn't verify the function of MAOB, we suspect the intrinsic TynA enzyme in E.coli may mediate the degradation of PEA according to literature[10].</p>
+              <div className='image-container'>
               <img 
                 src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-table1.webp"
                 alt="table1"
-                className="responsive-img"
+                className="image-wide"
               />
                <figcaption className='caption'>Table 1. PEA degradation results</figcaption>
+              </div>
+              
               <h3>Learn</h3>
               <p>The unsuccessful attempts to express TPH1 and negative results of PEA degradation made us focus on metabolizing ammonia by expressing the GS enzyme (see details in the <a href='https://2024.igem.wiki/smu-gdmu-china/description'>Design section of our Description Page</a>). Fortunately, we successfully validate the feasibility of GS as our metabolic module and assembled it with sensing module (see details in our Result Page) . The final engineered design is shown in Figure 8.</p>
               <img 
