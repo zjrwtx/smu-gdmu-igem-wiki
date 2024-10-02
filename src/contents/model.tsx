@@ -1643,20 +1643,48 @@ export function Model() {
                         </div>
                         <p>As illustrated in the figure, the curve initially rises and then gradually levels off over time. Although there are slight fluctuations, it remains essentially stable around 0.56 nm. This indicates that the movement of the small molecule ligand relative to the protein becomes progressively stable.</p>
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model10.webp' className='responsive-img'  style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }}/>
+                            <img src='https://static.igem.wiki/teams/5378/model/model10.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 4 RMSD analysis of proteins</figcaption></p>
                         </div>
                         <p>As shown in the figure, the curve initially increases and then gradually levels off over time, ultimately stabilizing around 0.25 nm. This indicates that the protein conformation becomes progressively stable. It is noteworthy that, when analyzing RMSD, longer simulation times may be necessary, where feasible, to enhance the reliability and accuracy of the results.</p>
                         <p>Finally, we also obtained the system's total potential energy:</p>
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model11.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }}/>
+                            <img src='https://static.igem.wiki/teams/5378/model/model11.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 5 Total potential energy change of the system</figcaption></p>
                         </div>
                         <p>During the docking process, although the system's total potential energy exhibits significant fluctuations, it remains generally stable within a defined range. This indicates that variations in the system's parameters have minimal overall impact throughout the entire simulation. The schematic diagram of the TynA-PEA docking obtained is shown below:</p>
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model12.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }}/>
+                            <img src='https://static.igem.wiki/teams/5378/model/model12.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 6 TynA-PEA interconnection structure</figcaption></p>
                         </div>
+                        <h3>3.2 Molecular simulation of TPH1-Trp</h3>
+                        <p>For the TPH1 enzyme and tryptophan, we conducted the same procedures as outlined in Section 3.1 and obtained the following results:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model13.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 7 Simulated box and solvent addition</figcaption></p>
+                        </div>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model14.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >FIG. 8 Schematic diagram of energy minimization curve</figcaption></p>
+                        </div>
+                        <p>Similarly, as time progresses, the energy continuously decreases and eventually stabilizes. After performing NVT/NPT equilibration and the subsequent dynamics simulations, the trends in RMSD values can be analyzed to determine whether the system has achieved equilibrium.</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model15.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 9 RMSD analysis of protein-ligand</figcaption></p>
+                        </div>
+                        <p>As illustrated in the figure, the curve initially rises and then gradually levels off over time. Although there are slight fluctuations, it remains essentially stable around 0.42 nm. This indicates that the movements within the system become progressively stable.</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model16.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 10 Total potential energy change of the system</figcaption></p>
+                        </div>
+                        <p>Similarly to Section 3.1, during the docking process, the system's total potential energy exhibits significant fluctuations but remains generally stable within a defined range. This indicates that variations in the system's parameters have minimal overall impact throughout the entire simulation. The schematic diagram of the TPH1-Trp docking obtained is shown below:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model17.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 11 TynA-PEA interconnection structure</figcaption></p>
+                        </div>
+
+
+
                     </Element>
 
                 </div>
