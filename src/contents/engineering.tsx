@@ -131,7 +131,7 @@ export function Engineering() {
                 <h4>Test</h4>
                 <p>We planned to co-transformed EcN with two plasmids via electroporation (Protocol-1). However, colony PCR suggested we only transformed successfully with plasmid Pcon-feaR-PcontynA and failed in transforming plasmid PTynA-GFP. We tried several times but all came with negative results (Figure 4).</p>
                 <img 
-                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig4.webp"
                 alt="eng4"
                 className="responsive-img"
               />
@@ -161,7 +161,7 @@ export function Engineering() {
                 </div>
                 
                 <img 
-                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig5.webp"
                 alt="eng5"
                 className="responsive-img"
               />
@@ -175,7 +175,7 @@ export function Engineering() {
                 <h4>Learn</h4>
                 <p>Results showed a significant increase in fluorescent intensity along with the increased level of PEA concentration. 100 ng/ml PEA presented the best capability of induction, and showed significant difference compared with other concentrations of PEA starting from 12 hours(Figure 6).</p>
                 <img 
-                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig6.webp"
                 alt="eng6"
                 className="responsive-img"
               />
@@ -221,7 +221,7 @@ export function Engineering() {
               <h3>Learn</h3>
               <p>The unsuccessful attempts to express TPH1 and negative results of PEA degradation made us focus on metabolizing ammonia by expressing the GS enzyme (see details in the <a href='https://2024.igem.wiki/smu-gdmu-china/description'>Design section of our Description Page</a>). Fortunately, we successfully validate the feasibility of GS as our metabolic module and assembled it with sensing module (see details in our Result Page) . The final engineered design is shown in Figure 8.</p>
               <img 
-                src="https://static.igem.wiki/teams/5378/result/result-fig4-1.webp"
+                src="https://static.igem.wiki/teams/5378/engineering-sucess/engineering-fig8.webp"
                 alt="eng8"
                 className="responsive-img"
               />
