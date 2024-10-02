@@ -181,13 +181,6 @@ export function Engineering() {
               />
                <figcaption className='caption'>Figure 6. Fluorescence Intensity with different concentrations of PEA cocultured in engineered EcN</figcaption>
                 <p>Therefore, the design of sensing module, which detects the rising level of HE risk factor PEA and induces the expression of gene downstream, is feasible. The opmized concentration of PEA can be set at 100 ng/ml. </p>
-                
-               <img 
-                src="https://static.igem.wiki/teams/5378/testengineering/engineering05.webp"
-                alt="example"
-                className="responsive-img"
-              />
-              
               </Element>
           
 
