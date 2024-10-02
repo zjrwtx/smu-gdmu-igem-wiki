@@ -1623,7 +1623,7 @@ export function Model() {
 
                         <div>
                             <img src='https://static.igem.wiki/teams/5378/model/model-flow-pic.png' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
-                            <p><figcaption className='caption' >Protein-Ligand Complex - Molecular Dynamics Simulation with GROMACS</figcaption></p>
+                            <p><figcaption className='caption' >Figure 1 Protein-Ligand Complex - Molecular Dynamics Simulation with GROMACS</figcaption></p>
                         </div>
 
                         <p>The protein molecules used in this section were obtained from the RCSB PDB database and the AlphaFold Protein Structure Database, while the small molecule ligands were retrieved from the PubChem database. The version of GROMACS employed was GROMACS 2024.1, and AutoDockTools version 1.5.7 was utilized.</p>
@@ -1631,19 +1631,19 @@ export function Model() {
                         <p>In the reaction involving the TynA enzyme and phenethylamine, molecular dynamics provides a deeper understanding of the intermediate details of the reaction process. After obtaining the relevant molecular PDB files from databases, preprocessing was conducted to prepare the topology files and select the appropriate force field. Specifically, Sobtop was used for generating the small molecule topologies, and the Amber99sb-ildn force field was selected. Subsequently, a simulation box was constructed, and solvent was added (water was used to simplify the model). After charge equilibration, an energy minimization procedure was performed, resulting in the figure below:</p>
 
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model8.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
-                            <p><figcaption className='caption' >FIG. 2 Schematic diagram of energy minimization curve</figcaption></p>
+                            <img src='https://static.igem.wiki/teams/5378/model/model-8.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 2 Schematic diagram of energy minimization curve</figcaption></p>
                         </div>
                         <p>It can be observed that the energy continuously decreases and eventually stabilizes over time, indicating that this step was performed correctly and is feasible.</p>
                         <p>After completing the NVT/NPT equilibration, the final production simulation was conducted. Subsequently, we performed Root Mean Square Deviation (RMSD) analyses for both the protein and the ligand molecules. By examining the trends in RMSD values, we can determine whether the system has achieved equilibrium.</p>
 
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model9.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <img src='https://static.igem.wiki/teams/5378/model/model-9.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 3 RMSD analysis of ligands</figcaption></p>
                         </div>
                         <p>As illustrated in the figure, the curve initially rises and then gradually levels off over time. Although there are slight fluctuations, it remains essentially stable around 0.56 nm. This indicates that the movement of the small molecule ligand relative to the protein becomes progressively stable.</p>
                         <div>
-                            <img src='https://static.igem.wiki/teams/5378/model/model10.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <img src='https://static.igem.wiki/teams/5378/model/model-10.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 4 RMSD analysis of proteins</figcaption></p>
                         </div>
                         <p>As shown in the figure, the curve initially increases and then gradually levels off over time, ultimately stabilizing around 0.25 nm. This indicates that the protein conformation becomes progressively stable. It is noteworthy that, when analyzing RMSD, longer simulation times may be necessary, where feasible, to enhance the reliability and accuracy of the results.</p>
@@ -1665,7 +1665,7 @@ export function Model() {
                         </div>
                         <div>
                             <img src='https://static.igem.wiki/teams/5378/model/model14.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
-                            <p><figcaption className='caption' >FIG. 8 Schematic diagram of energy minimization curve</figcaption></p>
+                            <p><figcaption className='caption' >Figure. 8 Schematic diagram of energy minimization curve</figcaption></p>
                         </div>
                         <p>Similarly, as time progresses, the energy continuously decreases and eventually stabilizes. After performing NVT/NPT equilibration and the subsequent dynamics simulations, the trends in RMSD values can be analyzed to determine whether the system has achieved equilibrium.</p>
                         <div>
@@ -1682,9 +1682,37 @@ export function Model() {
                             <img src='https://static.igem.wiki/teams/5378/model/model17.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 11 TynA-PEA interconnection structure</figcaption></p>
                         </div>
-
-
-
+                        <h3>3.3 Molecular simulation of FeaR-Phenylacetaldehyde and GS-GA</h3>
+                        <h4>3.3.1 FeaR-Phenylacetaldehyde</h4>
+                        <p>Regarding the docking scenarios and binding sites, we also performed simulations using AutoDock Vina. For the FeaR enzyme and benzaldehyde, the docking results obtained with AutoDock Vina and AutoDockTools are presented below:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model18.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 12 Simulation of FeaR-Phenylacetaldehyde docking</figcaption></p>
+                        </div>
+                        <p>We simulated the potential interactions that may occur when the two molecules bind during the reaction process and obtained the following results:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model19.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 13 Interactions between moleculesg</figcaption></p>
+                        </div>
+                        <p>From the simulation schematic, it is evident that the binding energy of the docking interaction is –4.6 kcal/mol. Additionally, lysine residues within the protein form hydrogen bonds with the ligand, indicating that the docking complex is relatively stable.</p>
+                        <h4>3.3.2 GS-GA</h4>
+                        <p>For the GS enzyme and glutamate, the docking results obtained using AutoDock Vina and AutoDockTools are presented below:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model20.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 14 GS-GA docking simulation diagram</figcaption></p>
+                        </div>
+                        <p>We simulated the potential interaction forces that may arise when the two molecules bind during the reaction process and obtained:</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model21.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 15 Interactions between molecules</figcaption></p>
+                        </div>
+                        <p>From the simulation schematic, it is evident that the binding energy of the docking interaction is –4.6 kcal/mol. Glutamine, glutamate, and histidine residues within the protein form hydrogen bonds with the ligand, indicating that the docking complex is stable and that the docking simulation results are reliable.</p>
+                        <p>In addition to the aforementioned sections, we appropriately utilized the AlphaFold Server to assist in molecular design. For example, the design of the CsgA-TFF3 construct is illustrated in the figure below.</p>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model22.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 16 AlphaFold Server simulates CsgA-TFF3 combination</figcaption></p>
+                        </div>
+                       <p style={{marginTop:'50px' }} > In conclusion, the efficiency and stability of a system are critical considerations in the project design approach. By employing molecular docking and molecular dynamics simulations, we obtained more detailed information on protein–ligand binding, enhancing the efficiency of our molecule screening process and providing valuable insights for the development of other model components.</p>
                     </Element>
 
                 </div>
