@@ -92,7 +92,7 @@ export function Description() {
                <p className='indent'>In our research efforts, we turned our attention to hepatic encephalopathy (HE), also known as hepatic coma, which is broadly defined as cerebral dysfunction caused by hepatic insufficiency[1]. HE mainly develops from cirrhosis, caused by viral hepatitis, ethanol, non-alcoholic fatty liver diseases (NAFLD), and other disorders. Cirrhosis is a major cause of morbidity and mortality globally, and accounts for approximately 2 million deaths per year worldwide (Figure 1) [2-3]. Along with disease progression, up to 50-70% of liver cirrhosis patients develop HE, which leads to frequent re-hospitalization and increased mortality[4]. The clinical manifestations of HE are characterised by changes in the patient's personality, behavioural abnormalities, changes in habits, presence of hepatic odour, fluttering tremor, blurred consciousness, visual disturbances and even coma. Once cirrhosis patients develop HE, it would not only jeopardize patients' physical and mental health and reduce life quality, but also generate considerable medical costs, which aggravates the economic burden of both patients and society. </p>
                 <div className='image-container'>
                   <img
-                src=""
+                src="https://static.igem.wiki/teams/5378/description2/burden.webp"
                 alt="example"
                 className="image-wide"
               />
@@ -108,7 +108,7 @@ export function Description() {
                  <p className='indent'>The pathogenesis of hepatic encephalopathy is not fully understood and possible hypotheses are as follows (Figure 2):</p>
                  <div className='image-container'>
                   <img
-                src=""
+                src="https://static.igem.wiki/teams/5378/description2/mechan.webp"
                 alt="example"
                 className="image-wide"
               />
@@ -131,7 +131,7 @@ export function Description() {
                   <p>Table 1. Limitation of current HE therapy</p>
                   <div className='image-container'>
                   <img
-                src=""
+                src="https://static.igem.wiki/teams/5378/description2/tabel1.webp"
                 alt="example"
                 className="image-wide"
               />
@@ -148,7 +148,7 @@ export function Description() {
                   
                   <div className='image-container'>
                   <img
-                src=""
+                src="https://static.igem.wiki/teams/5378/description2/fig3.webp"
                 alt="example"
                 className="image-wide"
               />
@@ -164,7 +164,7 @@ export function Description() {
               <p className='indent'>In humans and other mammals, ammonia is majorly digested by the Urea Cycle in the liver. However, as it is shown before, the liver functions are destroyed in HE patients, so the urea cycle is hard to use. So we move our sight to plants. Through literature reading, we found plants can utilize ammonium and metabolize via the glutamine synthetase-glutamate synthase (GS-GOGAT) pathway. This process wouldn't produce any harmful substance to the human body, so we tried to heterologously express GS as our metabolic module to reduce the level of ammonia.</p>
               <div className='image-container'>
                   <img
-                src=""
+                src="https://static.igem.wiki/teams/5378/description2/fig5.webp"
                 alt="example"
                 className="image-wide"
               />
@@ -176,7 +176,7 @@ export function Description() {
               <p className='indent'>TFF (Trefoil Factor Family proteins) are small 7-12 kDa proteins secreted by mucus-secreting cells on the surface of the gastrointestinal tract and other mucous membranes that primarily promote epithelial recovery[15]. In order to make therapeutic crimped fibres, we planned to attach TFF3 (Trefoil Factor 3) to the naturally secreted crimped fibres of E. coli to reduce the adhesion of TFF3 to the intestinal mucus layer. The gene fragment responsible for the expression of curly fibres was first attached to the PBbB8k plasmid, then a 6xHis-tagged linker was introduced to connect the curly fibres to TFF3, and finally the TFF3 gene fragment was added. This structure allows EcN to secrete and self-assemble the coiled fibres, linker and TFF3 upon arrival in the gut, forming an active domain layer on the gut surface. This will maximise the ability of TFF3 to repair the intestinal barrier and reduce inflammation, effectively preventing and treating abdominal infections in patients with liver disease, addressing dysbiosis, especially repairing common intestinal problems, and improving the safety and efficacy of the engineered bacterium while alleviating the complications of hepatic encephalopathy.</p>
               <div className='image-container'>
                   <img
-                src=""
+                src="https://static.igem.wiki/teams/5378/description2/fig6.webp"
                 alt="example"
                 className="image-wide"
               />
