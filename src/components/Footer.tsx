@@ -6,7 +6,7 @@ export function Footer() {
   const teamSlug = stringToSlug(teamName);
 
   return (
-    <footer className="pt-0 pb-1 py-5 mt--8 text-white">
+    <footer className="pt-0 pb-1 py-5 text-white">
         {/* <div className="wave-container bg-rice_yellow">
           <div className="wave1"></div>
           <div className="wave2"></div>
@@ -26,9 +26,6 @@ export function Footer() {
                       </div>
                       <div className="slide-small fade2">
                         <img className="fade-img" src="https://static.igem.wiki/teams/5378/school-badge/smu.webp" alt="Image 2" />
-                      </div>
-                      <div className="slide-big fade3">
-                        <img className="fade-img" src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp" alt="Image 3" />
                       </div>
               </div>
               
