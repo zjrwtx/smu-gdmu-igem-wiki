@@ -217,6 +217,9 @@ export function Description() {
               <p>EcN is able to remain in the normal gut and the beneficial effects are long lasting.</p>
               <p className="bold-font">4.Convenient:</p>
               <p>Our modified EcN was encapsulated in a material that is resistant to stomach acid but not intestinal fluids to create an edible capsule that can be used as a convenient drug to improve hepatic encephalopathy.</p>
+              <p>See more future plans at the end of the 
+              (see details of our design in <a href='https://2024.igem.wiki/smu-gdmu-china/engineering'><span className='bold-font'>Result page</span></a> )
+              </p>
               </div>
               </Element>
 
