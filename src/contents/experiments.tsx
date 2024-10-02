@@ -686,17 +686,28 @@ Ultraviolet Spec-Tropometer<br />
             onMouseEnter={() => handleMouseEnter('section13')}
             style={{ display: visibleSection === 'section13' ? 'block' : 'none' }}
           >
-            <h2>example</h2>
+            <h2>Eliza for the verification of TFF3 products</h2>
             <p>Content for section .</p>
             <div className="rounded-border">
-              <h4 className="center-text">example</h4>
+              <h4 className="center-text">Eliza for the verification of TFF3 products</h4>
               <p className="indent">(1)	Material<br />
-
+Anti-TFF3 primary antibody (1:50 50, Sigma, WH0007033M1)<br />
+TBST buffer<br />
+Goat anti-mouse HRP-conjugated secondary antibody (1:50000, Thermo Fisher, 31430)<br />
+Ultra-TMB (3,3', 5,5' tetramethylbenzidine) ELISA substrate<br />
+2 M sulfuric acid<br />
+96-well cell culture plate<br />
 </p>
               <p className="indent">(2)	Steps<br />
-
+1.Incubate the sample with 50μL anti-TFF3 primary antibody for 2 hours at 25℃.<br />
+2.Wash the sample three times with TBST buffer.<br />
+3.Incubate with 100μL goat anti-mouse HRP-conjugated secondary antibody for 1 hour at 25℃, also followed by three times washes.<br />
+4.Each well will be added 100μL Ultra-TMB ELISA substrate and incubated for 10 minutes at 25℃.<br />
+5.Add 50μL 2 M sulfuric acid to halt the reaction.<br />
+6.Transfer the final cultures to the 96-well cell culture plate and measure the absorbance at 450 and 650nm.<br />
 </p>
               <p className="indent">(3)	Note:<br />
+The amount of TFF3 products will be gained by subtracting the absorbance at 650 nm from the absorbance at 450 nm.
 </p>
             </div>
           </Element>
