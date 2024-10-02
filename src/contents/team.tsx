@@ -213,7 +213,7 @@ export function Team() {
         <div className="col-3">
           {/* 下方设置默认显示图像 */}
           <StickyImageContainer 
-          image={hoveredCardId ? images[hoveredCardId] : 'https://placehold.co/600x800'} 
+          image={hoveredCardId ? images[hoveredCardId] : 'https://static.igem.wiki/teams/5378/teammemberfixed/team.webp'} 
           words={hoveredCardId ? words[hoveredCardId] : "Glad to introduce our team to you!"} 
           names={hoveredCardId ? names[hoveredCardId] : "Our crew"}
           />

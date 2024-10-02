@@ -248,9 +248,14 @@ export function Home() {
             className={`home-img-wide page-element-18p3 ${activeLink === 'element-18p3' ? 'img-right-in-active' : 'img-right-in'}`}
           />
           <img
-            src="https://static.igem.wiki/teams/5378/home/smallgut.webp"
+            src="https://static.igem.wiki/teams/5378/home/4th/block.webp"
             alt="example"
             className={`home-img-wide page-element-18p ${activeLink === 'element-18p3' ? 'img-fade-in-active' : 'img-fade-in'}`}
+          />
+          <img
+            src="https://static.igem.wiki/teams/5378/home/4th/smallgut.webp"
+            alt="example"
+            className={`home-img-wide page-element-18pp2 ${activeLink === 'element-18p3' ? 'img-fade-in-active' : 'img-fade-in'}`}
           />
           <img
             src="https://static.igem.wiki/teams/5378/home/3rd/inpill.webp"
