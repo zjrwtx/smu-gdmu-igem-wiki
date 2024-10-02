@@ -398,7 +398,7 @@ export function HumanPractices() {
     </p>
     <div className='image-container'>
               <img 
-                src="https://static.igem.wiki/teams/5378/ihp/1.webp"
+                src="https://static.igem.wiki/teams/5378/hp-ihp-stakeholder/.webp"
                 alt="example"
                 className="image-wide"
                 />
