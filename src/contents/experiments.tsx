@@ -177,8 +177,8 @@ Double Distillation Water (ddH2O)<br />
 Ampicillin<br />
 Kanamycin<br />
 Chloramphenicol<br />
-
-(2)	Steps<br />
+</p>
+              <p className="indent">(2)	Steps<br />
 LB liquid medium<br />
 1.	Weigh 12.5g of LB Broth Powder.<br />
 2.	Add the powder into 500ml UP Water.<br />
@@ -216,9 +216,7 @@ LB selective medium (Chloramphenicol)<br />
 4.	Weigh 500mg of Chloramphenicol.<br />
 5.	Add the ampicillin into anhydrous ethanol and volume to 10mL. Shake the mixture fully.<br />
 6.	Filter the mixture through a filter to remove microorganism.<br />
-7.	When the LB medium cool down to nearly 50°C, add 300μL antibiotic mixture into it in the ultraclean worktable, then pour it into culture dishes.
-</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+7.	When the LB medium cool down to nearly 50°C, add 300μL antibiotic mixture into it in the ultraclean worktable, then pour it into culture dishes..</p>
             </div>
           </Element>
        
