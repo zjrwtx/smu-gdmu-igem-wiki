@@ -455,12 +455,37 @@ Add RNase A to solution P1 before using. After adding solution P2, do not shake 
             onMouseEnter={() => handleMouseEnter('section8')}
             style={{ display: visibleSection === 'section8' ? 'block' : 'none' }}
           >
-            <h2>Section 2</h2>
+            <h2>Transformation</h2>
             <p>Content for section 2.</p>
             <div className="rounded-border">
-              <h4 className="center-text">Section 2</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Transformation</h4>
+              <p className="indent">(1)	Material<br />
+Nissle E. coli suspension (OD600: 0.6-0.8)<br />
+10% glycerol<br />
+Eppendorf Tube (EP tube)<br />
+Centrifuge<br />
+Double Distillation Water (ddH2O)<br />
+Gibco LB medium (GYT Medium)<br />
+Luria-Bertani liquid medium (LB Medium)<br />
+Electroporation System<br />
+</p>
+              <p className="indent">(2)	Steps<br />
+	1.Divide the Nissle E. coli suspension into two 50ml centrifuge tubes and cool with ice for 15 minutes.<br />
+	2.Freeze the ultrapure water, 10% glycerol and EP tube in advance.<br />
+	3.Centrifuge the suspension at 3000 rpm for 10 minutes and discard the supernatant.<br />
+	4.Resuspend with ultrapure water and centrifuge at 4000 rpm for 10 minutes and discard the supernatant after each suspension.<br />
+	5.Resuspend with 10% glycerol. <br />
+	6.Add 50μL GYT to each 50ml centrifuge tube and transfer to a cooled EP tube. Freeze on ice for 10 minutes.<br />
+	7.Centrifuge the suspension at 5000 rpm for 5 minutes and discard the supernatant. Resuspend with 5μL ddH2O.<br />
+	8.Repeat the previous step.<br />
+	9.Centrifuge the suspension at 5000 rpm for 5 minutes and discard the supernatant. Resuspend with 200μL ddH2O。<br />
+	10.Add 50μL suspension and 3μL plasmid to the electroporator for electron transformation.<br />
+	11.Electrotransform with 1.8kV, 5.8ms. Resuspend with 900μL and place the EP tuber in a shaker at 37℃, 250rpm for 2 hours.<br />
+	12.Spread the plate and place in the incubator.<br />
+</p>
+              <p className="indent">(3)	Note:<br />
+Flip upside down from time to time to make sure the sample is cooled evenly. During the centrifuge session, invert the supernatant on the clean filter paper quickly is to remove the culture medium as much as possible. If the electroporation cup is used, it should be soaked in 75% alcohol for 2 hours in advance and dried in the clean bench. The LB Medium is better preheated to 37℃.
+</p>
             </div>
           </Element>
 
