@@ -297,12 +297,37 @@ Water Bath<br />
             onMouseEnter={() => handleMouseEnter('section4')}
             style={{ display: visibleSection === 'section4' ? 'block' : 'none' }}
           >
-            <h2>Section 2</h2>
+            <h2>Infusion</h2>
             <p>Content for section 2.</p>
             <div className="rounded-border">
-              <h4 className="center-text">Section 2</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Infusion</h4>
+              <p className="indent">(1)Material
+5 × CE MultiS Buffer
+Exnase MultiS
+Double Distillation Water (ddH2O)
+Primer</p>
+              <p className="indent">(2)Steps<br />
+1.Calculate the amount of DNA required for the recombination reaction according to the formula.<br />
+2.Prepare the following reaction system on ice:<br />
+a. X/Y calculates the amount of vector and the amount of each insert according to the formula.<br />
+b. Negative control-1 can be used to confirm whether there is a circular plasmid residue in the linearized cloning vector, and it is recommended.<br />
+c. Negative control-2 is recommended when the insert amplification template is a circular plasmid with the same resistance as the cloning vector.<br />
+It is recommended that the circular plasmid residue detection of the linearized vector and insert be performed independently.<br />
+d. Positive control reactions can be used to exclude the influence of other experimental materials and operating factors.<br />
+3.Use a pipette to gently mix (do not shake to mix), and centrifuge briefly to collect the reaction solution to the bottom of the tube.<br />
+4.React at 37°C for 30 min; drop to 4°C or cool on ice immediately.<br />
+Note:<br />
+1.In order to ensure the accuracy of sample addition, the linearized vector and insert can be properly diluted before preparing the recombinant system, and the sample amount of each component is not less than 1 μl.<br />
+2.Calculation of vector and fragment usage:<br />
+Optimum usage per segment=(0.02×Fragment base pairs) ng (0.03 pmol)<br />
+For example, when the inserts with lengths of 0.5 kb, 1 kb, and 2 kb are cloned into a cloning vector with a length of 5 kb, the optimal amount of the vector and each fragment to be used is: Optimum use amount of linearized cloning vector: 0.02 × 5000 = 100 ng;<br />
+Optimum usage of 0.5 kb insert: 0.02 × 500 = 10 ng;<br />
+Optimum usage of 1 kb insert: 0.02 × 1000 = 20 ng;<br />
+Optimum use of 2 kb insert: 0.02 × 2000 = 40 ng.<br />
+a. The amount of linearized cloning vector should be between 50 - 200 ng. When using the above formula to calculate the optimal amount of DNA to be used beyond this range, simply select the minimum/maximum amount of use.<br />
+b. The amount of each insert should be greater than 10 ng. When using the above formula to calculate the optimum usage amount is lower than this value, just use 10 ng directly.<br />
+c. When the linearized cloning vector and the amplified product of the insert fragment are used directly without DNA purification, the total volume added should not exceed 1/5 of the volume of the reaction system, that is, 4 μl.<br />
+</p>
             </div>
           </Element>
 
