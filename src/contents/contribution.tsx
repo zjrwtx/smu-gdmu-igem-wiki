@@ -105,12 +105,14 @@ export function Contribution() {
             
   
                 <Element name="section3" className="element rounded-border" id='section3'>
-                <h2>Section 3</h2>
-                <p>Content for section 3.</p>
+                <h2>Product</h2>
+                <p className="indent">Regarding the final method of use, we chose to prepare microbial capsules for patients to take.</p>
+                <p className="indent">Microbial microcapsules not only protect our modified E. coli from harmful environment, but also control release.</p>
+                <p>The ideal process is as follows:</p>
                 <div className="rounded-border">
                 <h4 className="center-text">Section 3</h4>
-                <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-                <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+                <p className="indent">Air-dried microencapsulated substances can be used to encapsulate genetically engineered bacteria modified to express ammonia, enhancing the stability and application performance of drugs, extending the storage time to over 7 years.</p>
+                <p className="indent">Here is a detailed explanation of our future research and development product, air-dried microencapsulated substances:</p>
                 </div>
                 </Element>
 
