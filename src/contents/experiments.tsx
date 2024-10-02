@@ -352,11 +352,12 @@ Water Bath<br />
             <p></p>
             <div className="rounded-border">
               <h4 className="center-text">Infusion</h4>
-              <p className="indent">(1) Material
-5 × CE MultiS Buffer
-Exnase MultiS
-Double Distillation Water (ddH2O)
-Primer</p>
+              <p className="indent">(1) Material<br />
+5 × CE MultiS Buffer<br />
+Exnase MultiS<br />
+Double Distillation Water (ddH2O)<br />
+Primer<br />
+</p>
               <p className="indent">(2) Steps<br />
 1.Calculate the amount of DNA required for the recombination reaction according to the formula.<br />
 2.Prepare the following reaction system on ice:<br />
