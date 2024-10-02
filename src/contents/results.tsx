@@ -16,6 +16,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink }) => {
         <Nav.Link as={Link} to="section4" smooth={true} duration={500} className={activeLink === 'section4' ? 'active' : 'notActive'}>Safety Module Validation</Nav.Link>
         <Nav.Link as={Link} to="section5" smooth={true} duration={500} className={activeLink === 'section5' ? 'active' : 'notActive'}>Model Results</Nav.Link>
         <Nav.Link as={Link} to="section6" smooth={true} duration={500} className={activeLink === 'section6' ? 'active' : 'notActive'}>Future Plans</Nav.Link>
+        <Nav.Link as={Link} to="section7" smooth={true} duration={500} className={activeLink === 'section7' ? 'active' : 'notActive'}>Reference</Nav.Link>
         
         {/* 添加更多导航链接 */}
       </Nav>
@@ -191,7 +192,12 @@ export function Results() {
 
               </Element>
 
-              
+              <Element name="section7" className="element rounded-border" id='section7'>
+              <h2>reference</h2>
+              <p>[1]Konieczna I, Zarnowiec P, Kwinkowski M, Kolesinska B, Fraczyk J, Kaminski Z, Kaca W. Bacterial urease and its role in long-lasting human diseases. Curr Protein Pept Sci. 2012 Dec;13(8):789-806. <br />
+              [2] Rose CF, Amodio P, Bajaj JS, Dhiman RK, Montagnese S, Taylor-Robinson SD, Vilstrup H, Jalan R. Hepatic encephalopathy: Novel insights into classification, pathophysiology and therapy. J Hepatol. 2020 Dec;73(6):1526-1547. 
+              </p>
+              </Element>
         </div>
 
 
