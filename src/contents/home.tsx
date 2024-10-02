@@ -406,7 +406,6 @@ export function Home() {
           />
       </Element>
       <div className="page-container-10">
-        <h1 className="pangolin page-element-pv-title">Our Promotion Video</h1>
       <iframe 
             title="SMU-GDMU-CHINA: Engineered bacterial therapeutics for Preventing Hepatic Encepha... (2024) - Project Promotion [English]" 
             src="https://video.igem.org/videos/embed/b8667885-e1be-48b2-ab9b-d1aac71db0da"   
