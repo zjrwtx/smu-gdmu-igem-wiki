@@ -230,12 +230,26 @@ LB selective medium (Chloramphenicol)<br />
             onMouseEnter={() => handleMouseEnter('section2')}
             style={{ display: visibleSection === 'section2' ? 'block' : 'none' }}
           >
-            <h2>LB medium preparation</h2>
+            <h2>Double Enzyme DNA Digestion& Agarose Gel Electrophoresis</h2>
             <p>Content for section 2.</p>
             <div className="rounded-border">
-              <h4 className="center-text">LB medium preparation</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Double Enzyme DNA Digestion& Agarose Gel Electrophoresis</h4>
+              <p className="indent">（1）Material<br />
+Plasmid DNA<br />
+10× FastDigest or 10× FastDigest Green Buffer<br />
+Double Distillation Water (ddH2O)<br />
+FastDigest enzyme<br />
+Alkaline phosphatase<br />
+</p>
+              <p className="indent">1.	Add 1μg plasmid DNA, 1μl FastDigest enzyme, 2μl 10× FastDigest or 10× FastDigest<br />
+2.	Green Buffer and ddH2O to 20μl into an PCR tube.<br />
+3.	Put the tube into the oven at 37℃ for 1h to 1.5h.<br />
+4.	Add 1μl Alkaline phosphatase.<br />
+5.	Put the tube into the oven at 37℃ for 0.5h.<br />
+6.	Stop the reaction by placing the tube at -4°C for 5 to 10 minutes.<br />
+7.	Agarose Gel Electrophoresis.<br />
+8.	Store the tube into the refrigerator at -20℃.<br />
+</p>
             </div>
           </Element>
 
