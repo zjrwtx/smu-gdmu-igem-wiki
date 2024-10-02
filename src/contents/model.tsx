@@ -223,7 +223,7 @@ export function Model() {
                     <Element name="section1" className="element" id='section1'>
                         <h2 className="center-text mt-5">1. ODE Model of Biochemical Reactions</h2>
                         <img src='https://static.igem.wiki/teams/5378/model/model-page.webp' className='responsive-img' style={{ maxWidth: '60%', margin: '0 auto', paddingRight: '20%' }} />
-                        <figcaption className='caption' style={{ paddingRight: '20%' }} >Placeholders</figcaption>
+                       {/* <figcaption className='caption' style={{ paddingRight: '20%' }} >Placeholders</figcaption>*/}
 
                         <h3>1.1 Oxidation of Phenylethylamine</h3>
 
@@ -1456,6 +1456,21 @@ export function Model() {
                         <figcaption className='caption' style={{ paddingRight: '20%' }} >Figure 4 Concentration of phenylethylamine and Ammonia, 0-24h</figcaption>
                         <p>Phenylethylamine (PEA) and ammonia are two key pathogenic metabolites in hepatic encephalopathy, and their accumulation may worsen the patient's condition, significantly affecting prognosis. Therefore, we conducted further analysis of these metabolites. Simulation results show that when the initial concentration of PEA is 8.25 × 10^-4 mmol/L (100 ng/μL), after 10 hours, the PEA concentration decreases to 1.34 × 10^-4 mmol/L (16.24 ng/μL), and by the 24th hour, it decreases to approximately 1 × 10^-5 mmol/L. At this point, however, ammonia concentration rises to 7.76 × 10^-4 mmol/L, which aligns with our experimental results, confirming the model's validity and demonstrating the efficiency of our strategy in degrading PEA.</p>
                         <p>However, the increase in ammonia is concerning. Given that PEA intake occurs with daily meals, ammonia levels in the human gut would remain elevated, which could negatively impact the prognosis of hepatic encephalopathy. Further model analysis revealed that the primary factors influencing ammonia metabolism are the plasmid concentration carrying the GS gene and the enzyme activity of GS. Thus, future strain development should focus on increasing the plasmid copy number of GS within the bacteria and enhancing GS enzyme activity through protein engineering. Additionally, prior to strain-based therapy, patients' ammonia metabolism should be assessed, and during treatment, close monitoring is required. If early signs of ammonia toxicity appear, the engineered bacteria treatment should be immediately discontinued, and appropriate medical intervention should be administered.</p>
+
+                        <h4>Simulation of the Safety Module</h4>
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model-23.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 5: Growth curve of EcN under anaerobic conditions with IPTG present.</figcaption></p>
+                        </div>
+
+                        <p>For the safety module, we first simulated the growth of EcN in an anaerobic environment with IPTG. The results showed that the growth curve of EcN followed the characteristics of a logistic curve, indicating that the growth of the strain slowed over time and reached saturation after approximately 3000 hours (125 days). This suggests that our strain can grow normally in the anaerobic environment of the gut while the patient regularly consumes IPTG.</p>
+
+                        <div>
+                            <img src='https://static.igem.wiki/teams/5378/model/model-24.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
+                            <p><figcaption className='caption' >Figure 6: Growth curve of EcN under aerobic conditions and/or in the absence of IPTG.</figcaption></p>
+                        </div>
+                        <p>Subsequently, we simulated the growth of EcN in the absence of IPTG, in aerobic conditions, and in the absence of IPTG in aerobic conditions. The results indicated that the strain's growth was suppressed in all scenarios, ultimately leading to its extinction, with the absence of IPTG having a more significant impact on growth. This implies that if EcN exits the gut into the external environment, or if the patient ends the treatment and stops taking IPTG, the EcN population will decline within a few days, effectively preventing environmental contamination and potential adverse effects on the human body.</p>
+                        <p>In summary, our system of ordinary differential equations (ODEs) successfully simulated the temporal changes in various metabolites during the therapeutic function of the strain, as well as the gradual extinction of the strain when treatment ends or when it exits the body. This provides valuable insights for disease treatment, minimizing side effects, and preventing biological contamination.</p>
                     </Element>
                     <Element name="section2" className="element" id='section2'>
                         <h2>PART2 Metabolic Engineering Strategy to Reduce Ammonia Production</h2>
@@ -1712,7 +1727,7 @@ export function Model() {
                             <img src='https://static.igem.wiki/teams/5378/model/model22.webp' className='responsive-img' style={{ maxWidth: '70%', margin: '0 auto', display: 'block', paddingRight: '20%' }} />
                             <p><figcaption className='caption' >Figure 16 AlphaFold Server simulates CsgA-TFF3 combination</figcaption></p>
                         </div>
-                       <p style={{marginTop:'50px' }} > In conclusion, the efficiency and stability of a system are critical considerations in the project design approach. By employing molecular docking and molecular dynamics simulations, we obtained more detailed information on protein–ligand binding, enhancing the efficiency of our molecule screening process and providing valuable insights for the development of other model components.</p>
+                        <p style={{ marginTop: '50px' }} > In conclusion, the efficiency and stability of a system are critical considerations in the project design approach. By employing molecular docking and molecular dynamics simulations, we obtained more detailed information on protein–ligand binding, enhancing the efficiency of our molecule screening process and providing valuable insights for the development of other model components.</p>
                     </Element>
 
                 </div>
