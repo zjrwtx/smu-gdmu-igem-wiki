@@ -70,7 +70,7 @@ export function Education() { // sidenavbar begin
           
               
               <Element name="section1" className="element rounded-border" id='section1'>
-                 <h1>1.overview</h1>
+                 <h1>Overview</h1>
                  <p className="indent">This year, our team has devoted a great deal of effort to the field of education, as we are convinced that the development and popularisation of synthetic biology cannot be achieved without the broad participation and support of the public, which is at the heart of science education.</p>
                  <p className="indent">To this end, we have elaborated a series of promotional materials, taken the initiative to reach out to patient groups, carried out science popularisation activities in schools, and worked to expand our regional influence while actively speaking out on the international stage. At the local level, in particular, we are working hard to reach out to a wider range of people, with a view to creating a far-reaching social impact.</p>
                  <p className="indent">At the same time, we have established a systematic educational mechanism that aims to transform high school students from passive recipients of knowledge to active practitioners at the university level, thus forming a sustainable educational loop.</p>
@@ -323,13 +323,13 @@ export function Education() { // sidenavbar begin
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>Figure 16 Our Educational Perimeter1</figcaption>
+                  <figcaption className='caption'>Figure 16 Our Educational Perimeter 1</figcaption>
                 <img 
                   src="https://static.igem.wiki/teams/5378/9be818cffa6a960902ea3bacf9f6d7f.webp"
                   alt="example"
                   className="image-wide"
                   />
-                  <figcaption className='caption'>Figure 17 Our Educational Perimeter2</figcaption>
+                  <figcaption className='caption'>Figure 17 Our Educational Perimeter 2</figcaption>
                 </div>
                 
                 <p className="indent"></p>

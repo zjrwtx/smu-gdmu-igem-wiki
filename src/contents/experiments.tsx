@@ -19,7 +19,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section1' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section1')}
         >
-          Section 1
+          LB medium preparation
         </Nav.Link>
         <Nav.Link 
           as={Link} 
@@ -29,7 +29,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section2' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section2')}
         >
-          Section 2
+          Double Enzyme DNA Digestion& Agarose Gel Electrophoresis
         </Nav.Link>
         {/* 添加更多导航链接 */}
 
@@ -42,7 +42,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section3' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section3')}
         >
-          Section 3
+          Agarose Gel Electrophoresis
         </Nav.Link>
   
         <Nav.Link 
@@ -53,7 +53,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section4' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section4')}
         >
-          Section 4
+          Infusion
         </Nav.Link>
 
         <Nav.Link 
@@ -64,7 +64,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section5' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section5')}
         >
-          Section 5
+          Colony PCR
         </Nav.Link>
   
         <Nav.Link 
@@ -75,7 +75,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section6' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section6')}
         >
-          Section 6
+          Plasmid conservation
         </Nav.Link>
    
         <Nav.Link 
@@ -86,7 +86,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section7' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section7')}
         >
-          Section 7
+          Plasmid Extraction
         </Nav.Link>
  
         <Nav.Link 
@@ -97,7 +97,7 @@ const SideNavbar: React.FC<SideNavbarProps> = ({ activeLink, onLinkClick }) => {
           className={activeLink === 'section8' ? 'active' : 'notActive'}
           onClick={() => onLinkClick('section8')}
         >
-          Section 8
+          Transformation
         </Nav.Link>
       </Nav>
     </div>
@@ -159,16 +159,16 @@ export function Experiments() {
         
         <div className="col-10">
         <Element 
-            name="section1" 
+            name="section 1" 
             className="element rounded-border" 
-            id='section1' 
+            id='section 1' 
             onMouseEnter={() => handleMouseEnter('section1')}
             style={{ display: visibleSection === 'section1' ? 'block' : 'none' }}
           >
-            <h2>Section 2</h2>
+            <h2>LB medium preparation</h2>
             <p>Content for section 2.</p>
             <div className="rounded-border">
-              <h4 className="center-text">Section 2</h4>
+              <h4 className="center-text">LB medium preparation</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
             </div>
@@ -182,10 +182,10 @@ export function Experiments() {
             onMouseEnter={() => handleMouseEnter('section2')}
             style={{ display: visibleSection === 'section2' ? 'block' : 'none' }}
           >
-            <h2>Section 2</h2>
+            <h2>LB medium preparation</h2>
             <p>Content for section 2.</p>
             <div className="rounded-border">
-              <h4 className="center-text">Section 2</h4>
+              <h4 className="center-text">LB medium preparation</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
             </div>
