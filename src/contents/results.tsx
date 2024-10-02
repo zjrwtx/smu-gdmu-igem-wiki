@@ -132,8 +132,8 @@ export function Results() {
               <h2>Safety Module Validation</h2>
               <p>In order to confirm that curli fibers decorated with TFFs could be produced by EcN, as they can in laboratory strains of E. coli, we transformed EcN with the panel of synthetic curli plasmid constructs (Fig.3-a), in addition to a vector in place of the curli genes as a negative control. The transformed cells were cultured at 37 °C and induced with L-(+)-arabinose.</p>
               <p>The secretion of TFF3 can be detected by Mouse trefoil factor 3(TFF3) enzyme-linked immunosorbent Assay kit. Results show that the engineered EcN was strongly induced by L-(+)-arabinose with twice as much TFF3 is produced comparing to no induction (Fig3-b).</p>
-              <p>The secretion of TFF3-fused curli was proved successful (Fig.3-c), however, In some cases, basal expression of the csgA genes was observed without induction.</p>
-              <p>A quantitative Congo Red-binding (CR) assay, normally used for curli fiber detection, indicated that CsgA-TFF3 fusions could be expressed and assembled into curli fibers under these conditions, while EcN control vector showed no CR binding(Fig3-d).</p>
+              <p>The position of the bands in SDS-PAGE is generally consistent with the molecular weight of TFF3 (Fig.3-c), Therefore, it is initially believed that TFF3 was successfully expressed. However, In some cases, basal expression of the csgA genes was observed without induction.</p>
+              <p>A quantitative Congo Red-binding (CR) assay, normally used for curli fiber detection, indicated that CsgA-TFF3 fusions could be expressed and assembled into curli fibers under these conditions, while EcN control vector showed no CR binding(Fig.3-d).</p>
               <img 
                 src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
                 alt="example"
