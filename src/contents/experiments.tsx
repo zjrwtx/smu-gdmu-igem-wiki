@@ -316,7 +316,8 @@ It is recommended that the circular plasmid residue detection of the linearized 
 d. Positive control reactions can be used to exclude the influence of other experimental materials and operating factors.<br />
 3.Use a pipette to gently mix (do not shake to mix), and centrifuge briefly to collect the reaction solution to the bottom of the tube.<br />
 4.React at 37°C for 30 min; drop to 4°C or cool on ice immediately.<br />
-Note:<br />
+</p>
+              <p className="indent">(3)Note:<br />
 1.In order to ensure the accuracy of sample addition, the linearized vector and insert can be properly diluted before preparing the recombinant system, and the sample amount of each component is not less than 1 μl.<br />
 2.Calculation of vector and fragment usage:<br />
 Optimum usage per segment=(0.02×Fragment base pairs) ng (0.03 pmol)<br />
@@ -340,12 +341,44 @@ c. When the linearized cloning vector and the amplified product of the insert fr
             onMouseEnter={() => handleMouseEnter('section5')}
             style={{ display: visibleSection === 'section5' ? 'block' : 'none' }}
           >
-            <h2>Section 2</h2>
+            <h2>Colony PCR</h2>
             <p>Content for section 2.</p>
             <div className="rounded-border">
-              <h4 className="center-text">Section 2</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Colony PCR</h4>
+              <p className="indent">(1)Material<br />
+Green Taq Mix<br />
+Primer<br />
+Double Distillation Water (ddH2O)<br />
+Eight tube centrifuge<br />
+EP Tube<br />
+Tweezers<br />
+plastic wrap<br />
+Shaker<br />
+PCR Eight-Tube<br />
+DNA Marker<br />
+</p>
+              <p className="indent">(2)Steps<br />
+(Take 5 tubes of eight tube centrifuge for example)<br />
+1) Pick bacteria<br />
+1.Add 1mL Amp LB to 1.5mL EP Tube.<br />
+2. Use a small tip with tweezers to pick out a single clone and put them into the EP Tube.<br />
+3.Put the EP tube on the Rank and wrap it with plastic wrap.<br />
+4.Insert it into the shaker obliquely, shake for 2h.<br />
+<br />
+2) Colony PCR（after shaking for 2h）(take eight tubes for instance)<br />
+1.Adding 6.6μl Primer Mix(5μl), 41.3μl 2 x Green Taq, 29.1μl of ddH2O to the first tube of eight-tube, then draw 9ul from the first tube to the next 4 tubes.<br />
+2.Centrifuge the eight-tube in a centrifuge for several seconds.<br />
+3.Take the eight-tube into Clean bench.<br />
+4.Add 1μl Bacteria Liquid.<br />
+5.Set the protocol as follow: begin at 95℃ for 3 mins, then keep 95℃ for 15 secs for denaturation, decrease to 55℃ for 15 secs, 72℃ for 1 min and repeat that cycle 30 times, 72℃ for 1 min, finally maintain 4℃ infinity.<br />
+6.Adding all the samples to the hole. Run the gel at 120V for about 25 minutes.<br />
+Check the result under the Blue Light Gel Imager.<br />
+8. Select the right System for Shaking bacteria and Plasmid Extraction.<br />
+</p>
+<p className="indent">(3)Note:<br />
+1. The lid of the PCR Eight-tube is placed in the ultra-clean workbench to make sure we add Bacteria Liquid at the ultra-clean workbench.<br />
+2.As we use Green Taq Mix, we don’t need to add Loading when Agarose Gel Electrophoresis.<br />
+</p>
             </div>
           </Element>
 
