@@ -82,8 +82,7 @@ The next page details the security measures and considerations our team has take
                 <h3>2.1Chassis Safety</h3>
                 <p className="indent">Our project design took safety into account and ultimately chose E. coli Nissle 1917 as our chassis, which was included in the white list and classified as Biosafety Level 1 (BSL-1).</p>
                 <p className="indent">Escherichia coli Nissle 1917 is an oral probiotic commonly used to treat various gastrointestinal diseases, including diarrhea, ulcerative colitis, etc.</p>
-                <h3>2.2Parts Safety</h3>
-                <h3>2.3Safety Module</h3>
+                <h3>2.2Safety Module</h3>
                 <p className="indent">From both environmental and human health protection perspectives, the design of the safety module aims to detect environmental variations inside and outside the human body, such as temperature and oxygen concentration, to induce bacterial death. This ensures that the bacteria do not cause environmental pollution after being expelled.</p>
                 <p className="indent">Conversely, there is a risk of excessive proliferation of the engineered E. coli within the human body, necessitating the development of controllable switches to regulate bacterial growth and death effectively. </p>
                 <p className="indent">Additionally, we recognize that abdominal infections are a significant cause of recurrent hepatic encephalopathy and can lead to death. In response, we aim to develop an engineered bacterium capable of resisting inflammation and repairing the intestinal barrier. </p>
