@@ -165,7 +165,7 @@ export function Results() {
               <h3>Step1 Optimize the safety module by validating the self-killing switch</h3>
               <div className='image-container'>
               <img 
-                src="https://static.igem.wiki/teams/5378/school-badge/yanyintech.webp"
+                src="https://static.igem.wiki/teams/5378/we1.webp"
                 alt="example"
                 className="image-wide"
               />
@@ -176,9 +176,9 @@ export function Results() {
               <p className='indent'>Key gene kfiC, responsible for the expression of surface polysaccharide capsules in ECN, was knocked out. Subsequently, kfiC was cloned under the control of the lac promoter, which is responsive to IPTG induction. After oral administration of IPTG, ECN can produce CAP. Experimental results indicate that increasing the IPTG concentration can enhance bacterial survival by at least 10^5 times. In the absence of an inducer in vivo, the loss of CAP allows for effective clearance of bacteria while minimizing long-term immune responses. By editing the CAP expression system of ECN, we can precisely control the immunogenicity and survival of bacteria in vivo, thereby increasing dosage and in situ transport to maximize therapeutic efficacy and safety.</p>
               <h3>Switch 2: Oxygen Concentration Switch</h3>
               <p className='indent'>We utilized a synthetic nirB promoter that does not respond to chemical inducers (such as nitrites or nitrates) and is only activated under anaerobic conditions.</p>
-              <p className='indent'>Transport Scenario: In a vacuum environment (e.g., yogurt/capsules), the survival of ECN is ensured.</p>
+              <p className='indent'>Transport Scenario: In a vacuum environment (e.g., yogurt/capsules), the survival of <span className='bold-font'>ECN</span> is ensured.</p>
               <p className='indent'>In Vivo Scenario: The low oxygen content in the intestinal lumen reaches conditions suitable for anaerobic promoter expression, while the oral administration of IPTG induces the expression of CAP, allowing for normal bacterial survival.</p>
-              <p className='indent'>Excretion Scenario: In an aerobic environment outside the body, ECN cannot express CAP and subsequently dies.</p>
+              <p className='indent'>Excretion Scenario: In an aerobic environment outside the body, <span className='bold-font'>ECN</span> cannot express CAP and subsequently dies.</p>
               <p className='indent'>However, due to the bumpy road of exploring sensing and metabolic modules, we failed to spare more time to conduct relevant experiments to validate our designs in the iGEM season this year. We will construct plasmids to confirm our designs and select an optimized one to ensure safety in our engineered EcN.</p>
               
               <h2>Step2 Determine and validate a proper way to deliver the engineered EcN</h2>
