@@ -239,7 +239,8 @@ Double Distillation Water (ddH2O)<br />
 FastDigest enzyme<br />
 Alkaline phosphatase<br />
 </p>
-              <p className="indent">1.	Add 1μg plasmid DNA, 1μl FastDigest enzyme, 2μl 10× FastDigest or 10× FastDigest<br />
+              <p className="indent">（2）Steps<br />	
+1.Add 1μg plasmid DNA, 1μl FastDigest enzyme, 2μl 10× FastDigest or 10× FastDigest<br />
 2.	Green Buffer and ddH2O to 20μl into an PCR tube.<br />
 3.	Put the tube into the oven at 37℃ for 1h to 1.5h.<br />
 4.	Add 1μl Alkaline phosphatase.<br />
