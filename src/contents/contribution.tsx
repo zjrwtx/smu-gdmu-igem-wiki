@@ -182,8 +182,10 @@ export function Contribution() {
   
                 <Element name="section3" className="element rounded-border" id='section3'>
                 <h2>Product</h2>
-                <p className="indent">Regarding the final method of use, we chose to prepare microbial capsules for patients to take.</p>
-                <p className="indent">Microbial microcapsules not only protect our modified E. coli from harmful environment, but also control release.</p>
+                <p className="indent">Our improved probiotics not only respond to the concentration changes of phenylethylamine by degrading NH3 through the glutamine metabolic pathway, but also have distinct advantages in the safety module, capable of secreting protective proteins to prevent intestinal mucosal damage. </p>
+                <p className="indent">They have high medicinal value, and therefore we have formulated them into medicinal capsules, allowing the probiotics to enter the intestines through oral administration and exert their therapeutic effects.</p>
+                <p className="indent">In addition, our safety module is designed in a novel manner to control the survival or death of engineered bacteria by exogenous administration, both to avoid overpopulation and to kill the engineered bacteria quickly when it is not wanted, in a controllable, human-initiated manner. Its combination with a temperature-controlled suicide system allows the engineered bacteria to die immediately after being expelled from the body without polluting the environment. </p>
+                <p className="indent">Thus, we have provided the iGEM community with new parts along with new ideas for safe genetic routes.</p>
                 <p>The ideal process is as follows:</p>
                 <div className="rounded-border">
                 <h4 className="center-text">Section 3</h4>
