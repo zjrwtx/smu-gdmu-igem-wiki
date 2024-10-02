@@ -275,7 +275,17 @@ Centrifuge<br />
 Shaker<br />
 Water Bath<br />
 </p>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <p className="indent">（2）Step (take 30ml gel for instance)<br />
+1.Weigh 0.3g agarose powder and 30μl 1%TAE buffer, then add to a flask;<br />
+2.Heat up until the solution is completely dissolved. If it boils, move away from the heat until it cools down and put it back on the heat until it absolutely dissolved.<br />
+3.While heating, prepare the bed where the gel polymerizes. Make sure that it is well balanced and tight, and that the comb is well placed.<br />
+4.When the solution cools down to approximately 55 ℃ , add 1µl EB to the homogeneous solution and mix well.<br />
+5.Pour the solution into the bed and clear all the bubbles in it with a tip.<br />
+6.When the gel solidification solidifies, carefully pull out the “comb”;<br />
+7.Place the gel in the electrophoresis chamber, then add enough TAE buffer till there is about 2-3 mm of buffer over the gel.<br />
+8.Mix the samples with loading buffer in a 10:1 ratio, then put the samples into the wells, as well as marker into the first well.<br />
+9.Run the gel at 120V for about 30 minutes, then check the result under the Blue Light Gel Imager.<br />
+</p>
             </div>
           </Element>
 
