@@ -88,7 +88,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure1. Understanding Hepatic Encephalopathy (HE)</figcaption>
                 </div>
     <p className='indent'>
       Our objective is to gather <span className='bold-font'>diverse perspectives</span>, from the general public to patients, ensuring we consider all possible viewpoints that may shape the trajectory of our project.
@@ -164,7 +164,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure2. Ethical Discussion on Projects with Professor Yang Xiaolin</figcaption>
                 </div>
     <p className='indent'>
       The team participated in the <span className='bold-font'>the 8th Southern China Regional Meeting </span>, sharing project progress and experiences with institutions like <span className='bold-font'>Shenzhen University</span> and the <span className='bold-font'>Southern University of Science and Technology</span>.
@@ -175,7 +175,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure3. Shenzhen University Symposium</figcaption>
                 </div>
     <p className='indent'>
       We were invited to the <span className='bold-font'>Conference of China iGEMer Community (CCiC) </span>, engaging in in-depth discussions with other teams to optimize and improve our project, enhancing <span className='bold-font'>collaboration abilities</span> and promoting mutual project development.
@@ -190,7 +190,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure4. Project Exchange with other University Teams</figcaption>
                 </div>
     <p className='indent'>
       We consulted with <span className='bold-font'>Dr. Liu</span>, a synthetic biology expert from the <span className='bold-font'>South China University of Technology</span>, to discuss the experimental content of our project, exchanging knowledge and experiences related to <span className='bold-font'>hepatic encephalopathy</span>.
@@ -201,7 +201,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure5. The team's commemorative photo at CCIC</figcaption>
                 </div>
     <p className='indent'>
       Team members participated in the <span className='bold-font'>National Synthetic Biology Innovation Competition</span> at <span className='bold-font'>Shenzhen Guangming Tian'an Cloud Valley</span>, where they engaged in deep discussions and collaboration with iGEM teams from across the country, exchanging innovative ideas on a shared platform.
@@ -234,7 +234,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure6. The 8th Southern China Regional Meeting</figcaption>
                 </div>
       </div>
     
@@ -252,7 +252,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure7. Analysis of Survey Results</figcaption>
                 </div>
     
     <div className='row'>
@@ -288,7 +288,7 @@ export function HumanPractices() {
                 alt="example"
                 className="responsive-img"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure8. Questionnaire-based Study on Public Knowledge of Hepatic Encephalopathy</figcaption>
                 </div>
     </div>
     
@@ -317,7 +317,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure9. Five Major Stakeholders</figcaption>
                 </div>
             </div>
 
@@ -393,7 +393,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure10. Photos of Experts Communicating with the Team</figcaption>
                 </div>
                 <div className='image-container'>
               <img 
@@ -401,7 +401,7 @@ export function HumanPractices() {
                 alt="example"
                 className="image-wide"
                 />
-                <figcaption className='caption'>SMU-GDMU iGEM Team</figcaption>
+                <figcaption className='caption'>Figure11. Photos of Experts Communicating with the Team</figcaption>
                 </div>
   </div>
   
