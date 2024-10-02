@@ -197,7 +197,7 @@ export function Inclusivity() {
                 </div>
               <div className="rounded-border">
               <h4 className="center-text">(1) Achieving Interdisciplinary Integration:</h4>
-              <p className="indent">By forming research teams in foundational medical sciences, clinical medicine, and other fields, we aim to promote interdisciplinary integration, reflecting the interdisciplinary spirit of iGEM. For example, SMU and GMU can jointly conduct a research project on genetic disease gene therapy, combining SMU's expertise in genetics with GMU's experience in clinical applications to form complementary research strengths.</p>
+              <p className="indent">By forming research teams in foundational medical sciences, clinical medicine, and other fields, we aim to promote interdisciplinary integration, reflecting the interdisciplinary spirit of iGEM. For example, SMU and GDMU can jointly conduct a research project on genetic disease gene therapy, combining SMU's expertise in genetics with GDMU's experience in clinical applications to form complementary research strengths.</p>
               </div>
               
                 <div className="rounded-border">
@@ -213,7 +213,7 @@ export function Inclusivity() {
               <div className="rounded-border">
               <h4 className="center-text">（4）Achieving Equal Access to Educational Resources:</h4>
               <p className="indent">The support team promotes the opening of course resources and online education platforms, benefiting more students from both universities, reflecting iGEM's principle of equitable access to educational resources. Additionally, student exchange programs are established, and regular academic symposiums are held to promote interaction and cooperation among students, eliminating barriers caused by unequal distribution of educational resources.</p>
-              <p className="indent">Through this support process, both institutions ultimately benefit and achieve a win-win situation. SMU is not only supporting GMU but also achieving its own growth and progress. For example, by jointly undertaking national-level research projects, both research teams can showcase their achievements on high-level platforms, enhancing research capabilities and innovation. Simultaneously, shared resources and best practices elevate the overall quality of education. Moreover, this support initiative helps both institutions build a broader academic and professional network, increasing opportunities for future collaborations.</p>
+              <p className="indent">Through this support process, both institutions ultimately benefit and achieve a win-win situation. SMU is not only supporting GDMU but also achieving its own growth and progress. For example, by jointly undertaking national-level research projects, both research teams can showcase their achievements on high-level platforms, enhancing research capabilities and innovation. Simultaneously, shared resources and best practices elevate the overall quality of education. Moreover, this support initiative helps both institutions build a broader academic and professional network, increasing opportunities for future collaborations.</p>
               </div>
               
                </Element>
