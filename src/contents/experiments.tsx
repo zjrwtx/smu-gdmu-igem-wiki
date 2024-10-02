@@ -178,18 +178,19 @@ Ampicillin<br />
 Kanamycin<br />
 Chloramphenicol<br />
 </p>
+<br />
               <p className="indent">(2)	Steps<br />
 LB liquid medium<br />
 1.	Weigh 12.5g of LB Broth Powder.<br />
 2.	Add the powder into 500ml UP Water.<br />
 3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.<br />
-
+<br />
 LB solid medium<br />
 1.	Weigh 12g of LB Broth Agar Powder.<br />
 2.	Add the powder into 300ml UP Water.<br />
 3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.<br />
 4.	Pour the medium into culture dishes in the ultraclean worktable.<br />
-
+<br />
 LB selective medium (Ampicillin)<br />
 1.	Weigh 12g of LB Broth Agar Powder.<br />
 2.	Add the powder into 300ml UP Water.<br />
@@ -199,7 +200,7 @@ LB selective medium (Ampicillin)<br />
 6.	Filter the mixture through a filter to remove microorganism.
 7.	Add 500μL of mixture into an EP tube with 500μL ddH2O. The ddH2O is sterilized previously.
 8.	When the LB medium cool down to nearly 50°C, add 300μL antibiotic mixture into it in the ultraclean worktable, then pour it into culture dishes.
-
+<br />
 LB selective medium (Kanamycin)
 1.	Weigh 12g of LB Broth Agar Powder.
 2.	Add the powder into 300ml UP Water.
@@ -208,7 +209,7 @@ LB selective medium (Kanamycin)
 5.	Add the kanamycin into ddH2O and volume to 10mL. The ddH2O is sterilized previously. Shake the mixture fully.<br />
 6.	Filter the mixture through a filter to remove microorganism.<br />
 7.	When the LB medium cool down to nearly 50°C, add 300μL antibiotic mixture into it in the ultraclean worktable, then pour it into culture dishes.<br />
-
+<br />
 LB selective medium (Chloramphenicol)<br />
 1.	Weigh 12g of LB Broth Agar Powder.<br />
 2.	Add the powder into 300ml UP Water.<br />
@@ -262,11 +263,18 @@ Alkaline phosphatase<br />
             onMouseEnter={() => handleMouseEnter('section3')}
             style={{ display: visibleSection === 'section3' ? 'block' : 'none' }}
           >
-            <h2>Section 2</h2>
+            <h2>Agarose Gel Electrophoresis</h2>
             <p>Content for section 2.</p>
             <div className="rounded-border">
-              <h4 className="center-text">Section 2</h4>
-              <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
+              <h4 className="center-text">Agarose Gel Electrophoresis</h4>
+              <p className="indent">(1)Material<br />
+TIANGEN Universal DNA Purification Kit<br />
+Gel with DNA sample<br />
+Double Distillation Water (ddH2O)<br />
+Centrifuge<br />
+Shaker<br />
+Water Bath<br />
+</p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
             </div>
           </Element>
