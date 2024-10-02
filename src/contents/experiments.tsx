@@ -169,32 +169,32 @@ export function Experiments() {
             <p>Content for section 2.</p>
             <div className="rounded-border">
               <h4 className="center-text">LB medium preparation</h4>
-              <p className="indent">(1)	Material
-LB Broth Agar Powder, Miller
-LB Broth Powder, Miller
-Ultrapure (UP) Water
-Double Distillation Water (ddH2O)
-Ampicillin
-Kanamycin
-Chloramphenicol
+              <p className="indent">(1)	Material<br />
+LB Broth Agar Powder, Miller<br />
+LB Broth Powder, Miller<br />
+Ultrapure (UP) Water<br />
+Double Distillation Water (ddH2O)<br />
+Ampicillin<br />
+Kanamycin<br />
+Chloramphenicol<br />
 
-(2)	Steps
-LB liquid medium
-1.	Weigh 12.5g of LB Broth Powder.
-2.	Add the powder into 500ml UP Water.
-3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.
+(2)	Steps<br />
+LB liquid medium<br />
+1.	Weigh 12.5g of LB Broth Powder.<br />
+2.	Add the powder into 500ml UP Water.<br />
+3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.<br />
 
-LB solid medium
-1.	Weigh 12g of LB Broth Agar Powder.
-2.	Add the powder into 300ml UP Water.
-3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.
-4.	Pour the medium into culture dishes in the ultraclean worktable.
+LB solid medium<br />
+1.	Weigh 12g of LB Broth Agar Powder.<br />
+2.	Add the powder into 300ml UP Water.<br />
+3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.<br />
+4.	Pour the medium into culture dishes in the ultraclean worktable.<br />
 
-LB selective medium (Ampicillin)
-1.	Weigh 12g of LB Broth Agar Powder.
-2.	Add the powder into 300ml UP Water.
-3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.
-4.	Weigh 1g of Ampicillin.
+LB selective medium (Ampicillin)<br />
+1.	Weigh 12g of LB Broth Agar Powder.<br />
+2.	Add the powder into 300ml UP Water.<br />
+3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.<br />
+4.	Weigh 1g of Ampicillin.<br />
 5.	Add the ampicillin into ddH2O and volume to 10mL. The ddH2O is sterilized previously. Shake the mixture fully.
 6.	Filter the mixture through a filter to remove microorganism.
 7.	Add 500μL of mixture into an EP tube with 500μL ddH2O. The ddH2O is sterilized previously.
@@ -205,17 +205,17 @@ LB selective medium (Kanamycin)
 2.	Add the powder into 300ml UP Water.
 3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.
 4.	Weigh 100mg of Kanamycin.
-5.	Add the kanamycin into ddH2O and volume to 10mL. The ddH2O is sterilized previously. Shake the mixture fully.
-6.	Filter the mixture through a filter to remove microorganism.
-7.	When the LB medium cool down to nearly 50°C, add 300μL antibiotic mixture into it in the ultraclean worktable, then pour it into culture dishes.
+5.	Add the kanamycin into ddH2O and volume to 10mL. The ddH2O is sterilized previously. Shake the mixture fully.<br />
+6.	Filter the mixture through a filter to remove microorganism.<br />
+7.	When the LB medium cool down to nearly 50°C, add 300μL antibiotic mixture into it in the ultraclean worktable, then pour it into culture dishes.<br />
 
-LB selective medium (Chloramphenicol)
-1.	Weigh 12g of LB Broth Agar Powder.
-2.	Add the powder into 300ml UP Water.
-3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.
-4.	Weigh 500mg of Chloramphenicol.
-5.	Add the ampicillin into anhydrous ethanol and volume to 10mL. Shake the mixture fully.
-6.	Filter the mixture through a filter to remove microorganism.
+LB selective medium (Chloramphenicol)<br />
+1.	Weigh 12g of LB Broth Agar Powder.<br />
+2.	Add the powder into 300ml UP Water.<br />
+3.	Autoclave entire bottle of LB medium under 121°C for 20 minutes.<br />
+4.	Weigh 500mg of Chloramphenicol.<br />
+5.	Add the ampicillin into anhydrous ethanol and volume to 10mL. Shake the mixture fully.<br />
+6.	Filter the mixture through a filter to remove microorganism.<br />
 7.	When the LB medium cool down to nearly 50°C, add 300μL antibiotic mixture into it in the ultraclean worktable, then pour it into culture dishes.
 </p>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
