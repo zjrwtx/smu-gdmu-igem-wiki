@@ -216,7 +216,7 @@ export function Engineering() {
                 className="responsive-img"
               />
                <figcaption className='caption'></figcaption>
-               
+
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
@@ -226,16 +226,16 @@ export function Engineering() {
 
               <Element name="section4" className="element rounded-border" id='section4'>
               <h2>Reference</h2>
-              <p>[1]ZHOU Yi-kang,WU Yi-nan,WANG Tian-min, ZHENG Xiang,XING Xin-hui,ZHANG Chong.Metabolite Biosensor：A Useful Synthetic Biology Tool to  Assist the Construction of Microbial Cell Factory[J]. Biotechnology  Bulletin, 2017, 33(1): 1-11.
-[2]Xun, Z., Yao, X. & Ou, Q. Emerging roles of bile acids in chronic hepatitis, liver cirrhosis, and hepatocellular carcinoma. Cell Mol Immunol 20, 1087–1089 (2023).
-[3]Liu N, Feng J, Lv Y, Liu Q, Deng J, Xia Y, Guo C, Zhou Y. Role of bile acids in the diagnosis and progression of liver cirrhosis: A prospective observational study. Exp Ther Med. 2019 Nov;18(5):4058-4066.
-[4]Martínez-Fernández JA, Bravo D, Peirotén Á, Arqués JL, Landete JM. Bile-induced promoters for gene expression in Lactobacillus strains. Appl Microbiol Biotechnol. 2019 May;103(9):3819-3827.
-[5]Wang, B., Kitney, R., Joly, N. et al. Engineering modular and orthogonal genetic logic gates for robust digital-like synthetic biology. Nat Commun 2, 508 (2011). 
-[6]Rottinghaus AG, Xi C, Amrofell MB, Yi H, Moon TS. Engineering ligand-specific biosensors for aromaticamino acids and neurochemicals. Cell Syst. 2022 Mar 16;13(3):204-214.e4.
-[7]Nardelli S, Gioia S, Faccioli J, Riggio O, Ridola L. Hepatic encephalopathy - recent advances in treatment and diagnosis. Expert Rev Gastroenterol Hepatol. 2023 Mar;17(3):225-235.
-[8]Abarca Monge, Sergio. “Cambio climático y plagas en el trópico.” Alcances Tecnológicos (2018): n. pag. doi:10.35486/at.v12i1.40.g27
-[9]Xue C, Li G, Zheng Q, Gu X, Shi Q, Su Y, Chu Q, Yuan X, Bao Z, Lu J, Li L. Tryptophan metabolism in health and disease. Cell Metab. 2023 Aug 8;35(8):1304-1326. doi: 10.1016/j.cmet.2023.06.004. Epub 2023 Jun 22. PMID: 37352864.
-[10]Zeng J, Spiro S. Finely tuned regulation of the aromatic amine degradation pathway in Escherichia coli. J Bacteriol. 2013 Nov;195(22):5141-50. doi: 10.1128/JB.00837-13. </p>
+              <p>[1]ZHOU Yi-kang,WU Yi-nan,WANG Tian-min, ZHENG Xiang,XING Xin-hui,ZHANG Chong.Metabolite Biosensor：A Useful Synthetic Biology Tool to  Assist the Construction of Microbial Cell Factory[J]. Biotechnology  Bulletin, 2017, 33(1): 1-11.</p>
+              <p>[2]Xun, Z., Yao, X. & Ou, Q. Emerging roles of bile acids in chronic hepatitis, liver cirrhosis, and hepatocellular carcinoma. Cell Mol Immunol 20, 1087–1089 (2023).</p>
+              <p>[3]Liu N, Feng J, Lv Y, Liu Q, Deng J, Xia Y, Guo C, Zhou Y. Role of bile acids in the diagnosis and progression of liver cirrhosis: A prospective observational study. Exp Ther Med. 2019 Nov;18(5):4058-4066.</p>
+              <p>[4]Martínez-Fernández JA, Bravo D, Peirotén Á, Arqués JL, Landete JM. Bile-induced promoters for gene expression in Lactobacillus strains. Appl Microbiol Biotechnol. 2019 May;103(9):3819-3827.</p>
+              <p>[5]Wang, B., Kitney, R., Joly, N. et al. Engineering modular and orthogonal genetic logic gates for robust digital-like synthetic biology. Nat Commun 2, 508 (2011). </p>
+              <p>[6]Rottinghaus AG, Xi C, Amrofell MB, Yi H, Moon TS. Engineering ligand-specific biosensors for aromaticamino acids and neurochemicals. Cell Syst. 2022 Mar 16;13(3):204-214.e4.</p>
+              <p>[7]Nardelli S, Gioia S, Faccioli J, Riggio O, Ridola L. Hepatic encephalopathy - recent advances in treatment and diagnosis. Expert Rev Gastroenterol Hepatol. 2023 Mar;17(3):225-235.</p>
+              <p>[8]Abarca Monge, Sergio. “Cambio climático y plagas en el trópico.” Alcances Tecnológicos (2018): n. pag. doi:10.35486/at.v12i1.40.g27</p>
+              <p>[9]Xue C, Li G, Zheng Q, Gu X, Shi Q, Su Y, Chu Q, Yuan X, Bao Z, Lu J, Li L. Tryptophan metabolism in health and disease. Cell Metab. 2023 Aug 8;35(8):1304-1326.</p>
+              <p>[10]Zeng J, Spiro S. Finely tuned regulation of the aromatic amine degradation pathway in Escherichia coli. J Bacteriol. 2013 Nov;195(22):5141-50. </p>
               <div className="rounded-border">
               <h4 className="center-text">我是大帅B</h4>
               <p className="indent">las ijffs aiskfd fskj iiwls asd.aass ffas awssd awus iisal fask.aisisad ksjdfkaf iwjasifjakdshf wijdfalksjf wiksjkfjksalhf, gsahfjhgejkfh  uhaejkfh sjdihgfuqiw jh sjiafhjsaj fh asd.</p>
