@@ -81,6 +81,14 @@ export function Engineering() {
                  <p>Through multiple design-build-test-learn cycles, we have successfully engineered the PEA-sensing module, which could automatically respond to the increased level of a risk factor, PEA, of HE and initiate downstream expression of the metabolic module. Simultaneously, we have been working on constructing an efficient module that can degrade the pathogenic factor of HE. </p>
                  <p>During actual operation, we started the first cycle after fully literation research, making the first attempt with theoretical support. Normally problems would arise which urge us to trouble-shoot with experts and dig further into literature to enter the next iteration of engineering cycle. After several iterations, we were able to achieve the original goal in most scenarios and get a comprehensive understanding of our contributions.</p>
                  <p>In this section on engineering success, we will go through the engineering cycles we went through to develop the PEA-sensing and ammonia-metabolizing EcN. (Figure 1).</p>
+                 
+                 <img 
+                src="https://static.igem.wiki/teams/5378/testengineering/engineering01.webp"
+                alt="example"
+                className="responsive-img"
+              />
+               
+               
                </Element>
           
                <div className="bd-callout bd-callout-info bg-gray">
