@@ -1,4 +1,10 @@
 # Team SMU-GDMU-CHINA 2024 Wiki
+![image](https://github.com/user-attachments/assets/c685ce16-43b1-4cb3-a647-7de19a3f3a03)
+![image](https://github.com/user-attachments/assets/1879a03b-d6e5-41e6-be4e-860c75c59c87)
+
+![image](https://github.com/user-attachments/assets/88f8cdbf-9f7f-4aa3-90b7-7e5da2a43302)
+![image](https://github.com/user-attachments/assets/813e5afe-1063-46f0-acf4-b2bddfd1eded)
+
 
 This repository uses `TypeScript` and `React` to manage the wikis.
 
